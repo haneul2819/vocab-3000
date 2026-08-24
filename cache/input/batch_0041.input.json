@@ -1,14 +1,6 @@
 [
  {
   "id": 2001,
-  "word": "poor",
-  "level": "초등",
-  "derived": [],
-  "max_example_words": 6,
-  "fn_example": ""
- },
- {
-  "id": 2002,
   "word": "pop",
   "level": "중고공통",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": ""
  },
  {
-  "id": 2003,
+  "id": 2002,
   "word": "popular",
   "level": "중고공통",
   "derived": [],
@@ -24,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 2004,
+  "id": 2003,
   "word": "populate",
   "level": "선택",
   "derived": [
@@ -34,7 +26,7 @@
   "fn_example": ""
  },
  {
-  "id": 2005,
+  "id": 2004,
   "word": "pork",
   "level": "중고공통",
   "derived": [],
@@ -42,7 +34,7 @@
   "fn_example": ""
  },
  {
-  "id": 2006,
+  "id": 2005,
   "word": "port",
   "level": "중고공통",
   "derived": [],
@@ -50,7 +42,7 @@
   "fn_example": ""
  },
  {
-  "id": 2007,
+  "id": 2006,
   "word": "portion",
   "level": "선택",
   "derived": [],
@@ -58,7 +50,7 @@
   "fn_example": ""
  },
  {
-  "id": 2008,
+  "id": 2007,
   "word": "portrait",
   "level": "선택",
   "derived": [],
@@ -66,7 +58,7 @@
   "fn_example": ""
  },
  {
-  "id": 2009,
+  "id": 2008,
   "word": "pose",
   "level": "선택",
   "derived": [
@@ -76,7 +68,7 @@
   "fn_example": ""
  },
  {
-  "id": 2010,
+  "id": 2009,
   "word": "posit",
   "level": "선택",
   "derived": [
@@ -86,7 +78,7 @@
   "fn_example": ""
  },
  {
-  "id": 2011,
+  "id": 2010,
   "word": "possess",
   "level": "중고공통",
   "derived": [],
@@ -94,7 +86,7 @@
   "fn_example": ""
  },
  {
-  "id": 2012,
+  "id": 2011,
   "word": "possible",
   "level": "중고공통",
   "derived": [],
@@ -102,7 +94,7 @@
   "fn_example": ""
  },
  {
-  "id": 2013,
+  "id": 2012,
   "word": "post",
   "level": "중고공통",
   "derived": [
@@ -112,7 +104,7 @@
   "fn_example": ""
  },
  {
-  "id": 2014,
+  "id": 2013,
   "word": "pot",
   "level": "중고공통",
   "derived": [],
@@ -120,7 +112,7 @@
   "fn_example": ""
  },
  {
-  "id": 2015,
+  "id": 2014,
   "word": "potato",
   "level": "초등",
   "derived": [],
@@ -128,7 +120,7 @@
   "fn_example": ""
  },
  {
-  "id": 2016,
+  "id": 2015,
   "word": "potential",
   "level": "중고공통",
   "derived": [],
@@ -136,7 +128,7 @@
   "fn_example": ""
  },
  {
-  "id": 2017,
+  "id": 2016,
   "word": "pour",
   "level": "중고공통",
   "derived": [],
@@ -144,7 +136,7 @@
   "fn_example": ""
  },
  {
-  "id": 2018,
+  "id": 2017,
   "word": "powder",
   "level": "중고공통",
   "derived": [],
@@ -152,7 +144,7 @@
   "fn_example": ""
  },
  {
-  "id": 2019,
+  "id": 2018,
   "word": "power",
   "level": "초등",
   "derived": [],
@@ -160,7 +152,7 @@
   "fn_example": ""
  },
  {
-  "id": 2020,
+  "id": 2019,
   "word": "practical",
   "level": "중고공통",
   "derived": [],
@@ -168,7 +160,7 @@
   "fn_example": ""
  },
  {
-  "id": 2021,
+  "id": 2020,
   "word": "practice",
   "level": "중고공통",
   "derived": [],
@@ -176,7 +168,7 @@
   "fn_example": ""
  },
  {
-  "id": 2022,
+  "id": 2021,
   "word": "praise",
   "level": "선택",
   "derived": [],
@@ -184,7 +176,7 @@
   "fn_example": ""
  },
  {
-  "id": 2023,
+  "id": 2022,
   "word": "pray",
   "level": "중고공통",
   "derived": [],
@@ -192,7 +184,7 @@
   "fn_example": ""
  },
  {
-  "id": 2024,
+  "id": 2023,
   "word": "preach",
   "level": "선택",
   "derived": [],
@@ -200,7 +192,7 @@
   "fn_example": ""
  },
  {
-  "id": 2025,
+  "id": 2024,
   "word": "precede",
   "level": "선택",
   "derived": [
@@ -210,7 +202,7 @@
   "fn_example": ""
  },
  {
-  "id": 2026,
+  "id": 2025,
   "word": "precise",
   "level": "선택",
   "derived": [],
@@ -218,7 +210,7 @@
   "fn_example": ""
  },
  {
-  "id": 2027,
+  "id": 2026,
   "word": "predator",
   "level": "선택",
   "derived": [],
@@ -226,7 +218,7 @@
   "fn_example": ""
  },
  {
-  "id": 2028,
+  "id": 2027,
   "word": "predict",
   "level": "선택",
   "derived": [],
@@ -234,7 +226,7 @@
   "fn_example": ""
  },
  {
-  "id": 2029,
+  "id": 2028,
   "word": "prefer",
   "level": "중고공통",
   "derived": [],
@@ -242,7 +234,7 @@
   "fn_example": "Which do you prefer?"
  },
  {
-  "id": 2030,
+  "id": 2029,
   "word": "pregnant",
   "level": "중고공통",
   "derived": [],
@@ -250,7 +242,7 @@
   "fn_example": ""
  },
  {
-  "id": 2031,
+  "id": 2030,
   "word": "prejudice",
   "level": "선택",
   "derived": [],
@@ -258,7 +250,7 @@
   "fn_example": ""
  },
  {
-  "id": 2032,
+  "id": 2031,
   "word": "premium",
   "level": "선택",
   "derived": [],
@@ -266,7 +258,7 @@
   "fn_example": ""
  },
  {
-  "id": 2033,
+  "id": 2032,
   "word": "prepare",
   "level": "중고공통",
   "derived": [],
@@ -274,7 +266,7 @@
   "fn_example": ""
  },
  {
-  "id": 2034,
+  "id": 2033,
   "word": "prescribe",
   "level": "선택",
   "derived": [],
@@ -282,7 +274,7 @@
   "fn_example": ""
  },
  {
-  "id": 2035,
+  "id": 2034,
   "word": "presence",
   "level": "중고공통",
   "derived": [],
@@ -290,7 +282,7 @@
   "fn_example": ""
  },
  {
-  "id": 2036,
+  "id": 2035,
   "word": "present",
   "level": "초등",
   "derived": [],
@@ -298,7 +290,7 @@
   "fn_example": ""
  },
  {
-  "id": 2037,
+  "id": 2036,
   "word": "preserve",
   "level": "선택",
   "derived": [],
@@ -306,7 +298,7 @@
   "fn_example": ""
  },
  {
-  "id": 2038,
+  "id": 2037,
   "word": "preside",
   "level": "선택",
   "derived": [
@@ -316,7 +308,7 @@
   "fn_example": ""
  },
  {
-  "id": 2039,
+  "id": 2038,
   "word": "press",
   "level": "중고공통",
   "derived": [],
@@ -324,7 +316,7 @@
   "fn_example": ""
  },
  {
-  "id": 2040,
+  "id": 2039,
   "word": "presume",
   "level": "선택",
   "derived": [],
@@ -332,7 +324,7 @@
   "fn_example": ""
  },
  {
-  "id": 2041,
+  "id": 2040,
   "word": "pretend",
   "level": "중고공통",
   "derived": [],
@@ -340,7 +332,7 @@
   "fn_example": ""
  },
  {
-  "id": 2042,
+  "id": 2041,
   "word": "pretty",
   "level": "초등",
   "derived": [],
@@ -348,7 +340,7 @@
   "fn_example": ""
  },
  {
-  "id": 2043,
+  "id": 2042,
   "word": "prevail",
   "level": "선택",
   "derived": [],
@@ -356,7 +348,7 @@
   "fn_example": ""
  },
  {
-  "id": 2044,
+  "id": 2043,
   "word": "prevent",
   "level": "중고공통",
   "derived": [],
@@ -364,7 +356,7 @@
   "fn_example": ""
  },
  {
-  "id": 2045,
+  "id": 2044,
   "word": "previous",
   "level": "중고공통",
   "derived": [],
@@ -372,7 +364,7 @@
   "fn_example": ""
  },
  {
-  "id": 2046,
+  "id": 2045,
   "word": "prey",
   "level": "선택",
   "derived": [],
@@ -380,7 +372,7 @@
   "fn_example": ""
  },
  {
-  "id": 2047,
+  "id": 2046,
   "word": "price",
   "level": "중고공통",
   "derived": [],
@@ -388,7 +380,7 @@
   "fn_example": ""
  },
  {
-  "id": 2048,
+  "id": 2047,
   "word": "pride",
   "level": "중고공통",
   "derived": [],
@@ -396,7 +388,7 @@
   "fn_example": ""
  },
  {
-  "id": 2049,
+  "id": 2048,
   "word": "priest",
   "level": "선택",
   "derived": [],
@@ -404,13 +396,21 @@
   "fn_example": ""
  },
  {
-  "id": 2050,
+  "id": 2049,
   "word": "prime",
   "level": "중고공통",
   "derived": [
    "primary"
   ],
   "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2050,
+  "word": "primitive",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
   "fn_example": ""
  }
 ]

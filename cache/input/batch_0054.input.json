@@ -1,14 +1,6 @@
 [
  {
   "id": 2651,
-  "word": "taxi",
-  "level": "초등",
-  "derived": [],
-  "max_example_words": 6,
-  "fn_example": ""
- },
- {
-  "id": 2652,
   "word": "tea",
   "level": "중고공통",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": ""
  },
  {
-  "id": 2653,
+  "id": 2652,
   "word": "teach",
   "level": "초등",
   "derived": [],
@@ -24,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 2654,
+  "id": 2653,
   "word": "team",
   "level": "초등",
   "derived": [],
@@ -32,7 +24,7 @@
   "fn_example": ""
  },
  {
-  "id": 2655,
+  "id": 2654,
   "word": "tear",
   "level": "중고공통",
   "derived": [],
@@ -40,7 +32,7 @@
   "fn_example": ""
  },
  {
-  "id": 2656,
+  "id": 2655,
   "word": "tease",
   "level": "선택",
   "derived": [],
@@ -48,7 +40,7 @@
   "fn_example": ""
  },
  {
-  "id": 2657,
+  "id": 2656,
   "word": "technique",
   "level": "중고공통",
   "derived": [],
@@ -56,7 +48,7 @@
   "fn_example": ""
  },
  {
-  "id": 2658,
+  "id": 2657,
   "word": "technology",
   "level": "중고공통",
   "derived": [],
@@ -64,7 +56,7 @@
   "fn_example": ""
  },
  {
-  "id": 2659,
+  "id": 2658,
   "word": "teenage",
   "level": "중고공통",
   "derived": [],
@@ -72,7 +64,7 @@
   "fn_example": ""
  },
  {
-  "id": 2660,
+  "id": 2659,
   "word": "telegraph",
   "level": "선택",
   "derived": [],
@@ -80,7 +72,7 @@
   "fn_example": ""
  },
  {
-  "id": 2661,
+  "id": 2660,
   "word": "telephone",
   "level": "초등",
   "derived": [],
@@ -88,7 +80,7 @@
   "fn_example": ""
  },
  {
-  "id": 2662,
+  "id": 2661,
   "word": "television",
   "level": "초등",
   "derived": [],
@@ -96,7 +88,7 @@
   "fn_example": ""
  },
  {
-  "id": 2663,
+  "id": 2662,
   "word": "tell",
   "level": "초등",
   "derived": [],
@@ -104,7 +96,7 @@
   "fn_example": ""
  },
  {
-  "id": 2664,
+  "id": 2663,
   "word": "temperature",
   "level": "중고공통",
   "derived": [],
@@ -112,7 +104,7 @@
   "fn_example": ""
  },
  {
-  "id": 2665,
+  "id": 2664,
   "word": "temple",
   "level": "선택",
   "derived": [],
@@ -120,7 +112,7 @@
   "fn_example": ""
  },
  {
-  "id": 2666,
+  "id": 2665,
   "word": "temporary",
   "level": "선택",
   "derived": [],
@@ -128,7 +120,7 @@
   "fn_example": ""
  },
  {
-  "id": 2667,
+  "id": 2666,
   "word": "tempt",
   "level": "선택",
   "derived": [],
@@ -136,7 +128,7 @@
   "fn_example": ""
  },
  {
-  "id": 2668,
+  "id": 2667,
   "word": "ten",
   "level": "초등",
   "derived": [],
@@ -144,7 +136,7 @@
   "fn_example": "Can you make it (at ten)?"
  },
  {
-  "id": 2669,
+  "id": 2668,
   "word": "tenant",
   "level": "선택",
   "derived": [],
@@ -152,7 +144,7 @@
   "fn_example": ""
  },
  {
-  "id": 2670,
+  "id": 2669,
   "word": "tend",
   "level": "중고공통",
   "derived": [],
@@ -160,7 +152,7 @@
   "fn_example": ""
  },
  {
-  "id": 2671,
+  "id": 2670,
   "word": "tender",
   "level": "선택",
   "derived": [],
@@ -168,7 +160,7 @@
   "fn_example": ""
  },
  {
-  "id": 2672,
+  "id": 2671,
   "word": "tennis",
   "level": "초등",
   "derived": [],
@@ -176,7 +168,7 @@
   "fn_example": ""
  },
  {
-  "id": 2673,
+  "id": 2672,
   "word": "tense",
   "level": "중고공통",
   "derived": [],
@@ -184,7 +176,7 @@
   "fn_example": ""
  },
  {
-  "id": 2674,
+  "id": 2673,
   "word": "tent",
   "level": "초등",
   "derived": [],
@@ -192,7 +184,7 @@
   "fn_example": ""
  },
  {
-  "id": 2675,
+  "id": 2674,
   "word": "term",
   "level": "중고공통",
   "derived": [],
@@ -200,7 +192,7 @@
   "fn_example": ""
  },
  {
-  "id": 2676,
+  "id": 2675,
   "word": "terminal",
   "level": "선택",
   "derived": [],
@@ -208,7 +200,7 @@
   "fn_example": ""
  },
  {
-  "id": 2677,
+  "id": 2676,
   "word": "terminate",
   "level": "선택",
   "derived": [],
@@ -216,7 +208,7 @@
   "fn_example": ""
  },
  {
-  "id": 2678,
+  "id": 2677,
   "word": "terrace",
   "level": "선택",
   "derived": [],
@@ -224,7 +216,7 @@
   "fn_example": ""
  },
  {
-  "id": 2679,
+  "id": 2678,
   "word": "terrible",
   "level": "중고공통",
   "derived": [],
@@ -232,7 +224,7 @@
   "fn_example": ""
  },
  {
-  "id": 2680,
+  "id": 2679,
   "word": "terrific",
   "level": "선택",
   "derived": [],
@@ -240,7 +232,7 @@
   "fn_example": ""
  },
  {
-  "id": 2681,
+  "id": 2680,
   "word": "territory",
   "level": "선택",
   "derived": [],
@@ -248,7 +240,7 @@
   "fn_example": ""
  },
  {
-  "id": 2682,
+  "id": 2681,
   "word": "terror",
   "level": "선택",
   "derived": [
@@ -258,7 +250,7 @@
   "fn_example": ""
  },
  {
-  "id": 2683,
+  "id": 2682,
   "word": "test",
   "level": "초등",
   "derived": [],
@@ -266,7 +258,7 @@
   "fn_example": ""
  },
  {
-  "id": 2684,
+  "id": 2683,
   "word": "text",
   "level": "중고공통",
   "derived": [],
@@ -274,7 +266,7 @@
   "fn_example": ""
  },
  {
-  "id": 2685,
+  "id": 2684,
   "word": "textbook",
   "level": "초등",
   "derived": [],
@@ -282,7 +274,7 @@
   "fn_example": ""
  },
  {
-  "id": 2686,
+  "id": 2685,
   "word": "than",
   "level": "초등",
   "derived": [],
@@ -290,7 +282,7 @@
   "fn_example": "It is bigger than an elephant."
  },
  {
-  "id": 2687,
+  "id": 2686,
   "word": "thank",
   "level": "초등",
   "derived": [],
@@ -298,7 +290,7 @@
   "fn_example": "Thank goodness."
  },
  {
-  "id": 2688,
+  "id": 2687,
   "word": "that",
   "level": "초등",
   "derived": [],
@@ -306,7 +298,7 @@
   "fn_example": "That’s a good idea."
  },
  {
-  "id": 2689,
+  "id": 2688,
   "word": "the",
   "level": "초등",
   "derived": [],
@@ -314,7 +306,7 @@
   "fn_example": "The man over there is Mr. Kim."
  },
  {
-  "id": 2690,
+  "id": 2689,
   "word": "theater",
   "level": "중고공통",
   "derived": [],
@@ -322,7 +314,7 @@
   "fn_example": ""
  },
  {
-  "id": 2691,
+  "id": 2690,
   "word": "theme",
   "level": "선택",
   "derived": [],
@@ -330,7 +322,7 @@
   "fn_example": ""
  },
  {
-  "id": 2692,
+  "id": 2691,
   "word": "then",
   "level": "중고공통",
   "derived": [],
@@ -338,7 +330,7 @@
   "fn_example": ""
  },
  {
-  "id": 2693,
+  "id": 2692,
   "word": "theory",
   "level": "중고공통",
   "derived": [],
@@ -346,7 +338,7 @@
   "fn_example": ""
  },
  {
-  "id": 2694,
+  "id": 2693,
   "word": "therapy",
   "level": "선택",
   "derived": [],
@@ -354,7 +346,7 @@
   "fn_example": ""
  },
  {
-  "id": 2695,
+  "id": 2694,
   "word": "there",
   "level": "초등",
   "derived": [],
@@ -362,7 +354,7 @@
   "fn_example": "The man over there is Mr. Kim."
  },
  {
-  "id": 2696,
+  "id": 2695,
   "word": "therefore",
   "level": "중고공통",
   "derived": [],
@@ -370,7 +362,7 @@
   "fn_example": ""
  },
  {
-  "id": 2697,
+  "id": 2696,
   "word": "they",
   "level": "초등",
   "derived": [],
@@ -378,7 +370,7 @@
   "fn_example": "How did they travel?"
  },
  {
-  "id": 2698,
+  "id": 2697,
   "word": "thick",
   "level": "중고공통",
   "derived": [],
@@ -386,7 +378,7 @@
   "fn_example": ""
  },
  {
-  "id": 2699,
+  "id": 2698,
   "word": "thief",
   "level": "중고공통",
   "derived": [],
@@ -394,11 +386,19 @@
   "fn_example": ""
  },
  {
-  "id": 2700,
+  "id": 2699,
   "word": "thin",
   "level": "중고공통",
   "derived": [],
   "max_example_words": 12,
   "fn_example": ""
+ },
+ {
+  "id": 2700,
+  "word": "thing",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Things will be better (soon)."
  }
 ]

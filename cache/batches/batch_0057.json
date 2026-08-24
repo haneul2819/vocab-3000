@@ -1,52 +1,1446 @@
 [
- {"id": 2801, "word": "try", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["노력하다", "시도하다"]}], "examples": [{"en": "Just try your best today.", "ko": "오늘 최선을 다해 봐."}, {"en": "She tries hard every day.", "ko": "그녀는 매일 열심히 노력한다."}], "theme": "행동"},
- {"id": 2802, "word": "tube", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["관", "튜브"]}], "examples": [{"en": "Toothpaste comes in a small tube.", "ko": "치약은 작은 튜브에 담겨 있다."}, {"en": "Water flowed through the plastic tube.", "ko": "물이 플라스틱 관을 통해 흘렀다."}], "theme": "사물"},
- {"id": 2803, "word": "tune", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["곡조", "선율"]}, {"pos": "동사", "ko": ["조율하다"]}], "examples": [{"en": "She hummed a happy tune.", "ko": "그녀는 즐거운 곡조를 흥얼거렸다."}, {"en": "He will tune his guitar first.", "ko": "그는 먼저 기타를 조율할 것이다."}], "theme": "여가"},
- {"id": 2804, "word": "tunnel", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["터널"]}], "examples": [{"en": "The train went through a long tunnel.", "ko": "기차는 긴 터널을 통과했다."}, {"en": "We drove through a dark tunnel.", "ko": "우리는 어두운 터널을 지나 운전했다."}], "theme": "교통"},
- {"id": 2805, "word": "turn", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["돌다", "돌리다"]}, {"pos": "명사", "ko": ["차례"]}], "examples": [{"en": "Turn on the light.", "ko": "불을 켜라."}, {"en": "It's your turn to play.", "ko": "네가 놀 차례야."}], "theme": "행동"},
- {"id": 2806, "word": "turnover", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["회전율", "이직률"]}], "examples": [{"en": "The store has a high staff turnover.", "ko": "그 가게는 직원 이직률이 높다."}, {"en": "The company reported strong yearly turnover.", "ko": "그 회사는 강한 연간 매출을 보고했다."}], "theme": "사회"},
- {"id": 2807, "word": "twelve", "pos": ["수사"], "meanings": [{"pos": "수사", "ko": ["12", "열둘"]}], "examples": [{"en": "She is twelve years old.", "ko": "그녀는 12살이다."}, {"en": "We have twelve eggs left.", "ko": "우리는 달걀이 12개 남았다."}], "theme": "수량"},
- {"id": 2808, "word": "twenty", "pos": ["수사"], "meanings": [{"pos": "수사", "ko": ["20", "스물"]}], "examples": [{"en": "He is twenty years old.", "ko": "그는 20살이다."}, {"en": "There are twenty desks here.", "ko": "여기에 책상이 20개 있다."}], "theme": "수량"},
- {"id": 2809, "word": "twenty-first", "pos": ["수사"], "meanings": [{"pos": "수사", "ko": ["21번째"]}], "examples": [{"en": "Today is the twenty-first of May.", "ko": "오늘은 5월 21일이다."}, {"en": "It's her twenty-first birthday soon.", "ko": "곧 그녀의 21번째 생일이다."}], "theme": "시간"},
- {"id": 2810, "word": "twenty-second", "pos": ["수사"], "meanings": [{"pos": "수사", "ko": ["22번째"]}], "examples": [{"en": "He came in twenty-second place.", "ko": "그는 22등으로 들어왔다."}, {"en": "Today is her twenty-second day here.", "ko": "오늘은 그녀가 여기 온 지 22일째 되는 날이다."}], "theme": "시간"},
- {"id": 2811, "word": "twenty-third", "pos": ["수사"], "meanings": [{"pos": "수사", "ko": ["23번째"]}], "examples": [{"en": "This is the twenty-third question.", "ko": "이것은 23번째 문제이다."}, {"en": "We meet on the twenty-third.", "ko": "우리는 23일에 만난다."}], "theme": "시간"},
- {"id": 2812, "word": "twice", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["두 번"]}], "examples": [{"en": "I brush my teeth twice.", "ko": "나는 이를 두 번 닦는다."}, {"en": "She called me twice today.", "ko": "그녀는 오늘 나에게 두 번 전화했다."}], "theme": "수량"},
- {"id": 2813, "word": "twin", "pos": ["명사", "형용사"], "meanings": [{"pos": "명사", "ko": ["쌍둥이"]}, {"pos": "형용사", "ko": ["쌍둥이의"]}], "examples": [{"en": "My twin sister looks just like me.", "ko": "내 쌍둥이 여동생은 나와 꼭 닮았다."}, {"en": "They are identical twin brothers.", "ko": "그들은 일란성 쌍둥이 형제이다."}], "theme": "가족"},
- {"id": 2814, "word": "twist", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["비틀다", "꼬다"]}, {"pos": "명사", "ko": ["반전"]}], "examples": [{"en": "Please twist the cap to open it.", "ko": "뚜껑을 열려면 비트세요."}, {"en": "The movie had a surprising twist.", "ko": "그 영화는 놀라운 반전이 있었다."}], "theme": "행동"},
- {"id": 2815, "word": "two", "pos": ["수사"], "meanings": [{"pos": "수사", "ko": ["둘", "2"]}], "examples": [{"en": "I have two brothers.", "ko": "나는 남자 형제가 둘 있다."}, {"en": "She bought two apples today.", "ko": "그녀는 오늘 사과 두 개를 샀다."}], "theme": "수량"},
- {"id": 2816, "word": "type", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["종류", "유형"]}, {"pos": "동사", "ko": ["타자를 치다"]}], "examples": [{"en": "What type of music do you like?", "ko": "너는 어떤 종류의 음악을 좋아하니?"}, {"en": "She can type very fast.", "ko": "그녀는 타자를 아주 빨리 칠 수 있다."}], "theme": "소통"},
- {"id": 2817, "word": "ugly", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["못생긴", "보기 흉한"]}], "examples": [{"en": "The ugly duckling grew up.", "ko": "그 못생긴 오리는 자랐다."}, {"en": "That old shirt looks ugly.", "ko": "그 낡은 셔츠는 보기 흉하다."}], "theme": "감정"},
- {"id": 2818, "word": "ultimate", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["궁극적인", "최고의"]}], "examples": [{"en": "Winning the game was our ultimate goal.", "ko": "경기에서 이기는 것이 우리의 궁극적인 목표였다."}, {"en": "This is the ultimate test of skill.", "ko": "이것은 실력을 가늠하는 최고의 시험이다."}], "theme": "추상"},
- {"id": 2819, "word": "umbrella", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["우산"]}], "examples": [{"en": "Bring your umbrella; it may rain.", "ko": "우산을 가져가, 비가 올 수도 있어."}, {"en": "She lost her red umbrella.", "ko": "그녀는 빨간 우산을 잃어버렸다."}], "theme": "사물"},
- {"id": 2820, "word": "uncle", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["삼촌", "아저씨"]}], "examples": [{"en": "My uncle lives in Seoul.", "ko": "내 삼촌은 서울에 산다."}, {"en": "I visited my uncle yesterday.", "ko": "나는 어제 삼촌을 방문했다."}], "theme": "가족"},
- {"id": 2821, "word": "under", "pos": ["전치사", "부사"], "meanings": [{"pos": "전치사", "ko": ["~아래에"]}, {"pos": "부사", "ko": ["아래로"]}], "examples": [{"en": "The cat is under the table.", "ko": "고양이가 탁자 아래에 있다."}, {"en": "He hid the gift under his bed.", "ko": "그는 선물을 침대 밑에 숨겼다."}], "theme": "장소"},
- {"id": 2822, "word": "undergo", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["겪다", "경험하다"]}], "examples": [{"en": "The patient will undergo surgery tomorrow morning.", "ko": "그 환자는 내일 아침 수술을 받을 것이다."}, {"en": "The company had to undergo big changes.", "ko": "그 회사는 큰 변화를 겪어야 했다."}], "theme": "추상"},
- {"id": 2823, "word": "underlie", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["기저에 있다", "근본 원인이 되다"]}], "examples": [{"en": "Fear can underlie many strange behaviors.", "ko": "두려움은 여러 이상한 행동의 근본 원인이 될 수 있다."}, {"en": "Poor sleep may underlie her headaches.", "ko": "수면 부족이 그녀의 두통의 원인일 수 있다."}], "theme": "추상"},
- {"id": 2824, "word": "undermine", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["약화시키다"]}], "examples": [{"en": "Constant criticism can undermine a student's confidence.", "ko": "끊임없는 비난은 학생의 자신감을 약화시킬 수 있다."}, {"en": "The scandal began to undermine his career.", "ko": "그 스캔들은 그의 경력을 약화시키기 시작했다."}], "theme": "추상"},
- {"id": 2825, "word": "understand", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["이해하다"]}], "examples": [{"en": "I understand how you feel.", "ko": "나는 네 기분을 이해해."}, {"en": "Do you understand the question?", "ko": "질문을 이해하니?"}], "theme": "소통"},
- {"id": 2826, "word": "undertake", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["착수하다", "맡다"]}], "examples": [{"en": "She agreed to undertake the difficult project.", "ko": "그녀는 그 어려운 프로젝트를 맡기로 했다."}, {"en": "The city will undertake a new plan.", "ko": "그 도시는 새로운 계획에 착수할 것이다."}], "theme": "행동"},
- {"id": 2827, "word": "uniform", "pos": ["명사", "형용사"], "meanings": [{"pos": "명사", "ko": ["교복", "유니폼"]}, {"pos": "형용사", "ko": ["균일한"]}], "examples": [{"en": "Students wear a blue uniform here.", "ko": "학생들은 여기서 파란 교복을 입는다."}, {"en": "The bricks are uniform in size.", "ko": "그 벽돌들은 크기가 균일하다."}], "theme": "학교"},
- {"id": 2828, "word": "unify", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["통합하다", "통일하다"]}], "examples": [{"en": "The leader tried to unify the two groups.", "ko": "그 지도자는 두 집단을 통합하려고 했다."}, {"en": "The plan will unify our school clubs.", "ko": "그 계획은 우리 학교 동아리들을 통합할 것이다."}], "theme": "사회"},
- {"id": 2829, "word": "unique", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["독특한", "유일한"]}], "examples": [{"en": "Every snowflake has a unique shape.", "ko": "모든 눈송이는 독특한 모양을 가지고 있다."}, {"en": "She has a unique way of singing.", "ko": "그녀는 독특한 노래 방식을 가지고 있다."}], "theme": "추상"},
- {"id": 2830, "word": "unit", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["단위", "단원"]}], "examples": [{"en": "This chapter is the first unit.", "ko": "이 장은 첫 번째 단원이다."}, {"en": "A meter is a unit of length.", "ko": "미터는 길이의 단위이다."}], "theme": "학교"},
- {"id": 2831, "word": "unite", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["연합하다", "단결하다"]}], "examples": [{"en": "The team will unite for the final game.", "ko": "그 팀은 결승전을 위해 단결할 것이다."}, {"en": "Music can unite people from many countries.", "ko": "음악은 여러 나라의 사람들을 하나로 모을 수 있다."}], "theme": "사회"},
- {"id": 2832, "word": "universe", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["우주"]}], "examples": [{"en": "Scientists study the whole universe carefully.", "ko": "과학자들은 우주 전체를 면밀히 연구한다."}, {"en": "The universe is huge and mysterious.", "ko": "우주는 거대하고 신비롭다."}], "theme": "과학"},
- {"id": 2833, "word": "university", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["대학교"]}], "examples": [{"en": "Where did she go to university?", "ko": "그녀는 어느 대학교에 다녔나요?"}, {"en": "He studies math at university.", "ko": "그는 대학에서 수학을 공부한다."}], "theme": "학교"},
- {"id": 2834, "word": "unless", "pos": ["접속사"], "meanings": [{"pos": "접속사", "ko": ["~하지 않으면"]}], "examples": [{"en": "You will be late unless you hurry.", "ko": "서두르지 않으면 너는 늦을 것이다."}, {"en": "We won't go unless it stops raining.", "ko": "비가 그치지 않으면 우리는 가지 않을 것이다."}], "theme": "소통"},
- {"id": 2835, "word": "until", "pos": ["전치사", "접속사"], "meanings": [{"pos": "전치사", "ko": ["~까지"]}, {"pos": "접속사", "ko": ["~할 때까지"]}], "examples": [{"en": "We waited until the bus arrived.", "ko": "우리는 버스가 올 때까지 기다렸다."}, {"en": "The store stays open until midnight.", "ko": "그 가게는 자정까지 문을 연다."}], "theme": "시간"},
- {"id": 2836, "word": "up", "pos": ["부사", "전치사"], "meanings": [{"pos": "부사", "ko": ["위로"]}, {"pos": "전치사", "ko": ["~의 위쪽으로"]}], "examples": [{"en": "Cheer up!", "ko": "힘내!"}, {"en": "Please stand up now.", "ko": "지금 일어서 주세요."}], "theme": "행동"},
- {"id": 2837, "word": "update", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["갱신하다", "업데이트하다"]}, {"pos": "명사", "ko": ["최신 정보"]}], "examples": [{"en": "Please update your phone number soon.", "ko": "전화번호를 곧 업데이트해 주세요."}, {"en": "He gave us a quick update.", "ko": "그는 우리에게 짧은 최신 정보를 알려주었다."}], "theme": "소통"},
- {"id": 2838, "word": "upon", "pos": ["전치사"], "meanings": [{"pos": "전치사", "ko": ["~위에", "~에"]}], "examples": [{"en": "Once upon a time, there lived a giant.", "ko": "옛날 옛적에 한 거인이 살았다."}, {"en": "The decision depends upon your answer.", "ko": "그 결정은 너의 대답에 달려 있다."}], "theme": "추상"},
- {"id": 2839, "word": "upper", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["위쪽의", "상위의"]}], "examples": [{"en": "She lives on the upper floor.", "ko": "그녀는 위층에 산다."}, {"en": "He hurt his upper arm.", "ko": "그는 팔 윗부분을 다쳤다."}], "theme": "신체"},
- {"id": 2840, "word": "upset", "pos": ["형용사", "동사"], "meanings": [{"pos": "형용사", "ko": ["속상한", "화난"]}, {"pos": "동사", "ko": ["속상하게 하다"]}], "examples": [{"en": "She looked very upset after the test.", "ko": "그녀는 시험 후 매우 속상해 보였다."}, {"en": "His rude words upset his friend.", "ko": "그의 무례한 말은 친구를 속상하게 했다."}], "theme": "감정"},
- {"id": 2841, "word": "upward", "pos": ["부사", "형용사"], "meanings": [{"pos": "부사", "ko": ["위쪽으로"]}, {"pos": "형용사", "ko": ["위쪽의"]}], "examples": [{"en": "The balloon slowly floated upward into the sky.", "ko": "풍선은 천천히 하늘 위쪽으로 떠올랐다."}, {"en": "Sales showed an upward trend this month.", "ko": "매출은 이번 달 상승 추세를 보였다."}], "theme": "추상"},
- {"id": 2842, "word": "urban", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["도시의"]}], "examples": [{"en": "Many people now live in urban areas.", "ko": "많은 사람들이 이제 도시 지역에 산다."}, {"en": "The city has serious urban problems.", "ko": "그 도시는 심각한 도시 문제를 가지고 있다."}], "theme": "사회"},
- {"id": 2843, "word": "urge", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["촉구하다", "재촉하다"]}, {"pos": "명사", "ko": ["충동"]}], "examples": [{"en": "Doctors urge people to sleep more.", "ko": "의사들은 사람들에게 잠을 더 자라고 권한다."}, {"en": "She felt a sudden urge to laugh.", "ko": "그녀는 갑자기 웃고 싶은 충동을 느꼈다."}], "theme": "추상"},
- {"id": 2844, "word": "use", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["사용하다"]}, {"pos": "명사", "ko": ["사용"]}], "examples": [{"en": "You can use my pen.", "ko": "내 펜을 써도 돼."}, {"en": "This tool has many uses.", "ko": "이 도구는 쓰임새가 많다."}], "theme": "사물"},
- {"id": 2845, "word": "utilize", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["활용하다", "이용하다"]}], "examples": [{"en": "We should utilize our free time wisely.", "ko": "우리는 자유 시간을 현명하게 활용해야 한다."}, {"en": "The factory utilizes solar energy fully.", "ko": "그 공장은 태양 에너지를 완전히 활용한다."}], "theme": "과학"},
- {"id": 2846, "word": "utter", "pos": ["동사", "형용사"], "meanings": [{"pos": "동사", "ko": ["말하다", "내뱉다"]}, {"pos": "형용사", "ko": ["완전한", "순전한"]}], "examples": [{"en": "She didn't utter a single word.", "ko": "그녀는 한마디도 하지 않았다."}, {"en": "The plan ended in utter failure.", "ko": "그 계획은 완전한 실패로 끝났다."}], "theme": "소통"},
- {"id": 2847, "word": "vacate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["비우다", "떠나다"]}], "examples": [{"en": "Guests must vacate the room by noon.", "ko": "손님들은 정오까지 방을 비워야 한다."}, {"en": "The tenants vacated the house last month.", "ko": "세입자들은 지난달 그 집을 떠났다."}], "theme": "일상"},
- {"id": 2848, "word": "vaccine", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["백신"]}], "examples": [{"en": "The doctor gave me a flu vaccine.", "ko": "의사는 나에게 독감 백신을 놓아 주었다."}, {"en": "Scientists developed a new vaccine quickly.", "ko": "과학자들은 새로운 백신을 빠르게 개발했다."}], "theme": "과학"},
- {"id": 2849, "word": "vacuum", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["진공", "청소기"]}, {"pos": "동사", "ko": ["청소기로 청소하다"]}], "examples": [{"en": "She used a vacuum to clean the rug.", "ko": "그녀는 청소기로 러그를 청소했다."}, {"en": "Please vacuum the living room today.", "ko": "오늘 거실을 청소기로 청소해 주세요."}], "theme": "일상"},
- {"id": 2850, "word": "vague", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["애매한", "모호한"]}], "examples": [{"en": "His answer was too vague to understand.", "ko": "그의 대답은 너무 애매해서 이해하기 어려웠다."}, {"en": "She gave a vague description of the man.", "ko": "그녀는 그 남자에 대해 모호한 설명을 했다."}], "theme": "소통"}
+ {
+  "id": 2800,
+  "word": "try",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "노력하다",
+     "시도하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Just try your best today.",
+    "ko": "오늘 최선을 다해 봐."
+   },
+   {
+    "en": "She tries hard every day.",
+    "ko": "그녀는 매일 열심히 노력한다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2801,
+  "word": "tube",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "관",
+     "튜브"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Toothpaste comes in a small tube.",
+    "ko": "치약은 작은 튜브에 담겨 있다."
+   },
+   {
+    "en": "Water flowed through the plastic tube.",
+    "ko": "물이 플라스틱 관을 통해 흘렀다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2802,
+  "word": "tune",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "곡조",
+     "선율"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "조율하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She hummed a happy tune.",
+    "ko": "그녀는 즐거운 곡조를 흥얼거렸다."
+   },
+   {
+    "en": "He will tune his guitar first.",
+    "ko": "그는 먼저 기타를 조율할 것이다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2803,
+  "word": "tunnel",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "터널"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The train went through a long tunnel.",
+    "ko": "기차는 긴 터널을 통과했다."
+   },
+   {
+    "en": "We drove through a dark tunnel.",
+    "ko": "우리는 어두운 터널을 지나 운전했다."
+   }
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 2804,
+  "word": "turn",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "돌다",
+     "돌리다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "차례"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Turn on the light.",
+    "ko": "불을 켜라."
+   },
+   {
+    "en": "It's your turn to play.",
+    "ko": "네가 놀 차례야."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2805,
+  "word": "turnover",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "회전율",
+     "이직률"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The store has a high staff turnover.",
+    "ko": "그 가게는 직원 이직률이 높다."
+   },
+   {
+    "en": "The company reported strong yearly turnover.",
+    "ko": "그 회사는 강한 연간 매출을 보고했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2806,
+  "word": "twelve",
+  "pos": [
+   "수사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "12",
+     "열둘"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She is twelve years old.",
+    "ko": "그녀는 12살이다."
+   },
+   {
+    "en": "We have twelve eggs left.",
+    "ko": "우리는 달걀이 12개 남았다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2807,
+  "word": "twenty",
+  "pos": [
+   "수사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "20",
+     "스물"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He is twenty years old.",
+    "ko": "그는 20살이다."
+   },
+   {
+    "en": "There are twenty desks here.",
+    "ko": "여기에 책상이 20개 있다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2808,
+  "word": "twenty-first",
+  "pos": [
+   "수사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "21번째"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Today is the twenty-first of May.",
+    "ko": "오늘은 5월 21일이다."
+   },
+   {
+    "en": "It's her twenty-first birthday soon.",
+    "ko": "곧 그녀의 21번째 생일이다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2809,
+  "word": "twenty-second",
+  "pos": [
+   "수사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "22번째"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He came in twenty-second place.",
+    "ko": "그는 22등으로 들어왔다."
+   },
+   {
+    "en": "Today is her twenty-second day here.",
+    "ko": "오늘은 그녀가 여기 온 지 22일째 되는 날이다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2810,
+  "word": "twenty-third",
+  "pos": [
+   "수사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "23번째"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This is the twenty-third question.",
+    "ko": "이것은 23번째 문제이다."
+   },
+   {
+    "en": "We meet on the twenty-third.",
+    "ko": "우리는 23일에 만난다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2811,
+  "word": "twice",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "두 번"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I brush my teeth twice.",
+    "ko": "나는 이를 두 번 닦는다."
+   },
+   {
+    "en": "She called me twice today.",
+    "ko": "그녀는 오늘 나에게 두 번 전화했다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2812,
+  "word": "twin",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "쌍둥이"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "쌍둥이의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My twin sister looks just like me.",
+    "ko": "내 쌍둥이 여동생은 나와 꼭 닮았다."
+   },
+   {
+    "en": "They are identical twin brothers.",
+    "ko": "그들은 일란성 쌍둥이 형제이다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 2813,
+  "word": "twist",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "비틀다",
+     "꼬다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "반전"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please twist the cap to open it.",
+    "ko": "뚜껑을 열려면 비트세요."
+   },
+   {
+    "en": "The movie had a surprising twist.",
+    "ko": "그 영화는 놀라운 반전이 있었다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2814,
+  "word": "two",
+  "pos": [
+   "수사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "둘",
+     "2"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I have two brothers.",
+    "ko": "나는 남자 형제가 둘 있다."
+   },
+   {
+    "en": "She bought two apples today.",
+    "ko": "그녀는 오늘 사과 두 개를 샀다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2815,
+  "word": "type",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "종류",
+     "유형"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "타자를 치다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "What type of music do you like?",
+    "ko": "너는 어떤 종류의 음악을 좋아하니?"
+   },
+   {
+    "en": "She can type very fast.",
+    "ko": "그녀는 타자를 아주 빨리 칠 수 있다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2816,
+  "word": "ugly",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "못생긴",
+     "보기 흉한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The ugly duckling grew up.",
+    "ko": "그 못생긴 오리는 자랐다."
+   },
+   {
+    "en": "That old shirt looks ugly.",
+    "ko": "그 낡은 셔츠는 보기 흉하다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2817,
+  "word": "ultimate",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "궁극적인",
+     "최고의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Winning the game was our ultimate goal.",
+    "ko": "경기에서 이기는 것이 우리의 궁극적인 목표였다."
+   },
+   {
+    "en": "This is the ultimate test of skill.",
+    "ko": "이것은 실력을 가늠하는 최고의 시험이다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2818,
+  "word": "umbrella",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "우산"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Bring your umbrella; it may rain.",
+    "ko": "우산을 가져가, 비가 올 수도 있어."
+   },
+   {
+    "en": "She lost her red umbrella.",
+    "ko": "그녀는 빨간 우산을 잃어버렸다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2819,
+  "word": "uncle",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "삼촌",
+     "아저씨"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My uncle lives in Seoul.",
+    "ko": "내 삼촌은 서울에 산다."
+   },
+   {
+    "en": "I visited my uncle yesterday.",
+    "ko": "나는 어제 삼촌을 방문했다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 2820,
+  "word": "under",
+  "pos": [
+   "전치사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~아래에"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "아래로"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The cat is under the table.",
+    "ko": "고양이가 탁자 아래에 있다."
+   },
+   {
+    "en": "He hid the gift under his bed.",
+    "ko": "그는 선물을 침대 밑에 숨겼다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2821,
+  "word": "undergo",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "겪다",
+     "경험하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The patient will undergo surgery tomorrow morning.",
+    "ko": "그 환자는 내일 아침 수술을 받을 것이다."
+   },
+   {
+    "en": "The company had to undergo big changes.",
+    "ko": "그 회사는 큰 변화를 겪어야 했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2822,
+  "word": "underlie",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "기저에 있다",
+     "근본 원인이 되다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Fear can underlie many strange behaviors.",
+    "ko": "두려움은 여러 이상한 행동의 근본 원인이 될 수 있다."
+   },
+   {
+    "en": "Poor sleep may underlie her headaches.",
+    "ko": "수면 부족이 그녀의 두통의 원인일 수 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2823,
+  "word": "undermine",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "약화시키다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Constant criticism can undermine a student's confidence.",
+    "ko": "끊임없는 비난은 학생의 자신감을 약화시킬 수 있다."
+   },
+   {
+    "en": "The scandal began to undermine his career.",
+    "ko": "그 스캔들은 그의 경력을 약화시키기 시작했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2824,
+  "word": "understand",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "이해하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I understand how you feel.",
+    "ko": "나는 네 기분을 이해해."
+   },
+   {
+    "en": "Do you understand the question?",
+    "ko": "질문을 이해하니?"
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2825,
+  "word": "undertake",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "착수하다",
+     "맡다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She agreed to undertake the difficult project.",
+    "ko": "그녀는 그 어려운 프로젝트를 맡기로 했다."
+   },
+   {
+    "en": "The city will undertake a new plan.",
+    "ko": "그 도시는 새로운 계획에 착수할 것이다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2826,
+  "word": "uniform",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "교복",
+     "유니폼"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "균일한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Students wear a blue uniform here.",
+    "ko": "학생들은 여기서 파란 교복을 입는다."
+   },
+   {
+    "en": "The bricks are uniform in size.",
+    "ko": "그 벽돌들은 크기가 균일하다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2827,
+  "word": "unify",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "통합하다",
+     "통일하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The leader tried to unify the two groups.",
+    "ko": "그 지도자는 두 집단을 통합하려고 했다."
+   },
+   {
+    "en": "The plan will unify our school clubs.",
+    "ko": "그 계획은 우리 학교 동아리들을 통합할 것이다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2828,
+  "word": "unique",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "독특한",
+     "유일한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Every snowflake has a unique shape.",
+    "ko": "모든 눈송이는 독특한 모양을 가지고 있다."
+   },
+   {
+    "en": "She has a unique way of singing.",
+    "ko": "그녀는 독특한 노래 방식을 가지고 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2829,
+  "word": "unit",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "단위",
+     "단원"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This chapter is the first unit.",
+    "ko": "이 장은 첫 번째 단원이다."
+   },
+   {
+    "en": "A meter is a unit of length.",
+    "ko": "미터는 길이의 단위이다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2830,
+  "word": "unite",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "연합하다",
+     "단결하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The team will unite for the final game.",
+    "ko": "그 팀은 결승전을 위해 단결할 것이다."
+   },
+   {
+    "en": "Music can unite people from many countries.",
+    "ko": "음악은 여러 나라의 사람들을 하나로 모을 수 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2831,
+  "word": "universe",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "우주"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Scientists study the whole universe carefully.",
+    "ko": "과학자들은 우주 전체를 면밀히 연구한다."
+   },
+   {
+    "en": "The universe is huge and mysterious.",
+    "ko": "우주는 거대하고 신비롭다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2832,
+  "word": "university",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "대학교"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Where did she go to university?",
+    "ko": "그녀는 어느 대학교에 다녔나요?"
+   },
+   {
+    "en": "He studies math at university.",
+    "ko": "그는 대학에서 수학을 공부한다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2833,
+  "word": "unless",
+  "pos": [
+   "접속사"
+  ],
+  "meanings": [
+   {
+    "pos": "접속사",
+    "ko": [
+     "~하지 않으면"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "You will be late unless you hurry.",
+    "ko": "서두르지 않으면 너는 늦을 것이다."
+   },
+   {
+    "en": "We won't go unless it stops raining.",
+    "ko": "비가 그치지 않으면 우리는 가지 않을 것이다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2834,
+  "word": "until",
+  "pos": [
+   "전치사",
+   "접속사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~까지"
+    ]
+   },
+   {
+    "pos": "접속사",
+    "ko": [
+     "~할 때까지"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We waited until the bus arrived.",
+    "ko": "우리는 버스가 올 때까지 기다렸다."
+   },
+   {
+    "en": "The store stays open until midnight.",
+    "ko": "그 가게는 자정까지 문을 연다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2835,
+  "word": "up",
+  "pos": [
+   "부사",
+   "전치사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "위로"
+    ]
+   },
+   {
+    "pos": "전치사",
+    "ko": [
+     "~의 위쪽으로"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Cheer up!",
+    "ko": "힘내!"
+   },
+   {
+    "en": "Please stand up now.",
+    "ko": "지금 일어서 주세요."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2836,
+  "word": "update",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "갱신하다",
+     "업데이트하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "최신 정보"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please update your phone number soon.",
+    "ko": "전화번호를 곧 업데이트해 주세요."
+   },
+   {
+    "en": "He gave us a quick update.",
+    "ko": "그는 우리에게 짧은 최신 정보를 알려주었다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2837,
+  "word": "upon",
+  "pos": [
+   "전치사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~위에",
+     "~에"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Once upon a time, there lived a giant.",
+    "ko": "옛날 옛적에 한 거인이 살았다."
+   },
+   {
+    "en": "The decision depends upon your answer.",
+    "ko": "그 결정은 너의 대답에 달려 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2838,
+  "word": "upper",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "위쪽의",
+     "상위의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She lives on the upper floor.",
+    "ko": "그녀는 위층에 산다."
+   },
+   {
+    "en": "He hurt his upper arm.",
+    "ko": "그는 팔 윗부분을 다쳤다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2839,
+  "word": "upset",
+  "pos": [
+   "형용사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "속상한",
+     "화난"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "속상하게 하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She looked very upset after the test.",
+    "ko": "그녀는 시험 후 매우 속상해 보였다."
+   },
+   {
+    "en": "His rude words upset his friend.",
+    "ko": "그의 무례한 말은 친구를 속상하게 했다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2840,
+  "word": "upward",
+  "pos": [
+   "부사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "위쪽으로"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "위쪽의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The balloon slowly floated upward into the sky.",
+    "ko": "풍선은 천천히 하늘 위쪽으로 떠올랐다."
+   },
+   {
+    "en": "Sales showed an upward trend this month.",
+    "ko": "매출은 이번 달 상승 추세를 보였다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2841,
+  "word": "urban",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "도시의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Many people now live in urban areas.",
+    "ko": "많은 사람들이 이제 도시 지역에 산다."
+   },
+   {
+    "en": "The city has serious urban problems.",
+    "ko": "그 도시는 심각한 도시 문제를 가지고 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2842,
+  "word": "urge",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "촉구하다",
+     "재촉하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "충동"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Doctors urge people to sleep more.",
+    "ko": "의사들은 사람들에게 잠을 더 자라고 권한다."
+   },
+   {
+    "en": "She felt a sudden urge to laugh.",
+    "ko": "그녀는 갑자기 웃고 싶은 충동을 느꼈다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2843,
+  "word": "use",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "사용하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "사용"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "You can use my pen.",
+    "ko": "내 펜을 써도 돼."
+   },
+   {
+    "en": "This tool has many uses.",
+    "ko": "이 도구는 쓰임새가 많다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2844,
+  "word": "utilize",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "활용하다",
+     "이용하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We should utilize our free time wisely.",
+    "ko": "우리는 자유 시간을 현명하게 활용해야 한다."
+   },
+   {
+    "en": "The factory utilizes solar energy fully.",
+    "ko": "그 공장은 태양 에너지를 완전히 활용한다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2845,
+  "word": "utter",
+  "pos": [
+   "동사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "말하다",
+     "내뱉다"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "완전한",
+     "순전한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She didn't utter a single word.",
+    "ko": "그녀는 한마디도 하지 않았다."
+   },
+   {
+    "en": "The plan ended in utter failure.",
+    "ko": "그 계획은 완전한 실패로 끝났다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2846,
+  "word": "vacate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "비우다",
+     "떠나다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Guests must vacate the room by noon.",
+    "ko": "손님들은 정오까지 방을 비워야 한다."
+   },
+   {
+    "en": "The tenants vacated the house last month.",
+    "ko": "세입자들은 지난달 그 집을 떠났다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2847,
+  "word": "vaccine",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "백신"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The doctor gave me a flu vaccine.",
+    "ko": "의사는 나에게 독감 백신을 놓아 주었다."
+   },
+   {
+    "en": "Scientists developed a new vaccine quickly.",
+    "ko": "과학자들은 새로운 백신을 빠르게 개발했다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2848,
+  "word": "vacuum",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "진공",
+     "청소기"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "청소기로 청소하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She used a vacuum to clean the rug.",
+    "ko": "그녀는 청소기로 러그를 청소했다."
+   },
+   {
+    "en": "Please vacuum the living room today.",
+    "ko": "오늘 거실을 청소기로 청소해 주세요."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2849,
+  "word": "vague",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "애매한",
+     "모호한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "His answer was too vague to understand.",
+    "ko": "그의 대답은 너무 애매해서 이해하기 어려웠다."
+   },
+   {
+    "en": "She gave a vague description of the man.",
+    "ko": "그녀는 그 남자에 대해 모호한 설명을 했다."
+   }
+  ],
+  "theme": "소통"
+ }
 ]

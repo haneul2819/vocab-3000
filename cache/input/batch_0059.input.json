@@ -1,14 +1,6 @@
 [
  {
   "id": 2901,
-  "word": "wander",
-  "level": "선택",
-  "derived": [],
-  "max_example_words": 15,
-  "fn_example": ""
- },
- {
-  "id": 2902,
   "word": "want",
   "level": "초등",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": "Which movie do you want to see?"
  },
  {
-  "id": 2903,
+  "id": 2902,
   "word": "war",
   "level": "초등",
   "derived": [],
@@ -24,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 2904,
+  "id": 2903,
   "word": "warehouse",
   "level": "선택",
   "derived": [],
@@ -32,7 +24,7 @@
   "fn_example": ""
  },
  {
-  "id": 2905,
+  "id": 2904,
   "word": "warm",
   "level": "초등",
   "derived": [],
@@ -40,7 +32,7 @@
   "fn_example": ""
  },
  {
-  "id": 2906,
+  "id": 2905,
   "word": "warn",
   "level": "중고공통",
   "derived": [],
@@ -48,7 +40,7 @@
   "fn_example": ""
  },
  {
-  "id": 2907,
+  "id": 2906,
   "word": "warrant",
   "level": "선택",
   "derived": [],
@@ -56,7 +48,7 @@
   "fn_example": ""
  },
  {
-  "id": 2908,
+  "id": 2907,
   "word": "wash",
   "level": "초등",
   "derived": [],
@@ -64,7 +56,7 @@
   "fn_example": ""
  },
  {
-  "id": 2909,
+  "id": 2908,
   "word": "waste",
   "level": "중고공통",
   "derived": [],
@@ -72,7 +64,7 @@
   "fn_example": ""
  },
  {
-  "id": 2910,
+  "id": 2909,
   "word": "watch",
   "level": "초등",
   "derived": [],
@@ -80,7 +72,7 @@
   "fn_example": ""
  },
  {
-  "id": 2911,
+  "id": 2910,
   "word": "water",
   "level": "초등",
   "derived": [],
@@ -88,7 +80,7 @@
   "fn_example": ""
  },
  {
-  "id": 2912,
+  "id": 2911,
   "word": "watermelon",
   "level": "초등",
   "derived": [],
@@ -96,7 +88,7 @@
   "fn_example": ""
  },
  {
-  "id": 2913,
+  "id": 2912,
   "word": "wave",
   "level": "중고공통",
   "derived": [],
@@ -104,7 +96,7 @@
   "fn_example": ""
  },
  {
-  "id": 2914,
+  "id": 2913,
   "word": "way",
   "level": "초등",
   "derived": [],
@@ -112,7 +104,7 @@
   "fn_example": "I feel the same way."
  },
  {
-  "id": 2915,
+  "id": 2914,
   "word": "we",
   "level": "초등",
   "derived": [],
@@ -120,7 +112,7 @@
   "fn_example": "We have three cats and one dog."
  },
  {
-  "id": 2916,
+  "id": 2915,
   "word": "weak",
   "level": "중고공통",
   "derived": [],
@@ -128,7 +120,7 @@
   "fn_example": ""
  },
  {
-  "id": 2917,
+  "id": 2916,
   "word": "wealth",
   "level": "선택",
   "derived": [],
@@ -136,7 +128,7 @@
   "fn_example": ""
  },
  {
-  "id": 2918,
+  "id": 2917,
   "word": "weapon",
   "level": "중고공통",
   "derived": [],
@@ -144,7 +136,7 @@
   "fn_example": ""
  },
  {
-  "id": 2919,
+  "id": 2918,
   "word": "wear",
   "level": "초등",
   "derived": [],
@@ -152,7 +144,7 @@
   "fn_example": ""
  },
  {
-  "id": 2920,
+  "id": 2919,
   "word": "weather",
   "level": "초등",
   "derived": [],
@@ -160,7 +152,7 @@
   "fn_example": ""
  },
  {
-  "id": 2921,
+  "id": 2920,
   "word": "weave",
   "level": "선택",
   "derived": [],
@@ -168,7 +160,7 @@
   "fn_example": ""
  },
  {
-  "id": 2922,
+  "id": 2921,
   "word": "website",
   "level": "초등",
   "derived": [],
@@ -176,7 +168,7 @@
   "fn_example": ""
  },
  {
-  "id": 2923,
+  "id": 2922,
   "word": "wedding",
   "level": "초등",
   "derived": [],
@@ -184,7 +176,7 @@
   "fn_example": ""
  },
  {
-  "id": 2924,
+  "id": 2923,
   "word": "weed",
   "level": "선택",
   "derived": [],
@@ -192,7 +184,7 @@
   "fn_example": ""
  },
  {
-  "id": 2925,
+  "id": 2924,
   "word": "week",
   "level": "초등",
   "derived": [],
@@ -200,7 +192,7 @@
   "fn_example": "Last week, I visited Jejudo."
  },
  {
-  "id": 2926,
+  "id": 2925,
   "word": "weekend",
   "level": "초등",
   "derived": [],
@@ -208,7 +200,7 @@
   "fn_example": ""
  },
  {
-  "id": 2927,
+  "id": 2926,
   "word": "weigh",
   "level": "중고공통",
   "derived": [],
@@ -216,7 +208,7 @@
   "fn_example": ""
  },
  {
-  "id": 2928,
+  "id": 2927,
   "word": "weight",
   "level": "초등",
   "derived": [],
@@ -224,7 +216,7 @@
   "fn_example": ""
  },
  {
-  "id": 2929,
+  "id": 2928,
   "word": "weird",
   "level": "선택",
   "derived": [],
@@ -232,7 +224,7 @@
   "fn_example": ""
  },
  {
-  "id": 2930,
+  "id": 2929,
   "word": "welcome",
   "level": "초등",
   "derived": [],
@@ -240,7 +232,7 @@
   "fn_example": "Welcome!"
  },
  {
-  "id": 2931,
+  "id": 2930,
   "word": "welfare",
   "level": "선택",
   "derived": [],
@@ -248,7 +240,7 @@
   "fn_example": ""
  },
  {
-  "id": 2932,
+  "id": 2931,
   "word": "well",
   "level": "초등",
   "derived": [],
@@ -256,7 +248,7 @@
   "fn_example": ""
  },
  {
-  "id": 2933,
+  "id": 2932,
   "word": "west",
   "level": "초등",
   "derived": [],
@@ -264,7 +256,7 @@
   "fn_example": ""
  },
  {
-  "id": 2934,
+  "id": 2933,
   "word": "wet",
   "level": "초등",
   "derived": [],
@@ -272,7 +264,7 @@
   "fn_example": ""
  },
  {
-  "id": 2935,
+  "id": 2934,
   "word": "whale",
   "level": "중고공통",
   "derived": [],
@@ -280,7 +272,7 @@
   "fn_example": ""
  },
  {
-  "id": 2936,
+  "id": 2935,
   "word": "what",
   "level": "초등",
   "derived": [],
@@ -288,7 +280,7 @@
   "fn_example": "What time is it? A quarter to six."
  },
  {
-  "id": 2937,
+  "id": 2936,
   "word": "wheat",
   "level": "선택",
   "derived": [],
@@ -296,7 +288,7 @@
   "fn_example": ""
  },
  {
-  "id": 2938,
+  "id": 2937,
   "word": "wheel",
   "level": "중고공통",
   "derived": [],
@@ -304,7 +296,7 @@
   "fn_example": ""
  },
  {
-  "id": 2939,
+  "id": 2938,
   "word": "when",
   "level": "초등",
   "derived": [],
@@ -312,7 +304,7 @@
   "fn_example": "When did it happen?"
  },
  {
-  "id": 2940,
+  "id": 2939,
   "word": "where",
   "level": "초등",
   "derived": [],
@@ -320,7 +312,7 @@
   "fn_example": "Where did she go to university?"
  },
  {
-  "id": 2941,
+  "id": 2940,
   "word": "whereas",
   "level": "선택",
   "derived": [],
@@ -328,7 +320,7 @@
   "fn_example": ""
  },
  {
-  "id": 2942,
+  "id": 2941,
   "word": "whether",
   "level": "중고공통",
   "derived": [],
@@ -336,7 +328,7 @@
   "fn_example": ""
  },
  {
-  "id": 2943,
+  "id": 2942,
   "word": "which",
   "level": "중고공통",
   "derived": [],
@@ -344,7 +336,7 @@
   "fn_example": "Which movie do you want to see?"
  },
  {
-  "id": 2944,
+  "id": 2943,
   "word": "while",
   "level": "중고공통",
   "derived": [],
@@ -352,7 +344,7 @@
   "fn_example": "Just a moment (while I think)."
  },
  {
-  "id": 2945,
+  "id": 2944,
   "word": "whip",
   "level": "선택",
   "derived": [],
@@ -360,7 +352,7 @@
   "fn_example": ""
  },
  {
-  "id": 2946,
+  "id": 2945,
   "word": "whisper",
   "level": "중고공통",
   "derived": [],
@@ -368,7 +360,7 @@
   "fn_example": ""
  },
  {
-  "id": 2947,
+  "id": 2946,
   "word": "whistle",
   "level": "중고공통",
   "derived": [],
@@ -376,7 +368,7 @@
   "fn_example": ""
  },
  {
-  "id": 2948,
+  "id": 2947,
   "word": "white",
   "level": "초등",
   "derived": [],
@@ -384,7 +376,7 @@
   "fn_example": ""
  },
  {
-  "id": 2949,
+  "id": 2948,
   "word": "who",
   "level": "초등",
   "derived": [],
@@ -392,11 +384,19 @@
   "fn_example": "Who is he?"
  },
  {
-  "id": 2950,
+  "id": 2949,
   "word": "whole",
   "level": "중고공통",
   "derived": [],
   "max_example_words": 12,
   "fn_example": ""
+ },
+ {
+  "id": 2950,
+  "word": "why",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Why are we waiting?"
  }
 ]

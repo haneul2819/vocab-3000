@@ -1,52 +1,1449 @@
 [
- {"id": 2701, "word": "thing", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["것", "물건"]}], "examples": [{"en": "Things will be better (soon).", "ko": "상황이 곧 더 나아질 거야."}, {"en": "I have many things to do.", "ko": "나는 할 일이 많다."}], "theme": "사물"},
- {"id": 2702, "word": "think", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["생각하다"]}], "examples": [{"en": "(I think) you’ve made a mistake.", "ko": "내 생각엔 네가 실수한 것 같아."}, {"en": "I think it's a good idea.", "ko": "나는 그것이 좋은 생각이라고 생각해."}], "theme": "추상"},
- {"id": 2703, "word": "third", "pos": ["수사"], "meanings": [{"pos": "수사", "ko": ["세 번째"]}], "examples": [{"en": "I finished third in the race.", "ko": "나는 경주에서 3등을 했다."}, {"en": "Turn right at the third light.", "ko": "세 번째 신호등에서 우회전하세요."}], "theme": "수량"},
- {"id": 2704, "word": "thirst", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["갈증", "목마름"]}], "examples": [{"en": "I felt great thirst after running.", "ko": "나는 달리고 나서 심한 갈증을 느꼈다."}, {"en": "Water can quench your thirst fast.", "ko": "물은 갈증을 빨리 해소해 줄 수 있다."}], "theme": "신체"},
- {"id": 2705, "word": "thirteen", "pos": ["수사"], "meanings": [{"pos": "수사", "ko": ["13", "열셋"]}], "examples": [{"en": "She is thirteen years old now.", "ko": "그녀는 이제 13살이다."}, {"en": "My sister turned thirteen last week.", "ko": "내 여동생은 지난주에 13살이 되었다."}], "theme": "수량"},
- {"id": 2706, "word": "thirty", "pos": ["수사"], "meanings": [{"pos": "수사", "ko": ["30", "서른"]}], "examples": [{"en": "There are thirty students in class.", "ko": "반에는 학생이 30명 있다."}, {"en": "My uncle is thirty years old.", "ko": "내 삼촌은 30살이다."}], "theme": "수량"},
- {"id": 2707, "word": "this", "pos": ["대명사", "한정사"], "meanings": [{"pos": "대명사", "ko": ["이것"]}, {"pos": "한정사", "ko": ["이"]}], "examples": [{"en": "(No,) this is MY bag.", "ko": "아니, 이건 내 가방이야."}, {"en": "This is my favorite song.", "ko": "이것은 내가 가장 좋아하는 노래야."}], "theme": "일상"},
- {"id": 2708, "word": "thorough", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["철저한", "꼼꼼한"]}], "examples": [{"en": "The doctor gave her a thorough checkup before the trip.", "ko": "의사는 여행 전에 그녀에게 철저한 검진을 해 주었다."}, {"en": "He did a thorough investigation of the accident scene.", "ko": "그는 사고 현장을 철저히 조사했다."}], "theme": "행동"},
- {"id": 2709, "word": "though", "pos": ["접속사", "부사"], "meanings": [{"pos": "접속사", "ko": ["비록 ~이지만"]}, {"pos": "부사", "ko": ["그렇지만"]}], "examples": [{"en": "Though it rained, we went hiking anyway.", "ko": "비가 왔지만 우리는 그래도 하이킹을 갔다."}, {"en": "I like him. I don't trust him, though.", "ko": "난 그를 좋아해. 하지만 믿지는 않아."}], "theme": "소통"},
- {"id": 2710, "word": "thousand", "pos": ["수사", "명사"], "meanings": [{"pos": "수사", "ko": ["천(1000)"]}, {"pos": "명사", "ko": ["천"]}], "examples": [{"en": "About a thousand people came to the concert.", "ko": "약 천 명이 콘서트에 왔다."}, {"en": "The book costs ten thousand won.", "ko": "그 책은 만 원이다."}], "theme": "수량"},
- {"id": 2711, "word": "thread", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["실"]}, {"pos": "동사", "ko": ["실을 꿰다"]}], "examples": [{"en": "She used a needle and thread to fix the shirt.", "ko": "그녀는 바늘과 실로 셔츠를 수선했다."}, {"en": "He threaded the needle carefully in the dim light.", "ko": "그는 어두운 빛 속에서 조심스럽게 바늘에 실을 꿰었다."}], "theme": "사물"},
- {"id": 2712, "word": "threat", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["위협"]}], "examples": [{"en": "Pollution is a threat to our health.", "ko": "오염은 우리 건강에 위협이 된다."}, {"en": "The animal showed no threat to humans.", "ko": "그 동물은 사람에게 아무 위협이 되지 않았다."}], "theme": "사회"},
- {"id": 2713, "word": "three", "pos": ["수사"], "meanings": [{"pos": "수사", "ko": ["셋", "3"]}], "examples": [{"en": "We have three cats and one dog.", "ko": "우리는 고양이 세 마리와 개 한 마리를 키운다."}, {"en": "I woke up at three today.", "ko": "나는 오늘 3시에 일어났다."}], "theme": "수량"},
- {"id": 2714, "word": "thrill", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["짜릿함", "전율"]}, {"pos": "동사", "ko": ["짜릿하게 하다"]}], "examples": [{"en": "Riding the roller coaster gave her a big thrill.", "ko": "롤러코스터를 타는 것은 그녀에게 큰 짜릿함을 주었다."}, {"en": "The exciting movie thrilled the whole audience.", "ko": "그 신나는 영화는 관객 전체를 짜릿하게 했다."}], "theme": "여가"},
- {"id": 2715, "word": "throat", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["목", "목구멍"]}], "examples": [{"en": "My throat hurts when I swallow.", "ko": "삼킬 때 목이 아프다."}, {"en": "She has a sore throat today.", "ko": "그녀는 오늘 목이 아프다."}], "theme": "신체"},
- {"id": 2716, "word": "through", "pos": ["전치사", "부사"], "meanings": [{"pos": "전치사", "ko": ["~을 통해", "~을 지나서"]}, {"pos": "부사", "ko": ["끝까지"]}], "examples": [{"en": "We walked through the park together.", "ko": "우리는 함께 공원을 지나 걸었다."}, {"en": "Light came through the open window.", "ko": "빛이 열린 창문을 통해 들어왔다."}], "theme": "장소"},
- {"id": 2717, "word": "throw", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["던지다"]}], "examples": [{"en": "Can you throw the ball to me?", "ko": "나에게 공을 던져 줄래?"}, {"en": "She always throws trash in the bin.", "ko": "그녀는 항상 쓰레기를 통에 던진다."}], "theme": "행동"},
- {"id": 2718, "word": "thumb", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["엄지손가락"]}], "examples": [{"en": "He hurt his thumb while working.", "ko": "그는 일하다가 엄지손가락을 다쳤다."}, {"en": "She gave a thumbs up for good luck.", "ko": "그녀는 행운을 빌며 엄지를 치켜세웠다."}], "theme": "신체"},
- {"id": 2719, "word": "thus", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["따라서", "이렇게"]}], "examples": [{"en": "It rained hard; thus, the game was canceled.", "ko": "비가 심하게 와서 경기가 취소되었다."}, {"en": "She studied hard and thus passed the exam.", "ko": "그녀는 열심히 공부해서 시험에 합격했다."}], "theme": "추상"},
- {"id": 2720, "word": "tick", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["똑딱거리다"]}, {"pos": "명사", "ko": ["똑딱 소리"]}], "examples": [{"en": "The clock continued to tick loudly all night.", "ko": "시계는 밤새 계속 크게 똑딱거렸다."}, {"en": "I could hear every tick of the clock.", "ko": "나는 시계의 똑딱 소리를 하나하나 들을 수 있었다."}], "theme": "시간"},
- {"id": 2721, "word": "ticket", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["표", "티켓"]}], "examples": [{"en": "I bought a movie ticket.", "ko": "나는 영화표를 샀다."}, {"en": "She lost her train ticket today.", "ko": "그녀는 오늘 기차표를 잃어버렸다."}], "theme": "여가"},
- {"id": 2722, "word": "tide", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["조수", "밀물과 썰물"]}], "examples": [{"en": "The tide comes in twice a day.", "ko": "조수는 하루에 두 번 들어온다."}, {"en": "We watched the tide go out slowly.", "ko": "우리는 밀물이 천천히 빠지는 것을 지켜보았다."}], "theme": "자연"},
- {"id": 2723, "word": "tie", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["묶다", "매다"]}, {"pos": "명사", "ko": ["넥타이"]}], "examples": [{"en": "Please tie your shoes before running.", "ko": "뛰기 전에 신발끈을 묶어라."}, {"en": "He wore a blue tie to the interview.", "ko": "그는 면접에 파란 넥타이를 매고 갔다."}], "theme": "사물"},
- {"id": 2724, "word": "tiger", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["호랑이"]}], "examples": [{"en": "The tiger is a big cat.", "ko": "호랑이는 큰 고양잇과 동물이다."}, {"en": "We saw a tiger today.", "ko": "우리는 오늘 호랑이를 보았다."}], "theme": "동물"},
- {"id": 2725, "word": "tight", "pos": ["형용사", "부사"], "meanings": [{"pos": "형용사", "ko": ["꽉 조이는", "빡빡한"]}, {"pos": "부사", "ko": ["꽉"]}], "examples": [{"en": "These shoes feel too tight for me.", "ko": "이 신발은 나에게 너무 꽉 낀다."}, {"en": "Hold the rope tight with both hands.", "ko": "양손으로 밧줄을 꽉 잡아라."}], "theme": "사물"},
- {"id": 2726, "word": "till", "pos": ["전치사", "접속사"], "meanings": [{"pos": "전치사", "ko": ["~까지"]}, {"pos": "접속사", "ko": ["~할 때까지"]}], "examples": [{"en": "We waited till the rain stopped.", "ko": "우리는 비가 멈출 때까지 기다렸다."}, {"en": "The shop is open till nine.", "ko": "그 가게는 9시까지 연다."}], "theme": "시간"},
- {"id": 2727, "word": "timber", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["목재"]}], "examples": [{"en": "The house was built with strong timber.", "ko": "그 집은 튼튼한 목재로 지어졌다."}, {"en": "Workers cut the timber into planks.", "ko": "인부들은 목재를 판자로 잘랐다."}], "theme": "사물"},
- {"id": 2728, "word": "time", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["시간", "때"]}], "examples": [{"en": "What time is it? A quarter to six.", "ko": "몇 시야? 6시 15분 전이야."}, {"en": "I have no time today.", "ko": "나는 오늘 시간이 없다."}], "theme": "시간"},
- {"id": 2729, "word": "tin", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["주석", "깡통"]}], "examples": [{"en": "She opened a tin of cookies.", "ko": "그녀는 쿠키 깡통을 열었다."}, {"en": "The toy soldier was made of tin.", "ko": "그 장난감 병정은 주석으로 만들어졌다."}], "theme": "사물"},
- {"id": 2730, "word": "tiny", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["아주 작은"]}], "examples": [{"en": "The kitten is so tiny and cute.", "ko": "그 새끼 고양이는 아주 작고 귀엽다."}, {"en": "We live in a tiny apartment.", "ko": "우리는 아주 작은 아파트에 산다."}], "theme": "사물"},
- {"id": 2731, "word": "tip", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["끝", "조언", "팁"]}, {"pos": "동사", "ko": ["기울다", "팁을 주다"]}], "examples": [{"en": "Let me give you a useful tip.", "ko": "유용한 조언을 하나 해 줄게."}, {"en": "The waiter received a nice tip.", "ko": "웨이터는 좋은 팁을 받았다."}], "theme": "소통"},
- {"id": 2732, "word": "tire", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["타이어"]}, {"pos": "동사", "ko": ["지치다"]}], "examples": [{"en": "The car has a flat tire.", "ko": "그 차는 타이어가 펑크 났다."}, {"en": "Long walks always tire my legs.", "ko": "오래 걸으면 항상 다리가 지친다."}], "theme": "교통"},
- {"id": 2733, "word": "tissue", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["화장지", "티슈"]}], "examples": [{"en": "She wiped her nose with a tissue.", "ko": "그녀는 티슈로 코를 닦았다."}, {"en": "Please pass me a tissue box.", "ko": "티슈 상자를 좀 건네주세요."}], "theme": "사물"},
- {"id": 2734, "word": "title", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["제목", "직함"]}], "examples": [{"en": "What is the title of this book?", "ko": "이 책의 제목이 무엇인가요?"}, {"en": "She earned the title of manager.", "ko": "그녀는 매니저라는 직함을 얻었다."}], "theme": "학교"},
- {"id": 2735, "word": "to", "pos": ["전치사"], "meanings": [{"pos": "전치사", "ko": ["~에게", "~로"]}], "examples": [{"en": "He goes to school at 8:30.", "ko": "그는 8시 30분에 학교에 간다."}, {"en": "I want to go home.", "ko": "나는 집에 가고 싶다."}], "theme": "장소"},
- {"id": 2736, "word": "toast", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["토스트"]}, {"pos": "동사", "ko": ["건배하다", "굽다"]}], "examples": [{"en": "I had toast and jam for breakfast.", "ko": "나는 아침으로 토스트와 잼을 먹었다."}, {"en": "They raised their glasses to toast the couple.", "ko": "그들은 그 커플을 위해 건배하려고 잔을 들었다."}], "theme": "음식"},
- {"id": 2737, "word": "today", "pos": ["부사", "명사"], "meanings": [{"pos": "부사", "ko": ["오늘"]}, {"pos": "명사", "ko": ["오늘"]}], "examples": [{"en": "How are you (today)?", "ko": "오늘 어때?"}, {"en": "I feel great today.", "ko": "나는 오늘 기분이 아주 좋다."}], "theme": "시간"},
- {"id": 2738, "word": "toe", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["발가락"]}], "examples": [{"en": "I stubbed my toe on the door.", "ko": "나는 문에 발가락을 부딪혔다."}, {"en": "She painted her toes bright pink.", "ko": "그녀는 발가락을 밝은 분홍색으로 칠했다."}], "theme": "신체"},
- {"id": 2739, "word": "together", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["함께"]}], "examples": [{"en": "We play together every day.", "ko": "우리는 매일 함께 논다."}, {"en": "Let's study together after school.", "ko": "방과 후에 같이 공부하자."}], "theme": "일상"},
- {"id": 2740, "word": "toilet", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["화장실", "변기"]}], "examples": [{"en": "May I use the toilet, please?", "ko": "화장실 좀 써도 될까요?"}, {"en": "He cleaned the toilet this morning.", "ko": "그는 오늘 아침에 화장실을 청소했다."}], "theme": "장소"},
- {"id": 2741, "word": "tomato", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["토마토"]}], "examples": [{"en": "I like fresh tomato salad.", "ko": "나는 신선한 토마토 샐러드를 좋아한다."}, {"en": "She grew a big tomato.", "ko": "그녀는 큰 토마토를 길렀다."}], "theme": "음식"},
- {"id": 2742, "word": "tomorrow", "pos": ["명사", "부사"], "meanings": [{"pos": "부사", "ko": ["내일"]}, {"pos": "명사", "ko": ["내일"]}], "examples": [{"en": "See you again tomorrow.", "ko": "내일 또 보자."}, {"en": "We have a test tomorrow.", "ko": "우리는 내일 시험이 있다."}], "theme": "시간"},
- {"id": 2743, "word": "tone", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["어조", "음색"]}], "examples": [{"en": "She spoke in a calm tone.", "ko": "그녀는 차분한 어조로 말했다."}, {"en": "His angry tone scared the kids.", "ko": "그의 화난 어조는 아이들을 무섭게 했다."}], "theme": "소통"},
- {"id": 2744, "word": "tongue", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["혀"]}], "examples": [{"en": "The dog licked his tongue happily.", "ko": "그 개는 행복하게 혀를 핥았다."}, {"en": "She burned her tongue on hot soup.", "ko": "그녀는 뜨거운 국에 혀를 데었다."}], "theme": "신체"},
- {"id": 2745, "word": "tonight", "pos": ["부사", "명사"], "meanings": [{"pos": "부사", "ko": ["오늘 밤"]}, {"pos": "명사", "ko": ["오늘 밤"]}], "examples": [{"en": "Let's watch a movie tonight.", "ko": "오늘 밤에 영화 보자."}, {"en": "I am busy tonight.", "ko": "나는 오늘 밤 바쁘다."}], "theme": "시간"},
- {"id": 2746, "word": "too", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["또한", "너무"]}], "examples": [{"en": "Me, too.", "ko": "나도."}, {"en": "This bag is too heavy.", "ko": "이 가방은 너무 무겁다."}], "theme": "일상"},
- {"id": 2747, "word": "tool", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["도구"]}], "examples": [{"en": "A hammer is a useful tool.", "ko": "망치는 유용한 도구다."}, {"en": "He fixed the bike with a tool.", "ko": "그는 도구로 자전거를 고쳤다."}], "theme": "사물"},
- {"id": 2748, "word": "tooth", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["이", "치아"]}], "examples": [{"en": "I lost a tooth today.", "ko": "나는 오늘 이가 하나 빠졌다."}, {"en": "This tooth hurts a lot.", "ko": "이 이가 많이 아프다."}], "theme": "신체"},
- {"id": 2749, "word": "top", "pos": ["명사", "형용사"], "meanings": [{"pos": "명사", "ko": ["꼭대기", "맨 위"]}, {"pos": "형용사", "ko": ["맨 위의"]}], "examples": [{"en": "We reached the top of hill.", "ko": "우리는 언덕 꼭대기에 도착했다."}, {"en": "Put the book on top.", "ko": "책을 맨 위에 놓아라."}], "theme": "장소"},
- {"id": 2750, "word": "topic", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["주제"]}], "examples": [{"en": "Let's choose a topic for the essay.", "ko": "에세이 주제를 하나 고르자."}, {"en": "The topic of today's class is science.", "ko": "오늘 수업의 주제는 과학이다."}], "theme": "학교"}
+ {
+  "id": 2700,
+  "word": "thing",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "것",
+     "물건"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Things will be better (soon).",
+    "ko": "상황이 곧 더 나아질 거야."
+   },
+   {
+    "en": "I have many things to do.",
+    "ko": "나는 할 일이 많다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2701,
+  "word": "think",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "생각하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "(I think) you’ve made a mistake.",
+    "ko": "내 생각엔 네가 실수한 것 같아."
+   },
+   {
+    "en": "I think it's a good idea.",
+    "ko": "나는 그것이 좋은 생각이라고 생각해."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2702,
+  "word": "third",
+  "pos": [
+   "수사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "세 번째"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I finished third in the race.",
+    "ko": "나는 경주에서 3등을 했다."
+   },
+   {
+    "en": "Turn right at the third light.",
+    "ko": "세 번째 신호등에서 우회전하세요."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2703,
+  "word": "thirst",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "갈증",
+     "목마름"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I felt great thirst after running.",
+    "ko": "나는 달리고 나서 심한 갈증을 느꼈다."
+   },
+   {
+    "en": "Water can quench your thirst fast.",
+    "ko": "물은 갈증을 빨리 해소해 줄 수 있다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2704,
+  "word": "thirteen",
+  "pos": [
+   "수사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "13",
+     "열셋"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She is thirteen years old now.",
+    "ko": "그녀는 이제 13살이다."
+   },
+   {
+    "en": "My sister turned thirteen last week.",
+    "ko": "내 여동생은 지난주에 13살이 되었다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2705,
+  "word": "thirty",
+  "pos": [
+   "수사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "30",
+     "서른"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "There are thirty students in class.",
+    "ko": "반에는 학생이 30명 있다."
+   },
+   {
+    "en": "My uncle is thirty years old.",
+    "ko": "내 삼촌은 30살이다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2706,
+  "word": "this",
+  "pos": [
+   "대명사",
+   "한정사"
+  ],
+  "meanings": [
+   {
+    "pos": "대명사",
+    "ko": [
+     "이것"
+    ]
+   },
+   {
+    "pos": "한정사",
+    "ko": [
+     "이"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "(No,) this is MY bag.",
+    "ko": "아니, 이건 내 가방이야."
+   },
+   {
+    "en": "This is my favorite song.",
+    "ko": "이것은 내가 가장 좋아하는 노래야."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2707,
+  "word": "thorough",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "철저한",
+     "꼼꼼한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The doctor gave her a thorough checkup before the trip.",
+    "ko": "의사는 여행 전에 그녀에게 철저한 검진을 해 주었다."
+   },
+   {
+    "en": "He did a thorough investigation of the accident scene.",
+    "ko": "그는 사고 현장을 철저히 조사했다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2708,
+  "word": "though",
+  "pos": [
+   "접속사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "접속사",
+    "ko": [
+     "비록 ~이지만"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "그렇지만"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Though it rained, we went hiking anyway.",
+    "ko": "비가 왔지만 우리는 그래도 하이킹을 갔다."
+   },
+   {
+    "en": "I like him. I don't trust him, though.",
+    "ko": "난 그를 좋아해. 하지만 믿지는 않아."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2709,
+  "word": "thousand",
+  "pos": [
+   "수사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "천(1000)"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "천"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "About a thousand people came to the concert.",
+    "ko": "약 천 명이 콘서트에 왔다."
+   },
+   {
+    "en": "The book costs ten thousand won.",
+    "ko": "그 책은 만 원이다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2710,
+  "word": "thread",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "실"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "실을 꿰다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She used a needle and thread to fix the shirt.",
+    "ko": "그녀는 바늘과 실로 셔츠를 수선했다."
+   },
+   {
+    "en": "He threaded the needle carefully in the dim light.",
+    "ko": "그는 어두운 빛 속에서 조심스럽게 바늘에 실을 꿰었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2711,
+  "word": "threat",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "위협"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Pollution is a threat to our health.",
+    "ko": "오염은 우리 건강에 위협이 된다."
+   },
+   {
+    "en": "The animal showed no threat to humans.",
+    "ko": "그 동물은 사람에게 아무 위협이 되지 않았다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2712,
+  "word": "three",
+  "pos": [
+   "수사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "셋",
+     "3"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We have three cats and one dog.",
+    "ko": "우리는 고양이 세 마리와 개 한 마리를 키운다."
+   },
+   {
+    "en": "I woke up at three today.",
+    "ko": "나는 오늘 3시에 일어났다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2713,
+  "word": "thrill",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "짜릿함",
+     "전율"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "짜릿하게 하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Riding the roller coaster gave her a big thrill.",
+    "ko": "롤러코스터를 타는 것은 그녀에게 큰 짜릿함을 주었다."
+   },
+   {
+    "en": "The exciting movie thrilled the whole audience.",
+    "ko": "그 신나는 영화는 관객 전체를 짜릿하게 했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2714,
+  "word": "throat",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "목",
+     "목구멍"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My throat hurts when I swallow.",
+    "ko": "삼킬 때 목이 아프다."
+   },
+   {
+    "en": "She has a sore throat today.",
+    "ko": "그녀는 오늘 목이 아프다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2715,
+  "word": "through",
+  "pos": [
+   "전치사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~을 통해",
+     "~을 지나서"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "끝까지"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We walked through the park together.",
+    "ko": "우리는 함께 공원을 지나 걸었다."
+   },
+   {
+    "en": "Light came through the open window.",
+    "ko": "빛이 열린 창문을 통해 들어왔다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2716,
+  "word": "throw",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "던지다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Can you throw the ball to me?",
+    "ko": "나에게 공을 던져 줄래?"
+   },
+   {
+    "en": "She always throws trash in the bin.",
+    "ko": "그녀는 항상 쓰레기를 통에 던진다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2717,
+  "word": "thumb",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "엄지손가락"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He hurt his thumb while working.",
+    "ko": "그는 일하다가 엄지손가락을 다쳤다."
+   },
+   {
+    "en": "She gave a thumbs up for good luck.",
+    "ko": "그녀는 행운을 빌며 엄지를 치켜세웠다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2718,
+  "word": "thus",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "따라서",
+     "이렇게"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It rained hard; thus, the game was canceled.",
+    "ko": "비가 심하게 와서 경기가 취소되었다."
+   },
+   {
+    "en": "She studied hard and thus passed the exam.",
+    "ko": "그녀는 열심히 공부해서 시험에 합격했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2719,
+  "word": "tick",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "똑딱거리다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "똑딱 소리"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The clock continued to tick loudly all night.",
+    "ko": "시계는 밤새 계속 크게 똑딱거렸다."
+   },
+   {
+    "en": "I could hear every tick of the clock.",
+    "ko": "나는 시계의 똑딱 소리를 하나하나 들을 수 있었다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2720,
+  "word": "ticket",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "표",
+     "티켓"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I bought a movie ticket.",
+    "ko": "나는 영화표를 샀다."
+   },
+   {
+    "en": "She lost her train ticket today.",
+    "ko": "그녀는 오늘 기차표를 잃어버렸다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2721,
+  "word": "tide",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "조수",
+     "밀물과 썰물"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The tide comes in twice a day.",
+    "ko": "조수는 하루에 두 번 들어온다."
+   },
+   {
+    "en": "We watched the tide go out slowly.",
+    "ko": "우리는 밀물이 천천히 빠지는 것을 지켜보았다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2722,
+  "word": "tie",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "묶다",
+     "매다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "넥타이"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please tie your shoes before running.",
+    "ko": "뛰기 전에 신발끈을 묶어라."
+   },
+   {
+    "en": "He wore a blue tie to the interview.",
+    "ko": "그는 면접에 파란 넥타이를 매고 갔다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2723,
+  "word": "tiger",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "호랑이"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The tiger is a big cat.",
+    "ko": "호랑이는 큰 고양잇과 동물이다."
+   },
+   {
+    "en": "We saw a tiger today.",
+    "ko": "우리는 오늘 호랑이를 보았다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 2724,
+  "word": "tight",
+  "pos": [
+   "형용사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "꽉 조이는",
+     "빡빡한"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "꽉"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "These shoes feel too tight for me.",
+    "ko": "이 신발은 나에게 너무 꽉 낀다."
+   },
+   {
+    "en": "Hold the rope tight with both hands.",
+    "ko": "양손으로 밧줄을 꽉 잡아라."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2725,
+  "word": "till",
+  "pos": [
+   "전치사",
+   "접속사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~까지"
+    ]
+   },
+   {
+    "pos": "접속사",
+    "ko": [
+     "~할 때까지"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We waited till the rain stopped.",
+    "ko": "우리는 비가 멈출 때까지 기다렸다."
+   },
+   {
+    "en": "The shop is open till nine.",
+    "ko": "그 가게는 9시까지 연다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2726,
+  "word": "timber",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "목재"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The house was built with strong timber.",
+    "ko": "그 집은 튼튼한 목재로 지어졌다."
+   },
+   {
+    "en": "Workers cut the timber into planks.",
+    "ko": "인부들은 목재를 판자로 잘랐다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2727,
+  "word": "time",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "시간",
+     "때"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "What time is it? A quarter to six.",
+    "ko": "몇 시야? 6시 15분 전이야."
+   },
+   {
+    "en": "I have no time today.",
+    "ko": "나는 오늘 시간이 없다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2728,
+  "word": "tin",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "주석",
+     "깡통"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She opened a tin of cookies.",
+    "ko": "그녀는 쿠키 깡통을 열었다."
+   },
+   {
+    "en": "The toy soldier was made of tin.",
+    "ko": "그 장난감 병정은 주석으로 만들어졌다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2729,
+  "word": "tiny",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "아주 작은"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The kitten is so tiny and cute.",
+    "ko": "그 새끼 고양이는 아주 작고 귀엽다."
+   },
+   {
+    "en": "We live in a tiny apartment.",
+    "ko": "우리는 아주 작은 아파트에 산다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2730,
+  "word": "tip",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "끝",
+     "조언",
+     "팁"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "기울다",
+     "팁을 주다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Let me give you a useful tip.",
+    "ko": "유용한 조언을 하나 해 줄게."
+   },
+   {
+    "en": "The waiter received a nice tip.",
+    "ko": "웨이터는 좋은 팁을 받았다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2731,
+  "word": "tire",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "타이어"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "지치다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The car has a flat tire.",
+    "ko": "그 차는 타이어가 펑크 났다."
+   },
+   {
+    "en": "Long walks always tire my legs.",
+    "ko": "오래 걸으면 항상 다리가 지친다."
+   }
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 2732,
+  "word": "tissue",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "화장지",
+     "티슈"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She wiped her nose with a tissue.",
+    "ko": "그녀는 티슈로 코를 닦았다."
+   },
+   {
+    "en": "Please pass me a tissue box.",
+    "ko": "티슈 상자를 좀 건네주세요."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2733,
+  "word": "title",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "제목",
+     "직함"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "What is the title of this book?",
+    "ko": "이 책의 제목이 무엇인가요?"
+   },
+   {
+    "en": "She earned the title of manager.",
+    "ko": "그녀는 매니저라는 직함을 얻었다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2734,
+  "word": "to",
+  "pos": [
+   "전치사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~에게",
+     "~로"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He goes to school at 8:30.",
+    "ko": "그는 8시 30분에 학교에 간다."
+   },
+   {
+    "en": "I want to go home.",
+    "ko": "나는 집에 가고 싶다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2735,
+  "word": "toast",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "토스트"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "건배하다",
+     "굽다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I had toast and jam for breakfast.",
+    "ko": "나는 아침으로 토스트와 잼을 먹었다."
+   },
+   {
+    "en": "They raised their glasses to toast the couple.",
+    "ko": "그들은 그 커플을 위해 건배하려고 잔을 들었다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2736,
+  "word": "today",
+  "pos": [
+   "부사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "오늘"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "오늘"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "How are you (today)?",
+    "ko": "오늘 어때?"
+   },
+   {
+    "en": "I feel great today.",
+    "ko": "나는 오늘 기분이 아주 좋다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2737,
+  "word": "toe",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "발가락"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I stubbed my toe on the door.",
+    "ko": "나는 문에 발가락을 부딪혔다."
+   },
+   {
+    "en": "She painted her toes bright pink.",
+    "ko": "그녀는 발가락을 밝은 분홍색으로 칠했다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2738,
+  "word": "together",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "함께"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We play together every day.",
+    "ko": "우리는 매일 함께 논다."
+   },
+   {
+    "en": "Let's study together after school.",
+    "ko": "방과 후에 같이 공부하자."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2739,
+  "word": "toilet",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "화장실",
+     "변기"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "May I use the toilet, please?",
+    "ko": "화장실 좀 써도 될까요?"
+   },
+   {
+    "en": "He cleaned the toilet this morning.",
+    "ko": "그는 오늘 아침에 화장실을 청소했다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2740,
+  "word": "tomato",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "토마토"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I like fresh tomato salad.",
+    "ko": "나는 신선한 토마토 샐러드를 좋아한다."
+   },
+   {
+    "en": "She grew a big tomato.",
+    "ko": "그녀는 큰 토마토를 길렀다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2741,
+  "word": "tomorrow",
+  "pos": [
+   "명사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "내일"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "내일"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "See you again tomorrow.",
+    "ko": "내일 또 보자."
+   },
+   {
+    "en": "We have a test tomorrow.",
+    "ko": "우리는 내일 시험이 있다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2742,
+  "word": "tone",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "어조",
+     "음색"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She spoke in a calm tone.",
+    "ko": "그녀는 차분한 어조로 말했다."
+   },
+   {
+    "en": "His angry tone scared the kids.",
+    "ko": "그의 화난 어조는 아이들을 무섭게 했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2743,
+  "word": "tongue",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "혀"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The dog licked his tongue happily.",
+    "ko": "그 개는 행복하게 혀를 핥았다."
+   },
+   {
+    "en": "She burned her tongue on hot soup.",
+    "ko": "그녀는 뜨거운 국에 혀를 데었다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2744,
+  "word": "tonight",
+  "pos": [
+   "부사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "오늘 밤"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "오늘 밤"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Let's watch a movie tonight.",
+    "ko": "오늘 밤에 영화 보자."
+   },
+   {
+    "en": "I am busy tonight.",
+    "ko": "나는 오늘 밤 바쁘다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2745,
+  "word": "too",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "또한",
+     "너무"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Me, too.",
+    "ko": "나도."
+   },
+   {
+    "en": "This bag is too heavy.",
+    "ko": "이 가방은 너무 무겁다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2746,
+  "word": "tool",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "도구"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "A hammer is a useful tool.",
+    "ko": "망치는 유용한 도구다."
+   },
+   {
+    "en": "He fixed the bike with a tool.",
+    "ko": "그는 도구로 자전거를 고쳤다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2747,
+  "word": "tooth",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "이",
+     "치아"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I lost a tooth today.",
+    "ko": "나는 오늘 이가 하나 빠졌다."
+   },
+   {
+    "en": "This tooth hurts a lot.",
+    "ko": "이 이가 많이 아프다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2748,
+  "word": "top",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "꼭대기",
+     "맨 위"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "맨 위의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We reached the top of hill.",
+    "ko": "우리는 언덕 꼭대기에 도착했다."
+   },
+   {
+    "en": "Put the book on top.",
+    "ko": "책을 맨 위에 놓아라."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2749,
+  "word": "topic",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "주제"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Let's choose a topic for the essay.",
+    "ko": "에세이 주제를 하나 고르자."
+   },
+   {
+    "en": "The topic of today's class is science.",
+    "ko": "오늘 수업의 주제는 과학이다."
+   }
+  ],
+  "theme": "학교"
+ }
 ]

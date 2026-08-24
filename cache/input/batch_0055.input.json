@@ -1,14 +1,6 @@
 [
  {
   "id": 2701,
-  "word": "thing",
-  "level": "초등",
-  "derived": [],
-  "max_example_words": 6,
-  "fn_example": "Things will be better (soon)."
- },
- {
-  "id": 2702,
   "word": "think",
   "level": "초등",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": "(I think) you’ve made a mistake."
  },
  {
-  "id": 2703,
+  "id": 2702,
   "word": "third",
   "level": "초등",
   "derived": [],
@@ -24,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 2704,
+  "id": 2703,
   "word": "thirst",
   "level": "초등",
   "derived": [],
@@ -32,7 +24,7 @@
   "fn_example": ""
  },
  {
-  "id": 2705,
+  "id": 2704,
   "word": "thirteen",
   "level": "초등",
   "derived": [],
@@ -40,7 +32,7 @@
   "fn_example": ""
  },
  {
-  "id": 2706,
+  "id": 2705,
   "word": "thirty",
   "level": "초등",
   "derived": [],
@@ -48,7 +40,7 @@
   "fn_example": ""
  },
  {
-  "id": 2707,
+  "id": 2706,
   "word": "this",
   "level": "초등",
   "derived": [],
@@ -56,7 +48,7 @@
   "fn_example": "(No,) this is MY bag."
  },
  {
-  "id": 2708,
+  "id": 2707,
   "word": "thorough",
   "level": "선택",
   "derived": [],
@@ -64,7 +56,7 @@
   "fn_example": ""
  },
  {
-  "id": 2709,
+  "id": 2708,
   "word": "though",
   "level": "중고공통",
   "derived": [],
@@ -72,7 +64,7 @@
   "fn_example": ""
  },
  {
-  "id": 2710,
+  "id": 2709,
   "word": "thousand",
   "level": "중고공통",
   "derived": [],
@@ -80,7 +72,7 @@
   "fn_example": ""
  },
  {
-  "id": 2711,
+  "id": 2710,
   "word": "thread",
   "level": "선택",
   "derived": [],
@@ -88,7 +80,7 @@
   "fn_example": ""
  },
  {
-  "id": 2712,
+  "id": 2711,
   "word": "threat",
   "level": "중고공통",
   "derived": [],
@@ -96,7 +88,7 @@
   "fn_example": ""
  },
  {
-  "id": 2713,
+  "id": 2712,
   "word": "three",
   "level": "초등",
   "derived": [],
@@ -104,7 +96,7 @@
   "fn_example": "We have three cats and one dog."
  },
  {
-  "id": 2714,
+  "id": 2713,
   "word": "thrill",
   "level": "선택",
   "derived": [],
@@ -112,7 +104,7 @@
   "fn_example": ""
  },
  {
-  "id": 2715,
+  "id": 2714,
   "word": "throat",
   "level": "중고공통",
   "derived": [],
@@ -120,7 +112,7 @@
   "fn_example": ""
  },
  {
-  "id": 2716,
+  "id": 2715,
   "word": "through",
   "level": "중고공통",
   "derived": [],
@@ -128,7 +120,7 @@
   "fn_example": ""
  },
  {
-  "id": 2717,
+  "id": 2716,
   "word": "throw",
   "level": "중고공통",
   "derived": [],
@@ -136,7 +128,7 @@
   "fn_example": ""
  },
  {
-  "id": 2718,
+  "id": 2717,
   "word": "thumb",
   "level": "선택",
   "derived": [],
@@ -144,7 +136,7 @@
   "fn_example": ""
  },
  {
-  "id": 2719,
+  "id": 2718,
   "word": "thus",
   "level": "중고공통",
   "derived": [],
@@ -152,7 +144,7 @@
   "fn_example": ""
  },
  {
-  "id": 2720,
+  "id": 2719,
   "word": "tick",
   "level": "선택",
   "derived": [],
@@ -160,7 +152,7 @@
   "fn_example": ""
  },
  {
-  "id": 2721,
+  "id": 2720,
   "word": "ticket",
   "level": "초등",
   "derived": [],
@@ -168,7 +160,7 @@
   "fn_example": ""
  },
  {
-  "id": 2722,
+  "id": 2721,
   "word": "tide",
   "level": "중고공통",
   "derived": [
@@ -178,7 +170,7 @@
   "fn_example": ""
  },
  {
-  "id": 2723,
+  "id": 2722,
   "word": "tie",
   "level": "중고공통",
   "derived": [],
@@ -186,7 +178,7 @@
   "fn_example": ""
  },
  {
-  "id": 2724,
+  "id": 2723,
   "word": "tiger",
   "level": "초등",
   "derived": [],
@@ -194,7 +186,7 @@
   "fn_example": ""
  },
  {
-  "id": 2725,
+  "id": 2724,
   "word": "tight",
   "level": "중고공통",
   "derived": [],
@@ -202,7 +194,7 @@
   "fn_example": ""
  },
  {
-  "id": 2726,
+  "id": 2725,
   "word": "till",
   "level": "중고공통",
   "derived": [],
@@ -210,7 +202,7 @@
   "fn_example": ""
  },
  {
-  "id": 2727,
+  "id": 2726,
   "word": "timber",
   "level": "선택",
   "derived": [],
@@ -218,7 +210,7 @@
   "fn_example": ""
  },
  {
-  "id": 2728,
+  "id": 2727,
   "word": "time",
   "level": "초등",
   "derived": [],
@@ -226,7 +218,7 @@
   "fn_example": "What time is it? A quarter to six."
  },
  {
-  "id": 2729,
+  "id": 2728,
   "word": "tin",
   "level": "중고공통",
   "derived": [],
@@ -234,7 +226,7 @@
   "fn_example": ""
  },
  {
-  "id": 2730,
+  "id": 2729,
   "word": "tiny",
   "level": "중고공통",
   "derived": [],
@@ -242,7 +234,7 @@
   "fn_example": ""
  },
  {
-  "id": 2731,
+  "id": 2730,
   "word": "tip",
   "level": "중고공통",
   "derived": [],
@@ -250,7 +242,7 @@
   "fn_example": ""
  },
  {
-  "id": 2732,
+  "id": 2731,
   "word": "tire",
   "level": "초등",
   "derived": [
@@ -260,7 +252,7 @@
   "fn_example": ""
  },
  {
-  "id": 2733,
+  "id": 2732,
   "word": "tissue",
   "level": "선택",
   "derived": [],
@@ -268,7 +260,7 @@
   "fn_example": ""
  },
  {
-  "id": 2734,
+  "id": 2733,
   "word": "title",
   "level": "중고공통",
   "derived": [
@@ -278,7 +270,7 @@
   "fn_example": ""
  },
  {
-  "id": 2735,
+  "id": 2734,
   "word": "to",
   "level": "초등",
   "derived": [],
@@ -286,7 +278,7 @@
   "fn_example": "He goes to school at 8:30."
  },
  {
-  "id": 2736,
+  "id": 2735,
   "word": "toast",
   "level": "중고공통",
   "derived": [],
@@ -294,7 +286,7 @@
   "fn_example": ""
  },
  {
-  "id": 2737,
+  "id": 2736,
   "word": "today",
   "level": "초등",
   "derived": [],
@@ -302,7 +294,7 @@
   "fn_example": "How are you (today)?"
  },
  {
-  "id": 2738,
+  "id": 2737,
   "word": "toe",
   "level": "중고공통",
   "derived": [],
@@ -310,7 +302,7 @@
   "fn_example": ""
  },
  {
-  "id": 2739,
+  "id": 2738,
   "word": "together",
   "level": "초등",
   "derived": [],
@@ -318,7 +310,7 @@
   "fn_example": ""
  },
  {
-  "id": 2740,
+  "id": 2739,
   "word": "toilet",
   "level": "중고공통",
   "derived": [],
@@ -326,7 +318,7 @@
   "fn_example": ""
  },
  {
-  "id": 2741,
+  "id": 2740,
   "word": "tomato",
   "level": "초등",
   "derived": [],
@@ -334,7 +326,7 @@
   "fn_example": ""
  },
  {
-  "id": 2742,
+  "id": 2741,
   "word": "tomorrow",
   "level": "초등",
   "derived": [],
@@ -342,7 +334,7 @@
   "fn_example": ""
  },
  {
-  "id": 2743,
+  "id": 2742,
   "word": "tone",
   "level": "중고공통",
   "derived": [],
@@ -350,7 +342,7 @@
   "fn_example": ""
  },
  {
-  "id": 2744,
+  "id": 2743,
   "word": "tongue",
   "level": "중고공통",
   "derived": [],
@@ -358,7 +350,7 @@
   "fn_example": ""
  },
  {
-  "id": 2745,
+  "id": 2744,
   "word": "tonight",
   "level": "초등",
   "derived": [],
@@ -366,7 +358,7 @@
   "fn_example": ""
  },
  {
-  "id": 2746,
+  "id": 2745,
   "word": "too",
   "level": "초등",
   "derived": [],
@@ -374,7 +366,7 @@
   "fn_example": "Me, too."
  },
  {
-  "id": 2747,
+  "id": 2746,
   "word": "tool",
   "level": "중고공통",
   "derived": [],
@@ -382,7 +374,7 @@
   "fn_example": ""
  },
  {
-  "id": 2748,
+  "id": 2747,
   "word": "tooth",
   "level": "초등",
   "derived": [],
@@ -390,7 +382,7 @@
   "fn_example": ""
  },
  {
-  "id": 2749,
+  "id": 2748,
   "word": "top",
   "level": "초등",
   "derived": [],
@@ -398,11 +390,19 @@
   "fn_example": ""
  },
  {
-  "id": 2750,
+  "id": 2749,
   "word": "topic",
   "level": "중고공통",
   "derived": [],
   "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2750,
+  "word": "torture",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
   "fn_example": ""
  }
 ]

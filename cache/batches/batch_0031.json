@@ -2,604 +2,1452 @@
  {
   "id": 1501,
   "word": "kind",
-  "pos": ["형용사", "명사"],
+  "pos": [
+   "형용사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "형용사", "ko": ["친절한", "다정한"]},
-   {"pos": "명사", "ko": ["종류", "부류"]}
+   {
+    "pos": "형용사",
+    "ko": [
+     "친절한",
+     "다정한"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "종류",
+     "부류"
+    ]
+   }
   ],
   "examples": [
-   {"en": "She is very kind.", "ko": "그녀는 매우 친절하다."},
-   {"en": "This is a kind of fruit.", "ko": "이것은 과일의 한 종류이다."}
+   {
+    "en": "She is very kind.",
+    "ko": "그녀는 매우 친절하다."
+   },
+   {
+    "en": "This is a kind of fruit.",
+    "ko": "이것은 과일의 한 종류이다."
+   }
   ],
   "theme": "추상"
  },
  {
   "id": 1502,
   "word": "king",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["왕", "임금"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "왕",
+     "임금"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The king lives in a castle.", "ko": "왕은 성에 산다."},
-   {"en": "He wants to be a king.", "ko": "그는 왕이 되고 싶어 한다."}
+   {
+    "en": "The king lives in a castle.",
+    "ko": "왕은 성에 산다."
+   },
+   {
+    "en": "He wants to be a king.",
+    "ko": "그는 왕이 되고 싶어 한다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 1503,
   "word": "kiss",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["입맞추다", "뽀뽀하다"]},
-   {"pos": "명사", "ko": ["입맞춤", "뽀뽀"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "입맞추다",
+     "뽀뽀하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "입맞춤",
+     "뽀뽀"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Mom gave me a kiss.", "ko": "엄마가 나에게 뽀뽀해 주었다."},
-   {"en": "They kissed and said goodbye.", "ko": "그들은 뽀뽀하고 작별 인사를 했다."}
+   {
+    "en": "Mom gave me a kiss.",
+    "ko": "엄마가 나에게 뽀뽀해 주었다."
+   },
+   {
+    "en": "They kissed and said goodbye.",
+    "ko": "그들은 뽀뽀하고 작별 인사를 했다."
+   }
   ],
   "theme": "행동"
  },
  {
   "id": 1504,
   "word": "kit",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["도구 세트", "키트"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "도구 세트",
+     "키트"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "She bought a first-aid kit for the trip.", "ko": "그녀는 여행을 위해 구급상자를 샀다."},
-   {"en": "The model airplane kit was fun to build.", "ko": "그 모형 비행기 키트는 조립하기 재미있었다."}
+   {
+    "en": "She bought a first-aid kit for the trip.",
+    "ko": "그녀는 여행을 위해 구급상자를 샀다."
+   },
+   {
+    "en": "The model airplane kit was fun to build.",
+    "ko": "그 모형 비행기 키트는 조립하기 재미있었다."
+   }
   ],
   "theme": "사물"
  },
  {
   "id": 1505,
   "word": "kitchen",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["부엌", "주방"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "부엌",
+     "주방"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "My mom is in the kitchen.", "ko": "엄마는 부엌에 계신다."},
-   {"en": "We cook dinner in the kitchen.", "ko": "우리는 부엌에서 저녁을 요리한다."}
+   {
+    "en": "My mom is in the kitchen.",
+    "ko": "엄마는 부엌에 계신다."
+   },
+   {
+    "en": "We cook dinner in the kitchen.",
+    "ko": "우리는 부엌에서 저녁을 요리한다."
+   }
   ],
   "theme": "장소"
  },
  {
   "id": 1506,
   "word": "knee",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["무릎"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "무릎"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "He hurt his knee while running.", "ko": "그는 달리다가 무릎을 다쳤다."},
-   {"en": "She fell and scraped both knees.", "ko": "그녀는 넘어져서 양쪽 무릎이 까졌다."}
+   {
+    "en": "He hurt his knee while running.",
+    "ko": "그는 달리다가 무릎을 다쳤다."
+   },
+   {
+    "en": "She fell and scraped both knees.",
+    "ko": "그녀는 넘어져서 양쪽 무릎이 까졌다."
+   }
   ],
   "theme": "신체"
  },
  {
   "id": 1507,
   "word": "knife",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["칼", "나이프"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "칼",
+     "나이프"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Be careful with the knife.", "ko": "칼을 조심해서 다뤄라."},
-   {"en": "Cut the apple with a knife.", "ko": "그 칼로 사과를 잘라라."}
+   {
+    "en": "Be careful with the knife.",
+    "ko": "칼을 조심해서 다뤄라."
+   },
+   {
+    "en": "Cut the apple with a knife.",
+    "ko": "그 칼로 사과를 잘라라."
+   }
   ],
   "theme": "사물"
  },
  {
   "id": 1508,
   "word": "knight",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["기사"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "기사"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The brave knight saved the kingdom from danger.", "ko": "그 용감한 기사는 왕국을 위험에서 구했다."},
-   {"en": "In the story, a knight rescues the princess.", "ko": "이야기 속에서 기사가 공주를 구한다."}
+   {
+    "en": "The brave knight saved the kingdom from danger.",
+    "ko": "그 용감한 기사는 왕국을 위험에서 구했다."
+   },
+   {
+    "en": "In the story, a knight rescues the princess.",
+    "ko": "이야기 속에서 기사가 공주를 구한다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 1509,
   "word": "knock",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["두드리다", "노크하다"]},
-   {"pos": "명사", "ko": ["노크"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "두드리다",
+     "노크하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "노크"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Someone is knocking on the door.", "ko": "누군가 문을 두드리고 있다."},
-   {"en": "I heard a loud knock at midnight.", "ko": "나는 한밤중에 큰 노크 소리를 들었다."}
+   {
+    "en": "Someone is knocking on the door.",
+    "ko": "누군가 문을 두드리고 있다."
+   },
+   {
+    "en": "I heard a loud knock at midnight.",
+    "ko": "나는 한밤중에 큰 노크 소리를 들었다."
+   }
   ],
   "theme": "행동"
  },
  {
   "id": 1510,
   "word": "knot",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["매듭"]},
-   {"pos": "동사", "ko": ["매듭을 짓다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "매듭"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "매듭을 짓다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "He tied a tight knot in the rope.", "ko": "그는 밧줄에 단단한 매듭을 묶었다."},
-   {"en": "She learned how to tie a sailor's knot.", "ko": "그녀는 뱃사람 매듭을 묶는 법을 배웠다."}
+   {
+    "en": "He tied a tight knot in the rope.",
+    "ko": "그는 밧줄에 단단한 매듭을 묶었다."
+   },
+   {
+    "en": "She learned how to tie a sailor's knot.",
+    "ko": "그녀는 뱃사람 매듭을 묶는 법을 배웠다."
+   }
   ],
   "theme": "사물"
  },
  {
   "id": 1511,
   "word": "know",
-  "pos": ["동사"],
-  "meanings": [{"pos": "동사", "ko": ["알다"]}],
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "알다"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Do you know each other?", "ko": "너희 둘은 서로 아는 사이니?"},
-   {"en": "I know the answer.", "ko": "나는 답을 안다."}
+   {
+    "en": "Do you know each other?",
+    "ko": "너희 둘은 서로 아는 사이니?"
+   },
+   {
+    "en": "I know the answer.",
+    "ko": "나는 답을 안다."
+   }
   ],
   "theme": "추상"
  },
  {
   "id": 1512,
   "word": "knowledge",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["지식"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "지식"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Reading books gives you knowledge.", "ko": "책을 읽으면 지식을 얻는다."},
-   {"en": "He has deep knowledge of history.", "ko": "그는 역사에 대해 깊은 지식을 갖고 있다."}
+   {
+    "en": "Reading books gives you knowledge.",
+    "ko": "책을 읽으면 지식을 얻는다."
+   },
+   {
+    "en": "He has deep knowledge of history.",
+    "ko": "그는 역사에 대해 깊은 지식을 갖고 있다."
+   }
   ],
   "theme": "추상"
  },
  {
   "id": 1513,
   "word": "label",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["라벨", "꼬리표"]},
-   {"pos": "동사", "ko": ["라벨을 붙이다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "라벨",
+     "꼬리표"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "라벨을 붙이다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Check the label before you eat it.", "ko": "먹기 전에 라벨을 확인해라."},
-   {"en": "She labeled each box with a name.", "ko": "그녀는 상자마다 이름표를 붙였다."}
+   {
+    "en": "Check the label before you eat it.",
+    "ko": "먹기 전에 라벨을 확인해라."
+   },
+   {
+    "en": "She labeled each box with a name.",
+    "ko": "그녀는 상자마다 이름표를 붙였다."
+   }
   ],
   "theme": "사물"
  },
  {
   "id": 1514,
   "word": "labor",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["노동"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "노동"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The farmers do hard physical labor.", "ko": "농부들은 힘든 육체노동을 한다."},
-   {"en": "Child labor is illegal in many countries.", "ko": "아동 노동은 많은 나라에서 불법이다."}
+   {
+    "en": "The farmers do hard physical labor.",
+    "ko": "농부들은 힘든 육체노동을 한다."
+   },
+   {
+    "en": "Child labor is illegal in many countries.",
+    "ko": "아동 노동은 많은 나라에서 불법이다."
+   }
   ],
   "theme": "직업"
  },
  {
   "id": 1515,
   "word": "laboratory",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["실험실"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "실험실"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The scientist works in a laboratory.", "ko": "그 과학자는 실험실에서 일한다."},
-   {"en": "We did an experiment in the school laboratory.", "ko": "우리는 학교 실험실에서 실험을 했다."}
+   {
+    "en": "The scientist works in a laboratory.",
+    "ko": "그 과학자는 실험실에서 일한다."
+   },
+   {
+    "en": "We did an experiment in the school laboratory.",
+    "ko": "우리는 학교 실험실에서 실험을 했다."
+   }
   ],
   "theme": "과학"
  },
  {
   "id": 1516,
   "word": "lack",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["부족"]},
-   {"pos": "동사", "ko": ["부족하다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "부족"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "부족하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "There is a lack of water here.", "ko": "이곳에는 물이 부족하다."},
-   {"en": "He lacks confidence when he speaks.", "ko": "그는 말할 때 자신감이 부족하다."}
+   {
+    "en": "There is a lack of water here.",
+    "ko": "이곳에는 물이 부족하다."
+   },
+   {
+    "en": "He lacks confidence when he speaks.",
+    "ko": "그는 말할 때 자신감이 부족하다."
+   }
   ],
   "theme": "추상"
  },
  {
   "id": 1517,
   "word": "ladder",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["사다리"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "사다리"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "He climbed the ladder to fix the roof.", "ko": "그는 지붕을 고치려고 사다리를 올라갔다."},
-   {"en": "Be careful when you climb a tall ladder.", "ko": "높은 사다리를 오를 때는 조심해라."}
+   {
+    "en": "He climbed the ladder to fix the roof.",
+    "ko": "그는 지붕을 고치려고 사다리를 올라갔다."
+   },
+   {
+    "en": "Be careful when you climb a tall ladder.",
+    "ko": "높은 사다리를 오를 때는 조심해라."
+   }
   ],
   "theme": "사물"
  },
  {
   "id": 1518,
   "word": "lady",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["숙녀", "여성분"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "숙녀",
+     "여성분"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The lady is very kind.", "ko": "그 숙녀분은 매우 친절하다."},
-   {"en": "A lady sat next to me.", "ko": "한 숙녀가 내 옆에 앉았다."}
+   {
+    "en": "The lady is very kind.",
+    "ko": "그 숙녀분은 매우 친절하다."
+   },
+   {
+    "en": "A lady sat next to me.",
+    "ko": "한 숙녀가 내 옆에 앉았다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 1519,
   "word": "lake",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["호수"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "호수"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "We swim in the lake.", "ko": "우리는 호수에서 수영한다."},
-   {"en": "The lake is very clean.", "ko": "그 호수는 매우 깨끗하다."}
+   {
+    "en": "We swim in the lake.",
+    "ko": "우리는 호수에서 수영한다."
+   },
+   {
+    "en": "The lake is very clean.",
+    "ko": "그 호수는 매우 깨끗하다."
+   }
   ],
   "theme": "자연"
  },
  {
   "id": 1520,
   "word": "lamb",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["어린 양", "양고기"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "어린 양",
+     "양고기"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The little lamb followed its mother.", "ko": "그 어린 양은 엄마 양을 따라다녔다."},
-   {"en": "We had roast lamb for dinner.", "ko": "우리는 저녁으로 양고기 구이를 먹었다."}
+   {
+    "en": "The little lamb followed its mother.",
+    "ko": "그 어린 양은 엄마 양을 따라다녔다."
+   },
+   {
+    "en": "We had roast lamb for dinner.",
+    "ko": "우리는 저녁으로 양고기 구이를 먹었다."
+   }
   ],
   "theme": "동물"
  },
  {
   "id": 1521,
   "word": "lamp",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["램프", "전등"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "램프",
+     "전등"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "She turned on the lamp to read.", "ko": "그녀는 책을 읽으려고 램프를 켰다."},
-   {"en": "The lamp on my desk is broken.", "ko": "내 책상 위의 전등이 고장 났다."}
+   {
+    "en": "She turned on the lamp to read.",
+    "ko": "그녀는 책을 읽으려고 램프를 켰다."
+   },
+   {
+    "en": "The lamp on my desk is broken.",
+    "ko": "내 책상 위의 전등이 고장 났다."
+   }
   ],
   "theme": "사물"
  },
  {
   "id": 1522,
   "word": "land",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["땅", "육지"]},
-   {"pos": "동사", "ko": ["착륙하다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "땅",
+     "육지"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "착륙하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Birds fly over the land.", "ko": "새들이 땅 위를 난다."},
-   {"en": "The plane will land soon.", "ko": "비행기가 곧 착륙할 것이다."}
+   {
+    "en": "Birds fly over the land.",
+    "ko": "새들이 땅 위를 난다."
+   },
+   {
+    "en": "The plane will land soon.",
+    "ko": "비행기가 곧 착륙할 것이다."
+   }
   ],
   "theme": "자연"
  },
  {
   "id": 1523,
   "word": "landscape",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["풍경", "경치"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "풍경",
+     "경치"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The painting shows a beautiful mountain landscape.", "ko": "그 그림은 아름다운 산악 풍경을 보여준다."},
-   {"en": "We admired the landscape from the top of the hill.", "ko": "우리는 언덕 꼭대기에서 풍경을 감상했다."}
+   {
+    "en": "The painting shows a beautiful mountain landscape.",
+    "ko": "그 그림은 아름다운 산악 풍경을 보여준다."
+   },
+   {
+    "en": "We admired the landscape from the top of the hill.",
+    "ko": "우리는 언덕 꼭대기에서 풍경을 감상했다."
+   }
   ],
   "theme": "자연"
  },
  {
   "id": 1524,
   "word": "lane",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["차선", "좁은 길"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "차선",
+     "좁은 길"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Stay in your lane while driving.", "ko": "운전할 때는 차선을 지켜라."},
-   {"en": "We walked down a narrow lane.", "ko": "우리는 좁은 길을 걸어 내려갔다."}
+   {
+    "en": "Stay in your lane while driving.",
+    "ko": "운전할 때는 차선을 지켜라."
+   },
+   {
+    "en": "We walked down a narrow lane.",
+    "ko": "우리는 좁은 길을 걸어 내려갔다."
+   }
   ],
   "theme": "교통"
  },
  {
   "id": 1525,
   "word": "language",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["언어"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "언어"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "English is a global language.", "ko": "영어는 세계적인 언어이다."},
-   {"en": "She can speak three languages.", "ko": "그녀는 세 개의 언어를 할 수 있다."}
+   {
+    "en": "English is a global language.",
+    "ko": "영어는 세계적인 언어이다."
+   },
+   {
+    "en": "She can speak three languages.",
+    "ko": "그녀는 세 개의 언어를 할 수 있다."
+   }
   ],
   "theme": "소통"
  },
  {
   "id": 1526,
   "word": "lap",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["무릎", "한 바퀴"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "무릎",
+     "한 바퀴"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The cat slept on her lap all afternoon.", "ko": "그 고양이는 오후 내내 그녀의 무릎에서 잤다."},
-   {"en": "He ran one more lap around the track.", "ko": "그는 트랙을 한 바퀴 더 돌았다."}
+   {
+    "en": "The cat slept on her lap all afternoon.",
+    "ko": "그 고양이는 오후 내내 그녀의 무릎에서 잤다."
+   },
+   {
+    "en": "He ran one more lap around the track.",
+    "ko": "그는 트랙을 한 바퀴 더 돌았다."
+   }
   ],
   "theme": "신체"
  },
  {
   "id": 1527,
   "word": "large",
-  "pos": ["형용사"],
-  "meanings": [{"pos": "형용사", "ko": ["큰", "넓은"]}],
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "큰",
+     "넓은"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "It is a large house.", "ko": "그것은 큰 집이다."},
-   {"en": "The elephant is very large.", "ko": "코끼리는 매우 크다."}
+   {
+    "en": "It is a large house.",
+    "ko": "그것은 큰 집이다."
+   },
+   {
+    "en": "The elephant is very large.",
+    "ko": "코끼리는 매우 크다."
+   }
   ],
   "theme": "수량"
  },
  {
   "id": 1528,
   "word": "laser",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["레이저"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "레이저"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The doctor used a laser.", "ko": "의사는 레이저를 사용했다."},
-   {"en": "This toy has a laser light.", "ko": "이 장난감에는 레이저 빛이 있다."}
+   {
+    "en": "The doctor used a laser.",
+    "ko": "의사는 레이저를 사용했다."
+   },
+   {
+    "en": "This toy has a laser light.",
+    "ko": "이 장난감에는 레이저 빛이 있다."
+   }
   ],
   "theme": "과학"
  },
  {
   "id": 1529,
   "word": "last",
-  "pos": ["형용사", "부사"],
+  "pos": [
+   "형용사",
+   "부사"
+  ],
   "meanings": [
-   {"pos": "형용사", "ko": ["지난", "마지막의"]},
-   {"pos": "부사", "ko": ["마지막으로"]}
+   {
+    "pos": "형용사",
+    "ko": [
+     "지난",
+     "마지막의"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "마지막으로"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Last week, I visited Jejudo.", "ko": "지난주에 나는 제주도를 방문했다."},
-   {"en": "This is the last chance.", "ko": "이것이 마지막 기회이다."}
+   {
+    "en": "Last week, I visited Jejudo.",
+    "ko": "지난주에 나는 제주도를 방문했다."
+   },
+   {
+    "en": "This is the last chance.",
+    "ko": "이것이 마지막 기회이다."
+   }
   ],
   "theme": "시간"
  },
  {
   "id": 1530,
   "word": "late",
-  "pos": ["형용사", "부사"],
+  "pos": [
+   "형용사",
+   "부사"
+  ],
   "meanings": [
-   {"pos": "형용사", "ko": ["늦은"]},
-   {"pos": "부사", "ko": ["늦게"]}
+   {
+    "pos": "형용사",
+    "ko": [
+     "늦은"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "늦게"
+    ]
+   }
   ],
   "examples": [
-   {"en": "I woke up late today.", "ko": "나는 오늘 늦게 일어났다."},
-   {"en": "The bus is always late.", "ko": "그 버스는 항상 늦는다."}
+   {
+    "en": "I woke up late today.",
+    "ko": "나는 오늘 늦게 일어났다."
+   },
+   {
+    "en": "The bus is always late.",
+    "ko": "그 버스는 항상 늦는다."
+   }
   ],
   "theme": "시간"
  },
  {
   "id": 1531,
   "word": "latter",
-  "pos": ["형용사", "명사"],
+  "pos": [
+   "형용사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "형용사", "ko": ["후자의"]},
-   {"pos": "명사", "ko": ["후자"]}
+   {
+    "pos": "형용사",
+    "ko": [
+     "후자의"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "후자"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Of the two options, I prefer the latter one.", "ko": "두 가지 선택지 중에서 나는 후자를 선호한다."},
-   {"en": "The latter half of the movie was exciting.", "ko": "영화의 후반부는 흥미진진했다."}
+   {
+    "en": "Of the two options, I prefer the latter one.",
+    "ko": "두 가지 선택지 중에서 나는 후자를 선호한다."
+   },
+   {
+    "en": "The latter half of the movie was exciting.",
+    "ko": "영화의 후반부는 흥미진진했다."
+   }
   ],
   "theme": "추상"
  },
  {
   "id": 1532,
   "word": "laugh",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["웃다"]},
-   {"pos": "명사", "ko": ["웃음"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "웃다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "웃음"
+    ]
+   }
   ],
   "examples": [
-   {"en": "We laughed a lot at the party.", "ko": "우리는 파티에서 많이 웃었다."},
-   {"en": "Her joke made everyone laugh.", "ko": "그녀의 농담은 모두를 웃게 만들었다."}
+   {
+    "en": "We laughed a lot at the party.",
+    "ko": "우리는 파티에서 많이 웃었다."
+   },
+   {
+    "en": "Her joke made everyone laugh.",
+    "ko": "그녀의 농담은 모두를 웃게 만들었다."
+   }
   ],
   "theme": "감정"
  },
  {
   "id": 1533,
   "word": "launch",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["발사하다", "출시하다"]},
-   {"pos": "명사", "ko": ["발사", "출시"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "발사하다",
+     "출시하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "발사",
+     "출시"
+    ]
+   }
   ],
   "examples": [
-   {"en": "The company will launch a new product next month.", "ko": "그 회사는 다음 달에 신제품을 출시할 것이다."},
-   {"en": "Scientists watched the rocket launch into space.", "ko": "과학자들은 로켓이 우주로 발사되는 것을 지켜보았다."}
+   {
+    "en": "The company will launch a new product next month.",
+    "ko": "그 회사는 다음 달에 신제품을 출시할 것이다."
+   },
+   {
+    "en": "Scientists watched the rocket launch into space.",
+    "ko": "과학자들은 로켓이 우주로 발사되는 것을 지켜보았다."
+   }
   ],
   "theme": "행동"
  },
  {
   "id": 1534,
   "word": "laundry",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["세탁", "빨래"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "세탁",
+     "빨래"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "I need to do the laundry this weekend.", "ko": "나는 이번 주말에 빨래를 해야 한다."},
-   {"en": "She folded the clean laundry neatly.", "ko": "그녀는 깨끗한 빨래를 깔끔하게 개켰다."}
+   {
+    "en": "I need to do the laundry this weekend.",
+    "ko": "나는 이번 주말에 빨래를 해야 한다."
+   },
+   {
+    "en": "She folded the clean laundry neatly.",
+    "ko": "그녀는 깨끗한 빨래를 깔끔하게 개켰다."
+   }
   ],
   "theme": "일상"
  },
  {
   "id": 1535,
   "word": "law",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["법"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "법"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Everyone must obey the law.", "ko": "모든 사람은 법을 지켜야 한다."},
-   {"en": "The new laws protect the environment.", "ko": "새로운 법들은 환경을 보호한다."}
+   {
+    "en": "Everyone must obey the law.",
+    "ko": "모든 사람은 법을 지켜야 한다."
+   },
+   {
+    "en": "The new laws protect the environment.",
+    "ko": "새로운 법들은 환경을 보호한다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 1536,
   "word": "lawn",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["잔디밭"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "잔디밭"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "He mows the lawn every Saturday.", "ko": "그는 매주 토요일에 잔디를 깎는다."},
-   {"en": "The kids played on the green lawn.", "ko": "아이들은 푸른 잔디밭에서 놀았다."}
+   {
+    "en": "He mows the lawn every Saturday.",
+    "ko": "그는 매주 토요일에 잔디를 깎는다."
+   },
+   {
+    "en": "The kids played on the green lawn.",
+    "ko": "아이들은 푸른 잔디밭에서 놀았다."
+   }
   ],
   "theme": "장소"
  },
  {
   "id": 1537,
   "word": "lawyer",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["변호사"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "변호사"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Her father is a famous lawyer.", "ko": "그녀의 아버지는 유명한 변호사이다."},
-   {"en": "I want to become a lawyer someday.", "ko": "나는 언젠가 변호사가 되고 싶다."}
+   {
+    "en": "Her father is a famous lawyer.",
+    "ko": "그녀의 아버지는 유명한 변호사이다."
+   },
+   {
+    "en": "I want to become a lawyer someday.",
+    "ko": "나는 언젠가 변호사가 되고 싶다."
+   }
   ],
   "theme": "직업"
  },
  {
   "id": 1538,
   "word": "lay",
-  "pos": ["동사"],
-  "meanings": [{"pos": "동사", "ko": ["놓다", "눕히다"]}],
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "놓다",
+     "눕히다"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Please lay the book on the table.", "ko": "책을 탁자 위에 놓아 주세요."},
-   {"en": "The hen lays an egg every day.", "ko": "그 암탉은 매일 알을 하나 낳는다."}
+   {
+    "en": "Please lay the book on the table.",
+    "ko": "책을 탁자 위에 놓아 주세요."
+   },
+   {
+    "en": "The hen lays an egg every day.",
+    "ko": "그 암탉은 매일 알을 하나 낳는다."
+   }
   ],
   "theme": "행동"
  },
  {
   "id": 1539,
   "word": "lazy",
-  "pos": ["형용사"],
-  "meanings": [{"pos": "형용사", "ko": ["게으른"]}],
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "게으른"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Don't be so lazy.", "ko": "그렇게 게으르게 굴지 마."},
-   {"en": "The lazy cat slept all day.", "ko": "그 게으른 고양이는 하루 종일 잤다."}
+   {
+    "en": "Don't be so lazy.",
+    "ko": "그렇게 게으르게 굴지 마."
+   },
+   {
+    "en": "The lazy cat slept all day.",
+    "ko": "그 게으른 고양이는 하루 종일 잤다."
+   }
   ],
   "theme": "추상"
  },
  {
   "id": 1540,
   "word": "lead",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["이끌다"]},
-   {"pos": "명사", "ko": ["납"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "이끌다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "납"
+    ]
+   }
   ],
   "examples": [
-   {"en": "She will lead the team this year.", "ko": "그녀가 올해 팀을 이끌 것이다."},
-   {"en": "This road leads to the beach.", "ko": "이 길은 해변으로 이어진다."}
+   {
+    "en": "She will lead the team this year.",
+    "ko": "그녀가 올해 팀을 이끌 것이다."
+   },
+   {
+    "en": "This road leads to the beach.",
+    "ko": "이 길은 해변으로 이어진다."
+   }
   ],
   "theme": "행동"
  },
  {
   "id": 1541,
   "word": "leaf",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["나뭇잎"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "나뭇잎"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "A green leaf fell from the tree.", "ko": "초록색 나뭇잎 하나가 나무에서 떨어졌다."},
-   {"en": "Each leaf has a different shape.", "ko": "각 나뭇잎은 저마다 다른 모양을 가지고 있다."}
+   {
+    "en": "A green leaf fell from the tree.",
+    "ko": "초록색 나뭇잎 하나가 나무에서 떨어졌다."
+   },
+   {
+    "en": "Each leaf has a different shape.",
+    "ko": "각 나뭇잎은 저마다 다른 모양을 가지고 있다."
+   }
   ],
   "theme": "자연"
  },
  {
   "id": 1542,
   "word": "league",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["리그", "연맹"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "리그",
+     "연맹"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Our team plays in the youth league.", "ko": "우리 팀은 유소년 리그에서 경기한다."},
-   {"en": "He is the top scorer in the league.", "ko": "그는 그 리그에서 최고 득점자이다."}
+   {
+    "en": "Our team plays in the youth league.",
+    "ko": "우리 팀은 유소년 리그에서 경기한다."
+   },
+   {
+    "en": "He is the top scorer in the league.",
+    "ko": "그는 그 리그에서 최고 득점자이다."
+   }
   ],
   "theme": "여가"
  },
  {
   "id": 1543,
   "word": "leak",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["새다"]},
-   {"pos": "명사", "ko": ["누출"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "새다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "누출"
+    ]
+   }
   ],
   "examples": [
-   {"en": "There is a small leak in the roof.", "ko": "지붕에 작은 누수가 있다."},
-   {"en": "Water began to leak from the old pipe.", "ko": "낡은 파이프에서 물이 새기 시작했다."}
+   {
+    "en": "There is a small leak in the roof.",
+    "ko": "지붕에 작은 누수가 있다."
+   },
+   {
+    "en": "Water began to leak from the old pipe.",
+    "ko": "낡은 파이프에서 물이 새기 시작했다."
+   }
   ],
   "theme": "사물"
  },
  {
   "id": 1544,
   "word": "lean",
-  "pos": ["동사", "형용사"],
+  "pos": [
+   "동사",
+   "형용사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["기대다"]},
-   {"pos": "형용사", "ko": ["마른", "호리호리한"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "기대다"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "마른",
+     "호리호리한"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Please don't lean on the door.", "ko": "문에 기대지 마세요."},
-   {"en": "He leaned against the wall to rest.", "ko": "그는 쉬려고 벽에 기댔다."}
+   {
+    "en": "Please don't lean on the door.",
+    "ko": "문에 기대지 마세요."
+   },
+   {
+    "en": "He leaned against the wall to rest.",
+    "ko": "그는 쉬려고 벽에 기댔다."
+   }
   ],
   "theme": "행동"
  },
  {
   "id": 1545,
   "word": "leap",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["뛰어오르다"]},
-   {"pos": "명사", "ko": ["도약"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "뛰어오르다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "도약"
+    ]
+   }
   ],
   "examples": [
-   {"en": "The frog took a big leap.", "ko": "그 개구리는 크게 뛰어올랐다."},
-   {"en": "She leaped over the puddle.", "ko": "그녀는 물웅덩이를 뛰어넘었다."}
+   {
+    "en": "The frog took a big leap.",
+    "ko": "그 개구리는 크게 뛰어올랐다."
+   },
+   {
+    "en": "She leaped over the puddle.",
+    "ko": "그녀는 물웅덩이를 뛰어넘었다."
+   }
   ],
   "theme": "행동"
  },
  {
   "id": 1546,
   "word": "learn",
-  "pos": ["동사"],
-  "meanings": [{"pos": "동사", "ko": ["배우다"]}],
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "배우다"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "I learn English at school.", "ko": "나는 학교에서 영어를 배운다."},
-   {"en": "She is learning to swim.", "ko": "그녀는 수영을 배우고 있다."}
+   {
+    "en": "I learn English at school.",
+    "ko": "나는 학교에서 영어를 배운다."
+   },
+   {
+    "en": "She is learning to swim.",
+    "ko": "그녀는 수영을 배우고 있다."
+   }
   ],
   "theme": "학교"
  },
  {
   "id": 1547,
   "word": "lease",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["임대차 계약"]},
-   {"pos": "동사", "ko": ["임대하다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "임대차 계약"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "임대하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "They signed a one-year lease for the apartment.", "ko": "그들은 그 아파트의 1년 임대 계약을 맺었다."},
-   {"en": "The company decided to lease new office space.", "ko": "그 회사는 새 사무실 공간을 임대하기로 결정했다."}
+   {
+    "en": "They signed a one-year lease for the apartment.",
+    "ko": "그들은 그 아파트의 1년 임대 계약을 맺었다."
+   },
+   {
+    "en": "The company decided to lease new office space.",
+    "ko": "그 회사는 새 사무실 공간을 임대하기로 결정했다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 1548,
   "word": "leather",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["가죽"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "가죽"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "He bought a black leather jacket.", "ko": "그는 검은색 가죽 재킷을 샀다."},
-   {"en": "This bag is made of real leather.", "ko": "이 가방은 진짜 가죽으로 만들어졌다."}
+   {
+    "en": "He bought a black leather jacket.",
+    "ko": "그는 검은색 가죽 재킷을 샀다."
+   },
+   {
+    "en": "This bag is made of real leather.",
+    "ko": "이 가방은 진짜 가죽으로 만들어졌다."
+   }
   ],
   "theme": "사물"
  },
  {
   "id": 1549,
   "word": "leave",
-  "pos": ["동사"],
-  "meanings": [{"pos": "동사", "ko": ["떠나다", "출발하다"]}],
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "떠나다",
+     "출발하다"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The train leaves at three o’clock.", "ko": "그 기차는 3시에 출발한다."},
-   {"en": "I have to leave now.", "ko": "나는 지금 가야 한다."}
+   {
+    "en": "The train leaves at three o’clock.",
+    "ko": "그 기차는 3시에 출발한다."
+   },
+   {
+    "en": "I have to leave now.",
+    "ko": "나는 지금 가야 한다."
+   }
   ],
   "theme": "행동"
  },
  {
   "id": 1550,
   "word": "lecture",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["강의"]},
-   {"pos": "동사", "ko": ["강의하다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "강의"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "강의하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "The professor gave an interesting lecture today.", "ko": "그 교수님은 오늘 흥미로운 강의를 했다."},
-   {"en": "Students took notes during the lecture.", "ko": "학생들은 강의 중에 필기를 했다."}
+   {
+    "en": "The professor gave an interesting lecture today.",
+    "ko": "그 교수님은 오늘 흥미로운 강의를 했다."
+   },
+   {
+    "en": "Students took notes during the lecture.",
+    "ko": "학생들은 강의 중에 필기를 했다."
+   }
   ],
   "theme": "학교"
  }

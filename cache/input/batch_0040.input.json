@@ -1,14 +1,6 @@
 [
  {
   "id": 1951,
-  "word": "physical",
-  "level": "중고공통",
-  "derived": [],
-  "max_example_words": 12,
-  "fn_example": ""
- },
- {
-  "id": 1952,
   "word": "physics",
   "level": "선택",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": ""
  },
  {
-  "id": 1953,
+  "id": 1952,
   "word": "piano",
   "level": "초등",
   "derived": [],
@@ -24,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 1954,
+  "id": 1953,
   "word": "pick",
   "level": "초등",
   "derived": [],
@@ -32,7 +24,7 @@
   "fn_example": ""
  },
  {
-  "id": 1955,
+  "id": 1954,
   "word": "picnic",
   "level": "중고공통",
   "derived": [],
@@ -40,7 +32,7 @@
   "fn_example": ""
  },
  {
-  "id": 1956,
+  "id": 1955,
   "word": "picture",
   "level": "초등",
   "derived": [],
@@ -48,7 +40,7 @@
   "fn_example": ""
  },
  {
-  "id": 1957,
+  "id": 1956,
   "word": "pie",
   "level": "중고공통",
   "derived": [],
@@ -56,7 +48,7 @@
   "fn_example": ""
  },
  {
-  "id": 1958,
+  "id": 1957,
   "word": "piece",
   "level": "중고공통",
   "derived": [],
@@ -64,7 +56,7 @@
   "fn_example": ""
  },
  {
-  "id": 1959,
+  "id": 1958,
   "word": "pig",
   "level": "초등",
   "derived": [],
@@ -72,7 +64,7 @@
   "fn_example": ""
  },
  {
-  "id": 1960,
+  "id": 1959,
   "word": "pile",
   "level": "중고공통",
   "derived": [],
@@ -80,7 +72,7 @@
   "fn_example": ""
  },
  {
-  "id": 1961,
+  "id": 1960,
   "word": "pill",
   "level": "선택",
   "derived": [],
@@ -88,7 +80,7 @@
   "fn_example": ""
  },
  {
-  "id": 1962,
+  "id": 1961,
   "word": "pilot",
   "level": "초등",
   "derived": [],
@@ -96,7 +88,7 @@
   "fn_example": ""
  },
  {
-  "id": 1963,
+  "id": 1962,
   "word": "pin",
   "level": "중고공통",
   "derived": [],
@@ -104,7 +96,7 @@
   "fn_example": ""
  },
  {
-  "id": 1964,
+  "id": 1963,
   "word": "pinch",
   "level": "선택",
   "derived": [],
@@ -112,7 +104,7 @@
   "fn_example": ""
  },
  {
-  "id": 1965,
+  "id": 1964,
   "word": "pine",
   "level": "중고공통",
   "derived": [],
@@ -120,7 +112,7 @@
   "fn_example": ""
  },
  {
-  "id": 1966,
+  "id": 1965,
   "word": "pink",
   "level": "초등",
   "derived": [],
@@ -128,7 +120,7 @@
   "fn_example": ""
  },
  {
-  "id": 1967,
+  "id": 1966,
   "word": "pioneer",
   "level": "선택",
   "derived": [],
@@ -136,7 +128,7 @@
   "fn_example": ""
  },
  {
-  "id": 1968,
+  "id": 1967,
   "word": "pipe",
   "level": "중고공통",
   "derived": [],
@@ -144,7 +136,7 @@
   "fn_example": ""
  },
  {
-  "id": 1969,
+  "id": 1968,
   "word": "pitch",
   "level": "중고공통",
   "derived": [],
@@ -152,7 +144,7 @@
   "fn_example": ""
  },
  {
-  "id": 1970,
+  "id": 1969,
   "word": "pity",
   "level": "중고공통",
   "derived": [],
@@ -160,7 +152,7 @@
   "fn_example": ""
  },
  {
-  "id": 1971,
+  "id": 1970,
   "word": "pizza",
   "level": "초등",
   "derived": [],
@@ -168,7 +160,7 @@
   "fn_example": ""
  },
  {
-  "id": 1972,
+  "id": 1971,
   "word": "place",
   "level": "초등",
   "derived": [
@@ -178,7 +170,7 @@
   "fn_example": ""
  },
  {
-  "id": 1973,
+  "id": 1972,
   "word": "plain",
   "level": "중고공통",
   "derived": [],
@@ -186,7 +178,7 @@
   "fn_example": ""
  },
  {
-  "id": 1974,
+  "id": 1973,
   "word": "plan",
   "level": "초등",
   "derived": [],
@@ -194,7 +186,7 @@
   "fn_example": ""
  },
  {
-  "id": 1975,
+  "id": 1974,
   "word": "plane",
   "level": "중고공통",
   "derived": [],
@@ -202,7 +194,7 @@
   "fn_example": ""
  },
  {
-  "id": 1976,
+  "id": 1975,
   "word": "planet",
   "level": "중고공통",
   "derived": [],
@@ -210,7 +202,7 @@
   "fn_example": ""
  },
  {
-  "id": 1977,
+  "id": 1976,
   "word": "plant",
   "level": "중고공통",
   "derived": [],
@@ -218,7 +210,7 @@
   "fn_example": ""
  },
  {
-  "id": 1978,
+  "id": 1977,
   "word": "plastic",
   "level": "초등",
   "derived": [],
@@ -226,7 +218,7 @@
   "fn_example": "It’s blue and it’s made of plastic."
  },
  {
-  "id": 1979,
+  "id": 1978,
   "word": "plate",
   "level": "중고공통",
   "derived": [],
@@ -234,7 +226,7 @@
   "fn_example": ""
  },
  {
-  "id": 1980,
+  "id": 1979,
   "word": "platform",
   "level": "선택",
   "derived": [],
@@ -242,7 +234,7 @@
   "fn_example": ""
  },
  {
-  "id": 1981,
+  "id": 1980,
   "word": "play",
   "level": "초등",
   "derived": [],
@@ -250,7 +242,7 @@
   "fn_example": ""
  },
  {
-  "id": 1982,
+  "id": 1981,
   "word": "please",
   "level": "초등",
   "derived": [
@@ -260,7 +252,7 @@
   "fn_example": "(Please,) open the door."
  },
  {
-  "id": 1983,
+  "id": 1982,
   "word": "plenty",
   "level": "중고공통",
   "derived": [],
@@ -268,7 +260,7 @@
   "fn_example": ""
  },
  {
-  "id": 1984,
+  "id": 1983,
   "word": "plot",
   "level": "선택",
   "derived": [],
@@ -276,7 +268,7 @@
   "fn_example": ""
  },
  {
-  "id": 1985,
+  "id": 1984,
   "word": "plus",
   "level": "중고공통",
   "derived": [],
@@ -284,7 +276,7 @@
   "fn_example": ""
  },
  {
-  "id": 1986,
+  "id": 1985,
   "word": "pocket",
   "level": "중고공통",
   "derived": [],
@@ -292,7 +284,7 @@
   "fn_example": ""
  },
  {
-  "id": 1987,
+  "id": 1986,
   "word": "poem",
   "level": "중고공통",
   "derived": [],
@@ -300,7 +292,7 @@
   "fn_example": ""
  },
  {
-  "id": 1988,
+  "id": 1987,
   "word": "poet",
   "level": "중고공통",
   "derived": [],
@@ -308,7 +300,7 @@
   "fn_example": ""
  },
  {
-  "id": 1989,
+  "id": 1988,
   "word": "point",
   "level": "초등",
   "derived": [],
@@ -316,7 +308,7 @@
   "fn_example": ""
  },
  {
-  "id": 1990,
+  "id": 1989,
   "word": "poison",
   "level": "중고공통",
   "derived": [],
@@ -324,7 +316,7 @@
   "fn_example": ""
  },
  {
-  "id": 1991,
+  "id": 1990,
   "word": "pole",
   "level": "중고공통",
   "derived": [
@@ -334,7 +326,7 @@
   "fn_example": ""
  },
  {
-  "id": 1992,
+  "id": 1991,
   "word": "police",
   "level": "초등",
   "derived": [],
@@ -342,7 +334,7 @@
   "fn_example": ""
  },
  {
-  "id": 1993,
+  "id": 1992,
   "word": "policy",
   "level": "중고공통",
   "derived": [],
@@ -350,7 +342,7 @@
   "fn_example": ""
  },
  {
-  "id": 1994,
+  "id": 1993,
   "word": "polish",
   "level": "선택",
   "derived": [],
@@ -358,7 +350,7 @@
   "fn_example": ""
  },
  {
-  "id": 1995,
+  "id": 1994,
   "word": "polite",
   "level": "중고공통",
   "derived": [],
@@ -366,7 +358,7 @@
   "fn_example": ""
  },
  {
-  "id": 1996,
+  "id": 1995,
   "word": "politics",
   "level": "중고공통",
   "derived": [],
@@ -374,7 +366,7 @@
   "fn_example": ""
  },
  {
-  "id": 1997,
+  "id": 1996,
   "word": "poll",
   "level": "선택",
   "derived": [],
@@ -382,7 +374,7 @@
   "fn_example": ""
  },
  {
-  "id": 1998,
+  "id": 1997,
   "word": "pollute",
   "level": "중고공통",
   "derived": [],
@@ -390,7 +382,7 @@
   "fn_example": ""
  },
  {
-  "id": 1999,
+  "id": 1998,
   "word": "pond",
   "level": "선택",
   "derived": [],
@@ -398,11 +390,19 @@
   "fn_example": ""
  },
  {
-  "id": 2000,
+  "id": 1999,
   "word": "pool",
   "level": "중고공통",
   "derived": [],
   "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2000,
+  "word": "poor",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
   "fn_example": ""
  }
 ]

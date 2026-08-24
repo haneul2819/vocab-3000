@@ -1,52 +1,1415 @@
 [
- {"id": 1751, "word": "naked", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["벌거벗은", "적나라한"]}], "examples": [{"en": "The baby was naked after the bath.", "ko": "아기는 목욕 후에 벌거벗고 있었다."}, {"en": "You can see the stars with the naked eye tonight.", "ko": "오늘 밤은 맨눈으로도 별을 볼 수 있다."}], "theme": "신체"},
- {"id": 1752, "word": "name", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["이름"]}, {"pos": "동사", "ko": ["이름을 짓다"]}], "examples": [{"en": "My name is John.", "ko": "제 이름은 존이에요."}, {"en": "What is your name?", "ko": "네 이름이 뭐니?"}], "theme": "소통"},
- {"id": 1753, "word": "narrate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["이야기하다", "서술하다"]}], "examples": [{"en": "The old man narrated his adventures to the children.", "ko": "그 노인은 아이들에게 자신의 모험을 이야기했다."}, {"en": "A famous actor narrated the documentary film.", "ko": "유명한 배우가 그 다큐멘터리 영화를 내레이션했다."}], "theme": "소통"},
- {"id": 1754, "word": "narrow", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["좁은"]}], "examples": [{"en": "The street is too narrow for two cars.", "ko": "그 길은 차 두 대가 다니기에 너무 좁다."}, {"en": "We walked through a narrow path in the forest.", "ko": "우리는 숲 속의 좁은 길을 걸었다."}], "theme": "장소"},
- {"id": 1755, "word": "nasty", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["끔찍한", "심술궂은"]}], "examples": [{"en": "He said something nasty about his classmate.", "ko": "그는 반 친구에 대해 심술궂은 말을 했다."}, {"en": "The weather turned nasty during our hike.", "ko": "하이킹 도중에 날씨가 험악해졌다."}], "theme": "감정"},
- {"id": 1756, "word": "nation", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["국가", "나라"]}], "examples": [{"en": "Korea is a small nation.", "ko": "한국은 작은 나라다."}, {"en": "Every nation has its own flag.", "ko": "모든 국가는 저마다의 국기가 있다."}], "theme": "사회"},
- {"id": 1757, "word": "native", "pos": ["형용사", "명사"], "meanings": [{"pos": "형용사", "ko": ["출생지의", "토종의"]}, {"pos": "명사", "ko": ["원주민"]}], "examples": [{"en": "English is not her native language.", "ko": "영어는 그녀의 모국어가 아니다."}, {"en": "He was born a native of this small town.", "ko": "그는 이 작은 마을 태생이다."}], "theme": "사회"},
- {"id": 1758, "word": "nature", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["자연", "본성"]}], "examples": [{"en": "I love nature.", "ko": "나는 자연을 사랑한다."}, {"en": "We protect nature together.", "ko": "우리는 함께 자연을 보호한다."}], "theme": "자연"},
- {"id": 1759, "word": "navy", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["해군"]}], "examples": [{"en": "His older brother joined the navy last year.", "ko": "그의 형은 작년에 해군에 입대했다."}, {"en": "The navy ship sailed across the ocean.", "ko": "그 해군 함선은 바다를 가로질러 항해했다."}], "theme": "직업"},
- {"id": 1760, "word": "near", "pos": ["전치사", "형용사"], "meanings": [{"pos": "전치사", "ko": ["~근처에"]}, {"pos": "형용사", "ko": ["가까운"]}], "examples": [{"en": "The store is near my house.", "ko": "그 가게는 우리 집 근처에 있다."}, {"en": "Sit near the window.", "ko": "창문 근처에 앉아라."}], "theme": "장소"},
- {"id": 1761, "word": "neat", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["단정한", "깔끔한"]}], "examples": [{"en": "Keep your room neat and clean.", "ko": "네 방을 단정하고 깨끗하게 유지해라."}, {"en": "She always writes in neat handwriting.", "ko": "그녀는 항상 단정한 글씨체로 쓴다."}], "theme": "일상"},
- {"id": 1762, "word": "necessary", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["필요한"]}], "examples": [{"en": "Water is necessary for all living things.", "ko": "물은 모든 생물에게 필요하다."}, {"en": "It's necessary to bring your own umbrella today.", "ko": "오늘은 우산을 직접 챙기는 것이 필요하다."}], "theme": "추상"},
- {"id": 1763, "word": "neck", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["목"]}], "examples": [{"en": "My neck hurts a little.", "ko": "내 목이 조금 아프다."}, {"en": "She has a long neck.", "ko": "그녀는 목이 길다."}], "theme": "신체"},
- {"id": 1764, "word": "need", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["필요하다"]}, {"pos": "명사", "ko": ["필요"]}], "examples": [{"en": "I need some help.", "ko": "나는 도움이 좀 필요하다."}, {"en": "We need more time.", "ko": "우리는 시간이 더 필요하다."}], "theme": "추상"},
- {"id": 1765, "word": "needle", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["바늘"]}], "examples": [{"en": "She sewed the button on with a needle.", "ko": "그녀는 바늘로 단추를 꿰맸다."}, {"en": "The nurse used a small needle for the shot.", "ko": "간호사는 주사를 위해 작은 바늘을 사용했다."}], "theme": "사물"},
- {"id": 1766, "word": "negate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["부정하다", "무효화하다"]}], "examples": [{"en": "One mistake doesn't negate all your hard work.", "ko": "실수 하나가 너의 모든 노력을 무효화하지는 않는다."}, {"en": "The new evidence seemed to negate his story.", "ko": "새 증거는 그의 이야기를 부정하는 것처럼 보였다."}], "theme": "추상"},
- {"id": 1767, "word": "neglect", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["소홀히 하다", "방치하다"]}, {"pos": "명사", "ko": ["방치"]}], "examples": [{"en": "Don't neglect your homework this week.", "ko": "이번 주 숙제를 소홀히 하지 마라."}, {"en": "The old house showed signs of years of neglect.", "ko": "그 오래된 집은 수년간 방치된 흔적을 보였다."}], "theme": "행동"},
- {"id": 1768, "word": "negotiate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["협상하다"]}], "examples": [{"en": "The two companies negotiated a fair price.", "ko": "그 두 회사는 공정한 가격을 협상했다."}, {"en": "Workers negotiated with the manager for better hours.", "ko": "노동자들은 더 나은 근무 시간을 위해 관리자와 협상했다."}], "theme": "사회"},
- {"id": 1769, "word": "neighbor", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["이웃"]}], "examples": [{"en": "My neighbor is very kind to me.", "ko": "우리 이웃은 나에게 매우 친절하다."}, {"en": "We invited our neighbors to the party.", "ko": "우리는 이웃들을 파티에 초대했다."}], "theme": "가족"},
- {"id": 1770, "word": "neither", "pos": ["접속사", "대명사"], "meanings": [{"pos": "접속사", "ko": ["~도 아니다"]}, {"pos": "대명사", "ko": ["어느 쪽도 ~아니다"]}], "examples": [{"en": "Neither of us wanted to leave early.", "ko": "우리 둘 다 일찍 떠나고 싶지 않았다."}, {"en": "She likes neither coffee nor tea.", "ko": "그녀는 커피도 차도 좋아하지 않는다."}], "theme": "소통"},
- {"id": 1771, "word": "nephew", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["조카(남)"]}], "examples": [{"en": "My nephew just turned five years old.", "ko": "내 조카는 막 다섯 살이 되었다."}, {"en": "I bought a birthday gift for my nephew.", "ko": "나는 조카의 생일을 위해 선물을 샀다."}], "theme": "가족"},
- {"id": 1772, "word": "nerve", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["신경", "용기"]}], "examples": [{"en": "The dentist touched a nerve in my tooth.", "ko": "치과 의사가 내 치아의 신경을 건드렸다."}, {"en": "It took a lot of nerve to speak up.", "ko": "나서서 말하는 데 큰 용기가 필요했다."}], "theme": "신체"},
- {"id": 1773, "word": "nest", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["둥지"]}], "examples": [{"en": "The bird built a nest in the tree.", "ko": "그 새는 나무에 둥지를 지었다."}, {"en": "We found eggs in the nest.", "ko": "우리는 둥지에서 알을 발견했다."}], "theme": "동물"},
- {"id": 1774, "word": "net", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["그물", "네트"]}], "examples": [{"en": "The fisherman threw his net into the sea.", "ko": "어부는 그물을 바다에 던졌다."}, {"en": "The ball hit the net during the game.", "ko": "경기 중에 공이 네트에 맞았다."}], "theme": "여가"},
- {"id": 1775, "word": "network", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["네트워크", "연결망"]}], "examples": [{"en": "The school has a fast Wi-Fi network.", "ko": "그 학교는 빠른 와이파이 네트워크가 있다."}, {"en": "She built a large network of friends abroad.", "ko": "그녀는 해외에서 넓은 친구 관계망을 만들었다."}], "theme": "소통"},
- {"id": 1776, "word": "neutral", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["중립적인"]}], "examples": [{"en": "The teacher stayed neutral during the debate.", "ko": "선생님은 토론 중에 중립을 지켰다."}, {"en": "Switzerland remained neutral during the war.", "ko": "스위스는 전쟁 중에 중립을 유지했다."}], "theme": "사회"},
- {"id": 1777, "word": "never", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["결코 ~않다", "절대 ~않다"]}], "examples": [{"en": "Never mind.", "ko": "신경 쓰지 마."}, {"en": "I never eat breakfast.", "ko": "나는 절대 아침을 먹지 않는다."}], "theme": "추상"},
- {"id": 1778, "word": "nevertheless", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["그럼에도 불구하고"]}], "examples": [{"en": "It was raining; nevertheless, we went hiking.", "ko": "비가 왔지만, 그럼에도 우리는 하이킹을 갔다."}, {"en": "He was tired. Nevertheless, he finished the race.", "ko": "그는 피곤했다. 그럼에도 그는 경주를 끝마쳤다."}], "theme": "소통"},
- {"id": 1779, "word": "new", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["새로운"]}], "examples": [{"en": "I got a new bike.", "ko": "나는 새 자전거를 얻었다."}, {"en": "This is a new book.", "ko": "이것은 새 책이다."}], "theme": "사물"},
- {"id": 1780, "word": "news", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["뉴스", "소식"]}], "examples": [{"en": "I watch the news daily.", "ko": "나는 매일 뉴스를 본다."}, {"en": "That's great news!", "ko": "그거 정말 좋은 소식이다!"}], "theme": "소통"},
- {"id": 1781, "word": "newspaper", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["신문"]}], "examples": [{"en": "My dad reads the newspaper.", "ko": "우리 아빠는 신문을 읽는다."}, {"en": "This newspaper is from today.", "ko": "이 신문은 오늘 것이다."}], "theme": "소통"},
- {"id": 1782, "word": "next", "pos": ["형용사", "부사"], "meanings": [{"pos": "형용사", "ko": ["다음의"]}, {"pos": "부사", "ko": ["다음에"]}], "examples": [{"en": "That’s all right. (You’ll do better next time).", "ko": "괜찮아. (다음번에 더 잘할 거야.)"}, {"en": "See you next week.", "ko": "다음 주에 보자."}], "theme": "시간"},
- {"id": 1783, "word": "nice", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["좋은", "친절한"]}], "examples": [{"en": "That would be very nice.", "ko": "그러면 정말 좋겠다."}, {"en": "She is very nice.", "ko": "그녀는 아주 친절하다."}], "theme": "감정"},
- {"id": 1784, "word": "night", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["밤"]}], "examples": [{"en": "Good night, sleep well.", "ko": "잘 자, 좋은 밤 보내."}, {"en": "It's dark at night.", "ko": "밤에는 어둡다."}], "theme": "시간"},
- {"id": 1785, "word": "nightmare", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["악몽"]}], "examples": [{"en": "I had a scary nightmare last night.", "ko": "나는 어젯밤 무서운 악몽을 꿨다."}, {"en": "The traffic this morning was a total nightmare.", "ko": "오늘 아침 교통 체증은 완전히 악몽이었다."}], "theme": "감정"},
- {"id": 1786, "word": "nine", "pos": ["수사", "명사"], "meanings": [{"pos": "수사", "ko": ["아홉의"]}, {"pos": "명사", "ko": ["아홉"]}], "examples": [{"en": "I have nine pencils.", "ko": "나는 연필이 아홉 개 있다."}, {"en": "The bus leaves at nine.", "ko": "버스는 아홉 시에 떠난다."}], "theme": "수량"},
- {"id": 1787, "word": "no", "pos": ["감탄사", "한정사"], "meanings": [{"pos": "감탄사", "ko": ["아니요"]}, {"pos": "한정사", "ko": ["하나도 없는"]}], "examples": [{"en": "No, it isn’t.", "ko": "아니요, 그렇지 않아요."}, {"en": "No dogs allowed here.", "ko": "여기는 개 출입 금지다."}], "theme": "소통"},
- {"id": 1788, "word": "noble", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["고귀한", "숭고한"]}], "examples": [{"en": "It was a noble act to save the child.", "ko": "그 아이를 구한 것은 고귀한 행동이었다."}, {"en": "The knight was known for his noble heart.", "ko": "그 기사는 고귀한 마음씨로 유명했다."}], "theme": "추상"},
- {"id": 1789, "word": "nod", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["고개를 끄덕이다"]}, {"pos": "명사", "ko": ["끄덕임"]}], "examples": [{"en": "She nodded her head in agreement.", "ko": "그녀는 동의하며 고개를 끄덕였다."}, {"en": "He gave a quick nod and left the room.", "ko": "그는 빠르게 고개를 끄덕이고 방을 나갔다."}], "theme": "소통"},
- {"id": 1790, "word": "noise", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["소음", "소리"]}], "examples": [{"en": "There was a loud noise outside.", "ko": "밖에서 큰 소음이 났다."}, {"en": "Please don't make so much noise.", "ko": "제발 그렇게 시끄럽게 하지 마."}], "theme": "소통"},
- {"id": 1791, "word": "nominate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["지명하다", "추천하다"]}], "examples": [{"en": "They nominated her for class president.", "ko": "그들은 그녀를 반장 후보로 지명했다."}, {"en": "The film was nominated for several awards.", "ko": "그 영화는 여러 상 후보에 올랐다."}], "theme": "사회"},
- {"id": 1792, "word": "none", "pos": ["대명사"], "meanings": [{"pos": "대명사", "ko": ["아무것도 ~않다"]}], "examples": [{"en": "None of the students knew the answer.", "ko": "학생들 중 아무도 답을 몰랐다."}, {"en": "I looked for cookies, but there were none left.", "ko": "쿠키를 찾았지만 하나도 남아 있지 않았다."}], "theme": "수량"},
- {"id": 1793, "word": "nonetheless", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["그럼에도 불구하고"]}], "examples": [{"en": "The task was hard; nonetheless, she finished it.", "ko": "그 일은 힘들었지만, 그럼에도 그녀는 끝마쳤다."}, {"en": "He was scared. Nonetheless, he jumped into the pool.", "ko": "그는 무서웠다. 그럼에도 그는 수영장에 뛰어들었다."}], "theme": "감정"},
- {"id": 1794, "word": "noon", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["정오"]}], "examples": [{"en": "We usually have lunch at noon.", "ko": "우리는 보통 정오에 점심을 먹는다."}, {"en": "The meeting starts at noon tomorrow.", "ko": "그 회의는 내일 정오에 시작한다."}], "theme": "시간"},
- {"id": 1795, "word": "nor", "pos": ["접속사"], "meanings": [{"pos": "접속사", "ko": ["~도 또한 아니다"]}], "examples": [{"en": "She can't swim, nor can she skate.", "ko": "그녀는 수영도 못하고 스케이트도 못 탄다."}, {"en": "He didn't call, nor did he write.", "ko": "그는 전화도 하지 않았고 편지도 쓰지 않았다."}], "theme": "소통"},
- {"id": 1796, "word": "norm", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["표준", "규범"]}], "examples": [{"en": "Eating late dinner is the norm in Spain.", "ko": "스페인에서는 늦은 저녁 식사가 일반적이다."}, {"en": "It's becoming the norm to work from home.", "ko": "재택근무를 하는 것이 표준이 되어가고 있다."}], "theme": "사회"},
- {"id": 1797, "word": "north", "pos": ["명사", "부사", "형용사"], "meanings": [{"pos": "명사", "ko": ["북쪽"]}, {"pos": "부사", "ko": ["북쪽으로"]}, {"pos": "형용사", "ko": ["북쪽의"]}], "examples": [{"en": "I’m from the north of Canada.", "ko": "나는 캐나다 북부 출신이다."}, {"en": "We drove north for hours.", "ko": "우리는 몇 시간 동안 북쪽으로 운전했다."}], "theme": "장소"},
- {"id": 1798, "word": "nose", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["코"]}], "examples": [{"en": "My nose is itchy.", "ko": "내 코가 간지럽다."}, {"en": "The dog has a wet nose.", "ko": "그 개는 코가 축축하다."}], "theme": "신체"},
- {"id": 1799, "word": "not", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["~아니다", "~않다"]}], "examples": [{"en": "Of course not.", "ko": "물론 아니지."}, {"en": "I am not hungry.", "ko": "나는 배고프지 않다."}], "theme": "소통"},
- {"id": 1800, "word": "note", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["메모", "노트"]}, {"pos": "동사", "ko": ["적다", "주목하다"]}], "examples": [{"en": "I left a note for you.", "ko": "나는 너를 위해 메모를 남겼다."}, {"en": "Please note the date.", "ko": "날짜를 잘 적어 두세요."}], "theme": "소통"}
+ {
+  "id": 1750,
+  "word": "naked",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "벌거벗은",
+     "적나라한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The baby was naked after the bath.",
+    "ko": "아기는 목욕 후에 벌거벗고 있었다."
+   },
+   {
+    "en": "You can see the stars with the naked eye tonight.",
+    "ko": "오늘 밤은 맨눈으로도 별을 볼 수 있다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1751,
+  "word": "name",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "이름"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "이름을 짓다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My name is John.",
+    "ko": "제 이름은 존이에요."
+   },
+   {
+    "en": "What is your name?",
+    "ko": "네 이름이 뭐니?"
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1752,
+  "word": "narrate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "이야기하다",
+     "서술하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The old man narrated his adventures to the children.",
+    "ko": "그 노인은 아이들에게 자신의 모험을 이야기했다."
+   },
+   {
+    "en": "A famous actor narrated the documentary film.",
+    "ko": "유명한 배우가 그 다큐멘터리 영화를 내레이션했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1753,
+  "word": "narrow",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "좁은"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The street is too narrow for two cars.",
+    "ko": "그 길은 차 두 대가 다니기에 너무 좁다."
+   },
+   {
+    "en": "We walked through a narrow path in the forest.",
+    "ko": "우리는 숲 속의 좁은 길을 걸었다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 1754,
+  "word": "nasty",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "끔찍한",
+     "심술궂은"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He said something nasty about his classmate.",
+    "ko": "그는 반 친구에 대해 심술궂은 말을 했다."
+   },
+   {
+    "en": "The weather turned nasty during our hike.",
+    "ko": "하이킹 도중에 날씨가 험악해졌다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1755,
+  "word": "nation",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "국가",
+     "나라"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Korea is a small nation.",
+    "ko": "한국은 작은 나라다."
+   },
+   {
+    "en": "Every nation has its own flag.",
+    "ko": "모든 국가는 저마다의 국기가 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1756,
+  "word": "native",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "출생지의",
+     "토종의"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "원주민"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "English is not her native language.",
+    "ko": "영어는 그녀의 모국어가 아니다."
+   },
+   {
+    "en": "He was born a native of this small town.",
+    "ko": "그는 이 작은 마을 태생이다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1757,
+  "word": "nature",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "자연",
+     "본성"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I love nature.",
+    "ko": "나는 자연을 사랑한다."
+   },
+   {
+    "en": "We protect nature together.",
+    "ko": "우리는 함께 자연을 보호한다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1758,
+  "word": "navy",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "해군"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "His older brother joined the navy last year.",
+    "ko": "그의 형은 작년에 해군에 입대했다."
+   },
+   {
+    "en": "The navy ship sailed across the ocean.",
+    "ko": "그 해군 함선은 바다를 가로질러 항해했다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 1759,
+  "word": "near",
+  "pos": [
+   "전치사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~근처에"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "가까운"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The store is near my house.",
+    "ko": "그 가게는 우리 집 근처에 있다."
+   },
+   {
+    "en": "Sit near the window.",
+    "ko": "창문 근처에 앉아라."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 1760,
+  "word": "neat",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "단정한",
+     "깔끔한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Keep your room neat and clean.",
+    "ko": "네 방을 단정하고 깨끗하게 유지해라."
+   },
+   {
+    "en": "She always writes in neat handwriting.",
+    "ko": "그녀는 항상 단정한 글씨체로 쓴다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 1761,
+  "word": "necessary",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "필요한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Water is necessary for all living things.",
+    "ko": "물은 모든 생물에게 필요하다."
+   },
+   {
+    "en": "It's necessary to bring your own umbrella today.",
+    "ko": "오늘은 우산을 직접 챙기는 것이 필요하다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1762,
+  "word": "neck",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "목"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My neck hurts a little.",
+    "ko": "내 목이 조금 아프다."
+   },
+   {
+    "en": "She has a long neck.",
+    "ko": "그녀는 목이 길다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1763,
+  "word": "need",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "필요하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "필요"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I need some help.",
+    "ko": "나는 도움이 좀 필요하다."
+   },
+   {
+    "en": "We need more time.",
+    "ko": "우리는 시간이 더 필요하다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1764,
+  "word": "needle",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "바늘"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She sewed the button on with a needle.",
+    "ko": "그녀는 바늘로 단추를 꿰맸다."
+   },
+   {
+    "en": "The nurse used a small needle for the shot.",
+    "ko": "간호사는 주사를 위해 작은 바늘을 사용했다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1765,
+  "word": "negate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "부정하다",
+     "무효화하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "One mistake doesn't negate all your hard work.",
+    "ko": "실수 하나가 너의 모든 노력을 무효화하지는 않는다."
+   },
+   {
+    "en": "The new evidence seemed to negate his story.",
+    "ko": "새 증거는 그의 이야기를 부정하는 것처럼 보였다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1766,
+  "word": "neglect",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "소홀히 하다",
+     "방치하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "방치"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Don't neglect your homework this week.",
+    "ko": "이번 주 숙제를 소홀히 하지 마라."
+   },
+   {
+    "en": "The old house showed signs of years of neglect.",
+    "ko": "그 오래된 집은 수년간 방치된 흔적을 보였다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1767,
+  "word": "negotiate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "협상하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The two companies negotiated a fair price.",
+    "ko": "그 두 회사는 공정한 가격을 협상했다."
+   },
+   {
+    "en": "Workers negotiated with the manager for better hours.",
+    "ko": "노동자들은 더 나은 근무 시간을 위해 관리자와 협상했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1768,
+  "word": "neighbor",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "이웃"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My neighbor is very kind to me.",
+    "ko": "우리 이웃은 나에게 매우 친절하다."
+   },
+   {
+    "en": "We invited our neighbors to the party.",
+    "ko": "우리는 이웃들을 파티에 초대했다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 1769,
+  "word": "neither",
+  "pos": [
+   "접속사",
+   "대명사"
+  ],
+  "meanings": [
+   {
+    "pos": "접속사",
+    "ko": [
+     "~도 아니다"
+    ]
+   },
+   {
+    "pos": "대명사",
+    "ko": [
+     "어느 쪽도 ~아니다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Neither of us wanted to leave early.",
+    "ko": "우리 둘 다 일찍 떠나고 싶지 않았다."
+   },
+   {
+    "en": "She likes neither coffee nor tea.",
+    "ko": "그녀는 커피도 차도 좋아하지 않는다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1770,
+  "word": "nephew",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "조카(남)"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My nephew just turned five years old.",
+    "ko": "내 조카는 막 다섯 살이 되었다."
+   },
+   {
+    "en": "I bought a birthday gift for my nephew.",
+    "ko": "나는 조카의 생일을 위해 선물을 샀다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 1771,
+  "word": "nerve",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "신경",
+     "용기"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The dentist touched a nerve in my tooth.",
+    "ko": "치과 의사가 내 치아의 신경을 건드렸다."
+   },
+   {
+    "en": "It took a lot of nerve to speak up.",
+    "ko": "나서서 말하는 데 큰 용기가 필요했다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1772,
+  "word": "nest",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "둥지"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The bird built a nest in the tree.",
+    "ko": "그 새는 나무에 둥지를 지었다."
+   },
+   {
+    "en": "We found eggs in the nest.",
+    "ko": "우리는 둥지에서 알을 발견했다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 1773,
+  "word": "net",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "그물",
+     "네트"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The fisherman threw his net into the sea.",
+    "ko": "어부는 그물을 바다에 던졌다."
+   },
+   {
+    "en": "The ball hit the net during the game.",
+    "ko": "경기 중에 공이 네트에 맞았다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 1774,
+  "word": "network",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "네트워크",
+     "연결망"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The school has a fast Wi-Fi network.",
+    "ko": "그 학교는 빠른 와이파이 네트워크가 있다."
+   },
+   {
+    "en": "She built a large network of friends abroad.",
+    "ko": "그녀는 해외에서 넓은 친구 관계망을 만들었다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1775,
+  "word": "neutral",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "중립적인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The teacher stayed neutral during the debate.",
+    "ko": "선생님은 토론 중에 중립을 지켰다."
+   },
+   {
+    "en": "Switzerland remained neutral during the war.",
+    "ko": "스위스는 전쟁 중에 중립을 유지했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1776,
+  "word": "never",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "결코 ~않다",
+     "절대 ~않다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Never mind.",
+    "ko": "신경 쓰지 마."
+   },
+   {
+    "en": "I never eat breakfast.",
+    "ko": "나는 절대 아침을 먹지 않는다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1777,
+  "word": "nevertheless",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "그럼에도 불구하고"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It was raining; nevertheless, we went hiking.",
+    "ko": "비가 왔지만, 그럼에도 우리는 하이킹을 갔다."
+   },
+   {
+    "en": "He was tired. Nevertheless, he finished the race.",
+    "ko": "그는 피곤했다. 그럼에도 그는 경주를 끝마쳤다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1778,
+  "word": "new",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "새로운"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I got a new bike.",
+    "ko": "나는 새 자전거를 얻었다."
+   },
+   {
+    "en": "This is a new book.",
+    "ko": "이것은 새 책이다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1779,
+  "word": "news",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "뉴스",
+     "소식"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I watch the news daily.",
+    "ko": "나는 매일 뉴스를 본다."
+   },
+   {
+    "en": "That's great news!",
+    "ko": "그거 정말 좋은 소식이다!"
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1780,
+  "word": "newspaper",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "신문"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My dad reads the newspaper.",
+    "ko": "우리 아빠는 신문을 읽는다."
+   },
+   {
+    "en": "This newspaper is from today.",
+    "ko": "이 신문은 오늘 것이다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1781,
+  "word": "next",
+  "pos": [
+   "형용사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "다음의"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "다음에"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "That’s all right. (You’ll do better next time).",
+    "ko": "괜찮아. (다음번에 더 잘할 거야.)"
+   },
+   {
+    "en": "See you next week.",
+    "ko": "다음 주에 보자."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 1782,
+  "word": "nice",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "좋은",
+     "친절한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "That would be very nice.",
+    "ko": "그러면 정말 좋겠다."
+   },
+   {
+    "en": "She is very nice.",
+    "ko": "그녀는 아주 친절하다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1783,
+  "word": "night",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "밤"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Good night, sleep well.",
+    "ko": "잘 자, 좋은 밤 보내."
+   },
+   {
+    "en": "It's dark at night.",
+    "ko": "밤에는 어둡다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 1784,
+  "word": "nightmare",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "악몽"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I had a scary nightmare last night.",
+    "ko": "나는 어젯밤 무서운 악몽을 꿨다."
+   },
+   {
+    "en": "The traffic this morning was a total nightmare.",
+    "ko": "오늘 아침 교통 체증은 완전히 악몽이었다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1785,
+  "word": "nine",
+  "pos": [
+   "수사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "아홉의"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "아홉"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I have nine pencils.",
+    "ko": "나는 연필이 아홉 개 있다."
+   },
+   {
+    "en": "The bus leaves at nine.",
+    "ko": "버스는 아홉 시에 떠난다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 1786,
+  "word": "no",
+  "pos": [
+   "감탄사",
+   "한정사"
+  ],
+  "meanings": [
+   {
+    "pos": "감탄사",
+    "ko": [
+     "아니요"
+    ]
+   },
+   {
+    "pos": "한정사",
+    "ko": [
+     "하나도 없는"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "No, it isn’t.",
+    "ko": "아니요, 그렇지 않아요."
+   },
+   {
+    "en": "No dogs allowed here.",
+    "ko": "여기는 개 출입 금지다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1787,
+  "word": "noble",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "고귀한",
+     "숭고한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It was a noble act to save the child.",
+    "ko": "그 아이를 구한 것은 고귀한 행동이었다."
+   },
+   {
+    "en": "The knight was known for his noble heart.",
+    "ko": "그 기사는 고귀한 마음씨로 유명했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1788,
+  "word": "nod",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "고개를 끄덕이다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "끄덕임"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She nodded her head in agreement.",
+    "ko": "그녀는 동의하며 고개를 끄덕였다."
+   },
+   {
+    "en": "He gave a quick nod and left the room.",
+    "ko": "그는 빠르게 고개를 끄덕이고 방을 나갔다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1789,
+  "word": "noise",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "소음",
+     "소리"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "There was a loud noise outside.",
+    "ko": "밖에서 큰 소음이 났다."
+   },
+   {
+    "en": "Please don't make so much noise.",
+    "ko": "제발 그렇게 시끄럽게 하지 마."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1790,
+  "word": "nominate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "지명하다",
+     "추천하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "They nominated her for class president.",
+    "ko": "그들은 그녀를 반장 후보로 지명했다."
+   },
+   {
+    "en": "The film was nominated for several awards.",
+    "ko": "그 영화는 여러 상 후보에 올랐다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1791,
+  "word": "none",
+  "pos": [
+   "대명사"
+  ],
+  "meanings": [
+   {
+    "pos": "대명사",
+    "ko": [
+     "아무것도 ~않다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "None of the students knew the answer.",
+    "ko": "학생들 중 아무도 답을 몰랐다."
+   },
+   {
+    "en": "I looked for cookies, but there were none left.",
+    "ko": "쿠키를 찾았지만 하나도 남아 있지 않았다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 1792,
+  "word": "nonetheless",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "그럼에도 불구하고"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The task was hard; nonetheless, she finished it.",
+    "ko": "그 일은 힘들었지만, 그럼에도 그녀는 끝마쳤다."
+   },
+   {
+    "en": "He was scared. Nonetheless, he jumped into the pool.",
+    "ko": "그는 무서웠다. 그럼에도 그는 수영장에 뛰어들었다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1793,
+  "word": "noon",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "정오"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We usually have lunch at noon.",
+    "ko": "우리는 보통 정오에 점심을 먹는다."
+   },
+   {
+    "en": "The meeting starts at noon tomorrow.",
+    "ko": "그 회의는 내일 정오에 시작한다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 1794,
+  "word": "nor",
+  "pos": [
+   "접속사"
+  ],
+  "meanings": [
+   {
+    "pos": "접속사",
+    "ko": [
+     "~도 또한 아니다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She can't swim, nor can she skate.",
+    "ko": "그녀는 수영도 못하고 스케이트도 못 탄다."
+   },
+   {
+    "en": "He didn't call, nor did he write.",
+    "ko": "그는 전화도 하지 않았고 편지도 쓰지 않았다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1795,
+  "word": "norm",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "표준",
+     "규범"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Eating late dinner is the norm in Spain.",
+    "ko": "스페인에서는 늦은 저녁 식사가 일반적이다."
+   },
+   {
+    "en": "It's becoming the norm to work from home.",
+    "ko": "재택근무를 하는 것이 표준이 되어가고 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1796,
+  "word": "north",
+  "pos": [
+   "명사",
+   "부사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "북쪽"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "북쪽으로"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "북쪽의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I’m from the north of Canada.",
+    "ko": "나는 캐나다 북부 출신이다."
+   },
+   {
+    "en": "We drove north for hours.",
+    "ko": "우리는 몇 시간 동안 북쪽으로 운전했다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 1797,
+  "word": "nose",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "코"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My nose is itchy.",
+    "ko": "내 코가 간지럽다."
+   },
+   {
+    "en": "The dog has a wet nose.",
+    "ko": "그 개는 코가 축축하다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1798,
+  "word": "not",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "~아니다",
+     "~않다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Of course not.",
+    "ko": "물론 아니지."
+   },
+   {
+    "en": "I am not hungry.",
+    "ko": "나는 배고프지 않다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1799,
+  "word": "note",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "메모",
+     "노트"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "적다",
+     "주목하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I left a note for you.",
+    "ko": "나는 너를 위해 메모를 남겼다."
+   },
+   {
+    "en": "Please note the date.",
+    "ko": "날짜를 잘 적어 두세요."
+   }
+  ],
+  "theme": "소통"
+ }
 ]

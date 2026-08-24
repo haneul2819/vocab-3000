@@ -58,7 +58,7 @@ export default function Stats() {
       .filter(([, v]) => v.seen > 0 || v.right + v.wrong > 0)
   }, [index, stateMap])
 
-  const total = index?.words.length ?? 3001
+  const total = index?.words.length ?? 3000
 
   return (
     <div className="page">

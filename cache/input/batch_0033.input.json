@@ -339,14 +339,6 @@
  },
  {
   "id": 1643,
-  "word": "math",
-  "level": "초등",
-  "derived": [],
-  "max_example_words": 6,
-  "fn_example": ""
- },
- {
-  "id": 1644,
   "word": "matter",
   "level": "중고공통",
   "derived": [
@@ -356,7 +348,7 @@
   "fn_example": "What’s the matter?"
  },
  {
-  "id": 1645,
+  "id": 1644,
   "word": "mature",
   "level": "선택",
   "derived": [],
@@ -364,7 +356,7 @@
   "fn_example": ""
  },
  {
-  "id": 1646,
+  "id": 1645,
   "word": "maximum",
   "level": "중고공통",
   "derived": [],
@@ -372,7 +364,7 @@
   "fn_example": ""
  },
  {
-  "id": 1647,
+  "id": 1646,
   "word": "may",
   "level": "초등",
   "derived": [],
@@ -380,7 +372,7 @@
   "fn_example": "May I have your attention(, please)?"
  },
  {
-  "id": 1648,
+  "id": 1647,
   "word": "maybe",
   "level": "중고공통",
   "derived": [],
@@ -388,7 +380,7 @@
   "fn_example": ""
  },
  {
-  "id": 1649,
+  "id": 1648,
   "word": "mayor",
   "level": "선택",
   "derived": [],
@@ -396,11 +388,19 @@
   "fn_example": ""
  },
  {
-  "id": 1650,
+  "id": 1649,
   "word": "meal",
   "level": "중고공통",
   "derived": [],
   "max_example_words": 12,
   "fn_example": ""
+ },
+ {
+  "id": 1650,
+  "word": "mean",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": "It (still) isn’t clear to me what this means."
  }
 ]

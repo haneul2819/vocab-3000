@@ -1,14 +1,6 @@
 [
  {
   "id": 1801,
-  "word": "notebook",
-  "level": "초등",
-  "derived": [],
-  "max_example_words": 6,
-  "fn_example": ""
- },
- {
-  "id": 1802,
   "word": "nothing",
   "level": "초등",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": "There’s nothing to get angry about."
  },
  {
-  "id": 1803,
+  "id": 1802,
   "word": "notice",
   "level": "중고공통",
   "derived": [],
@@ -24,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 1804,
+  "id": 1803,
   "word": "novel",
   "level": "선택",
   "derived": [],
@@ -32,7 +24,7 @@
   "fn_example": ""
  },
  {
-  "id": 1805,
+  "id": 1804,
   "word": "now",
   "level": "초등",
   "derived": [],
@@ -40,7 +32,7 @@
   "fn_example": "I’m sorry, I have to go now."
  },
  {
-  "id": 1806,
+  "id": 1805,
   "word": "nowadays",
   "level": "중고공통",
   "derived": [],
@@ -48,7 +40,7 @@
   "fn_example": ""
  },
  {
-  "id": 1807,
+  "id": 1806,
   "word": "nowhere",
   "level": "중고공통",
   "derived": [],
@@ -56,7 +48,7 @@
   "fn_example": ""
  },
  {
-  "id": 1808,
+  "id": 1807,
   "word": "nuclear",
   "level": "선택",
   "derived": [],
@@ -64,7 +56,7 @@
   "fn_example": ""
  },
  {
-  "id": 1809,
+  "id": 1808,
   "word": "number",
   "level": "초등",
   "derived": [],
@@ -72,7 +64,7 @@
   "fn_example": ""
  },
  {
-  "id": 1810,
+  "id": 1809,
   "word": "numerous",
   "level": "선택",
   "derived": [],
@@ -80,7 +72,7 @@
   "fn_example": ""
  },
  {
-  "id": 1811,
+  "id": 1810,
   "word": "nurse",
   "level": "초등",
   "derived": [],
@@ -88,7 +80,7 @@
   "fn_example": ""
  },
  {
-  "id": 1812,
+  "id": 1811,
   "word": "nut",
   "level": "중고공통",
   "derived": [],
@@ -96,7 +88,7 @@
   "fn_example": ""
  },
  {
-  "id": 1813,
+  "id": 1812,
   "word": "oak",
   "level": "중고공통",
   "derived": [],
@@ -104,7 +96,7 @@
   "fn_example": ""
  },
  {
-  "id": 1814,
+  "id": 1813,
   "word": "obey",
   "level": "선택",
   "derived": [],
@@ -112,7 +104,7 @@
   "fn_example": ""
  },
  {
-  "id": 1815,
+  "id": 1814,
   "word": "object",
   "level": "중고공통",
   "derived": [
@@ -122,7 +114,7 @@
   "fn_example": ""
  },
  {
-  "id": 1816,
+  "id": 1815,
   "word": "oblige",
   "level": "선택",
   "derived": [],
@@ -130,7 +122,7 @@
   "fn_example": ""
  },
  {
-  "id": 1817,
+  "id": 1816,
   "word": "observe",
   "level": "중고공통",
   "derived": [],
@@ -138,7 +130,7 @@
   "fn_example": ""
  },
  {
-  "id": 1818,
+  "id": 1817,
   "word": "obsess",
   "level": "선택",
   "derived": [],
@@ -146,7 +138,7 @@
   "fn_example": ""
  },
  {
-  "id": 1819,
+  "id": 1818,
   "word": "obtain",
   "level": "선택",
   "derived": [],
@@ -154,7 +146,7 @@
   "fn_example": ""
  },
  {
-  "id": 1820,
+  "id": 1819,
   "word": "obvious",
   "level": "중고공통",
   "derived": [],
@@ -162,7 +154,7 @@
   "fn_example": ""
  },
  {
-  "id": 1821,
+  "id": 1820,
   "word": "occasion",
   "level": "중고공통",
   "derived": [],
@@ -170,7 +162,7 @@
   "fn_example": ""
  },
  {
-  "id": 1822,
+  "id": 1821,
   "word": "occupy",
   "level": "선택",
   "derived": [
@@ -180,7 +172,7 @@
   "fn_example": ""
  },
  {
-  "id": 1823,
+  "id": 1822,
   "word": "occur",
   "level": "중고공통",
   "derived": [
@@ -190,7 +182,7 @@
   "fn_example": ""
  },
  {
-  "id": 1824,
+  "id": 1823,
   "word": "ocean",
   "level": "중고공통",
   "derived": [],
@@ -198,7 +190,7 @@
   "fn_example": ""
  },
  {
-  "id": 1825,
+  "id": 1824,
   "word": "odd",
   "level": "중고공통",
   "derived": [],
@@ -206,7 +198,7 @@
   "fn_example": ""
  },
  {
-  "id": 1826,
+  "id": 1825,
   "word": "of",
   "level": "초등",
   "derived": [],
@@ -214,7 +206,7 @@
   "fn_example": "I’m from the north of Canada."
  },
  {
-  "id": 1827,
+  "id": 1826,
   "word": "off",
   "level": "초등",
   "derived": [],
@@ -222,7 +214,7 @@
   "fn_example": ""
  },
  {
-  "id": 1828,
+  "id": 1827,
   "word": "offend",
   "level": "선택",
   "derived": [],
@@ -230,7 +222,7 @@
   "fn_example": ""
  },
  {
-  "id": 1829,
+  "id": 1828,
   "word": "offer",
   "level": "중고공통",
   "derived": [],
@@ -238,7 +230,7 @@
   "fn_example": ""
  },
  {
-  "id": 1830,
+  "id": 1829,
   "word": "office",
   "level": "초등",
   "derived": [
@@ -248,7 +240,7 @@
   "fn_example": "John comes to my office every Tuesday."
  },
  {
-  "id": 1831,
+  "id": 1830,
   "word": "officer",
   "level": "중고공통",
   "derived": [],
@@ -256,7 +248,7 @@
   "fn_example": ""
  },
  {
-  "id": 1832,
+  "id": 1831,
   "word": "often",
   "level": "초등",
   "derived": [],
@@ -264,7 +256,7 @@
   "fn_example": ""
  },
  {
-  "id": 1833,
+  "id": 1832,
   "word": "oil",
   "level": "초등",
   "derived": [],
@@ -272,7 +264,7 @@
   "fn_example": ""
  },
  {
-  "id": 1834,
+  "id": 1833,
   "word": "okay",
   "level": "초등",
   "derived": [],
@@ -280,7 +272,7 @@
   "fn_example": ""
  },
  {
-  "id": 1835,
+  "id": 1834,
   "word": "old",
   "level": "초등",
   "derived": [],
@@ -288,7 +280,7 @@
   "fn_example": "My father is 45 years old."
  },
  {
-  "id": 1836,
+  "id": 1835,
   "word": "on",
   "level": "초등",
   "derived": [],
@@ -296,7 +288,7 @@
   "fn_example": "I always go swimming on Tuesdays."
  },
  {
-  "id": 1837,
+  "id": 1836,
   "word": "once",
   "level": "중고공통",
   "derived": [],
@@ -304,7 +296,7 @@
   "fn_example": "Once upon a time, there lived a giant."
  },
  {
-  "id": 1838,
+  "id": 1837,
   "word": "one",
   "level": "초등",
   "derived": [],
@@ -312,7 +304,7 @@
   "fn_example": "We have three cats and one dog."
  },
  {
-  "id": 1839,
+  "id": 1838,
   "word": "only",
   "level": "초등",
   "derived": [],
@@ -320,7 +312,7 @@
   "fn_example": ""
  },
  {
-  "id": 1840,
+  "id": 1839,
   "word": "open",
   "level": "초등",
   "derived": [],
@@ -328,7 +320,7 @@
   "fn_example": "(Please,) open the door."
  },
  {
-  "id": 1841,
+  "id": 1840,
   "word": "opera",
   "level": "중고공통",
   "derived": [],
@@ -336,7 +328,7 @@
   "fn_example": ""
  },
  {
-  "id": 1842,
+  "id": 1841,
   "word": "operate",
   "level": "중고공통",
   "derived": [],
@@ -344,7 +336,7 @@
   "fn_example": ""
  },
  {
-  "id": 1843,
+  "id": 1842,
   "word": "opinion",
   "level": "중고공통",
   "derived": [],
@@ -352,7 +344,7 @@
   "fn_example": ""
  },
  {
-  "id": 1844,
+  "id": 1843,
   "word": "opportune",
   "level": "선택",
   "derived": [
@@ -362,7 +354,7 @@
   "fn_example": ""
  },
  {
-  "id": 1845,
+  "id": 1844,
   "word": "oppose",
   "level": "중고공통",
   "derived": [],
@@ -370,7 +362,7 @@
   "fn_example": ""
  },
  {
-  "id": 1846,
+  "id": 1845,
   "word": "opt",
   "level": "선택",
   "derived": [
@@ -380,7 +372,7 @@
   "fn_example": ""
  },
  {
-  "id": 1847,
+  "id": 1846,
   "word": "optimist",
   "level": "선택",
   "derived": [],
@@ -388,7 +380,7 @@
   "fn_example": ""
  },
  {
-  "id": 1848,
+  "id": 1847,
   "word": "or",
   "level": "초등",
   "derived": [],
@@ -396,7 +388,7 @@
   "fn_example": "Does anyone have any questions or comments?"
  },
  {
-  "id": 1849,
+  "id": 1848,
   "word": "oral",
   "level": "선택",
   "derived": [],
@@ -404,11 +396,19 @@
   "fn_example": ""
  },
  {
-  "id": 1850,
+  "id": 1849,
   "word": "orange",
   "level": "초등",
   "derived": [],
   "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1850,
+  "word": "orbit",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
   "fn_example": ""
  }
 ]

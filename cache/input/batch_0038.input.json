@@ -1,14 +1,6 @@
 [
  {
   "id": 1851,
-  "word": "orbit",
-  "level": "선택",
-  "derived": [],
-  "max_example_words": 15,
-  "fn_example": ""
- },
- {
-  "id": 1852,
   "word": "orchestra",
   "level": "선택",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": ""
  },
  {
-  "id": 1853,
+  "id": 1852,
   "word": "order",
   "level": "중고공통",
   "derived": [
@@ -26,7 +18,7 @@
   "fn_example": ""
  },
  {
-  "id": 1854,
+  "id": 1853,
   "word": "ordinary",
   "level": "중고공통",
   "derived": [],
@@ -34,7 +26,7 @@
   "fn_example": ""
  },
  {
-  "id": 1855,
+  "id": 1854,
   "word": "organ",
   "level": "선택",
   "derived": [
@@ -44,7 +36,7 @@
   "fn_example": ""
  },
  {
-  "id": 1856,
+  "id": 1855,
   "word": "orient",
   "level": "선택",
   "derived": [
@@ -54,7 +46,7 @@
   "fn_example": ""
  },
  {
-  "id": 1857,
+  "id": 1856,
   "word": "origin",
   "level": "선택",
   "derived": [
@@ -64,7 +56,7 @@
   "fn_example": ""
  },
  {
-  "id": 1858,
+  "id": 1857,
   "word": "other",
   "level": "중고공통",
   "derived": [],
@@ -72,7 +64,7 @@
   "fn_example": "Do you know each other?"
  },
  {
-  "id": 1859,
+  "id": 1858,
   "word": "otherwise",
   "level": "중고공통",
   "derived": [],
@@ -80,7 +72,7 @@
   "fn_example": ""
  },
  {
-  "id": 1860,
+  "id": 1859,
   "word": "ought",
   "level": "중고공통",
   "derived": [],
@@ -88,7 +80,7 @@
   "fn_example": ""
  },
  {
-  "id": 1861,
+  "id": 1860,
   "word": "out",
   "level": "초등",
   "derived": [],
@@ -96,7 +88,7 @@
   "fn_example": ""
  },
  {
-  "id": 1862,
+  "id": 1861,
   "word": "outcome",
   "level": "선택",
   "derived": [],
@@ -104,7 +96,7 @@
   "fn_example": ""
  },
  {
-  "id": 1863,
+  "id": 1862,
   "word": "outline",
   "level": "선택",
   "derived": [],
@@ -112,7 +104,7 @@
   "fn_example": ""
  },
  {
-  "id": 1864,
+  "id": 1863,
   "word": "output",
   "level": "선택",
   "derived": [],
@@ -120,7 +112,7 @@
   "fn_example": ""
  },
  {
-  "id": 1865,
+  "id": 1864,
   "word": "outrage",
   "level": "선택",
   "derived": [],
@@ -128,7 +120,7 @@
   "fn_example": ""
  },
  {
-  "id": 1866,
+  "id": 1865,
   "word": "outstanding",
   "level": "선택",
   "derived": [],
@@ -136,7 +128,7 @@
   "fn_example": ""
  },
  {
-  "id": 1867,
+  "id": 1866,
   "word": "oven",
   "level": "중고공통",
   "derived": [],
@@ -144,7 +136,7 @@
   "fn_example": ""
  },
  {
-  "id": 1868,
+  "id": 1867,
   "word": "over",
   "level": "초등",
   "derived": [],
@@ -152,7 +144,7 @@
   "fn_example": "The man over there is Mr. Kim."
  },
  {
-  "id": 1869,
+  "id": 1868,
   "word": "overall",
   "level": "중고공통",
   "derived": [],
@@ -160,7 +152,7 @@
   "fn_example": ""
  },
  {
-  "id": 1870,
+  "id": 1869,
   "word": "overcome",
   "level": "선택",
   "derived": [],
@@ -168,7 +160,7 @@
   "fn_example": ""
  },
  {
-  "id": 1871,
+  "id": 1870,
   "word": "overhead",
   "level": "선택",
   "derived": [],
@@ -176,7 +168,7 @@
   "fn_example": ""
  },
  {
-  "id": 1872,
+  "id": 1871,
   "word": "overlap",
   "level": "선택",
   "derived": [],
@@ -184,7 +176,7 @@
   "fn_example": ""
  },
  {
-  "id": 1873,
+  "id": 1872,
   "word": "overlook",
   "level": "선택",
   "derived": [],
@@ -192,7 +184,7 @@
   "fn_example": ""
  },
  {
-  "id": 1874,
+  "id": 1873,
   "word": "overnight",
   "level": "선택",
   "derived": [],
@@ -200,7 +192,7 @@
   "fn_example": ""
  },
  {
-  "id": 1875,
+  "id": 1874,
   "word": "oversea",
   "level": "선택",
   "derived": [],
@@ -208,7 +200,7 @@
   "fn_example": ""
  },
  {
-  "id": 1876,
+  "id": 1875,
   "word": "overwhelm",
   "level": "선택",
   "derived": [],
@@ -216,7 +208,7 @@
   "fn_example": ""
  },
  {
-  "id": 1877,
+  "id": 1876,
   "word": "owe",
   "level": "선택",
   "derived": [],
@@ -224,7 +216,7 @@
   "fn_example": ""
  },
  {
-  "id": 1878,
+  "id": 1877,
   "word": "own",
   "level": "중고공통",
   "derived": [],
@@ -232,7 +224,7 @@
   "fn_example": ""
  },
  {
-  "id": 1879,
+  "id": 1878,
   "word": "pace",
   "level": "선택",
   "derived": [],
@@ -240,7 +232,7 @@
   "fn_example": ""
  },
  {
-  "id": 1880,
+  "id": 1879,
   "word": "pack",
   "level": "중고공통",
   "derived": [],
@@ -248,7 +240,7 @@
   "fn_example": ""
  },
  {
-  "id": 1881,
+  "id": 1880,
   "word": "pad",
   "level": "선택",
   "derived": [],
@@ -256,7 +248,7 @@
   "fn_example": ""
  },
  {
-  "id": 1882,
+  "id": 1881,
   "word": "page",
   "level": "초등",
   "derived": [],
@@ -264,7 +256,7 @@
   "fn_example": ""
  },
  {
-  "id": 1883,
+  "id": 1882,
   "word": "pain",
   "level": "중고공통",
   "derived": [],
@@ -272,7 +264,7 @@
   "fn_example": ""
  },
  {
-  "id": 1884,
+  "id": 1883,
   "word": "paint",
   "level": "초등",
   "derived": [],
@@ -280,7 +272,7 @@
   "fn_example": ""
  },
  {
-  "id": 1885,
+  "id": 1884,
   "word": "pair",
   "level": "중고공통",
   "derived": [],
@@ -288,7 +280,7 @@
   "fn_example": ""
  },
  {
-  "id": 1886,
+  "id": 1885,
   "word": "palace",
   "level": "중고공통",
   "derived": [],
@@ -296,7 +288,7 @@
   "fn_example": "It has 5 royal palaces and many historic sites."
  },
  {
-  "id": 1887,
+  "id": 1886,
   "word": "pale",
   "level": "선택",
   "derived": [],
@@ -304,7 +296,7 @@
   "fn_example": ""
  },
  {
-  "id": 1888,
+  "id": 1887,
   "word": "palm",
   "level": "선택",
   "derived": [],
@@ -312,7 +304,7 @@
   "fn_example": ""
  },
  {
-  "id": 1889,
+  "id": 1888,
   "word": "pan",
   "level": "중고공통",
   "derived": [],
@@ -320,7 +312,7 @@
   "fn_example": ""
  },
  {
-  "id": 1890,
+  "id": 1889,
   "word": "panel",
   "level": "선택",
   "derived": [],
@@ -328,7 +320,7 @@
   "fn_example": ""
  },
  {
-  "id": 1891,
+  "id": 1890,
   "word": "panic",
   "level": "중고공통",
   "derived": [],
@@ -336,7 +328,7 @@
   "fn_example": ""
  },
  {
-  "id": 1892,
+  "id": 1891,
   "word": "pants",
   "level": "초등",
   "derived": [],
@@ -344,7 +336,7 @@
   "fn_example": ""
  },
  {
-  "id": 1893,
+  "id": 1892,
   "word": "paper",
   "level": "초등",
   "derived": [],
@@ -352,7 +344,7 @@
   "fn_example": ""
  },
  {
-  "id": 1894,
+  "id": 1893,
   "word": "parade",
   "level": "중고공통",
   "derived": [],
@@ -360,7 +352,7 @@
   "fn_example": ""
  },
  {
-  "id": 1895,
+  "id": 1894,
   "word": "paragraph",
   "level": "중고공통",
   "derived": [],
@@ -368,7 +360,7 @@
   "fn_example": ""
  },
  {
-  "id": 1896,
+  "id": 1895,
   "word": "parallel",
   "level": "선택",
   "derived": [],
@@ -376,7 +368,7 @@
   "fn_example": ""
  },
  {
-  "id": 1897,
+  "id": 1896,
   "word": "pardon",
   "level": "중고공통",
   "derived": [],
@@ -384,7 +376,7 @@
   "fn_example": "(I beg your) pardon?"
  },
  {
-  "id": 1898,
+  "id": 1897,
   "word": "parent",
   "level": "초등",
   "derived": [],
@@ -392,7 +384,7 @@
   "fn_example": ""
  },
  {
-  "id": 1899,
+  "id": 1898,
   "word": "park",
   "level": "초등",
   "derived": [],
@@ -400,11 +392,19 @@
   "fn_example": ""
  },
  {
-  "id": 1900,
+  "id": 1899,
   "word": "parliament",
   "level": "선택",
   "derived": [],
   "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1900,
+  "word": "part",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
   "fn_example": ""
  }
 ]

@@ -1,16 +1,6 @@
 [
  {
   "id": 2401,
-  "word": "sign",
-  "level": "중고공통",
-  "derived": [
-   "significant"
-  ],
-  "max_example_words": 12,
-  "fn_example": ""
- },
- {
-  "id": 2402,
   "word": "silent",
   "level": "선택",
   "derived": [],
@@ -18,7 +8,7 @@
   "fn_example": ""
  },
  {
-  "id": 2403,
+  "id": 2402,
   "word": "silly",
   "level": "중고공통",
   "derived": [],
@@ -26,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 2404,
+  "id": 2403,
   "word": "silver",
   "level": "중고공통",
   "derived": [],
@@ -34,7 +24,7 @@
   "fn_example": ""
  },
  {
-  "id": 2405,
+  "id": 2404,
   "word": "similar",
   "level": "중고공통",
   "derived": [],
@@ -42,7 +32,7 @@
   "fn_example": ""
  },
  {
-  "id": 2406,
+  "id": 2405,
   "word": "simple",
   "level": "중고공통",
   "derived": [],
@@ -50,7 +40,7 @@
   "fn_example": ""
  },
  {
-  "id": 2407,
+  "id": 2406,
   "word": "simulate",
   "level": "선택",
   "derived": [],
@@ -58,7 +48,7 @@
   "fn_example": ""
  },
  {
-  "id": 2408,
+  "id": 2407,
   "word": "simultaneous",
   "level": "선택",
   "derived": [],
@@ -66,7 +56,7 @@
   "fn_example": ""
  },
  {
-  "id": 2409,
+  "id": 2408,
   "word": "sin",
   "level": "선택",
   "derived": [],
@@ -74,7 +64,7 @@
   "fn_example": ""
  },
  {
-  "id": 2410,
+  "id": 2409,
   "word": "since",
   "level": "중고공통",
   "derived": [],
@@ -82,7 +72,7 @@
   "fn_example": ""
  },
  {
-  "id": 2411,
+  "id": 2410,
   "word": "sing",
   "level": "초등",
   "derived": [],
@@ -90,7 +80,7 @@
   "fn_example": ""
  },
  {
-  "id": 2412,
+  "id": 2411,
   "word": "single",
   "level": "중고공통",
   "derived": [],
@@ -98,7 +88,7 @@
   "fn_example": ""
  },
  {
-  "id": 2413,
+  "id": 2412,
   "word": "sink",
   "level": "중고공통",
   "derived": [],
@@ -106,7 +96,7 @@
   "fn_example": ""
  },
  {
-  "id": 2414,
+  "id": 2413,
   "word": "sister",
   "level": "초등",
   "derived": [],
@@ -114,7 +104,7 @@
   "fn_example": "I have three sisters and one brother."
  },
  {
-  "id": 2415,
+  "id": 2414,
   "word": "sit",
   "level": "초등",
   "derived": [],
@@ -122,7 +112,7 @@
   "fn_example": "It has 5 royal palaces and many historic sites."
  },
  {
-  "id": 2416,
+  "id": 2415,
   "word": "site",
   "level": "중고공통",
   "derived": [],
@@ -130,7 +120,7 @@
   "fn_example": "It has 5 royal palaces and many historic sites."
  },
  {
-  "id": 2417,
+  "id": 2416,
   "word": "situate",
   "level": "중고공통",
   "derived": [
@@ -140,7 +130,7 @@
   "fn_example": ""
  },
  {
-  "id": 2418,
+  "id": 2417,
   "word": "six",
   "level": "초등",
   "derived": [],
@@ -148,7 +138,7 @@
   "fn_example": "What time is it? A quarter to six."
  },
  {
-  "id": 2419,
+  "id": 2418,
   "word": "size",
   "level": "초등",
   "derived": [],
@@ -156,7 +146,7 @@
   "fn_example": ""
  },
  {
-  "id": 2420,
+  "id": 2419,
   "word": "skate",
   "level": "초등",
   "derived": [],
@@ -164,7 +154,7 @@
   "fn_example": ""
  },
  {
-  "id": 2421,
+  "id": 2420,
   "word": "ski",
   "level": "초등",
   "derived": [],
@@ -172,7 +162,7 @@
   "fn_example": ""
  },
  {
-  "id": 2422,
+  "id": 2421,
   "word": "skill",
   "level": "중고공통",
   "derived": [],
@@ -180,7 +170,7 @@
   "fn_example": ""
  },
  {
-  "id": 2423,
+  "id": 2422,
   "word": "skin",
   "level": "초등",
   "derived": [],
@@ -188,7 +178,7 @@
   "fn_example": ""
  },
  {
-  "id": 2424,
+  "id": 2423,
   "word": "skip",
   "level": "선택",
   "derived": [],
@@ -196,7 +186,7 @@
   "fn_example": ""
  },
  {
-  "id": 2425,
+  "id": 2424,
   "word": "skirt",
   "level": "초등",
   "derived": [],
@@ -204,7 +194,7 @@
   "fn_example": ""
  },
  {
-  "id": 2426,
+  "id": 2425,
   "word": "sky",
   "level": "초등",
   "derived": [],
@@ -212,7 +202,7 @@
   "fn_example": ""
  },
  {
-  "id": 2427,
+  "id": 2426,
   "word": "slave",
   "level": "중고공통",
   "derived": [],
@@ -220,7 +210,7 @@
   "fn_example": ""
  },
  {
-  "id": 2428,
+  "id": 2427,
   "word": "sleep",
   "level": "초등",
   "derived": [],
@@ -228,7 +218,7 @@
   "fn_example": ""
  },
  {
-  "id": 2429,
+  "id": 2428,
   "word": "slice",
   "level": "선택",
   "derived": [],
@@ -236,7 +226,7 @@
   "fn_example": ""
  },
  {
-  "id": 2430,
+  "id": 2429,
   "word": "slide",
   "level": "중고공통",
   "derived": [],
@@ -244,7 +234,7 @@
   "fn_example": ""
  },
  {
-  "id": 2431,
+  "id": 2430,
   "word": "slight",
   "level": "중고공통",
   "derived": [],
@@ -252,7 +242,7 @@
   "fn_example": ""
  },
  {
-  "id": 2432,
+  "id": 2431,
   "word": "slim",
   "level": "선택",
   "derived": [],
@@ -260,7 +250,7 @@
   "fn_example": "Tom is tall and slim."
  },
  {
-  "id": 2433,
+  "id": 2432,
   "word": "slip",
   "level": "중고공통",
   "derived": [],
@@ -268,7 +258,7 @@
   "fn_example": ""
  },
  {
-  "id": 2434,
+  "id": 2433,
   "word": "slope",
   "level": "선택",
   "derived": [],
@@ -276,7 +266,7 @@
   "fn_example": ""
  },
  {
-  "id": 2435,
+  "id": 2434,
   "word": "slow",
   "level": "초등",
   "derived": [],
@@ -284,7 +274,7 @@
   "fn_example": ""
  },
  {
-  "id": 2436,
+  "id": 2435,
   "word": "small",
   "level": "초등",
   "derived": [],
@@ -292,7 +282,7 @@
   "fn_example": ""
  },
  {
-  "id": 2437,
+  "id": 2436,
   "word": "smart",
   "level": "중고공통",
   "derived": [],
@@ -300,7 +290,7 @@
   "fn_example": ""
  },
  {
-  "id": 2438,
+  "id": 2437,
   "word": "smash",
   "level": "중고공통",
   "derived": [],
@@ -308,7 +298,7 @@
   "fn_example": ""
  },
  {
-  "id": 2439,
+  "id": 2438,
   "word": "smell",
   "level": "초등",
   "derived": [],
@@ -316,7 +306,7 @@
   "fn_example": ""
  },
  {
-  "id": 2440,
+  "id": 2439,
   "word": "smile",
   "level": "초등",
   "derived": [],
@@ -324,7 +314,7 @@
   "fn_example": ""
  },
  {
-  "id": 2441,
+  "id": 2440,
   "word": "smoke",
   "level": "중고공통",
   "derived": [],
@@ -332,7 +322,7 @@
   "fn_example": ""
  },
  {
-  "id": 2442,
+  "id": 2441,
   "word": "smooth",
   "level": "중고공통",
   "derived": [],
@@ -340,7 +330,7 @@
   "fn_example": ""
  },
  {
-  "id": 2443,
+  "id": 2442,
   "word": "snack",
   "level": "중고공통",
   "derived": [],
@@ -348,7 +338,7 @@
   "fn_example": ""
  },
  {
-  "id": 2444,
+  "id": 2443,
   "word": "snake",
   "level": "중고공통",
   "derived": [],
@@ -356,7 +346,7 @@
   "fn_example": ""
  },
  {
-  "id": 2445,
+  "id": 2444,
   "word": "snap",
   "level": "중고공통",
   "derived": [],
@@ -364,7 +354,7 @@
   "fn_example": ""
  },
  {
-  "id": 2446,
+  "id": 2445,
   "word": "sneak",
   "level": "선택",
   "derived": [],
@@ -372,7 +362,7 @@
   "fn_example": ""
  },
  {
-  "id": 2447,
+  "id": 2446,
   "word": "snow",
   "level": "초등",
   "derived": [],
@@ -380,7 +370,7 @@
   "fn_example": ""
  },
  {
-  "id": 2448,
+  "id": 2447,
   "word": "so",
   "level": "초등",
   "derived": [],
@@ -388,7 +378,7 @@
   "fn_example": "Don’t get so angry!"
  },
  {
-  "id": 2449,
+  "id": 2448,
   "word": "soak",
   "level": "선택",
   "derived": [],
@@ -396,11 +386,19 @@
   "fn_example": ""
  },
  {
-  "id": 2450,
+  "id": 2449,
   "word": "soap",
   "level": "선택",
   "derived": [],
   "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 2450,
+  "word": "soccer",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
   "fn_example": ""
  }
 ]

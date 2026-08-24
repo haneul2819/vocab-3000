@@ -1,52 +1,1417 @@
 [
- {"id": 1351, "word": "however", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["그러나", "하지만"]}], "examples": [{"en": "However, I still love it.", "ko": "그러나 나는 여전히 그것을 좋아한다."}, {"en": "However, she kept trying hard.", "ko": "그러나 그녀는 계속 열심히 노력했다."}], "theme": "소통"},
- {"id": 1352, "word": "hug", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["안다", "포옹하다"]}, {"pos": "명사", "ko": ["포옹"]}], "examples": [{"en": "She gave her mom a warm hug this morning.", "ko": "그녀는 오늘 아침 엄마를 따뜻하게 안아 주었다."}, {"en": "The children hugged each other after the long trip.", "ko": "아이들은 긴 여행 후에 서로를 안아 주었다."}], "theme": "감정"},
- {"id": 1353, "word": "huge", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["거대한", "엄청난"]}], "examples": [{"en": "They live in a huge house near the lake.", "ko": "그들은 호숫가의 거대한 집에 산다."}, {"en": "The company earned a huge profit this year.", "ko": "그 회사는 올해 엄청난 이익을 얻었다."}], "theme": "사물"},
- {"id": 1354, "word": "human", "pos": ["명사", "형용사"], "meanings": [{"pos": "명사", "ko": ["인간", "사람"]}, {"pos": "형용사", "ko": ["인간의"]}], "examples": [{"en": "Every human needs food and water.", "ko": "모든 인간은 음식과 물이 필요하다."}, {"en": "Humans can learn many languages.", "ko": "인간은 여러 언어를 배울 수 있다."}], "theme": "사회"},
- {"id": 1355, "word": "humor", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["유머", "재치"]}], "examples": [{"en": "The teacher has a great sense of humor.", "ko": "그 선생님은 유머 감각이 뛰어나다."}, {"en": "His jokes are full of gentle humor.", "ko": "그의 농담은 부드러운 유머로 가득하다."}], "theme": "감정"},
- {"id": 1356, "word": "hundred", "pos": ["수사", "명사"], "meanings": [{"pos": "수사", "ko": ["백(100)"]}, {"pos": "명사", "ko": ["백"]}], "examples": [{"en": "I have a hundred coins.", "ko": "나는 동전이 백 개 있다."}, {"en": "Hundreds of birds flew away.", "ko": "수백 마리의 새들이 날아갔다."}], "theme": "수량"},
- {"id": 1357, "word": "hunger", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["배고픔", "굶주림"]}], "examples": [{"en": "The charity works to end world hunger.", "ko": "그 자선단체는 세계 기아를 없애기 위해 일한다."}, {"en": "He felt a sharp hunger after practice.", "ko": "그는 연습 후에 심한 배고픔을 느꼈다."}], "theme": "신체"},
- {"id": 1358, "word": "hunt", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["사냥하다"]}, {"pos": "명사", "ko": ["사냥"]}], "examples": [{"en": "Lions hunt for food together.", "ko": "사자들은 함께 먹이를 사냥한다."}, {"en": "They went on a treasure hunt.", "ko": "그들은 보물찾기를 하러 갔다."}], "theme": "행동"},
- {"id": 1359, "word": "hurry", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["서두르다"]}, {"pos": "명사", "ko": ["서두름"]}], "examples": [{"en": "Please hurry, the bus is here.", "ko": "서둘러, 버스가 왔어."}, {"en": "We were in a big hurry.", "ko": "우리는 몹시 서두르고 있었다."}], "theme": "행동"},
- {"id": 1360, "word": "hurt", "pos": ["동사", "형용사"], "meanings": [{"pos": "동사", "ko": ["다치게 하다", "아프게 하다"]}, {"pos": "형용사", "ko": ["다친", "상처받은"]}], "examples": [{"en": "She hurt her knee while running yesterday.", "ko": "그녀는 어제 달리다가 무릎을 다쳤다."}, {"en": "His harsh words really hurt my feelings.", "ko": "그의 거친 말은 내 마음을 정말 아프게 했다."}], "theme": "신체"},
- {"id": 1361, "word": "husband", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["남편"]}], "examples": [{"en": "My husband cooks dinner tonight.", "ko": "내 남편이 오늘 저녁을 요리한다."}, {"en": "Her husband works at a bank.", "ko": "그녀의 남편은 은행에서 일한다."}], "theme": "가족"},
- {"id": 1362, "word": "hut", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["오두막"]}], "examples": [{"en": "The old fisherman lived alone in a small wooden hut.", "ko": "그 늙은 어부는 작은 나무 오두막에서 혼자 살았다."}, {"en": "We stayed in a straw hut on the beach for a week.", "ko": "우리는 해변의 초가 오두막에서 일주일 동안 지냈다."}], "theme": "장소"},
- {"id": 1363, "word": "hypothesis", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["가설"]}], "examples": [{"en": "The scientist tested her hypothesis with careful experiments.", "ko": "그 과학자는 신중한 실험으로 자신의 가설을 검증했다."}, {"en": "Our teacher asked us to form a hypothesis before the experiment.", "ko": "선생님은 실험 전에 가설을 세우라고 하셨다."}], "theme": "과학"},
- {"id": 1364, "word": "I", "pos": ["대명사"], "meanings": [{"pos": "대명사", "ko": ["나는", "내가"]}], "examples": [{"en": "The man over there is Mr. Kim.", "ko": "저기 있는 남자분이 김 선생님이다."}, {"en": "I go to school every day.", "ko": "나는 매일 학교에 간다."}], "theme": "소통"},
- {"id": 1365, "word": "ice", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["얼음"]}], "examples": [{"en": "The lake ice is thick.", "ko": "호수의 얼음이 두껍다."}, {"en": "Put some ice in juice.", "ko": "주스에 얼음을 좀 넣어라."}], "theme": "자연"},
- {"id": 1366, "word": "idea", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["생각", "아이디어"]}], "examples": [{"en": "That’s a good idea.", "ko": "그거 좋은 생각이다."}, {"en": "She had a great idea.", "ko": "그녀는 좋은 아이디어가 있었다."}], "theme": "추상"},
- {"id": 1367, "word": "ideal", "pos": ["형용사", "명사"], "meanings": [{"pos": "형용사", "ko": ["이상적인"]}, {"pos": "명사", "ko": ["이상"]}], "examples": [{"en": "This quiet town is the ideal place to study.", "ko": "이 조용한 마을은 공부하기에 이상적인 장소이다."}, {"en": "He has high ideals about honesty and fairness.", "ko": "그는 정직과 공정함에 대한 높은 이상을 가지고 있다."}], "theme": "추상"},
- {"id": 1368, "word": "identical", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["동일한", "똑같은"]}], "examples": [{"en": "The twins wore identical shirts to school today.", "ko": "그 쌍둥이는 오늘 학교에 똑같은 셔츠를 입고 갔다."}, {"en": "Her answer was identical to mine.", "ko": "그녀의 답은 내 것과 동일했다."}], "theme": "추상"},
- {"id": 1369, "word": "identity", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["정체성", "신원"]}], "examples": [{"en": "The thief hid his true identity from the police.", "ko": "그 도둑은 경찰에게 자신의 진짜 신원을 숨겼다."}, {"en": "She is proud of her cultural identity.", "ko": "그녀는 자신의 문화적 정체성을 자랑스러워한다."}], "theme": "추상"},
- {"id": 1370, "word": "ideology", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["이념", "사상"]}], "examples": [{"en": "The two countries follow very different political ideologies.", "ko": "두 나라는 매우 다른 정치 이념을 따른다."}, {"en": "His speech reflected his personal ideology about freedom.", "ko": "그의 연설은 자유에 대한 그의 개인적 신념을 반영했다."}], "theme": "사회"},
- {"id": 1371, "word": "if", "pos": ["접속사"], "meanings": [{"pos": "접속사", "ko": ["만약 ~라면", "~인지"]}], "examples": [{"en": "Excuse me. I wonder if you could help me.", "ko": "실례합니다. 저를 도와주실 수 있는지 궁금합니다."}, {"en": "If it rains, we will stay home.", "ko": "만약 비가 오면 우리는 집에 있을 것이다."}], "theme": "소통"},
- {"id": 1372, "word": "ignore", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["무시하다"]}], "examples": [{"en": "He always ignores my advice about studying.", "ko": "그는 항상 공부에 대한 내 조언을 무시한다."}, {"en": "Please don't ignore the warning sign.", "ko": "그 경고 표지판을 무시하지 마라."}], "theme": "행동"},
- {"id": 1373, "word": "ill", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["아픈", "병든"]}], "examples": [{"en": "My grandmother has been ill since last week.", "ko": "우리 할머니는 지난주부터 편찮으시다."}, {"en": "He felt too ill to go to school.", "ko": "그는 너무 아파서 학교에 갈 수 없었다."}], "theme": "신체"},
- {"id": 1374, "word": "illude", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["속이다", "착각하게 하다"]}], "examples": [{"en": "The clever trick seemed to illude even the experts.", "ko": "그 교묘한 속임수는 전문가들조차 착각하게 만드는 듯했다."}, {"en": "Bright lights can illude our sense of distance.", "ko": "밝은 빛은 우리의 거리 감각을 착각하게 할 수 있다."}], "theme": "추상"},
- {"id": 1375, "word": "illustrate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["설명하다", "삽화를 그리다"]}], "examples": [{"en": "The teacher used a chart to illustrate the idea.", "ko": "선생님은 그 개념을 설명하기 위해 도표를 사용했다."}, {"en": "She illustrated the storybook with colorful pictures.", "ko": "그녀는 알록달록한 그림으로 동화책에 삽화를 그렸다."}], "theme": "학교"},
- {"id": 1376, "word": "image", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["이미지", "모습"]}], "examples": [{"en": "I saved a nice image.", "ko": "나는 멋진 이미지를 저장했다."}, {"en": "This image shows a bright star.", "ko": "이 이미지는 밝은 별을 보여준다."}], "theme": "사물"},
- {"id": 1377, "word": "imagine", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["상상하다"]}], "examples": [{"en": "Can you imagine living on the moon?", "ko": "달에서 사는 것을 상상할 수 있니?"}, {"en": "I often imagine traveling around the world.", "ko": "나는 종종 세계를 여행하는 것을 상상한다."}], "theme": "추상"},
- {"id": 1378, "word": "imitate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["모방하다", "흉내 내다"]}], "examples": [{"en": "Young children often imitate their parents' behavior.", "ko": "어린아이들은 종종 부모의 행동을 모방한다."}, {"en": "The comedian imitated the singer's voice perfectly.", "ko": "그 코미디언은 가수의 목소리를 완벽하게 흉내 냈다."}], "theme": "행동"},
- {"id": 1379, "word": "immediate", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["즉각적인"]}], "examples": [{"en": "The doctor took immediate action to help him.", "ko": "의사는 그를 돕기 위해 즉각적인 조치를 취했다."}, {"en": "We need an immediate answer to this question.", "ko": "우리는 이 질문에 즉각적인 답이 필요하다."}], "theme": "시간"},
- {"id": 1380, "word": "immense", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["거대한", "엄청난"]}], "examples": [{"en": "The desert stretched across an immense area of sand.", "ko": "그 사막은 엄청난 모래 지역에 걸쳐 펼쳐져 있었다."}, {"en": "She felt immense joy when she won the prize.", "ko": "그녀는 상을 받았을 때 엄청난 기쁨을 느꼈다."}], "theme": "사물"},
- {"id": 1381, "word": "immigrate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["이민 오다", "이주하다"]}], "examples": [{"en": "His grandparents immigrated to Canada many years ago.", "ko": "그의 조부모님은 오래전에 캐나다로 이민 오셨다."}, {"en": "Many families immigrate to find better job opportunities.", "ko": "많은 가정이 더 나은 일자리를 찾아 이민을 온다."}], "theme": "사회"},
- {"id": 1382, "word": "immune", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["면역이 있는"]}], "examples": [{"en": "Vitamin C helps keep our immune system strong.", "ko": "비타민 C는 우리의 면역 체계를 튼튼하게 유지하도록 돕는다."}, {"en": "He seems immune to the common cold this year.", "ko": "그는 올해 감기에 면역이 있는 것 같다."}], "theme": "신체"},
- {"id": 1383, "word": "impact", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["영향"]}, {"pos": "동사", "ko": ["영향을 미치다"]}], "examples": [{"en": "The new policy had a big impact on students.", "ko": "그 새로운 정책은 학생들에게 큰 영향을 미쳤다."}, {"en": "Climate change will impact future generations greatly.", "ko": "기후 변화는 미래 세대에 큰 영향을 미칠 것이다."}], "theme": "사회"},
- {"id": 1384, "word": "imperial", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["제국의"]}], "examples": [{"en": "The museum displays artifacts from the imperial palace.", "ko": "그 박물관은 황궁에서 나온 유물을 전시한다."}, {"en": "The imperial army marched through the ancient city.", "ko": "제국의 군대가 고대 도시를 행진했다."}], "theme": "사회"},
- {"id": 1385, "word": "implement", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["시행하다"]}, {"pos": "명사", "ko": ["도구"]}], "examples": [{"en": "The school will implement a new reading program.", "ko": "학교는 새로운 독서 프로그램을 시행할 것이다."}, {"en": "Farmers used simple implements to plow the field.", "ko": "농부들은 밭을 갈기 위해 간단한 도구를 사용했다."}], "theme": "행동"},
- {"id": 1386, "word": "imply", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["암시하다"]}], "examples": [{"en": "Her silence seemed to imply that she disagreed.", "ko": "그녀의 침묵은 그녀가 반대한다는 것을 암시하는 듯했다."}, {"en": "The report implies that sales will increase soon.", "ko": "그 보고서는 판매가 곧 증가할 것임을 암시한다."}], "theme": "소통"},
- {"id": 1387, "word": "import", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["수입하다"]}, {"pos": "명사", "ko": ["수입품"]}], "examples": [{"en": "Korea imports a lot of oil from other countries.", "ko": "한국은 다른 나라들로부터 많은 석유를 수입한다."}, {"en": "The store sells imports from Europe and Asia.", "ko": "그 가게는 유럽과 아시아에서 온 수입품을 판다."}], "theme": "사회"},
- {"id": 1388, "word": "impose", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["부과하다", "강요하다"]}], "examples": [{"en": "The government decided to impose a new tax.", "ko": "정부는 새로운 세금을 부과하기로 결정했다."}, {"en": "Parents should not impose their dreams on children.", "ko": "부모는 자신의 꿈을 아이들에게 강요해서는 안 된다."}], "theme": "사회"},
- {"id": 1389, "word": "impress", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["감동시키다", "깊은 인상을 주다"]}], "examples": [{"en": "Her beautiful singing impressed the whole audience.", "ko": "그녀의 아름다운 노래는 모든 관객에게 깊은 인상을 주었다."}, {"en": "He tried hard to impress his new boss.", "ko": "그는 새로운 상사에게 좋은 인상을 주려고 열심히 노력했다."}], "theme": "감정"},
- {"id": 1390, "word": "improve", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["향상시키다", "나아지다"]}], "examples": [{"en": "Reading every day can improve your vocabulary.", "ko": "매일 책을 읽으면 어휘력을 향상시킬 수 있다."}, {"en": "His grades improved a lot this semester.", "ko": "그의 성적이 이번 학기에 많이 나아졌다."}], "theme": "행동"},
- {"id": 1391, "word": "in", "pos": ["전치사"], "meanings": [{"pos": "전치사", "ko": ["~안에", "~에"]}], "examples": [{"en": "What are you interested in?", "ko": "너는 무엇에 관심이 있니?"}, {"en": "The cat sleeps in a box.", "ko": "고양이가 상자 안에서 잔다."}], "theme": "장소"},
- {"id": 1392, "word": "incentive", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["동기", "유인책"]}], "examples": [{"en": "The company offers a bonus as an incentive to work hard.", "ko": "그 회사는 열심히 일하도록 보너스를 동기로 제공한다."}, {"en": "Good grades gave him an incentive to study more.", "ko": "좋은 성적은 그에게 더 공부할 동기를 주었다."}], "theme": "사회"},
- {"id": 1393, "word": "incident", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["사건"]}], "examples": [{"en": "The police investigated the strange incident near the park.", "ko": "경찰은 공원 근처에서 일어난 이상한 사건을 조사했다."}, {"en": "No one was hurt in the small incident.", "ko": "그 작은 사건으로 다친 사람은 없었다."}], "theme": "사회"},
- {"id": 1394, "word": "incline", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["기울다", "~하고 싶어지다"]}, {"pos": "명사", "ko": ["경사"]}], "examples": [{"en": "The road began to incline sharply near the mountain.", "ko": "그 길은 산 근처에서 가파르게 기울기 시작했다."}, {"en": "I am inclined to agree with your plan.", "ko": "나는 네 계획에 동의하고 싶은 마음이 든다."}], "theme": "자연"},
- {"id": 1395, "word": "include", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["포함하다"]}], "examples": [{"en": "The price includes breakfast and a room service.", "ko": "그 가격은 아침 식사와 룸서비스를 포함한다."}, {"en": "Please include your name and phone number.", "ko": "이름과 전화번호를 포함해 주세요."}], "theme": "추상"},
- {"id": 1396, "word": "income", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["소득", "수입"]}], "examples": [{"en": "His monthly income increased after the promotion.", "ko": "그의 월 소득은 승진 후에 늘어났다."}, {"en": "The family lives on a small income.", "ko": "그 가족은 적은 수입으로 생활한다."}], "theme": "직업"},
- {"id": 1397, "word": "incorporate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["포함하다", "통합하다"]}], "examples": [{"en": "The new design incorporates several safety features.", "ko": "그 새로운 디자인은 여러 안전 기능을 포함한다."}, {"en": "She incorporated fresh vegetables into every meal.", "ko": "그녀는 신선한 채소를 매 끼니에 포함시켰다."}], "theme": "음식"},
- {"id": 1398, "word": "increase", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["증가하다"]}, {"pos": "명사", "ko": ["증가"]}], "examples": [{"en": "The temperature will increase over the weekend.", "ko": "기온이 주말 동안 오를 것이다."}, {"en": "There was a sharp increase in prices.", "ko": "물가에 급격한 증가가 있었다."}], "theme": "수량"},
- {"id": 1399, "word": "indeed", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["정말로", "실제로"]}], "examples": [{"en": "The movie was indeed very exciting and fun.", "ko": "그 영화는 정말로 매우 흥미롭고 재미있었다."}, {"en": "She is indeed a talented young artist.", "ko": "그녀는 정말로 재능 있는 젊은 예술가이다."}], "theme": "소통"},
- {"id": 1400, "word": "index", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["색인", "지수"]}], "examples": [{"en": "Check the index at the back of the book.", "ko": "책 뒤쪽에 있는 색인을 확인해라."}, {"en": "The stock index rose sharply this morning.", "ko": "주가 지수가 오늘 아침 급격히 올랐다."}], "theme": "사물"}
+ {
+  "id": 1351,
+  "word": "however",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "그러나",
+     "하지만"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "However, I still love it.",
+    "ko": "그러나 나는 여전히 그것을 좋아한다."
+   },
+   {
+    "en": "However, she kept trying hard.",
+    "ko": "그러나 그녀는 계속 열심히 노력했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1352,
+  "word": "hug",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "안다",
+     "포옹하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "포옹"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She gave her mom a warm hug this morning.",
+    "ko": "그녀는 오늘 아침 엄마를 따뜻하게 안아 주었다."
+   },
+   {
+    "en": "The children hugged each other after the long trip.",
+    "ko": "아이들은 긴 여행 후에 서로를 안아 주었다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1353,
+  "word": "huge",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "거대한",
+     "엄청난"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "They live in a huge house near the lake.",
+    "ko": "그들은 호숫가의 거대한 집에 산다."
+   },
+   {
+    "en": "The company earned a huge profit this year.",
+    "ko": "그 회사는 올해 엄청난 이익을 얻었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1354,
+  "word": "human",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "인간",
+     "사람"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "인간의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Every human needs food and water.",
+    "ko": "모든 인간은 음식과 물이 필요하다."
+   },
+   {
+    "en": "Humans can learn many languages.",
+    "ko": "인간은 여러 언어를 배울 수 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1355,
+  "word": "humor",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "유머",
+     "재치"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The teacher has a great sense of humor.",
+    "ko": "그 선생님은 유머 감각이 뛰어나다."
+   },
+   {
+    "en": "His jokes are full of gentle humor.",
+    "ko": "그의 농담은 부드러운 유머로 가득하다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1356,
+  "word": "hundred",
+  "pos": [
+   "수사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "백(100)"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "백"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I have a hundred coins.",
+    "ko": "나는 동전이 백 개 있다."
+   },
+   {
+    "en": "Hundreds of birds flew away.",
+    "ko": "수백 마리의 새들이 날아갔다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 1357,
+  "word": "hunger",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "배고픔",
+     "굶주림"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The charity works to end world hunger.",
+    "ko": "그 자선단체는 세계 기아를 없애기 위해 일한다."
+   },
+   {
+    "en": "He felt a sharp hunger after practice.",
+    "ko": "그는 연습 후에 심한 배고픔을 느꼈다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1358,
+  "word": "hunt",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "사냥하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "사냥"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Lions hunt for food together.",
+    "ko": "사자들은 함께 먹이를 사냥한다."
+   },
+   {
+    "en": "They went on a treasure hunt.",
+    "ko": "그들은 보물찾기를 하러 갔다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1359,
+  "word": "hurry",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "서두르다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "서두름"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please hurry, the bus is here.",
+    "ko": "서둘러, 버스가 왔어."
+   },
+   {
+    "en": "We were in a big hurry.",
+    "ko": "우리는 몹시 서두르고 있었다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1360,
+  "word": "hurt",
+  "pos": [
+   "동사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "다치게 하다",
+     "아프게 하다"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "다친",
+     "상처받은"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She hurt her knee while running yesterday.",
+    "ko": "그녀는 어제 달리다가 무릎을 다쳤다."
+   },
+   {
+    "en": "His harsh words really hurt my feelings.",
+    "ko": "그의 거친 말은 내 마음을 정말 아프게 했다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1361,
+  "word": "husband",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "남편"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My husband cooks dinner tonight.",
+    "ko": "내 남편이 오늘 저녁을 요리한다."
+   },
+   {
+    "en": "Her husband works at a bank.",
+    "ko": "그녀의 남편은 은행에서 일한다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 1362,
+  "word": "hut",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "오두막"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The old fisherman lived alone in a small wooden hut.",
+    "ko": "그 늙은 어부는 작은 나무 오두막에서 혼자 살았다."
+   },
+   {
+    "en": "We stayed in a straw hut on the beach for a week.",
+    "ko": "우리는 해변의 초가 오두막에서 일주일 동안 지냈다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 1363,
+  "word": "hypothesis",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "가설"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The scientist tested her hypothesis with careful experiments.",
+    "ko": "그 과학자는 신중한 실험으로 자신의 가설을 검증했다."
+   },
+   {
+    "en": "Our teacher asked us to form a hypothesis before the experiment.",
+    "ko": "선생님은 실험 전에 가설을 세우라고 하셨다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 1364,
+  "word": "I",
+  "pos": [
+   "대명사"
+  ],
+  "meanings": [
+   {
+    "pos": "대명사",
+    "ko": [
+     "나는",
+     "내가"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The man over there is Mr. Kim.",
+    "ko": "저기 있는 남자분이 김 선생님이다."
+   },
+   {
+    "en": "I go to school every day.",
+    "ko": "나는 매일 학교에 간다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1365,
+  "word": "ice",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "얼음"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The lake ice is thick.",
+    "ko": "호수의 얼음이 두껍다."
+   },
+   {
+    "en": "Put some ice in juice.",
+    "ko": "주스에 얼음을 좀 넣어라."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1366,
+  "word": "idea",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "생각",
+     "아이디어"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "That’s a good idea.",
+    "ko": "그거 좋은 생각이다."
+   },
+   {
+    "en": "She had a great idea.",
+    "ko": "그녀는 좋은 아이디어가 있었다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1367,
+  "word": "ideal",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "이상적인"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "이상"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This quiet town is the ideal place to study.",
+    "ko": "이 조용한 마을은 공부하기에 이상적인 장소이다."
+   },
+   {
+    "en": "He has high ideals about honesty and fairness.",
+    "ko": "그는 정직과 공정함에 대한 높은 이상을 가지고 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1368,
+  "word": "identical",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "동일한",
+     "똑같은"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The twins wore identical shirts to school today.",
+    "ko": "그 쌍둥이는 오늘 학교에 똑같은 셔츠를 입고 갔다."
+   },
+   {
+    "en": "Her answer was identical to mine.",
+    "ko": "그녀의 답은 내 것과 동일했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1369,
+  "word": "identity",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "정체성",
+     "신원"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The thief hid his true identity from the police.",
+    "ko": "그 도둑은 경찰에게 자신의 진짜 신원을 숨겼다."
+   },
+   {
+    "en": "She is proud of her cultural identity.",
+    "ko": "그녀는 자신의 문화적 정체성을 자랑스러워한다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1370,
+  "word": "ideology",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "이념",
+     "사상"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The two countries follow very different political ideologies.",
+    "ko": "두 나라는 매우 다른 정치 이념을 따른다."
+   },
+   {
+    "en": "His speech reflected his personal ideology about freedom.",
+    "ko": "그의 연설은 자유에 대한 그의 개인적 신념을 반영했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1371,
+  "word": "if",
+  "pos": [
+   "접속사"
+  ],
+  "meanings": [
+   {
+    "pos": "접속사",
+    "ko": [
+     "만약 ~라면",
+     "~인지"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Excuse me. I wonder if you could help me.",
+    "ko": "실례합니다. 저를 도와주실 수 있는지 궁금합니다."
+   },
+   {
+    "en": "If it rains, we will stay home.",
+    "ko": "만약 비가 오면 우리는 집에 있을 것이다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1372,
+  "word": "ignore",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "무시하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He always ignores my advice about studying.",
+    "ko": "그는 항상 공부에 대한 내 조언을 무시한다."
+   },
+   {
+    "en": "Please don't ignore the warning sign.",
+    "ko": "그 경고 표지판을 무시하지 마라."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1373,
+  "word": "ill",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "아픈",
+     "병든"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My grandmother has been ill since last week.",
+    "ko": "우리 할머니는 지난주부터 편찮으시다."
+   },
+   {
+    "en": "He felt too ill to go to school.",
+    "ko": "그는 너무 아파서 학교에 갈 수 없었다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1374,
+  "word": "illude",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "속이다",
+     "착각하게 하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The clever trick seemed to illude even the experts.",
+    "ko": "그 교묘한 속임수는 전문가들조차 착각하게 만드는 듯했다."
+   },
+   {
+    "en": "Bright lights can illude our sense of distance.",
+    "ko": "밝은 빛은 우리의 거리 감각을 착각하게 할 수 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1375,
+  "word": "illustrate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "설명하다",
+     "삽화를 그리다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The teacher used a chart to illustrate the idea.",
+    "ko": "선생님은 그 개념을 설명하기 위해 도표를 사용했다."
+   },
+   {
+    "en": "She illustrated the storybook with colorful pictures.",
+    "ko": "그녀는 알록달록한 그림으로 동화책에 삽화를 그렸다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 1376,
+  "word": "image",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "이미지",
+     "모습"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I saved a nice image.",
+    "ko": "나는 멋진 이미지를 저장했다."
+   },
+   {
+    "en": "This image shows a bright star.",
+    "ko": "이 이미지는 밝은 별을 보여준다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1377,
+  "word": "imagine",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "상상하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Can you imagine living on the moon?",
+    "ko": "달에서 사는 것을 상상할 수 있니?"
+   },
+   {
+    "en": "I often imagine traveling around the world.",
+    "ko": "나는 종종 세계를 여행하는 것을 상상한다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1378,
+  "word": "imitate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "모방하다",
+     "흉내 내다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Young children often imitate their parents' behavior.",
+    "ko": "어린아이들은 종종 부모의 행동을 모방한다."
+   },
+   {
+    "en": "The comedian imitated the singer's voice perfectly.",
+    "ko": "그 코미디언은 가수의 목소리를 완벽하게 흉내 냈다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1379,
+  "word": "immediate",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "즉각적인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The doctor took immediate action to help him.",
+    "ko": "의사는 그를 돕기 위해 즉각적인 조치를 취했다."
+   },
+   {
+    "en": "We need an immediate answer to this question.",
+    "ko": "우리는 이 질문에 즉각적인 답이 필요하다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 1380,
+  "word": "immense",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "거대한",
+     "엄청난"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The desert stretched across an immense area of sand.",
+    "ko": "그 사막은 엄청난 모래 지역에 걸쳐 펼쳐져 있었다."
+   },
+   {
+    "en": "She felt immense joy when she won the prize.",
+    "ko": "그녀는 상을 받았을 때 엄청난 기쁨을 느꼈다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1381,
+  "word": "immigrate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "이민 오다",
+     "이주하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "His grandparents immigrated to Canada many years ago.",
+    "ko": "그의 조부모님은 오래전에 캐나다로 이민 오셨다."
+   },
+   {
+    "en": "Many families immigrate to find better job opportunities.",
+    "ko": "많은 가정이 더 나은 일자리를 찾아 이민을 온다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1382,
+  "word": "immune",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "면역이 있는"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Vitamin C helps keep our immune system strong.",
+    "ko": "비타민 C는 우리의 면역 체계를 튼튼하게 유지하도록 돕는다."
+   },
+   {
+    "en": "He seems immune to the common cold this year.",
+    "ko": "그는 올해 감기에 면역이 있는 것 같다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1383,
+  "word": "impact",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "영향"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "영향을 미치다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The new policy had a big impact on students.",
+    "ko": "그 새로운 정책은 학생들에게 큰 영향을 미쳤다."
+   },
+   {
+    "en": "Climate change will impact future generations greatly.",
+    "ko": "기후 변화는 미래 세대에 큰 영향을 미칠 것이다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1384,
+  "word": "imperial",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "제국의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The museum displays artifacts from the imperial palace.",
+    "ko": "그 박물관은 황궁에서 나온 유물을 전시한다."
+   },
+   {
+    "en": "The imperial army marched through the ancient city.",
+    "ko": "제국의 군대가 고대 도시를 행진했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1385,
+  "word": "implement",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "시행하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "도구"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The school will implement a new reading program.",
+    "ko": "학교는 새로운 독서 프로그램을 시행할 것이다."
+   },
+   {
+    "en": "Farmers used simple implements to plow the field.",
+    "ko": "농부들은 밭을 갈기 위해 간단한 도구를 사용했다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1386,
+  "word": "imply",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "암시하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Her silence seemed to imply that she disagreed.",
+    "ko": "그녀의 침묵은 그녀가 반대한다는 것을 암시하는 듯했다."
+   },
+   {
+    "en": "The report implies that sales will increase soon.",
+    "ko": "그 보고서는 판매가 곧 증가할 것임을 암시한다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1387,
+  "word": "import",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "수입하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "수입품"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Korea imports a lot of oil from other countries.",
+    "ko": "한국은 다른 나라들로부터 많은 석유를 수입한다."
+   },
+   {
+    "en": "The store sells imports from Europe and Asia.",
+    "ko": "그 가게는 유럽과 아시아에서 온 수입품을 판다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1388,
+  "word": "impose",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "부과하다",
+     "강요하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The government decided to impose a new tax.",
+    "ko": "정부는 새로운 세금을 부과하기로 결정했다."
+   },
+   {
+    "en": "Parents should not impose their dreams on children.",
+    "ko": "부모는 자신의 꿈을 아이들에게 강요해서는 안 된다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1389,
+  "word": "impress",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "감동시키다",
+     "깊은 인상을 주다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Her beautiful singing impressed the whole audience.",
+    "ko": "그녀의 아름다운 노래는 모든 관객에게 깊은 인상을 주었다."
+   },
+   {
+    "en": "He tried hard to impress his new boss.",
+    "ko": "그는 새로운 상사에게 좋은 인상을 주려고 열심히 노력했다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1390,
+  "word": "improve",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "향상시키다",
+     "나아지다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Reading every day can improve your vocabulary.",
+    "ko": "매일 책을 읽으면 어휘력을 향상시킬 수 있다."
+   },
+   {
+    "en": "His grades improved a lot this semester.",
+    "ko": "그의 성적이 이번 학기에 많이 나아졌다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1391,
+  "word": "in",
+  "pos": [
+   "전치사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~안에",
+     "~에"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "What are you interested in?",
+    "ko": "너는 무엇에 관심이 있니?"
+   },
+   {
+    "en": "The cat sleeps in a box.",
+    "ko": "고양이가 상자 안에서 잔다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 1392,
+  "word": "incentive",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "동기",
+     "유인책"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The company offers a bonus as an incentive to work hard.",
+    "ko": "그 회사는 열심히 일하도록 보너스를 동기로 제공한다."
+   },
+   {
+    "en": "Good grades gave him an incentive to study more.",
+    "ko": "좋은 성적은 그에게 더 공부할 동기를 주었다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1393,
+  "word": "incident",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "사건"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The police investigated the strange incident near the park.",
+    "ko": "경찰은 공원 근처에서 일어난 이상한 사건을 조사했다."
+   },
+   {
+    "en": "No one was hurt in the small incident.",
+    "ko": "그 작은 사건으로 다친 사람은 없었다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1394,
+  "word": "incline",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "기울다",
+     "~하고 싶어지다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "경사"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The road began to incline sharply near the mountain.",
+    "ko": "그 길은 산 근처에서 가파르게 기울기 시작했다."
+   },
+   {
+    "en": "I am inclined to agree with your plan.",
+    "ko": "나는 네 계획에 동의하고 싶은 마음이 든다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1395,
+  "word": "include",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "포함하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The price includes breakfast and a room service.",
+    "ko": "그 가격은 아침 식사와 룸서비스를 포함한다."
+   },
+   {
+    "en": "Please include your name and phone number.",
+    "ko": "이름과 전화번호를 포함해 주세요."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1396,
+  "word": "income",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "소득",
+     "수입"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "His monthly income increased after the promotion.",
+    "ko": "그의 월 소득은 승진 후에 늘어났다."
+   },
+   {
+    "en": "The family lives on a small income.",
+    "ko": "그 가족은 적은 수입으로 생활한다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 1397,
+  "word": "incorporate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "포함하다",
+     "통합하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The new design incorporates several safety features.",
+    "ko": "그 새로운 디자인은 여러 안전 기능을 포함한다."
+   },
+   {
+    "en": "She incorporated fresh vegetables into every meal.",
+    "ko": "그녀는 신선한 채소를 매 끼니에 포함시켰다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 1398,
+  "word": "increase",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "증가하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "증가"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The temperature will increase over the weekend.",
+    "ko": "기온이 주말 동안 오를 것이다."
+   },
+   {
+    "en": "There was a sharp increase in prices.",
+    "ko": "물가에 급격한 증가가 있었다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 1399,
+  "word": "indeed",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "정말로",
+     "실제로"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The movie was indeed very exciting and fun.",
+    "ko": "그 영화는 정말로 매우 흥미롭고 재미있었다."
+   },
+   {
+    "en": "She is indeed a talented young artist.",
+    "ko": "그녀는 정말로 재능 있는 젊은 예술가이다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1400,
+  "word": "index",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "색인",
+     "지수"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Check the index at the back of the book.",
+    "ko": "책 뒤쪽에 있는 색인을 확인해라."
+   },
+   {
+    "en": "The stock index rose sharply this morning.",
+    "ko": "주가 지수가 오늘 아침 급격히 올랐다."
+   }
+  ],
+  "theme": "사물"
+ }
 ]

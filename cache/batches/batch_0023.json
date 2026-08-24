@@ -1,52 +1,1399 @@
 [
- {"id": 1101, "word": "flood", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["홍수"]}, {"pos": "동사", "ko": ["침수시키다", "넘치다"]}], "examples": [{"en": "Heavy rain caused a serious flood.", "ko": "폭우로 심각한 홍수가 발생했다."}, {"en": "The river flooded the nearby village.", "ko": "그 강은 인근 마을을 침수시켰다."}], "theme": "자연"},
- {"id": 1102, "word": "floor", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["바닥", "층"]}], "examples": [{"en": "The cat sleeps on the floor.", "ko": "고양이가 바닥에서 잔다."}, {"en": "We live on the third floor.", "ko": "우리는 3층에 산다."}], "theme": "장소"},
- {"id": 1103, "word": "flourish", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["번성하다", "잘 자라다"]}], "examples": [{"en": "The small business began to flourish quickly.", "ko": "그 작은 사업은 빠르게 번창하기 시작했다."}, {"en": "Plants flourish in warm, sunny weather.", "ko": "식물은 따뜻하고 화창한 날씨에 잘 자란다."}], "theme": "추상"},
- {"id": 1104, "word": "flow", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["흐름"]}, {"pos": "동사", "ko": ["흐르다"]}], "examples": [{"en": "The river flows through the valley.", "ko": "그 강은 계곡을 따라 흐른다."}, {"en": "Traffic flow improved after the repair.", "ko": "수리 후 교통 흐름이 개선되었다."}], "theme": "자연"},
- {"id": 1105, "word": "flower", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["꽃"]}], "examples": [{"en": "She picked a red flower.", "ko": "그녀는 빨간 꽃을 꺾었다."}, {"en": "These flowers smell so sweet.", "ko": "이 꽃들은 향이 정말 좋다."}], "theme": "자연"},
- {"id": 1106, "word": "flush", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["물을 내리다", "얼굴이 붉어지다"]}], "examples": [{"en": "Remember to flush the toilet.", "ko": "변기 물 내리는 것을 잊지 마."}, {"en": "Her cheeks flushed with embarrassment.", "ko": "그녀의 뺨이 부끄러움으로 붉어졌다."}], "theme": "행동"},
- {"id": 1107, "word": "fly", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["날다"]}, {"pos": "명사", "ko": ["파리"]}], "examples": [{"en": "Birds fly high in the sky.", "ko": "새들은 하늘 높이 난다."}, {"en": "A fly landed on the table.", "ko": "파리 한 마리가 탁자에 앉았다."}], "theme": "동물"},
- {"id": 1108, "word": "focus", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["집중하다"]}, {"pos": "명사", "ko": ["초점", "집중"]}], "examples": [{"en": "Please focus on your homework.", "ko": "숙제에 집중해라."}, {"en": "Her focus is on math today.", "ko": "오늘 그녀의 관심은 수학에 있다."}], "theme": "학교"},
- {"id": 1109, "word": "fog", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["안개"]}], "examples": [{"en": "Thick fog covered the city this morning.", "ko": "오늘 아침 짙은 안개가 도시를 뒤덮었다."}, {"en": "We drove slowly through the fog.", "ko": "우리는 안개 속을 천천히 운전했다."}], "theme": "자연"},
- {"id": 1110, "word": "fold", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["접다"]}], "examples": [{"en": "Please fold your clothes neatly.", "ko": "옷을 깔끔하게 개어라."}, {"en": "She folded the paper into a crane.", "ko": "그녀는 종이를 접어 학을 만들었다."}], "theme": "행동"},
- {"id": 1111, "word": "folk", "pos": ["명사", "형용사"], "meanings": [{"pos": "명사", "ko": ["사람들"]}, {"pos": "형용사", "ko": ["민속의"]}], "examples": [{"en": "Many folk gathered at the market.", "ko": "많은 사람들이 시장에 모였다."}, {"en": "She loves traditional folk music.", "ko": "그녀는 전통 민속 음악을 좋아한다."}], "theme": "사회"},
- {"id": 1112, "word": "follow", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["따라가다", "이해하다"]}], "examples": [{"en": "Do you follow me?", "ko": "제 말 이해하시나요?"}, {"en": "The dog followed her home.", "ko": "그 개는 그녀를 따라 집까지 왔다."}], "theme": "행동"},
- {"id": 1113, "word": "fond", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["좋아하는"]}], "examples": [{"en": "I'm very fond of chocolate.", "ko": "나는 초콜릿을 매우 좋아한다."}, {"en": "She is fond of old movies.", "ko": "그녀는 옛날 영화를 좋아한다."}], "theme": "감정"},
- {"id": 1114, "word": "food", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["음식"]}], "examples": [{"en": "I love Korean food.", "ko": "나는 한국 음식을 좋아한다."}, {"en": "This food tastes amazing.", "ko": "이 음식은 정말 맛있다."}], "theme": "음식"},
- {"id": 1115, "word": "fool", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["바보"]}, {"pos": "동사", "ko": ["속이다"]}], "examples": [{"en": "Don't be a fool.", "ko": "바보처럼 굴지 마."}, {"en": "He tried to fool his friend.", "ko": "그는 친구를 속이려 했다."}], "theme": "일상"},
- {"id": 1116, "word": "foot", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["발"]}], "examples": [{"en": "I hurt my foot yesterday.", "ko": "나는 어제 발을 다쳤다."}, {"en": "He stood on one foot.", "ko": "그는 한쪽 발로 서 있었다."}], "theme": "신체"},
- {"id": 1117, "word": "football", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["축구"]}], "examples": [{"en": "We play football after school.", "ko": "우리는 방과 후에 축구를 한다."}, {"en": "He kicked the football hard.", "ko": "그는 축구공을 세게 찼다."}], "theme": "여가"},
- {"id": 1118, "word": "for", "pos": ["전치사"], "meanings": [{"pos": "전치사", "ko": ["~을 위해", "~동안"]}], "examples": [{"en": "Good (for you)!", "ko": "잘됐다!"}, {"en": "This gift is for you.", "ko": "이 선물은 너를 위한 거야."}], "theme": "소통"},
- {"id": 1119, "word": "forbid", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["금지하다"]}], "examples": [{"en": "The rules forbid loud noise here.", "ko": "규칙은 이곳에서 큰 소음을 금지한다."}, {"en": "They forbid pets in the library.", "ko": "그들은 도서관에서 반려동물을 금지한다."}], "theme": "사회"},
- {"id": 1120, "word": "force", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["힘"]}, {"pos": "동사", "ko": ["강요하다"]}], "examples": [{"en": "The wind blew with great force.", "ko": "바람이 강한 힘으로 불었다."}, {"en": "No one can force you to decide.", "ko": "아무도 너에게 결정을 강요할 수 없다."}], "theme": "과학"},
- {"id": 1121, "word": "forecast", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["예보"]}, {"pos": "동사", "ko": ["예측하다"]}], "examples": [{"en": "The weather forecast predicts rain tomorrow.", "ko": "일기 예보는 내일 비를 예측한다."}, {"en": "Experts forecast a strong economy this year.", "ko": "전문가들은 올해 경제가 강할 것으로 예측한다."}], "theme": "자연"},
- {"id": 1122, "word": "forehead", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["이마"]}], "examples": [{"en": "Sweat dripped down his forehead.", "ko": "땀이 그의 이마에서 흘러내렸다."}, {"en": "She kissed the baby's forehead gently.", "ko": "그녀는 아기의 이마에 부드럽게 입맞췄다."}], "theme": "신체"},
- {"id": 1123, "word": "foreign", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["외국의"]}], "examples": [{"en": "She speaks three foreign languages.", "ko": "그녀는 외국어 세 개를 말한다."}, {"en": "He works for a foreign company.", "ko": "그는 외국 회사에서 일한다."}], "theme": "사회"},
- {"id": 1124, "word": "forest", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["숲"]}], "examples": [{"en": "We walked through the quiet forest.", "ko": "우리는 조용한 숲을 걸었다."}, {"en": "Many animals live in the forest.", "ko": "많은 동물들이 숲에서 산다."}], "theme": "자연"},
- {"id": 1125, "word": "forever", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["영원히"]}], "examples": [{"en": "I will remember this day forever.", "ko": "나는 이 날을 영원히 기억할 것이다."}, {"en": "Nothing lasts forever in life.", "ko": "인생에서 영원한 것은 없다."}], "theme": "시간"},
- {"id": 1126, "word": "forget", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["잊다"]}], "examples": [{"en": "Forget it.", "ko": "신경 쓰지 마."}, {"en": "Don't forget your homework tomorrow.", "ko": "내일 숙제를 잊지 마."}], "theme": "추상"},
- {"id": 1127, "word": "forgive", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["용서하다"]}], "examples": [{"en": "Please forgive me.", "ko": "저를 용서해 주세요."}, {"en": "She forgives her little brother easily.", "ko": "그녀는 남동생을 쉽게 용서한다."}], "theme": "감정"},
- {"id": 1128, "word": "fork", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["포크"]}], "examples": [{"en": "Please pass me a fork.", "ko": "포크 좀 건네줘."}, {"en": "The fork fell off the table.", "ko": "포크가 탁자에서 떨어졌다."}], "theme": "사물"},
- {"id": 1129, "word": "form", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["모양", "서식"]}, {"pos": "동사", "ko": ["형성하다"]}], "examples": [{"en": "Fill out this form, please.", "ko": "이 서식을 작성해 주세요."}, {"en": "Clouds form high in the sky.", "ko": "구름은 하늘 높이 형성된다."}], "theme": "추상"},
- {"id": 1130, "word": "format", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["형식", "포맷"]}], "examples": [{"en": "Save the file in PDF format.", "ko": "파일을 PDF 형식으로 저장해라."}, {"en": "The report follows a simple format.", "ko": "그 보고서는 간단한 형식을 따른다."}], "theme": "사물"},
- {"id": 1131, "word": "former", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["이전의", "전자의"]}], "examples": [{"en": "He is a former teacher of mine.", "ko": "그는 나의 예전 선생님이다."}, {"en": "The former president visited our school.", "ko": "전직 대통령이 우리 학교를 방문했다."}], "theme": "시간"},
- {"id": 1132, "word": "formula", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["공식"]}], "examples": [{"en": "We learned a new math formula.", "ko": "우리는 새로운 수학 공식을 배웠다."}, {"en": "This formula calculates the area easily.", "ko": "이 공식은 넓이를 쉽게 계산해준다."}], "theme": "과학"},
- {"id": 1133, "word": "forth", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["앞으로", "밖으로"]}], "examples": [{"en": "The dog ran back and forth.", "ko": "개가 앞뒤로 왔다갔다 뛰었다."}, {"en": "She stepped forth to speak.", "ko": "그녀는 앞으로 나서서 말했다."}], "theme": "행동"},
- {"id": 1134, "word": "fortunate", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["운 좋은"]}], "examples": [{"en": "We are fortunate to have good friends.", "ko": "우리는 좋은 친구가 있어서 운이 좋다."}, {"en": "It was fortunate that no one got hurt.", "ko": "아무도 다치지 않아서 다행이었다."}], "theme": "감정"},
- {"id": 1135, "word": "fortune", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["운", "재산"]}], "examples": [{"en": "He made a fortune in business.", "ko": "그는 사업으로 큰 재산을 모았다."}, {"en": "Good fortune came to our family.", "ko": "우리 가족에게 행운이 찾아왔다."}], "theme": "추상"},
- {"id": 1136, "word": "forward", "pos": ["부사", "동사"], "meanings": [{"pos": "부사", "ko": ["앞으로"]}, {"pos": "동사", "ko": ["전달하다"]}], "examples": [{"en": "I’ve been looking forward to meeting you.", "ko": "당신을 만나기를 정말 기대하고 있었어요."}, {"en": "Please forward this email to Tom.", "ko": "이 이메일을 톰에게 전달해 주세요."}], "theme": "행동"},
- {"id": 1137, "word": "foster", "pos": ["동사", "형용사"], "meanings": [{"pos": "동사", "ko": ["육성하다", "촉진하다"]}, {"pos": "형용사", "ko": ["위탁의"]}], "examples": [{"en": "Good teachers foster creativity in students.", "ko": "좋은 교사는 학생들의 창의성을 키운다."}, {"en": "They welcomed a foster child last year.", "ko": "그들은 작년에 위탁 아동을 맞이했다."}], "theme": "가족"},
- {"id": 1138, "word": "found", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["설립하다"]}], "examples": [{"en": "The company was founded in 1990.", "ko": "그 회사는 1990년에 설립되었다."}, {"en": "She founded a nonprofit organization last year.", "ko": "그녀는 작년에 비영리 단체를 설립했다."}], "theme": "사회"},
- {"id": 1139, "word": "fountain", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["분수"]}], "examples": [{"en": "Children played near the fountain.", "ko": "아이들이 분수 근처에서 놀았다."}, {"en": "The fountain in the park is beautiful.", "ko": "공원에 있는 분수는 아름답다."}], "theme": "장소"},
- {"id": 1140, "word": "four", "pos": ["수사"], "meanings": [{"pos": "수사", "ko": ["넷", "4"]}], "examples": [{"en": "It has four doors.", "ko": "그것은 문이 네 개 있다."}, {"en": "We waited for four hours.", "ko": "우리는 네 시간 동안 기다렸다."}], "theme": "수량"},
- {"id": 1141, "word": "fox", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["여우"]}], "examples": [{"en": "A fox ran across the field.", "ko": "여우 한 마리가 들판을 가로질러 뛰었다."}, {"en": "The fox hid behind the tree.", "ko": "그 여우는 나무 뒤에 숨었다."}], "theme": "동물"},
- {"id": 1142, "word": "fraction", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["분수", "일부"]}], "examples": [{"en": "We studied fractions in math class.", "ko": "우리는 수학 시간에 분수를 배웠다."}, {"en": "Only a fraction of students passed.", "ko": "학생들 중 일부만 통과했다."}], "theme": "과학"},
- {"id": 1143, "word": "frame", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["틀", "액자"]}], "examples": [{"en": "She put the photo in a frame.", "ko": "그녀는 그 사진을 액자에 넣었다."}, {"en": "The bike frame is made of steel.", "ko": "그 자전거 틀은 철로 만들어졌다."}], "theme": "사물"},
- {"id": 1144, "word": "framework", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["틀", "체계"]}], "examples": [{"en": "The team built a new legal framework.", "ko": "그 팀은 새로운 법적 체계를 만들었다."}, {"en": "This plan needs a clear framework.", "ko": "이 계획에는 명확한 틀이 필요하다."}], "theme": "추상"},
- {"id": 1145, "word": "frankly", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["솔직히"]}], "examples": [{"en": "Frankly, I don't like this idea.", "ko": "솔직히, 나는 이 생각이 마음에 안 든다."}, {"en": "She spoke frankly about her mistake.", "ko": "그녀는 자신의 실수에 대해 솔직히 말했다."}], "theme": "소통"},
- {"id": 1146, "word": "free", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["자유로운", "무료의"]}], "examples": [{"en": "The tickets are free today.", "ko": "오늘은 표가 무료다."}, {"en": "Birds are free to fly anywhere.", "ko": "새들은 어디든 자유롭게 날 수 있다."}], "theme": "추상"},
- {"id": 1147, "word": "freeze", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["얼다", "얼리다"]}], "examples": [{"en": "Water freezes at zero degrees.", "ko": "물은 0도에서 언다."}, {"en": "Please freeze the extra meat.", "ko": "남은 고기는 얼려 주세요."}], "theme": "자연"},
- {"id": 1148, "word": "frequent", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["빈번한", "잦은"]}], "examples": [{"en": "He makes frequent trips to Japan.", "ko": "그는 일본에 자주 출장을 간다."}, {"en": "Frequent breaks help you focus better.", "ko": "자주 쉬는 것은 집중에 도움이 된다."}], "theme": "추상"},
- {"id": 1149, "word": "fresh", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["신선한"]}], "examples": [{"en": "These vegetables are very fresh.", "ko": "이 채소들은 매우 신선하다."}, {"en": "I love fresh bread daily.", "ko": "나는 매일 신선한 빵을 좋아한다."}], "theme": "음식"},
- {"id": 1150, "word": "friend", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["친구"]}], "examples": [{"en": "She is my best friend.", "ko": "그녀는 내 가장 친한 친구다."}, {"en": "I made new friends at school.", "ko": "나는 학교에서 새 친구들을 사귀었다."}], "theme": "사회"}
+ {
+  "id": 1101,
+  "word": "flood",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "홍수"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "침수시키다",
+     "넘치다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Heavy rain caused a serious flood.",
+    "ko": "폭우로 심각한 홍수가 발생했다."
+   },
+   {
+    "en": "The river flooded the nearby village.",
+    "ko": "그 강은 인근 마을을 침수시켰다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1102,
+  "word": "floor",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "바닥",
+     "층"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The cat sleeps on the floor.",
+    "ko": "고양이가 바닥에서 잔다."
+   },
+   {
+    "en": "We live on the third floor.",
+    "ko": "우리는 3층에 산다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 1103,
+  "word": "flourish",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "번성하다",
+     "잘 자라다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The small business began to flourish quickly.",
+    "ko": "그 작은 사업은 빠르게 번창하기 시작했다."
+   },
+   {
+    "en": "Plants flourish in warm, sunny weather.",
+    "ko": "식물은 따뜻하고 화창한 날씨에 잘 자란다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1104,
+  "word": "flow",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "흐름"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "흐르다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The river flows through the valley.",
+    "ko": "그 강은 계곡을 따라 흐른다."
+   },
+   {
+    "en": "Traffic flow improved after the repair.",
+    "ko": "수리 후 교통 흐름이 개선되었다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1105,
+  "word": "flower",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "꽃"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She picked a red flower.",
+    "ko": "그녀는 빨간 꽃을 꺾었다."
+   },
+   {
+    "en": "These flowers smell so sweet.",
+    "ko": "이 꽃들은 향이 정말 좋다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1106,
+  "word": "flush",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "물을 내리다",
+     "얼굴이 붉어지다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Remember to flush the toilet.",
+    "ko": "변기 물 내리는 것을 잊지 마."
+   },
+   {
+    "en": "Her cheeks flushed with embarrassment.",
+    "ko": "그녀의 뺨이 부끄러움으로 붉어졌다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1107,
+  "word": "fly",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "날다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "파리"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Birds fly high in the sky.",
+    "ko": "새들은 하늘 높이 난다."
+   },
+   {
+    "en": "A fly landed on the table.",
+    "ko": "파리 한 마리가 탁자에 앉았다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 1108,
+  "word": "focus",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "집중하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "초점",
+     "집중"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please focus on your homework.",
+    "ko": "숙제에 집중해라."
+   },
+   {
+    "en": "Her focus is on math today.",
+    "ko": "오늘 그녀의 관심은 수학에 있다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 1109,
+  "word": "fog",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "안개"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Thick fog covered the city this morning.",
+    "ko": "오늘 아침 짙은 안개가 도시를 뒤덮었다."
+   },
+   {
+    "en": "We drove slowly through the fog.",
+    "ko": "우리는 안개 속을 천천히 운전했다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1110,
+  "word": "fold",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "접다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please fold your clothes neatly.",
+    "ko": "옷을 깔끔하게 개어라."
+   },
+   {
+    "en": "She folded the paper into a crane.",
+    "ko": "그녀는 종이를 접어 학을 만들었다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1111,
+  "word": "folk",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "사람들"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "민속의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Many folk gathered at the market.",
+    "ko": "많은 사람들이 시장에 모였다."
+   },
+   {
+    "en": "She loves traditional folk music.",
+    "ko": "그녀는 전통 민속 음악을 좋아한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1112,
+  "word": "follow",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "따라가다",
+     "이해하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Do you follow me?",
+    "ko": "제 말 이해하시나요?"
+   },
+   {
+    "en": "The dog followed her home.",
+    "ko": "그 개는 그녀를 따라 집까지 왔다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1113,
+  "word": "fond",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "좋아하는"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I'm very fond of chocolate.",
+    "ko": "나는 초콜릿을 매우 좋아한다."
+   },
+   {
+    "en": "She is fond of old movies.",
+    "ko": "그녀는 옛날 영화를 좋아한다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1114,
+  "word": "food",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "음식"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I love Korean food.",
+    "ko": "나는 한국 음식을 좋아한다."
+   },
+   {
+    "en": "This food tastes amazing.",
+    "ko": "이 음식은 정말 맛있다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 1115,
+  "word": "fool",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "바보"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "속이다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Don't be a fool.",
+    "ko": "바보처럼 굴지 마."
+   },
+   {
+    "en": "He tried to fool his friend.",
+    "ko": "그는 친구를 속이려 했다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 1116,
+  "word": "foot",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "발"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I hurt my foot yesterday.",
+    "ko": "나는 어제 발을 다쳤다."
+   },
+   {
+    "en": "He stood on one foot.",
+    "ko": "그는 한쪽 발로 서 있었다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1117,
+  "word": "football",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "축구"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We play football after school.",
+    "ko": "우리는 방과 후에 축구를 한다."
+   },
+   {
+    "en": "He kicked the football hard.",
+    "ko": "그는 축구공을 세게 찼다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 1118,
+  "word": "for",
+  "pos": [
+   "전치사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~을 위해",
+     "~동안"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Good (for you)!",
+    "ko": "잘됐다!"
+   },
+   {
+    "en": "This gift is for you.",
+    "ko": "이 선물은 너를 위한 거야."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1119,
+  "word": "forbid",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "금지하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The rules forbid loud noise here.",
+    "ko": "규칙은 이곳에서 큰 소음을 금지한다."
+   },
+   {
+    "en": "They forbid pets in the library.",
+    "ko": "그들은 도서관에서 반려동물을 금지한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1120,
+  "word": "force",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "힘"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "강요하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The wind blew with great force.",
+    "ko": "바람이 강한 힘으로 불었다."
+   },
+   {
+    "en": "No one can force you to decide.",
+    "ko": "아무도 너에게 결정을 강요할 수 없다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 1121,
+  "word": "forecast",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "예보"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "예측하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The weather forecast predicts rain tomorrow.",
+    "ko": "일기 예보는 내일 비를 예측한다."
+   },
+   {
+    "en": "Experts forecast a strong economy this year.",
+    "ko": "전문가들은 올해 경제가 강할 것으로 예측한다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1122,
+  "word": "forehead",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "이마"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Sweat dripped down his forehead.",
+    "ko": "땀이 그의 이마에서 흘러내렸다."
+   },
+   {
+    "en": "She kissed the baby's forehead gently.",
+    "ko": "그녀는 아기의 이마에 부드럽게 입맞췄다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1123,
+  "word": "foreign",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "외국의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She speaks three foreign languages.",
+    "ko": "그녀는 외국어 세 개를 말한다."
+   },
+   {
+    "en": "He works for a foreign company.",
+    "ko": "그는 외국 회사에서 일한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1124,
+  "word": "forest",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "숲"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We walked through the quiet forest.",
+    "ko": "우리는 조용한 숲을 걸었다."
+   },
+   {
+    "en": "Many animals live in the forest.",
+    "ko": "많은 동물들이 숲에서 산다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1125,
+  "word": "forever",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "영원히"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I will remember this day forever.",
+    "ko": "나는 이 날을 영원히 기억할 것이다."
+   },
+   {
+    "en": "Nothing lasts forever in life.",
+    "ko": "인생에서 영원한 것은 없다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 1126,
+  "word": "forget",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "잊다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Forget it.",
+    "ko": "신경 쓰지 마."
+   },
+   {
+    "en": "Don't forget your homework tomorrow.",
+    "ko": "내일 숙제를 잊지 마."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1127,
+  "word": "forgive",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "용서하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please forgive me.",
+    "ko": "저를 용서해 주세요."
+   },
+   {
+    "en": "She forgives her little brother easily.",
+    "ko": "그녀는 남동생을 쉽게 용서한다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1128,
+  "word": "fork",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "포크"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please pass me a fork.",
+    "ko": "포크 좀 건네줘."
+   },
+   {
+    "en": "The fork fell off the table.",
+    "ko": "포크가 탁자에서 떨어졌다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1129,
+  "word": "form",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "모양",
+     "서식"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "형성하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Fill out this form, please.",
+    "ko": "이 서식을 작성해 주세요."
+   },
+   {
+    "en": "Clouds form high in the sky.",
+    "ko": "구름은 하늘 높이 형성된다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1130,
+  "word": "format",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "형식",
+     "포맷"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Save the file in PDF format.",
+    "ko": "파일을 PDF 형식으로 저장해라."
+   },
+   {
+    "en": "The report follows a simple format.",
+    "ko": "그 보고서는 간단한 형식을 따른다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1131,
+  "word": "former",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "이전의",
+     "전자의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He is a former teacher of mine.",
+    "ko": "그는 나의 예전 선생님이다."
+   },
+   {
+    "en": "The former president visited our school.",
+    "ko": "전직 대통령이 우리 학교를 방문했다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 1132,
+  "word": "formula",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "공식"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We learned a new math formula.",
+    "ko": "우리는 새로운 수학 공식을 배웠다."
+   },
+   {
+    "en": "This formula calculates the area easily.",
+    "ko": "이 공식은 넓이를 쉽게 계산해준다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 1133,
+  "word": "forth",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "앞으로",
+     "밖으로"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The dog ran back and forth.",
+    "ko": "개가 앞뒤로 왔다갔다 뛰었다."
+   },
+   {
+    "en": "She stepped forth to speak.",
+    "ko": "그녀는 앞으로 나서서 말했다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1134,
+  "word": "fortunate",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "운 좋은"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We are fortunate to have good friends.",
+    "ko": "우리는 좋은 친구가 있어서 운이 좋다."
+   },
+   {
+    "en": "It was fortunate that no one got hurt.",
+    "ko": "아무도 다치지 않아서 다행이었다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1135,
+  "word": "fortune",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "운",
+     "재산"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He made a fortune in business.",
+    "ko": "그는 사업으로 큰 재산을 모았다."
+   },
+   {
+    "en": "Good fortune came to our family.",
+    "ko": "우리 가족에게 행운이 찾아왔다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1136,
+  "word": "forward",
+  "pos": [
+   "부사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "앞으로"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "전달하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I’ve been looking forward to meeting you.",
+    "ko": "당신을 만나기를 정말 기대하고 있었어요."
+   },
+   {
+    "en": "Please forward this email to Tom.",
+    "ko": "이 이메일을 톰에게 전달해 주세요."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1137,
+  "word": "foster",
+  "pos": [
+   "동사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "육성하다",
+     "촉진하다"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "위탁의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Good teachers foster creativity in students.",
+    "ko": "좋은 교사는 학생들의 창의성을 키운다."
+   },
+   {
+    "en": "They welcomed a foster child last year.",
+    "ko": "그들은 작년에 위탁 아동을 맞이했다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 1138,
+  "word": "found",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "설립하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The company was founded in 1990.",
+    "ko": "그 회사는 1990년에 설립되었다."
+   },
+   {
+    "en": "She founded a nonprofit organization last year.",
+    "ko": "그녀는 작년에 비영리 단체를 설립했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1139,
+  "word": "fountain",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "분수"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Children played near the fountain.",
+    "ko": "아이들이 분수 근처에서 놀았다."
+   },
+   {
+    "en": "The fountain in the park is beautiful.",
+    "ko": "공원에 있는 분수는 아름답다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 1140,
+  "word": "four",
+  "pos": [
+   "수사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "넷",
+     "4"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It has four doors.",
+    "ko": "그것은 문이 네 개 있다."
+   },
+   {
+    "en": "We waited for four hours.",
+    "ko": "우리는 네 시간 동안 기다렸다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 1141,
+  "word": "fox",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "여우"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "A fox ran across the field.",
+    "ko": "여우 한 마리가 들판을 가로질러 뛰었다."
+   },
+   {
+    "en": "The fox hid behind the tree.",
+    "ko": "그 여우는 나무 뒤에 숨었다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 1142,
+  "word": "fraction",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "분수",
+     "일부"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We studied fractions in math class.",
+    "ko": "우리는 수학 시간에 분수를 배웠다."
+   },
+   {
+    "en": "Only a fraction of students passed.",
+    "ko": "학생들 중 일부만 통과했다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 1143,
+  "word": "frame",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "틀",
+     "액자"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She put the photo in a frame.",
+    "ko": "그녀는 그 사진을 액자에 넣었다."
+   },
+   {
+    "en": "The bike frame is made of steel.",
+    "ko": "그 자전거 틀은 철로 만들어졌다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1144,
+  "word": "framework",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "틀",
+     "체계"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The team built a new legal framework.",
+    "ko": "그 팀은 새로운 법적 체계를 만들었다."
+   },
+   {
+    "en": "This plan needs a clear framework.",
+    "ko": "이 계획에는 명확한 틀이 필요하다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1145,
+  "word": "frankly",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "솔직히"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Frankly, I don't like this idea.",
+    "ko": "솔직히, 나는 이 생각이 마음에 안 든다."
+   },
+   {
+    "en": "She spoke frankly about her mistake.",
+    "ko": "그녀는 자신의 실수에 대해 솔직히 말했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1146,
+  "word": "free",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "자유로운",
+     "무료의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The tickets are free today.",
+    "ko": "오늘은 표가 무료다."
+   },
+   {
+    "en": "Birds are free to fly anywhere.",
+    "ko": "새들은 어디든 자유롭게 날 수 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1147,
+  "word": "freeze",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "얼다",
+     "얼리다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Water freezes at zero degrees.",
+    "ko": "물은 0도에서 언다."
+   },
+   {
+    "en": "Please freeze the extra meat.",
+    "ko": "남은 고기는 얼려 주세요."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1148,
+  "word": "frequent",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "빈번한",
+     "잦은"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He makes frequent trips to Japan.",
+    "ko": "그는 일본에 자주 출장을 간다."
+   },
+   {
+    "en": "Frequent breaks help you focus better.",
+    "ko": "자주 쉬는 것은 집중에 도움이 된다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1149,
+  "word": "fresh",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "신선한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "These vegetables are very fresh.",
+    "ko": "이 채소들은 매우 신선하다."
+   },
+   {
+    "en": "I love fresh bread daily.",
+    "ko": "나는 매일 신선한 빵을 좋아한다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 1150,
+  "word": "friend",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "친구"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She is my best friend.",
+    "ko": "그녀는 내 가장 친한 친구다."
+   },
+   {
+    "en": "I made new friends at school.",
+    "ko": "나는 학교에서 새 친구들을 사귀었다."
+   }
+  ],
+  "theme": "사회"
+ }
 ]

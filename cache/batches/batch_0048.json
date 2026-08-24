@@ -1,52 +1,1415 @@
 [
- {"id": 2351, "word": "sequence", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["순서", "연속"]}], "examples": [{"en": "Put the pictures in the correct sequence.", "ko": "그림들을 올바른 순서대로 놓아라."}, {"en": "The dance has a difficult sequence of steps.", "ko": "그 춤은 어려운 동작 순서를 가지고 있다."}], "theme": "추상"},
- {"id": 2352, "word": "series", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["시리즈", "연속"]}], "examples": [{"en": "I am watching a new TV series.", "ko": "나는 새 TV 시리즈를 보고 있다."}, {"en": "The team won a series of games.", "ko": "그 팀은 연속으로 여러 경기를 이겼다."}], "theme": "여가"},
- {"id": 2353, "word": "serious", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["진지한", "심각한"]}], "examples": [{"en": "This is a serious problem for our school.", "ko": "이것은 우리 학교에 심각한 문제이다."}, {"en": "He looked serious when he spoke.", "ko": "그는 말할 때 진지해 보였다."}], "theme": "감정"},
- {"id": 2354, "word": "serve", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["섬기다", "제공하다"]}], "examples": [{"en": "The restaurant serves food until midnight.", "ko": "그 식당은 자정까지 음식을 제공한다."}, {"en": "She served tea to her guests.", "ko": "그녀는 손님들에게 차를 대접했다."}], "theme": "일상"},
- {"id": 2355, "word": "service", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["서비스", "봉사"]}], "examples": [{"en": "The service here is great.", "ko": "이곳의 서비스는 훌륭하다."}, {"en": "He works in customer service.", "ko": "그는 고객 서비스 부서에서 일한다."}], "theme": "직업"},
- {"id": 2356, "word": "session", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["시간", "수업", "회기"]}], "examples": [{"en": "We had a long training session today.", "ko": "우리는 오늘 긴 훈련 시간을 가졌다."}, {"en": "The next session starts at three.", "ko": "다음 세션은 3시에 시작한다."}], "theme": "시간"},
- {"id": 2357, "word": "set", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["놓다", "설정하다"]}, {"pos": "명사", "ko": ["세트"]}], "examples": [{"en": "Please set the table now.", "ko": "지금 식탁을 차려 주세요."}, {"en": "I bought a new tea set.", "ko": "나는 새 찻잔 세트를 샀다."}], "theme": "일상"},
- {"id": 2358, "word": "settle", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["정착하다", "해결하다"]}], "examples": [{"en": "My family settled in this city long ago.", "ko": "우리 가족은 오래전에 이 도시에 정착했다."}, {"en": "They settled the argument peacefully.", "ko": "그들은 그 다툼을 평화롭게 해결했다."}], "theme": "사회"},
- {"id": 2359, "word": "seven", "pos": ["수사"], "meanings": [{"pos": "수사", "ko": ["일곱", "7"]}], "examples": [{"en": "I have seven pencils.", "ko": "나는 연필이 일곱 자루 있다."}, {"en": "She is seven years old.", "ko": "그녀는 일곱 살이다."}], "theme": "수량"},
- {"id": 2360, "word": "several", "pos": ["한정사"], "meanings": [{"pos": "한정사", "ko": ["몇몇의", "여러"]}], "examples": [{"en": "I have visited several countries in Asia.", "ko": "나는 아시아의 여러 나라를 방문했다."}, {"en": "Several students were absent today.", "ko": "오늘 몇몇 학생들이 결석했다."}], "theme": "수량"},
- {"id": 2361, "word": "severe", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["심각한", "가혹한"]}], "examples": [{"en": "The storm caused severe damage to the town.", "ko": "그 폭풍은 마을에 심각한 피해를 입혔다."}, {"en": "She suffered from a severe headache all day.", "ko": "그녀는 하루 종일 심한 두통에 시달렸다."}], "theme": "신체"},
- {"id": 2362, "word": "sew", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["바느질하다", "꿰매다"]}], "examples": [{"en": "My grandmother sews her own dresses.", "ko": "우리 할머니는 직접 옷을 만드신다."}, {"en": "He sewed a button on his shirt.", "ko": "그는 셔츠에 단추를 꿰맸다."}], "theme": "일상"},
- {"id": 2363, "word": "sex", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["성별"]}], "examples": [{"en": "Please write your name and sex on the form.", "ko": "양식에 이름과 성별을 적어 주세요."}, {"en": "The survey asked about age and sex.", "ko": "그 설문은 나이와 성별에 대해 물었다."}], "theme": "사회"},
- {"id": 2364, "word": "shade", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["그늘", "색조"]}], "examples": [{"en": "We sat in the shade of a tree.", "ko": "우리는 나무 그늘에 앉았다."}, {"en": "She painted the wall a light shade of blue.", "ko": "그녀는 벽을 옅은 파란색으로 칠했다."}], "theme": "자연"},
- {"id": 2365, "word": "shadow", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["그림자"]}], "examples": [{"en": "My shadow followed me on the sidewalk.", "ko": "내 그림자가 보도에서 나를 따라왔다."}, {"en": "The tall building cast a long shadow.", "ko": "그 높은 건물은 긴 그림자를 드리웠다."}], "theme": "자연"},
- {"id": 2366, "word": "shake", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["흔들다", "떨다"]}], "examples": [{"en": "Please shake the bottle before you open it.", "ko": "열기 전에 병을 흔들어 주세요."}, {"en": "Her hands were shaking with fear.", "ko": "그녀의 손은 두려움으로 떨리고 있었다."}], "theme": "행동"},
- {"id": 2367, "word": "shall", "pos": ["조동사"], "meanings": [{"pos": "조동사", "ko": ["~할 것이다", "~일까요"]}], "examples": [{"en": "Shall we go for a walk?", "ko": "우리 산책하러 갈까요?"}, {"en": "I shall return tomorrow morning.", "ko": "나는 내일 아침에 돌아올 것이다."}], "theme": "소통"},
- {"id": 2368, "word": "shallow", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["얕은"]}], "examples": [{"en": "The water near the beach is very shallow.", "ko": "해변 근처의 물은 매우 얕다."}, {"en": "Children can swim safely in the shallow pool.", "ko": "아이들은 얕은 수영장에서 안전하게 수영할 수 있다."}], "theme": "자연"},
- {"id": 2369, "word": "shame", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["수치심", "부끄러움"]}], "examples": [{"en": "He felt shame after telling a lie.", "ko": "그는 거짓말을 한 후 수치심을 느꼈다."}, {"en": "It's a shame that you missed the trip.", "ko": "네가 그 여행을 놓친 것은 아쉬운 일이다."}], "theme": "감정"},
- {"id": 2370, "word": "shape", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["모양", "형태"]}, {"pos": "동사", "ko": ["형성하다"]}], "examples": [{"en": "What shape is this box?", "ko": "이 상자는 무슨 모양이니?"}, {"en": "Experience shapes who we become.", "ko": "경험은 우리가 어떤 사람이 되는지를 형성한다."}], "theme": "사물"},
- {"id": 2371, "word": "share", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["나누다", "공유하다"]}, {"pos": "명사", "ko": ["몫", "지분"]}], "examples": [{"en": "Let's share this pizza together.", "ko": "우리 이 피자를 나눠 먹자."}, {"en": "She shared her notes with her classmate.", "ko": "그녀는 반 친구와 필기를 공유했다."}], "theme": "소통"},
- {"id": 2372, "word": "sharp", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["날카로운", "예리한"]}], "examples": [{"en": "Be careful, the knife is sharp.", "ko": "조심해, 그 칼은 날카로워."}, {"en": "He has a sharp mind for numbers.", "ko": "그는 숫자에 예리한 감각이 있다."}], "theme": "추상"},
- {"id": 2373, "word": "shave", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["면도하다"]}], "examples": [{"en": "My dad shaves every morning.", "ko": "우리 아빠는 매일 아침 면도를 하신다."}, {"en": "He shaved before the interview.", "ko": "그는 면접 전에 면도를 했다."}], "theme": "일상"},
- {"id": 2374, "word": "she", "pos": ["대명사"], "meanings": [{"pos": "대명사", "ko": ["그녀는"]}], "examples": [{"en": "Is she from Egypt?", "ko": "그녀는 이집트 출신이니?"}, {"en": "She is my sister.", "ko": "그녀는 내 여동생이다."}], "theme": "가족"},
- {"id": 2375, "word": "sheep", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["양"]}], "examples": [{"en": "The farmer keeps many sheep on the hill.", "ko": "그 농부는 언덕에서 많은 양을 기른다."}, {"en": "We saw white sheep in the field.", "ko": "우리는 들판에서 하얀 양을 보았다."}], "theme": "동물"},
- {"id": 2376, "word": "sheet", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["시트", "(종이) 한 장"]}], "examples": [{"en": "She changed the sheets on the bed.", "ko": "그녀는 침대 시트를 갈았다."}, {"en": "He wrote his answers on a sheet of paper.", "ko": "그는 종이 한 장에 답을 적었다."}], "theme": "사물"},
- {"id": 2377, "word": "shelf", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["선반"]}], "examples": [{"en": "Put the books back on the shelf.", "ko": "책들을 선반에 다시 놓아라."}, {"en": "The top shelf is too high for me.", "ko": "맨 위 선반은 나에게 너무 높다."}], "theme": "사물"},
- {"id": 2378, "word": "shell", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["껍질", "조개껍데기"]}], "examples": [{"en": "We found a pretty shell on the beach.", "ko": "우리는 해변에서 예쁜 조개껍데기를 발견했다."}, {"en": "The turtle hid inside its shell.", "ko": "그 거북이는 자기 껍질 속에 숨었다."}], "theme": "자연"},
- {"id": 2379, "word": "shelter", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["대피처", "보호소"]}, {"pos": "동사", "ko": ["보호하다", "피하다"]}], "examples": [{"en": "They found shelter from the storm under a bridge.", "ko": "그들은 다리 밑에서 폭풍을 피할 곳을 찾았다."}, {"en": "The tree sheltered us from the rain.", "ko": "그 나무가 비로부터 우리를 보호해 주었다."}], "theme": "장소"},
- {"id": 2380, "word": "shift", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["교대 근무", "변화"]}, {"pos": "동사", "ko": ["옮기다", "바뀌다"]}], "examples": [{"en": "My mom works the night shift at the hospital.", "ko": "우리 엄마는 병원에서 야간 근무를 하신다."}, {"en": "The wind shifted direction suddenly.", "ko": "바람이 갑자기 방향을 바꾸었다."}], "theme": "직업"},
- {"id": 2381, "word": "shine", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["빛나다"]}], "examples": [{"en": "The sun shines brightly today.", "ko": "오늘 해가 밝게 빛난다."}, {"en": "Her shoes were shining after she cleaned them.", "ko": "그녀가 닦은 후 신발이 반짝였다."}], "theme": "자연"},
- {"id": 2382, "word": "ship", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["배", "선박"]}], "examples": [{"en": "The ship sailed away.", "ko": "그 배는 떠나갔다."}, {"en": "We saw a big ship.", "ko": "우리는 큰 배를 보았다."}], "theme": "교통"},
- {"id": 2383, "word": "shirt", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["셔츠"]}], "examples": [{"en": "I bought a new shirt.", "ko": "나는 새 셔츠를 샀다."}, {"en": "He wore a blue shirt.", "ko": "그는 파란 셔츠를 입었다."}], "theme": "사물"},
- {"id": 2384, "word": "shock", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["충격"]}, {"pos": "동사", "ko": ["충격을 주다"]}], "examples": [{"en": "The news came as a big shock to everyone.", "ko": "그 소식은 모두에게 큰 충격이었다."}, {"en": "Her sudden visit shocked her old friend.", "ko": "그녀의 갑작스러운 방문은 옛 친구를 놀라게 했다."}], "theme": "감정"},
- {"id": 2385, "word": "shoe", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["신발"]}], "examples": [{"en": "My shoe is too small.", "ko": "내 신발이 너무 작다."}, {"en": "She wore new shoes today.", "ko": "그녀는 오늘 새 신발을 신었다."}], "theme": "사물"},
- {"id": 2386, "word": "shoot", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["쏘다", "촬영하다"]}], "examples": [{"en": "He learned to shoot an arrow at camp.", "ko": "그는 캠프에서 화살 쏘는 법을 배웠다."}, {"en": "The photographer is shooting photos for the magazine.", "ko": "그 사진작가는 잡지를 위해 사진을 촬영하고 있다."}], "theme": "행동"},
- {"id": 2387, "word": "shop", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["가게"]}, {"pos": "동사", "ko": ["쇼핑하다"]}], "examples": [{"en": "We shop on weekends.", "ko": "우리는 주말에 쇼핑을 한다."}, {"en": "The shop opens at nine.", "ko": "그 가게는 9시에 문을 연다."}], "theme": "일상"},
- {"id": 2388, "word": "shore", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["해안", "기슭"]}], "examples": [{"en": "We walked along the shore at sunset.", "ko": "우리는 해질녘에 해안을 따라 걸었다."}, {"en": "Waves crashed against the shore all night.", "ko": "파도가 밤새 해안에 부딪혔다."}], "theme": "자연"},
- {"id": 2389, "word": "short", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["짧은", "키가 작은"]}], "examples": [{"en": "My hair is short.", "ko": "내 머리카락은 짧다."}, {"en": "He is short for his age.", "ko": "그는 나이에 비해 키가 작다."}], "theme": "신체"},
- {"id": 2390, "word": "should", "pos": ["조동사"], "meanings": [{"pos": "조동사", "ko": ["~해야 한다"]}], "examples": [{"en": "Anyway, I should get back to work.", "ko": "어쨌든 나는 다시 일하러 가야 해."}, {"en": "You should sleep early.", "ko": "너는 일찍 자야 한다."}], "theme": "일상"},
- {"id": 2391, "word": "shoulder", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["어깨"]}], "examples": [{"en": "He carried the bag on his shoulder.", "ko": "그는 어깨에 가방을 메고 다녔다."}, {"en": "She tapped my shoulder to say hello.", "ko": "그녀는 인사하려고 내 어깨를 톡톡 쳤다."}], "theme": "신체"},
- {"id": 2392, "word": "shout", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["소리치다"]}, {"pos": "명사", "ko": ["외침"]}], "examples": [{"en": "Don't shout in the library.", "ko": "도서관에서 소리치지 마라."}, {"en": "He shouted for help across the street.", "ko": "그는 길 건너에서 도와달라고 외쳤다."}], "theme": "소통"},
- {"id": 2393, "word": "show", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["보여주다"]}, {"pos": "명사", "ko": ["쇼", "공연"]}], "examples": [{"en": "Show me your notebook.", "ko": "네 공책을 보여줘."}, {"en": "We watched a fun show.", "ko": "우리는 재미있는 쇼를 보았다."}], "theme": "여가"},
- {"id": 2394, "word": "shower", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["샤워", "소나기"]}], "examples": [{"en": "I take a shower every morning.", "ko": "나는 매일 아침 샤워를 한다."}, {"en": "A sudden shower surprised us during the walk.", "ko": "갑작스러운 소나기가 산책 중에 우리를 놀라게 했다."}], "theme": "일상"},
- {"id": 2395, "word": "shut", "pos": ["동사", "형용사"], "meanings": [{"pos": "동사", "ko": ["닫다"]}, {"pos": "형용사", "ko": ["닫힌"]}], "examples": [{"en": "Please shut the door quietly.", "ko": "문을 조용히 닫아 주세요."}, {"en": "The shop was shut all day.", "ko": "그 가게는 하루 종일 닫혀 있었다."}], "theme": "일상"},
- {"id": 2396, "word": "shy", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["수줍은", "부끄러운"]}], "examples": [{"en": "My little brother is shy.", "ko": "내 남동생은 수줍음이 많다."}, {"en": "She felt shy at the party.", "ko": "그녀는 파티에서 부끄러움을 느꼈다."}], "theme": "감정"},
- {"id": 2397, "word": "sick", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["아픈"]}], "examples": [{"en": "I feel sick today.", "ko": "나는 오늘 몸이 아프다."}, {"en": "He was sick last week.", "ko": "그는 지난주에 아팠다."}], "theme": "신체"},
- {"id": 2398, "word": "side", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["쪽", "측면"]}], "examples": [{"en": "Sit on my side.", "ko": "내 옆쪽에 앉아."}, {"en": "The park is on this side.", "ko": "공원은 이쪽에 있다."}], "theme": "장소"},
- {"id": 2399, "word": "sigh", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["한숨 쉬다"]}, {"pos": "명사", "ko": ["한숨"]}], "examples": [{"en": "She sighed when she saw the mess in her room.", "ko": "그녀는 방이 어질러진 것을 보고 한숨을 쉬었다."}, {"en": "He let out a deep sigh of relief.", "ko": "그는 안도의 깊은 한숨을 내쉬었다."}], "theme": "감정"},
- {"id": 2400, "word": "sight", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["시력", "광경"]}], "examples": [{"en": "The mountain view was a beautiful sight.", "ko": "그 산 풍경은 아름다운 광경이었다."}, {"en": "He lost his sight in the accident.", "ko": "그는 그 사고로 시력을 잃었다."}], "theme": "신체"}
+ {
+  "id": 2350,
+  "word": "sequence",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "순서",
+     "연속"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Put the pictures in the correct sequence.",
+    "ko": "그림들을 올바른 순서대로 놓아라."
+   },
+   {
+    "en": "The dance has a difficult sequence of steps.",
+    "ko": "그 춤은 어려운 동작 순서를 가지고 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2351,
+  "word": "series",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "시리즈",
+     "연속"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I am watching a new TV series.",
+    "ko": "나는 새 TV 시리즈를 보고 있다."
+   },
+   {
+    "en": "The team won a series of games.",
+    "ko": "그 팀은 연속으로 여러 경기를 이겼다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2352,
+  "word": "serious",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "진지한",
+     "심각한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This is a serious problem for our school.",
+    "ko": "이것은 우리 학교에 심각한 문제이다."
+   },
+   {
+    "en": "He looked serious when he spoke.",
+    "ko": "그는 말할 때 진지해 보였다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2353,
+  "word": "serve",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "섬기다",
+     "제공하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The restaurant serves food until midnight.",
+    "ko": "그 식당은 자정까지 음식을 제공한다."
+   },
+   {
+    "en": "She served tea to her guests.",
+    "ko": "그녀는 손님들에게 차를 대접했다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2354,
+  "word": "service",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "서비스",
+     "봉사"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The service here is great.",
+    "ko": "이곳의 서비스는 훌륭하다."
+   },
+   {
+    "en": "He works in customer service.",
+    "ko": "그는 고객 서비스 부서에서 일한다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 2355,
+  "word": "session",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "시간",
+     "수업",
+     "회기"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We had a long training session today.",
+    "ko": "우리는 오늘 긴 훈련 시간을 가졌다."
+   },
+   {
+    "en": "The next session starts at three.",
+    "ko": "다음 세션은 3시에 시작한다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2356,
+  "word": "set",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "놓다",
+     "설정하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "세트"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please set the table now.",
+    "ko": "지금 식탁을 차려 주세요."
+   },
+   {
+    "en": "I bought a new tea set.",
+    "ko": "나는 새 찻잔 세트를 샀다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2357,
+  "word": "settle",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "정착하다",
+     "해결하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My family settled in this city long ago.",
+    "ko": "우리 가족은 오래전에 이 도시에 정착했다."
+   },
+   {
+    "en": "They settled the argument peacefully.",
+    "ko": "그들은 그 다툼을 평화롭게 해결했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2358,
+  "word": "seven",
+  "pos": [
+   "수사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "일곱",
+     "7"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I have seven pencils.",
+    "ko": "나는 연필이 일곱 자루 있다."
+   },
+   {
+    "en": "She is seven years old.",
+    "ko": "그녀는 일곱 살이다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2359,
+  "word": "several",
+  "pos": [
+   "한정사"
+  ],
+  "meanings": [
+   {
+    "pos": "한정사",
+    "ko": [
+     "몇몇의",
+     "여러"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I have visited several countries in Asia.",
+    "ko": "나는 아시아의 여러 나라를 방문했다."
+   },
+   {
+    "en": "Several students were absent today.",
+    "ko": "오늘 몇몇 학생들이 결석했다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2360,
+  "word": "severe",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "심각한",
+     "가혹한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The storm caused severe damage to the town.",
+    "ko": "그 폭풍은 마을에 심각한 피해를 입혔다."
+   },
+   {
+    "en": "She suffered from a severe headache all day.",
+    "ko": "그녀는 하루 종일 심한 두통에 시달렸다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2361,
+  "word": "sew",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "바느질하다",
+     "꿰매다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My grandmother sews her own dresses.",
+    "ko": "우리 할머니는 직접 옷을 만드신다."
+   },
+   {
+    "en": "He sewed a button on his shirt.",
+    "ko": "그는 셔츠에 단추를 꿰맸다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2362,
+  "word": "sex",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "성별"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please write your name and sex on the form.",
+    "ko": "양식에 이름과 성별을 적어 주세요."
+   },
+   {
+    "en": "The survey asked about age and sex.",
+    "ko": "그 설문은 나이와 성별에 대해 물었다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2363,
+  "word": "shade",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "그늘",
+     "색조"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We sat in the shade of a tree.",
+    "ko": "우리는 나무 그늘에 앉았다."
+   },
+   {
+    "en": "She painted the wall a light shade of blue.",
+    "ko": "그녀는 벽을 옅은 파란색으로 칠했다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2364,
+  "word": "shadow",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "그림자"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My shadow followed me on the sidewalk.",
+    "ko": "내 그림자가 보도에서 나를 따라왔다."
+   },
+   {
+    "en": "The tall building cast a long shadow.",
+    "ko": "그 높은 건물은 긴 그림자를 드리웠다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2365,
+  "word": "shake",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "흔들다",
+     "떨다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please shake the bottle before you open it.",
+    "ko": "열기 전에 병을 흔들어 주세요."
+   },
+   {
+    "en": "Her hands were shaking with fear.",
+    "ko": "그녀의 손은 두려움으로 떨리고 있었다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2366,
+  "word": "shall",
+  "pos": [
+   "조동사"
+  ],
+  "meanings": [
+   {
+    "pos": "조동사",
+    "ko": [
+     "~할 것이다",
+     "~일까요"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Shall we go for a walk?",
+    "ko": "우리 산책하러 갈까요?"
+   },
+   {
+    "en": "I shall return tomorrow morning.",
+    "ko": "나는 내일 아침에 돌아올 것이다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2367,
+  "word": "shallow",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "얕은"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The water near the beach is very shallow.",
+    "ko": "해변 근처의 물은 매우 얕다."
+   },
+   {
+    "en": "Children can swim safely in the shallow pool.",
+    "ko": "아이들은 얕은 수영장에서 안전하게 수영할 수 있다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2368,
+  "word": "shame",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "수치심",
+     "부끄러움"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He felt shame after telling a lie.",
+    "ko": "그는 거짓말을 한 후 수치심을 느꼈다."
+   },
+   {
+    "en": "It's a shame that you missed the trip.",
+    "ko": "네가 그 여행을 놓친 것은 아쉬운 일이다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2369,
+  "word": "shape",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "모양",
+     "형태"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "형성하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "What shape is this box?",
+    "ko": "이 상자는 무슨 모양이니?"
+   },
+   {
+    "en": "Experience shapes who we become.",
+    "ko": "경험은 우리가 어떤 사람이 되는지를 형성한다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2370,
+  "word": "share",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "나누다",
+     "공유하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "몫",
+     "지분"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Let's share this pizza together.",
+    "ko": "우리 이 피자를 나눠 먹자."
+   },
+   {
+    "en": "She shared her notes with her classmate.",
+    "ko": "그녀는 반 친구와 필기를 공유했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2371,
+  "word": "sharp",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "날카로운",
+     "예리한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Be careful, the knife is sharp.",
+    "ko": "조심해, 그 칼은 날카로워."
+   },
+   {
+    "en": "He has a sharp mind for numbers.",
+    "ko": "그는 숫자에 예리한 감각이 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2372,
+  "word": "shave",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "면도하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My dad shaves every morning.",
+    "ko": "우리 아빠는 매일 아침 면도를 하신다."
+   },
+   {
+    "en": "He shaved before the interview.",
+    "ko": "그는 면접 전에 면도를 했다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2373,
+  "word": "she",
+  "pos": [
+   "대명사"
+  ],
+  "meanings": [
+   {
+    "pos": "대명사",
+    "ko": [
+     "그녀는"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Is she from Egypt?",
+    "ko": "그녀는 이집트 출신이니?"
+   },
+   {
+    "en": "She is my sister.",
+    "ko": "그녀는 내 여동생이다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 2374,
+  "word": "sheep",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "양"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The farmer keeps many sheep on the hill.",
+    "ko": "그 농부는 언덕에서 많은 양을 기른다."
+   },
+   {
+    "en": "We saw white sheep in the field.",
+    "ko": "우리는 들판에서 하얀 양을 보았다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 2375,
+  "word": "sheet",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "시트",
+     "(종이) 한 장"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She changed the sheets on the bed.",
+    "ko": "그녀는 침대 시트를 갈았다."
+   },
+   {
+    "en": "He wrote his answers on a sheet of paper.",
+    "ko": "그는 종이 한 장에 답을 적었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2376,
+  "word": "shelf",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "선반"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Put the books back on the shelf.",
+    "ko": "책들을 선반에 다시 놓아라."
+   },
+   {
+    "en": "The top shelf is too high for me.",
+    "ko": "맨 위 선반은 나에게 너무 높다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2377,
+  "word": "shell",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "껍질",
+     "조개껍데기"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We found a pretty shell on the beach.",
+    "ko": "우리는 해변에서 예쁜 조개껍데기를 발견했다."
+   },
+   {
+    "en": "The turtle hid inside its shell.",
+    "ko": "그 거북이는 자기 껍질 속에 숨었다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2378,
+  "word": "shelter",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "대피처",
+     "보호소"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "보호하다",
+     "피하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "They found shelter from the storm under a bridge.",
+    "ko": "그들은 다리 밑에서 폭풍을 피할 곳을 찾았다."
+   },
+   {
+    "en": "The tree sheltered us from the rain.",
+    "ko": "그 나무가 비로부터 우리를 보호해 주었다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2379,
+  "word": "shift",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "교대 근무",
+     "변화"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "옮기다",
+     "바뀌다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My mom works the night shift at the hospital.",
+    "ko": "우리 엄마는 병원에서 야간 근무를 하신다."
+   },
+   {
+    "en": "The wind shifted direction suddenly.",
+    "ko": "바람이 갑자기 방향을 바꾸었다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 2380,
+  "word": "shine",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "빛나다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The sun shines brightly today.",
+    "ko": "오늘 해가 밝게 빛난다."
+   },
+   {
+    "en": "Her shoes were shining after she cleaned them.",
+    "ko": "그녀가 닦은 후 신발이 반짝였다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2381,
+  "word": "ship",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "배",
+     "선박"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The ship sailed away.",
+    "ko": "그 배는 떠나갔다."
+   },
+   {
+    "en": "We saw a big ship.",
+    "ko": "우리는 큰 배를 보았다."
+   }
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 2382,
+  "word": "shirt",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "셔츠"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I bought a new shirt.",
+    "ko": "나는 새 셔츠를 샀다."
+   },
+   {
+    "en": "He wore a blue shirt.",
+    "ko": "그는 파란 셔츠를 입었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2383,
+  "word": "shock",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "충격"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "충격을 주다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The news came as a big shock to everyone.",
+    "ko": "그 소식은 모두에게 큰 충격이었다."
+   },
+   {
+    "en": "Her sudden visit shocked her old friend.",
+    "ko": "그녀의 갑작스러운 방문은 옛 친구를 놀라게 했다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2384,
+  "word": "shoe",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "신발"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My shoe is too small.",
+    "ko": "내 신발이 너무 작다."
+   },
+   {
+    "en": "She wore new shoes today.",
+    "ko": "그녀는 오늘 새 신발을 신었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2385,
+  "word": "shoot",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "쏘다",
+     "촬영하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He learned to shoot an arrow at camp.",
+    "ko": "그는 캠프에서 화살 쏘는 법을 배웠다."
+   },
+   {
+    "en": "The photographer is shooting photos for the magazine.",
+    "ko": "그 사진작가는 잡지를 위해 사진을 촬영하고 있다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2386,
+  "word": "shop",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "가게"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "쇼핑하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We shop on weekends.",
+    "ko": "우리는 주말에 쇼핑을 한다."
+   },
+   {
+    "en": "The shop opens at nine.",
+    "ko": "그 가게는 9시에 문을 연다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2387,
+  "word": "shore",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "해안",
+     "기슭"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We walked along the shore at sunset.",
+    "ko": "우리는 해질녘에 해안을 따라 걸었다."
+   },
+   {
+    "en": "Waves crashed against the shore all night.",
+    "ko": "파도가 밤새 해안에 부딪혔다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2388,
+  "word": "short",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "짧은",
+     "키가 작은"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My hair is short.",
+    "ko": "내 머리카락은 짧다."
+   },
+   {
+    "en": "He is short for his age.",
+    "ko": "그는 나이에 비해 키가 작다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2389,
+  "word": "should",
+  "pos": [
+   "조동사"
+  ],
+  "meanings": [
+   {
+    "pos": "조동사",
+    "ko": [
+     "~해야 한다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Anyway, I should get back to work.",
+    "ko": "어쨌든 나는 다시 일하러 가야 해."
+   },
+   {
+    "en": "You should sleep early.",
+    "ko": "너는 일찍 자야 한다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2390,
+  "word": "shoulder",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "어깨"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He carried the bag on his shoulder.",
+    "ko": "그는 어깨에 가방을 메고 다녔다."
+   },
+   {
+    "en": "She tapped my shoulder to say hello.",
+    "ko": "그녀는 인사하려고 내 어깨를 톡톡 쳤다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2391,
+  "word": "shout",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "소리치다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "외침"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Don't shout in the library.",
+    "ko": "도서관에서 소리치지 마라."
+   },
+   {
+    "en": "He shouted for help across the street.",
+    "ko": "그는 길 건너에서 도와달라고 외쳤다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2392,
+  "word": "show",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "보여주다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "쇼",
+     "공연"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Show me your notebook.",
+    "ko": "네 공책을 보여줘."
+   },
+   {
+    "en": "We watched a fun show.",
+    "ko": "우리는 재미있는 쇼를 보았다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2393,
+  "word": "shower",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "샤워",
+     "소나기"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I take a shower every morning.",
+    "ko": "나는 매일 아침 샤워를 한다."
+   },
+   {
+    "en": "A sudden shower surprised us during the walk.",
+    "ko": "갑작스러운 소나기가 산책 중에 우리를 놀라게 했다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2394,
+  "word": "shut",
+  "pos": [
+   "동사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "닫다"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "닫힌"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please shut the door quietly.",
+    "ko": "문을 조용히 닫아 주세요."
+   },
+   {
+    "en": "The shop was shut all day.",
+    "ko": "그 가게는 하루 종일 닫혀 있었다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2395,
+  "word": "shy",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "수줍은",
+     "부끄러운"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My little brother is shy.",
+    "ko": "내 남동생은 수줍음이 많다."
+   },
+   {
+    "en": "She felt shy at the party.",
+    "ko": "그녀는 파티에서 부끄러움을 느꼈다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2396,
+  "word": "sick",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "아픈"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I feel sick today.",
+    "ko": "나는 오늘 몸이 아프다."
+   },
+   {
+    "en": "He was sick last week.",
+    "ko": "그는 지난주에 아팠다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2397,
+  "word": "side",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "쪽",
+     "측면"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Sit on my side.",
+    "ko": "내 옆쪽에 앉아."
+   },
+   {
+    "en": "The park is on this side.",
+    "ko": "공원은 이쪽에 있다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2398,
+  "word": "sigh",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "한숨 쉬다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "한숨"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She sighed when she saw the mess in her room.",
+    "ko": "그녀는 방이 어질러진 것을 보고 한숨을 쉬었다."
+   },
+   {
+    "en": "He let out a deep sigh of relief.",
+    "ko": "그는 안도의 깊은 한숨을 내쉬었다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2399,
+  "word": "sight",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "시력",
+     "광경"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The mountain view was a beautiful sight.",
+    "ko": "그 산 풍경은 아름다운 광경이었다."
+   },
+   {
+    "en": "He lost his sight in the accident.",
+    "ko": "그는 그 사고로 시력을 잃었다."
+   }
+  ],
+  "theme": "신체"
+ }
 ]

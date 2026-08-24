@@ -1,52 +1,1379 @@
 [
- {"id": 2001, "word": "poor", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["가난한", "불쌍한"]}], "examples": [{"en": "The poor man has no home.", "ko": "그 가난한 남자는 집이 없다."}, {"en": "They are very poor.", "ko": "그들은 매우 가난하다."}], "theme": "사회"},
- {"id": 2002, "word": "pop", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["펑 하고 터지다"]}, {"pos": "명사", "ko": ["팝 음악"]}], "examples": [{"en": "The balloon popped loudly.", "ko": "풍선이 요란하게 터졌다."}, {"en": "She loves pop music.", "ko": "그녀는 팝 음악을 좋아한다."}], "theme": "여가"},
- {"id": 2003, "word": "popular", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["인기 있는"]}], "examples": [{"en": "This song is very popular.", "ko": "이 노래는 매우 인기가 있다."}, {"en": "He is a popular student at school.", "ko": "그는 학교에서 인기 있는 학생이다."}], "theme": "사회"},
- {"id": 2004, "word": "populate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["거주하다", "살다"]}], "examples": [{"en": "Many people populate this busy city.", "ko": "많은 사람들이 이 붐비는 도시에 산다."}, {"en": "Wild animals populate the forest.", "ko": "야생 동물들이 그 숲에 산다."}], "theme": "사회"},
- {"id": 2005, "word": "pork", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["돼지고기"]}], "examples": [{"en": "We had pork for dinner.", "ko": "우리는 저녁으로 돼지고기를 먹었다."}, {"en": "She doesn't eat pork.", "ko": "그녀는 돼지고기를 먹지 않는다."}], "theme": "음식"},
- {"id": 2006, "word": "port", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["항구"]}], "examples": [{"en": "The ship arrived at the port.", "ko": "배가 항구에 도착했다."}, {"en": "Busan has a large port.", "ko": "부산에는 큰 항구가 있다."}], "theme": "장소"},
- {"id": 2007, "word": "portion", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["부분", "몫"]}], "examples": [{"en": "She ate a small portion of rice.", "ko": "그녀는 밥을 조금만 먹었다."}, {"en": "Each person gets an equal portion.", "ko": "각자 동일한 몫을 받는다."}], "theme": "수량"},
- {"id": 2008, "word": "portrait", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["초상화"]}], "examples": [{"en": "The artist painted a portrait of the king.", "ko": "그 화가는 왕의 초상화를 그렸다."}, {"en": "A portrait hung on the wall.", "ko": "벽에 초상화 한 점이 걸려 있었다."}], "theme": "여가"},
- {"id": 2009, "word": "pose", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["자세를 취하다"]}, {"pos": "명사", "ko": ["자세"]}], "examples": [{"en": "She posed for the photo.", "ko": "그녀는 사진을 위해 포즈를 취했다."}, {"en": "He struck a funny pose.", "ko": "그는 웃긴 포즈를 취했다."}], "theme": "여가"},
- {"id": 2010, "word": "posit", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["가정하다", "상정하다"]}], "examples": [{"en": "The theory posits that light bends.", "ko": "그 이론은 빛이 휜다고 가정한다."}, {"en": "Scientists posit a new idea about the universe.", "ko": "과학자들은 우주에 대한 새로운 생각을 제시한다."}], "theme": "과학"},
- {"id": 2011, "word": "possess", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["소유하다"]}], "examples": [{"en": "He possesses great knowledge of history.", "ko": "그는 역사에 대한 뛰어난 지식을 가지고 있다."}, {"en": "She possesses a rare talent for music.", "ko": "그녀는 음악에 희귀한 재능을 가지고 있다."}], "theme": "추상"},
- {"id": 2012, "word": "possible", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["가능한"]}], "examples": [{"en": "Is it possible to finish today?", "ko": "오늘 끝내는 것이 가능할까?"}, {"en": "Anything is possible if you try.", "ko": "노력하면 무엇이든 가능하다."}], "theme": "추상"},
- {"id": 2013, "word": "post", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["우편", "게시물"]}, {"pos": "동사", "ko": ["게시하다", "부치다"]}], "examples": [{"en": "She sent the letter by post.", "ko": "그녀는 편지를 우편으로 보냈다."}, {"en": "He posted a photo online.", "ko": "그는 사진을 온라인에 게시했다."}], "theme": "소통"},
- {"id": 2014, "word": "pot", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["냄비", "솥"]}], "examples": [{"en": "She cooked soup in a pot.", "ko": "그녀는 냄비에 수프를 요리했다."}, {"en": "The pot is very hot.", "ko": "그 냄비는 매우 뜨겁다."}], "theme": "사물"},
- {"id": 2015, "word": "potato", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["감자"]}], "examples": [{"en": "I like baked potatoes.", "ko": "나는 구운 감자를 좋아한다."}, {"en": "She peeled the potato.", "ko": "그녀는 감자 껍질을 벗겼다."}], "theme": "음식"},
- {"id": 2016, "word": "potential", "pos": ["명사", "형용사"], "meanings": [{"pos": "명사", "ko": ["가능성", "잠재력"]}, {"pos": "형용사", "ko": ["잠재적인"]}], "examples": [{"en": "She has great potential as a singer.", "ko": "그녀는 가수로서 큰 가능성을 지니고 있다."}, {"en": "The plan has potential problems.", "ko": "그 계획에는 잠재적 문제가 있다."}], "theme": "추상"},
- {"id": 2017, "word": "pour", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["붓다", "따르다"]}], "examples": [{"en": "She poured milk into the glass.", "ko": "그녀는 컵에 우유를 따랐다."}, {"en": "Rain poured all night long.", "ko": "밤새 비가 쏟아졌다."}], "theme": "일상"},
- {"id": 2018, "word": "powder", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["가루", "분말"]}], "examples": [{"en": "Add some powder to the mix.", "ko": "혼합물에 가루를 조금 넣어라."}, {"en": "She used baby powder after the bath.", "ko": "그녀는 목욕 후 베이비파우더를 발랐다."}], "theme": "사물"},
- {"id": 2019, "word": "power", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["힘", "전력"]}], "examples": [{"en": "The storm cut the power.", "ko": "폭풍이 전기를 끊었다."}, {"en": "He has great power.", "ko": "그는 대단한 힘을 가지고 있다."}], "theme": "추상"},
- {"id": 2020, "word": "practical", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["실용적인"]}], "examples": [{"en": "This tool is very practical.", "ko": "이 도구는 매우 실용적이다."}, {"en": "She gave practical advice for the trip.", "ko": "그녀는 여행에 대한 실용적인 조언을 해 주었다."}], "theme": "추상"},
- {"id": 2021, "word": "practice", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["연습"]}, {"pos": "동사", "ko": ["연습하다"]}], "examples": [{"en": "She practices piano every day.", "ko": "그녀는 매일 피아노를 연습한다."}, {"en": "Practice makes perfect.", "ko": "연습이 완벽을 만든다."}], "theme": "여가"},
- {"id": 2022, "word": "praise", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["칭찬하다"]}, {"pos": "명사", "ko": ["칭찬"]}], "examples": [{"en": "The teacher praised her hard work.", "ko": "선생님은 그녀의 노력을 칭찬했다."}, {"en": "He received praise for his project.", "ko": "그는 프로젝트로 칭찬을 받았다."}], "theme": "학교"},
- {"id": 2023, "word": "pray", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["기도하다"]}], "examples": [{"en": "She prays every night before bed.", "ko": "그녀는 매일 밤 자기 전에 기도한다."}, {"en": "They prayed for good weather.", "ko": "그들은 좋은 날씨를 위해 기도했다."}], "theme": "일상"},
- {"id": 2024, "word": "preach", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["설교하다"]}], "examples": [{"en": "The priest preached about kindness.", "ko": "그 신부는 친절에 대해 설교했다."}, {"en": "He often preaches to his younger brother.", "ko": "그는 남동생에게 자주 잔소리를 한다."}], "theme": "소통"},
- {"id": 2025, "word": "precede", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["선행하다", "앞서다"]}], "examples": [{"en": "A warning light precedes the alarm.", "ko": "경고등이 경보음보다 먼저 켜진다."}, {"en": "Dark clouds preceded the storm.", "ko": "먹구름이 폭풍보다 먼저 나타났다."}], "theme": "추상"},
- {"id": 2026, "word": "precise", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["정확한"]}], "examples": [{"en": "She gave precise directions to the store.", "ko": "그녀는 가게로 가는 정확한 길을 알려주었다."}, {"en": "We need precise measurements for this plan.", "ko": "이 계획에는 정확한 측정이 필요하다."}], "theme": "추상"},
- {"id": 2027, "word": "predator", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["포식자"]}], "examples": [{"en": "The lion is a fierce predator.", "ko": "사자는 사나운 포식자다."}, {"en": "Predators hunt smaller animals for food.", "ko": "포식자들은 먹이로 더 작은 동물들을 사냥한다."}], "theme": "동물"},
- {"id": 2028, "word": "predict", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["예측하다"]}], "examples": [{"en": "Can you predict the weather tomorrow?", "ko": "내일 날씨를 예측할 수 있니?"}, {"en": "Scientists predicted a strong earthquake.", "ko": "과학자들은 강한 지진을 예측했다."}], "theme": "과학"},
- {"id": 2029, "word": "prefer", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["더 좋아하다", "선호하다"]}], "examples": [{"en": "Which do you prefer?", "ko": "어느 것을 더 좋아하니?"}, {"en": "I prefer tea to coffee.", "ko": "나는 커피보다 차를 더 좋아한다."}], "theme": "일상"},
- {"id": 2030, "word": "pregnant", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["임신한"]}], "examples": [{"en": "My aunt is pregnant now.", "ko": "내 이모는 지금 임신 중이다."}, {"en": "She was pregnant with twins.", "ko": "그녀는 쌍둥이를 임신하고 있었다."}], "theme": "가족"},
- {"id": 2031, "word": "prejudice", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["편견"]}], "examples": [{"en": "We must fight against prejudice.", "ko": "우리는 편견에 맞서 싸워야 한다."}, {"en": "His prejudice affected his judgment.", "ko": "그의 편견이 판단에 영향을 미쳤다."}], "theme": "사회"},
- {"id": 2032, "word": "premium", "pos": ["명사", "형용사"], "meanings": [{"pos": "명사", "ko": ["할증료", "추가 요금"]}, {"pos": "형용사", "ko": ["고급의"]}], "examples": [{"en": "The hotel offers a premium service.", "ko": "그 호텔은 프리미엄 서비스를 제공한다."}, {"en": "We paid a premium for the fast delivery.", "ko": "우리는 빠른 배송을 위해 추가 요금을 냈다."}], "theme": "일상"},
- {"id": 2033, "word": "prepare", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["준비하다"]}], "examples": [{"en": "She prepares dinner every evening.", "ko": "그녀는 매일 저녁 식사를 준비한다."}, {"en": "We prepared for the exam together.", "ko": "우리는 함께 시험을 준비했다."}], "theme": "일상"},
- {"id": 2034, "word": "prescribe", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["처방하다"]}], "examples": [{"en": "The doctor prescribes medicine for the flu.", "ko": "의사는 독감에 약을 처방한다."}, {"en": "She was prescribed rest for a week.", "ko": "그녀는 일주일간 휴식을 처방받았다."}], "theme": "신체"},
- {"id": 2035, "word": "presence", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["존재", "참석"]}], "examples": [{"en": "Her presence made everyone happy.", "ko": "그녀가 있다는 것만으로 모두가 행복해졌다."}, {"en": "His presence was required at the meeting.", "ko": "그는 회의에 참석해야 했다."}], "theme": "추상"},
- {"id": 2036, "word": "present", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["선물", "현재"]}], "examples": [{"en": "This is my present.", "ko": "이것은 내 선물이다."}, {"en": "He gave her a present.", "ko": "그는 그녀에게 선물을 주었다."}], "theme": "일상"},
- {"id": 2037, "word": "preserve", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["보존하다", "지키다"]}], "examples": [{"en": "We must preserve the forest for future generations.", "ko": "우리는 미래 세대를 위해 숲을 보존해야 한다."}, {"en": "They preserved the old building.", "ko": "그들은 오래된 건물을 보존했다."}], "theme": "자연"},
- {"id": 2038, "word": "preside", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["주재하다"]}], "examples": [{"en": "The judge presides over the court.", "ko": "그 판사는 법정을 주재한다."}, {"en": "She presided over the meeting today.", "ko": "그녀는 오늘 회의를 주재했다."}], "theme": "사회"},
- {"id": 2039, "word": "press", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["누르다"]}, {"pos": "명사", "ko": ["언론"]}], "examples": [{"en": "Press the button to start.", "ko": "시작하려면 버튼을 눌러라."}, {"en": "The press reported the story quickly.", "ko": "언론은 그 이야기를 빠르게 보도했다."}], "theme": "소통"},
- {"id": 2040, "word": "presume", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["추정하다"]}], "examples": [{"en": "I presume you are tired after the trip.", "ko": "여행 후 피곤하겠다고 생각한다."}, {"en": "We presumed the news was true.", "ko": "우리는 그 소식이 사실이라고 추정했다."}], "theme": "추상"},
- {"id": 2041, "word": "pretend", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["~인 척하다"]}], "examples": [{"en": "She pretended to be asleep.", "ko": "그녀는 자는 척했다."}, {"en": "The children pretended to be pirates.", "ko": "아이들은 해적인 척했다."}], "theme": "행동"},
- {"id": 2042, "word": "pretty", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["예쁜"]}], "examples": [{"en": "She has a pretty dress.", "ko": "그녀는 예쁜 드레스를 가지고 있다."}, {"en": "This flower is pretty.", "ko": "이 꽃은 예쁘다."}], "theme": "사물"},
- {"id": 2043, "word": "prevail", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["우세하다", "승리하다"]}], "examples": [{"en": "Good will always prevail in the end.", "ko": "선은 결국 항상 승리한다."}, {"en": "Peace finally prevailed after the war.", "ko": "전쟁 후 마침내 평화가 찾아왔다."}], "theme": "추상"},
- {"id": 2044, "word": "prevent", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["막다", "예방하다"]}], "examples": [{"en": "Wearing a helmet prevents injury.", "ko": "헬멧을 쓰면 부상을 막을 수 있다."}, {"en": "We must prevent forest fires.", "ko": "우리는 산불을 예방해야 한다."}], "theme": "행동"},
- {"id": 2045, "word": "previous", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["이전의"]}], "examples": [{"en": "The previous owner sold the house.", "ko": "이전 주인이 그 집을 팔았다."}, {"en": "I met her at a previous meeting.", "ko": "나는 이전 회의에서 그녀를 만났다."}], "theme": "시간"},
- {"id": 2046, "word": "prey", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["먹잇감"]}], "examples": [{"en": "The eagle caught its prey.", "ko": "독수리가 먹잇감을 잡았다."}, {"en": "Small animals often fall prey to foxes.", "ko": "작은 동물들은 종종 여우의 먹잇감이 된다."}], "theme": "동물"},
- {"id": 2047, "word": "price", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["가격"]}], "examples": [{"en": "The price of the shirt is low.", "ko": "그 셔츠의 가격은 저렴하다."}, {"en": "Prices went up this month.", "ko": "이번 달에 가격이 올랐다."}], "theme": "일상"},
- {"id": 2048, "word": "pride", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["자부심"]}], "examples": [{"en": "She felt pride in her work.", "ko": "그녀는 자신의 일에 자부심을 느꼈다."}, {"en": "He takes pride in his garden.", "ko": "그는 자신의 정원에 자부심을 가지고 있다."}], "theme": "감정"},
- {"id": 2049, "word": "priest", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["신부", "사제"]}], "examples": [{"en": "The priest led the Sunday service.", "ko": "그 신부는 주일 예배를 이끌었다."}, {"en": "She spoke with the priest after church.", "ko": "그녀는 예배 후 신부와 이야기했다."}], "theme": "직업"},
- {"id": 2050, "word": "prime", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["주요한", "최고의"]}], "examples": [{"en": "This is a prime example of teamwork.", "ko": "이것은 팀워크의 좋은 예이다."}, {"en": "The city is in its prime location.", "ko": "그 도시는 최고의 위치에 있다."}], "theme": "추상"}
+ {
+  "id": 2000,
+  "word": "poor",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "가난한",
+     "불쌍한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The poor man has no home.",
+    "ko": "그 가난한 남자는 집이 없다."
+   },
+   {
+    "en": "They are very poor.",
+    "ko": "그들은 매우 가난하다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2001,
+  "word": "pop",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "펑 하고 터지다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "팝 음악"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The balloon popped loudly.",
+    "ko": "풍선이 요란하게 터졌다."
+   },
+   {
+    "en": "She loves pop music.",
+    "ko": "그녀는 팝 음악을 좋아한다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2002,
+  "word": "popular",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "인기 있는"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This song is very popular.",
+    "ko": "이 노래는 매우 인기가 있다."
+   },
+   {
+    "en": "He is a popular student at school.",
+    "ko": "그는 학교에서 인기 있는 학생이다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2003,
+  "word": "populate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "거주하다",
+     "살다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Many people populate this busy city.",
+    "ko": "많은 사람들이 이 붐비는 도시에 산다."
+   },
+   {
+    "en": "Wild animals populate the forest.",
+    "ko": "야생 동물들이 그 숲에 산다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2004,
+  "word": "pork",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "돼지고기"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We had pork for dinner.",
+    "ko": "우리는 저녁으로 돼지고기를 먹었다."
+   },
+   {
+    "en": "She doesn't eat pork.",
+    "ko": "그녀는 돼지고기를 먹지 않는다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2005,
+  "word": "port",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "항구"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The ship arrived at the port.",
+    "ko": "배가 항구에 도착했다."
+   },
+   {
+    "en": "Busan has a large port.",
+    "ko": "부산에는 큰 항구가 있다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2006,
+  "word": "portion",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "부분",
+     "몫"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She ate a small portion of rice.",
+    "ko": "그녀는 밥을 조금만 먹었다."
+   },
+   {
+    "en": "Each person gets an equal portion.",
+    "ko": "각자 동일한 몫을 받는다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2007,
+  "word": "portrait",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "초상화"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The artist painted a portrait of the king.",
+    "ko": "그 화가는 왕의 초상화를 그렸다."
+   },
+   {
+    "en": "A portrait hung on the wall.",
+    "ko": "벽에 초상화 한 점이 걸려 있었다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2008,
+  "word": "pose",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "자세를 취하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "자세"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She posed for the photo.",
+    "ko": "그녀는 사진을 위해 포즈를 취했다."
+   },
+   {
+    "en": "He struck a funny pose.",
+    "ko": "그는 웃긴 포즈를 취했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2009,
+  "word": "posit",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "가정하다",
+     "상정하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The theory posits that light bends.",
+    "ko": "그 이론은 빛이 휜다고 가정한다."
+   },
+   {
+    "en": "Scientists posit a new idea about the universe.",
+    "ko": "과학자들은 우주에 대한 새로운 생각을 제시한다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2010,
+  "word": "possess",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "소유하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He possesses great knowledge of history.",
+    "ko": "그는 역사에 대한 뛰어난 지식을 가지고 있다."
+   },
+   {
+    "en": "She possesses a rare talent for music.",
+    "ko": "그녀는 음악에 희귀한 재능을 가지고 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2011,
+  "word": "possible",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "가능한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Is it possible to finish today?",
+    "ko": "오늘 끝내는 것이 가능할까?"
+   },
+   {
+    "en": "Anything is possible if you try.",
+    "ko": "노력하면 무엇이든 가능하다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2012,
+  "word": "post",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "우편",
+     "게시물"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "게시하다",
+     "부치다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She sent the letter by post.",
+    "ko": "그녀는 편지를 우편으로 보냈다."
+   },
+   {
+    "en": "He posted a photo online.",
+    "ko": "그는 사진을 온라인에 게시했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2013,
+  "word": "pot",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "냄비",
+     "솥"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She cooked soup in a pot.",
+    "ko": "그녀는 냄비에 수프를 요리했다."
+   },
+   {
+    "en": "The pot is very hot.",
+    "ko": "그 냄비는 매우 뜨겁다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2014,
+  "word": "potato",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "감자"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I like baked potatoes.",
+    "ko": "나는 구운 감자를 좋아한다."
+   },
+   {
+    "en": "She peeled the potato.",
+    "ko": "그녀는 감자 껍질을 벗겼다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2015,
+  "word": "potential",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "가능성",
+     "잠재력"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "잠재적인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She has great potential as a singer.",
+    "ko": "그녀는 가수로서 큰 가능성을 지니고 있다."
+   },
+   {
+    "en": "The plan has potential problems.",
+    "ko": "그 계획에는 잠재적 문제가 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2016,
+  "word": "pour",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "붓다",
+     "따르다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She poured milk into the glass.",
+    "ko": "그녀는 컵에 우유를 따랐다."
+   },
+   {
+    "en": "Rain poured all night long.",
+    "ko": "밤새 비가 쏟아졌다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2017,
+  "word": "powder",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "가루",
+     "분말"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Add some powder to the mix.",
+    "ko": "혼합물에 가루를 조금 넣어라."
+   },
+   {
+    "en": "She used baby powder after the bath.",
+    "ko": "그녀는 목욕 후 베이비파우더를 발랐다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2018,
+  "word": "power",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "힘",
+     "전력"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The storm cut the power.",
+    "ko": "폭풍이 전기를 끊었다."
+   },
+   {
+    "en": "He has great power.",
+    "ko": "그는 대단한 힘을 가지고 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2019,
+  "word": "practical",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "실용적인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This tool is very practical.",
+    "ko": "이 도구는 매우 실용적이다."
+   },
+   {
+    "en": "She gave practical advice for the trip.",
+    "ko": "그녀는 여행에 대한 실용적인 조언을 해 주었다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2020,
+  "word": "practice",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "연습"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "연습하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She practices piano every day.",
+    "ko": "그녀는 매일 피아노를 연습한다."
+   },
+   {
+    "en": "Practice makes perfect.",
+    "ko": "연습이 완벽을 만든다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2021,
+  "word": "praise",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "칭찬하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "칭찬"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The teacher praised her hard work.",
+    "ko": "선생님은 그녀의 노력을 칭찬했다."
+   },
+   {
+    "en": "He received praise for his project.",
+    "ko": "그는 프로젝트로 칭찬을 받았다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2022,
+  "word": "pray",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "기도하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She prays every night before bed.",
+    "ko": "그녀는 매일 밤 자기 전에 기도한다."
+   },
+   {
+    "en": "They prayed for good weather.",
+    "ko": "그들은 좋은 날씨를 위해 기도했다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2023,
+  "word": "preach",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "설교하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The priest preached about kindness.",
+    "ko": "그 신부는 친절에 대해 설교했다."
+   },
+   {
+    "en": "He often preaches to his younger brother.",
+    "ko": "그는 남동생에게 자주 잔소리를 한다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2024,
+  "word": "precede",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "선행하다",
+     "앞서다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "A warning light precedes the alarm.",
+    "ko": "경고등이 경보음보다 먼저 켜진다."
+   },
+   {
+    "en": "Dark clouds preceded the storm.",
+    "ko": "먹구름이 폭풍보다 먼저 나타났다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2025,
+  "word": "precise",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "정확한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She gave precise directions to the store.",
+    "ko": "그녀는 가게로 가는 정확한 길을 알려주었다."
+   },
+   {
+    "en": "We need precise measurements for this plan.",
+    "ko": "이 계획에는 정확한 측정이 필요하다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2026,
+  "word": "predator",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "포식자"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The lion is a fierce predator.",
+    "ko": "사자는 사나운 포식자다."
+   },
+   {
+    "en": "Predators hunt smaller animals for food.",
+    "ko": "포식자들은 먹이로 더 작은 동물들을 사냥한다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 2027,
+  "word": "predict",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "예측하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Can you predict the weather tomorrow?",
+    "ko": "내일 날씨를 예측할 수 있니?"
+   },
+   {
+    "en": "Scientists predicted a strong earthquake.",
+    "ko": "과학자들은 강한 지진을 예측했다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2028,
+  "word": "prefer",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "더 좋아하다",
+     "선호하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Which do you prefer?",
+    "ko": "어느 것을 더 좋아하니?"
+   },
+   {
+    "en": "I prefer tea to coffee.",
+    "ko": "나는 커피보다 차를 더 좋아한다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2029,
+  "word": "pregnant",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "임신한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My aunt is pregnant now.",
+    "ko": "내 이모는 지금 임신 중이다."
+   },
+   {
+    "en": "She was pregnant with twins.",
+    "ko": "그녀는 쌍둥이를 임신하고 있었다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 2030,
+  "word": "prejudice",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "편견"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We must fight against prejudice.",
+    "ko": "우리는 편견에 맞서 싸워야 한다."
+   },
+   {
+    "en": "His prejudice affected his judgment.",
+    "ko": "그의 편견이 판단에 영향을 미쳤다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2031,
+  "word": "premium",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "할증료",
+     "추가 요금"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "고급의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The hotel offers a premium service.",
+    "ko": "그 호텔은 프리미엄 서비스를 제공한다."
+   },
+   {
+    "en": "We paid a premium for the fast delivery.",
+    "ko": "우리는 빠른 배송을 위해 추가 요금을 냈다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2032,
+  "word": "prepare",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "준비하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She prepares dinner every evening.",
+    "ko": "그녀는 매일 저녁 식사를 준비한다."
+   },
+   {
+    "en": "We prepared for the exam together.",
+    "ko": "우리는 함께 시험을 준비했다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2033,
+  "word": "prescribe",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "처방하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The doctor prescribes medicine for the flu.",
+    "ko": "의사는 독감에 약을 처방한다."
+   },
+   {
+    "en": "She was prescribed rest for a week.",
+    "ko": "그녀는 일주일간 휴식을 처방받았다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2034,
+  "word": "presence",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "존재",
+     "참석"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Her presence made everyone happy.",
+    "ko": "그녀가 있다는 것만으로 모두가 행복해졌다."
+   },
+   {
+    "en": "His presence was required at the meeting.",
+    "ko": "그는 회의에 참석해야 했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2035,
+  "word": "present",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "선물",
+     "현재"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This is my present.",
+    "ko": "이것은 내 선물이다."
+   },
+   {
+    "en": "He gave her a present.",
+    "ko": "그는 그녀에게 선물을 주었다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2036,
+  "word": "preserve",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "보존하다",
+     "지키다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We must preserve the forest for future generations.",
+    "ko": "우리는 미래 세대를 위해 숲을 보존해야 한다."
+   },
+   {
+    "en": "They preserved the old building.",
+    "ko": "그들은 오래된 건물을 보존했다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2037,
+  "word": "preside",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "주재하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The judge presides over the court.",
+    "ko": "그 판사는 법정을 주재한다."
+   },
+   {
+    "en": "She presided over the meeting today.",
+    "ko": "그녀는 오늘 회의를 주재했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2038,
+  "word": "press",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "누르다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "언론"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Press the button to start.",
+    "ko": "시작하려면 버튼을 눌러라."
+   },
+   {
+    "en": "The press reported the story quickly.",
+    "ko": "언론은 그 이야기를 빠르게 보도했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2039,
+  "word": "presume",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "추정하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I presume you are tired after the trip.",
+    "ko": "여행 후 피곤하겠다고 생각한다."
+   },
+   {
+    "en": "We presumed the news was true.",
+    "ko": "우리는 그 소식이 사실이라고 추정했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2040,
+  "word": "pretend",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "~인 척하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She pretended to be asleep.",
+    "ko": "그녀는 자는 척했다."
+   },
+   {
+    "en": "The children pretended to be pirates.",
+    "ko": "아이들은 해적인 척했다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2041,
+  "word": "pretty",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "예쁜"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She has a pretty dress.",
+    "ko": "그녀는 예쁜 드레스를 가지고 있다."
+   },
+   {
+    "en": "This flower is pretty.",
+    "ko": "이 꽃은 예쁘다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2042,
+  "word": "prevail",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "우세하다",
+     "승리하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Good will always prevail in the end.",
+    "ko": "선은 결국 항상 승리한다."
+   },
+   {
+    "en": "Peace finally prevailed after the war.",
+    "ko": "전쟁 후 마침내 평화가 찾아왔다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2043,
+  "word": "prevent",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "막다",
+     "예방하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Wearing a helmet prevents injury.",
+    "ko": "헬멧을 쓰면 부상을 막을 수 있다."
+   },
+   {
+    "en": "We must prevent forest fires.",
+    "ko": "우리는 산불을 예방해야 한다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2044,
+  "word": "previous",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "이전의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The previous owner sold the house.",
+    "ko": "이전 주인이 그 집을 팔았다."
+   },
+   {
+    "en": "I met her at a previous meeting.",
+    "ko": "나는 이전 회의에서 그녀를 만났다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2045,
+  "word": "prey",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "먹잇감"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The eagle caught its prey.",
+    "ko": "독수리가 먹잇감을 잡았다."
+   },
+   {
+    "en": "Small animals often fall prey to foxes.",
+    "ko": "작은 동물들은 종종 여우의 먹잇감이 된다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 2046,
+  "word": "price",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "가격"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The price of the shirt is low.",
+    "ko": "그 셔츠의 가격은 저렴하다."
+   },
+   {
+    "en": "Prices went up this month.",
+    "ko": "이번 달에 가격이 올랐다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2047,
+  "word": "pride",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "자부심"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She felt pride in her work.",
+    "ko": "그녀는 자신의 일에 자부심을 느꼈다."
+   },
+   {
+    "en": "He takes pride in his garden.",
+    "ko": "그는 자신의 정원에 자부심을 가지고 있다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2048,
+  "word": "priest",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "신부",
+     "사제"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The priest led the Sunday service.",
+    "ko": "그 신부는 주일 예배를 이끌었다."
+   },
+   {
+    "en": "She spoke with the priest after church.",
+    "ko": "그녀는 예배 후 신부와 이야기했다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 2049,
+  "word": "prime",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "주요한",
+     "최고의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This is a prime example of teamwork.",
+    "ko": "이것은 팀워크의 좋은 예이다."
+   },
+   {
+    "en": "The city is in its prime location.",
+    "ko": "그 도시는 최고의 위치에 있다."
+   }
+  ],
+  "theme": "추상"
+ }
 ]

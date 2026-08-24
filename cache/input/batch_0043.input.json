@@ -1,14 +1,6 @@
 [
  {
   "id": 2101,
-  "word": "pump",
-  "level": "중고공통",
-  "derived": [],
-  "max_example_words": 12,
-  "fn_example": ""
- },
- {
-  "id": 2102,
   "word": "punch",
   "level": "중고공통",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": ""
  },
  {
-  "id": 2103,
+  "id": 2102,
   "word": "punish",
   "level": "중고공통",
   "derived": [],
@@ -24,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 2104,
+  "id": 2103,
   "word": "pupil",
   "level": "선택",
   "derived": [],
@@ -32,7 +24,7 @@
   "fn_example": ""
  },
  {
-  "id": 2105,
+  "id": 2104,
   "word": "puppy",
   "level": "초등",
   "derived": [],
@@ -40,7 +32,7 @@
   "fn_example": ""
  },
  {
-  "id": 2106,
+  "id": 2105,
   "word": "purchase",
   "level": "중고공통",
   "derived": [],
@@ -48,7 +40,7 @@
   "fn_example": ""
  },
  {
-  "id": 2107,
+  "id": 2106,
   "word": "pure",
   "level": "중고공통",
   "derived": [],
@@ -56,7 +48,7 @@
   "fn_example": ""
  },
  {
-  "id": 2108,
+  "id": 2107,
   "word": "purple",
   "level": "중고공통",
   "derived": [],
@@ -64,7 +56,7 @@
   "fn_example": ""
  },
  {
-  "id": 2109,
+  "id": 2108,
   "word": "purpose",
   "level": "중고공통",
   "derived": [],
@@ -72,7 +64,7 @@
   "fn_example": ""
  },
  {
-  "id": 2110,
+  "id": 2109,
   "word": "pursue",
   "level": "선택",
   "derived": [],
@@ -80,7 +72,7 @@
   "fn_example": ""
  },
  {
-  "id": 2111,
+  "id": 2110,
   "word": "push",
   "level": "초등",
   "derived": [],
@@ -88,7 +80,7 @@
   "fn_example": ""
  },
  {
-  "id": 2112,
+  "id": 2111,
   "word": "put",
   "level": "초등",
   "derived": [],
@@ -96,7 +88,7 @@
   "fn_example": ""
  },
  {
-  "id": 2113,
+  "id": 2112,
   "word": "puzzle",
   "level": "중고공통",
   "derived": [],
@@ -104,7 +96,7 @@
   "fn_example": ""
  },
  {
-  "id": 2114,
+  "id": 2113,
   "word": "quality",
   "level": "중고공통",
   "derived": [
@@ -114,7 +106,7 @@
   "fn_example": ""
  },
  {
-  "id": 2115,
+  "id": 2114,
   "word": "quantity",
   "level": "선택",
   "derived": [],
@@ -122,7 +114,7 @@
   "fn_example": ""
  },
  {
-  "id": 2116,
+  "id": 2115,
   "word": "quarter",
   "level": "중고공통",
   "derived": [],
@@ -130,7 +122,7 @@
   "fn_example": "What time is it? A quarter to six."
  },
  {
-  "id": 2117,
+  "id": 2116,
   "word": "queen",
   "level": "초등",
   "derived": [],
@@ -138,7 +130,7 @@
   "fn_example": ""
  },
  {
-  "id": 2118,
+  "id": 2117,
   "word": "question",
   "level": "초등",
   "derived": [],
@@ -146,7 +138,7 @@
   "fn_example": "I have a question."
  },
  {
-  "id": 2119,
+  "id": 2118,
   "word": "questionnaire",
   "level": "선택",
   "derived": [],
@@ -154,7 +146,7 @@
   "fn_example": ""
  },
  {
-  "id": 2120,
+  "id": 2119,
   "word": "quick",
   "level": "초등",
   "derived": [],
@@ -162,7 +154,7 @@
   "fn_example": ""
  },
  {
-  "id": 2121,
+  "id": 2120,
   "word": "quiet",
   "level": "초등",
   "derived": [],
@@ -170,7 +162,7 @@
   "fn_example": ""
  },
  {
-  "id": 2122,
+  "id": 2121,
   "word": "quit",
   "level": "중고공통",
   "derived": [],
@@ -178,7 +170,7 @@
   "fn_example": ""
  },
  {
-  "id": 2123,
+  "id": 2122,
   "word": "quite",
   "level": "중고공통",
   "derived": [],
@@ -186,7 +178,7 @@
   "fn_example": ""
  },
  {
-  "id": 2124,
+  "id": 2123,
   "word": "quiz",
   "level": "초등",
   "derived": [],
@@ -194,7 +186,7 @@
   "fn_example": ""
  },
  {
-  "id": 2125,
+  "id": 2124,
   "word": "quote",
   "level": "중고공통",
   "derived": [],
@@ -202,7 +194,7 @@
   "fn_example": ""
  },
  {
-  "id": 2126,
+  "id": 2125,
   "word": "rabbit",
   "level": "초등",
   "derived": [],
@@ -210,7 +202,7 @@
   "fn_example": ""
  },
  {
-  "id": 2127,
+  "id": 2126,
   "word": "race",
   "level": "초등",
   "derived": [
@@ -220,7 +212,7 @@
   "fn_example": ""
  },
  {
-  "id": 2128,
+  "id": 2127,
   "word": "radio",
   "level": "초등",
   "derived": [],
@@ -228,7 +220,7 @@
   "fn_example": ""
  },
  {
-  "id": 2129,
+  "id": 2128,
   "word": "rage",
   "level": "선택",
   "derived": [],
@@ -236,7 +228,7 @@
   "fn_example": ""
  },
  {
-  "id": 2130,
+  "id": 2129,
   "word": "rail",
   "level": "중고공통",
   "derived": [],
@@ -244,7 +236,7 @@
   "fn_example": ""
  },
  {
-  "id": 2131,
+  "id": 2130,
   "word": "rain",
   "level": "초등",
   "derived": [],
@@ -252,7 +244,7 @@
   "fn_example": ""
  },
  {
-  "id": 2132,
+  "id": 2131,
   "word": "rainbow",
   "level": "중고공통",
   "derived": [],
@@ -260,7 +252,7 @@
   "fn_example": ""
  },
  {
-  "id": 2133,
+  "id": 2132,
   "word": "raise",
   "level": "중고공통",
   "derived": [],
@@ -268,7 +260,7 @@
   "fn_example": ""
  },
  {
-  "id": 2134,
+  "id": 2133,
   "word": "rally",
   "level": "선택",
   "derived": [],
@@ -276,7 +268,7 @@
   "fn_example": ""
  },
  {
-  "id": 2135,
+  "id": 2134,
   "word": "random",
   "level": "선택",
   "derived": [],
@@ -284,7 +276,7 @@
   "fn_example": ""
  },
  {
-  "id": 2136,
+  "id": 2135,
   "word": "range",
   "level": "중고공통",
   "derived": [],
@@ -292,7 +284,7 @@
   "fn_example": ""
  },
  {
-  "id": 2137,
+  "id": 2136,
   "word": "rank",
   "level": "선택",
   "derived": [],
@@ -300,7 +292,7 @@
   "fn_example": ""
  },
  {
-  "id": 2138,
+  "id": 2137,
   "word": "rapid",
   "level": "중고공통",
   "derived": [],
@@ -308,7 +300,7 @@
   "fn_example": ""
  },
  {
-  "id": 2139,
+  "id": 2138,
   "word": "rare",
   "level": "중고공통",
   "derived": [],
@@ -316,7 +308,7 @@
   "fn_example": ""
  },
  {
-  "id": 2140,
+  "id": 2139,
   "word": "rat",
   "level": "중고공통",
   "derived": [],
@@ -324,7 +316,7 @@
   "fn_example": ""
  },
  {
-  "id": 2141,
+  "id": 2140,
   "word": "rate",
   "level": "중고공통",
   "derived": [],
@@ -332,7 +324,7 @@
   "fn_example": ""
  },
  {
-  "id": 2142,
+  "id": 2141,
   "word": "rather",
   "level": "중고공통",
   "derived": [],
@@ -340,7 +332,7 @@
   "fn_example": ""
  },
  {
-  "id": 2143,
+  "id": 2142,
   "word": "rational",
   "level": "선택",
   "derived": [],
@@ -348,7 +340,7 @@
   "fn_example": ""
  },
  {
-  "id": 2144,
+  "id": 2143,
   "word": "raw",
   "level": "선택",
   "derived": [],
@@ -356,7 +348,7 @@
   "fn_example": ""
  },
  {
-  "id": 2145,
+  "id": 2144,
   "word": "reach",
   "level": "중고공통",
   "derived": [],
@@ -364,7 +356,7 @@
   "fn_example": ""
  },
  {
-  "id": 2146,
+  "id": 2145,
   "word": "react",
   "level": "중고공통",
   "derived": [],
@@ -372,7 +364,7 @@
   "fn_example": ""
  },
  {
-  "id": 2147,
+  "id": 2146,
   "word": "read",
   "level": "초등",
   "derived": [],
@@ -380,7 +372,7 @@
   "fn_example": ""
  },
  {
-  "id": 2148,
+  "id": 2147,
   "word": "ready",
   "level": "초등",
   "derived": [],
@@ -388,7 +380,7 @@
   "fn_example": ""
  },
  {
-  "id": 2149,
+  "id": 2148,
   "word": "real",
   "level": "중고공통",
   "derived": [
@@ -398,11 +390,21 @@
   "fn_example": ""
  },
  {
-  "id": 2150,
+  "id": 2149,
   "word": "rear",
   "level": "선택",
   "derived": [],
   "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 2150,
+  "word": "reason",
+  "level": "중고공통",
+  "derived": [
+   "reasonable"
+  ],
+  "max_example_words": 12,
   "fn_example": ""
  }
 ]

@@ -29,14 +29,17 @@
 
 | 파일 | 내용 |
 |---|---|
-| `data/words.csv` | 원본 3,001단어 (`word, stars, level, alt_spelling, derived`) |
+| `data/words.csv` | 원본 3,000단어 (`word, stars, level, alt_spelling, derived`) |
 | `data/functions.csv` | 의사소통 기능 예시문 545개 |
 | `data/grammar.csv` | 언어 형식 예문 (39개 범주, 초/중/고) |
 | `data/words_enriched.json` | 보강 완료 데이터 (IPA·품사·뜻·예문·theme·Day) |
 | `cache/batches/` | 50단어 단위 보강 배치 결과 (재생성 시 캐시) |
 
-원본 데이터는 공공 고시 자료(저작권 제한 없음)입니다. words.csv는 문서 기준
-3,000단어와 달리 실제 3,001단어를 수록하고 있으며 중복은 없습니다
+원본 데이터는 공공 고시 자료(저작권 제한 없음)입니다. 최초 추출본에는
+원문 한 항목(`mathematics* / maths* / math*`)이 줄바꿈 때문에 `math` 별도
+행으로 분리되어 3,001단어로 들어 있었고, `math` 행을 삭제하고 mathematics의
+`alt_spelling`에 `maths / math`를 병합해 문서 기준과 같은 3,000단어(초등
+800 / 중고공통 1,200 / 선택 1,000)로 교정했습니다. 중복은 없습니다
 (검증 결과: `validation_report.md`).
 
 ## 데이터 재생성 방법 (`scripts/enrich.py`)

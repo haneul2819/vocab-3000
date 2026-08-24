@@ -1,14 +1,6 @@
 [
  {
   "id": 2851,
-  "word": "valid",
-  "level": "선택",
-  "derived": [],
-  "max_example_words": 15,
-  "fn_example": ""
- },
- {
-  "id": 2852,
   "word": "valley",
   "level": "중고공통",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": ""
  },
  {
-  "id": 2853,
+  "id": 2852,
   "word": "value",
   "level": "중고공통",
   "derived": [],
@@ -24,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 2854,
+  "id": 2853,
   "word": "van",
   "level": "중고공통",
   "derived": [],
@@ -32,7 +24,7 @@
   "fn_example": ""
  },
  {
-  "id": 2855,
+  "id": 2854,
   "word": "vanish",
   "level": "선택",
   "derived": [],
@@ -40,7 +32,7 @@
   "fn_example": ""
  },
  {
-  "id": 2856,
+  "id": 2855,
   "word": "various",
   "level": "중고공통",
   "derived": [],
@@ -48,7 +40,7 @@
   "fn_example": ""
  },
  {
-  "id": 2857,
+  "id": 2856,
   "word": "vary",
   "level": "중고공통",
   "derived": [],
@@ -56,7 +48,7 @@
   "fn_example": ""
  },
  {
-  "id": 2858,
+  "id": 2857,
   "word": "vast",
   "level": "선택",
   "derived": [],
@@ -64,7 +56,7 @@
   "fn_example": ""
  },
  {
-  "id": 2859,
+  "id": 2858,
   "word": "vegetable",
   "level": "초등",
   "derived": [],
@@ -72,7 +64,7 @@
   "fn_example": ""
  },
  {
-  "id": 2860,
+  "id": 2859,
   "word": "vehicle",
   "level": "중고공통",
   "derived": [],
@@ -80,7 +72,7 @@
   "fn_example": ""
  },
  {
-  "id": 2861,
+  "id": 2860,
   "word": "venture",
   "level": "선택",
   "derived": [],
@@ -88,7 +80,7 @@
   "fn_example": ""
  },
  {
-  "id": 2862,
+  "id": 2861,
   "word": "verb",
   "level": "선택",
   "derived": [
@@ -98,7 +90,7 @@
   "fn_example": ""
  },
  {
-  "id": 2863,
+  "id": 2862,
   "word": "verse",
   "level": "선택",
   "derived": [],
@@ -106,7 +98,7 @@
   "fn_example": ""
  },
  {
-  "id": 2864,
+  "id": 2863,
   "word": "version",
   "level": "중고공통",
   "derived": [],
@@ -114,7 +106,7 @@
   "fn_example": ""
  },
  {
-  "id": 2865,
+  "id": 2864,
   "word": "versus",
   "level": "선택",
   "derived": [],
@@ -122,7 +114,7 @@
   "fn_example": ""
  },
  {
-  "id": 2866,
+  "id": 2865,
   "word": "vertical",
   "level": "선택",
   "derived": [],
@@ -130,7 +122,7 @@
   "fn_example": ""
  },
  {
-  "id": 2867,
+  "id": 2866,
   "word": "very",
   "level": "초등",
   "derived": [],
@@ -138,7 +130,7 @@
   "fn_example": "That’s very disappointing."
  },
  {
-  "id": 2868,
+  "id": 2867,
   "word": "vessel",
   "level": "선택",
   "derived": [],
@@ -146,7 +138,7 @@
   "fn_example": ""
  },
  {
-  "id": 2869,
+  "id": 2868,
   "word": "veterinarian",
   "level": "선택",
   "derived": [],
@@ -154,7 +146,7 @@
   "fn_example": ""
  },
  {
-  "id": 2870,
+  "id": 2869,
   "word": "via",
   "level": "선택",
   "derived": [],
@@ -162,7 +154,7 @@
   "fn_example": ""
  },
  {
-  "id": 2871,
+  "id": 2870,
   "word": "vice",
   "level": "선택",
   "derived": [],
@@ -170,7 +162,7 @@
   "fn_example": ""
  },
  {
-  "id": 2872,
+  "id": 2871,
   "word": "victim",
   "level": "중고공통",
   "derived": [],
@@ -178,7 +170,7 @@
   "fn_example": ""
  },
  {
-  "id": 2873,
+  "id": 2872,
   "word": "victory",
   "level": "선택",
   "derived": [],
@@ -186,7 +178,7 @@
   "fn_example": ""
  },
  {
-  "id": 2874,
+  "id": 2873,
   "word": "video",
   "level": "초등",
   "derived": [],
@@ -194,7 +186,7 @@
   "fn_example": ""
  },
  {
-  "id": 2875,
+  "id": 2874,
   "word": "view",
   "level": "중고공통",
   "derived": [
@@ -204,7 +196,7 @@
   "fn_example": ""
  },
  {
-  "id": 2876,
+  "id": 2875,
   "word": "vigor",
   "level": "선택",
   "derived": [
@@ -214,7 +206,7 @@
   "fn_example": ""
  },
  {
-  "id": 2877,
+  "id": 2876,
   "word": "villa",
   "level": "중고공통",
   "derived": [],
@@ -222,7 +214,7 @@
   "fn_example": ""
  },
  {
-  "id": 2878,
+  "id": 2877,
   "word": "village",
   "level": "중고공통",
   "derived": [],
@@ -230,7 +222,7 @@
   "fn_example": ""
  },
  {
-  "id": 2879,
+  "id": 2878,
   "word": "violent",
   "level": "중고공통",
   "derived": [],
@@ -238,7 +230,7 @@
   "fn_example": ""
  },
  {
-  "id": 2880,
+  "id": 2879,
   "word": "violin",
   "level": "초등",
   "derived": [],
@@ -246,7 +238,7 @@
   "fn_example": ""
  },
  {
-  "id": 2881,
+  "id": 2880,
   "word": "virgin",
   "level": "선택",
   "derived": [],
@@ -254,7 +246,7 @@
   "fn_example": ""
  },
  {
-  "id": 2882,
+  "id": 2881,
   "word": "virtue",
   "level": "선택",
   "derived": [
@@ -264,7 +256,7 @@
   "fn_example": ""
  },
  {
-  "id": 2883,
+  "id": 2882,
   "word": "virus",
   "level": "선택",
   "derived": [],
@@ -272,7 +264,7 @@
   "fn_example": ""
  },
  {
-  "id": 2884,
+  "id": 2883,
   "word": "visible",
   "level": "선택",
   "derived": [],
@@ -280,7 +272,7 @@
   "fn_example": ""
  },
  {
-  "id": 2885,
+  "id": 2884,
   "word": "vision",
   "level": "중고공통",
   "derived": [],
@@ -288,7 +280,7 @@
   "fn_example": ""
  },
  {
-  "id": 2886,
+  "id": 2885,
   "word": "visit",
   "level": "초등",
   "derived": [],
@@ -296,7 +288,7 @@
   "fn_example": "On Sundays I visit my grandmother."
  },
  {
-  "id": 2887,
+  "id": 2886,
   "word": "visual",
   "level": "선택",
   "derived": [],
@@ -304,7 +296,7 @@
   "fn_example": ""
  },
  {
-  "id": 2888,
+  "id": 2887,
   "word": "vital",
   "level": "선택",
   "derived": [],
@@ -312,7 +304,7 @@
   "fn_example": ""
  },
  {
-  "id": 2889,
+  "id": 2888,
   "word": "vivid",
   "level": "선택",
   "derived": [],
@@ -320,7 +312,7 @@
   "fn_example": ""
  },
  {
-  "id": 2890,
+  "id": 2889,
   "word": "vocabulary",
   "level": "선택",
   "derived": [],
@@ -328,7 +320,7 @@
   "fn_example": ""
  },
  {
-  "id": 2891,
+  "id": 2890,
   "word": "vocation",
   "level": "선택",
   "derived": [],
@@ -336,7 +328,7 @@
   "fn_example": ""
  },
  {
-  "id": 2892,
+  "id": 2891,
   "word": "voice",
   "level": "초등",
   "derived": [],
@@ -344,7 +336,7 @@
   "fn_example": ""
  },
  {
-  "id": 2893,
+  "id": 2892,
   "word": "volume",
   "level": "중고공통",
   "derived": [],
@@ -352,7 +344,7 @@
   "fn_example": ""
  },
  {
-  "id": 2894,
+  "id": 2893,
   "word": "volunteer",
   "level": "중고공통",
   "derived": [],
@@ -360,7 +352,7 @@
   "fn_example": ""
  },
  {
-  "id": 2895,
+  "id": 2894,
   "word": "vote",
   "level": "중고공통",
   "derived": [],
@@ -368,7 +360,7 @@
   "fn_example": ""
  },
  {
-  "id": 2896,
+  "id": 2895,
   "word": "wage",
   "level": "중고공통",
   "derived": [],
@@ -376,7 +368,7 @@
   "fn_example": ""
  },
  {
-  "id": 2897,
+  "id": 2896,
   "word": "wait",
   "level": "초등",
   "derived": [],
@@ -384,7 +376,7 @@
   "fn_example": "Why are we waiting?"
  },
  {
-  "id": 2898,
+  "id": 2897,
   "word": "wake",
   "level": "초등",
   "derived": [],
@@ -392,7 +384,7 @@
   "fn_example": ""
  },
  {
-  "id": 2899,
+  "id": 2898,
   "word": "walk",
   "level": "초등",
   "derived": [],
@@ -400,11 +392,19 @@
   "fn_example": ""
  },
  {
-  "id": 2900,
+  "id": 2899,
   "word": "wall",
   "level": "초등",
   "derived": [],
   "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 2900,
+  "word": "wander",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
   "fn_example": ""
  }
 ]

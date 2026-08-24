@@ -4,7 +4,7 @@
 words_enriched.json 전체 검증 → validation_report.md 생성.
 
 검사 항목:
-  - 단어 수(3,001) 및 문서 기준(3,000)과의 차이, 중복 표제어
+  - 단어 수(문서 기준 3,000과 일치 여부), 중복 표제어
   - 필수 필드 누락(pos, meanings, examples, theme, ipa)
   - 예문 2개 존재, 예문에 단어(굴절형 포함) 실제 포함 여부
   - 예문 길이(등급별 제한 초과는 경고)
@@ -70,8 +70,10 @@ def main():
 
     lines = [
         "# 데이터 검증 보고서 (validation_report.md)", "",
-        f"- 총 단어 수: **{len(words)}** (문서 기준 3,000 대비 +{len(words) - 3000})",
-        f"  - 원본 `words.csv`가 실제 3,001단어를 수록하고 있으며 중복은 없음 → 전체 유지",
+        f"- 총 단어 수: **{len(words)}** (문서 기준 3,000{'과 일치' if len(words) == 3000 else f' 대비 {len(words) - 3000:+d}'})",
+        f"  - 초기 원본에는 `mathematics* / maths* / math*` 한 항목이 줄바꿈으로 분리되어 `math`가"
+        f" 별도 행으로 들어간 3,001단어였음 → `math` 행을 삭제하고 mathematics의"
+        f" alt_spelling을 `maths / math`로 병합해 3,000단어로 교정",
         f"- 등급 분포: 초등 {level_count['초등']} / 중고공통 {level_count['중고공통']} / 선택 {level_count['선택']}",
         f"- 중복 표제어: {'없음' if not dup else dup}", "",
         "## 오류", "",

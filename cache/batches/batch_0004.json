@@ -1,52 +1,1395 @@
 [
- {"id": 151, "word": "arm", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["팔"]}], "examples": [{"en": "I broke my arm.", "ko": "나는 팔이 부러졌다."}, {"en": "She has long arms.", "ko": "그녀는 팔이 길다."}], "theme": "신체"},
- {"id": 152, "word": "army", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["군대"]}], "examples": [{"en": "The army protects the country.", "ko": "군대는 나라를 지킨다."}, {"en": "He joined the army last year.", "ko": "그는 작년에 군대에 입대했다."}], "theme": "사회"},
- {"id": 153, "word": "around", "pos": ["전치사", "부사"], "meanings": [{"pos": "전치사", "ko": ["~주위에", "~쯤"]}, {"pos": "부사", "ko": ["주위에", "돌아서"]}], "examples": [{"en": "The kids ran around the park.", "ko": "아이들이 공원 주위를 뛰어다녔다."}, {"en": "Turn around and look.", "ko": "돌아서서 봐라."}], "theme": "장소"},
- {"id": 154, "word": "arrange", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["정리하다", "준비하다"]}], "examples": [{"en": "She arranged the flowers nicely.", "ko": "그녀는 꽃을 예쁘게 정리했다."}, {"en": "We need to arrange a meeting.", "ko": "우리는 회의를 준비해야 한다."}], "theme": "행동"},
- {"id": 155, "word": "arrest", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["체포하다"]}, {"pos": "명사", "ko": ["체포"]}], "examples": [{"en": "The police arrested the thief.", "ko": "경찰이 도둑을 체포했다."}, {"en": "He was under arrest.", "ko": "그는 체포된 상태였다."}], "theme": "사회"},
- {"id": 156, "word": "arrive", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["도착하다"]}], "examples": [{"en": "We arrived at school early.", "ko": "우리는 학교에 일찍 도착했다."}, {"en": "The train arrives soon.", "ko": "기차가 곧 도착한다."}], "theme": "교통"},
- {"id": 157, "word": "arrow", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["화살", "화살표"]}], "examples": [{"en": "He shot an arrow at the target.", "ko": "그는 과녁에 화살을 쐈다."}, {"en": "Follow the arrow on the sign.", "ko": "표지판의 화살표를 따라가라."}], "theme": "사물"},
- {"id": 158, "word": "art", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["미술", "예술"]}], "examples": [{"en": "I like art class.", "ko": "나는 미술 시간을 좋아한다."}, {"en": "He is good at art.", "ko": "그는 미술을 잘한다."}], "theme": "학교"},
- {"id": 159, "word": "article", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["기사", "글"]}], "examples": [{"en": "I read an interesting article.", "ko": "나는 흥미로운 기사를 읽었다."}, {"en": "The newspaper article was long.", "ko": "그 신문 기사는 길었다."}], "theme": "소통"},
- {"id": 160, "word": "artifice", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["책략", "속임수"]}], "examples": [{"en": "The plan was full of artifice.", "ko": "그 계획은 술책으로 가득했다."}, {"en": "She used artifice to win the game.", "ko": "그녀는 게임에서 이기려고 꾀를 썼다."}], "theme": "추상"},
- {"id": 161, "word": "as", "pos": ["접속사", "전치사"], "meanings": [{"pos": "접속사", "ko": ["~하면서", "~때문에"]}, {"pos": "전치사", "ko": ["~로서"]}], "examples": [{"en": "She sang as she walked.", "ko": "그녀는 걸으면서 노래를 불렀다."}, {"en": "He works as a chef.", "ko": "그는 요리사로 일한다."}], "theme": "추상"},
- {"id": 162, "word": "aside", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["옆으로", "한쪽으로"]}], "examples": [{"en": "He stepped aside for her.", "ko": "그는 그녀를 위해 옆으로 비켜섰다."}, {"en": "Please put your phone aside.", "ko": "휴대폰을 옆에 놓아 주세요."}], "theme": "행동"},
- {"id": 163, "word": "ask", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["묻다", "요청하다"]}], "examples": [{"en": "Can I ask you something?", "ko": "뭐 좀 물어봐도 될까?"}, {"en": "She asked for help.", "ko": "그녀는 도움을 요청했다."}], "theme": "소통"},
- {"id": 164, "word": "asleep", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["잠든"]}], "examples": [{"en": "The baby fell asleep quickly.", "ko": "아기는 금방 잠들었다."}, {"en": "He was asleep on the sofa.", "ko": "그는 소파에서 잠들어 있었다."}], "theme": "일상"},
- {"id": 165, "word": "aspect", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["측면", "양상"]}], "examples": [{"en": "That is an important aspect of life.", "ko": "그것은 삶의 중요한 측면이다."}, {"en": "We discussed every aspect of the plan.", "ko": "우리는 계획의 모든 측면을 논의했다."}], "theme": "추상"},
- {"id": 166, "word": "aspire", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["열망하다"]}], "examples": [{"en": "She aspires to be a doctor.", "ko": "그녀는 의사가 되기를 열망한다."}, {"en": "Many students aspire to study abroad.", "ko": "많은 학생들이 해외 유학을 열망한다."}], "theme": "추상"},
- {"id": 167, "word": "assault", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["폭행", "공격"]}, {"pos": "동사", "ko": ["폭행하다", "공격하다"]}], "examples": [{"en": "The man was charged with assault.", "ko": "그 남자는 폭행 혐의로 기소되었다."}, {"en": "Police stopped the assault quickly.", "ko": "경찰이 그 폭행을 빠르게 막았다."}], "theme": "사회"},
- {"id": 168, "word": "assemble", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["모으다", "조립하다"]}], "examples": [{"en": "Workers assemble the cars on the line.", "ko": "노동자들이 조립 라인에서 차를 조립한다."}, {"en": "Students assembled in the hall.", "ko": "학생들이 강당에 모였다."}], "theme": "행동"},
- {"id": 169, "word": "assert", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["주장하다"]}], "examples": [{"en": "He asserted that he was right.", "ko": "그는 자신이 옳다고 주장했다."}, {"en": "She asserts her opinion clearly.", "ko": "그녀는 자기 의견을 분명히 주장한다."}], "theme": "소통"},
- {"id": 170, "word": "assess", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["평가하다"]}], "examples": [{"en": "Teachers assess student progress often.", "ko": "교사들은 학생의 발전을 자주 평가한다."}, {"en": "We need to assess the damage.", "ko": "우리는 피해를 평가해야 한다."}], "theme": "학교"},
- {"id": 171, "word": "asset", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["자산", "장점"]}], "examples": [{"en": "Her creativity is a great asset.", "ko": "그녀의 창의력은 큰 장점이다."}, {"en": "The company sold its main asset.", "ko": "그 회사는 주요 자산을 팔았다."}], "theme": "추상"},
- {"id": 172, "word": "assign", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["배정하다", "맡기다"]}], "examples": [{"en": "The teacher assigned us homework.", "ko": "선생님은 우리에게 숙제를 내주셨다."}, {"en": "She was assigned a new task.", "ko": "그녀는 새로운 일을 맡았다."}], "theme": "학교"},
- {"id": 173, "word": "assist", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["돕다"]}], "examples": [{"en": "He assisted his mom in the kitchen.", "ko": "그는 부엌에서 엄마를 도왔다."}, {"en": "This app can assist you daily.", "ko": "이 앱은 매일 당신을 도와줄 수 있다."}], "theme": "행동"},
- {"id": 174, "word": "associate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["연관 짓다", "어울리다"]}], "examples": [{"en": "We often associate rain with sadness.", "ko": "우리는 흔히 비를 슬픔과 연관 짓는다."}, {"en": "She associates with kind people.", "ko": "그녀는 친절한 사람들과 어울린다."}], "theme": "추상"},
- {"id": 175, "word": "assume", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["가정하다", "추측하다"]}], "examples": [{"en": "I assumed you were busy.", "ko": "나는 네가 바쁘다고 생각했다."}, {"en": "Don't assume the worst.", "ko": "최악을 가정하지 마라."}], "theme": "추상"},
- {"id": 176, "word": "assure", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["장담하다", "확신시키다"]}], "examples": [{"en": "I assure you it's true.", "ko": "그것이 사실이라고 장담한다."}, {"en": "She assured him everything was fine.", "ko": "그녀는 그에게 모든 게 괜찮다고 확신시켰다."}], "theme": "소통"},
- {"id": 177, "word": "astonish", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["놀라게 하다"]}], "examples": [{"en": "The news astonished everyone.", "ko": "그 소식은 모두를 놀라게 했다."}, {"en": "Her talent astonished the judges.", "ko": "그녀의 재능은 심사위원들을 놀라게 했다."}], "theme": "감정"},
- {"id": 178, "word": "at", "pos": ["전치사"], "meanings": [{"pos": "전치사", "ko": ["~에", "~에서"]}], "examples": [{"en": "He goes to school at 8:30.", "ko": "그는 8시 30분에 학교에 간다."}, {"en": "Look at the picture.", "ko": "그 그림을 봐라."}], "theme": "시간"},
- {"id": 179, "word": "athlete", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["운동선수"]}], "examples": [{"en": "The athlete trained every morning.", "ko": "그 운동선수는 매일 아침 훈련했다."}, {"en": "She wants to be an athlete.", "ko": "그녀는 운동선수가 되고 싶어 한다."}], "theme": "직업"},
- {"id": 180, "word": "atmosphere", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["대기", "분위기"]}], "examples": [{"en": "The atmosphere protects the Earth.", "ko": "대기는 지구를 보호한다."}, {"en": "The party had a fun atmosphere.", "ko": "그 파티는 즐거운 분위기였다."}], "theme": "과학"},
- {"id": 181, "word": "atom", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["원자"]}], "examples": [{"en": "An atom is very small.", "ko": "원자는 매우 작다."}, {"en": "Atoms make up all matter.", "ko": "원자는 모든 물질을 구성한다."}], "theme": "과학"},
- {"id": 182, "word": "attach", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["붙이다", "첨부하다"]}], "examples": [{"en": "Please attach the file to your email.", "ko": "이메일에 파일을 첨부해 주세요."}, {"en": "She attached a note to the gift.", "ko": "그녀는 선물에 메모를 붙였다."}], "theme": "소통"},
- {"id": 183, "word": "attack", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["공격"]}, {"pos": "동사", "ko": ["공격하다"]}], "examples": [{"en": "The dog attacked the mailman.", "ko": "그 개가 우편배달부를 공격했다."}, {"en": "They planned a surprise attack.", "ko": "그들은 기습 공격을 계획했다."}], "theme": "사회"},
- {"id": 184, "word": "attempt", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["시도하다"]}, {"pos": "명사", "ko": ["시도"]}], "examples": [{"en": "She attempted to solve the puzzle.", "ko": "그녀는 퍼즐을 풀려고 시도했다."}, {"en": "His first attempt failed.", "ko": "그의 첫 시도는 실패했다."}], "theme": "행동"},
- {"id": 185, "word": "attend", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["참석하다", "다니다"]}], "examples": [{"en": "All students must attend the meeting.", "ko": "모든 학생은 회의에 참석해야 한다."}, {"en": "He attends a middle school nearby.", "ko": "그는 근처 중학교에 다닌다."}], "theme": "학교"},
- {"id": 186, "word": "attention", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["주의", "집중"]}], "examples": [{"en": "May I have your attention(, please)?", "ko": "제게 좀 집중해 주시겠어요?"}, {"en": "Pay attention in class.", "ko": "수업 시간에 집중해라."}], "theme": "학교"},
- {"id": 187, "word": "attitude", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["태도"]}], "examples": [{"en": "She has a positive attitude.", "ko": "그녀는 긍정적인 태도를 가지고 있다."}, {"en": "His attitude changed after the trip.", "ko": "그의 태도는 여행 후 바뀌었다."}], "theme": "추상"},
- {"id": 188, "word": "attract", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["끌어들이다"]}], "examples": [{"en": "Flowers attract bees and butterflies.", "ko": "꽃은 벌과 나비를 끌어들인다."}, {"en": "The museum attracts many tourists.", "ko": "그 박물관은 많은 관광객을 끌어들인다."}], "theme": "자연"},
- {"id": 189, "word": "attribute", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["속성", "특성"]}, {"pos": "동사", "ko": ["~덕분으로 보다"]}], "examples": [{"en": "Kindness is her best attribute.", "ko": "친절함은 그녀의 가장 좋은 특성이다."}, {"en": "He attributes his success to hard work.", "ko": "그는 자신의 성공을 노력 덕분이라고 생각한다."}], "theme": "추상"},
- {"id": 190, "word": "auction", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["경매"]}], "examples": [{"en": "The painting sold at an auction.", "ko": "그 그림은 경매에서 팔렸다."}, {"en": "They held a charity auction.", "ko": "그들은 자선 경매를 열었다."}], "theme": "사회"},
- {"id": 191, "word": "audience", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["청중", "관객"]}], "examples": [{"en": "The audience clapped loudly.", "ko": "관객들이 크게 박수를 쳤다."}, {"en": "She spoke to a large audience.", "ko": "그녀는 많은 청중 앞에서 연설했다."}], "theme": "여가"},
- {"id": 192, "word": "aunt", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["이모", "고모"]}], "examples": [{"en": "My aunt lives in Seoul.", "ko": "우리 이모는 서울에 산다."}, {"en": "I visited my aunt yesterday.", "ko": "나는 어제 이모를 방문했다."}], "theme": "가족"},
- {"id": 193, "word": "authentic", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["진짜의", "진품인"]}], "examples": [{"en": "This is an authentic Korean dish.", "ko": "이것은 정통 한국 요리이다."}, {"en": "The bag looked authentic but wasn't.", "ko": "그 가방은 진짜처럼 보였지만 아니었다."}], "theme": "사물"},
- {"id": 194, "word": "author", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["작가"]}], "examples": [{"en": "The author wrote many novels.", "ko": "그 작가는 많은 소설을 썼다."}, {"en": "She became a famous author.", "ko": "그녀는 유명한 작가가 되었다."}], "theme": "직업"},
- {"id": 195, "word": "automatic", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["자동의"]}], "examples": [{"en": "This door is automatic.", "ko": "이 문은 자동이다."}, {"en": "The car has automatic doors.", "ko": "그 차는 자동문이 있다."}], "theme": "과학"},
- {"id": 196, "word": "autumn", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["가을"]}], "examples": [{"en": "I love autumn leaves.", "ko": "나는 가을 낙엽을 좋아한다."}, {"en": "Autumn is my favorite season.", "ko": "가을은 내가 가장 좋아하는 계절이다."}], "theme": "자연"},
- {"id": 197, "word": "avail", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["쓸모", "효용"]}, {"pos": "동사", "ko": ["이용하다"]}], "examples": [{"en": "He tried hard, but to no avail.", "ko": "그는 열심히 노력했지만 소용이 없었다."}, {"en": "Students should avail themselves of this chance.", "ko": "학생들은 이 기회를 잘 이용해야 한다."}], "theme": "추상"},
- {"id": 198, "word": "average", "pos": ["형용사", "명사"], "meanings": [{"pos": "형용사", "ko": ["평균의", "보통의"]}, {"pos": "명사", "ko": ["평균"]}], "examples": [{"en": "The average score was 80.", "ko": "평균 점수는 80점이었다."}, {"en": "He is of average height.", "ko": "그는 평균 키이다."}], "theme": "수량"},
- {"id": 199, "word": "avoid", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["피하다"]}], "examples": [{"en": "Try to avoid the traffic.", "ko": "교통 체증을 피하려고 노력해라."}, {"en": "She avoids eating junk food.", "ko": "그녀는 정크푸드를 피한다."}], "theme": "행동"},
- {"id": 200, "word": "await", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["기다리다"]}], "examples": [{"en": "We await your reply.", "ko": "우리는 당신의 답변을 기다린다."}, {"en": "Many challenges await the team.", "ko": "많은 도전이 그 팀을 기다리고 있다."}], "theme": "행동"}
+ {
+  "id": 151,
+  "word": "arm",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "팔"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I broke my arm.",
+    "ko": "나는 팔이 부러졌다."
+   },
+   {
+    "en": "She has long arms.",
+    "ko": "그녀는 팔이 길다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 152,
+  "word": "army",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "군대"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The army protects the country.",
+    "ko": "군대는 나라를 지킨다."
+   },
+   {
+    "en": "He joined the army last year.",
+    "ko": "그는 작년에 군대에 입대했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 153,
+  "word": "around",
+  "pos": [
+   "전치사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~주위에",
+     "~쯤"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "주위에",
+     "돌아서"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The kids ran around the park.",
+    "ko": "아이들이 공원 주위를 뛰어다녔다."
+   },
+   {
+    "en": "Turn around and look.",
+    "ko": "돌아서서 봐라."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 154,
+  "word": "arrange",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "정리하다",
+     "준비하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She arranged the flowers nicely.",
+    "ko": "그녀는 꽃을 예쁘게 정리했다."
+   },
+   {
+    "en": "We need to arrange a meeting.",
+    "ko": "우리는 회의를 준비해야 한다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 155,
+  "word": "arrest",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "체포하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "체포"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The police arrested the thief.",
+    "ko": "경찰이 도둑을 체포했다."
+   },
+   {
+    "en": "He was under arrest.",
+    "ko": "그는 체포된 상태였다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 156,
+  "word": "arrive",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "도착하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We arrived at school early.",
+    "ko": "우리는 학교에 일찍 도착했다."
+   },
+   {
+    "en": "The train arrives soon.",
+    "ko": "기차가 곧 도착한다."
+   }
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 157,
+  "word": "arrow",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "화살",
+     "화살표"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He shot an arrow at the target.",
+    "ko": "그는 과녁에 화살을 쐈다."
+   },
+   {
+    "en": "Follow the arrow on the sign.",
+    "ko": "표지판의 화살표를 따라가라."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 158,
+  "word": "art",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "미술",
+     "예술"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I like art class.",
+    "ko": "나는 미술 시간을 좋아한다."
+   },
+   {
+    "en": "He is good at art.",
+    "ko": "그는 미술을 잘한다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 159,
+  "word": "article",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "기사",
+     "글"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I read an interesting article.",
+    "ko": "나는 흥미로운 기사를 읽었다."
+   },
+   {
+    "en": "The newspaper article was long.",
+    "ko": "그 신문 기사는 길었다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 160,
+  "word": "artifice",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "책략",
+     "속임수"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The plan was full of artifice.",
+    "ko": "그 계획은 술책으로 가득했다."
+   },
+   {
+    "en": "She used artifice to win the game.",
+    "ko": "그녀는 게임에서 이기려고 꾀를 썼다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 161,
+  "word": "as",
+  "pos": [
+   "접속사",
+   "전치사"
+  ],
+  "meanings": [
+   {
+    "pos": "접속사",
+    "ko": [
+     "~하면서",
+     "~때문에"
+    ]
+   },
+   {
+    "pos": "전치사",
+    "ko": [
+     "~로서"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She sang as she walked.",
+    "ko": "그녀는 걸으면서 노래를 불렀다."
+   },
+   {
+    "en": "He works as a chef.",
+    "ko": "그는 요리사로 일한다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 162,
+  "word": "aside",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "옆으로",
+     "한쪽으로"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He stepped aside for her.",
+    "ko": "그는 그녀를 위해 옆으로 비켜섰다."
+   },
+   {
+    "en": "Please put your phone aside.",
+    "ko": "휴대폰을 옆에 놓아 주세요."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 163,
+  "word": "ask",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "묻다",
+     "요청하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Can I ask you something?",
+    "ko": "뭐 좀 물어봐도 될까?"
+   },
+   {
+    "en": "She asked for help.",
+    "ko": "그녀는 도움을 요청했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 164,
+  "word": "asleep",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "잠든"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The baby fell asleep quickly.",
+    "ko": "아기는 금방 잠들었다."
+   },
+   {
+    "en": "He was asleep on the sofa.",
+    "ko": "그는 소파에서 잠들어 있었다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 165,
+  "word": "aspect",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "측면",
+     "양상"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "That is an important aspect of life.",
+    "ko": "그것은 삶의 중요한 측면이다."
+   },
+   {
+    "en": "We discussed every aspect of the plan.",
+    "ko": "우리는 계획의 모든 측면을 논의했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 166,
+  "word": "aspire",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "열망하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She aspires to be a doctor.",
+    "ko": "그녀는 의사가 되기를 열망한다."
+   },
+   {
+    "en": "Many students aspire to study abroad.",
+    "ko": "많은 학생들이 해외 유학을 열망한다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 167,
+  "word": "assault",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "폭행",
+     "공격"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "폭행하다",
+     "공격하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The man was charged with assault.",
+    "ko": "그 남자는 폭행 혐의로 기소되었다."
+   },
+   {
+    "en": "Police stopped the assault quickly.",
+    "ko": "경찰이 그 폭행을 빠르게 막았다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 168,
+  "word": "assemble",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "모으다",
+     "조립하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Workers assemble the cars on the line.",
+    "ko": "노동자들이 조립 라인에서 차를 조립한다."
+   },
+   {
+    "en": "Students assembled in the hall.",
+    "ko": "학생들이 강당에 모였다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 169,
+  "word": "assert",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "주장하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He asserted that he was right.",
+    "ko": "그는 자신이 옳다고 주장했다."
+   },
+   {
+    "en": "She asserts her opinion clearly.",
+    "ko": "그녀는 자기 의견을 분명히 주장한다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 170,
+  "word": "assess",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "평가하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Teachers assess student progress often.",
+    "ko": "교사들은 학생의 발전을 자주 평가한다."
+   },
+   {
+    "en": "We need to assess the damage.",
+    "ko": "우리는 피해를 평가해야 한다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 171,
+  "word": "asset",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "자산",
+     "장점"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Her creativity is a great asset.",
+    "ko": "그녀의 창의력은 큰 장점이다."
+   },
+   {
+    "en": "The company sold its main asset.",
+    "ko": "그 회사는 주요 자산을 팔았다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 172,
+  "word": "assign",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "배정하다",
+     "맡기다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The teacher assigned us homework.",
+    "ko": "선생님은 우리에게 숙제를 내주셨다."
+   },
+   {
+    "en": "She was assigned a new task.",
+    "ko": "그녀는 새로운 일을 맡았다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 173,
+  "word": "assist",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "돕다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He assisted his mom in the kitchen.",
+    "ko": "그는 부엌에서 엄마를 도왔다."
+   },
+   {
+    "en": "This app can assist you daily.",
+    "ko": "이 앱은 매일 당신을 도와줄 수 있다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 174,
+  "word": "associate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "연관 짓다",
+     "어울리다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We often associate rain with sadness.",
+    "ko": "우리는 흔히 비를 슬픔과 연관 짓는다."
+   },
+   {
+    "en": "She associates with kind people.",
+    "ko": "그녀는 친절한 사람들과 어울린다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 175,
+  "word": "assume",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "가정하다",
+     "추측하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I assumed you were busy.",
+    "ko": "나는 네가 바쁘다고 생각했다."
+   },
+   {
+    "en": "Don't assume the worst.",
+    "ko": "최악을 가정하지 마라."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 176,
+  "word": "assure",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "장담하다",
+     "확신시키다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I assure you it's true.",
+    "ko": "그것이 사실이라고 장담한다."
+   },
+   {
+    "en": "She assured him everything was fine.",
+    "ko": "그녀는 그에게 모든 게 괜찮다고 확신시켰다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 177,
+  "word": "astonish",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "놀라게 하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The news astonished everyone.",
+    "ko": "그 소식은 모두를 놀라게 했다."
+   },
+   {
+    "en": "Her talent astonished the judges.",
+    "ko": "그녀의 재능은 심사위원들을 놀라게 했다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 178,
+  "word": "at",
+  "pos": [
+   "전치사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~에",
+     "~에서"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He goes to school at 8:30.",
+    "ko": "그는 8시 30분에 학교에 간다."
+   },
+   {
+    "en": "Look at the picture.",
+    "ko": "그 그림을 봐라."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 179,
+  "word": "athlete",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "운동선수"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The athlete trained every morning.",
+    "ko": "그 운동선수는 매일 아침 훈련했다."
+   },
+   {
+    "en": "She wants to be an athlete.",
+    "ko": "그녀는 운동선수가 되고 싶어 한다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 180,
+  "word": "atmosphere",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "대기",
+     "분위기"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The atmosphere protects the Earth.",
+    "ko": "대기는 지구를 보호한다."
+   },
+   {
+    "en": "The party had a fun atmosphere.",
+    "ko": "그 파티는 즐거운 분위기였다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 181,
+  "word": "atom",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "원자"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "An atom is very small.",
+    "ko": "원자는 매우 작다."
+   },
+   {
+    "en": "Atoms make up all matter.",
+    "ko": "원자는 모든 물질을 구성한다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 182,
+  "word": "attach",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "붙이다",
+     "첨부하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please attach the file to your email.",
+    "ko": "이메일에 파일을 첨부해 주세요."
+   },
+   {
+    "en": "She attached a note to the gift.",
+    "ko": "그녀는 선물에 메모를 붙였다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 183,
+  "word": "attack",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "공격"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "공격하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The dog attacked the mailman.",
+    "ko": "그 개가 우편배달부를 공격했다."
+   },
+   {
+    "en": "They planned a surprise attack.",
+    "ko": "그들은 기습 공격을 계획했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 184,
+  "word": "attempt",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "시도하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "시도"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She attempted to solve the puzzle.",
+    "ko": "그녀는 퍼즐을 풀려고 시도했다."
+   },
+   {
+    "en": "His first attempt failed.",
+    "ko": "그의 첫 시도는 실패했다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 185,
+  "word": "attend",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "참석하다",
+     "다니다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "All students must attend the meeting.",
+    "ko": "모든 학생은 회의에 참석해야 한다."
+   },
+   {
+    "en": "He attends a middle school nearby.",
+    "ko": "그는 근처 중학교에 다닌다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 186,
+  "word": "attention",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "주의",
+     "집중"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "May I have your attention(, please)?",
+    "ko": "제게 좀 집중해 주시겠어요?"
+   },
+   {
+    "en": "Pay attention in class.",
+    "ko": "수업 시간에 집중해라."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 187,
+  "word": "attitude",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "태도"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She has a positive attitude.",
+    "ko": "그녀는 긍정적인 태도를 가지고 있다."
+   },
+   {
+    "en": "His attitude changed after the trip.",
+    "ko": "그의 태도는 여행 후 바뀌었다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 188,
+  "word": "attract",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "끌어들이다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Flowers attract bees and butterflies.",
+    "ko": "꽃은 벌과 나비를 끌어들인다."
+   },
+   {
+    "en": "The museum attracts many tourists.",
+    "ko": "그 박물관은 많은 관광객을 끌어들인다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 189,
+  "word": "attribute",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "속성",
+     "특성"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "~덕분으로 보다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Kindness is her best attribute.",
+    "ko": "친절함은 그녀의 가장 좋은 특성이다."
+   },
+   {
+    "en": "He attributes his success to hard work.",
+    "ko": "그는 자신의 성공을 노력 덕분이라고 생각한다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 190,
+  "word": "auction",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "경매"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The painting sold at an auction.",
+    "ko": "그 그림은 경매에서 팔렸다."
+   },
+   {
+    "en": "They held a charity auction.",
+    "ko": "그들은 자선 경매를 열었다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 191,
+  "word": "audience",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "청중",
+     "관객"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The audience clapped loudly.",
+    "ko": "관객들이 크게 박수를 쳤다."
+   },
+   {
+    "en": "She spoke to a large audience.",
+    "ko": "그녀는 많은 청중 앞에서 연설했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 192,
+  "word": "aunt",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "이모",
+     "고모"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My aunt lives in Seoul.",
+    "ko": "우리 이모는 서울에 산다."
+   },
+   {
+    "en": "I visited my aunt yesterday.",
+    "ko": "나는 어제 이모를 방문했다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 193,
+  "word": "authentic",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "진짜의",
+     "진품인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This is an authentic Korean dish.",
+    "ko": "이것은 정통 한국 요리이다."
+   },
+   {
+    "en": "The bag looked authentic but wasn't.",
+    "ko": "그 가방은 진짜처럼 보였지만 아니었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 194,
+  "word": "author",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "작가"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The author wrote many novels.",
+    "ko": "그 작가는 많은 소설을 썼다."
+   },
+   {
+    "en": "She became a famous author.",
+    "ko": "그녀는 유명한 작가가 되었다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 195,
+  "word": "automatic",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "자동의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This door is automatic.",
+    "ko": "이 문은 자동이다."
+   },
+   {
+    "en": "The car has automatic doors.",
+    "ko": "그 차는 자동문이 있다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 196,
+  "word": "autumn",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "가을"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I love autumn leaves.",
+    "ko": "나는 가을 낙엽을 좋아한다."
+   },
+   {
+    "en": "Autumn is my favorite season.",
+    "ko": "가을은 내가 가장 좋아하는 계절이다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 197,
+  "word": "avail",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "쓸모",
+     "효용"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "이용하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He tried hard, but to no avail.",
+    "ko": "그는 열심히 노력했지만 소용이 없었다."
+   },
+   {
+    "en": "Students should avail themselves of this chance.",
+    "ko": "학생들은 이 기회를 잘 이용해야 한다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 198,
+  "word": "average",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "평균의",
+     "보통의"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "평균"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The average score was 80.",
+    "ko": "평균 점수는 80점이었다."
+   },
+   {
+    "en": "He is of average height.",
+    "ko": "그는 평균 키이다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 199,
+  "word": "avoid",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "피하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Try to avoid the traffic.",
+    "ko": "교통 체증을 피하려고 노력해라."
+   },
+   {
+    "en": "She avoids eating junk food.",
+    "ko": "그녀는 정크푸드를 피한다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 200,
+  "word": "await",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "기다리다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We await your reply.",
+    "ko": "우리는 당신의 답변을 기다린다."
+   },
+   {
+    "en": "Many challenges await the team.",
+    "ko": "많은 도전이 그 팀을 기다리고 있다."
+   }
+  ],
+  "theme": "행동"
+ }
 ]

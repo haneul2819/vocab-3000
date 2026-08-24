@@ -1,52 +1,1461 @@
 [
- {"id":2601,"word":"superior","pos":["형용사","명사"],"meanings":[{"pos":"형용사","ko":["우수한","우월한"]},{"pos":"명사","ko":["상사","윗사람"]}],"examples":[{"en":"This laptop has superior battery life compared to others.","ko":"이 노트북은 다른 것들에 비해 배터리 성능이 우수하다."},{"en":"She always respects her superior at work.","ko":"그녀는 직장에서 항상 상사를 존중한다."}],"theme":"직업"},
- {"id":2602,"word":"supervise","pos":["동사"],"meanings":[{"pos":"동사","ko":["감독하다","관리하다"]}],"examples":[{"en":"The manager supervises ten employees at the store.","ko":"그 매니저는 매장에서 직원 열 명을 감독한다."},{"en":"A lifeguard must supervise the pool at all times.","ko":"안전요원은 항상 수영장을 감독해야 한다."}],"theme":"직업"},
- {"id":2603,"word":"supper","pos":["명사"],"meanings":[{"pos":"명사","ko":["저녁 식사"]}],"examples":[{"en":"We usually have supper at seven o'clock.","ko":"우리는 보통 7시에 저녁을 먹는다."},{"en":"My grandmother cooked a warm supper for us.","ko":"할머니께서 우리를 위해 따뜻한 저녁 식사를 요리하셨다."}],"theme":"음식"},
- {"id":2604,"word":"supplement","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["보충제","보완물"]},{"pos":"동사","ko":["보충하다"]}],"examples":[{"en":"My mom takes a vitamin supplement every morning.","ko":"우리 엄마는 매일 아침 비타민 보충제를 드신다."},{"en":"You can supplement your income by working part-time.","ko":"너는 아르바이트를 해서 수입을 보충할 수 있다."}],"theme":"일상"},
- {"id":2605,"word":"supply","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["공급","보급품"]},{"pos":"동사","ko":["공급하다"]}],"examples":[{"en":"The store has a large supply of winter clothes.","ko":"그 가게는 겨울옷 공급량이 많다."},{"en":"Farmers supply fresh vegetables to the market.","ko":"농부들은 시장에 신선한 채소를 공급한다."}],"theme":"사회"},
- {"id":2606,"word":"support","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["지원","지지"]},{"pos":"동사","ko":["지지하다","지원하다"]}],"examples":[{"en":"My parents always support my dreams.","ko":"부모님은 항상 내 꿈을 지지해 주신다."},{"en":"The charity gives support to homeless people.","ko":"그 자선 단체는 노숙자들에게 지원을 제공한다."}],"theme":"사회"},
- {"id":2607,"word":"suppose","pos":["동사"],"meanings":[{"pos":"동사","ko":["추측하다","생각하다"]}],"examples":[{"en":"I suppose it will rain tomorrow.","ko":"나는 내일 비가 올 것이라고 생각한다."},{"en":"Let's suppose the story is true for a moment.","ko":"잠시 그 이야기가 사실이라고 가정해 보자."}],"theme":"추상"},
- {"id":2608,"word":"sure","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["확신하는","확실한"]}],"examples":[{"en":"I’m (not) sure.","ko":"나는 잘 모르겠어(확신이 없어)."},{"en":"Are you sure about the answer?","ko":"너는 그 답이 확실해?"}],"theme":"감정"},
- {"id":2609,"word":"surface","pos":["명사"],"meanings":[{"pos":"명사","ko":["표면"]}],"examples":[{"en":"The surface of the lake was very calm.","ko":"호수의 표면은 매우 잔잔했다."},{"en":"Water covers most of the earth's surface.","ko":"물은 지구 표면의 대부분을 덮고 있다."}],"theme":"자연"},
- {"id":2610,"word":"surgery","pos":["명사"],"meanings":[{"pos":"명사","ko":["수술"]}],"examples":[{"en":"The doctor performed surgery on the patient's knee.","ko":"의사는 환자의 무릎을 수술했다."},{"en":"She needs surgery to fix her broken arm.","ko":"그녀는 부러진 팔을 고치기 위해 수술이 필요하다."}],"theme":"신체"},
- {"id":2611,"word":"surprise","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["놀람","깜짝 놀랄 일"]},{"pos":"동사","ko":["놀라게 하다"]}],"examples":[{"en":"What a surprise!","ko":"정말 놀랍다!"},{"en":"They planned a surprise party for her birthday.","ko":"그들은 그녀의 생일을 위해 깜짝 파티를 계획했다."}],"theme":"감정"},
- {"id":2612,"word":"surrender","pos":["동사","명사"],"meanings":[{"pos":"동사","ko":["항복하다","포기하다"]},{"pos":"명사","ko":["항복"]}],"examples":[{"en":"The enemy soldiers finally decided to surrender.","ko":"적군 병사들은 마침내 항복하기로 결정했다."},{"en":"The general refused to accept the surrender.","ko":"그 장군은 항복을 받아들이기를 거부했다."}],"theme":"사회"},
- {"id":2613,"word":"surround","pos":["동사"],"meanings":[{"pos":"동사","ko":["둘러싸다"]}],"examples":[{"en":"Tall mountains surround the small village.","ko":"높은 산들이 그 작은 마을을 둘러싸고 있다."},{"en":"Fans surrounded the singer after the concert.","ko":"팬들은 콘서트가 끝난 후 그 가수를 둘러쌌다."}],"theme":"장소"},
- {"id":2614,"word":"survey","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["설문 조사"]},{"pos":"동사","ko":["조사하다"]}],"examples":[{"en":"We conducted a survey about students' favorite subjects.","ko":"우리는 학생들이 가장 좋아하는 과목에 대해 설문 조사를 했다."},{"en":"The company surveyed customers about the new product.","ko":"그 회사는 새 제품에 대해 고객들을 조사했다."}],"theme":"학교"},
- {"id":2615,"word":"survive","pos":["동사"],"meanings":[{"pos":"동사","ko":["살아남다","생존하다"]}],"examples":[{"en":"Some animals cannot survive in the desert.","ko":"일부 동물은 사막에서 살아남을 수 없다."},{"en":"She survived the difficult surgery last week.","ko":"그녀는 지난주 힘든 수술에서 살아남았다."}],"theme":"자연"},
- {"id":2616,"word":"suspect","pos":["동사","명사"],"meanings":[{"pos":"동사","ko":["의심하다","짐작하다"]},{"pos":"명사","ko":["용의자"]}],"examples":[{"en":"I suspect he is telling the truth.","ko":"나는 그가 진실을 말하고 있다고 생각한다."},{"en":"Police arrested the suspect near the bank.","ko":"경찰은 은행 근처에서 용의자를 체포했다."}],"theme":"사회"},
- {"id":2617,"word":"suspend","pos":["동사"],"meanings":[{"pos":"동사","ko":["매달다","정지시키다"]}],"examples":[{"en":"The school decided to suspend the student for a week.","ko":"학교는 그 학생을 일주일 동안 정학시키기로 결정했다."},{"en":"A lamp was suspended from the ceiling of the hall.","ko":"램프 하나가 홀 천장에 매달려 있었다."}],"theme":"학교"},
- {"id":2618,"word":"sustain","pos":["동사"],"meanings":[{"pos":"동사","ko":["지속시키다","유지하다"]}],"examples":[{"en":"Regular exercise helps sustain a healthy body.","ko":"규칙적인 운동은 건강한 몸을 유지하는 데 도움이 된다."},{"en":"The company struggled to sustain its growth this year.","ko":"그 회사는 올해 성장을 유지하는 데 어려움을 겪었다."}],"theme":"추상"},
- {"id":2619,"word":"swallow","pos":["동사","명사"],"meanings":[{"pos":"동사","ko":["삼키다"]},{"pos":"명사","ko":["제비"]}],"examples":[{"en":"You should chew your food before you swallow it.","ko":"음식을 삼키기 전에 잘 씹어야 한다."},{"en":"A swallow flew quickly across the blue sky.","ko":"제비 한 마리가 파란 하늘을 가로질러 빠르게 날았다."}],"theme":"동물"},
- {"id":2620,"word":"swear","pos":["동사"],"meanings":[{"pos":"동사","ko":["맹세하다","욕하다"]}],"examples":[{"en":"I swear I will never tell your secret.","ko":"나는 네 비밀을 절대 말하지 않겠다고 맹세한다."},{"en":"He tends to swear when he gets angry.","ko":"그는 화가 나면 욕을 하는 경향이 있다."}],"theme":"행동"},
- {"id":2621,"word":"sweat","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["땀"]},{"pos":"동사","ko":["땀을 흘리다"]}],"examples":[{"en":"Sweat dripped down his face during the race.","ko":"경주하는 동안 그의 얼굴에서 땀이 흘러내렸다."},{"en":"I sweat a lot when I exercise in summer.","ko":"나는 여름에 운동하면 땀을 많이 흘린다."}],"theme":"신체"},
- {"id":2622,"word":"sweater","pos":["명사"],"meanings":[{"pos":"명사","ko":["스웨터"]}],"examples":[{"en":"She wore a warm sweater in winter.","ko":"그녀는 겨울에 따뜻한 스웨터를 입었다."},{"en":"My grandmother knitted a blue sweater for me.","ko":"할머니는 나에게 파란 스웨터를 짜 주셨다."}],"theme":"사물"},
- {"id":2623,"word":"sweep","pos":["동사"],"meanings":[{"pos":"동사","ko":["쓸다","청소하다"]}],"examples":[{"en":"Please sweep the kitchen floor after dinner.","ko":"저녁 식사 후에 부엌 바닥을 쓸어줘."},{"en":"He sweeps the yard every Saturday morning.","ko":"그는 매주 토요일 아침에 마당을 쓴다."}],"theme":"일상"},
- {"id":2624,"word":"sweet","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["달콤한","다정한"]}],"examples":[{"en":"This cake tastes very sweet.","ko":"이 케이크는 아주 달콤한 맛이 난다."},{"en":"She has a sweet smile.","ko":"그녀는 다정한 미소를 가지고 있다."}],"theme":"음식"},
- {"id":2625,"word":"swell","pos":["동사"],"meanings":[{"pos":"동사","ko":["붓다","부풀다"]}],"examples":[{"en":"Her ankle began to swell after the fall.","ko":"그녀의 발목은 넘어진 후 붓기 시작했다."},{"en":"The crowd continued to swell as the concert began.","ko":"콘서트가 시작되면서 군중이 계속 불어났다."}],"theme":"신체"},
- {"id":2626,"word":"swift","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["빠른","신속한"]}],"examples":[{"en":"The runner made a swift move to win the race.","ko":"그 주자는 경주에서 이기기 위해 빠른 움직임을 보였다."},{"en":"The team gave a swift response to the problem.","ko":"그 팀은 문제에 신속하게 대응했다."}],"theme":"행동"},
- {"id":2627,"word":"swim","pos":["동사"],"meanings":[{"pos":"동사","ko":["수영하다"]}],"examples":[{"en":"I always go swimming on Tuesdays.","ko":"나는 항상 화요일마다 수영하러 간다."},{"en":"I can swim well.","ko":"나는 수영을 잘할 수 있다."}],"theme":"여가"},
- {"id":2628,"word":"swing","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["그네"]},{"pos":"동사","ko":["흔들다","흔들리다"]}],"examples":[{"en":"The children played on the swing in the park.","ko":"아이들은 공원에서 그네를 타고 놀았다."},{"en":"The door began to swing open in the wind.","ko":"문이 바람에 흔들리며 열리기 시작했다."}],"theme":"여가"},
- {"id":2629,"word":"switch","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["스위치"]},{"pos":"동사","ko":["바꾸다","전환하다"]}],"examples":[{"en":"He turned on the light switch in the dark room.","ko":"그는 어두운 방에서 전등 스위치를 켰다."},{"en":"We decided to switch seats during the movie.","ko":"우리는 영화를 보는 동안 자리를 바꾸기로 했다."}],"theme":"사물"},
- {"id":2630,"word":"symbol","pos":["명사"],"meanings":[{"pos":"명사","ko":["상징","기호"]}],"examples":[{"en":"A dove is often used as a symbol of peace.","ko":"비둘기는 종종 평화의 상징으로 사용된다."},{"en":"The heart shape is a common symbol of love.","ko":"하트 모양은 사랑을 나타내는 흔한 상징이다."}],"theme":"추상"},
- {"id":2631,"word":"sympathy","pos":["명사"],"meanings":[{"pos":"명사","ko":["동정","공감"]}],"examples":[{"en":"She showed great sympathy for the injured dog.","ko":"그녀는 다친 개에게 큰 연민을 보였다."},{"en":"He wrote a card to express his sympathy.","ko":"그는 위로의 마음을 전하기 위해 카드를 썼다."}],"theme":"감정"},
- {"id":2632,"word":"symphony","pos":["명사"],"meanings":[{"pos":"명사","ko":["교향곡"]}],"examples":[{"en":"The orchestra performed a beautiful symphony last night.","ko":"오케스트라는 지난밤 아름다운 교향곡을 연주했다."},{"en":"Beethoven wrote many famous symphonies during his life.","ko":"베토벤은 생애 동안 많은 유명한 교향곡을 작곡했다."}],"theme":"여가"},
- {"id":2633,"word":"symptom","pos":["명사"],"meanings":[{"pos":"명사","ko":["증상"]}],"examples":[{"en":"A high fever is a common symptom of the flu.","ko":"고열은 독감의 흔한 증상이다."},{"en":"The doctor asked about her symptoms during the visit.","ko":"의사는 진료 중에 그녀의 증상에 대해 물었다."}],"theme":"신체"},
- {"id":2634,"word":"system","pos":["명사"],"meanings":[{"pos":"명사","ko":["체계","시스템"]}],"examples":[{"en":"Our school has a new grading system.","ko":"우리 학교는 새로운 성적 시스템을 가지고 있다."},{"en":"The computer system crashed during the test.","ko":"시험 중에 컴퓨터 시스템이 다운되었다."}],"theme":"과학"},
- {"id":2635,"word":"table","pos":["명사"],"meanings":[{"pos":"명사","ko":["탁자","표"]}],"examples":[{"en":"The book is on the table.","ko":"책이 탁자 위에 있다."},{"en":"We ate dinner at the table.","ko":"우리는 탁자에서 저녁을 먹었다."}],"theme":"사물"},
- {"id":2636,"word":"tackle","pos":["동사","명사"],"meanings":[{"pos":"동사","ko":["다루다","맞붙다"]},{"pos":"명사","ko":["태클"]}],"examples":[{"en":"We need to tackle this problem right away.","ko":"우리는 이 문제를 즉시 해결해야 한다."},{"en":"The player made a strong tackle during the match.","ko":"그 선수는 경기 중에 강한 태클을 했다."}],"theme":"행동"},
- {"id":2637,"word":"tag","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["꼬리표"]},{"pos":"동사","ko":["표시를 붙이다"]}],"examples":[{"en":"Check the price tag before you buy the shirt.","ko":"셔츠를 사기 전에 가격표를 확인해라."},{"en":"The kids played a fun game of tag at recess.","ko":"아이들은 쉬는 시간에 재미있는 술래잡기 놀이를 했다."}],"theme":"여가"},
- {"id":2638,"word":"tail","pos":["명사"],"meanings":[{"pos":"명사","ko":["꼬리"]}],"examples":[{"en":"The dog wagged its tail.","ko":"그 개는 꼬리를 흔들었다."},{"en":"The cat has a long tail.","ko":"그 고양이는 꼬리가 길다."}],"theme":"동물"},
- {"id":2639,"word":"take","pos":["동사"],"meanings":[{"pos":"동사","ko":["가지고 가다","취하다"]}],"examples":[{"en":"Take care.","ko":"몸조심해."},{"en":"I take the bus to school.","ko":"나는 버스를 타고 학교에 간다."}],"theme":"일상"},
- {"id":2640,"word":"tale","pos":["명사"],"meanings":[{"pos":"명사","ko":["이야기","설화"]}],"examples":[{"en":"My grandmother told us an old folk tale.","ko":"할머니는 우리에게 옛날이야기를 들려주셨다."},{"en":"The book is a collection of fairy tales.","ko":"그 책은 동화 모음집이다."}],"theme":"소통"},
- {"id":2641,"word":"talent","pos":["명사"],"meanings":[{"pos":"명사","ko":["재능"]}],"examples":[{"en":"She has a real talent for painting.","ko":"그녀는 그림에 진짜 재능이 있다."},{"en":"The show helps young singers show their talent.","ko":"그 프로그램은 젊은 가수들이 재능을 보여주도록 돕는다."}],"theme":"여가"},
- {"id":2642,"word":"talk","pos":["동사","명사"],"meanings":[{"pos":"동사","ko":["말하다","이야기하다"]},{"pos":"명사","ko":["대화"]}],"examples":[{"en":"I am going to talk about.","ko":"나는 그것에 대해 이야기할 것이다."},{"en":"Let's talk after class.","ko":"수업 끝나고 이야기하자."}],"theme":"소통"},
- {"id":2643,"word":"tall","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["키가 큰"]}],"examples":[{"en":"Tom is tall and slim.","ko":"톰은 키가 크고 날씬하다."},{"en":"My brother is very tall.","ko":"내 오빠는 키가 매우 크다."}],"theme":"신체"},
- {"id":2644,"word":"tank","pos":["명사"],"meanings":[{"pos":"명사","ko":["탱크","수조"]}],"examples":[{"en":"The fish swim happily in the tank.","ko":"물고기들은 수조 안에서 행복하게 헤엄친다."},{"en":"Soldiers drove the tank across the field.","ko":"군인들은 들판을 가로질러 탱크를 몰았다."}],"theme":"사물"},
- {"id":2645,"word":"tap","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["수도꼭지"]},{"pos":"동사","ko":["가볍게 두드리다"]}],"examples":[{"en":"She turned off the tap after washing her hands.","ko":"그녀는 손을 씻은 후 수도꼭지를 잠갔다."},{"en":"He tapped me on the shoulder to say hello.","ko":"그는 인사하려고 내 어깨를 가볍게 두드렸다."}],"theme":"행동"},
- {"id":2646,"word":"tape","pos":["명사"],"meanings":[{"pos":"명사","ko":["테이프"]}],"examples":[{"en":"I used tape to fix the box.","ko":"나는 상자를 고치려고 테이프를 사용했다."},{"en":"She stuck the poster with tape.","ko":"그녀는 테이프로 포스터를 붙였다."}],"theme":"사물"},
- {"id":2647,"word":"target","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["목표","과녁"]},{"pos":"동사","ko":["목표로 삼다"]}],"examples":[{"en":"The arrow hit the center of the target.","ko":"화살이 과녁의 정중앙에 맞았다."},{"en":"Our target is to save more money this year.","ko":"우리의 목표는 올해 돈을 더 모으는 것이다."}],"theme":"추상"},
- {"id":2648,"word":"task","pos":["명사"],"meanings":[{"pos":"명사","ko":["과제","임무"]}],"examples":[{"en":"Finishing the report was a difficult task for the team.","ko":"보고서를 끝내는 것은 팀에게 어려운 과제였다."},{"en":"She completed every task on her to-do list.","ko":"그녀는 할 일 목록의 모든 과제를 완료했다."}],"theme":"일상"},
- {"id":2649,"word":"taste","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["맛"]},{"pos":"동사","ko":["맛보다"]}],"examples":[{"en":"This soup has a great taste.","ko":"이 수프는 맛이 훌륭하다."},{"en":"Can I taste your ice cream?","ko":"네 아이스크림을 맛봐도 될까?"}],"theme":"음식"},
- {"id":2650,"word":"tax","pos":["명사"],"meanings":[{"pos":"명사","ko":["세금"]}],"examples":[{"en":"We pay tax on the things we buy.","ko":"우리는 물건을 살 때 세금을 낸다."},{"en":"The government raised the tax on cigarettes.","ko":"정부는 담배에 대한 세금을 인상했다."}],"theme":"사회"}
+ {
+  "id": 2600,
+  "word": "superior",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "우수한",
+     "우월한"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "상사",
+     "윗사람"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This laptop has superior battery life compared to others.",
+    "ko": "이 노트북은 다른 것들에 비해 배터리 성능이 우수하다."
+   },
+   {
+    "en": "She always respects her superior at work.",
+    "ko": "그녀는 직장에서 항상 상사를 존중한다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 2601,
+  "word": "supervise",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "감독하다",
+     "관리하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The manager supervises ten employees at the store.",
+    "ko": "그 매니저는 매장에서 직원 열 명을 감독한다."
+   },
+   {
+    "en": "A lifeguard must supervise the pool at all times.",
+    "ko": "안전요원은 항상 수영장을 감독해야 한다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 2602,
+  "word": "supper",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "저녁 식사"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We usually have supper at seven o'clock.",
+    "ko": "우리는 보통 7시에 저녁을 먹는다."
+   },
+   {
+    "en": "My grandmother cooked a warm supper for us.",
+    "ko": "할머니께서 우리를 위해 따뜻한 저녁 식사를 요리하셨다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2603,
+  "word": "supplement",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "보충제",
+     "보완물"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "보충하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My mom takes a vitamin supplement every morning.",
+    "ko": "우리 엄마는 매일 아침 비타민 보충제를 드신다."
+   },
+   {
+    "en": "You can supplement your income by working part-time.",
+    "ko": "너는 아르바이트를 해서 수입을 보충할 수 있다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2604,
+  "word": "supply",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "공급",
+     "보급품"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "공급하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The store has a large supply of winter clothes.",
+    "ko": "그 가게는 겨울옷 공급량이 많다."
+   },
+   {
+    "en": "Farmers supply fresh vegetables to the market.",
+    "ko": "농부들은 시장에 신선한 채소를 공급한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2605,
+  "word": "support",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "지원",
+     "지지"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "지지하다",
+     "지원하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My parents always support my dreams.",
+    "ko": "부모님은 항상 내 꿈을 지지해 주신다."
+   },
+   {
+    "en": "The charity gives support to homeless people.",
+    "ko": "그 자선 단체는 노숙자들에게 지원을 제공한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2606,
+  "word": "suppose",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "추측하다",
+     "생각하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I suppose it will rain tomorrow.",
+    "ko": "나는 내일 비가 올 것이라고 생각한다."
+   },
+   {
+    "en": "Let's suppose the story is true for a moment.",
+    "ko": "잠시 그 이야기가 사실이라고 가정해 보자."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2607,
+  "word": "sure",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "확신하는",
+     "확실한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I’m (not) sure.",
+    "ko": "나는 잘 모르겠어(확신이 없어)."
+   },
+   {
+    "en": "Are you sure about the answer?",
+    "ko": "너는 그 답이 확실해?"
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2608,
+  "word": "surface",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "표면"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The surface of the lake was very calm.",
+    "ko": "호수의 표면은 매우 잔잔했다."
+   },
+   {
+    "en": "Water covers most of the earth's surface.",
+    "ko": "물은 지구 표면의 대부분을 덮고 있다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2609,
+  "word": "surgery",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "수술"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The doctor performed surgery on the patient's knee.",
+    "ko": "의사는 환자의 무릎을 수술했다."
+   },
+   {
+    "en": "She needs surgery to fix her broken arm.",
+    "ko": "그녀는 부러진 팔을 고치기 위해 수술이 필요하다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2610,
+  "word": "surprise",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "놀람",
+     "깜짝 놀랄 일"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "놀라게 하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "What a surprise!",
+    "ko": "정말 놀랍다!"
+   },
+   {
+    "en": "They planned a surprise party for her birthday.",
+    "ko": "그들은 그녀의 생일을 위해 깜짝 파티를 계획했다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2611,
+  "word": "surrender",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "항복하다",
+     "포기하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "항복"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The enemy soldiers finally decided to surrender.",
+    "ko": "적군 병사들은 마침내 항복하기로 결정했다."
+   },
+   {
+    "en": "The general refused to accept the surrender.",
+    "ko": "그 장군은 항복을 받아들이기를 거부했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2612,
+  "word": "surround",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "둘러싸다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Tall mountains surround the small village.",
+    "ko": "높은 산들이 그 작은 마을을 둘러싸고 있다."
+   },
+   {
+    "en": "Fans surrounded the singer after the concert.",
+    "ko": "팬들은 콘서트가 끝난 후 그 가수를 둘러쌌다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2613,
+  "word": "survey",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "설문 조사"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "조사하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We conducted a survey about students' favorite subjects.",
+    "ko": "우리는 학생들이 가장 좋아하는 과목에 대해 설문 조사를 했다."
+   },
+   {
+    "en": "The company surveyed customers about the new product.",
+    "ko": "그 회사는 새 제품에 대해 고객들을 조사했다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2614,
+  "word": "survive",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "살아남다",
+     "생존하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Some animals cannot survive in the desert.",
+    "ko": "일부 동물은 사막에서 살아남을 수 없다."
+   },
+   {
+    "en": "She survived the difficult surgery last week.",
+    "ko": "그녀는 지난주 힘든 수술에서 살아남았다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2615,
+  "word": "suspect",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "의심하다",
+     "짐작하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "용의자"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I suspect he is telling the truth.",
+    "ko": "나는 그가 진실을 말하고 있다고 생각한다."
+   },
+   {
+    "en": "Police arrested the suspect near the bank.",
+    "ko": "경찰은 은행 근처에서 용의자를 체포했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2616,
+  "word": "suspend",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "매달다",
+     "정지시키다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The school decided to suspend the student for a week.",
+    "ko": "학교는 그 학생을 일주일 동안 정학시키기로 결정했다."
+   },
+   {
+    "en": "A lamp was suspended from the ceiling of the hall.",
+    "ko": "램프 하나가 홀 천장에 매달려 있었다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2617,
+  "word": "sustain",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "지속시키다",
+     "유지하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Regular exercise helps sustain a healthy body.",
+    "ko": "규칙적인 운동은 건강한 몸을 유지하는 데 도움이 된다."
+   },
+   {
+    "en": "The company struggled to sustain its growth this year.",
+    "ko": "그 회사는 올해 성장을 유지하는 데 어려움을 겪었다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2618,
+  "word": "swallow",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "삼키다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "제비"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "You should chew your food before you swallow it.",
+    "ko": "음식을 삼키기 전에 잘 씹어야 한다."
+   },
+   {
+    "en": "A swallow flew quickly across the blue sky.",
+    "ko": "제비 한 마리가 파란 하늘을 가로질러 빠르게 날았다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 2619,
+  "word": "swear",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "맹세하다",
+     "욕하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I swear I will never tell your secret.",
+    "ko": "나는 네 비밀을 절대 말하지 않겠다고 맹세한다."
+   },
+   {
+    "en": "He tends to swear when he gets angry.",
+    "ko": "그는 화가 나면 욕을 하는 경향이 있다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2620,
+  "word": "sweat",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "땀"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "땀을 흘리다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Sweat dripped down his face during the race.",
+    "ko": "경주하는 동안 그의 얼굴에서 땀이 흘러내렸다."
+   },
+   {
+    "en": "I sweat a lot when I exercise in summer.",
+    "ko": "나는 여름에 운동하면 땀을 많이 흘린다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2621,
+  "word": "sweater",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "스웨터"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She wore a warm sweater in winter.",
+    "ko": "그녀는 겨울에 따뜻한 스웨터를 입었다."
+   },
+   {
+    "en": "My grandmother knitted a blue sweater for me.",
+    "ko": "할머니는 나에게 파란 스웨터를 짜 주셨다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2622,
+  "word": "sweep",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "쓸다",
+     "청소하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please sweep the kitchen floor after dinner.",
+    "ko": "저녁 식사 후에 부엌 바닥을 쓸어줘."
+   },
+   {
+    "en": "He sweeps the yard every Saturday morning.",
+    "ko": "그는 매주 토요일 아침에 마당을 쓴다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2623,
+  "word": "sweet",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "달콤한",
+     "다정한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This cake tastes very sweet.",
+    "ko": "이 케이크는 아주 달콤한 맛이 난다."
+   },
+   {
+    "en": "She has a sweet smile.",
+    "ko": "그녀는 다정한 미소를 가지고 있다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2624,
+  "word": "swell",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "붓다",
+     "부풀다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Her ankle began to swell after the fall.",
+    "ko": "그녀의 발목은 넘어진 후 붓기 시작했다."
+   },
+   {
+    "en": "The crowd continued to swell as the concert began.",
+    "ko": "콘서트가 시작되면서 군중이 계속 불어났다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2625,
+  "word": "swift",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "빠른",
+     "신속한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The runner made a swift move to win the race.",
+    "ko": "그 주자는 경주에서 이기기 위해 빠른 움직임을 보였다."
+   },
+   {
+    "en": "The team gave a swift response to the problem.",
+    "ko": "그 팀은 문제에 신속하게 대응했다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2626,
+  "word": "swim",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "수영하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I always go swimming on Tuesdays.",
+    "ko": "나는 항상 화요일마다 수영하러 간다."
+   },
+   {
+    "en": "I can swim well.",
+    "ko": "나는 수영을 잘할 수 있다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2627,
+  "word": "swing",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "그네"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "흔들다",
+     "흔들리다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The children played on the swing in the park.",
+    "ko": "아이들은 공원에서 그네를 타고 놀았다."
+   },
+   {
+    "en": "The door began to swing open in the wind.",
+    "ko": "문이 바람에 흔들리며 열리기 시작했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2628,
+  "word": "switch",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "스위치"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "바꾸다",
+     "전환하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He turned on the light switch in the dark room.",
+    "ko": "그는 어두운 방에서 전등 스위치를 켰다."
+   },
+   {
+    "en": "We decided to switch seats during the movie.",
+    "ko": "우리는 영화를 보는 동안 자리를 바꾸기로 했다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2629,
+  "word": "symbol",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "상징",
+     "기호"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "A dove is often used as a symbol of peace.",
+    "ko": "비둘기는 종종 평화의 상징으로 사용된다."
+   },
+   {
+    "en": "The heart shape is a common symbol of love.",
+    "ko": "하트 모양은 사랑을 나타내는 흔한 상징이다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2630,
+  "word": "sympathy",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "동정",
+     "공감"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She showed great sympathy for the injured dog.",
+    "ko": "그녀는 다친 개에게 큰 연민을 보였다."
+   },
+   {
+    "en": "He wrote a card to express his sympathy.",
+    "ko": "그는 위로의 마음을 전하기 위해 카드를 썼다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2631,
+  "word": "symphony",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "교향곡"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The orchestra performed a beautiful symphony last night.",
+    "ko": "오케스트라는 지난밤 아름다운 교향곡을 연주했다."
+   },
+   {
+    "en": "Beethoven wrote many famous symphonies during his life.",
+    "ko": "베토벤은 생애 동안 많은 유명한 교향곡을 작곡했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2632,
+  "word": "symptom",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "증상"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "A high fever is a common symptom of the flu.",
+    "ko": "고열은 독감의 흔한 증상이다."
+   },
+   {
+    "en": "The doctor asked about her symptoms during the visit.",
+    "ko": "의사는 진료 중에 그녀의 증상에 대해 물었다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2633,
+  "word": "system",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "체계",
+     "시스템"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Our school has a new grading system.",
+    "ko": "우리 학교는 새로운 성적 시스템을 가지고 있다."
+   },
+   {
+    "en": "The computer system crashed during the test.",
+    "ko": "시험 중에 컴퓨터 시스템이 다운되었다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2634,
+  "word": "table",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "탁자",
+     "표"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The book is on the table.",
+    "ko": "책이 탁자 위에 있다."
+   },
+   {
+    "en": "We ate dinner at the table.",
+    "ko": "우리는 탁자에서 저녁을 먹었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2635,
+  "word": "tackle",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "다루다",
+     "맞붙다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "태클"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We need to tackle this problem right away.",
+    "ko": "우리는 이 문제를 즉시 해결해야 한다."
+   },
+   {
+    "en": "The player made a strong tackle during the match.",
+    "ko": "그 선수는 경기 중에 강한 태클을 했다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2636,
+  "word": "tag",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "꼬리표"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "표시를 붙이다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Check the price tag before you buy the shirt.",
+    "ko": "셔츠를 사기 전에 가격표를 확인해라."
+   },
+   {
+    "en": "The kids played a fun game of tag at recess.",
+    "ko": "아이들은 쉬는 시간에 재미있는 술래잡기 놀이를 했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2637,
+  "word": "tail",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "꼬리"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The dog wagged its tail.",
+    "ko": "그 개는 꼬리를 흔들었다."
+   },
+   {
+    "en": "The cat has a long tail.",
+    "ko": "그 고양이는 꼬리가 길다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 2638,
+  "word": "take",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "가지고 가다",
+     "취하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Take care.",
+    "ko": "몸조심해."
+   },
+   {
+    "en": "I take the bus to school.",
+    "ko": "나는 버스를 타고 학교에 간다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2639,
+  "word": "tale",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "이야기",
+     "설화"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My grandmother told us an old folk tale.",
+    "ko": "할머니는 우리에게 옛날이야기를 들려주셨다."
+   },
+   {
+    "en": "The book is a collection of fairy tales.",
+    "ko": "그 책은 동화 모음집이다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2640,
+  "word": "talent",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "재능"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She has a real talent for painting.",
+    "ko": "그녀는 그림에 진짜 재능이 있다."
+   },
+   {
+    "en": "The show helps young singers show their talent.",
+    "ko": "그 프로그램은 젊은 가수들이 재능을 보여주도록 돕는다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2641,
+  "word": "talk",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "말하다",
+     "이야기하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "대화"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I am going to talk about.",
+    "ko": "나는 그것에 대해 이야기할 것이다."
+   },
+   {
+    "en": "Let's talk after class.",
+    "ko": "수업 끝나고 이야기하자."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2642,
+  "word": "tall",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "키가 큰"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Tom is tall and slim.",
+    "ko": "톰은 키가 크고 날씬하다."
+   },
+   {
+    "en": "My brother is very tall.",
+    "ko": "내 오빠는 키가 매우 크다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2643,
+  "word": "tank",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "탱크",
+     "수조"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The fish swim happily in the tank.",
+    "ko": "물고기들은 수조 안에서 행복하게 헤엄친다."
+   },
+   {
+    "en": "Soldiers drove the tank across the field.",
+    "ko": "군인들은 들판을 가로질러 탱크를 몰았다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2644,
+  "word": "tap",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "수도꼭지"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "가볍게 두드리다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She turned off the tap after washing her hands.",
+    "ko": "그녀는 손을 씻은 후 수도꼭지를 잠갔다."
+   },
+   {
+    "en": "He tapped me on the shoulder to say hello.",
+    "ko": "그는 인사하려고 내 어깨를 가볍게 두드렸다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2645,
+  "word": "tape",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "테이프"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I used tape to fix the box.",
+    "ko": "나는 상자를 고치려고 테이프를 사용했다."
+   },
+   {
+    "en": "She stuck the poster with tape.",
+    "ko": "그녀는 테이프로 포스터를 붙였다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2646,
+  "word": "target",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "목표",
+     "과녁"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "목표로 삼다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The arrow hit the center of the target.",
+    "ko": "화살이 과녁의 정중앙에 맞았다."
+   },
+   {
+    "en": "Our target is to save more money this year.",
+    "ko": "우리의 목표는 올해 돈을 더 모으는 것이다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2647,
+  "word": "task",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "과제",
+     "임무"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Finishing the report was a difficult task for the team.",
+    "ko": "보고서를 끝내는 것은 팀에게 어려운 과제였다."
+   },
+   {
+    "en": "She completed every task on her to-do list.",
+    "ko": "그녀는 할 일 목록의 모든 과제를 완료했다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2648,
+  "word": "taste",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "맛"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "맛보다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This soup has a great taste.",
+    "ko": "이 수프는 맛이 훌륭하다."
+   },
+   {
+    "en": "Can I taste your ice cream?",
+    "ko": "네 아이스크림을 맛봐도 될까?"
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2649,
+  "word": "tax",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "세금"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We pay tax on the things we buy.",
+    "ko": "우리는 물건을 살 때 세금을 낸다."
+   },
+   {
+    "en": "The government raised the tax on cigarettes.",
+    "ko": "정부는 담배에 대한 세금을 인상했다."
+   }
+  ],
+  "theme": "사회"
+ }
 ]

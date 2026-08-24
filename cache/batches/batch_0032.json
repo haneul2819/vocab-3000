@@ -2,598 +2,1436 @@
  {
   "id": 1551,
   "word": "left",
-  "pos": ["명사", "부사"],
+  "pos": [
+   "명사",
+   "부사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["왼쪽"]},
-   {"pos": "부사", "ko": ["왼쪽으로"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "왼쪽"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "왼쪽으로"
+    ]
+   }
   ],
   "examples": [
-   {"en": "The museum is on the left.", "ko": "박물관은 왼쪽에 있다."},
-   {"en": "Turn left at the corner.", "ko": "모퉁이에서 왼쪽으로 돌아라."}
+   {
+    "en": "The museum is on the left.",
+    "ko": "박물관은 왼쪽에 있다."
+   },
+   {
+    "en": "Turn left at the corner.",
+    "ko": "모퉁이에서 왼쪽으로 돌아라."
+   }
   ],
   "theme": "장소"
  },
  {
   "id": 1552,
   "word": "leg",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["다리"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "다리"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "I hurt my leg.", "ko": "나는 다리를 다쳤다."},
-   {"en": "The table has four legs.", "ko": "그 탁자는 다리가 네 개이다."}
+   {
+    "en": "I hurt my leg.",
+    "ko": "나는 다리를 다쳤다."
+   },
+   {
+    "en": "The table has four legs.",
+    "ko": "그 탁자는 다리가 네 개이다."
+   }
   ],
   "theme": "신체"
  },
  {
   "id": 1553,
   "word": "legal",
-  "pos": ["형용사"],
-  "meanings": [{"pos": "형용사", "ko": ["법적인", "합법적인"]}],
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "법적인",
+     "합법적인"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "It is not legal to drive without a license.", "ko": "면허 없이 운전하는 것은 합법이 아니다."},
-   {"en": "The company took legal action against them.", "ko": "그 회사는 그들을 상대로 법적 조치를 취했다."}
+   {
+    "en": "It is not legal to drive without a license.",
+    "ko": "면허 없이 운전하는 것은 합법이 아니다."
+   },
+   {
+    "en": "The company took legal action against them.",
+    "ko": "그 회사는 그들을 상대로 법적 조치를 취했다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 1554,
   "word": "legend",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["전설"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "전설"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "According to legend, a dragon once lived here.", "ko": "전설에 따르면 옛날에 이곳에 용이 살았다고 한다."},
-   {"en": "He grew up hearing local legends and myths.", "ko": "그는 지역 전설과 신화를 들으며 자랐다."}
+   {
+    "en": "According to legend, a dragon once lived here.",
+    "ko": "전설에 따르면 옛날에 이곳에 용이 살았다고 한다."
+   },
+   {
+    "en": "He grew up hearing local legends and myths.",
+    "ko": "그는 지역 전설과 신화를 들으며 자랐다."
+   }
   ],
   "theme": "소통"
  },
  {
   "id": 1555,
   "word": "legislate",
-  "pos": ["동사"],
-  "meanings": [{"pos": "동사", "ko": ["법률을 제정하다"]}],
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "법률을 제정하다"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The government plans to legislate against pollution.", "ko": "정부는 오염을 막기 위한 법을 제정할 계획이다."},
-   {"en": "Lawmakers legislated new rules for online safety.", "ko": "국회의원들은 온라인 안전을 위한 새 규정을 제정했다."}
+   {
+    "en": "The government plans to legislate against pollution.",
+    "ko": "정부는 오염을 막기 위한 법을 제정할 계획이다."
+   },
+   {
+    "en": "Lawmakers legislated new rules for online safety.",
+    "ko": "국회의원들은 온라인 안전을 위한 새 규정을 제정했다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 1556,
   "word": "legitimate",
-  "pos": ["형용사"],
-  "meanings": [{"pos": "형용사", "ko": ["합법적인", "정당한"]}],
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "합법적인",
+     "정당한"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "She has a legitimate reason to be late.", "ko": "그녀는 늦을 만한 정당한 이유가 있다."},
-   {"en": "The court ruled that the claim was legitimate.", "ko": "법원은 그 주장이 정당하다고 판결했다."}
+   {
+    "en": "She has a legitimate reason to be late.",
+    "ko": "그녀는 늦을 만한 정당한 이유가 있다."
+   },
+   {
+    "en": "The court ruled that the claim was legitimate.",
+    "ko": "법원은 그 주장이 정당하다고 판결했다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 1557,
   "word": "leisure",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["여가"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "여가"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "He spends his leisure time playing guitar.", "ko": "그는 여가 시간을 기타를 치며 보낸다."},
-   {"en": "Leisure activities help reduce stress.", "ko": "여가 활동은 스트레스를 줄이는 데 도움이 된다."}
+   {
+    "en": "He spends his leisure time playing guitar.",
+    "ko": "그는 여가 시간을 기타를 치며 보낸다."
+   },
+   {
+    "en": "Leisure activities help reduce stress.",
+    "ko": "여가 활동은 스트레스를 줄이는 데 도움이 된다."
+   }
   ],
   "theme": "여가"
  },
  {
   "id": 1558,
   "word": "lemon",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["레몬"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "레몬"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "She squeezed a lemon into her tea.", "ko": "그녀는 차에 레몬을 짜 넣었다."},
-   {"en": "This drink tastes like fresh lemons.", "ko": "이 음료는 신선한 레몬 맛이 난다."}
+   {
+    "en": "She squeezed a lemon into her tea.",
+    "ko": "그녀는 차에 레몬을 짜 넣었다."
+   },
+   {
+    "en": "This drink tastes like fresh lemons.",
+    "ko": "이 음료는 신선한 레몬 맛이 난다."
+   }
   ],
   "theme": "음식"
  },
  {
   "id": 1559,
   "word": "lend",
-  "pos": ["동사"],
-  "meanings": [{"pos": "동사", "ko": ["빌려주다"]}],
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "빌려주다"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Can you lend me your pen?", "ko": "네 펜 좀 빌려줄 수 있니?"},
-   {"en": "The bank lends money to small businesses.", "ko": "그 은행은 소규모 사업체에 돈을 빌려준다."}
+   {
+    "en": "Can you lend me your pen?",
+    "ko": "네 펜 좀 빌려줄 수 있니?"
+   },
+   {
+    "en": "The bank lends money to small businesses.",
+    "ko": "그 은행은 소규모 사업체에 돈을 빌려준다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 1560,
   "word": "lesson",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["수업", "교훈"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "수업",
+     "교훈"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "We had a music lesson.", "ko": "우리는 음악 수업을 들었다."},
-   {"en": "The lesson starts at nine.", "ko": "수업은 9시에 시작한다."}
+   {
+    "en": "We had a music lesson.",
+    "ko": "우리는 음악 수업을 들었다."
+   },
+   {
+    "en": "The lesson starts at nine.",
+    "ko": "수업은 9시에 시작한다."
+   }
   ],
   "theme": "학교"
  },
  {
   "id": 1561,
   "word": "let",
-  "pos": ["동사"],
-  "meanings": [{"pos": "동사", "ko": ["~하게 하다", "허락하다"]}],
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "~하게 하다",
+     "허락하다"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Let me help you.", "ko": "내가 도와줄게."},
-   {"en": "My parents let me go to the party.", "ko": "부모님은 내가 파티에 가는 것을 허락하셨다."}
+   {
+    "en": "Let me help you.",
+    "ko": "내가 도와줄게."
+   },
+   {
+    "en": "My parents let me go to the party.",
+    "ko": "부모님은 내가 파티에 가는 것을 허락하셨다."
+   }
   ],
   "theme": "행동"
  },
  {
   "id": 1562,
   "word": "letter",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["편지", "글자"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "편지",
+     "글자"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "I wrote her a letter.", "ko": "나는 그녀에게 편지를 썼다."},
-   {"en": "She sent me a letter.", "ko": "그녀는 나에게 편지를 보냈다."}
+   {
+    "en": "I wrote her a letter.",
+    "ko": "나는 그녀에게 편지를 썼다."
+   },
+   {
+    "en": "She sent me a letter.",
+    "ko": "그녀는 나에게 편지를 보냈다."
+   }
   ],
   "theme": "소통"
  },
  {
   "id": 1563,
   "word": "level",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["수준", "단계"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "수준",
+     "단계"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "His English level is quite high.", "ko": "그의 영어 수준은 꽤 높다."},
-   {"en": "The water level rose after the rain.", "ko": "비가 온 후 수위가 올라갔다."}
+   {
+    "en": "His English level is quite high.",
+    "ko": "그의 영어 수준은 꽤 높다."
+   },
+   {
+    "en": "The water level rose after the rain.",
+    "ko": "비가 온 후 수위가 올라갔다."
+   }
   ],
   "theme": "추상"
  },
  {
   "id": 1564,
   "word": "liberal",
-  "pos": ["형용사"],
-  "meanings": [{"pos": "형용사", "ko": ["자유주의의", "관대한"]}],
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "자유주의의",
+     "관대한"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The professor has fairly liberal views on education.", "ko": "그 교수는 교육에 대해 꽤 진보적인 견해를 가지고 있다."},
-   {"en": "She grew up in a liberal family.", "ko": "그녀는 자유로운 가정에서 자랐다."}
+   {
+    "en": "The professor has fairly liberal views on education.",
+    "ko": "그 교수는 교육에 대해 꽤 진보적인 견해를 가지고 있다."
+   },
+   {
+    "en": "She grew up in a liberal family.",
+    "ko": "그녀는 자유로운 가정에서 자랐다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 1565,
   "word": "liberty",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["자유"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "자유"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The statue represents liberty and freedom.", "ko": "그 동상은 자유를 상징한다."},
-   {"en": "People fought hard for their liberty.", "ko": "사람들은 자유를 위해 열심히 싸웠다."}
+   {
+    "en": "The statue represents liberty and freedom.",
+    "ko": "그 동상은 자유를 상징한다."
+   },
+   {
+    "en": "People fought hard for their liberty.",
+    "ko": "사람들은 자유를 위해 열심히 싸웠다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 1566,
   "word": "library",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["도서관"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "도서관"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "I go to the library.", "ko": "나는 도서관에 간다."},
-   {"en": "The library is very quiet.", "ko": "그 도서관은 매우 조용하다."}
+   {
+    "en": "I go to the library.",
+    "ko": "나는 도서관에 간다."
+   },
+   {
+    "en": "The library is very quiet.",
+    "ko": "그 도서관은 매우 조용하다."
+   }
   ],
   "theme": "장소"
  },
  {
   "id": 1567,
   "word": "license",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["면허", "자격증"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "면허",
+     "자격증"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "He got his driver's license last week.", "ko": "그는 지난주에 운전면허를 땄다."},
-   {"en": "You need a license to fish here.", "ko": "여기서 낚시하려면 면허가 필요하다."}
+   {
+    "en": "He got his driver's license last week.",
+    "ko": "그는 지난주에 운전면허를 땄다."
+   },
+   {
+    "en": "You need a license to fish here.",
+    "ko": "여기서 낚시하려면 면허가 필요하다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 1568,
   "word": "lid",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["뚜껑"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "뚜껑"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Put the lid back on the jar.", "ko": "병에 뚜껑을 다시 덮어라."},
-   {"en": "The pot lid was too hot to touch.", "ko": "냄비 뚜껑이 너무 뜨거워서 만질 수 없었다."}
+   {
+    "en": "Put the lid back on the jar.",
+    "ko": "병에 뚜껑을 다시 덮어라."
+   },
+   {
+    "en": "The pot lid was too hot to touch.",
+    "ko": "냄비 뚜껑이 너무 뜨거워서 만질 수 없었다."
+   }
   ],
   "theme": "사물"
  },
  {
   "id": 1569,
   "word": "lie",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["거짓말하다"]},
-   {"pos": "명사", "ko": ["거짓말"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "거짓말하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "거짓말"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Don't tell a lie.", "ko": "거짓말하지 마라."},
-   {"en": "I never lie to my friends.", "ko": "나는 친구들에게 절대 거짓말하지 않는다."}
+   {
+    "en": "Don't tell a lie.",
+    "ko": "거짓말하지 마라."
+   },
+   {
+    "en": "I never lie to my friends.",
+    "ko": "나는 친구들에게 절대 거짓말하지 않는다."
+   }
   ],
   "theme": "소통"
  },
  {
   "id": 1570,
   "word": "life",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["삶", "생명"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "삶",
+     "생명"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "I love my life.", "ko": "나는 내 삶을 사랑한다."},
-   {"en": "Life is full of surprises.", "ko": "삶은 놀라움으로 가득하다."}
+   {
+    "en": "I love my life.",
+    "ko": "나는 내 삶을 사랑한다."
+   },
+   {
+    "en": "Life is full of surprises.",
+    "ko": "삶은 놀라움으로 가득하다."
+   }
   ],
   "theme": "추상"
  },
  {
   "id": 1571,
   "word": "lift",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["들어올리다"]},
-   {"pos": "명사", "ko": ["엘리베이터"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "들어올리다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "엘리베이터"
+    ]
+   }
   ],
   "examples": [
-   {"en": "He lifted the heavy box easily.", "ko": "그는 무거운 상자를 쉽게 들어올렸다."},
-   {"en": "Can you lift this chair for me?", "ko": "이 의자 좀 들어줄 수 있니?"}
+   {
+    "en": "He lifted the heavy box easily.",
+    "ko": "그는 무거운 상자를 쉽게 들어올렸다."
+   },
+   {
+    "en": "Can you lift this chair for me?",
+    "ko": "이 의자 좀 들어줄 수 있니?"
+   }
   ],
   "theme": "행동"
  },
  {
   "id": 1572,
   "word": "light",
-  "pos": ["명사", "형용사"],
+  "pos": [
+   "명사",
+   "형용사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["빛", "전등"]},
-   {"pos": "형용사", "ko": ["밝은", "가벼운"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "빛",
+     "전등"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "밝은",
+     "가벼운"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Turn on the light.", "ko": "불을 켜라."},
-   {"en": "The room is very light.", "ko": "그 방은 매우 밝다."}
+   {
+    "en": "Turn on the light.",
+    "ko": "불을 켜라."
+   },
+   {
+    "en": "The room is very light.",
+    "ko": "그 방은 매우 밝다."
+   }
   ],
   "theme": "사물"
  },
  {
   "id": 1573,
   "word": "like",
-  "pos": ["동사", "전치사"],
+  "pos": [
+   "동사",
+   "전치사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["좋아하다"]},
-   {"pos": "전치사", "ko": ["~처럼", "~같이"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "좋아하다"
+    ]
+   },
+   {
+    "pos": "전치사",
+    "ko": [
+     "~처럼",
+     "~같이"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Do you like dancing?", "ko": "너는 춤추는 것을 좋아하니?"},
-   {"en": "I like pizza very much.", "ko": "나는 피자를 아주 좋아한다."}
+   {
+    "en": "Do you like dancing?",
+    "ko": "너는 춤추는 것을 좋아하니?"
+   },
+   {
+    "en": "I like pizza very much.",
+    "ko": "나는 피자를 아주 좋아한다."
+   }
   ],
   "theme": "감정"
  },
  {
   "id": 1574,
   "word": "likewise",
-  "pos": ["부사"],
-  "meanings": [{"pos": "부사", "ko": ["마찬가지로"]}],
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "마찬가지로"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "She studied hard, and her brother did likewise.", "ko": "그녀는 열심히 공부했고, 그녀의 남동생도 마찬가지였다."},
-   {"en": "If you help me, I will likewise help you.", "ko": "네가 나를 도와주면, 나도 마찬가지로 너를 도울 것이다."}
+   {
+    "en": "She studied hard, and her brother did likewise.",
+    "ko": "그녀는 열심히 공부했고, 그녀의 남동생도 마찬가지였다."
+   },
+   {
+    "en": "If you help me, I will likewise help you.",
+    "ko": "네가 나를 도와주면, 나도 마찬가지로 너를 도울 것이다."
+   }
   ],
   "theme": "추상"
  },
  {
   "id": 1575,
   "word": "limit",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["한계", "제한"]},
-   {"pos": "동사", "ko": ["제한하다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "한계",
+     "제한"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "제한하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "There is a speed limit on this road.", "ko": "이 도로에는 속도 제한이 있다."},
-   {"en": "Please limit your screen time.", "ko": "화면 보는 시간을 제한해라."}
+   {
+    "en": "There is a speed limit on this road.",
+    "ko": "이 도로에는 속도 제한이 있다."
+   },
+   {
+    "en": "Please limit your screen time.",
+    "ko": "화면 보는 시간을 제한해라."
+   }
   ],
   "theme": "추상"
  },
  {
   "id": 1576,
   "word": "line",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["줄", "선"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "줄",
+     "선"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Draw a straight line.", "ko": "직선을 하나 그어라."},
-   {"en": "Stand in a single line.", "ko": "한 줄로 서라."}
+   {
+    "en": "Draw a straight line.",
+    "ko": "직선을 하나 그어라."
+   },
+   {
+    "en": "Stand in a single line.",
+    "ko": "한 줄로 서라."
+   }
   ],
   "theme": "사물"
  },
  {
   "id": 1577,
   "word": "linguistic",
-  "pos": ["형용사"],
-  "meanings": [{"pos": "형용사", "ko": ["언어학의"]}],
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "언어학의"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "She studies the linguistic patterns of children's speech.", "ko": "그녀는 아이들 말의 언어학적 패턴을 연구한다."},
-   {"en": "Korea has a rich linguistic history.", "ko": "한국은 풍부한 언어학적 역사를 가지고 있다."}
+   {
+    "en": "She studies the linguistic patterns of children's speech.",
+    "ko": "그녀는 아이들 말의 언어학적 패턴을 연구한다."
+   },
+   {
+    "en": "Korea has a rich linguistic history.",
+    "ko": "한국은 풍부한 언어학적 역사를 가지고 있다."
+   }
   ],
   "theme": "소통"
  },
  {
   "id": 1578,
   "word": "link",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["연결", "링크"]},
-   {"pos": "동사", "ko": ["연결하다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "연결",
+     "링크"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "연결하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Click the link to see the video.", "ko": "동영상을 보려면 링크를 클릭해라."},
-   {"en": "Exercise and health are closely linked.", "ko": "운동과 건강은 밀접하게 연결되어 있다."}
+   {
+    "en": "Click the link to see the video.",
+    "ko": "동영상을 보려면 링크를 클릭해라."
+   },
+   {
+    "en": "Exercise and health are closely linked.",
+    "ko": "운동과 건강은 밀접하게 연결되어 있다."
+   }
   ],
   "theme": "사물"
  },
  {
   "id": 1579,
   "word": "lion",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["사자"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "사자"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The lion is very strong.", "ko": "사자는 매우 힘이 세다."},
-   {"en": "We saw a lion today.", "ko": "우리는 오늘 사자를 보았다."}
+   {
+    "en": "The lion is very strong.",
+    "ko": "사자는 매우 힘이 세다."
+   },
+   {
+    "en": "We saw a lion today.",
+    "ko": "우리는 오늘 사자를 보았다."
+   }
   ],
   "theme": "동물"
  },
  {
   "id": 1580,
   "word": "lip",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["입술"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "입술"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "She has red lips.", "ko": "그녀는 빨간 입술을 가지고 있다."},
-   {"en": "He bit his lip nervously.", "ko": "그는 초조하게 입술을 깨물었다."}
+   {
+    "en": "She has red lips.",
+    "ko": "그녀는 빨간 입술을 가지고 있다."
+   },
+   {
+    "en": "He bit his lip nervously.",
+    "ko": "그는 초조하게 입술을 깨물었다."
+   }
   ],
   "theme": "신체"
  },
  {
   "id": 1581,
   "word": "liquid",
-  "pos": ["명사", "형용사"],
+  "pos": [
+   "명사",
+   "형용사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["액체"]},
-   {"pos": "형용사", "ko": ["액체의"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "액체"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "액체의"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Water is a liquid at room temperature.", "ko": "물은 상온에서 액체이다."},
-   {"en": "The medicine comes in liquid form.", "ko": "그 약은 액체 형태로 나온다."}
+   {
+    "en": "Water is a liquid at room temperature.",
+    "ko": "물은 상온에서 액체이다."
+   },
+   {
+    "en": "The medicine comes in liquid form.",
+    "ko": "그 약은 액체 형태로 나온다."
+   }
   ],
   "theme": "과학"
  },
  {
   "id": 1582,
   "word": "list",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["목록"]},
-   {"pos": "동사", "ko": ["목록을 작성하다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "목록"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "목록을 작성하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "I made a shopping list.", "ko": "나는 쇼핑 목록을 만들었다."},
-   {"en": "Please list your favorite books.", "ko": "가장 좋아하는 책들을 목록으로 적어라."}
+   {
+    "en": "I made a shopping list.",
+    "ko": "나는 쇼핑 목록을 만들었다."
+   },
+   {
+    "en": "Please list your favorite books.",
+    "ko": "가장 좋아하는 책들을 목록으로 적어라."
+   }
   ],
   "theme": "일상"
  },
  {
   "id": 1583,
   "word": "listen",
-  "pos": ["동사"],
-  "meanings": [{"pos": "동사", "ko": ["듣다"]}],
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "듣다"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Thanks for listening.", "ko": "들어줘서 고마워."},
-   {"en": "I listen to music every day.", "ko": "나는 매일 음악을 듣는다."}
+   {
+    "en": "Thanks for listening.",
+    "ko": "들어줘서 고마워."
+   },
+   {
+    "en": "I listen to music every day.",
+    "ko": "나는 매일 음악을 듣는다."
+   }
   ],
   "theme": "소통"
  },
  {
   "id": 1584,
   "word": "literature",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["문학"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "문학"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "She majored in English literature at college.", "ko": "그녀는 대학에서 영문학을 전공했다."},
-   {"en": "Classic literature teaches us about life.", "ko": "고전 문학은 우리에게 인생에 대해 가르쳐 준다."}
+   {
+    "en": "She majored in English literature at college.",
+    "ko": "그녀는 대학에서 영문학을 전공했다."
+   },
+   {
+    "en": "Classic literature teaches us about life.",
+    "ko": "고전 문학은 우리에게 인생에 대해 가르쳐 준다."
+   }
   ],
   "theme": "학교"
  },
  {
   "id": 1585,
   "word": "little",
-  "pos": ["형용사", "부사"],
+  "pos": [
+   "형용사",
+   "부사"
+  ],
   "meanings": [
-   {"pos": "형용사", "ko": ["작은"]},
-   {"pos": "부사", "ko": ["조금"]}
+   {
+    "pos": "형용사",
+    "ko": [
+     "작은"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "조금"
+    ]
+   }
   ],
   "examples": [
-   {"en": "It's a little house.", "ko": "그것은 작은 집이다."},
-   {"en": "I have a little money.", "ko": "나는 돈이 조금 있다."}
+   {
+    "en": "It's a little house.",
+    "ko": "그것은 작은 집이다."
+   },
+   {
+    "en": "I have a little money.",
+    "ko": "나는 돈이 조금 있다."
+   }
   ],
   "theme": "수량"
  },
  {
   "id": 1586,
   "word": "live",
-  "pos": ["동사"],
-  "meanings": [{"pos": "동사", "ko": ["살다"]}],
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "살다"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Once upon a time, there lived a giant.", "ko": "옛날 옛적에 한 거인이 살고 있었다."},
-   {"en": "I live in Seoul.", "ko": "나는 서울에 산다."}
+   {
+    "en": "Once upon a time, there lived a giant.",
+    "ko": "옛날 옛적에 한 거인이 살고 있었다."
+   },
+   {
+    "en": "I live in Seoul.",
+    "ko": "나는 서울에 산다."
+   }
   ],
   "theme": "일상"
  },
  {
   "id": 1587,
   "word": "livingroom",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["거실"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "거실"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "We relax in the livingroom every evening.", "ko": "우리는 매일 저녁 거실에서 쉰다."},
-   {"en": "The livingroom has a big sofa.", "ko": "그 거실에는 큰 소파가 있다."}
+   {
+    "en": "We relax in the livingroom every evening.",
+    "ko": "우리는 매일 저녁 거실에서 쉰다."
+   },
+   {
+    "en": "The livingroom has a big sofa.",
+    "ko": "그 거실에는 큰 소파가 있다."
+   }
   ],
   "theme": "장소"
  },
  {
   "id": 1588,
   "word": "load",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["짐"]},
-   {"pos": "동사", "ko": ["싣다", "불러오다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "짐"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "싣다",
+     "불러오다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "The truck carried a heavy load.", "ko": "그 트럭은 무거운 짐을 실었다."},
-   {"en": "Please load the dishwasher before you leave.", "ko": "가기 전에 식기세척기에 그릇을 넣어라."}
+   {
+    "en": "The truck carried a heavy load.",
+    "ko": "그 트럭은 무거운 짐을 실었다."
+   },
+   {
+    "en": "Please load the dishwasher before you leave.",
+    "ko": "가기 전에 식기세척기에 그릇을 넣어라."
+   }
   ],
   "theme": "일상"
  },
  {
   "id": 1589,
   "word": "loan",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["대출"]},
-   {"pos": "동사", "ko": ["빌려주다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "대출"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "빌려주다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "He took out a loan to buy a car.", "ko": "그는 차를 사기 위해 대출을 받았다."},
-   {"en": "The bank approved her loan application.", "ko": "은행은 그녀의 대출 신청을 승인했다."}
+   {
+    "en": "He took out a loan to buy a car.",
+    "ko": "그는 차를 사기 위해 대출을 받았다."
+   },
+   {
+    "en": "The bank approved her loan application.",
+    "ko": "은행은 그녀의 대출 신청을 승인했다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 1590,
   "word": "local",
-  "pos": ["형용사"],
-  "meanings": [{"pos": "형용사", "ko": ["지역의", "현지의"]}],
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "지역의",
+     "현지의"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "We shop at the local market.", "ko": "우리는 그 지역 시장에서 장을 본다."},
-   {"en": "The local news reported the accident.", "ko": "지역 뉴스가 그 사고를 보도했다."}
+   {
+    "en": "We shop at the local market.",
+    "ko": "우리는 그 지역 시장에서 장을 본다."
+   },
+   {
+    "en": "The local news reported the accident.",
+    "ko": "지역 뉴스가 그 사고를 보도했다."
+   }
   ],
   "theme": "장소"
  },
  {
   "id": 1591,
   "word": "locate",
-  "pos": ["동사"],
-  "meanings": [{"pos": "동사", "ko": ["위치하다", "위치를 찾다"]}],
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "위치하다",
+     "위치를 찾다"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The hospital is located near the park.", "ko": "그 병원은 공원 근처에 있다."},
-   {"en": "We tried to locate the missing keys.", "ko": "우리는 잃어버린 열쇠를 찾으려고 했다."}
+   {
+    "en": "The hospital is located near the park.",
+    "ko": "그 병원은 공원 근처에 있다."
+   },
+   {
+    "en": "We tried to locate the missing keys.",
+    "ko": "우리는 잃어버린 열쇠를 찾으려고 했다."
+   }
   ],
   "theme": "장소"
  },
  {
   "id": 1592,
   "word": "lock",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["자물쇠"]},
-   {"pos": "동사", "ko": ["잠그다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "자물쇠"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "잠그다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Please lock the door at night.", "ko": "밤에는 문을 잠가라."},
-   {"en": "She checked the lock twice before leaving.", "ko": "그녀는 나가기 전에 자물쇠를 두 번 확인했다."}
+   {
+    "en": "Please lock the door at night.",
+    "ko": "밤에는 문을 잠가라."
+   },
+   {
+    "en": "She checked the lock twice before leaving.",
+    "ko": "그녀는 나가기 전에 자물쇠를 두 번 확인했다."
+   }
   ],
   "theme": "일상"
  },
  {
   "id": 1593,
   "word": "log",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["통나무", "기록"]},
-   {"pos": "동사", "ko": ["기록하다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "통나무",
+     "기록"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "기록하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "They sat around the campfire on a log.", "ko": "그들은 통나무에 앉아 모닥불 주위에 있었다."},
-   {"en": "He keeps a log of his daily exercise.", "ko": "그는 매일 운동 기록을 남긴다."}
+   {
+    "en": "They sat around the campfire on a log.",
+    "ko": "그들은 통나무에 앉아 모닥불 주위에 있었다."
+   },
+   {
+    "en": "He keeps a log of his daily exercise.",
+    "ko": "그는 매일 운동 기록을 남긴다."
+   }
   ],
   "theme": "자연"
  },
  {
   "id": 1594,
   "word": "logic",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["논리"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "논리"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Her argument was based on solid logic.", "ko": "그녀의 주장은 확실한 논리에 근거했다."},
-   {"en": "I don't understand the logic behind this rule.", "ko": "나는 이 규칙 뒤에 있는 논리를 이해하지 못하겠다."}
+   {
+    "en": "Her argument was based on solid logic.",
+    "ko": "그녀의 주장은 확실한 논리에 근거했다."
+   },
+   {
+    "en": "I don't understand the logic behind this rule.",
+    "ko": "나는 이 규칙 뒤에 있는 논리를 이해하지 못하겠다."
+   }
   ],
   "theme": "추상"
  },
  {
   "id": 1595,
   "word": "lone",
-  "pos": ["형용사"],
-  "meanings": [{"pos": "형용사", "ko": ["혼자인", "외로운"]}],
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "혼자인",
+     "외로운"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "A lone wolf howled in the distance.", "ko": "외로운 늑대 한 마리가 멀리서 울부짖었다."},
-   {"en": "She was the lone survivor of the crash.", "ko": "그녀는 그 사고의 유일한 생존자였다."}
+   {
+    "en": "A lone wolf howled in the distance.",
+    "ko": "외로운 늑대 한 마리가 멀리서 울부짖었다."
+   },
+   {
+    "en": "She was the lone survivor of the crash.",
+    "ko": "그녀는 그 사고의 유일한 생존자였다."
+   }
   ],
   "theme": "감정"
  },
  {
   "id": 1596,
   "word": "long",
-  "pos": ["형용사", "부사"],
+  "pos": [
+   "형용사",
+   "부사"
+  ],
   "meanings": [
-   {"pos": "형용사", "ko": ["긴"]},
-   {"pos": "부사", "ko": ["오래"]}
+   {
+    "pos": "형용사",
+    "ko": [
+     "긴"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "오래"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Mary has long brown hair.", "ko": "메리는 길고 갈색인 머리를 가지고 있다."},
-   {"en": "The bridge is very long.", "ko": "그 다리는 매우 길다."}
+   {
+    "en": "Mary has long brown hair.",
+    "ko": "메리는 길고 갈색인 머리를 가지고 있다."
+   },
+   {
+    "en": "The bridge is very long.",
+    "ko": "그 다리는 매우 길다."
+   }
   ],
   "theme": "사물"
  },
  {
   "id": 1597,
   "word": "look",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["보다"]},
-   {"pos": "명사", "ko": ["표정", "모습"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "보다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "표정",
+     "모습"
+    ]
+   }
   ],
   "examples": [
-   {"en": "I’ve been looking forward to meeting you.", "ko": "나는 너를 만나기를 몹시 기대해 왔어."},
-   {"en": "Look at the sky.", "ko": "하늘을 봐."}
+   {
+    "en": "I’ve been looking forward to meeting you.",
+    "ko": "나는 너를 만나기를 몹시 기대해 왔어."
+   },
+   {
+    "en": "Look at the sky.",
+    "ko": "하늘을 봐."
+   }
   ],
   "theme": "행동"
  },
  {
   "id": 1598,
   "word": "loose",
-  "pos": ["형용사"],
-  "meanings": [{"pos": "형용사", "ko": ["헐거운", "느슨한"]}],
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "헐거운",
+     "느슨한"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "This shirt is too loose for me.", "ko": "이 셔츠는 나에게 너무 헐렁하다."},
-   {"en": "The screw became loose over time.", "ko": "그 나사는 시간이 지나면서 헐거워졌다."}
+   {
+    "en": "This shirt is too loose for me.",
+    "ko": "이 셔츠는 나에게 너무 헐렁하다."
+   },
+   {
+    "en": "The screw became loose over time.",
+    "ko": "그 나사는 시간이 지나면서 헐거워졌다."
+   }
   ],
   "theme": "사물"
  },
  {
   "id": 1599,
   "word": "lose",
-  "pos": ["동사"],
-  "meanings": [{"pos": "동사", "ko": ["잃다", "지다"]}],
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "잃다",
+     "지다"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "Don't lose your keys again.", "ko": "열쇠를 또 잃어버리지 마라."},
-   {"en": "He always loses at chess.", "ko": "그는 체스에서 항상 진다."}
+   {
+    "en": "Don't lose your keys again.",
+    "ko": "열쇠를 또 잃어버리지 마라."
+   },
+   {
+    "en": "He always loses at chess.",
+    "ko": "그는 체스에서 항상 진다."
+   }
   ],
   "theme": "행동"
  },
  {
   "id": 1600,
   "word": "loss",
-  "pos": ["명사"],
-  "meanings": [{"pos": "명사", "ko": ["손실", "패배"]}],
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "손실",
+     "패배"
+    ]
+   }
+  ],
   "examples": [
-   {"en": "The company suffered a big loss.", "ko": "그 회사는 큰 손실을 입었다."},
-   {"en": "It was a difficult loss for the team.", "ko": "그것은 그 팀에게 힘든 패배였다."}
+   {
+    "en": "The company suffered a big loss.",
+    "ko": "그 회사는 큰 손실을 입었다."
+   },
+   {
+    "en": "It was a difficult loss for the team.",
+    "ko": "그것은 그 팀에게 힘든 패배였다."
+   }
   ],
   "theme": "추상"
  }

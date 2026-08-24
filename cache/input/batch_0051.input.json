@@ -1,14 +1,6 @@
 [
  {
   "id": 2501,
-  "word": "spoon",
-  "level": "초등",
-  "derived": [],
-  "max_example_words": 6,
-  "fn_example": ""
- },
- {
-  "id": 2502,
   "word": "sport",
   "level": "초등",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": ""
  },
  {
-  "id": 2503,
+  "id": 2502,
   "word": "spot",
   "level": "중고공통",
   "derived": [],
@@ -24,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 2504,
+  "id": 2503,
   "word": "spouse",
   "level": "선택",
   "derived": [],
@@ -32,7 +24,7 @@
   "fn_example": ""
  },
  {
-  "id": 2505,
+  "id": 2504,
   "word": "spray",
   "level": "중고공통",
   "derived": [],
@@ -40,7 +32,7 @@
   "fn_example": ""
  },
  {
-  "id": 2506,
+  "id": 2505,
   "word": "spread",
   "level": "중고공통",
   "derived": [],
@@ -48,7 +40,7 @@
   "fn_example": ""
  },
  {
-  "id": 2507,
+  "id": 2506,
   "word": "spring",
   "level": "초등",
   "derived": [],
@@ -56,7 +48,7 @@
   "fn_example": ""
  },
  {
-  "id": 2508,
+  "id": 2507,
   "word": "spy",
   "level": "중고공통",
   "derived": [],
@@ -64,7 +56,7 @@
   "fn_example": ""
  },
  {
-  "id": 2509,
+  "id": 2508,
   "word": "square",
   "level": "중고공통",
   "derived": [],
@@ -72,7 +64,7 @@
   "fn_example": ""
  },
  {
-  "id": 2510,
+  "id": 2509,
   "word": "squeeze",
   "level": "선택",
   "derived": [],
@@ -80,7 +72,7 @@
   "fn_example": ""
  },
  {
-  "id": 2511,
+  "id": 2510,
   "word": "stable",
   "level": "중고공통",
   "derived": [],
@@ -88,7 +80,7 @@
   "fn_example": ""
  },
  {
-  "id": 2512,
+  "id": 2511,
   "word": "stack",
   "level": "선택",
   "derived": [],
@@ -96,7 +88,7 @@
   "fn_example": ""
  },
  {
-  "id": 2513,
+  "id": 2512,
   "word": "staff",
   "level": "초등",
   "derived": [],
@@ -104,7 +96,7 @@
   "fn_example": ""
  },
  {
-  "id": 2514,
+  "id": 2513,
   "word": "stage",
   "level": "중고공통",
   "derived": [],
@@ -112,7 +104,7 @@
   "fn_example": "There are (four) different stages to the process."
  },
  {
-  "id": 2515,
+  "id": 2514,
   "word": "stain",
   "level": "선택",
   "derived": [],
@@ -120,7 +112,7 @@
   "fn_example": ""
  },
  {
-  "id": 2516,
+  "id": 2515,
   "word": "stairs",
   "level": "중고공통",
   "derived": [],
@@ -128,7 +120,7 @@
   "fn_example": ""
  },
  {
-  "id": 2517,
+  "id": 2516,
   "word": "stamp",
   "level": "중고공통",
   "derived": [],
@@ -136,7 +128,7 @@
   "fn_example": ""
  },
  {
-  "id": 2518,
+  "id": 2517,
   "word": "stand",
   "level": "초등",
   "derived": [],
@@ -144,7 +136,7 @@
   "fn_example": "Stand up."
  },
  {
-  "id": 2519,
+  "id": 2518,
   "word": "standard",
   "level": "중고공통",
   "derived": [],
@@ -152,7 +144,7 @@
   "fn_example": ""
  },
  {
-  "id": 2520,
+  "id": 2519,
   "word": "star",
   "level": "초등",
   "derived": [],
@@ -160,7 +152,7 @@
   "fn_example": ""
  },
  {
-  "id": 2521,
+  "id": 2520,
   "word": "stare",
   "level": "중고공통",
   "derived": [],
@@ -168,7 +160,7 @@
   "fn_example": ""
  },
  {
-  "id": 2522,
+  "id": 2521,
   "word": "start",
   "level": "초등",
   "derived": [],
@@ -176,7 +168,7 @@
   "fn_example": "Let’s get started."
  },
  {
-  "id": 2523,
+  "id": 2522,
   "word": "starve",
   "level": "선택",
   "derived": [],
@@ -184,7 +176,7 @@
   "fn_example": ""
  },
  {
-  "id": 2524,
+  "id": 2523,
   "word": "state",
   "level": "중고공통",
   "derived": [],
@@ -192,7 +184,7 @@
   "fn_example": ""
  },
  {
-  "id": 2525,
+  "id": 2524,
   "word": "station",
   "level": "중고공통",
   "derived": [],
@@ -200,7 +192,7 @@
   "fn_example": ""
  },
  {
-  "id": 2526,
+  "id": 2525,
   "word": "statistic",
   "level": "선택",
   "derived": [],
@@ -208,7 +200,7 @@
   "fn_example": ""
  },
  {
-  "id": 2527,
+  "id": 2526,
   "word": "statue",
   "level": "선택",
   "derived": [],
@@ -216,7 +208,7 @@
   "fn_example": ""
  },
  {
-  "id": 2528,
+  "id": 2527,
   "word": "status",
   "level": "선택",
   "derived": [],
@@ -224,7 +216,7 @@
   "fn_example": ""
  },
  {
-  "id": 2529,
+  "id": 2528,
   "word": "stay",
   "level": "초등",
   "derived": [],
@@ -232,7 +224,7 @@
   "fn_example": ""
  },
  {
-  "id": 2530,
+  "id": 2529,
   "word": "steady",
   "level": "중고공통",
   "derived": [],
@@ -240,7 +232,7 @@
   "fn_example": ""
  },
  {
-  "id": 2531,
+  "id": 2530,
   "word": "steak",
   "level": "초등",
   "derived": [],
@@ -248,7 +240,7 @@
   "fn_example": ""
  },
  {
-  "id": 2532,
+  "id": 2531,
   "word": "steal",
   "level": "중고공통",
   "derived": [],
@@ -256,7 +248,7 @@
   "fn_example": ""
  },
  {
-  "id": 2533,
+  "id": 2532,
   "word": "steam",
   "level": "중고공통",
   "derived": [],
@@ -264,7 +256,7 @@
   "fn_example": ""
  },
  {
-  "id": 2534,
+  "id": 2533,
   "word": "steel",
   "level": "중고공통",
   "derived": [],
@@ -272,7 +264,7 @@
   "fn_example": ""
  },
  {
-  "id": 2535,
+  "id": 2534,
   "word": "steep",
   "level": "선택",
   "derived": [],
@@ -280,7 +272,7 @@
   "fn_example": ""
  },
  {
-  "id": 2536,
+  "id": 2535,
   "word": "stem",
   "level": "선택",
   "derived": [],
@@ -288,7 +280,7 @@
   "fn_example": ""
  },
  {
-  "id": 2537,
+  "id": 2536,
   "word": "step",
   "level": "중고공통",
   "derived": [],
@@ -296,7 +288,7 @@
   "fn_example": ""
  },
  {
-  "id": 2538,
+  "id": 2537,
   "word": "stick",
   "level": "중고공통",
   "derived": [],
@@ -304,7 +296,7 @@
   "fn_example": ""
  },
  {
-  "id": 2539,
+  "id": 2538,
   "word": "stiff",
   "level": "선택",
   "derived": [],
@@ -312,7 +304,7 @@
   "fn_example": ""
  },
  {
-  "id": 2540,
+  "id": 2539,
   "word": "still",
   "level": "중고공통",
   "derived": [],
@@ -320,7 +312,7 @@
   "fn_example": "It (still) isn’t clear to me what this means."
  },
  {
-  "id": 2541,
+  "id": 2540,
   "word": "stimulate",
   "level": "선택",
   "derived": [],
@@ -328,7 +320,7 @@
   "fn_example": ""
  },
  {
-  "id": 2542,
+  "id": 2541,
   "word": "stir",
   "level": "중고공통",
   "derived": [],
@@ -336,7 +328,7 @@
   "fn_example": ""
  },
  {
-  "id": 2543,
+  "id": 2542,
   "word": "stitch",
   "level": "선택",
   "derived": [],
@@ -344,7 +336,7 @@
   "fn_example": ""
  },
  {
-  "id": 2544,
+  "id": 2543,
   "word": "stock",
   "level": "중고공통",
   "derived": [],
@@ -352,7 +344,7 @@
   "fn_example": ""
  },
  {
-  "id": 2545,
+  "id": 2544,
   "word": "stomach",
   "level": "중고공통",
   "derived": [],
@@ -360,7 +352,7 @@
   "fn_example": ""
  },
  {
-  "id": 2546,
+  "id": 2545,
   "word": "stone",
   "level": "초등",
   "derived": [],
@@ -368,7 +360,7 @@
   "fn_example": ""
  },
  {
-  "id": 2547,
+  "id": 2546,
   "word": "stop",
   "level": "초등",
   "derived": [],
@@ -376,7 +368,7 @@
   "fn_example": "Please stop me if you have any questions."
  },
  {
-  "id": 2548,
+  "id": 2547,
   "word": "store",
   "level": "초등",
   "derived": [],
@@ -384,7 +376,7 @@
   "fn_example": ""
  },
  {
-  "id": 2549,
+  "id": 2548,
   "word": "storm",
   "level": "중고공통",
   "derived": [],
@@ -392,11 +384,19 @@
   "fn_example": ""
  },
  {
-  "id": 2550,
+  "id": 2549,
   "word": "story",
   "level": "초등",
   "derived": [],
   "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 2550,
+  "word": "stove",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
   "fn_example": ""
  }
 ]

@@ -1,52 +1,1388 @@
 [
- {"id":801,"word":"differ","pos":["동사"],"meanings":[{"pos":"동사","ko":["다르다"]}],"examples":[{"en":"Their opinions differ on this topic.","ko":"이 주제에 대해 그들의 의견은 다르다."},{"en":"The two paintings differ in color and style.","ko":"그 두 그림은 색과 화풍이 다르다."}],"theme":"추상"},
- {"id":802,"word":"difficult","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["어려운"]}],"examples":[{"en":"This question is difficult.","ko":"이 질문은 어렵다."},{"en":"Math is difficult for me.","ko":"나에게 수학은 어렵다."}],"theme":"학교"},
- {"id":803,"word":"dig","pos":["동사"],"meanings":[{"pos":"동사","ko":["파다"]}],"examples":[{"en":"The dog is digging a hole in the yard.","ko":"개가 마당에 구멍을 파고 있다."},{"en":"The kids dig in the sand at the beach.","ko":"아이들은 해변에서 모래를 판다."}],"theme":"행동"},
- {"id":804,"word":"dignity","pos":["명사"],"meanings":[{"pos":"명사","ko":["존엄성","품위"]}],"examples":[{"en":"She faced the hard times with great dignity.","ko":"그녀는 큰 품위를 지키며 어려운 시기를 마주했다."},{"en":"Everyone deserves to be treated with dignity.","ko":"모든 사람은 존엄하게 대우받을 자격이 있다."}],"theme":"추상"},
- {"id":805,"word":"dimension","pos":["명사"],"meanings":[{"pos":"명사","ko":["차원","크기"]}],"examples":[{"en":"The box has three dimensions: length, width, and height.","ko":"그 상자는 길이, 너비, 높이의 세 가지 크기를 가진다."},{"en":"This problem has a new dimension we didn't expect.","ko":"이 문제는 우리가 예상하지 못한 새로운 차원을 가지고 있다."}],"theme":"과학"},
- {"id":806,"word":"diminish","pos":["동사"],"meanings":[{"pos":"동사","ko":["줄어들다","감소시키다"]}],"examples":[{"en":"His interest in the game began to diminish.","ko":"그 게임에 대한 그의 관심이 줄어들기 시작했다."},{"en":"The pain diminished after she took the medicine.","ko":"약을 먹은 후 그녀의 통증이 줄어들었다."}],"theme":"추상"},
- {"id":807,"word":"dine","pos":["동사"],"meanings":[{"pos":"동사","ko":["식사하다"]}],"examples":[{"en":"We dined at a fancy restaurant last night.","ko":"우리는 어젯밤 고급 식당에서 식사했다."},{"en":"They often dine together on Fridays.","ko":"그들은 금요일마다 자주 함께 식사한다."}],"theme":"음식"},
- {"id":808,"word":"dinner","pos":["명사"],"meanings":[{"pos":"명사","ko":["저녁 식사"]}],"examples":[{"en":"We eat dinner at seven.","ko":"우리는 7시에 저녁을 먹는다."},{"en":"Dinner is ready now.","ko":"저녁 식사가 다 준비되었다."}],"theme":"음식"},
- {"id":809,"word":"dip","pos":["동사"],"meanings":[{"pos":"동사","ko":["담그다","살짝 넣다"]}],"examples":[{"en":"She dipped her toast into the warm milk.","ko":"그녀는 토스트를 따뜻한 우유에 살짝 담갔다."},{"en":"He dips the brush in blue paint.","ko":"그는 붓을 파란 물감에 담근다."}],"theme":"행동"},
- {"id":810,"word":"diplomat","pos":["명사"],"meanings":[{"pos":"명사","ko":["외교관"]}],"examples":[{"en":"The diplomat met with leaders from other countries.","ko":"그 외교관은 다른 나라 지도자들을 만났다."},{"en":"Her father works as a diplomat abroad.","ko":"그녀의 아버지는 해외에서 외교관으로 일한다."}],"theme":"직업"},
- {"id":811,"word":"direct","pos":["형용사","동사"],"meanings":[{"pos":"형용사","ko":["직접적인"]},{"pos":"동사","ko":["지도하다","감독하다"]}],"examples":[{"en":"Please take the direct flight to Seoul.","ko":"서울로 가는 직항 항공편을 이용해 주세요."},{"en":"She directs the school play every year.","ko":"그녀는 매년 학교 연극을 감독한다."}],"theme":"일상"},
- {"id":812,"word":"dirt","pos":["명사"],"meanings":[{"pos":"명사","ko":["흙","먼지"]}],"examples":[{"en":"The children played in the dirt.","ko":"아이들은 흙에서 놀았다."},{"en":"There was dirt all over his shoes.","ko":"그의 신발에는 온통 흙이 묻어 있었다."}],"theme":"자연"},
- {"id":813,"word":"disappoint","pos":["동사"],"meanings":[{"pos":"동사","ko":["실망시키다"]}],"examples":[{"en":"That’s very disappointing.","ko":"그건 정말 실망스럽다."},{"en":"I don't want to disappoint my parents.","ko":"나는 부모님을 실망시키고 싶지 않다."}],"theme":"감정"},
- {"id":814,"word":"disaster","pos":["명사"],"meanings":[{"pos":"명사","ko":["재난","재앙"]}],"examples":[{"en":"The flood was a terrible disaster for the town.","ko":"그 홍수는 마을에 끔찍한 재난이었다."},{"en":"Losing all our data would be a disaster.","ko":"모든 데이터를 잃는다면 그것은 재앙일 것이다."}],"theme":"사회"},
- {"id":815,"word":"disc","pos":["명사"],"meanings":[{"pos":"명사","ko":["원반","디스크"]}],"examples":[{"en":"He saved the file on a disc.","ko":"그는 파일을 디스크에 저장했다."},{"en":"The discs are stored in a box.","ko":"디스크들은 상자에 보관되어 있다."}],"theme":"사물"},
- {"id":816,"word":"discipline","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["규율","훈육"]},{"pos":"동사","ko":["훈육하다"]}],"examples":[{"en":"The coach values discipline above all else.","ko":"그 코치는 무엇보다 규율을 중요하게 여긴다."},{"en":"Parents should discipline their children with love.","ko":"부모는 사랑으로 자녀를 훈육해야 한다."}],"theme":"사회"},
- {"id":817,"word":"discourse","pos":["명사"],"meanings":[{"pos":"명사","ko":["담화","담론"]}],"examples":[{"en":"The professor gave a long discourse on history.","ko":"교수는 역사에 대해 긴 담화를 했다."},{"en":"Public discourse about the issue grew heated.","ko":"그 문제에 대한 공적 담론이 뜨거워졌다."}],"theme":"소통"},
- {"id":818,"word":"discriminate","pos":["동사"],"meanings":[{"pos":"동사","ko":["차별하다","구별하다"]}],"examples":[{"en":"It is wrong to discriminate against anyone.","ko":"누구든 차별하는 것은 잘못된 일이다."},{"en":"The law discriminates between different types of crime.","ko":"그 법은 서로 다른 유형의 범죄를 구별한다."}],"theme":"사회"},
- {"id":819,"word":"discuss","pos":["동사"],"meanings":[{"pos":"동사","ko":["논의하다"]}],"examples":[{"en":"Let's discuss the plan.","ko":"그 계획에 대해 논의해 보자."},{"en":"We discussed the movie.","ko":"우리는 그 영화에 대해 논의했다."}],"theme":"소통"},
- {"id":820,"word":"disgust","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["혐오감"]},{"pos":"동사","ko":["역겹게 하다"]}],"examples":[{"en":"She looked at the mess with disgust.","ko":"그녀는 혐오감을 느끼며 그 엉망진창인 상태를 보았다."},{"en":"The smell disgusted everyone in the kitchen.","ko":"그 냄새는 부엌에 있는 모두를 역겹게 했다."}],"theme":"감정"},
- {"id":821,"word":"dish","pos":["명사"],"meanings":[{"pos":"명사","ko":["접시","요리"]}],"examples":[{"en":"Please wash the dishes after dinner.","ko":"저녁 식사 후에 접시를 씻어 주세요."},{"en":"This dish tastes amazing.","ko":"이 요리는 맛이 훌륭하다."}],"theme":"음식"},
- {"id":822,"word":"dismiss","pos":["동사"],"meanings":[{"pos":"동사","ko":["해고하다","무시하다","해산시키다"]}],"examples":[{"en":"The manager dismissed him for being late.","ko":"관리자는 그가 지각을 해서 그를 해고했다."},{"en":"The teacher dismissed the class early today.","ko":"선생님은 오늘 수업을 일찍 마쳤다."}],"theme":"사회"},
- {"id":823,"word":"display","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["전시","화면"]},{"pos":"동사","ko":["전시하다","보여주다"]}],"examples":[{"en":"The museum has a new display of paintings.","ko":"박물관에 새로운 그림 전시가 있다."},{"en":"She displayed her artwork at the fair.","ko":"그녀는 박람회에서 자신의 작품을 전시했다."}],"theme":"여가"},
- {"id":824,"word":"dispute","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["분쟁","논쟁"]},{"pos":"동사","ko":["반박하다","다투다"]}],"examples":[{"en":"The two neighbors had a dispute over the fence.","ko":"두 이웃은 담장 문제로 분쟁이 있었다."},{"en":"No one disputed her answer in class.","ko":"교실에서 아무도 그녀의 답을 반박하지 않았다."}],"theme":"사회"},
- {"id":825,"word":"disrupt","pos":["동사"],"meanings":[{"pos":"동사","ko":["방해하다","지장을 주다"]}],"examples":[{"en":"The noise disrupted the whole class.","ko":"그 소음이 수업 전체를 방해했다."},{"en":"Heavy snow disrupted the train schedule.","ko":"폭설이 기차 시간표에 지장을 주었다."}],"theme":"사회"},
- {"id":826,"word":"distance","pos":["명사"],"meanings":[{"pos":"명사","ko":["거리"]}],"examples":[{"en":"The school is a short distance from my house.","ko":"학교는 우리 집에서 가까운 거리에 있다."},{"en":"They kept their distance from the fire.","ko":"그들은 불에서 거리를 두었다."}],"theme":"장소"},
- {"id":827,"word":"distinct","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["뚜렷한","별개의"]}],"examples":[{"en":"The two flavors are quite distinct.","ko":"그 두 맛은 꽤 뚜렷하게 다르다."},{"en":"Each season has its own distinct beauty.","ko":"각 계절은 저마다 뚜렷한 아름다움을 가지고 있다."}],"theme":"추상"},
- {"id":828,"word":"distinguish","pos":["동사"],"meanings":[{"pos":"동사","ko":["구별하다"]}],"examples":[{"en":"It is hard to distinguish the twins apart.","ko":"그 쌍둥이를 구별하기는 어렵다."},{"en":"She can distinguish real diamonds from fake ones.","ko":"그녀는 진짜 다이아몬드와 가짜를 구별할 수 있다."}],"theme":"추상"},
- {"id":829,"word":"distort","pos":["동사"],"meanings":[{"pos":"동사","ko":["왜곡하다","비틀다"]}],"examples":[{"en":"The mirror distorted his reflection.","ko":"거울이 그의 모습을 왜곡했다."},{"en":"The story was distorted by the news.","ko":"그 이야기는 뉴스에 의해 왜곡되었다."}],"theme":"소통"},
- {"id":830,"word":"distract","pos":["동사"],"meanings":[{"pos":"동사","ko":["산만하게 하다","주의를 흩뜨리다"]}],"examples":[{"en":"Loud music distracted him from his homework.","ko":"시끄러운 음악이 그의 숙제를 방해했다."},{"en":"Don't let your phone distract you in class.","ko":"수업 중에 휴대폰이 너를 산만하게 하지 않도록 해라."}],"theme":"학교"},
- {"id":831,"word":"distribute","pos":["동사"],"meanings":[{"pos":"동사","ko":["분배하다","나누어 주다"]}],"examples":[{"en":"The teacher distributed the test papers.","ko":"선생님은 시험지를 나누어 주었다."},{"en":"Volunteers distributed food to the flood victims.","ko":"자원봉사자들은 홍수 피해자들에게 음식을 나누어 주었다."}],"theme":"사회"},
- {"id":832,"word":"district","pos":["명사"],"meanings":[{"pos":"명사","ko":["지구","구역"]}],"examples":[{"en":"We live in a quiet district of the city.","ko":"우리는 도시의 조용한 지역에 산다."},{"en":"This district has many good schools.","ko":"이 지역에는 좋은 학교가 많다."}],"theme":"장소"},
- {"id":833,"word":"disturb","pos":["동사"],"meanings":[{"pos":"동사","ko":["방해하다"]}],"examples":[{"en":"Please do not disturb the sleeping baby.","ko":"자고 있는 아기를 방해하지 마세요."},{"en":"The loud noise disturbed the neighbors.","ko":"그 시끄러운 소음이 이웃을 방해했다."}],"theme":"일상"},
- {"id":834,"word":"dive","pos":["동사"],"meanings":[{"pos":"동사","ko":["다이빙하다","뛰어들다"]}],"examples":[{"en":"He dived into the pool without hesitation.","ko":"그는 망설임 없이 수영장에 뛰어들었다."},{"en":"She loves diving in the deep sea.","ko":"그녀는 깊은 바다에서 다이빙하는 것을 좋아한다."}],"theme":"여가"},
- {"id":835,"word":"diverse","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["다양한"]}],"examples":[{"en":"Our class has a diverse group of students.","ko":"우리 반에는 다양한 학생들이 있다."},{"en":"The city offers diverse types of food.","ko":"그 도시는 다양한 종류의 음식을 제공한다."}],"theme":"사회"},
- {"id":836,"word":"divide","pos":["동사"],"meanings":[{"pos":"동사","ko":["나누다"]}],"examples":[{"en":"Please divide the pizza into six pieces.","ko":"피자를 여섯 조각으로 나누어 주세요."},{"en":"The teacher divided the class into two teams.","ko":"선생님은 반을 두 팀으로 나누었다."}],"theme":"학교"},
- {"id":837,"word":"divine","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["신성한"]}],"examples":[{"en":"They believed the king had divine power.","ko":"그들은 왕이 신성한 힘을 가졌다고 믿었다."},{"en":"The old temple has a divine atmosphere.","ko":"그 오래된 사원은 신성한 분위기를 가지고 있다."}],"theme":"추상"},
- {"id":838,"word":"divorce","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["이혼"]},{"pos":"동사","ko":["이혼하다"]}],"examples":[{"en":"Her parents got a divorce last year.","ko":"그녀의 부모님은 작년에 이혼했다."},{"en":"They decided to divorce after years apart.","ko":"그들은 오랜 별거 끝에 이혼하기로 결정했다."}],"theme":"가족"},
- {"id":839,"word":"do","pos":["동사","조동사"],"meanings":[{"pos":"동사","ko":["하다"]},{"pos":"조동사","ko":["의문문·부정문을 만드는 데 쓰임"]}],"examples":[{"en":"Do you have the time?","ko":"지금 몇 시인지 아세요?"},{"en":"I do my homework every day.","ko":"나는 매일 숙제를 한다."}],"theme":"일상"},
- {"id":840,"word":"doctor","pos":["명사"],"meanings":[{"pos":"명사","ko":["의사"]}],"examples":[{"en":"My mother is a doctor.","ko":"우리 엄마는 의사이다."},{"en":"I saw a doctor yesterday.","ko":"나는 어제 의사에게 갔다."}],"theme":"직업"},
- {"id":841,"word":"document","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["문서","서류"]},{"pos":"동사","ko":["기록하다"]}],"examples":[{"en":"Please sign this document before you leave.","ko":"떠나기 전에 이 문서에 서명해 주세요."},{"en":"The film documents life in the mountains.","ko":"그 영화는 산속의 삶을 기록한다."}],"theme":"사물"},
- {"id":842,"word":"dog","pos":["명사"],"meanings":[{"pos":"명사","ko":["개"]}],"examples":[{"en":"We have three cats and one dog.","ko":"우리는 고양이 세 마리와 개 한 마리를 키운다."},{"en":"The dog runs in the park.","ko":"그 개는 공원에서 뛰어논다."}],"theme":"동물"},
- {"id":843,"word":"doll","pos":["명사"],"meanings":[{"pos":"명사","ko":["인형"]}],"examples":[{"en":"She loves her doll.","ko":"그녀는 자신의 인형을 좋아한다."},{"en":"This doll has a pink dress.","ko":"이 인형은 분홍색 드레스를 입고 있다."}],"theme":"사물"},
- {"id":844,"word":"dolphin","pos":["명사"],"meanings":[{"pos":"명사","ko":["돌고래"]}],"examples":[{"en":"Dolphins are very smart animals.","ko":"돌고래는 매우 영리한 동물이다."},{"en":"We saw a dolphin jump out of the water.","ko":"우리는 돌고래가 물 밖으로 뛰어오르는 것을 보았다."}],"theme":"동물"},
- {"id":845,"word":"domain","pos":["명사"],"meanings":[{"pos":"명사","ko":["영역","분야"]}],"examples":[{"en":"Cooking is not really her domain.","ko":"요리는 사실 그녀의 영역이 아니다."},{"en":"This website's domain name is easy to remember.","ko":"이 웹사이트의 도메인 이름은 기억하기 쉽다."}],"theme":"추상"},
- {"id":846,"word":"domestic","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["국내의","가정의"]}],"examples":[{"en":"The airline offers many domestic flights.","ko":"그 항공사는 많은 국내선을 운항한다."},{"en":"She enjoys doing domestic chores on weekends.","ko":"그녀는 주말에 집안일 하는 것을 즐긴다."}],"theme":"사회"},
- {"id":847,"word":"dominate","pos":["동사"],"meanings":[{"pos":"동사","ko":["지배하다","우세하다"]}],"examples":[{"en":"The team dominated the game from the start.","ko":"그 팀은 처음부터 경기를 지배했다."},{"en":"One player dominates most of the conversations.","ko":"한 선수가 대화 대부분을 주도한다."}],"theme":"사회"},
- {"id":848,"word":"donate","pos":["동사"],"meanings":[{"pos":"동사","ko":["기부하다"]}],"examples":[{"en":"They donated money to the school library.","ko":"그들은 학교 도서관에 돈을 기부했다."},{"en":"She donates old clothes to charity every year.","ko":"그녀는 매년 낡은 옷을 자선단체에 기부한다."}],"theme":"사회"},
- {"id":849,"word":"door","pos":["명사"],"meanings":[{"pos":"명사","ko":["문"]}],"examples":[{"en":"It has four doors.","ko":"그것은 문이 네 개 있다."},{"en":"Close the door, please.","ko":"문을 닫아 주세요."}],"theme":"사물"},
- {"id":850,"word":"dose","pos":["명사"],"meanings":[{"pos":"명사","ko":["복용량","1회분"]}],"examples":[{"en":"Take one dose of medicine after meals.","ko":"식사 후에 약을 한 번 복용하세요."},{"en":"The doctor increased her daily dose.","ko":"의사는 그녀의 하루 복용량을 늘렸다."}],"theme":"신체"}
+ {
+  "id": 801,
+  "word": "differ",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "다르다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Their opinions differ on this topic.",
+    "ko": "이 주제에 대해 그들의 의견은 다르다."
+   },
+   {
+    "en": "The two paintings differ in color and style.",
+    "ko": "그 두 그림은 색과 화풍이 다르다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 802,
+  "word": "difficult",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "어려운"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This question is difficult.",
+    "ko": "이 질문은 어렵다."
+   },
+   {
+    "en": "Math is difficult for me.",
+    "ko": "나에게 수학은 어렵다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 803,
+  "word": "dig",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "파다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The dog is digging a hole in the yard.",
+    "ko": "개가 마당에 구멍을 파고 있다."
+   },
+   {
+    "en": "The kids dig in the sand at the beach.",
+    "ko": "아이들은 해변에서 모래를 판다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 804,
+  "word": "dignity",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "존엄성",
+     "품위"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She faced the hard times with great dignity.",
+    "ko": "그녀는 큰 품위를 지키며 어려운 시기를 마주했다."
+   },
+   {
+    "en": "Everyone deserves to be treated with dignity.",
+    "ko": "모든 사람은 존엄하게 대우받을 자격이 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 805,
+  "word": "dimension",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "차원",
+     "크기"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The box has three dimensions: length, width, and height.",
+    "ko": "그 상자는 길이, 너비, 높이의 세 가지 크기를 가진다."
+   },
+   {
+    "en": "This problem has a new dimension we didn't expect.",
+    "ko": "이 문제는 우리가 예상하지 못한 새로운 차원을 가지고 있다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 806,
+  "word": "diminish",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "줄어들다",
+     "감소시키다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "His interest in the game began to diminish.",
+    "ko": "그 게임에 대한 그의 관심이 줄어들기 시작했다."
+   },
+   {
+    "en": "The pain diminished after she took the medicine.",
+    "ko": "약을 먹은 후 그녀의 통증이 줄어들었다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 807,
+  "word": "dine",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "식사하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We dined at a fancy restaurant last night.",
+    "ko": "우리는 어젯밤 고급 식당에서 식사했다."
+   },
+   {
+    "en": "They often dine together on Fridays.",
+    "ko": "그들은 금요일마다 자주 함께 식사한다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 808,
+  "word": "dinner",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "저녁 식사"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We eat dinner at seven.",
+    "ko": "우리는 7시에 저녁을 먹는다."
+   },
+   {
+    "en": "Dinner is ready now.",
+    "ko": "저녁 식사가 다 준비되었다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 809,
+  "word": "dip",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "담그다",
+     "살짝 넣다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She dipped her toast into the warm milk.",
+    "ko": "그녀는 토스트를 따뜻한 우유에 살짝 담갔다."
+   },
+   {
+    "en": "He dips the brush in blue paint.",
+    "ko": "그는 붓을 파란 물감에 담근다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 810,
+  "word": "diplomat",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "외교관"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The diplomat met with leaders from other countries.",
+    "ko": "그 외교관은 다른 나라 지도자들을 만났다."
+   },
+   {
+    "en": "Her father works as a diplomat abroad.",
+    "ko": "그녀의 아버지는 해외에서 외교관으로 일한다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 811,
+  "word": "direct",
+  "pos": [
+   "형용사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "직접적인"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "지도하다",
+     "감독하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please take the direct flight to Seoul.",
+    "ko": "서울로 가는 직항 항공편을 이용해 주세요."
+   },
+   {
+    "en": "She directs the school play every year.",
+    "ko": "그녀는 매년 학교 연극을 감독한다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 812,
+  "word": "dirt",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "흙",
+     "먼지"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The children played in the dirt.",
+    "ko": "아이들은 흙에서 놀았다."
+   },
+   {
+    "en": "There was dirt all over his shoes.",
+    "ko": "그의 신발에는 온통 흙이 묻어 있었다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 813,
+  "word": "disappoint",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "실망시키다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "That’s very disappointing.",
+    "ko": "그건 정말 실망스럽다."
+   },
+   {
+    "en": "I don't want to disappoint my parents.",
+    "ko": "나는 부모님을 실망시키고 싶지 않다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 814,
+  "word": "disaster",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "재난",
+     "재앙"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The flood was a terrible disaster for the town.",
+    "ko": "그 홍수는 마을에 끔찍한 재난이었다."
+   },
+   {
+    "en": "Losing all our data would be a disaster.",
+    "ko": "모든 데이터를 잃는다면 그것은 재앙일 것이다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 815,
+  "word": "disc",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "원반",
+     "디스크"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He saved the file on a disc.",
+    "ko": "그는 파일을 디스크에 저장했다."
+   },
+   {
+    "en": "The discs are stored in a box.",
+    "ko": "디스크들은 상자에 보관되어 있다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 816,
+  "word": "discipline",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "규율",
+     "훈육"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "훈육하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The coach values discipline above all else.",
+    "ko": "그 코치는 무엇보다 규율을 중요하게 여긴다."
+   },
+   {
+    "en": "Parents should discipline their children with love.",
+    "ko": "부모는 사랑으로 자녀를 훈육해야 한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 817,
+  "word": "discourse",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "담화",
+     "담론"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The professor gave a long discourse on history.",
+    "ko": "교수는 역사에 대해 긴 담화를 했다."
+   },
+   {
+    "en": "Public discourse about the issue grew heated.",
+    "ko": "그 문제에 대한 공적 담론이 뜨거워졌다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 818,
+  "word": "discriminate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "차별하다",
+     "구별하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It is wrong to discriminate against anyone.",
+    "ko": "누구든 차별하는 것은 잘못된 일이다."
+   },
+   {
+    "en": "The law discriminates between different types of crime.",
+    "ko": "그 법은 서로 다른 유형의 범죄를 구별한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 819,
+  "word": "discuss",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "논의하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Let's discuss the plan.",
+    "ko": "그 계획에 대해 논의해 보자."
+   },
+   {
+    "en": "We discussed the movie.",
+    "ko": "우리는 그 영화에 대해 논의했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 820,
+  "word": "disgust",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "혐오감"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "역겹게 하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She looked at the mess with disgust.",
+    "ko": "그녀는 혐오감을 느끼며 그 엉망진창인 상태를 보았다."
+   },
+   {
+    "en": "The smell disgusted everyone in the kitchen.",
+    "ko": "그 냄새는 부엌에 있는 모두를 역겹게 했다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 821,
+  "word": "dish",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "접시",
+     "요리"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please wash the dishes after dinner.",
+    "ko": "저녁 식사 후에 접시를 씻어 주세요."
+   },
+   {
+    "en": "This dish tastes amazing.",
+    "ko": "이 요리는 맛이 훌륭하다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 822,
+  "word": "dismiss",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "해고하다",
+     "무시하다",
+     "해산시키다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The manager dismissed him for being late.",
+    "ko": "관리자는 그가 지각을 해서 그를 해고했다."
+   },
+   {
+    "en": "The teacher dismissed the class early today.",
+    "ko": "선생님은 오늘 수업을 일찍 마쳤다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 823,
+  "word": "display",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "전시",
+     "화면"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "전시하다",
+     "보여주다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The museum has a new display of paintings.",
+    "ko": "박물관에 새로운 그림 전시가 있다."
+   },
+   {
+    "en": "She displayed her artwork at the fair.",
+    "ko": "그녀는 박람회에서 자신의 작품을 전시했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 824,
+  "word": "dispute",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "분쟁",
+     "논쟁"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "반박하다",
+     "다투다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The two neighbors had a dispute over the fence.",
+    "ko": "두 이웃은 담장 문제로 분쟁이 있었다."
+   },
+   {
+    "en": "No one disputed her answer in class.",
+    "ko": "교실에서 아무도 그녀의 답을 반박하지 않았다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 825,
+  "word": "disrupt",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "방해하다",
+     "지장을 주다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The noise disrupted the whole class.",
+    "ko": "그 소음이 수업 전체를 방해했다."
+   },
+   {
+    "en": "Heavy snow disrupted the train schedule.",
+    "ko": "폭설이 기차 시간표에 지장을 주었다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 826,
+  "word": "distance",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "거리"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The school is a short distance from my house.",
+    "ko": "학교는 우리 집에서 가까운 거리에 있다."
+   },
+   {
+    "en": "They kept their distance from the fire.",
+    "ko": "그들은 불에서 거리를 두었다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 827,
+  "word": "distinct",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "뚜렷한",
+     "별개의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The two flavors are quite distinct.",
+    "ko": "그 두 맛은 꽤 뚜렷하게 다르다."
+   },
+   {
+    "en": "Each season has its own distinct beauty.",
+    "ko": "각 계절은 저마다 뚜렷한 아름다움을 가지고 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 828,
+  "word": "distinguish",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "구별하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It is hard to distinguish the twins apart.",
+    "ko": "그 쌍둥이를 구별하기는 어렵다."
+   },
+   {
+    "en": "She can distinguish real diamonds from fake ones.",
+    "ko": "그녀는 진짜 다이아몬드와 가짜를 구별할 수 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 829,
+  "word": "distort",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "왜곡하다",
+     "비틀다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The mirror distorted his reflection.",
+    "ko": "거울이 그의 모습을 왜곡했다."
+   },
+   {
+    "en": "The story was distorted by the news.",
+    "ko": "그 이야기는 뉴스에 의해 왜곡되었다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 830,
+  "word": "distract",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "산만하게 하다",
+     "주의를 흩뜨리다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Loud music distracted him from his homework.",
+    "ko": "시끄러운 음악이 그의 숙제를 방해했다."
+   },
+   {
+    "en": "Don't let your phone distract you in class.",
+    "ko": "수업 중에 휴대폰이 너를 산만하게 하지 않도록 해라."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 831,
+  "word": "distribute",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "분배하다",
+     "나누어 주다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The teacher distributed the test papers.",
+    "ko": "선생님은 시험지를 나누어 주었다."
+   },
+   {
+    "en": "Volunteers distributed food to the flood victims.",
+    "ko": "자원봉사자들은 홍수 피해자들에게 음식을 나누어 주었다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 832,
+  "word": "district",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "지구",
+     "구역"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We live in a quiet district of the city.",
+    "ko": "우리는 도시의 조용한 지역에 산다."
+   },
+   {
+    "en": "This district has many good schools.",
+    "ko": "이 지역에는 좋은 학교가 많다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 833,
+  "word": "disturb",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "방해하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please do not disturb the sleeping baby.",
+    "ko": "자고 있는 아기를 방해하지 마세요."
+   },
+   {
+    "en": "The loud noise disturbed the neighbors.",
+    "ko": "그 시끄러운 소음이 이웃을 방해했다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 834,
+  "word": "dive",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "다이빙하다",
+     "뛰어들다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He dived into the pool without hesitation.",
+    "ko": "그는 망설임 없이 수영장에 뛰어들었다."
+   },
+   {
+    "en": "She loves diving in the deep sea.",
+    "ko": "그녀는 깊은 바다에서 다이빙하는 것을 좋아한다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 835,
+  "word": "diverse",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "다양한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Our class has a diverse group of students.",
+    "ko": "우리 반에는 다양한 학생들이 있다."
+   },
+   {
+    "en": "The city offers diverse types of food.",
+    "ko": "그 도시는 다양한 종류의 음식을 제공한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 836,
+  "word": "divide",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "나누다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please divide the pizza into six pieces.",
+    "ko": "피자를 여섯 조각으로 나누어 주세요."
+   },
+   {
+    "en": "The teacher divided the class into two teams.",
+    "ko": "선생님은 반을 두 팀으로 나누었다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 837,
+  "word": "divine",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "신성한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "They believed the king had divine power.",
+    "ko": "그들은 왕이 신성한 힘을 가졌다고 믿었다."
+   },
+   {
+    "en": "The old temple has a divine atmosphere.",
+    "ko": "그 오래된 사원은 신성한 분위기를 가지고 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 838,
+  "word": "divorce",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "이혼"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "이혼하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Her parents got a divorce last year.",
+    "ko": "그녀의 부모님은 작년에 이혼했다."
+   },
+   {
+    "en": "They decided to divorce after years apart.",
+    "ko": "그들은 오랜 별거 끝에 이혼하기로 결정했다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 839,
+  "word": "do",
+  "pos": [
+   "동사",
+   "조동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "하다"
+    ]
+   },
+   {
+    "pos": "조동사",
+    "ko": [
+     "의문문·부정문을 만드는 데 쓰임"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Do you have the time?",
+    "ko": "지금 몇 시인지 아세요?"
+   },
+   {
+    "en": "I do my homework every day.",
+    "ko": "나는 매일 숙제를 한다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 840,
+  "word": "doctor",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "의사"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My mother is a doctor.",
+    "ko": "우리 엄마는 의사이다."
+   },
+   {
+    "en": "I saw a doctor yesterday.",
+    "ko": "나는 어제 의사에게 갔다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 841,
+  "word": "document",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "문서",
+     "서류"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "기록하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please sign this document before you leave.",
+    "ko": "떠나기 전에 이 문서에 서명해 주세요."
+   },
+   {
+    "en": "The film documents life in the mountains.",
+    "ko": "그 영화는 산속의 삶을 기록한다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 842,
+  "word": "dog",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "개"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We have three cats and one dog.",
+    "ko": "우리는 고양이 세 마리와 개 한 마리를 키운다."
+   },
+   {
+    "en": "The dog runs in the park.",
+    "ko": "그 개는 공원에서 뛰어논다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 843,
+  "word": "doll",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "인형"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She loves her doll.",
+    "ko": "그녀는 자신의 인형을 좋아한다."
+   },
+   {
+    "en": "This doll has a pink dress.",
+    "ko": "이 인형은 분홍색 드레스를 입고 있다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 844,
+  "word": "dolphin",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "돌고래"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Dolphins are very smart animals.",
+    "ko": "돌고래는 매우 영리한 동물이다."
+   },
+   {
+    "en": "We saw a dolphin jump out of the water.",
+    "ko": "우리는 돌고래가 물 밖으로 뛰어오르는 것을 보았다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 845,
+  "word": "domain",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "영역",
+     "분야"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Cooking is not really her domain.",
+    "ko": "요리는 사실 그녀의 영역이 아니다."
+   },
+   {
+    "en": "This website's domain name is easy to remember.",
+    "ko": "이 웹사이트의 도메인 이름은 기억하기 쉽다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 846,
+  "word": "domestic",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "국내의",
+     "가정의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The airline offers many domestic flights.",
+    "ko": "그 항공사는 많은 국내선을 운항한다."
+   },
+   {
+    "en": "She enjoys doing domestic chores on weekends.",
+    "ko": "그녀는 주말에 집안일 하는 것을 즐긴다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 847,
+  "word": "dominate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "지배하다",
+     "우세하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The team dominated the game from the start.",
+    "ko": "그 팀은 처음부터 경기를 지배했다."
+   },
+   {
+    "en": "One player dominates most of the conversations.",
+    "ko": "한 선수가 대화 대부분을 주도한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 848,
+  "word": "donate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "기부하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "They donated money to the school library.",
+    "ko": "그들은 학교 도서관에 돈을 기부했다."
+   },
+   {
+    "en": "She donates old clothes to charity every year.",
+    "ko": "그녀는 매년 낡은 옷을 자선단체에 기부한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 849,
+  "word": "door",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "문"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It has four doors.",
+    "ko": "그것은 문이 네 개 있다."
+   },
+   {
+    "en": "Close the door, please.",
+    "ko": "문을 닫아 주세요."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 850,
+  "word": "dose",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "복용량",
+     "1회분"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Take one dose of medicine after meals.",
+    "ko": "식사 후에 약을 한 번 복용하세요."
+   },
+   {
+    "en": "The doctor increased her daily dose.",
+    "ko": "의사는 그녀의 하루 복용량을 늘렸다."
+   }
+  ],
+  "theme": "신체"
+ }
 ]

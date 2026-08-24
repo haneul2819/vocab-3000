@@ -1,52 +1,1450 @@
 [
- {"id": 2301, "word": "save", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["구하다", "저축하다"]}], "examples": [{"en": "I save money every month.", "ko": "나는 매달 돈을 저축한다."}, {"en": "He saved the cat from danger.", "ko": "그는 위험에서 그 고양이를 구했다."}], "theme": "일상"},
- {"id": 2302, "word": "say", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["말하다"]}], "examples": [{"en": "Can I say something?", "ko": "내가 뭐 좀 말해도 될까?"}, {"en": "She always says hello.", "ko": "그녀는 항상 인사를 한다."}], "theme": "소통"},
- {"id": 2303, "word": "scale", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["저울", "규모", "비늘"]}], "examples": [{"en": "He weighed the fruit on a scale.", "ko": "그는 저울로 과일의 무게를 쟀다."}, {"en": "The map is drawn to a small scale.", "ko": "그 지도는 작은 축척으로 그려져 있다."}], "theme": "과학"},
- {"id": 2304, "word": "scan", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["살펴보다", "스캔하다"]}, {"pos": "명사", "ko": ["정밀검사"]}], "examples": [{"en": "The doctor will scan your arm to check the bone.", "ko": "의사가 뼈를 확인하려고 네 팔을 스캔할 것이다."}, {"en": "She scanned the room for her keys.", "ko": "그녀는 열쇠를 찾으려고 방을 살펴보았다."}], "theme": "과학"},
- {"id": 2305, "word": "scandal", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["스캔들", "추문"]}], "examples": [{"en": "The politician was involved in a big scandal.", "ko": "그 정치인은 큰 스캔들에 연루되었다."}, {"en": "News of the scandal shocked the whole country.", "ko": "그 스캔들 소식은 온 나라를 놀라게 했다."}], "theme": "사회"},
- {"id": 2306, "word": "scarce", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["부족한", "드문"]}], "examples": [{"en": "Clean water is scarce in this desert area.", "ko": "이 사막 지역에서는 깨끗한 물이 부족하다."}, {"en": "Jobs became scarce during the economic crisis.", "ko": "경제 위기 동안 일자리가 부족해졌다."}], "theme": "추상"},
- {"id": 2307, "word": "scare", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["겁주다"]}, {"pos": "명사", "ko": ["공포"]}], "examples": [{"en": "The loud noise scared the little dog.", "ko": "그 큰 소음이 어린 강아지를 겁먹게 했다."}, {"en": "Horror movies always scare me a lot.", "ko": "공포 영화는 항상 나를 많이 겁먹게 한다."}], "theme": "감정"},
- {"id": 2308, "word": "scarf", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["스카프", "목도리"]}], "examples": [{"en": "She wore a warm scarf in winter.", "ko": "그녀는 겨울에 따뜻한 목도리를 둘렀다."}, {"en": "He bought a new scarf for his mom.", "ko": "그는 엄마를 위해 새 스카프를 샀다."}], "theme": "사물"},
- {"id": 2309, "word": "scatter", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["흩뿌리다", "흩어지다"]}], "examples": [{"en": "The wind scattered the leaves across the yard.", "ko": "바람이 마당에 나뭇잎들을 흩뿌렸다."}, {"en": "Birds scattered when the cat appeared.", "ko": "고양이가 나타나자 새들이 흩어졌다."}], "theme": "자연"},
- {"id": 2310, "word": "scene", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["장면", "현장"]}], "examples": [{"en": "That was the saddest scene in the movie.", "ko": "그것은 그 영화에서 가장 슬픈 장면이었다."}, {"en": "Police arrived quickly at the scene of the accident.", "ko": "경찰이 사고 현장에 빠르게 도착했다."}], "theme": "여가"},
- {"id": 2311, "word": "schedule", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["일정", "시간표"]}, {"pos": "동사", "ko": ["일정을 잡다"]}], "examples": [{"en": "Check the schedule before you leave.", "ko": "떠나기 전에 일정을 확인해라."}, {"en": "We scheduled a meeting for Monday.", "ko": "우리는 월요일로 회의 일정을 잡았다."}], "theme": "시간"},
- {"id": 2312, "word": "scheme", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["계획", "책략"]}], "examples": [{"en": "The company launched a new marketing scheme this year.", "ko": "그 회사는 올해 새로운 마케팅 계획을 시작했다."}, {"en": "Police discovered his scheme to steal money.", "ko": "경찰은 돈을 훔치려는 그의 계략을 알아냈다."}], "theme": "추상"},
- {"id": 2313, "word": "scholar", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["학자"]}], "examples": [{"en": "The scholar spent years studying ancient history.", "ko": "그 학자는 고대 역사를 연구하며 여러 해를 보냈다."}, {"en": "She became a famous scholar after her research.", "ko": "그녀는 연구를 마친 후 유명한 학자가 되었다."}], "theme": "직업"},
- {"id": 2314, "word": "school", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["학교"]}], "examples": [{"en": "He goes to school at 8:30.", "ko": "그는 8시 30분에 학교에 간다."}, {"en": "I like my school.", "ko": "나는 우리 학교가 좋다."}], "theme": "학교"},
- {"id": 2315, "word": "science", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["과학"]}], "examples": [{"en": "I like science class.", "ko": "나는 과학 수업이 좋다."}, {"en": "Science is my favorite subject.", "ko": "과학은 내가 가장 좋아하는 과목이다."}], "theme": "과학"},
- {"id": 2316, "word": "scissors", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["가위"]}], "examples": [{"en": "I cut the paper with scissors.", "ko": "나는 가위로 종이를 잘랐다."}, {"en": "These scissors are very sharp.", "ko": "이 가위는 매우 날카롭다."}], "theme": "사물"},
- {"id": 2317, "word": "scope", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["범위", "영역"]}], "examples": [{"en": "The scope of the project grew larger than expected.", "ko": "그 프로젝트의 범위는 예상보다 커졌다."}, {"en": "This question is outside the scope of our study.", "ko": "이 질문은 우리 연구의 범위를 벗어난다."}], "theme": "추상"},
- {"id": 2318, "word": "score", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["점수"]}, {"pos": "동사", "ko": ["득점하다"]}], "examples": [{"en": "What is your test score?", "ko": "네 시험 점수는 몇 점이니?"}, {"en": "He scored a goal.", "ko": "그는 골을 넣었다."}], "theme": "여가"},
- {"id": 2319, "word": "scramble", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["뒤섞다", "허둥지둥하다"]}], "examples": [{"en": "We scrambled some eggs for breakfast this morning.", "ko": "우리는 오늘 아침 계란을 스크램블해서 먹었다."}, {"en": "The kids scrambled to find their shoes.", "ko": "아이들은 신발을 찾으려고 허둥댔다."}], "theme": "일상"},
- {"id": 2320, "word": "scratch", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["긁다"]}, {"pos": "명사", "ko": ["긁힌 자국"]}], "examples": [{"en": "The cat scratched the sofa again.", "ko": "고양이가 또 소파를 긁었다."}, {"en": "There is a scratch on my phone screen.", "ko": "내 휴대폰 화면에 긁힌 자국이 있다."}], "theme": "사물"},
- {"id": 2321, "word": "scream", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["비명을 지르다"]}, {"pos": "명사", "ko": ["비명"]}], "examples": [{"en": "She screamed when she saw the spider.", "ko": "그녀는 거미를 보고 비명을 질렀다."}, {"en": "We heard a loud scream from next door.", "ko": "우리는 옆집에서 큰 비명 소리를 들었다."}], "theme": "감정"},
- {"id": 2322, "word": "screen", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["화면", "스크린"]}], "examples": [{"en": "The movie screen was very big.", "ko": "그 영화 스크린은 매우 컸다."}, {"en": "He is looking at his phone screen.", "ko": "그는 휴대폰 화면을 보고 있다."}], "theme": "사물"},
- {"id": 2323, "word": "screw", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["나사"]}, {"pos": "동사", "ko": ["나사로 고정하다"]}], "examples": [{"en": "He used a screwdriver to tighten the screw.", "ko": "그는 나사를 조이려고 드라이버를 사용했다."}, {"en": "She screwed the shelf onto the wall.", "ko": "그녀는 선반을 벽에 나사로 고정했다."}], "theme": "사물"},
- {"id": 2324, "word": "sculpt", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["조각하다"]}], "examples": [{"en": "The artist sculpted a beautiful statue from stone.", "ko": "그 예술가는 돌로 아름다운 조각상을 만들었다."}, {"en": "She loves to sculpt small clay animals.", "ko": "그녀는 작은 점토 동물을 조각하는 것을 좋아한다."}], "theme": "여가"},
- {"id": 2325, "word": "sea", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["바다"]}], "examples": [{"en": "The sea is blue.", "ko": "바다는 파랗다."}, {"en": "We swim in the sea.", "ko": "우리는 바다에서 수영한다."}], "theme": "자연"},
- {"id": 2326, "word": "seal", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["물개", "도장"]}, {"pos": "동사", "ko": ["봉인하다", "밀봉하다"]}], "examples": [{"en": "We saw a seal at the aquarium.", "ko": "우리는 수족관에서 물개를 보았다."}, {"en": "She sealed the envelope before mailing it.", "ko": "그녀는 편지를 보내기 전에 봉투를 봉했다."}], "theme": "동물"},
- {"id": 2327, "word": "search", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["찾다", "검색하다"]}, {"pos": "명사", "ko": ["검색", "수색"]}], "examples": [{"en": "I searched the whole house for my keys.", "ko": "나는 열쇠를 찾으려고 온 집을 뒤졌다."}, {"en": "The search took almost an hour.", "ko": "그 수색은 거의 한 시간이 걸렸다."}], "theme": "행동"},
- {"id": 2328, "word": "season", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["계절", "시즌"]}], "examples": [{"en": "Summer is my favorite season.", "ko": "여름은 내가 가장 좋아하는 계절이다."}, {"en": "Which season do you like?", "ko": "너는 어떤 계절을 좋아하니?"}], "theme": "시간"},
- {"id": 2329, "word": "seat", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["좌석", "자리"]}], "examples": [{"en": "Please take a seat over there.", "ko": "저쪽에 앉으세요."}, {"en": "All the seats were already taken.", "ko": "모든 좌석이 이미 차 있었다."}], "theme": "일상"},
- {"id": 2330, "word": "second", "pos": ["수사", "명사"], "meanings": [{"pos": "수사", "ko": ["두 번째의"]}, {"pos": "명사", "ko": ["초(시간 단위)"]}], "examples": [{"en": "Wait just a second, please.", "ko": "잠깐만 기다려 주세요."}, {"en": "She finished in second place.", "ko": "그녀는 2등으로 마쳤다."}], "theme": "시간"},
- {"id": 2331, "word": "secret", "pos": ["명사", "형용사"], "meanings": [{"pos": "명사", "ko": ["비밀"]}, {"pos": "형용사", "ko": ["비밀의"]}], "examples": [{"en": "Can you keep a secret?", "ko": "너 비밀 지킬 수 있어?"}, {"en": "They found a secret door in the wall.", "ko": "그들은 벽에서 비밀 문을 발견했다."}], "theme": "소통"},
- {"id": 2332, "word": "secretary", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["비서", "서기"]}], "examples": [{"en": "The secretary answered the phone quickly.", "ko": "그 비서는 전화를 재빨리 받았다."}, {"en": "She works as a secretary at a law firm.", "ko": "그녀는 법률 회사에서 비서로 일한다."}], "theme": "직업"},
- {"id": 2333, "word": "section", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["부분", "구역"]}], "examples": [{"en": "This section of the store sells shoes.", "ko": "이 가게의 이 구역에서는 신발을 판다."}, {"en": "Read the first section of the book.", "ko": "그 책의 첫 부분을 읽어라."}], "theme": "장소"},
- {"id": 2334, "word": "sector", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["부문", "분야"]}], "examples": [{"en": "He works in the technology sector.", "ko": "그는 기술 분야에서 일한다."}, {"en": "The public sector offers many stable jobs.", "ko": "공공 부문은 안정적인 일자리를 많이 제공한다."}], "theme": "직업"},
- {"id": 2335, "word": "secure", "pos": ["형용사", "동사"], "meanings": [{"pos": "형용사", "ko": ["안전한"]}, {"pos": "동사", "ko": ["확보하다"]}], "examples": [{"en": "Make sure the door is secure at night.", "ko": "밤에는 문이 안전하게 잠겼는지 확인해라."}, {"en": "The team secured a place in the finals.", "ko": "그 팀은 결승에 진출할 자리를 확보했다."}], "theme": "추상"},
- {"id": 2336, "word": "see", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["보다"]}], "examples": [{"en": "Which movie do you want to see?", "ko": "어떤 영화를 보고 싶어?"}, {"en": "I can see the sea.", "ko": "나는 바다가 보인다."}], "theme": "여가"},
- {"id": 2337, "word": "seed", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["씨앗"]}], "examples": [{"en": "We planted a seed in the garden.", "ko": "우리는 정원에 씨앗을 심었다."}, {"en": "The bird ate seeds from the ground.", "ko": "그 새는 땅에서 씨앗을 먹었다."}], "theme": "자연"},
- {"id": 2338, "word": "seek", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["찾다", "구하다"]}], "examples": [{"en": "He is seeking a new job this year.", "ko": "그는 올해 새 직장을 찾고 있다."}, {"en": "They seek advice from their teacher.", "ko": "그들은 선생님에게 조언을 구한다."}], "theme": "행동"},
- {"id": 2339, "word": "seem", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["~인 것 같다", "~처럼 보이다"]}], "examples": [{"en": "You seem tired today.", "ko": "너 오늘 피곤해 보인다."}, {"en": "It seems like it will rain.", "ko": "비가 올 것 같다."}], "theme": "추상"},
- {"id": 2340, "word": "seize", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["붙잡다", "장악하다"]}], "examples": [{"en": "The police seized the stolen goods from the truck.", "ko": "경찰은 트럭에서 훔친 물건을 압수했다."}, {"en": "She seized the opportunity to study abroad.", "ko": "그녀는 해외 유학의 기회를 붙잡았다."}], "theme": "행동"},
- {"id": 2341, "word": "select", "pos": ["동사", "형용사"], "meanings": [{"pos": "동사", "ko": ["선택하다"]}, {"pos": "형용사", "ko": ["선택된", "선별된"]}], "examples": [{"en": "Please select your favorite color.", "ko": "네가 가장 좋아하는 색을 선택해라."}, {"en": "Only a select group was invited to the party.", "ko": "선별된 소수의 사람만 파티에 초대받았다."}], "theme": "행동"},
- {"id": 2342, "word": "self", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["자신", "자아"]}], "examples": [{"en": "Believe in your true self.", "ko": "너의 진짜 자신을 믿어라."}, {"en": "He is proud of his old self.", "ko": "그는 예전의 자신을 자랑스러워한다."}], "theme": "추상"},
- {"id": 2343, "word": "sell", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["팔다"]}], "examples": [{"en": "They sell fresh fruit.", "ko": "그들은 신선한 과일을 판다."}, {"en": "She sells flowers at the market.", "ko": "그녀는 시장에서 꽃을 판다."}], "theme": "일상"},
- {"id": 2344, "word": "send", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["보내다"]}], "examples": [{"en": "I will send an email.", "ko": "나는 이메일을 보낼 것이다."}, {"en": "She sends letters to her friend.", "ko": "그녀는 친구에게 편지를 보낸다."}], "theme": "소통"},
- {"id": 2345, "word": "senior", "pos": ["형용사", "명사"], "meanings": [{"pos": "형용사", "ko": ["고위의", "선배의"]}, {"pos": "명사", "ko": ["연장자", "상급생"]}], "examples": [{"en": "My brother is a senior in high school.", "ko": "내 형은 고등학교 3학년이다."}, {"en": "She is the senior manager at the company.", "ko": "그녀는 그 회사의 고위 관리자이다."}], "theme": "학교"},
- {"id": 2346, "word": "sense", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["감각", "분별"]}, {"pos": "동사", "ko": ["느끼다", "감지하다"]}], "examples": [{"en": "Dogs have a strong sense of smell.", "ko": "개는 후각이 뛰어나다."}, {"en": "I sensed something was wrong.", "ko": "나는 뭔가 잘못됐다는 것을 느꼈다."}], "theme": "신체"},
- {"id": 2347, "word": "sensible", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["분별있는", "현명한"]}], "examples": [{"en": "It was a sensible choice to save money.", "ko": "돈을 저축하기로 한 것은 현명한 선택이었다."}, {"en": "She gave us some sensible advice about school.", "ko": "그녀는 우리에게 학교에 관한 현명한 조언을 해주었다."}], "theme": "추상"},
- {"id": 2348, "word": "sentence", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["문장", "판결"]}], "examples": [{"en": "Write a sentence using this word.", "ko": "이 단어를 사용해서 문장을 써라."}, {"en": "The judge gave him a long sentence.", "ko": "판사는 그에게 긴 형을 선고했다."}], "theme": "학교"},
- {"id": 2349, "word": "sentiment", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["감정", "정서"]}], "examples": [{"en": "Public sentiment turned against the new policy quickly.", "ko": "여론은 새 정책에 빠르게 등을 돌렸다."}, {"en": "Her letter was full of warm sentiment.", "ko": "그녀의 편지는 따뜻한 감정으로 가득했다."}], "theme": "감정"},
- {"id": 2350, "word": "separate", "pos": ["형용사", "동사"], "meanings": [{"pos": "형용사", "ko": ["분리된", "별개의"]}, {"pos": "동사", "ko": ["분리하다"]}], "examples": [{"en": "They sleep in separate rooms.", "ko": "그들은 각각 다른 방에서 잔다."}, {"en": "Please separate the trash from the recycling.", "ko": "쓰레기와 재활용품을 분리해 주세요."}], "theme": "일상"}
+ {
+  "id": 2300,
+  "word": "save",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "구하다",
+     "저축하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I save money every month.",
+    "ko": "나는 매달 돈을 저축한다."
+   },
+   {
+    "en": "He saved the cat from danger.",
+    "ko": "그는 위험에서 그 고양이를 구했다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2301,
+  "word": "say",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "말하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Can I say something?",
+    "ko": "내가 뭐 좀 말해도 될까?"
+   },
+   {
+    "en": "She always says hello.",
+    "ko": "그녀는 항상 인사를 한다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2302,
+  "word": "scale",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "저울",
+     "규모",
+     "비늘"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He weighed the fruit on a scale.",
+    "ko": "그는 저울로 과일의 무게를 쟀다."
+   },
+   {
+    "en": "The map is drawn to a small scale.",
+    "ko": "그 지도는 작은 축척으로 그려져 있다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2303,
+  "word": "scan",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "살펴보다",
+     "스캔하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "정밀검사"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The doctor will scan your arm to check the bone.",
+    "ko": "의사가 뼈를 확인하려고 네 팔을 스캔할 것이다."
+   },
+   {
+    "en": "She scanned the room for her keys.",
+    "ko": "그녀는 열쇠를 찾으려고 방을 살펴보았다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2304,
+  "word": "scandal",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "스캔들",
+     "추문"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The politician was involved in a big scandal.",
+    "ko": "그 정치인은 큰 스캔들에 연루되었다."
+   },
+   {
+    "en": "News of the scandal shocked the whole country.",
+    "ko": "그 스캔들 소식은 온 나라를 놀라게 했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2305,
+  "word": "scarce",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "부족한",
+     "드문"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Clean water is scarce in this desert area.",
+    "ko": "이 사막 지역에서는 깨끗한 물이 부족하다."
+   },
+   {
+    "en": "Jobs became scarce during the economic crisis.",
+    "ko": "경제 위기 동안 일자리가 부족해졌다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2306,
+  "word": "scare",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "겁주다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "공포"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The loud noise scared the little dog.",
+    "ko": "그 큰 소음이 어린 강아지를 겁먹게 했다."
+   },
+   {
+    "en": "Horror movies always scare me a lot.",
+    "ko": "공포 영화는 항상 나를 많이 겁먹게 한다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2307,
+  "word": "scarf",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "스카프",
+     "목도리"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She wore a warm scarf in winter.",
+    "ko": "그녀는 겨울에 따뜻한 목도리를 둘렀다."
+   },
+   {
+    "en": "He bought a new scarf for his mom.",
+    "ko": "그는 엄마를 위해 새 스카프를 샀다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2308,
+  "word": "scatter",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "흩뿌리다",
+     "흩어지다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The wind scattered the leaves across the yard.",
+    "ko": "바람이 마당에 나뭇잎들을 흩뿌렸다."
+   },
+   {
+    "en": "Birds scattered when the cat appeared.",
+    "ko": "고양이가 나타나자 새들이 흩어졌다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2309,
+  "word": "scene",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "장면",
+     "현장"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "That was the saddest scene in the movie.",
+    "ko": "그것은 그 영화에서 가장 슬픈 장면이었다."
+   },
+   {
+    "en": "Police arrived quickly at the scene of the accident.",
+    "ko": "경찰이 사고 현장에 빠르게 도착했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2310,
+  "word": "schedule",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "일정",
+     "시간표"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "일정을 잡다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Check the schedule before you leave.",
+    "ko": "떠나기 전에 일정을 확인해라."
+   },
+   {
+    "en": "We scheduled a meeting for Monday.",
+    "ko": "우리는 월요일로 회의 일정을 잡았다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2311,
+  "word": "scheme",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "계획",
+     "책략"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The company launched a new marketing scheme this year.",
+    "ko": "그 회사는 올해 새로운 마케팅 계획을 시작했다."
+   },
+   {
+    "en": "Police discovered his scheme to steal money.",
+    "ko": "경찰은 돈을 훔치려는 그의 계략을 알아냈다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2312,
+  "word": "scholar",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "학자"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The scholar spent years studying ancient history.",
+    "ko": "그 학자는 고대 역사를 연구하며 여러 해를 보냈다."
+   },
+   {
+    "en": "She became a famous scholar after her research.",
+    "ko": "그녀는 연구를 마친 후 유명한 학자가 되었다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 2313,
+  "word": "school",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "학교"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He goes to school at 8:30.",
+    "ko": "그는 8시 30분에 학교에 간다."
+   },
+   {
+    "en": "I like my school.",
+    "ko": "나는 우리 학교가 좋다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2314,
+  "word": "science",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "과학"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I like science class.",
+    "ko": "나는 과학 수업이 좋다."
+   },
+   {
+    "en": "Science is my favorite subject.",
+    "ko": "과학은 내가 가장 좋아하는 과목이다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2315,
+  "word": "scissors",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "가위"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I cut the paper with scissors.",
+    "ko": "나는 가위로 종이를 잘랐다."
+   },
+   {
+    "en": "These scissors are very sharp.",
+    "ko": "이 가위는 매우 날카롭다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2316,
+  "word": "scope",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "범위",
+     "영역"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The scope of the project grew larger than expected.",
+    "ko": "그 프로젝트의 범위는 예상보다 커졌다."
+   },
+   {
+    "en": "This question is outside the scope of our study.",
+    "ko": "이 질문은 우리 연구의 범위를 벗어난다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2317,
+  "word": "score",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "점수"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "득점하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "What is your test score?",
+    "ko": "네 시험 점수는 몇 점이니?"
+   },
+   {
+    "en": "He scored a goal.",
+    "ko": "그는 골을 넣었다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2318,
+  "word": "scramble",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "뒤섞다",
+     "허둥지둥하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We scrambled some eggs for breakfast this morning.",
+    "ko": "우리는 오늘 아침 계란을 스크램블해서 먹었다."
+   },
+   {
+    "en": "The kids scrambled to find their shoes.",
+    "ko": "아이들은 신발을 찾으려고 허둥댔다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2319,
+  "word": "scratch",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "긁다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "긁힌 자국"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The cat scratched the sofa again.",
+    "ko": "고양이가 또 소파를 긁었다."
+   },
+   {
+    "en": "There is a scratch on my phone screen.",
+    "ko": "내 휴대폰 화면에 긁힌 자국이 있다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2320,
+  "word": "scream",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "비명을 지르다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "비명"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She screamed when she saw the spider.",
+    "ko": "그녀는 거미를 보고 비명을 질렀다."
+   },
+   {
+    "en": "We heard a loud scream from next door.",
+    "ko": "우리는 옆집에서 큰 비명 소리를 들었다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2321,
+  "word": "screen",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "화면",
+     "스크린"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The movie screen was very big.",
+    "ko": "그 영화 스크린은 매우 컸다."
+   },
+   {
+    "en": "He is looking at his phone screen.",
+    "ko": "그는 휴대폰 화면을 보고 있다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2322,
+  "word": "screw",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "나사"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "나사로 고정하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He used a screwdriver to tighten the screw.",
+    "ko": "그는 나사를 조이려고 드라이버를 사용했다."
+   },
+   {
+    "en": "She screwed the shelf onto the wall.",
+    "ko": "그녀는 선반을 벽에 나사로 고정했다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2323,
+  "word": "sculpt",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "조각하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The artist sculpted a beautiful statue from stone.",
+    "ko": "그 예술가는 돌로 아름다운 조각상을 만들었다."
+   },
+   {
+    "en": "She loves to sculpt small clay animals.",
+    "ko": "그녀는 작은 점토 동물을 조각하는 것을 좋아한다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2324,
+  "word": "sea",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "바다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The sea is blue.",
+    "ko": "바다는 파랗다."
+   },
+   {
+    "en": "We swim in the sea.",
+    "ko": "우리는 바다에서 수영한다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2325,
+  "word": "seal",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "물개",
+     "도장"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "봉인하다",
+     "밀봉하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We saw a seal at the aquarium.",
+    "ko": "우리는 수족관에서 물개를 보았다."
+   },
+   {
+    "en": "She sealed the envelope before mailing it.",
+    "ko": "그녀는 편지를 보내기 전에 봉투를 봉했다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 2326,
+  "word": "search",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "찾다",
+     "검색하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "검색",
+     "수색"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I searched the whole house for my keys.",
+    "ko": "나는 열쇠를 찾으려고 온 집을 뒤졌다."
+   },
+   {
+    "en": "The search took almost an hour.",
+    "ko": "그 수색은 거의 한 시간이 걸렸다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2327,
+  "word": "season",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "계절",
+     "시즌"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Summer is my favorite season.",
+    "ko": "여름은 내가 가장 좋아하는 계절이다."
+   },
+   {
+    "en": "Which season do you like?",
+    "ko": "너는 어떤 계절을 좋아하니?"
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2328,
+  "word": "seat",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "좌석",
+     "자리"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please take a seat over there.",
+    "ko": "저쪽에 앉으세요."
+   },
+   {
+    "en": "All the seats were already taken.",
+    "ko": "모든 좌석이 이미 차 있었다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2329,
+  "word": "second",
+  "pos": [
+   "수사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "두 번째의"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "초(시간 단위)"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Wait just a second, please.",
+    "ko": "잠깐만 기다려 주세요."
+   },
+   {
+    "en": "She finished in second place.",
+    "ko": "그녀는 2등으로 마쳤다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2330,
+  "word": "secret",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "비밀"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "비밀의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Can you keep a secret?",
+    "ko": "너 비밀 지킬 수 있어?"
+   },
+   {
+    "en": "They found a secret door in the wall.",
+    "ko": "그들은 벽에서 비밀 문을 발견했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2331,
+  "word": "secretary",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "비서",
+     "서기"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The secretary answered the phone quickly.",
+    "ko": "그 비서는 전화를 재빨리 받았다."
+   },
+   {
+    "en": "She works as a secretary at a law firm.",
+    "ko": "그녀는 법률 회사에서 비서로 일한다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 2332,
+  "word": "section",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "부분",
+     "구역"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This section of the store sells shoes.",
+    "ko": "이 가게의 이 구역에서는 신발을 판다."
+   },
+   {
+    "en": "Read the first section of the book.",
+    "ko": "그 책의 첫 부분을 읽어라."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2333,
+  "word": "sector",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "부문",
+     "분야"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He works in the technology sector.",
+    "ko": "그는 기술 분야에서 일한다."
+   },
+   {
+    "en": "The public sector offers many stable jobs.",
+    "ko": "공공 부문은 안정적인 일자리를 많이 제공한다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 2334,
+  "word": "secure",
+  "pos": [
+   "형용사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "안전한"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "확보하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Make sure the door is secure at night.",
+    "ko": "밤에는 문이 안전하게 잠겼는지 확인해라."
+   },
+   {
+    "en": "The team secured a place in the finals.",
+    "ko": "그 팀은 결승에 진출할 자리를 확보했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2335,
+  "word": "see",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "보다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Which movie do you want to see?",
+    "ko": "어떤 영화를 보고 싶어?"
+   },
+   {
+    "en": "I can see the sea.",
+    "ko": "나는 바다가 보인다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2336,
+  "word": "seed",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "씨앗"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We planted a seed in the garden.",
+    "ko": "우리는 정원에 씨앗을 심었다."
+   },
+   {
+    "en": "The bird ate seeds from the ground.",
+    "ko": "그 새는 땅에서 씨앗을 먹었다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2337,
+  "word": "seek",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "찾다",
+     "구하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He is seeking a new job this year.",
+    "ko": "그는 올해 새 직장을 찾고 있다."
+   },
+   {
+    "en": "They seek advice from their teacher.",
+    "ko": "그들은 선생님에게 조언을 구한다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2338,
+  "word": "seem",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "~인 것 같다",
+     "~처럼 보이다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "You seem tired today.",
+    "ko": "너 오늘 피곤해 보인다."
+   },
+   {
+    "en": "It seems like it will rain.",
+    "ko": "비가 올 것 같다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2339,
+  "word": "seize",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "붙잡다",
+     "장악하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The police seized the stolen goods from the truck.",
+    "ko": "경찰은 트럭에서 훔친 물건을 압수했다."
+   },
+   {
+    "en": "She seized the opportunity to study abroad.",
+    "ko": "그녀는 해외 유학의 기회를 붙잡았다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2340,
+  "word": "select",
+  "pos": [
+   "동사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "선택하다"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "선택된",
+     "선별된"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please select your favorite color.",
+    "ko": "네가 가장 좋아하는 색을 선택해라."
+   },
+   {
+    "en": "Only a select group was invited to the party.",
+    "ko": "선별된 소수의 사람만 파티에 초대받았다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2341,
+  "word": "self",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "자신",
+     "자아"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Believe in your true self.",
+    "ko": "너의 진짜 자신을 믿어라."
+   },
+   {
+    "en": "He is proud of his old self.",
+    "ko": "그는 예전의 자신을 자랑스러워한다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2342,
+  "word": "sell",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "팔다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "They sell fresh fruit.",
+    "ko": "그들은 신선한 과일을 판다."
+   },
+   {
+    "en": "She sells flowers at the market.",
+    "ko": "그녀는 시장에서 꽃을 판다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2343,
+  "word": "send",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "보내다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I will send an email.",
+    "ko": "나는 이메일을 보낼 것이다."
+   },
+   {
+    "en": "She sends letters to her friend.",
+    "ko": "그녀는 친구에게 편지를 보낸다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2344,
+  "word": "senior",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "고위의",
+     "선배의"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "연장자",
+     "상급생"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My brother is a senior in high school.",
+    "ko": "내 형은 고등학교 3학년이다."
+   },
+   {
+    "en": "She is the senior manager at the company.",
+    "ko": "그녀는 그 회사의 고위 관리자이다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2345,
+  "word": "sense",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "감각",
+     "분별"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "느끼다",
+     "감지하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Dogs have a strong sense of smell.",
+    "ko": "개는 후각이 뛰어나다."
+   },
+   {
+    "en": "I sensed something was wrong.",
+    "ko": "나는 뭔가 잘못됐다는 것을 느꼈다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2346,
+  "word": "sensible",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "분별있는",
+     "현명한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It was a sensible choice to save money.",
+    "ko": "돈을 저축하기로 한 것은 현명한 선택이었다."
+   },
+   {
+    "en": "She gave us some sensible advice about school.",
+    "ko": "그녀는 우리에게 학교에 관한 현명한 조언을 해주었다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2347,
+  "word": "sentence",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "문장",
+     "판결"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Write a sentence using this word.",
+    "ko": "이 단어를 사용해서 문장을 써라."
+   },
+   {
+    "en": "The judge gave him a long sentence.",
+    "ko": "판사는 그에게 긴 형을 선고했다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2348,
+  "word": "sentiment",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "감정",
+     "정서"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Public sentiment turned against the new policy quickly.",
+    "ko": "여론은 새 정책에 빠르게 등을 돌렸다."
+   },
+   {
+    "en": "Her letter was full of warm sentiment.",
+    "ko": "그녀의 편지는 따뜻한 감정으로 가득했다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2349,
+  "word": "separate",
+  "pos": [
+   "형용사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "분리된",
+     "별개의"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "분리하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "They sleep in separate rooms.",
+    "ko": "그들은 각각 다른 방에서 잔다."
+   },
+   {
+    "en": "Please separate the trash from the recycling.",
+    "ko": "쓰레기와 재활용품을 분리해 주세요."
+   }
+  ],
+  "theme": "일상"
+ }
 ]

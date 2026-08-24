@@ -1,52 +1,1452 @@
 [
- {"id":851,"word":"dot","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["점"]},{"pos":"동사","ko":["점을 찍다"]}],"examples":[{"en":"There is a small dot on the map.","ko":"지도에 작은 점이 있다."},{"en":"She dotted every i in her notebook.","ko":"그녀는 공책에 있는 모든 i에 점을 찍었다."}],"theme":"사물"},
- {"id":852,"word":"double","pos":["형용사","동사"],"meanings":[{"pos":"형용사","ko":["두 배의"]},{"pos":"동사","ko":["두 배로 하다"]}],"examples":[{"en":"I need a double room.","ko":"나는 2인실이 필요하다."},{"en":"The price doubled last year.","ko":"작년에 가격이 두 배가 되었다."}],"theme":"수량"},
- {"id":853,"word":"doubt","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["의심"]},{"pos":"동사","ko":["의심하다"]}],"examples":[{"en":"I have no doubt.","ko":"나는 전혀 의심하지 않는다."},{"en":"She doubted his story at first.","ko":"그녀는 처음에 그의 이야기를 의심했다."}],"theme":"추상"},
- {"id":854,"word":"doughnut","pos":["명사"],"meanings":[{"pos":"명사","ko":["도넛"]}],"examples":[{"en":"I ate a doughnut.","ko":"나는 도넛을 먹었다."},{"en":"She likes chocolate doughnuts.","ko":"그녀는 초콜릿 도넛을 좋아한다."}],"theme":"음식"},
- {"id":855,"word":"down","pos":["부사","전치사"],"meanings":[{"pos":"부사","ko":["아래로"]},{"pos":"전치사","ko":["~아래로"]}],"examples":[{"en":"Calm down!","ko":"진정해!"},{"en":"The cat sat down.","ko":"고양이가 앉았다."}],"theme":"행동"},
- {"id":856,"word":"dozen","pos":["명사"],"meanings":[{"pos":"명사","ko":["12개","다스"]}],"examples":[{"en":"She bought a dozen eggs.","ko":"그녀는 달걀 한 판을 샀다."},{"en":"I have dozens of books at home.","ko":"나는 집에 책이 수십 권 있다."}],"theme":"수량"},
- {"id":857,"word":"draft","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["초안","원고"]},{"pos":"동사","ko":["초안을 작성하다"]}],"examples":[{"en":"He wrote a rough draft of his essay.","ko":"그는 에세이의 초안을 작성했다."},{"en":"She drafted a letter to the mayor.","ko":"그녀는 시장에게 보낼 편지의 초안을 작성했다."}],"theme":"학교"},
- {"id":858,"word":"drag","pos":["동사"],"meanings":[{"pos":"동사","ko":["끌다"]}],"examples":[{"en":"He dragged the heavy box across the room.","ko":"그는 무거운 상자를 방 건너편으로 끌었다."},{"en":"The dog dragged its leash along the ground.","ko":"개가 목줄을 땅에 끌었다."}],"theme":"행동"},
- {"id":859,"word":"drain","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["배수구"]},{"pos":"동사","ko":["물을 빼다","소모시키다"]}],"examples":[{"en":"The water drained slowly through the pipe.","ko":"물이 파이프를 통해 천천히 빠져나갔다."},{"en":"The long trip drained all her energy.","ko":"긴 여행이 그녀의 에너지를 모두 소모시켰다."}],"theme":"사물"},
- {"id":860,"word":"drama","pos":["명사"],"meanings":[{"pos":"명사","ko":["드라마","연극"]}],"examples":[{"en":"We watched a Korean drama together.","ko":"우리는 함께 한국 드라마를 보았다."},{"en":"She joined the school drama club.","ko":"그녀는 학교 연극 동아리에 가입했다."}],"theme":"여가"},
- {"id":861,"word":"draw","pos":["동사"],"meanings":[{"pos":"동사","ko":["그리다"]}],"examples":[{"en":"I like to draw.","ko":"나는 그림 그리는 것을 좋아한다."},{"en":"She draws pictures every day.","ko":"그녀는 매일 그림을 그린다."}],"theme":"여가"},
- {"id":862,"word":"dread","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["두려움"]},{"pos":"동사","ko":["몹시 두려워하다"]}],"examples":[{"en":"She felt a sense of dread before the exam.","ko":"그녀는 시험 전에 두려움을 느꼈다."},{"en":"He dreads going to the dentist.","ko":"그는 치과에 가는 것을 몹시 두려워한다."}],"theme":"감정"},
- {"id":863,"word":"dream","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["꿈"]},{"pos":"동사","ko":["꿈꾸다"]}],"examples":[{"en":"I had a strange dream.","ko":"나는 이상한 꿈을 꾸었다."},{"en":"She dreams of becoming a pilot.","ko":"그녀는 조종사가 되는 꿈을 꾼다."}],"theme":"추상"},
- {"id":864,"word":"dress","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["드레스","옷"]},{"pos":"동사","ko":["옷을 입다"]}],"examples":[{"en":"She wore a red dress.","ko":"그녀는 빨간 드레스를 입었다."},{"en":"He dressed quickly for school.","ko":"그는 학교에 가려고 빨리 옷을 입었다."}],"theme":"사물"},
- {"id":865,"word":"drill","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["훈련","드릴"]},{"pos":"동사","ko":["반복 연습하다","구멍을 뚫다"]}],"examples":[{"en":"The class did a fire drill this morning.","ko":"학급은 오늘 아침 화재 대피 훈련을 했다."},{"en":"He drilled a hole in the wooden board.","ko":"그는 나무판에 구멍을 뚫었다."}],"theme":"학교"},
- {"id":866,"word":"drink","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["음료"]},{"pos":"동사","ko":["마시다"]}],"examples":[{"en":"I drink water every day.","ko":"나는 매일 물을 마신다."},{"en":"She drinks her juice fast.","ko":"그녀는 주스를 빨리 마신다."}],"theme":"음식"},
- {"id":867,"word":"drive","pos":["동사"],"meanings":[{"pos":"동사","ko":["운전하다"]}],"examples":[{"en":"My dad can drive.","ko":"우리 아빠는 운전할 수 있다."},{"en":"She drives to work.","ko":"그녀는 차를 몰고 출근한다."}],"theme":"교통"},
- {"id":868,"word":"drop","pos":["동사"],"meanings":[{"pos":"동사","ko":["떨어뜨리다","떨어지다"]}],"examples":[{"en":"Don't drop the plate!","ko":"접시를 떨어뜨리지 마!"},{"en":"The leaves dropped fast.","ko":"나뭇잎이 빠르게 떨어졌다."}],"theme":"행동"},
- {"id":869,"word":"drown","pos":["동사"],"meanings":[{"pos":"동사","ko":["익사하다","물에 빠지다"]}],"examples":[{"en":"The boy almost drowned in the river.","ko":"그 소년은 강에서 익사할 뻔했다."},{"en":"She learned to swim so she wouldn't drown.","ko":"그녀는 물에 빠지지 않으려고 수영을 배웠다."}],"theme":"신체"},
- {"id":870,"word":"drug","pos":["명사"],"meanings":[{"pos":"명사","ko":["약물","마약"]}],"examples":[{"en":"The doctor gave him a new drug.","ko":"의사는 그에게 새로운 약을 주었다."},{"en":"Taking illegal drugs is very dangerous.","ko":"불법 약물을 복용하는 것은 매우 위험하다."}],"theme":"신체"},
- {"id":871,"word":"drum","pos":["명사"],"meanings":[{"pos":"명사","ko":["드럼","북"]}],"examples":[{"en":"He plays the drum.","ko":"그는 드럼을 연주한다."},{"en":"I hear a loud drum.","ko":"나는 시끄러운 북소리를 듣는다."}],"theme":"여가"},
- {"id":872,"word":"dry","pos":["형용사","동사"],"meanings":[{"pos":"형용사","ko":["마른","건조한"]},{"pos":"동사","ko":["말리다"]}],"examples":[{"en":"The towel is dry now.","ko":"수건이 이제 말랐다."},{"en":"She dried her hair fast.","ko":"그녀는 머리를 빨리 말렸다."}],"theme":"사물"},
- {"id":873,"word":"dual","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["이중의"]}],"examples":[{"en":"She has dual citizenship in two countries.","ko":"그녀는 두 나라의 이중 국적을 가지고 있다."},{"en":"The car has a dual exhaust system.","ko":"그 차는 이중 배기 장치를 가지고 있다."}],"theme":"사물"},
- {"id":874,"word":"duck","pos":["명사"],"meanings":[{"pos":"명사","ko":["오리"]}],"examples":[{"en":"I saw a duck.","ko":"나는 오리를 보았다."},{"en":"The ducks swim in the pond.","ko":"오리들이 연못에서 헤엄친다."}],"theme":"동물"},
- {"id":875,"word":"due","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["~예정인","~때문인"]}],"examples":[{"en":"The report is due next Monday.","ko":"그 보고서는 다음 주 월요일까지이다."},{"en":"The delay was due to heavy traffic.","ko":"그 지연은 심한 교통 체증 때문이었다."}],"theme":"시간"},
- {"id":876,"word":"dull","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["지루한","무딘"]}],"examples":[{"en":"The movie was so dull that I fell asleep.","ko":"그 영화는 너무 지루해서 나는 잠이 들었다."},{"en":"This knife has become quite dull.","ko":"이 칼은 꽤 무뎌졌다."}],"theme":"추상"},
- {"id":877,"word":"dump","pos":["동사","명사"],"meanings":[{"pos":"동사","ko":["버리다"]},{"pos":"명사","ko":["쓰레기장"]}],"examples":[{"en":"Please don't dump trash in the park.","ko":"공원에 쓰레기를 버리지 마세요."},{"en":"The truck dumped sand near the road.","ko":"트럭이 도로 근처에 모래를 쏟아부었다."}],"theme":"장소"},
- {"id":878,"word":"during","pos":["전치사"],"meanings":[{"pos":"전치사","ko":["~동안"]}],"examples":[{"en":"I slept during the trip.","ko":"나는 여행하는 동안 잠을 잤다."},{"en":"It rained during the night.","ko":"밤 동안 비가 왔다."}],"theme":"시간"},
- {"id":879,"word":"dust","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["먼지"]},{"pos":"동사","ko":["먼지를 털다"]}],"examples":[{"en":"There was dust on the old books.","ko":"오래된 책들 위에 먼지가 있었다."},{"en":"She dusted the shelves before the guests came.","ko":"그녀는 손님이 오기 전에 선반의 먼지를 털었다."}],"theme":"사물"},
- {"id":880,"word":"duty","pos":["명사"],"meanings":[{"pos":"명사","ko":["의무","임무"]}],"examples":[{"en":"It is my duty to help my family.","ko":"가족을 돕는 것은 나의 의무이다."},{"en":"The soldiers were on duty all night.","ko":"군인들은 밤새 근무 중이었다."}],"theme":"사회"},
- {"id":881,"word":"dwell","pos":["동사"],"meanings":[{"pos":"동사","ko":["살다","거주하다"]}],"examples":[{"en":"Many animals dwell in this forest.","ko":"많은 동물들이 이 숲에 산다."},{"en":"They dwelled in a small village for years.","ko":"그들은 몇 년 동안 작은 마을에서 살았다."}],"theme":"장소"},
- {"id":882,"word":"dynamic","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["역동적인","활동적인"]}],"examples":[{"en":"She has a dynamic personality.","ko":"그녀는 역동적인 성격을 가지고 있다."},{"en":"The city has a dynamic and busy atmosphere.","ko":"그 도시는 역동적이고 분주한 분위기를 가지고 있다."}],"theme":"추상"},
- {"id":883,"word":"each","pos":["한정사","대명사"],"meanings":[{"pos":"한정사","ko":["각각의"]},{"pos":"대명사","ko":["각각"]}],"examples":[{"en":"Do you know each other?","ko":"너희는 서로 아니?"},{"en":"Each student got a book.","ko":"각 학생이 책을 한 권씩 받았다."}],"theme":"학교"},
- {"id":884,"word":"eager","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["열망하는","열심인"]}],"examples":[{"en":"She was eager to start her new job.","ko":"그녀는 새 직장을 시작하고 싶어 열망했다."},{"en":"The puppy seemed eager to play outside.","ko":"강아지는 밖에서 놀고 싶어 안달 난 것 같았다."}],"theme":"감정"},
- {"id":885,"word":"ear","pos":["명사"],"meanings":[{"pos":"명사","ko":["귀"]}],"examples":[{"en":"My ear hurts.","ko":"내 귀가 아프다."},{"en":"Rabbits have long ears.","ko":"토끼는 긴 귀를 가지고 있다."}],"theme":"신체"},
- {"id":886,"word":"early","pos":["형용사","부사"],"meanings":[{"pos":"부사","ko":["일찍"]},{"pos":"형용사","ko":["이른"]}],"examples":[{"en":"I woke up early.","ko":"나는 일찍 일어났다."},{"en":"She is always early.","ko":"그녀는 항상 이르다."}],"theme":"시간"},
- {"id":887,"word":"earn","pos":["동사"],"meanings":[{"pos":"동사","ko":["벌다","얻다"]}],"examples":[{"en":"He earns money by washing cars.","ko":"그는 세차를 해서 돈을 번다."},{"en":"She earned a good grade on the test.","ko":"그녀는 시험에서 좋은 성적을 얻었다."}],"theme":"직업"},
- {"id":888,"word":"earth","pos":["명사"],"meanings":[{"pos":"명사","ko":["지구","땅"]}],"examples":[{"en":"The Earth is round.","ko":"지구는 둥글다."},{"en":"We live on Earth.","ko":"우리는 지구에 산다."}],"theme":"자연"},
- {"id":889,"word":"ease","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["편안함","용이함"]},{"pos":"동사","ko":["완화하다","편해지다"]}],"examples":[{"en":"She answered the question with ease.","ko":"그녀는 쉽게 그 질문에 답했다."},{"en":"The medicine eased his headache quickly.","ko":"그 약이 그의 두통을 빠르게 완화했다."}],"theme":"신체"},
- {"id":890,"word":"east","pos":["명사","형용사"],"meanings":[{"pos":"명사","ko":["동쪽"]},{"pos":"형용사","ko":["동쪽의"]}],"examples":[{"en":"The sun rises in the east.","ko":"해는 동쪽에서 뜬다."},{"en":"We drove east all day.","ko":"우리는 하루 종일 동쪽으로 운전했다."}],"theme":"장소"},
- {"id":891,"word":"eat","pos":["동사"],"meanings":[{"pos":"동사","ko":["먹다"]}],"examples":[{"en":"I eat breakfast at eight.","ko":"나는 여덟 시에 아침을 먹는다."},{"en":"She eats an apple every day.","ko":"그녀는 매일 사과를 먹는다."}],"theme":"음식"},
- {"id":892,"word":"economy","pos":["명사"],"meanings":[{"pos":"명사","ko":["경제"]}],"examples":[{"en":"The country's economy is growing fast.","ko":"그 나라의 경제는 빠르게 성장하고 있다."},{"en":"Many people worry about the economy.","ko":"많은 사람들이 경제를 걱정한다."}],"theme":"사회"},
- {"id":893,"word":"edge","pos":["명사"],"meanings":[{"pos":"명사","ko":["가장자리","모서리"]}],"examples":[{"en":"Don't stand too close to the edge.","ko":"가장자리에 너무 가까이 서지 마라."},{"en":"The knife has a very sharp edge.","ko":"그 칼은 날이 매우 날카롭다."}],"theme":"사물"},
- {"id":894,"word":"edit","pos":["동사"],"meanings":[{"pos":"동사","ko":["편집하다"]}],"examples":[{"en":"She edited the video before uploading it.","ko":"그녀는 업로드하기 전에 영상을 편집했다."},{"en":"He edits the school newspaper every week.","ko":"그는 매주 학교 신문을 편집한다."}],"theme":"학교"},
- {"id":895,"word":"educate","pos":["동사"],"meanings":[{"pos":"동사","ko":["교육하다"]}],"examples":[{"en":"Schools educate children about many subjects.","ko":"학교는 아이들에게 여러 과목을 교육한다."},{"en":"Parents also educate their kids at home.","ko":"부모도 집에서 아이들을 교육한다."}],"theme":"학교"},
- {"id":896,"word":"effect","pos":["명사"],"meanings":[{"pos":"명사","ko":["효과","영향"]}],"examples":[{"en":"The medicine had a strong effect.","ko":"그 약은 강한 효과가 있었다."},{"en":"Loud music can have a bad effect on sleep.","ko":"시끄러운 음악은 수면에 나쁜 영향을 줄 수 있다."}],"theme":"과학"},
- {"id":897,"word":"efficient","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["효율적인"]}],"examples":[{"en":"The new machine is much more efficient.","ko":"새 기계는 훨씬 더 효율적이다."},{"en":"She works in a fast and efficient way.","ko":"그녀는 빠르고 효율적으로 일한다."}],"theme":"추상"},
- {"id":898,"word":"effort","pos":["명사"],"meanings":[{"pos":"명사","ko":["노력"]}],"examples":[{"en":"She made a great effort to win.","ko":"그녀는 이기기 위해 큰 노력을 했다."},{"en":"Learning a language takes a lot of effort.","ko":"언어를 배우는 데는 많은 노력이 필요하다."}],"theme":"추상"},
- {"id":899,"word":"egg","pos":["명사"],"meanings":[{"pos":"명사","ko":["달걀"]}],"examples":[{"en":"I like fried eggs.","ko":"나는 계란프라이를 좋아한다."},{"en":"The hen laid an egg.","ko":"암탉이 알을 낳았다."}],"theme":"음식"},
- {"id":900,"word":"eight","pos":["수사"],"meanings":[{"pos":"수사","ko":["여덟"]}],"examples":[{"en":"I have eight pencils.","ko":"나는 연필이 여덟 자루 있다."},{"en":"She is eight years old.","ko":"그녀는 여덟 살이다."}],"theme":"수량"}
+ {
+  "id": 851,
+  "word": "dot",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "점"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "점을 찍다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "There is a small dot on the map.",
+    "ko": "지도에 작은 점이 있다."
+   },
+   {
+    "en": "She dotted every i in her notebook.",
+    "ko": "그녀는 공책에 있는 모든 i에 점을 찍었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 852,
+  "word": "double",
+  "pos": [
+   "형용사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "두 배의"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "두 배로 하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I need a double room.",
+    "ko": "나는 2인실이 필요하다."
+   },
+   {
+    "en": "The price doubled last year.",
+    "ko": "작년에 가격이 두 배가 되었다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 853,
+  "word": "doubt",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "의심"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "의심하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I have no doubt.",
+    "ko": "나는 전혀 의심하지 않는다."
+   },
+   {
+    "en": "She doubted his story at first.",
+    "ko": "그녀는 처음에 그의 이야기를 의심했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 854,
+  "word": "doughnut",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "도넛"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I ate a doughnut.",
+    "ko": "나는 도넛을 먹었다."
+   },
+   {
+    "en": "She likes chocolate doughnuts.",
+    "ko": "그녀는 초콜릿 도넛을 좋아한다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 855,
+  "word": "down",
+  "pos": [
+   "부사",
+   "전치사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "아래로"
+    ]
+   },
+   {
+    "pos": "전치사",
+    "ko": [
+     "~아래로"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Calm down!",
+    "ko": "진정해!"
+   },
+   {
+    "en": "The cat sat down.",
+    "ko": "고양이가 앉았다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 856,
+  "word": "dozen",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "12개",
+     "다스"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She bought a dozen eggs.",
+    "ko": "그녀는 달걀 한 판을 샀다."
+   },
+   {
+    "en": "I have dozens of books at home.",
+    "ko": "나는 집에 책이 수십 권 있다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 857,
+  "word": "draft",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "초안",
+     "원고"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "초안을 작성하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He wrote a rough draft of his essay.",
+    "ko": "그는 에세이의 초안을 작성했다."
+   },
+   {
+    "en": "She drafted a letter to the mayor.",
+    "ko": "그녀는 시장에게 보낼 편지의 초안을 작성했다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 858,
+  "word": "drag",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "끌다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He dragged the heavy box across the room.",
+    "ko": "그는 무거운 상자를 방 건너편으로 끌었다."
+   },
+   {
+    "en": "The dog dragged its leash along the ground.",
+    "ko": "개가 목줄을 땅에 끌었다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 859,
+  "word": "drain",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "배수구"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "물을 빼다",
+     "소모시키다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The water drained slowly through the pipe.",
+    "ko": "물이 파이프를 통해 천천히 빠져나갔다."
+   },
+   {
+    "en": "The long trip drained all her energy.",
+    "ko": "긴 여행이 그녀의 에너지를 모두 소모시켰다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 860,
+  "word": "drama",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "드라마",
+     "연극"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We watched a Korean drama together.",
+    "ko": "우리는 함께 한국 드라마를 보았다."
+   },
+   {
+    "en": "She joined the school drama club.",
+    "ko": "그녀는 학교 연극 동아리에 가입했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 861,
+  "word": "draw",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "그리다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I like to draw.",
+    "ko": "나는 그림 그리는 것을 좋아한다."
+   },
+   {
+    "en": "She draws pictures every day.",
+    "ko": "그녀는 매일 그림을 그린다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 862,
+  "word": "dread",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "두려움"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "몹시 두려워하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She felt a sense of dread before the exam.",
+    "ko": "그녀는 시험 전에 두려움을 느꼈다."
+   },
+   {
+    "en": "He dreads going to the dentist.",
+    "ko": "그는 치과에 가는 것을 몹시 두려워한다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 863,
+  "word": "dream",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "꿈"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "꿈꾸다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I had a strange dream.",
+    "ko": "나는 이상한 꿈을 꾸었다."
+   },
+   {
+    "en": "She dreams of becoming a pilot.",
+    "ko": "그녀는 조종사가 되는 꿈을 꾼다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 864,
+  "word": "dress",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "드레스",
+     "옷"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "옷을 입다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She wore a red dress.",
+    "ko": "그녀는 빨간 드레스를 입었다."
+   },
+   {
+    "en": "He dressed quickly for school.",
+    "ko": "그는 학교에 가려고 빨리 옷을 입었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 865,
+  "word": "drill",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "훈련",
+     "드릴"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "반복 연습하다",
+     "구멍을 뚫다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The class did a fire drill this morning.",
+    "ko": "학급은 오늘 아침 화재 대피 훈련을 했다."
+   },
+   {
+    "en": "He drilled a hole in the wooden board.",
+    "ko": "그는 나무판에 구멍을 뚫었다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 866,
+  "word": "drink",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "음료"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "마시다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I drink water every day.",
+    "ko": "나는 매일 물을 마신다."
+   },
+   {
+    "en": "She drinks her juice fast.",
+    "ko": "그녀는 주스를 빨리 마신다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 867,
+  "word": "drive",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "운전하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My dad can drive.",
+    "ko": "우리 아빠는 운전할 수 있다."
+   },
+   {
+    "en": "She drives to work.",
+    "ko": "그녀는 차를 몰고 출근한다."
+   }
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 868,
+  "word": "drop",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "떨어뜨리다",
+     "떨어지다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Don't drop the plate!",
+    "ko": "접시를 떨어뜨리지 마!"
+   },
+   {
+    "en": "The leaves dropped fast.",
+    "ko": "나뭇잎이 빠르게 떨어졌다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 869,
+  "word": "drown",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "익사하다",
+     "물에 빠지다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The boy almost drowned in the river.",
+    "ko": "그 소년은 강에서 익사할 뻔했다."
+   },
+   {
+    "en": "She learned to swim so she wouldn't drown.",
+    "ko": "그녀는 물에 빠지지 않으려고 수영을 배웠다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 870,
+  "word": "drug",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "약물",
+     "마약"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The doctor gave him a new drug.",
+    "ko": "의사는 그에게 새로운 약을 주었다."
+   },
+   {
+    "en": "Taking illegal drugs is very dangerous.",
+    "ko": "불법 약물을 복용하는 것은 매우 위험하다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 871,
+  "word": "drum",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "드럼",
+     "북"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He plays the drum.",
+    "ko": "그는 드럼을 연주한다."
+   },
+   {
+    "en": "I hear a loud drum.",
+    "ko": "나는 시끄러운 북소리를 듣는다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 872,
+  "word": "dry",
+  "pos": [
+   "형용사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "마른",
+     "건조한"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "말리다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The towel is dry now.",
+    "ko": "수건이 이제 말랐다."
+   },
+   {
+    "en": "She dried her hair fast.",
+    "ko": "그녀는 머리를 빨리 말렸다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 873,
+  "word": "dual",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "이중의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She has dual citizenship in two countries.",
+    "ko": "그녀는 두 나라의 이중 국적을 가지고 있다."
+   },
+   {
+    "en": "The car has a dual exhaust system.",
+    "ko": "그 차는 이중 배기 장치를 가지고 있다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 874,
+  "word": "duck",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "오리"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I saw a duck.",
+    "ko": "나는 오리를 보았다."
+   },
+   {
+    "en": "The ducks swim in the pond.",
+    "ko": "오리들이 연못에서 헤엄친다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 875,
+  "word": "due",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "~예정인",
+     "~때문인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The report is due next Monday.",
+    "ko": "그 보고서는 다음 주 월요일까지이다."
+   },
+   {
+    "en": "The delay was due to heavy traffic.",
+    "ko": "그 지연은 심한 교통 체증 때문이었다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 876,
+  "word": "dull",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "지루한",
+     "무딘"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The movie was so dull that I fell asleep.",
+    "ko": "그 영화는 너무 지루해서 나는 잠이 들었다."
+   },
+   {
+    "en": "This knife has become quite dull.",
+    "ko": "이 칼은 꽤 무뎌졌다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 877,
+  "word": "dump",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "버리다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "쓰레기장"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please don't dump trash in the park.",
+    "ko": "공원에 쓰레기를 버리지 마세요."
+   },
+   {
+    "en": "The truck dumped sand near the road.",
+    "ko": "트럭이 도로 근처에 모래를 쏟아부었다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 878,
+  "word": "during",
+  "pos": [
+   "전치사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~동안"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I slept during the trip.",
+    "ko": "나는 여행하는 동안 잠을 잤다."
+   },
+   {
+    "en": "It rained during the night.",
+    "ko": "밤 동안 비가 왔다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 879,
+  "word": "dust",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "먼지"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "먼지를 털다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "There was dust on the old books.",
+    "ko": "오래된 책들 위에 먼지가 있었다."
+   },
+   {
+    "en": "She dusted the shelves before the guests came.",
+    "ko": "그녀는 손님이 오기 전에 선반의 먼지를 털었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 880,
+  "word": "duty",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "의무",
+     "임무"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It is my duty to help my family.",
+    "ko": "가족을 돕는 것은 나의 의무이다."
+   },
+   {
+    "en": "The soldiers were on duty all night.",
+    "ko": "군인들은 밤새 근무 중이었다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 881,
+  "word": "dwell",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "살다",
+     "거주하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Many animals dwell in this forest.",
+    "ko": "많은 동물들이 이 숲에 산다."
+   },
+   {
+    "en": "They dwelled in a small village for years.",
+    "ko": "그들은 몇 년 동안 작은 마을에서 살았다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 882,
+  "word": "dynamic",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "역동적인",
+     "활동적인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She has a dynamic personality.",
+    "ko": "그녀는 역동적인 성격을 가지고 있다."
+   },
+   {
+    "en": "The city has a dynamic and busy atmosphere.",
+    "ko": "그 도시는 역동적이고 분주한 분위기를 가지고 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 883,
+  "word": "each",
+  "pos": [
+   "한정사",
+   "대명사"
+  ],
+  "meanings": [
+   {
+    "pos": "한정사",
+    "ko": [
+     "각각의"
+    ]
+   },
+   {
+    "pos": "대명사",
+    "ko": [
+     "각각"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Do you know each other?",
+    "ko": "너희는 서로 아니?"
+   },
+   {
+    "en": "Each student got a book.",
+    "ko": "각 학생이 책을 한 권씩 받았다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 884,
+  "word": "eager",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "열망하는",
+     "열심인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She was eager to start her new job.",
+    "ko": "그녀는 새 직장을 시작하고 싶어 열망했다."
+   },
+   {
+    "en": "The puppy seemed eager to play outside.",
+    "ko": "강아지는 밖에서 놀고 싶어 안달 난 것 같았다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 885,
+  "word": "ear",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "귀"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My ear hurts.",
+    "ko": "내 귀가 아프다."
+   },
+   {
+    "en": "Rabbits have long ears.",
+    "ko": "토끼는 긴 귀를 가지고 있다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 886,
+  "word": "early",
+  "pos": [
+   "형용사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "일찍"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "이른"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I woke up early.",
+    "ko": "나는 일찍 일어났다."
+   },
+   {
+    "en": "She is always early.",
+    "ko": "그녀는 항상 이르다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 887,
+  "word": "earn",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "벌다",
+     "얻다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He earns money by washing cars.",
+    "ko": "그는 세차를 해서 돈을 번다."
+   },
+   {
+    "en": "She earned a good grade on the test.",
+    "ko": "그녀는 시험에서 좋은 성적을 얻었다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 888,
+  "word": "earth",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "지구",
+     "땅"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The Earth is round.",
+    "ko": "지구는 둥글다."
+   },
+   {
+    "en": "We live on Earth.",
+    "ko": "우리는 지구에 산다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 889,
+  "word": "ease",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "편안함",
+     "용이함"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "완화하다",
+     "편해지다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She answered the question with ease.",
+    "ko": "그녀는 쉽게 그 질문에 답했다."
+   },
+   {
+    "en": "The medicine eased his headache quickly.",
+    "ko": "그 약이 그의 두통을 빠르게 완화했다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 890,
+  "word": "east",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "동쪽"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "동쪽의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The sun rises in the east.",
+    "ko": "해는 동쪽에서 뜬다."
+   },
+   {
+    "en": "We drove east all day.",
+    "ko": "우리는 하루 종일 동쪽으로 운전했다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 891,
+  "word": "eat",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "먹다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I eat breakfast at eight.",
+    "ko": "나는 여덟 시에 아침을 먹는다."
+   },
+   {
+    "en": "She eats an apple every day.",
+    "ko": "그녀는 매일 사과를 먹는다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 892,
+  "word": "economy",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "경제"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The country's economy is growing fast.",
+    "ko": "그 나라의 경제는 빠르게 성장하고 있다."
+   },
+   {
+    "en": "Many people worry about the economy.",
+    "ko": "많은 사람들이 경제를 걱정한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 893,
+  "word": "edge",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "가장자리",
+     "모서리"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Don't stand too close to the edge.",
+    "ko": "가장자리에 너무 가까이 서지 마라."
+   },
+   {
+    "en": "The knife has a very sharp edge.",
+    "ko": "그 칼은 날이 매우 날카롭다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 894,
+  "word": "edit",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "편집하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She edited the video before uploading it.",
+    "ko": "그녀는 업로드하기 전에 영상을 편집했다."
+   },
+   {
+    "en": "He edits the school newspaper every week.",
+    "ko": "그는 매주 학교 신문을 편집한다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 895,
+  "word": "educate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "교육하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Schools educate children about many subjects.",
+    "ko": "학교는 아이들에게 여러 과목을 교육한다."
+   },
+   {
+    "en": "Parents also educate their kids at home.",
+    "ko": "부모도 집에서 아이들을 교육한다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 896,
+  "word": "effect",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "효과",
+     "영향"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The medicine had a strong effect.",
+    "ko": "그 약은 강한 효과가 있었다."
+   },
+   {
+    "en": "Loud music can have a bad effect on sleep.",
+    "ko": "시끄러운 음악은 수면에 나쁜 영향을 줄 수 있다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 897,
+  "word": "efficient",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "효율적인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The new machine is much more efficient.",
+    "ko": "새 기계는 훨씬 더 효율적이다."
+   },
+   {
+    "en": "She works in a fast and efficient way.",
+    "ko": "그녀는 빠르고 효율적으로 일한다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 898,
+  "word": "effort",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "노력"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She made a great effort to win.",
+    "ko": "그녀는 이기기 위해 큰 노력을 했다."
+   },
+   {
+    "en": "Learning a language takes a lot of effort.",
+    "ko": "언어를 배우는 데는 많은 노력이 필요하다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 899,
+  "word": "egg",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "달걀"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I like fried eggs.",
+    "ko": "나는 계란프라이를 좋아한다."
+   },
+   {
+    "en": "The hen laid an egg.",
+    "ko": "암탉이 알을 낳았다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 900,
+  "word": "eight",
+  "pos": [
+   "수사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "여덟"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I have eight pencils.",
+    "ko": "나는 연필이 여덟 자루 있다."
+   },
+   {
+    "en": "She is eight years old.",
+    "ko": "그녀는 여덟 살이다."
+   }
+  ],
+  "theme": "수량"
+ }
 ]

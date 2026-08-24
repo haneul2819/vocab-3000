@@ -1,52 +1,1478 @@
 [
- {"id": 601, "word": "contain", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["담고 있다", "포함하다"]}], "examples": [{"en": "This bottle contains one liter of water.", "ko": "이 병에는 물 1리터가 들어 있다."}, {"en": "The book contains many useful tips.", "ko": "그 책에는 유용한 조언이 많이 담겨 있다."}], "theme": "사물"},
- {"id": 602, "word": "contemporary", "pos": ["형용사", "명사"], "meanings": [{"pos": "형용사", "ko": ["현대의", "동시대의"]}, {"pos": "명사", "ko": ["동시대 사람"]}], "examples": [{"en": "She collects contemporary art from young painters.", "ko": "그녀는 젊은 화가들의 현대 미술 작품을 수집한다."}, {"en": "Shakespeare and Cervantes were contemporaries of each other.", "ko": "셰익스피어와 세르반테스는 서로 동시대 사람이었다."}], "theme": "추상"},
- {"id": 603, "word": "contend", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["주장하다", "경쟁하다"]}], "examples": [{"en": "Scientists contend that the climate is changing fast.", "ko": "과학자들은 기후가 빠르게 변하고 있다고 주장한다."}, {"en": "Two teams are contending for the championship title.", "ko": "두 팀이 우승 타이틀을 놓고 경쟁하고 있다."}], "theme": "사회"},
- {"id": 604, "word": "content", "pos": ["명사", "형용사"], "meanings": [{"pos": "명사", "ko": ["내용", "콘텐츠"]}, {"pos": "형용사", "ko": ["만족하는"]}], "examples": [{"en": "The content of the letter surprised everyone.", "ko": "그 편지의 내용은 모두를 놀라게 했다."}, {"en": "He seems content with his simple life.", "ko": "그는 자신의 소박한 삶에 만족하는 것 같다."}], "theme": "추상"},
- {"id": 605, "word": "contest", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["대회", "시합"]}, {"pos": "동사", "ko": ["이의를 제기하다"]}], "examples": [{"en": "She won first prize in the singing contest.", "ko": "그녀는 노래 대회에서 1등을 했다."}, {"en": "He decided to contest the referee's decision.", "ko": "그는 심판의 판정에 이의를 제기하기로 했다."}], "theme": "여가"},
- {"id": 606, "word": "context", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["맥락", "문맥"]}], "examples": [{"en": "You need more context to understand this joke.", "ko": "이 농담을 이해하려면 더 많은 맥락이 필요하다."}, {"en": "The word's meaning changes depending on the context.", "ko": "그 단어의 의미는 문맥에 따라 달라진다."}], "theme": "학교"},
- {"id": 607, "word": "continent", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["대륙"]}], "examples": [{"en": "Africa is the second largest continent in the world.", "ko": "아프리카는 세계에서 두 번째로 큰 대륙이다."}, {"en": "They plan to visit every continent before turning forty.", "ko": "그들은 마흔이 되기 전에 모든 대륙을 방문할 계획이다."}], "theme": "자연"},
- {"id": 608, "word": "continue", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["계속하다"]}], "examples": [{"en": "Please continue reading until the end of the chapter.", "ko": "그 장이 끝날 때까지 계속 읽어 주세요."}, {"en": "The rain continued all through the night.", "ko": "비는 밤새 계속 내렸다."}], "theme": "일상"},
- {"id": 609, "word": "contract", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["계약", "계약서"]}, {"pos": "동사", "ko": ["계약하다", "수축하다"]}], "examples": [{"en": "Both companies signed the contract yesterday.", "ko": "두 회사는 어제 계약서에 서명했다."}, {"en": "Metal contracts when the temperature drops.", "ko": "금속은 온도가 떨어지면 수축한다."}], "theme": "사회"},
- {"id": 610, "word": "contradict", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["모순되다", "반박하다"]}], "examples": [{"en": "His new statement contradicts what he said yesterday.", "ko": "그의 새 발언은 어제 한 말과 모순된다."}, {"en": "Don't contradict your teacher in front of the class.", "ko": "반 친구들 앞에서 선생님 말씀에 반박하지 마라."}], "theme": "소통"},
- {"id": 611, "word": "contrary", "pos": ["형용사", "명사"], "meanings": [{"pos": "형용사", "ko": ["반대되는"]}, {"pos": "명사", "ko": ["반대"]}], "examples": [{"en": "Contrary to his expectation, the test was very easy.", "ko": "그의 예상과는 반대로 시험은 매우 쉬웠다."}, {"en": "On the contrary, I think the plan will work well.", "ko": "오히려 나는 그 계획이 잘될 거라고 생각한다."}], "theme": "추상"},
- {"id": 612, "word": "contrast", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["대조", "차이"]}, {"pos": "동사", "ko": ["대조하다"]}], "examples": [{"en": "There is a sharp contrast between the two paintings.", "ko": "두 그림 사이에는 뚜렷한 대조가 있다."}, {"en": "The teacher asked us to contrast the two novels.", "ko": "선생님은 우리에게 두 소설을 대조해 보라고 하셨다."}], "theme": "학교"},
- {"id": 613, "word": "contribute", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["기여하다", "기부하다"]}], "examples": [{"en": "Everyone contributed ideas for the school festival.", "ko": "모두가 학교 축제를 위해 아이디어를 냈다."}, {"en": "She contributes money to the animal shelter every month.", "ko": "그녀는 매달 동물 보호소에 돈을 기부한다."}], "theme": "사회"},
- {"id": 614, "word": "control", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["조절", "통제"]}, {"pos": "동사", "ko": ["조절하다", "통제하다"]}], "examples": [{"en": "I lost control of the bike.", "ko": "나는 자전거를 통제할 수 없었다."}, {"en": "Can you control your dog?", "ko": "네 강아지를 통제할 수 있니?"}], "theme": "행동"},
- {"id": 615, "word": "controversy", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["논란", "논쟁"]}], "examples": [{"en": "The new law caused a huge controversy across the country.", "ko": "그 새 법은 전국적으로 큰 논란을 일으켰다."}, {"en": "There is still controversy over who invented the telephone.", "ko": "전화기를 누가 발명했는지에 대해 여전히 논란이 있다."}], "theme": "사회"},
- {"id": 616, "word": "convene", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["소집하다", "모이다"]}], "examples": [{"en": "The committee will convene next Monday morning.", "ko": "위원회는 다음 주 월요일 아침에 소집될 것이다."}, {"en": "Members convened in the hall to discuss the budget.", "ko": "회원들은 예산을 논의하기 위해 강당에 모였다."}], "theme": "사회"},
- {"id": 617, "word": "converse", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["대화하다"]}], "examples": [{"en": "They conversed comfortably in English for an hour.", "ko": "그들은 한 시간 동안 영어로 편하게 대화했다."}, {"en": "It's hard to converse with him about politics.", "ko": "그와 정치에 대해 대화하는 것은 어렵다."}], "theme": "소통"},
- {"id": 618, "word": "convert", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["전환하다", "개조하다"]}, {"pos": "명사", "ko": ["개종자"]}], "examples": [{"en": "They converted the old barn into a cozy house.", "ko": "그들은 낡은 헛간을 아늑한 집으로 개조했다."}, {"en": "Can you convert dollars into won for me?", "ko": "달러를 원으로 환전해 줄 수 있니?"}], "theme": "사물"},
- {"id": 619, "word": "convey", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["전달하다"]}], "examples": [{"en": "The letter conveyed her deep gratitude to the teacher.", "ko": "그 편지는 선생님께 그녀의 깊은 감사를 전달했다."}, {"en": "Music can convey emotions words cannot express.", "ko": "음악은 말로 표현할 수 없는 감정을 전달할 수 있다."}], "theme": "소통"},
- {"id": 620, "word": "convict", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["유죄를 선고하다"]}, {"pos": "명사", "ko": ["기결수"]}], "examples": [{"en": "The jury convicted him of theft last week.", "ko": "배심원단은 지난주 그에게 절도 유죄를 선고했다."}, {"en": "The convict was sent to a prison far away.", "ko": "그 기결수는 멀리 있는 교도소로 보내졌다."}], "theme": "사회"},
- {"id": 621, "word": "convince", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["설득하다", "확신시키다"]}], "examples": [{"en": "I convinced my parents to let me go on the trip.", "ko": "나는 부모님을 설득해서 여행을 가도 좋다는 허락을 받았다."}, {"en": "Her argument convinced everyone in the room.", "ko": "그녀의 주장은 방 안의 모두를 확신시켰다."}], "theme": "소통"},
- {"id": 622, "word": "cook", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["요리하다"]}, {"pos": "명사", "ko": ["요리사"]}], "examples": [{"en": "My dad cooks dinner every Friday.", "ko": "우리 아빠는 금요일마다 저녁을 요리하신다."}, {"en": "She wants to be a cook.", "ko": "그녀는 요리사가 되고 싶어 한다."}], "theme": "음식"},
- {"id": 623, "word": "cookie", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["쿠키", "과자"]}], "examples": [{"en": "I baked cookies with my sister.", "ko": "나는 언니와 쿠키를 구웠다."}, {"en": "These cookies smell so sweet.", "ko": "이 쿠키들은 정말 달콤한 냄새가 난다."}], "theme": "음식"},
- {"id": 624, "word": "cool", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["시원한", "멋진"]}], "examples": [{"en": "It was cool, but windy.", "ko": "날씨는 시원했지만 바람이 불었다."}, {"en": "That new bike looks really cool.", "ko": "그 새 자전거는 정말 멋져 보인다."}], "theme": "자연"},
- {"id": 625, "word": "cooperate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["협력하다"]}], "examples": [{"en": "The two countries agreed to cooperate on the project.", "ko": "두 나라는 그 프로젝트에서 협력하기로 합의했다."}, {"en": "If we cooperate, we can finish this faster.", "ko": "우리가 협력하면 이 일을 더 빨리 끝낼 수 있다."}], "theme": "사회"},
- {"id": 626, "word": "coordinate", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["조정하다", "맞추다"]}, {"pos": "명사", "ko": ["좌표"]}], "examples": [{"en": "She coordinates the schedules of five different teams.", "ko": "그녀는 다섯 팀의 일정을 조정한다."}, {"en": "Type in the map coordinates to find the island.", "ko": "그 섬을 찾으려면 지도 좌표를 입력해라."}], "theme": "사회"},
- {"id": 627, "word": "cop", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["경찰관"]}], "examples": [{"en": "A cop stopped the car for speeding.", "ko": "경찰관이 과속으로 그 차를 세웠다."}, {"en": "Two cops arrived at the scene quickly.", "ko": "경찰관 두 명이 현장에 빠르게 도착했다."}], "theme": "직업"},
- {"id": 628, "word": "cope", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["대처하다", "견디다"]}], "examples": [{"en": "It's not easy to cope with so much stress.", "ko": "그렇게 많은 스트레스에 대처하는 것은 쉽지 않다."}, {"en": "She coped well with the sudden change.", "ko": "그녀는 갑작스러운 변화에 잘 대처했다."}], "theme": "감정"},
- {"id": 629, "word": "copy", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["복사본", "사본"]}, {"pos": "동사", "ko": ["복사하다", "베끼다"]}], "examples": [{"en": "Please make a copy of this document.", "ko": "이 문서의 사본을 하나 만들어 주세요."}, {"en": "He copied the answer from his friend.", "ko": "그는 친구의 답을 베꼈다."}], "theme": "학교"},
- {"id": 630, "word": "copyright", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["저작권"]}], "examples": [{"en": "You cannot use this photo without copyright permission.", "ko": "저작권 허가 없이 이 사진을 사용할 수 없다."}, {"en": "The company holds the copyright to the song.", "ko": "그 회사는 그 노래의 저작권을 가지고 있다."}], "theme": "사회"},
- {"id": 631, "word": "cord", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["끈", "전선"]}], "examples": [{"en": "The lamp's cord is too short for this outlet.", "ko": "그 램프의 전선은 이 콘센트에 쓰기엔 너무 짧다."}, {"en": "He tied the tent down with a thick cord.", "ko": "그는 두꺼운 끈으로 텐트를 고정했다."}], "theme": "사물"},
- {"id": 632, "word": "core", "pos": ["명사", "형용사"], "meanings": [{"pos": "명사", "ko": ["핵심", "중심부"]}, {"pos": "형용사", "ko": ["핵심적인"]}], "examples": [{"en": "Honesty is the core of a good friendship.", "ko": "정직은 좋은 우정의 핵심이다."}, {"en": "The earth's core is extremely hot.", "ko": "지구의 중심부는 매우 뜨겁다."}], "theme": "추상"},
- {"id": 633, "word": "corn", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["옥수수"]}], "examples": [{"en": "We grew corn in our backyard garden this summer.", "ko": "우리는 이번 여름 뒷마당 텃밭에서 옥수수를 길렀다."}, {"en": "She likes to eat popcorn made from fresh corn.", "ko": "그녀는 신선한 옥수수로 만든 팝콘 먹는 것을 좋아한다."}], "theme": "음식"},
- {"id": 634, "word": "corner", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["구석", "모퉁이"]}], "examples": [{"en": "The cat is sleeping in the corner.", "ko": "고양이가 구석에서 자고 있다."}, {"en": "Turn right at the corner.", "ko": "모퉁이에서 오른쪽으로 돌아라."}], "theme": "장소"},
- {"id": 635, "word": "corporate", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["기업의", "회사의"]}], "examples": [{"en": "She works in the corporate office downtown.", "ko": "그녀는 시내에 있는 기업 사무실에서 일한다."}, {"en": "The corporate world can be very competitive.", "ko": "기업 세계는 매우 경쟁적일 수 있다."}], "theme": "직업"},
- {"id": 636, "word": "correct", "pos": ["형용사", "동사"], "meanings": [{"pos": "형용사", "ko": ["옳은", "정확한"]}, {"pos": "동사", "ko": ["바로잡다", "고치다"]}], "examples": [{"en": "Your answer is completely correct.", "ko": "네 답은 완전히 정확하다."}, {"en": "The teacher corrected our spelling mistakes.", "ko": "선생님은 우리의 철자 오류를 고쳐 주셨다."}], "theme": "학교"},
- {"id": 637, "word": "correspond", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["일치하다", "서신을 주고받다"]}], "examples": [{"en": "The results correspond closely with our first prediction.", "ko": "그 결과는 우리의 첫 예측과 거의 일치한다."}, {"en": "The two friends corresponded by letter for years.", "ko": "그 두 친구는 몇 년 동안 편지로 서신을 주고받았다."}], "theme": "소통"},
- {"id": 638, "word": "corridor", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["복도"]}], "examples": [{"en": "Students were talking quietly in the corridor.", "ko": "학생들은 복도에서 조용히 이야기하고 있었다."}, {"en": "The corridor leads directly to the library.", "ko": "그 복도는 도서관으로 바로 이어진다."}], "theme": "장소"},
- {"id": 639, "word": "corrupt", "pos": ["형용사", "동사"], "meanings": [{"pos": "형용사", "ko": ["부패한"]}, {"pos": "동사", "ko": ["타락시키다"]}], "examples": [{"en": "The corrupt official was finally arrested by police.", "ko": "그 부패한 공무원은 결국 경찰에 체포되었다."}, {"en": "Greed can corrupt even good people over time.", "ko": "탐욕은 시간이 지나면 좋은 사람도 타락시킬 수 있다."}], "theme": "사회"},
- {"id": 640, "word": "cost", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["비용", "값"]}, {"pos": "동사", "ko": ["비용이 들다"]}], "examples": [{"en": "How much does it cost?", "ko": "이건 값이 얼마인가요?"}, {"en": "This bag costs too much.", "ko": "이 가방은 너무 비싸다."}], "theme": "수량"},
- {"id": 641, "word": "costume", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["의상", "분장"]}], "examples": [{"en": "She wore a witch costume for the Halloween party.", "ko": "그녀는 핼러윈 파티에서 마녀 의상을 입었다."}, {"en": "The actors changed costumes backstage between scenes.", "ko": "배우들은 장면 사이에 무대 뒤에서 의상을 갈아입었다."}], "theme": "여가"},
- {"id": 642, "word": "cottage", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["작은 집", "오두막"]}], "examples": [{"en": "We stayed in a small cottage by the lake.", "ko": "우리는 호숫가의 작은 오두막에 머물렀다."}, {"en": "Her grandmother lives in a cozy cottage in the countryside.", "ko": "그녀의 할머니는 시골의 아늑한 오두막에 사신다."}], "theme": "장소"},
- {"id": 643, "word": "cotton", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["면", "목화"]}], "examples": [{"en": "This shirt is made of pure cotton.", "ko": "이 셔츠는 순면으로 만들어졌다."}, {"en": "Farmers grow cotton in the warm southern fields.", "ko": "농부들은 따뜻한 남부 지역 밭에서 목화를 재배한다."}], "theme": "사물"},
- {"id": 644, "word": "cough", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["기침하다"]}, {"pos": "명사", "ko": ["기침"]}], "examples": [{"en": "He coughed all night because of his cold.", "ko": "그는 감기 때문에 밤새 기침을 했다."}, {"en": "She has a bad cough and a sore throat.", "ko": "그녀는 심한 기침과 목 통증이 있다."}], "theme": "신체"},
- {"id": 645, "word": "could", "pos": ["조동사"], "meanings": [{"pos": "조동사", "ko": ["~할 수 있었다", "~해 줄 수 있나요"]}], "examples": [{"en": "Could you give me some advice?", "ko": "저에게 조언을 좀 해 주실 수 있나요?"}, {"en": "I could swim when I was five.", "ko": "나는 다섯 살 때 수영을 할 수 있었다."}], "theme": "소통"},
- {"id": 646, "word": "council", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["의회", "협의회"]}], "examples": [{"en": "The student council planned the school festival.", "ko": "학생회는 학교 축제를 계획했다."}, {"en": "The city council will vote on the new park.", "ko": "시의회는 새 공원 건에 대해 투표할 것이다."}], "theme": "사회"},
- {"id": 647, "word": "counsel", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["조언", "상담"]}, {"pos": "동사", "ko": ["조언하다", "상담하다"]}], "examples": [{"en": "She sought counsel from her favorite teacher.", "ko": "그녀는 가장 좋아하는 선생님께 조언을 구했다."}, {"en": "The advisor counseled students about their career choices.", "ko": "그 상담사는 학생들의 진로 선택에 대해 조언했다."}], "theme": "소통"},
- {"id": 648, "word": "count", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["세다", "계산하다"]}, {"pos": "명사", "ko": ["계산", "수"]}], "examples": [{"en": "Can you count from one to ten in French?", "ko": "프랑스어로 1부터 10까지 셀 수 있니?"}, {"en": "She counted the coins in her piggy bank.", "ko": "그녀는 저금통 안의 동전을 세었다."}], "theme": "수량"},
- {"id": 649, "word": "counterpart", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["상대방", "대응물"]}], "examples": [{"en": "The minister met with her counterpart from another country.", "ko": "그 장관은 다른 나라의 상대방과 만났다."}, {"en": "Our team discussed the plan with our overseas counterparts.", "ko": "우리 팀은 해외 상대측과 그 계획을 논의했다."}], "theme": "사회"},
- {"id": 650, "word": "country", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["나라", "국가", "시골"]}], "examples": [{"en": "I love my country very much.", "ko": "나는 우리나라를 매우 사랑한다."}, {"en": "They moved to the country to relax.", "ko": "그들은 쉬기 위해 시골로 이사했다."}], "theme": "장소"}
+ {
+  "id": 601,
+  "word": "contain",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "담고 있다",
+     "포함하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This bottle contains one liter of water.",
+    "ko": "이 병에는 물 1리터가 들어 있다."
+   },
+   {
+    "en": "The book contains many useful tips.",
+    "ko": "그 책에는 유용한 조언이 많이 담겨 있다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 602,
+  "word": "contemporary",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "현대의",
+     "동시대의"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "동시대 사람"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She collects contemporary art from young painters.",
+    "ko": "그녀는 젊은 화가들의 현대 미술 작품을 수집한다."
+   },
+   {
+    "en": "Shakespeare and Cervantes were contemporaries of each other.",
+    "ko": "셰익스피어와 세르반테스는 서로 동시대 사람이었다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 603,
+  "word": "contend",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "주장하다",
+     "경쟁하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Scientists contend that the climate is changing fast.",
+    "ko": "과학자들은 기후가 빠르게 변하고 있다고 주장한다."
+   },
+   {
+    "en": "Two teams are contending for the championship title.",
+    "ko": "두 팀이 우승 타이틀을 놓고 경쟁하고 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 604,
+  "word": "content",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "내용",
+     "콘텐츠"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "만족하는"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The content of the letter surprised everyone.",
+    "ko": "그 편지의 내용은 모두를 놀라게 했다."
+   },
+   {
+    "en": "He seems content with his simple life.",
+    "ko": "그는 자신의 소박한 삶에 만족하는 것 같다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 605,
+  "word": "contest",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "대회",
+     "시합"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "이의를 제기하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She won first prize in the singing contest.",
+    "ko": "그녀는 노래 대회에서 1등을 했다."
+   },
+   {
+    "en": "He decided to contest the referee's decision.",
+    "ko": "그는 심판의 판정에 이의를 제기하기로 했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 606,
+  "word": "context",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "맥락",
+     "문맥"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "You need more context to understand this joke.",
+    "ko": "이 농담을 이해하려면 더 많은 맥락이 필요하다."
+   },
+   {
+    "en": "The word's meaning changes depending on the context.",
+    "ko": "그 단어의 의미는 문맥에 따라 달라진다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 607,
+  "word": "continent",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "대륙"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Africa is the second largest continent in the world.",
+    "ko": "아프리카는 세계에서 두 번째로 큰 대륙이다."
+   },
+   {
+    "en": "They plan to visit every continent before turning forty.",
+    "ko": "그들은 마흔이 되기 전에 모든 대륙을 방문할 계획이다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 608,
+  "word": "continue",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "계속하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please continue reading until the end of the chapter.",
+    "ko": "그 장이 끝날 때까지 계속 읽어 주세요."
+   },
+   {
+    "en": "The rain continued all through the night.",
+    "ko": "비는 밤새 계속 내렸다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 609,
+  "word": "contract",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "계약",
+     "계약서"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "계약하다",
+     "수축하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Both companies signed the contract yesterday.",
+    "ko": "두 회사는 어제 계약서에 서명했다."
+   },
+   {
+    "en": "Metal contracts when the temperature drops.",
+    "ko": "금속은 온도가 떨어지면 수축한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 610,
+  "word": "contradict",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "모순되다",
+     "반박하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "His new statement contradicts what he said yesterday.",
+    "ko": "그의 새 발언은 어제 한 말과 모순된다."
+   },
+   {
+    "en": "Don't contradict your teacher in front of the class.",
+    "ko": "반 친구들 앞에서 선생님 말씀에 반박하지 마라."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 611,
+  "word": "contrary",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "반대되는"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "반대"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Contrary to his expectation, the test was very easy.",
+    "ko": "그의 예상과는 반대로 시험은 매우 쉬웠다."
+   },
+   {
+    "en": "On the contrary, I think the plan will work well.",
+    "ko": "오히려 나는 그 계획이 잘될 거라고 생각한다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 612,
+  "word": "contrast",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "대조",
+     "차이"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "대조하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "There is a sharp contrast between the two paintings.",
+    "ko": "두 그림 사이에는 뚜렷한 대조가 있다."
+   },
+   {
+    "en": "The teacher asked us to contrast the two novels.",
+    "ko": "선생님은 우리에게 두 소설을 대조해 보라고 하셨다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 613,
+  "word": "contribute",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "기여하다",
+     "기부하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Everyone contributed ideas for the school festival.",
+    "ko": "모두가 학교 축제를 위해 아이디어를 냈다."
+   },
+   {
+    "en": "She contributes money to the animal shelter every month.",
+    "ko": "그녀는 매달 동물 보호소에 돈을 기부한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 614,
+  "word": "control",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "조절",
+     "통제"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "조절하다",
+     "통제하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I lost control of the bike.",
+    "ko": "나는 자전거를 통제할 수 없었다."
+   },
+   {
+    "en": "Can you control your dog?",
+    "ko": "네 강아지를 통제할 수 있니?"
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 615,
+  "word": "controversy",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "논란",
+     "논쟁"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The new law caused a huge controversy across the country.",
+    "ko": "그 새 법은 전국적으로 큰 논란을 일으켰다."
+   },
+   {
+    "en": "There is still controversy over who invented the telephone.",
+    "ko": "전화기를 누가 발명했는지에 대해 여전히 논란이 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 616,
+  "word": "convene",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "소집하다",
+     "모이다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The committee will convene next Monday morning.",
+    "ko": "위원회는 다음 주 월요일 아침에 소집될 것이다."
+   },
+   {
+    "en": "Members convened in the hall to discuss the budget.",
+    "ko": "회원들은 예산을 논의하기 위해 강당에 모였다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 617,
+  "word": "converse",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "대화하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "They conversed comfortably in English for an hour.",
+    "ko": "그들은 한 시간 동안 영어로 편하게 대화했다."
+   },
+   {
+    "en": "It's hard to converse with him about politics.",
+    "ko": "그와 정치에 대해 대화하는 것은 어렵다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 618,
+  "word": "convert",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "전환하다",
+     "개조하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "개종자"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "They converted the old barn into a cozy house.",
+    "ko": "그들은 낡은 헛간을 아늑한 집으로 개조했다."
+   },
+   {
+    "en": "Can you convert dollars into won for me?",
+    "ko": "달러를 원으로 환전해 줄 수 있니?"
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 619,
+  "word": "convey",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "전달하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The letter conveyed her deep gratitude to the teacher.",
+    "ko": "그 편지는 선생님께 그녀의 깊은 감사를 전달했다."
+   },
+   {
+    "en": "Music can convey emotions words cannot express.",
+    "ko": "음악은 말로 표현할 수 없는 감정을 전달할 수 있다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 620,
+  "word": "convict",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "유죄를 선고하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "기결수"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The jury convicted him of theft last week.",
+    "ko": "배심원단은 지난주 그에게 절도 유죄를 선고했다."
+   },
+   {
+    "en": "The convict was sent to a prison far away.",
+    "ko": "그 기결수는 멀리 있는 교도소로 보내졌다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 621,
+  "word": "convince",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "설득하다",
+     "확신시키다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I convinced my parents to let me go on the trip.",
+    "ko": "나는 부모님을 설득해서 여행을 가도 좋다는 허락을 받았다."
+   },
+   {
+    "en": "Her argument convinced everyone in the room.",
+    "ko": "그녀의 주장은 방 안의 모두를 확신시켰다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 622,
+  "word": "cook",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "요리하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "요리사"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My dad cooks dinner every Friday.",
+    "ko": "우리 아빠는 금요일마다 저녁을 요리하신다."
+   },
+   {
+    "en": "She wants to be a cook.",
+    "ko": "그녀는 요리사가 되고 싶어 한다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 623,
+  "word": "cookie",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "쿠키",
+     "과자"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I baked cookies with my sister.",
+    "ko": "나는 언니와 쿠키를 구웠다."
+   },
+   {
+    "en": "These cookies smell so sweet.",
+    "ko": "이 쿠키들은 정말 달콤한 냄새가 난다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 624,
+  "word": "cool",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "시원한",
+     "멋진"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It was cool, but windy.",
+    "ko": "날씨는 시원했지만 바람이 불었다."
+   },
+   {
+    "en": "That new bike looks really cool.",
+    "ko": "그 새 자전거는 정말 멋져 보인다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 625,
+  "word": "cooperate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "협력하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The two countries agreed to cooperate on the project.",
+    "ko": "두 나라는 그 프로젝트에서 협력하기로 합의했다."
+   },
+   {
+    "en": "If we cooperate, we can finish this faster.",
+    "ko": "우리가 협력하면 이 일을 더 빨리 끝낼 수 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 626,
+  "word": "coordinate",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "조정하다",
+     "맞추다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "좌표"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She coordinates the schedules of five different teams.",
+    "ko": "그녀는 다섯 팀의 일정을 조정한다."
+   },
+   {
+    "en": "Type in the map coordinates to find the island.",
+    "ko": "그 섬을 찾으려면 지도 좌표를 입력해라."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 627,
+  "word": "cop",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "경찰관"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "A cop stopped the car for speeding.",
+    "ko": "경찰관이 과속으로 그 차를 세웠다."
+   },
+   {
+    "en": "Two cops arrived at the scene quickly.",
+    "ko": "경찰관 두 명이 현장에 빠르게 도착했다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 628,
+  "word": "cope",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "대처하다",
+     "견디다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It's not easy to cope with so much stress.",
+    "ko": "그렇게 많은 스트레스에 대처하는 것은 쉽지 않다."
+   },
+   {
+    "en": "She coped well with the sudden change.",
+    "ko": "그녀는 갑작스러운 변화에 잘 대처했다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 629,
+  "word": "copy",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "복사본",
+     "사본"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "복사하다",
+     "베끼다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please make a copy of this document.",
+    "ko": "이 문서의 사본을 하나 만들어 주세요."
+   },
+   {
+    "en": "He copied the answer from his friend.",
+    "ko": "그는 친구의 답을 베꼈다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 630,
+  "word": "copyright",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "저작권"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "You cannot use this photo without copyright permission.",
+    "ko": "저작권 허가 없이 이 사진을 사용할 수 없다."
+   },
+   {
+    "en": "The company holds the copyright to the song.",
+    "ko": "그 회사는 그 노래의 저작권을 가지고 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 631,
+  "word": "cord",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "끈",
+     "전선"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The lamp's cord is too short for this outlet.",
+    "ko": "그 램프의 전선은 이 콘센트에 쓰기엔 너무 짧다."
+   },
+   {
+    "en": "He tied the tent down with a thick cord.",
+    "ko": "그는 두꺼운 끈으로 텐트를 고정했다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 632,
+  "word": "core",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "핵심",
+     "중심부"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "핵심적인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Honesty is the core of a good friendship.",
+    "ko": "정직은 좋은 우정의 핵심이다."
+   },
+   {
+    "en": "The earth's core is extremely hot.",
+    "ko": "지구의 중심부는 매우 뜨겁다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 633,
+  "word": "corn",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "옥수수"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We grew corn in our backyard garden this summer.",
+    "ko": "우리는 이번 여름 뒷마당 텃밭에서 옥수수를 길렀다."
+   },
+   {
+    "en": "She likes to eat popcorn made from fresh corn.",
+    "ko": "그녀는 신선한 옥수수로 만든 팝콘 먹는 것을 좋아한다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 634,
+  "word": "corner",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "구석",
+     "모퉁이"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The cat is sleeping in the corner.",
+    "ko": "고양이가 구석에서 자고 있다."
+   },
+   {
+    "en": "Turn right at the corner.",
+    "ko": "모퉁이에서 오른쪽으로 돌아라."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 635,
+  "word": "corporate",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "기업의",
+     "회사의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She works in the corporate office downtown.",
+    "ko": "그녀는 시내에 있는 기업 사무실에서 일한다."
+   },
+   {
+    "en": "The corporate world can be very competitive.",
+    "ko": "기업 세계는 매우 경쟁적일 수 있다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 636,
+  "word": "correct",
+  "pos": [
+   "형용사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "옳은",
+     "정확한"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "바로잡다",
+     "고치다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Your answer is completely correct.",
+    "ko": "네 답은 완전히 정확하다."
+   },
+   {
+    "en": "The teacher corrected our spelling mistakes.",
+    "ko": "선생님은 우리의 철자 오류를 고쳐 주셨다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 637,
+  "word": "correspond",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "일치하다",
+     "서신을 주고받다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The results correspond closely with our first prediction.",
+    "ko": "그 결과는 우리의 첫 예측과 거의 일치한다."
+   },
+   {
+    "en": "The two friends corresponded by letter for years.",
+    "ko": "그 두 친구는 몇 년 동안 편지로 서신을 주고받았다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 638,
+  "word": "corridor",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "복도"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Students were talking quietly in the corridor.",
+    "ko": "학생들은 복도에서 조용히 이야기하고 있었다."
+   },
+   {
+    "en": "The corridor leads directly to the library.",
+    "ko": "그 복도는 도서관으로 바로 이어진다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 639,
+  "word": "corrupt",
+  "pos": [
+   "형용사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "부패한"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "타락시키다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The corrupt official was finally arrested by police.",
+    "ko": "그 부패한 공무원은 결국 경찰에 체포되었다."
+   },
+   {
+    "en": "Greed can corrupt even good people over time.",
+    "ko": "탐욕은 시간이 지나면 좋은 사람도 타락시킬 수 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 640,
+  "word": "cost",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "비용",
+     "값"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "비용이 들다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "How much does it cost?",
+    "ko": "이건 값이 얼마인가요?"
+   },
+   {
+    "en": "This bag costs too much.",
+    "ko": "이 가방은 너무 비싸다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 641,
+  "word": "costume",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "의상",
+     "분장"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She wore a witch costume for the Halloween party.",
+    "ko": "그녀는 핼러윈 파티에서 마녀 의상을 입었다."
+   },
+   {
+    "en": "The actors changed costumes backstage between scenes.",
+    "ko": "배우들은 장면 사이에 무대 뒤에서 의상을 갈아입었다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 642,
+  "word": "cottage",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "작은 집",
+     "오두막"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We stayed in a small cottage by the lake.",
+    "ko": "우리는 호숫가의 작은 오두막에 머물렀다."
+   },
+   {
+    "en": "Her grandmother lives in a cozy cottage in the countryside.",
+    "ko": "그녀의 할머니는 시골의 아늑한 오두막에 사신다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 643,
+  "word": "cotton",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "면",
+     "목화"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This shirt is made of pure cotton.",
+    "ko": "이 셔츠는 순면으로 만들어졌다."
+   },
+   {
+    "en": "Farmers grow cotton in the warm southern fields.",
+    "ko": "농부들은 따뜻한 남부 지역 밭에서 목화를 재배한다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 644,
+  "word": "cough",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "기침하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "기침"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He coughed all night because of his cold.",
+    "ko": "그는 감기 때문에 밤새 기침을 했다."
+   },
+   {
+    "en": "She has a bad cough and a sore throat.",
+    "ko": "그녀는 심한 기침과 목 통증이 있다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 645,
+  "word": "could",
+  "pos": [
+   "조동사"
+  ],
+  "meanings": [
+   {
+    "pos": "조동사",
+    "ko": [
+     "~할 수 있었다",
+     "~해 줄 수 있나요"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Could you give me some advice?",
+    "ko": "저에게 조언을 좀 해 주실 수 있나요?"
+   },
+   {
+    "en": "I could swim when I was five.",
+    "ko": "나는 다섯 살 때 수영을 할 수 있었다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 646,
+  "word": "council",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "의회",
+     "협의회"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The student council planned the school festival.",
+    "ko": "학생회는 학교 축제를 계획했다."
+   },
+   {
+    "en": "The city council will vote on the new park.",
+    "ko": "시의회는 새 공원 건에 대해 투표할 것이다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 647,
+  "word": "counsel",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "조언",
+     "상담"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "조언하다",
+     "상담하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She sought counsel from her favorite teacher.",
+    "ko": "그녀는 가장 좋아하는 선생님께 조언을 구했다."
+   },
+   {
+    "en": "The advisor counseled students about their career choices.",
+    "ko": "그 상담사는 학생들의 진로 선택에 대해 조언했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 648,
+  "word": "count",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "세다",
+     "계산하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "계산",
+     "수"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Can you count from one to ten in French?",
+    "ko": "프랑스어로 1부터 10까지 셀 수 있니?"
+   },
+   {
+    "en": "She counted the coins in her piggy bank.",
+    "ko": "그녀는 저금통 안의 동전을 세었다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 649,
+  "word": "counterpart",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "상대방",
+     "대응물"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The minister met with her counterpart from another country.",
+    "ko": "그 장관은 다른 나라의 상대방과 만났다."
+   },
+   {
+    "en": "Our team discussed the plan with our overseas counterparts.",
+    "ko": "우리 팀은 해외 상대측과 그 계획을 논의했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 650,
+  "word": "country",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "나라",
+     "국가",
+     "시골"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I love my country very much.",
+    "ko": "나는 우리나라를 매우 사랑한다."
+   },
+   {
+    "en": "They moved to the country to relax.",
+    "ko": "그들은 쉬기 위해 시골로 이사했다."
+   }
+  ],
+  "theme": "장소"
+ }
 ]

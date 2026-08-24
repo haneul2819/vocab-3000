@@ -1,52 +1,1371 @@
 [
- {"id":2651,"word":"taxi","pos":["명사"],"meanings":[{"pos":"명사","ko":["택시"]}],"examples":[{"en":"We took a taxi home.","ko":"우리는 택시를 타고 집에 갔다."},{"en":"The taxi arrived quickly.","ko":"택시가 빨리 도착했다."}],"theme":"교통"},
- {"id":2652,"word":"tea","pos":["명사"],"meanings":[{"pos":"명사","ko":["차"]}],"examples":[{"en":"My mother likes to drink green tea every morning.","ko":"우리 엄마는 매일 아침 녹차 마시는 것을 좋아하신다."},{"en":"Would you like some hot tea?","ko":"따뜻한 차 좀 드시겠어요?"}],"theme":"음식"},
- {"id":2653,"word":"teach","pos":["동사"],"meanings":[{"pos":"동사","ko":["가르치다"]}],"examples":[{"en":"He will teach me math.","ko":"그는 나에게 수학을 가르쳐 줄 것이다."},{"en":"She teaches English at school.","ko":"그녀는 학교에서 영어를 가르친다."}],"theme":"학교"},
- {"id":2654,"word":"team","pos":["명사"],"meanings":[{"pos":"명사","ko":["팀"]}],"examples":[{"en":"Our team won the game.","ko":"우리 팀이 경기에서 이겼다."},{"en":"I am on the soccer team.","ko":"나는 축구팀에 속해 있다."}],"theme":"여가"},
- {"id":2655,"word":"tear","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["눈물"]},{"pos":"동사","ko":["찢다"]}],"examples":[{"en":"A tear rolled down her cheek during the movie.","ko":"영화를 보는 동안 그녀의 뺨으로 눈물이 흘러내렸다."},{"en":"Be careful not to tear the paper.","ko":"종이를 찢지 않도록 조심해라."}],"theme":"감정"},
- {"id":2656,"word":"tease","pos":["동사"],"meanings":[{"pos":"동사","ko":["놀리다"]}],"examples":[{"en":"Older kids sometimes tease younger students at school.","ko":"나이 많은 아이들은 가끔 학교에서 어린 학생들을 놀린다."},{"en":"Please don't tease your little sister like that.","ko":"그렇게 여동생을 놀리지 마."}],"theme":"학교"},
- {"id":2657,"word":"technique","pos":["명사"],"meanings":[{"pos":"명사","ko":["기술","기법"]}],"examples":[{"en":"The artist used a new painting technique.","ko":"그 화가는 새로운 그림 기법을 사용했다."},{"en":"This technique helps students remember new words.","ko":"이 기법은 학생들이 새 단어를 기억하는 데 도움이 된다."}],"theme":"학교"},
- {"id":2658,"word":"technology","pos":["명사"],"meanings":[{"pos":"명사","ko":["기술"]}],"examples":[{"en":"Modern technology has changed how we communicate.","ko":"현대 기술은 우리가 소통하는 방식을 바꾸었다."},{"en":"Students use technology to learn new things.","ko":"학생들은 새로운 것을 배우기 위해 기술을 사용한다."}],"theme":"과학"},
- {"id":2659,"word":"teenage","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["십 대의"]}],"examples":[{"en":"Many teenage students spend hours on their phones.","ko":"많은 십 대 학생들이 휴대폰에 여러 시간을 쓴다."},{"en":"Her teenage daughter loves listening to music.","ko":"그녀의 십 대 딸은 음악 듣는 것을 좋아한다."}],"theme":"가족"},
- {"id":2660,"word":"telegraph","pos":["명사"],"meanings":[{"pos":"명사","ko":["전신"]}],"examples":[{"en":"People used the telegraph to send messages long ago.","ko":"옛날 사람들은 메시지를 보내기 위해 전신을 사용했다."},{"en":"The telegraph was an important invention in history.","ko":"전신은 역사적으로 중요한 발명품이었다."}],"theme":"소통"},
- {"id":2661,"word":"telephone","pos":["명사"],"meanings":[{"pos":"명사","ko":["전화"]}],"examples":[{"en":"I answered the telephone quickly.","ko":"나는 전화를 재빨리 받았다."},{"en":"The telephone rang loudly.","ko":"전화벨이 크게 울렸다."}],"theme":"소통"},
- {"id":2662,"word":"television","pos":["명사"],"meanings":[{"pos":"명사","ko":["텔레비전"]}],"examples":[{"en":"I watch television after dinner.","ko":"나는 저녁 식사 후에 텔레비전을 본다."},{"en":"Turn off the television, please.","ko":"텔레비전을 꺼 주세요."}],"theme":"여가"},
- {"id":2663,"word":"tell","pos":["동사"],"meanings":[{"pos":"동사","ko":["말하다"]}],"examples":[{"en":"Please tell me the truth.","ko":"나에게 진실을 말해줘."},{"en":"I will tell you a secret.","ko":"내가 너에게 비밀을 말해줄게."}],"theme":"소통"},
- {"id":2664,"word":"temperature","pos":["명사"],"meanings":[{"pos":"명사","ko":["온도","기온"]}],"examples":[{"en":"The temperature dropped suddenly last night.","ko":"지난밤 기온이 갑자기 떨어졌다."},{"en":"Please check your temperature before school.","ko":"학교 가기 전에 체온을 확인해라."}],"theme":"과학"},
- {"id":2665,"word":"temple","pos":["명사"],"meanings":[{"pos":"명사","ko":["사원","절"]}],"examples":[{"en":"We visited an old Buddhist temple during our trip.","ko":"우리는 여행 중에 오래된 불교 사원을 방문했다."},{"en":"The temple was quiet and peaceful in the morning.","ko":"그 사원은 아침에 조용하고 평화로웠다."}],"theme":"장소"},
- {"id":2666,"word":"temporary","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["일시적인","임시의"]}],"examples":[{"en":"She took a temporary job at the bookstore.","ko":"그녀는 서점에서 임시직을 구했다."},{"en":"The pain in his leg was only temporary.","ko":"그의 다리 통증은 일시적인 것이었다."}],"theme":"일상"},
- {"id":2667,"word":"tempt","pos":["동사"],"meanings":[{"pos":"동사","ko":["유혹하다"]}],"examples":[{"en":"The smell of cookies began to tempt her.","ko":"쿠키 냄새가 그녀를 유혹하기 시작했다."},{"en":"Don't let the sale price tempt you to overspend.","ko":"세일 가격에 유혹되어 과소비하지 마라."}],"theme":"감정"},
- {"id":2668,"word":"ten","pos":["수사"],"meanings":[{"pos":"수사","ko":["열","10"]}],"examples":[{"en":"Can you make it (at ten)?","ko":"10시에 올 수 있어?"},{"en":"I have ten fingers.","ko":"나는 손가락이 열 개 있다."}],"theme":"수량"},
- {"id":2669,"word":"tenant","pos":["명사"],"meanings":[{"pos":"명사","ko":["세입자"]}],"examples":[{"en":"The new tenant moved into the apartment last week.","ko":"새로운 세입자가 지난주에 그 아파트로 이사했다."},{"en":"The landlord asked the tenant to pay rent on time.","ko":"집주인은 세입자에게 제때 월세를 내달라고 요청했다."}],"theme":"사회"},
- {"id":2670,"word":"tend","pos":["동사"],"meanings":[{"pos":"동사","ko":["경향이 있다","돌보다"]}],"examples":[{"en":"People tend to eat more in winter.","ko":"사람들은 겨울에 더 많이 먹는 경향이 있다."},{"en":"She tends the garden every weekend.","ko":"그녀는 매 주말마다 정원을 돌본다."}],"theme":"일상"},
- {"id":2671,"word":"tender","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["부드러운","다정한"]}],"examples":[{"en":"The meat was so tender it melted in my mouth.","ko":"그 고기는 너무 부드러워서 입안에서 녹았다."},{"en":"She gave her son a tender hug before school.","ko":"그녀는 학교 가기 전에 아들을 다정하게 안아주었다."}],"theme":"음식"},
- {"id":2672,"word":"tennis","pos":["명사"],"meanings":[{"pos":"명사","ko":["테니스"]}],"examples":[{"en":"I play tennis on Sundays.","ko":"나는 일요일마다 테니스를 친다."},{"en":"She is good at tennis.","ko":"그녀는 테니스를 잘 친다."}],"theme":"여가"},
- {"id":2673,"word":"tense","pos":["형용사","명사"],"meanings":[{"pos":"형용사","ko":["긴장한"]},{"pos":"명사","ko":["시제"]}],"examples":[{"en":"He felt tense before the big exam.","ko":"그는 큰 시험 전에 긴장했다."},{"en":"We learned about the past tense in class.","ko":"우리는 수업에서 과거 시제에 대해 배웠다."}],"theme":"감정"},
- {"id":2674,"word":"tent","pos":["명사"],"meanings":[{"pos":"명사","ko":["텐트"]}],"examples":[{"en":"We set up a tent.","ko":"우리는 텐트를 쳤다."},{"en":"The tent is very big.","ko":"그 텐트는 매우 크다."}],"theme":"여가"},
- {"id":2675,"word":"term","pos":["명사"],"meanings":[{"pos":"명사","ko":["학기","용어"]}],"examples":[{"en":"The new school term starts in March.","ko":"새 학기는 3월에 시작한다."},{"en":"This is a difficult scientific term to understand.","ko":"이것은 이해하기 어려운 과학 용어이다."}],"theme":"학교"},
- {"id":2676,"word":"terminal","pos":["명사","형용사"],"meanings":[{"pos":"명사","ko":["터미널"]},{"pos":"형용사","ko":["말기의"]}],"examples":[{"en":"We waited for the bus at the terminal.","ko":"우리는 터미널에서 버스를 기다렸다."},{"en":"The airport terminal was crowded with travelers.","ko":"공항 터미널은 여행객들로 붐볐다."}],"theme":"교통"},
- {"id":2677,"word":"terminate","pos":["동사"],"meanings":[{"pos":"동사","ko":["끝내다","종료하다"]}],"examples":[{"en":"The company decided to terminate the old contract.","ko":"그 회사는 오래된 계약을 종료하기로 결정했다."},{"en":"The manager terminated his employment last month.","ko":"관리자는 지난달 그의 고용을 종료했다."}],"theme":"사회"},
- {"id":2678,"word":"terrace","pos":["명사"],"meanings":[{"pos":"명사","ko":["테라스"]}],"examples":[{"en":"We had breakfast on the terrace this morning.","ko":"우리는 오늘 아침 테라스에서 아침 식사를 했다."},{"en":"The hotel room has a terrace with a sea view.","ko":"그 호텔 방에는 바다가 보이는 테라스가 있다."}],"theme":"장소"},
- {"id":2679,"word":"terrible","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["끔찍한"]}],"examples":[{"en":"The weather was terrible during our trip.","ko":"우리 여행 중에 날씨가 끔찍했다."},{"en":"I had a terrible headache all day.","ko":"나는 하루 종일 끔찍한 두통을 겪었다."}],"theme":"감정"},
- {"id":2680,"word":"terrific","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["아주 멋진","훌륭한"]}],"examples":[{"en":"We had a terrific time at the amusement park.","ko":"우리는 놀이공원에서 정말 멋진 시간을 보냈다."},{"en":"Her singing performance was absolutely terrific tonight.","ko":"오늘 밤 그녀의 노래 공연은 정말 훌륭했다."}],"theme":"감정"},
- {"id":2681,"word":"territory","pos":["명사"],"meanings":[{"pos":"명사","ko":["영토","영역"]}],"examples":[{"en":"The two countries argued over the border territory.","ko":"두 나라는 국경 영토를 두고 다투었다."},{"en":"Wolves protect their territory from other animals.","ko":"늑대들은 다른 동물들로부터 자신의 영역을 지킨다."}],"theme":"자연"},
- {"id":2682,"word":"terror","pos":["명사"],"meanings":[{"pos":"명사","ko":["공포"]}],"examples":[{"en":"The loud noise filled her with terror.","ko":"그 큰 소리는 그녀를 공포에 떨게 했다."},{"en":"The city lived in terror during the storm.","ko":"그 도시는 폭풍우 동안 공포 속에서 지냈다."}],"theme":"감정"},
- {"id":2683,"word":"test","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["시험"]},{"pos":"동사","ko":["시험하다"]}],"examples":[{"en":"I have a math test today.","ko":"나는 오늘 수학 시험이 있다."},{"en":"She studied hard for the test.","ko":"그녀는 시험을 위해 열심히 공부했다."}],"theme":"학교"},
- {"id":2684,"word":"text","pos":["명사","동사"],"meanings":[{"pos":"명사","ko":["문자","본문"]},{"pos":"동사","ko":["문자를 보내다"]}],"examples":[{"en":"I will text you when I arrive home.","ko":"집에 도착하면 너에게 문자할게."},{"en":"Read the text carefully before answering the questions.","ko":"질문에 답하기 전에 본문을 주의 깊게 읽어라."}],"theme":"소통"},
- {"id":2685,"word":"textbook","pos":["명사"],"meanings":[{"pos":"명사","ko":["교과서"]}],"examples":[{"en":"Open your textbook to page ten.","ko":"교과서 10쪽을 펴세요."},{"en":"I forgot my textbook at home.","ko":"나는 집에 교과서를 두고 왔다."}],"theme":"학교"},
- {"id":2686,"word":"than","pos":["접속사","전치사"],"meanings":[{"pos":"접속사","ko":["~보다"]},{"pos":"전치사","ko":["~보다"]}],"examples":[{"en":"It is bigger than an elephant.","ko":"그것은 코끼리보다 크다."},{"en":"My sister is older than me.","ko":"내 언니는 나보다 나이가 많다."}],"theme":"수량"},
- {"id":2687,"word":"thank","pos":["동사"],"meanings":[{"pos":"동사","ko":["감사하다"]}],"examples":[{"en":"Thank goodness.","ko":"다행이다."},{"en":"I want to thank you.","ko":"너에게 고마움을 전하고 싶어."}],"theme":"소통"},
- {"id":2688,"word":"that","pos":["대명사","한정사"],"meanings":[{"pos":"대명사","ko":["그것","저것"]},{"pos":"한정사","ko":["그","저"]}],"examples":[{"en":"That’s a good idea.","ko":"그거 좋은 생각이다."},{"en":"I like that book.","ko":"나는 저 책이 좋다."}],"theme":"추상"},
- {"id":2689,"word":"the","pos":["관사"],"meanings":[{"pos":"관사","ko":["그"]}],"examples":[{"en":"The man over there is Mr. Kim.","ko":"저기 있는 남자는 김 선생님이다."},{"en":"The sun is bright.","ko":"태양이 밝다."}],"theme":"추상"},
- {"id":2690,"word":"theater","pos":["명사"],"meanings":[{"pos":"명사","ko":["극장"]}],"examples":[{"en":"We watched a play at the theater last night.","ko":"우리는 지난밤 극장에서 연극을 봤다."},{"en":"The movie theater was full on Friday evening.","ko":"금요일 저녁 영화관은 만석이었다."}],"theme":"여가"},
- {"id":2691,"word":"theme","pos":["명사"],"meanings":[{"pos":"명사","ko":["주제"]}],"examples":[{"en":"The theme of the story is friendship and courage.","ko":"그 이야기의 주제는 우정과 용기이다."},{"en":"Our school festival has a space theme this year.","ko":"올해 우리 학교 축제는 우주 주제로 열린다."}],"theme":"학교"},
- {"id":2692,"word":"then","pos":["부사"],"meanings":[{"pos":"부사","ko":["그때","그러고 나서"]}],"examples":[{"en":"We finished dinner and then watched a movie.","ko":"우리는 저녁을 먹고 그러고 나서 영화를 봤다."},{"en":"I lived in Seoul back then.","ko":"나는 그때 서울에 살았다."}],"theme":"시간"},
- {"id":2693,"word":"theory","pos":["명사"],"meanings":[{"pos":"명사","ko":["이론"]}],"examples":[{"en":"Scientists tested a new theory about the universe.","ko":"과학자들은 우주에 대한 새로운 이론을 검증했다."},{"en":"That is just a theory, not a proven fact.","ko":"그것은 그냥 이론일 뿐, 증명된 사실이 아니다."}],"theme":"과학"},
- {"id":2694,"word":"therapy","pos":["명사"],"meanings":[{"pos":"명사","ko":["치료","요법"]}],"examples":[{"en":"She goes to physical therapy twice a week.","ko":"그녀는 일주일에 두 번 물리치료를 받으러 간다."},{"en":"Music therapy can help reduce stress and anxiety.","ko":"음악 치료는 스트레스와 불안을 줄이는 데 도움이 될 수 있다."}],"theme":"신체"},
- {"id":2695,"word":"there","pos":["부사"],"meanings":[{"pos":"부사","ko":["거기에","그곳에"]}],"examples":[{"en":"The man over there is Mr. Kim.","ko":"저기 있는 남자는 김 선생님이다."},{"en":"Put the book there.","ko":"그 책을 저기에 놓아라."}],"theme":"장소"},
- {"id":2696,"word":"therefore","pos":["부사"],"meanings":[{"pos":"부사","ko":["그러므로","따라서"]}],"examples":[{"en":"It was raining; therefore, we stayed inside.","ko":"비가 오고 있어서 우리는 실내에 있었다."},{"en":"She studied hard; therefore, she passed the test.","ko":"그녀는 열심히 공부해서 시험에 합격했다."}],"theme":"추상"},
- {"id":2697,"word":"they","pos":["대명사"],"meanings":[{"pos":"대명사","ko":["그들"]}],"examples":[{"en":"How did they travel?","ko":"그들은 어떻게 여행했어?"},{"en":"They are my friends.","ko":"그들은 내 친구들이다."}],"theme":"소통"},
- {"id":2698,"word":"thick","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["두꺼운","굵은"]}],"examples":[{"en":"The book has a thick cover.","ko":"그 책은 표지가 두껍다."},{"en":"She wore a thick winter coat.","ko":"그녀는 두꺼운 겨울 코트를 입었다."}],"theme":"사물"},
- {"id":2699,"word":"thief","pos":["명사"],"meanings":[{"pos":"명사","ko":["도둑"]}],"examples":[{"en":"The thief ran away with the stolen bag.","ko":"그 도둑은 훔친 가방을 들고 도망쳤다."},{"en":"Police caught the thief near the station.","ko":"경찰은 역 근처에서 도둑을 붙잡았다."}],"theme":"사회"},
- {"id":2700,"word":"thin","pos":["형용사"],"meanings":[{"pos":"형용사","ko":["얇은","마른"]}],"examples":[{"en":"The ice on the pond was very thin.","ko":"연못 위의 얼음은 매우 얇았다."},{"en":"My cousin is tall and thin.","ko":"내 사촌은 키가 크고 말랐다."}],"theme":"신체"}
+ {
+  "id": 2650,
+  "word": "taxi",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "택시"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We took a taxi home.",
+    "ko": "우리는 택시를 타고 집에 갔다."
+   },
+   {
+    "en": "The taxi arrived quickly.",
+    "ko": "택시가 빨리 도착했다."
+   }
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 2651,
+  "word": "tea",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "차"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My mother likes to drink green tea every morning.",
+    "ko": "우리 엄마는 매일 아침 녹차 마시는 것을 좋아하신다."
+   },
+   {
+    "en": "Would you like some hot tea?",
+    "ko": "따뜻한 차 좀 드시겠어요?"
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2652,
+  "word": "teach",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "가르치다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He will teach me math.",
+    "ko": "그는 나에게 수학을 가르쳐 줄 것이다."
+   },
+   {
+    "en": "She teaches English at school.",
+    "ko": "그녀는 학교에서 영어를 가르친다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2653,
+  "word": "team",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "팀"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Our team won the game.",
+    "ko": "우리 팀이 경기에서 이겼다."
+   },
+   {
+    "en": "I am on the soccer team.",
+    "ko": "나는 축구팀에 속해 있다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2654,
+  "word": "tear",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "눈물"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "찢다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "A tear rolled down her cheek during the movie.",
+    "ko": "영화를 보는 동안 그녀의 뺨으로 눈물이 흘러내렸다."
+   },
+   {
+    "en": "Be careful not to tear the paper.",
+    "ko": "종이를 찢지 않도록 조심해라."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2655,
+  "word": "tease",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "놀리다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Older kids sometimes tease younger students at school.",
+    "ko": "나이 많은 아이들은 가끔 학교에서 어린 학생들을 놀린다."
+   },
+   {
+    "en": "Please don't tease your little sister like that.",
+    "ko": "그렇게 여동생을 놀리지 마."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2656,
+  "word": "technique",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "기술",
+     "기법"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The artist used a new painting technique.",
+    "ko": "그 화가는 새로운 그림 기법을 사용했다."
+   },
+   {
+    "en": "This technique helps students remember new words.",
+    "ko": "이 기법은 학생들이 새 단어를 기억하는 데 도움이 된다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2657,
+  "word": "technology",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "기술"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Modern technology has changed how we communicate.",
+    "ko": "현대 기술은 우리가 소통하는 방식을 바꾸었다."
+   },
+   {
+    "en": "Students use technology to learn new things.",
+    "ko": "학생들은 새로운 것을 배우기 위해 기술을 사용한다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2658,
+  "word": "teenage",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "십 대의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Many teenage students spend hours on their phones.",
+    "ko": "많은 십 대 학생들이 휴대폰에 여러 시간을 쓴다."
+   },
+   {
+    "en": "Her teenage daughter loves listening to music.",
+    "ko": "그녀의 십 대 딸은 음악 듣는 것을 좋아한다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 2659,
+  "word": "telegraph",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "전신"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "People used the telegraph to send messages long ago.",
+    "ko": "옛날 사람들은 메시지를 보내기 위해 전신을 사용했다."
+   },
+   {
+    "en": "The telegraph was an important invention in history.",
+    "ko": "전신은 역사적으로 중요한 발명품이었다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2660,
+  "word": "telephone",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "전화"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I answered the telephone quickly.",
+    "ko": "나는 전화를 재빨리 받았다."
+   },
+   {
+    "en": "The telephone rang loudly.",
+    "ko": "전화벨이 크게 울렸다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2661,
+  "word": "television",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "텔레비전"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I watch television after dinner.",
+    "ko": "나는 저녁 식사 후에 텔레비전을 본다."
+   },
+   {
+    "en": "Turn off the television, please.",
+    "ko": "텔레비전을 꺼 주세요."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2662,
+  "word": "tell",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "말하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please tell me the truth.",
+    "ko": "나에게 진실을 말해줘."
+   },
+   {
+    "en": "I will tell you a secret.",
+    "ko": "내가 너에게 비밀을 말해줄게."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2663,
+  "word": "temperature",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "온도",
+     "기온"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The temperature dropped suddenly last night.",
+    "ko": "지난밤 기온이 갑자기 떨어졌다."
+   },
+   {
+    "en": "Please check your temperature before school.",
+    "ko": "학교 가기 전에 체온을 확인해라."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2664,
+  "word": "temple",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "사원",
+     "절"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We visited an old Buddhist temple during our trip.",
+    "ko": "우리는 여행 중에 오래된 불교 사원을 방문했다."
+   },
+   {
+    "en": "The temple was quiet and peaceful in the morning.",
+    "ko": "그 사원은 아침에 조용하고 평화로웠다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2665,
+  "word": "temporary",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "일시적인",
+     "임시의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She took a temporary job at the bookstore.",
+    "ko": "그녀는 서점에서 임시직을 구했다."
+   },
+   {
+    "en": "The pain in his leg was only temporary.",
+    "ko": "그의 다리 통증은 일시적인 것이었다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2666,
+  "word": "tempt",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "유혹하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The smell of cookies began to tempt her.",
+    "ko": "쿠키 냄새가 그녀를 유혹하기 시작했다."
+   },
+   {
+    "en": "Don't let the sale price tempt you to overspend.",
+    "ko": "세일 가격에 유혹되어 과소비하지 마라."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2667,
+  "word": "ten",
+  "pos": [
+   "수사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "열",
+     "10"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Can you make it (at ten)?",
+    "ko": "10시에 올 수 있어?"
+   },
+   {
+    "en": "I have ten fingers.",
+    "ko": "나는 손가락이 열 개 있다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2668,
+  "word": "tenant",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "세입자"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The new tenant moved into the apartment last week.",
+    "ko": "새로운 세입자가 지난주에 그 아파트로 이사했다."
+   },
+   {
+    "en": "The landlord asked the tenant to pay rent on time.",
+    "ko": "집주인은 세입자에게 제때 월세를 내달라고 요청했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2669,
+  "word": "tend",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "경향이 있다",
+     "돌보다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "People tend to eat more in winter.",
+    "ko": "사람들은 겨울에 더 많이 먹는 경향이 있다."
+   },
+   {
+    "en": "She tends the garden every weekend.",
+    "ko": "그녀는 매 주말마다 정원을 돌본다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2670,
+  "word": "tender",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "부드러운",
+     "다정한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The meat was so tender it melted in my mouth.",
+    "ko": "그 고기는 너무 부드러워서 입안에서 녹았다."
+   },
+   {
+    "en": "She gave her son a tender hug before school.",
+    "ko": "그녀는 학교 가기 전에 아들을 다정하게 안아주었다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2671,
+  "word": "tennis",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "테니스"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I play tennis on Sundays.",
+    "ko": "나는 일요일마다 테니스를 친다."
+   },
+   {
+    "en": "She is good at tennis.",
+    "ko": "그녀는 테니스를 잘 친다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2672,
+  "word": "tense",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "긴장한"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "시제"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He felt tense before the big exam.",
+    "ko": "그는 큰 시험 전에 긴장했다."
+   },
+   {
+    "en": "We learned about the past tense in class.",
+    "ko": "우리는 수업에서 과거 시제에 대해 배웠다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2673,
+  "word": "tent",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "텐트"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We set up a tent.",
+    "ko": "우리는 텐트를 쳤다."
+   },
+   {
+    "en": "The tent is very big.",
+    "ko": "그 텐트는 매우 크다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2674,
+  "word": "term",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "학기",
+     "용어"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The new school term starts in March.",
+    "ko": "새 학기는 3월에 시작한다."
+   },
+   {
+    "en": "This is a difficult scientific term to understand.",
+    "ko": "이것은 이해하기 어려운 과학 용어이다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2675,
+  "word": "terminal",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "터미널"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "말기의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We waited for the bus at the terminal.",
+    "ko": "우리는 터미널에서 버스를 기다렸다."
+   },
+   {
+    "en": "The airport terminal was crowded with travelers.",
+    "ko": "공항 터미널은 여행객들로 붐볐다."
+   }
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 2676,
+  "word": "terminate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "끝내다",
+     "종료하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The company decided to terminate the old contract.",
+    "ko": "그 회사는 오래된 계약을 종료하기로 결정했다."
+   },
+   {
+    "en": "The manager terminated his employment last month.",
+    "ko": "관리자는 지난달 그의 고용을 종료했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2677,
+  "word": "terrace",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "테라스"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We had breakfast on the terrace this morning.",
+    "ko": "우리는 오늘 아침 테라스에서 아침 식사를 했다."
+   },
+   {
+    "en": "The hotel room has a terrace with a sea view.",
+    "ko": "그 호텔 방에는 바다가 보이는 테라스가 있다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2678,
+  "word": "terrible",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "끔찍한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The weather was terrible during our trip.",
+    "ko": "우리 여행 중에 날씨가 끔찍했다."
+   },
+   {
+    "en": "I had a terrible headache all day.",
+    "ko": "나는 하루 종일 끔찍한 두통을 겪었다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2679,
+  "word": "terrific",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "아주 멋진",
+     "훌륭한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We had a terrific time at the amusement park.",
+    "ko": "우리는 놀이공원에서 정말 멋진 시간을 보냈다."
+   },
+   {
+    "en": "Her singing performance was absolutely terrific tonight.",
+    "ko": "오늘 밤 그녀의 노래 공연은 정말 훌륭했다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2680,
+  "word": "territory",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "영토",
+     "영역"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The two countries argued over the border territory.",
+    "ko": "두 나라는 국경 영토를 두고 다투었다."
+   },
+   {
+    "en": "Wolves protect their territory from other animals.",
+    "ko": "늑대들은 다른 동물들로부터 자신의 영역을 지킨다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2681,
+  "word": "terror",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "공포"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The loud noise filled her with terror.",
+    "ko": "그 큰 소리는 그녀를 공포에 떨게 했다."
+   },
+   {
+    "en": "The city lived in terror during the storm.",
+    "ko": "그 도시는 폭풍우 동안 공포 속에서 지냈다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2682,
+  "word": "test",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "시험"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "시험하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I have a math test today.",
+    "ko": "나는 오늘 수학 시험이 있다."
+   },
+   {
+    "en": "She studied hard for the test.",
+    "ko": "그녀는 시험을 위해 열심히 공부했다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2683,
+  "word": "text",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "문자",
+     "본문"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "문자를 보내다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I will text you when I arrive home.",
+    "ko": "집에 도착하면 너에게 문자할게."
+   },
+   {
+    "en": "Read the text carefully before answering the questions.",
+    "ko": "질문에 답하기 전에 본문을 주의 깊게 읽어라."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2684,
+  "word": "textbook",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "교과서"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Open your textbook to page ten.",
+    "ko": "교과서 10쪽을 펴세요."
+   },
+   {
+    "en": "I forgot my textbook at home.",
+    "ko": "나는 집에 교과서를 두고 왔다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2685,
+  "word": "than",
+  "pos": [
+   "접속사",
+   "전치사"
+  ],
+  "meanings": [
+   {
+    "pos": "접속사",
+    "ko": [
+     "~보다"
+    ]
+   },
+   {
+    "pos": "전치사",
+    "ko": [
+     "~보다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It is bigger than an elephant.",
+    "ko": "그것은 코끼리보다 크다."
+   },
+   {
+    "en": "My sister is older than me.",
+    "ko": "내 언니는 나보다 나이가 많다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2686,
+  "word": "thank",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "감사하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Thank goodness.",
+    "ko": "다행이다."
+   },
+   {
+    "en": "I want to thank you.",
+    "ko": "너에게 고마움을 전하고 싶어."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2687,
+  "word": "that",
+  "pos": [
+   "대명사",
+   "한정사"
+  ],
+  "meanings": [
+   {
+    "pos": "대명사",
+    "ko": [
+     "그것",
+     "저것"
+    ]
+   },
+   {
+    "pos": "한정사",
+    "ko": [
+     "그",
+     "저"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "That’s a good idea.",
+    "ko": "그거 좋은 생각이다."
+   },
+   {
+    "en": "I like that book.",
+    "ko": "나는 저 책이 좋다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2688,
+  "word": "the",
+  "pos": [
+   "관사"
+  ],
+  "meanings": [
+   {
+    "pos": "관사",
+    "ko": [
+     "그"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The man over there is Mr. Kim.",
+    "ko": "저기 있는 남자는 김 선생님이다."
+   },
+   {
+    "en": "The sun is bright.",
+    "ko": "태양이 밝다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2689,
+  "word": "theater",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "극장"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We watched a play at the theater last night.",
+    "ko": "우리는 지난밤 극장에서 연극을 봤다."
+   },
+   {
+    "en": "The movie theater was full on Friday evening.",
+    "ko": "금요일 저녁 영화관은 만석이었다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2690,
+  "word": "theme",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "주제"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The theme of the story is friendship and courage.",
+    "ko": "그 이야기의 주제는 우정과 용기이다."
+   },
+   {
+    "en": "Our school festival has a space theme this year.",
+    "ko": "올해 우리 학교 축제는 우주 주제로 열린다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2691,
+  "word": "then",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "그때",
+     "그러고 나서"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We finished dinner and then watched a movie.",
+    "ko": "우리는 저녁을 먹고 그러고 나서 영화를 봤다."
+   },
+   {
+    "en": "I lived in Seoul back then.",
+    "ko": "나는 그때 서울에 살았다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2692,
+  "word": "theory",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "이론"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Scientists tested a new theory about the universe.",
+    "ko": "과학자들은 우주에 대한 새로운 이론을 검증했다."
+   },
+   {
+    "en": "That is just a theory, not a proven fact.",
+    "ko": "그것은 그냥 이론일 뿐, 증명된 사실이 아니다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2693,
+  "word": "therapy",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "치료",
+     "요법"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She goes to physical therapy twice a week.",
+    "ko": "그녀는 일주일에 두 번 물리치료를 받으러 간다."
+   },
+   {
+    "en": "Music therapy can help reduce stress and anxiety.",
+    "ko": "음악 치료는 스트레스와 불안을 줄이는 데 도움이 될 수 있다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2694,
+  "word": "there",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "거기에",
+     "그곳에"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The man over there is Mr. Kim.",
+    "ko": "저기 있는 남자는 김 선생님이다."
+   },
+   {
+    "en": "Put the book there.",
+    "ko": "그 책을 저기에 놓아라."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2695,
+  "word": "therefore",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "그러므로",
+     "따라서"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It was raining; therefore, we stayed inside.",
+    "ko": "비가 오고 있어서 우리는 실내에 있었다."
+   },
+   {
+    "en": "She studied hard; therefore, she passed the test.",
+    "ko": "그녀는 열심히 공부해서 시험에 합격했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2696,
+  "word": "they",
+  "pos": [
+   "대명사"
+  ],
+  "meanings": [
+   {
+    "pos": "대명사",
+    "ko": [
+     "그들"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "How did they travel?",
+    "ko": "그들은 어떻게 여행했어?"
+   },
+   {
+    "en": "They are my friends.",
+    "ko": "그들은 내 친구들이다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2697,
+  "word": "thick",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "두꺼운",
+     "굵은"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The book has a thick cover.",
+    "ko": "그 책은 표지가 두껍다."
+   },
+   {
+    "en": "She wore a thick winter coat.",
+    "ko": "그녀는 두꺼운 겨울 코트를 입었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2698,
+  "word": "thief",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "도둑"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The thief ran away with the stolen bag.",
+    "ko": "그 도둑은 훔친 가방을 들고 도망쳤다."
+   },
+   {
+    "en": "Police caught the thief near the station.",
+    "ko": "경찰은 역 근처에서 도둑을 붙잡았다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2699,
+  "word": "thin",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "얇은",
+     "마른"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The ice on the pond was very thin.",
+    "ko": "연못 위의 얼음은 매우 얇았다."
+   },
+   {
+    "en": "My cousin is tall and thin.",
+    "ko": "내 사촌은 키가 크고 말랐다."
+   }
+  ],
+  "theme": "신체"
+ }
 ]

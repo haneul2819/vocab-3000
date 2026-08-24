@@ -1,14 +1,6 @@
 [
  {
   "id": 2051,
-  "word": "primitive",
-  "level": "선택",
-  "derived": [],
-  "max_example_words": 15,
-  "fn_example": ""
- },
- {
-  "id": 2052,
   "word": "prince",
   "level": "초등",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": ""
  },
  {
-  "id": 2053,
+  "id": 2052,
   "word": "principal",
   "level": "선택",
   "derived": [],
@@ -24,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 2054,
+  "id": 2053,
   "word": "principle",
   "level": "중고공통",
   "derived": [],
@@ -32,7 +24,7 @@
   "fn_example": ""
  },
  {
-  "id": 2055,
+  "id": 2054,
   "word": "print",
   "level": "초등",
   "derived": [],
@@ -40,7 +32,7 @@
   "fn_example": ""
  },
  {
-  "id": 2056,
+  "id": 2055,
   "word": "prior",
   "level": "선택",
   "derived": [],
@@ -48,7 +40,7 @@
   "fn_example": ""
  },
  {
-  "id": 2057,
+  "id": 2056,
   "word": "prison",
   "level": "중고공통",
   "derived": [],
@@ -56,7 +48,7 @@
   "fn_example": ""
  },
  {
-  "id": 2058,
+  "id": 2057,
   "word": "privacy",
   "level": "중고공통",
   "derived": [],
@@ -64,7 +56,7 @@
   "fn_example": ""
  },
  {
-  "id": 2059,
+  "id": 2058,
   "word": "private",
   "level": "중고공통",
   "derived": [],
@@ -72,7 +64,7 @@
   "fn_example": ""
  },
  {
-  "id": 2060,
+  "id": 2059,
   "word": "privilege",
   "level": "선택",
   "derived": [],
@@ -80,7 +72,7 @@
   "fn_example": ""
  },
  {
-  "id": 2061,
+  "id": 2060,
   "word": "prize",
   "level": "중고공통",
   "derived": [],
@@ -88,7 +80,7 @@
   "fn_example": ""
  },
  {
-  "id": 2062,
+  "id": 2061,
   "word": "probable",
   "level": "중고공통",
   "derived": [
@@ -98,7 +90,7 @@
   "fn_example": ""
  },
  {
-  "id": 2063,
+  "id": 2062,
   "word": "problem",
   "level": "초등",
   "derived": [],
@@ -106,7 +98,7 @@
   "fn_example": "No problem."
  },
  {
-  "id": 2064,
+  "id": 2063,
   "word": "proceed",
   "level": "중고공통",
   "derived": [
@@ -116,7 +108,7 @@
   "fn_example": ""
  },
  {
-  "id": 2065,
+  "id": 2064,
   "word": "process",
   "level": "중고공통",
   "derived": [],
@@ -124,7 +116,7 @@
   "fn_example": "There are (four) different stages to the process."
  },
  {
-  "id": 2066,
+  "id": 2065,
   "word": "produce",
   "level": "중고공통",
   "derived": [],
@@ -132,7 +124,7 @@
   "fn_example": ""
  },
  {
-  "id": 2067,
+  "id": 2066,
   "word": "profession",
   "level": "중고공통",
   "derived": [],
@@ -140,7 +132,7 @@
   "fn_example": ""
  },
  {
-  "id": 2068,
+  "id": 2067,
   "word": "professor",
   "level": "선택",
   "derived": [],
@@ -148,7 +140,7 @@
   "fn_example": ""
  },
  {
-  "id": 2069,
+  "id": 2068,
   "word": "profile",
   "level": "선택",
   "derived": [],
@@ -156,7 +148,7 @@
   "fn_example": ""
  },
  {
-  "id": 2070,
+  "id": 2069,
   "word": "profit",
   "level": "중고공통",
   "derived": [],
@@ -164,7 +156,7 @@
   "fn_example": ""
  },
  {
-  "id": 2071,
+  "id": 2070,
   "word": "profound",
   "level": "선택",
   "derived": [],
@@ -172,7 +164,7 @@
   "fn_example": ""
  },
  {
-  "id": 2072,
+  "id": 2071,
   "word": "program",
   "level": "초등",
   "derived": [
@@ -182,7 +174,7 @@
   "fn_example": ""
  },
  {
-  "id": 2073,
+  "id": 2072,
   "word": "progress",
   "level": "중고공통",
   "derived": [],
@@ -190,7 +182,7 @@
   "fn_example": ""
  },
  {
-  "id": 2074,
+  "id": 2073,
   "word": "prohibit",
   "level": "선택",
   "derived": [],
@@ -198,7 +190,7 @@
   "fn_example": ""
  },
  {
-  "id": 2075,
+  "id": 2074,
   "word": "project",
   "level": "초등",
   "derived": [],
@@ -206,7 +198,7 @@
   "fn_example": "There are four stages to the project."
  },
  {
-  "id": 2076,
+  "id": 2075,
   "word": "prominent",
   "level": "선택",
   "derived": [],
@@ -214,7 +206,7 @@
   "fn_example": ""
  },
  {
-  "id": 2077,
+  "id": 2076,
   "word": "promise",
   "level": "중고공통",
   "derived": [],
@@ -222,7 +214,7 @@
   "fn_example": ""
  },
  {
-  "id": 2078,
+  "id": 2077,
   "word": "promote",
   "level": "중고공통",
   "derived": [],
@@ -230,7 +222,7 @@
   "fn_example": ""
  },
  {
-  "id": 2079,
+  "id": 2078,
   "word": "prompt",
   "level": "선택",
   "derived": [],
@@ -238,7 +230,7 @@
   "fn_example": ""
  },
  {
-  "id": 2080,
+  "id": 2079,
   "word": "pronounce",
   "level": "중고공통",
   "derived": [
@@ -248,7 +240,7 @@
   "fn_example": ""
  },
  {
-  "id": 2081,
+  "id": 2080,
   "word": "proof",
   "level": "선택",
   "derived": [],
@@ -256,7 +248,7 @@
   "fn_example": ""
  },
  {
-  "id": 2082,
+  "id": 2081,
   "word": "proper",
   "level": "중고공통",
   "derived": [],
@@ -264,7 +256,7 @@
   "fn_example": ""
  },
  {
-  "id": 2083,
+  "id": 2082,
   "word": "property",
   "level": "중고공통",
   "derived": [],
@@ -272,7 +264,7 @@
   "fn_example": ""
  },
  {
-  "id": 2084,
+  "id": 2083,
   "word": "proportion",
   "level": "선택",
   "derived": [],
@@ -280,7 +272,7 @@
   "fn_example": ""
  },
  {
-  "id": 2085,
+  "id": 2084,
   "word": "propose",
   "level": "중고공통",
   "derived": [],
@@ -288,7 +280,7 @@
   "fn_example": ""
  },
  {
-  "id": 2086,
+  "id": 2085,
   "word": "prospect",
   "level": "선택",
   "derived": [],
@@ -296,7 +288,7 @@
   "fn_example": ""
  },
  {
-  "id": 2087,
+  "id": 2086,
   "word": "prosper",
   "level": "선택",
   "derived": [],
@@ -304,7 +296,7 @@
   "fn_example": ""
  },
  {
-  "id": 2088,
+  "id": 2087,
   "word": "protect",
   "level": "중고공통",
   "derived": [],
@@ -312,7 +304,7 @@
   "fn_example": ""
  },
  {
-  "id": 2089,
+  "id": 2088,
   "word": "protein",
   "level": "선택",
   "derived": [],
@@ -320,7 +312,7 @@
   "fn_example": ""
  },
  {
-  "id": 2090,
+  "id": 2089,
   "word": "protest",
   "level": "중고공통",
   "derived": [],
@@ -328,7 +320,7 @@
   "fn_example": ""
  },
  {
-  "id": 2091,
+  "id": 2090,
   "word": "proud",
   "level": "중고공통",
   "derived": [],
@@ -336,7 +328,7 @@
   "fn_example": ""
  },
  {
-  "id": 2092,
+  "id": 2091,
   "word": "prove",
   "level": "중고공통",
   "derived": [],
@@ -344,7 +336,7 @@
   "fn_example": ""
  },
  {
-  "id": 2093,
+  "id": 2092,
   "word": "provide",
   "level": "중고공통",
   "derived": [],
@@ -352,7 +344,7 @@
   "fn_example": ""
  },
  {
-  "id": 2094,
+  "id": 2093,
   "word": "province",
   "level": "선택",
   "derived": [],
@@ -360,7 +352,7 @@
   "fn_example": ""
  },
  {
-  "id": 2095,
+  "id": 2094,
   "word": "provoke",
   "level": "선택",
   "derived": [],
@@ -368,7 +360,7 @@
   "fn_example": ""
  },
  {
-  "id": 2096,
+  "id": 2095,
   "word": "psychology",
   "level": "선택",
   "derived": [],
@@ -376,7 +368,7 @@
   "fn_example": ""
  },
  {
-  "id": 2097,
+  "id": 2096,
   "word": "pub",
   "level": "중고공통",
   "derived": [],
@@ -384,7 +376,7 @@
   "fn_example": ""
  },
  {
-  "id": 2098,
+  "id": 2097,
   "word": "public",
   "level": "중고공통",
   "derived": [],
@@ -392,7 +384,7 @@
   "fn_example": ""
  },
  {
-  "id": 2099,
+  "id": 2098,
   "word": "publish",
   "level": "선택",
   "derived": [
@@ -402,8 +394,16 @@
   "fn_example": ""
  },
  {
-  "id": 2100,
+  "id": 2099,
   "word": "pull",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2100,
+  "word": "pump",
   "level": "중고공통",
   "derived": [],
   "max_example_words": 12,

@@ -1,14 +1,6 @@
 [
  {
   "id": 2551,
-  "word": "stove",
-  "level": "선택",
-  "derived": [],
-  "max_example_words": 15,
-  "fn_example": ""
- },
- {
-  "id": 2552,
   "word": "straight",
   "level": "중고공통",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": "It’s straight ahead."
  },
  {
-  "id": 2553,
+  "id": 2552,
   "word": "strain",
   "level": "선택",
   "derived": [],
@@ -24,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 2554,
+  "id": 2553,
   "word": "strange",
   "level": "중고공통",
   "derived": [],
@@ -32,7 +24,7 @@
   "fn_example": ""
  },
  {
-  "id": 2555,
+  "id": 2554,
   "word": "strategy",
   "level": "중고공통",
   "derived": [],
@@ -40,7 +32,7 @@
   "fn_example": ""
  },
  {
-  "id": 2556,
+  "id": 2555,
   "word": "strawberry",
   "level": "중고공통",
   "derived": [],
@@ -48,7 +40,7 @@
   "fn_example": ""
  },
  {
-  "id": 2557,
+  "id": 2556,
   "word": "stream",
   "level": "중고공통",
   "derived": [],
@@ -56,7 +48,7 @@
   "fn_example": ""
  },
  {
-  "id": 2558,
+  "id": 2557,
   "word": "street",
   "level": "초등",
   "derived": [],
@@ -64,7 +56,7 @@
   "fn_example": ""
  },
  {
-  "id": 2559,
+  "id": 2558,
   "word": "stress",
   "level": "중고공통",
   "derived": [],
@@ -72,7 +64,7 @@
   "fn_example": ""
  },
  {
-  "id": 2560,
+  "id": 2559,
   "word": "stretch",
   "level": "중고공통",
   "derived": [],
@@ -80,7 +72,7 @@
   "fn_example": ""
  },
  {
-  "id": 2561,
+  "id": 2560,
   "word": "strict",
   "level": "선택",
   "derived": [],
@@ -88,7 +80,7 @@
   "fn_example": ""
  },
  {
-  "id": 2562,
+  "id": 2561,
   "word": "strike",
   "level": "중고공통",
   "derived": [],
@@ -96,7 +88,7 @@
   "fn_example": ""
  },
  {
-  "id": 2563,
+  "id": 2562,
   "word": "string",
   "level": "중고공통",
   "derived": [],
@@ -104,7 +96,7 @@
   "fn_example": ""
  },
  {
-  "id": 2564,
+  "id": 2563,
   "word": "strip",
   "level": "선택",
   "derived": [],
@@ -112,7 +104,7 @@
   "fn_example": ""
  },
  {
-  "id": 2565,
+  "id": 2564,
   "word": "stripe",
   "level": "선택",
   "derived": [],
@@ -120,7 +112,7 @@
   "fn_example": ""
  },
  {
-  "id": 2566,
+  "id": 2565,
   "word": "stroke",
   "level": "선택",
   "derived": [],
@@ -128,7 +120,7 @@
   "fn_example": ""
  },
  {
-  "id": 2567,
+  "id": 2566,
   "word": "strong",
   "level": "초등",
   "derived": [],
@@ -136,7 +128,7 @@
   "fn_example": ""
  },
  {
-  "id": 2568,
+  "id": 2567,
   "word": "structure",
   "level": "중고공통",
   "derived": [],
@@ -144,7 +136,7 @@
   "fn_example": ""
  },
  {
-  "id": 2569,
+  "id": 2568,
   "word": "struggle",
   "level": "중고공통",
   "derived": [],
@@ -152,7 +144,7 @@
   "fn_example": ""
  },
  {
-  "id": 2570,
+  "id": 2569,
   "word": "studio",
   "level": "중고공통",
   "derived": [],
@@ -160,7 +152,7 @@
   "fn_example": ""
  },
  {
-  "id": 2571,
+  "id": 2570,
   "word": "study",
   "level": "초등",
   "derived": [
@@ -170,7 +162,7 @@
   "fn_example": ""
  },
  {
-  "id": 2572,
+  "id": 2571,
   "word": "stuff",
   "level": "중고공통",
   "derived": [],
@@ -178,7 +170,7 @@
   "fn_example": ""
  },
  {
-  "id": 2573,
+  "id": 2572,
   "word": "style",
   "level": "초등",
   "derived": [],
@@ -186,7 +178,7 @@
   "fn_example": ""
  },
  {
-  "id": 2574,
+  "id": 2573,
   "word": "subject",
   "level": "중고공통",
   "derived": [
@@ -196,7 +188,7 @@
   "fn_example": ""
  },
  {
-  "id": 2575,
+  "id": 2574,
   "word": "submarine",
   "level": "선택",
   "derived": [],
@@ -204,7 +196,7 @@
   "fn_example": ""
  },
  {
-  "id": 2576,
+  "id": 2575,
   "word": "submit",
   "level": "선택",
   "derived": [
@@ -214,7 +206,7 @@
   "fn_example": ""
  },
  {
-  "id": 2577,
+  "id": 2576,
   "word": "subscribe",
   "level": "선택",
   "derived": [],
@@ -222,7 +214,7 @@
   "fn_example": ""
  },
  {
-  "id": 2578,
+  "id": 2577,
   "word": "substance",
   "level": "선택",
   "derived": [
@@ -232,7 +224,7 @@
   "fn_example": ""
  },
  {
-  "id": 2579,
+  "id": 2578,
   "word": "substitute",
   "level": "선택",
   "derived": [],
@@ -240,7 +232,7 @@
   "fn_example": ""
  },
  {
-  "id": 2580,
+  "id": 2579,
   "word": "subtle",
   "level": "선택",
   "derived": [],
@@ -248,7 +240,7 @@
   "fn_example": ""
  },
  {
-  "id": 2581,
+  "id": 2580,
   "word": "suburb",
   "level": "선택",
   "derived": [],
@@ -256,7 +248,7 @@
   "fn_example": ""
  },
  {
-  "id": 2582,
+  "id": 2581,
   "word": "subway",
   "level": "초등",
   "derived": [],
@@ -264,7 +256,7 @@
   "fn_example": ""
  },
  {
-  "id": 2583,
+  "id": 2582,
   "word": "succeed",
   "level": "중고공통",
   "derived": [],
@@ -272,7 +264,7 @@
   "fn_example": ""
  },
  {
-  "id": 2584,
+  "id": 2583,
   "word": "success",
   "level": "중고공통",
   "derived": [],
@@ -280,7 +272,7 @@
   "fn_example": ""
  },
  {
-  "id": 2585,
+  "id": 2584,
   "word": "such",
   "level": "중고공통",
   "derived": [],
@@ -288,7 +280,7 @@
   "fn_example": ""
  },
  {
-  "id": 2586,
+  "id": 2585,
   "word": "suck",
   "level": "선택",
   "derived": [],
@@ -296,7 +288,7 @@
   "fn_example": ""
  },
  {
-  "id": 2587,
+  "id": 2586,
   "word": "sudden",
   "level": "중고공통",
   "derived": [],
@@ -304,7 +296,7 @@
   "fn_example": ""
  },
  {
-  "id": 2588,
+  "id": 2587,
   "word": "suffer",
   "level": "중고공통",
   "derived": [],
@@ -312,7 +304,7 @@
   "fn_example": ""
  },
  {
-  "id": 2589,
+  "id": 2588,
   "word": "suffice",
   "level": "선택",
   "derived": [
@@ -322,7 +314,7 @@
   "fn_example": ""
  },
  {
-  "id": 2590,
+  "id": 2589,
   "word": "sugar",
   "level": "초등",
   "derived": [],
@@ -330,7 +322,7 @@
   "fn_example": ""
  },
  {
-  "id": 2591,
+  "id": 2590,
   "word": "suggest",
   "level": "중고공통",
   "derived": [],
@@ -338,7 +330,7 @@
   "fn_example": ""
  },
  {
-  "id": 2592,
+  "id": 2591,
   "word": "suicide",
   "level": "선택",
   "derived": [],
@@ -346,7 +338,7 @@
   "fn_example": ""
  },
  {
-  "id": 2593,
+  "id": 2592,
   "word": "suit",
   "level": "중고공통",
   "derived": [],
@@ -354,7 +346,7 @@
   "fn_example": ""
  },
  {
-  "id": 2594,
+  "id": 2593,
   "word": "suite",
   "level": "선택",
   "derived": [],
@@ -362,7 +354,7 @@
   "fn_example": ""
  },
  {
-  "id": 2595,
+  "id": 2594,
   "word": "sum",
   "level": "중고공통",
   "derived": [
@@ -372,7 +364,7 @@
   "fn_example": ""
  },
  {
-  "id": 2596,
+  "id": 2595,
   "word": "summer",
   "level": "초등",
   "derived": [],
@@ -380,7 +372,7 @@
   "fn_example": ""
  },
  {
-  "id": 2597,
+  "id": 2596,
   "word": "summit",
   "level": "선택",
   "derived": [],
@@ -388,7 +380,7 @@
   "fn_example": ""
  },
  {
-  "id": 2598,
+  "id": 2597,
   "word": "sun",
   "level": "초등",
   "derived": [],
@@ -396,7 +388,7 @@
   "fn_example": ""
  },
  {
-  "id": 2599,
+  "id": 2598,
   "word": "super",
   "level": "중고공통",
   "derived": [],
@@ -404,8 +396,16 @@
   "fn_example": ""
  },
  {
-  "id": 2600,
+  "id": 2599,
   "word": "superb",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 2600,
+  "word": "superior",
   "level": "선택",
   "derived": [],
   "max_example_words": 15,

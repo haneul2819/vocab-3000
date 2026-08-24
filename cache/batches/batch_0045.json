@@ -1,675 +1,1511 @@
 [
  {
-  "id": 2201,
+  "id": 2200,
   "word": "represent",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["대표하다", "나타내다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "대표하다",
+     "나타내다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "She will represent our school in the contest.", "ko": "그녀는 대회에서 우리 학교를 대표할 것이다."},
-   {"en": "This symbol represents peace.", "ko": "이 기호는 평화를 나타낸다."}
+   {
+    "en": "She will represent our school in the contest.",
+    "ko": "그녀는 대회에서 우리 학교를 대표할 것이다."
+   },
+   {
+    "en": "This symbol represents peace.",
+    "ko": "이 기호는 평화를 나타낸다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2201,
+  "word": "republic",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "공화국"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Korea became a republic after the war.",
+    "ko": "한국은 전쟁 이후 공화국이 되었다."
+   },
+   {
+    "en": "The republic held its first election that year.",
+    "ko": "그 공화국은 그해 첫 선거를 치렀다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 2202,
-  "word": "republic",
-  "pos": ["명사"],
+  "word": "reputation",
+  "pos": [
+   "명사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["공화국"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "평판",
+     "명성"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Korea became a republic after the war.", "ko": "한국은 전쟁 이후 공화국이 되었다."},
-   {"en": "The republic held its first election that year.", "ko": "그 공화국은 그해 첫 선거를 치렀다."}
+   {
+    "en": "The restaurant has a good reputation in town.",
+    "ko": "그 식당은 마을에서 좋은 평판을 가지고 있다."
+   },
+   {
+    "en": "He worked hard to build his reputation.",
+    "ko": "그는 자신의 평판을 쌓기 위해 열심히 일했다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 2203,
-  "word": "reputation",
-  "pos": ["명사"],
-  "meanings": [
-   {"pos": "명사", "ko": ["평판", "명성"]}
-  ],
-  "examples": [
-   {"en": "The restaurant has a good reputation in town.", "ko": "그 식당은 마을에서 좋은 평판을 가지고 있다."},
-   {"en": "He worked hard to build his reputation.", "ko": "그는 자신의 평판을 쌓기 위해 열심히 일했다."}
-  ],
-  "theme": "사회"
- },
- {
-  "id": 2204,
   "word": "request",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["요청"]},
-   {"pos": "동사", "ko": ["요청하다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "요청"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "요청하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "She made a request for more time.", "ko": "그녀는 시간을 더 달라고 요청했다."},
-   {"en": "He requested help from his teacher.", "ko": "그는 선생님에게 도움을 요청했다."}
+   {
+    "en": "She made a request for more time.",
+    "ko": "그녀는 시간을 더 달라고 요청했다."
+   },
+   {
+    "en": "He requested help from his teacher.",
+    "ko": "그는 선생님에게 도움을 요청했다."
+   }
   ],
   "theme": "소통"
  },
  {
-  "id": 2205,
+  "id": 2204,
   "word": "require",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["필요로 하다", "요구하다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "필요로 하다",
+     "요구하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "This job requires good communication skills.", "ko": "이 일은 좋은 의사소통 능력을 필요로 한다."},
-   {"en": "The school requires students to wear uniforms.", "ko": "그 학교는 학생들에게 교복 착용을 요구한다."}
+   {
+    "en": "This job requires good communication skills.",
+    "ko": "이 일은 좋은 의사소통 능력을 필요로 한다."
+   },
+   {
+    "en": "The school requires students to wear uniforms.",
+    "ko": "그 학교는 학생들에게 교복 착용을 요구한다."
+   }
   ],
   "theme": "학교"
  },
  {
-  "id": 2206,
+  "id": 2205,
   "word": "rescue",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["구조하다"]},
-   {"pos": "명사", "ko": ["구조"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "구조하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "구조"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Firefighters rescued the cat from the tree.", "ko": "소방관들은 나무에서 고양이를 구조했다."},
-   {"en": "The rescue team arrived within minutes.", "ko": "구조대는 몇 분 안에 도착했다."}
+   {
+    "en": "Firefighters rescued the cat from the tree.",
+    "ko": "소방관들은 나무에서 고양이를 구조했다."
+   },
+   {
+    "en": "The rescue team arrived within minutes.",
+    "ko": "구조대는 몇 분 안에 도착했다."
+   }
   ],
   "theme": "사회"
  },
  {
-  "id": 2207,
+  "id": 2206,
   "word": "research",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["연구"]},
-   {"pos": "동사", "ko": ["연구하다", "조사하다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "연구"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "연구하다",
+     "조사하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "The scientist did research on climate change.", "ko": "그 과학자는 기후 변화에 대해 연구했다."},
-   {"en": "Students researched the topic for their project.", "ko": "학생들은 프로젝트를 위해 그 주제를 조사했다."}
+   {
+    "en": "The scientist did research on climate change.",
+    "ko": "그 과학자는 기후 변화에 대해 연구했다."
+   },
+   {
+    "en": "Students researched the topic for their project.",
+    "ko": "학생들은 프로젝트를 위해 그 주제를 조사했다."
+   }
   ],
   "theme": "과학"
  },
  {
-  "id": 2208,
+  "id": 2207,
   "word": "resemble",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["닮다", "비슷하다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "닮다",
+     "비슷하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "She resembles her mother a lot.", "ko": "그녀는 어머니를 많이 닮았다."},
-   {"en": "The two brothers resemble each other closely.", "ko": "그 두 형제는 서로 매우 닮았다."}
+   {
+    "en": "She resembles her mother a lot.",
+    "ko": "그녀는 어머니를 많이 닮았다."
+   },
+   {
+    "en": "The two brothers resemble each other closely.",
+    "ko": "그 두 형제는 서로 매우 닮았다."
+   }
   ],
   "theme": "가족"
  },
  {
-  "id": 2209,
+  "id": 2208,
   "word": "reserve",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["예약하다", "남겨두다"]},
-   {"pos": "명사", "ko": ["비축, 예비"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "예약하다",
+     "남겨두다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "비축, 예비"
+    ]
+   }
   ],
   "examples": [
-   {"en": "We reserved a table for dinner tonight.", "ko": "우리는 오늘 저녁 식사를 위해 테이블을 예약했다."},
-   {"en": "The country has a large oil reserve.", "ko": "그 나라는 많은 석유 비축량을 가지고 있다."}
+   {
+    "en": "We reserved a table for dinner tonight.",
+    "ko": "우리는 오늘 저녁 식사를 위해 테이블을 예약했다."
+   },
+   {
+    "en": "The country has a large oil reserve.",
+    "ko": "그 나라는 많은 석유 비축량을 가지고 있다."
+   }
   ],
   "theme": "일상"
  },
  {
-  "id": 2210,
+  "id": 2209,
   "word": "reside",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["거주하다", "살다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "거주하다",
+     "살다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Her family resides in a small town.", "ko": "그녀의 가족은 작은 마을에 거주한다."},
-   {"en": "He has resided in this city for ten years.", "ko": "그는 이 도시에서 10년 동안 살아왔다."}
+   {
+    "en": "Her family resides in a small town.",
+    "ko": "그녀의 가족은 작은 마을에 거주한다."
+   },
+   {
+    "en": "He has resided in this city for ten years.",
+    "ko": "그는 이 도시에서 10년 동안 살아왔다."
+   }
   ],
   "theme": "장소"
  },
  {
-  "id": 2211,
+  "id": 2210,
   "word": "resign",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["사임하다", "그만두다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "사임하다",
+     "그만두다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "The manager decided to resign from his position.", "ko": "그 관리자는 자리에서 사임하기로 결정했다."},
-   {"en": "She resigned after ten years at the company.", "ko": "그녀는 그 회사에서 10년 근무 후 사임했다."}
+   {
+    "en": "The manager decided to resign from his position.",
+    "ko": "그 관리자는 자리에서 사임하기로 결정했다."
+   },
+   {
+    "en": "She resigned after ten years at the company.",
+    "ko": "그녀는 그 회사에서 10년 근무 후 사임했다."
+   }
   ],
   "theme": "직업"
  },
  {
-  "id": 2212,
+  "id": 2211,
   "word": "resist",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["저항하다", "참다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "저항하다",
+     "참다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "It was hard to resist the delicious cake.", "ko": "맛있는 케이크를 참기가 어려웠다."},
-   {"en": "The soldiers resisted the enemy attack bravely.", "ko": "군인들은 적의 공격에 용감하게 저항했다."}
+   {
+    "en": "It was hard to resist the delicious cake.",
+    "ko": "맛있는 케이크를 참기가 어려웠다."
+   },
+   {
+    "en": "The soldiers resisted the enemy attack bravely.",
+    "ko": "군인들은 적의 공격에 용감하게 저항했다."
+   }
   ],
   "theme": "행동"
  },
  {
-  "id": 2213,
+  "id": 2212,
   "word": "resolve",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["해결하다", "결심하다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "해결하다",
+     "결심하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "They worked together to resolve the conflict.", "ko": "그들은 갈등을 해결하기 위해 함께 노력했다."},
-   {"en": "She resolved to study harder this semester.", "ko": "그녀는 이번 학기에 더 열심히 공부하기로 결심했다."}
+   {
+    "en": "They worked together to resolve the conflict.",
+    "ko": "그들은 갈등을 해결하기 위해 함께 노력했다."
+   },
+   {
+    "en": "She resolved to study harder this semester.",
+    "ko": "그녀는 이번 학기에 더 열심히 공부하기로 결심했다."
+   }
   ],
   "theme": "추상"
  },
  {
-  "id": 2214,
+  "id": 2213,
   "word": "resort",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["리조트", "휴양지"]},
-   {"pos": "동사", "ko": ["의지하다", "기대다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "리조트",
+     "휴양지"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "의지하다",
+     "기대다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "We stayed at a beach resort last summer.", "ko": "우리는 지난여름 해변 리조트에 머물렀다."},
-   {"en": "He resorted to asking a stranger for help.", "ko": "그는 낯선 사람에게 도움을 요청하는 것에 의지했다."}
+   {
+    "en": "We stayed at a beach resort last summer.",
+    "ko": "우리는 지난여름 해변 리조트에 머물렀다."
+   },
+   {
+    "en": "He resorted to asking a stranger for help.",
+    "ko": "그는 낯선 사람에게 도움을 요청하는 것에 의지했다."
+   }
   ],
   "theme": "여가"
  },
  {
-  "id": 2215,
+  "id": 2214,
   "word": "resource",
-  "pos": ["명사"],
+  "pos": [
+   "명사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["자원"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "자원"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Water is an important natural resource.", "ko": "물은 중요한 천연자원이다."},
-   {"en": "The library offers many learning resources.", "ko": "그 도서관은 많은 학습 자료를 제공한다."}
+   {
+    "en": "Water is an important natural resource.",
+    "ko": "물은 중요한 천연자원이다."
+   },
+   {
+    "en": "The library offers many learning resources.",
+    "ko": "그 도서관은 많은 학습 자료를 제공한다."
+   }
   ],
   "theme": "자연"
  },
  {
-  "id": 2216,
+  "id": 2215,
   "word": "respect",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["존경", "존중"]},
-   {"pos": "동사", "ko": ["존경하다", "존중하다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "존경",
+     "존중"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "존경하다",
+     "존중하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "We should respect our elders.", "ko": "우리는 어른들을 존경해야 한다."},
-   {"en": "Students respect their teachers at school.", "ko": "학생들은 학교에서 선생님을 존중한다."}
+   {
+    "en": "We should respect our elders.",
+    "ko": "우리는 어른들을 존경해야 한다."
+   },
+   {
+    "en": "Students respect their teachers at school.",
+    "ko": "학생들은 학교에서 선생님을 존중한다."
+   }
   ],
   "theme": "사회"
  },
  {
-  "id": 2217,
+  "id": 2216,
   "word": "respond",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["응답하다", "반응하다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "응답하다",
+     "반응하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Please respond to my message quickly.", "ko": "제 메시지에 빨리 응답해 주세요."},
-   {"en": "She responded with a smile.", "ko": "그녀는 미소로 응답했다."}
+   {
+    "en": "Please respond to my message quickly.",
+    "ko": "제 메시지에 빨리 응답해 주세요."
+   },
+   {
+    "en": "She responded with a smile.",
+    "ko": "그녀는 미소로 응답했다."
+   }
   ],
   "theme": "소통"
  },
  {
-  "id": 2218,
+  "id": 2217,
   "word": "responsible",
-  "pos": ["형용사"],
+  "pos": [
+   "형용사"
+  ],
   "meanings": [
-   {"pos": "형용사", "ko": ["책임이 있는", "책임감 있는"]}
+   {
+    "pos": "형용사",
+    "ko": [
+     "책임이 있는",
+     "책임감 있는"
+    ]
+   }
   ],
   "examples": [
-   {"en": "He is responsible for cleaning his room.", "ko": "그는 자기 방을 청소할 책임이 있다."},
-   {"en": "She is a very responsible student.", "ko": "그녀는 매우 책임감 있는 학생이다."}
+   {
+    "en": "He is responsible for cleaning his room.",
+    "ko": "그는 자기 방을 청소할 책임이 있다."
+   },
+   {
+    "en": "She is a very responsible student.",
+    "ko": "그녀는 매우 책임감 있는 학생이다."
+   }
   ],
   "theme": "학교"
  },
  {
-  "id": 2219,
+  "id": 2218,
   "word": "rest",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["휴식", "나머지"]},
-   {"pos": "동사", "ko": ["쉬다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "휴식",
+     "나머지"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "쉬다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "You need to rest after the long trip.", "ko": "긴 여행 후에는 쉬어야 한다."},
-   {"en": "She spent the rest of the day reading.", "ko": "그녀는 그날 나머지 시간을 독서하며 보냈다."}
+   {
+    "en": "You need to rest after the long trip.",
+    "ko": "긴 여행 후에는 쉬어야 한다."
+   },
+   {
+    "en": "She spent the rest of the day reading.",
+    "ko": "그녀는 그날 나머지 시간을 독서하며 보냈다."
+   }
   ],
   "theme": "일상"
  },
  {
-  "id": 2220,
+  "id": 2219,
   "word": "restaurant",
-  "pos": ["명사"],
+  "pos": [
+   "명사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["식당"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "식당"
+    ]
+   }
   ],
   "examples": [
-   {"en": "We ate at a new restaurant.", "ko": "우리는 새로운 식당에서 밥을 먹었다."},
-   {"en": "The restaurant is close to my house.", "ko": "그 식당은 우리 집에서 가깝다."}
+   {
+    "en": "We ate at a new restaurant.",
+    "ko": "우리는 새로운 식당에서 밥을 먹었다."
+   },
+   {
+    "en": "The restaurant is close to my house.",
+    "ko": "그 식당은 우리 집에서 가깝다."
+   }
   ],
   "theme": "장소"
  },
  {
-  "id": 2221,
+  "id": 2220,
   "word": "restore",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["복원하다", "회복시키다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "복원하다",
+     "회복시키다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Workers restored the old castle carefully.", "ko": "작업자들은 오래된 성을 조심스럽게 복원했다."},
-   {"en": "Sleep helps restore your energy.", "ko": "수면은 에너지를 회복시키는 데 도움을 준다."}
+   {
+    "en": "Workers restored the old castle carefully.",
+    "ko": "작업자들은 오래된 성을 조심스럽게 복원했다."
+   },
+   {
+    "en": "Sleep helps restore your energy.",
+    "ko": "수면은 에너지를 회복시키는 데 도움을 준다."
+   }
   ],
   "theme": "과학"
  },
  {
-  "id": 2222,
+  "id": 2221,
   "word": "restrain",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["억제하다", "제지하다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "억제하다",
+     "제지하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "He tried to restrain his anger.", "ko": "그는 자신의 화를 억제하려고 했다."},
-   {"en": "The guard restrained the crowd at the gate.", "ko": "경비원은 문 앞에서 군중을 제지했다."}
+   {
+    "en": "He tried to restrain his anger.",
+    "ko": "그는 자신의 화를 억제하려고 했다."
+   },
+   {
+    "en": "The guard restrained the crowd at the gate.",
+    "ko": "경비원은 문 앞에서 군중을 제지했다."
+   }
   ],
   "theme": "감정"
  },
  {
-  "id": 2223,
+  "id": 2222,
   "word": "restrict",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["제한하다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "제한하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "The rule restricts phone use in class.", "ko": "그 규칙은 수업 중 휴대폰 사용을 제한한다."},
-   {"en": "Doctors restricted his diet after the surgery.", "ko": "의사들은 수술 후 그의 식단을 제한했다."}
+   {
+    "en": "The rule restricts phone use in class.",
+    "ko": "그 규칙은 수업 중 휴대폰 사용을 제한한다."
+   },
+   {
+    "en": "Doctors restricted his diet after the surgery.",
+    "ko": "의사들은 수술 후 그의 식단을 제한했다."
+   }
   ],
   "theme": "사회"
  },
  {
-  "id": 2224,
+  "id": 2223,
   "word": "restroom",
-  "pos": ["명사"],
+  "pos": [
+   "명사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["화장실"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "화장실"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Where is the restroom?", "ko": "화장실이 어디에 있나요?"},
-   {"en": "The restroom is next to the office.", "ko": "화장실은 사무실 옆에 있다."}
+   {
+    "en": "Where is the restroom?",
+    "ko": "화장실이 어디에 있나요?"
+   },
+   {
+    "en": "The restroom is next to the office.",
+    "ko": "화장실은 사무실 옆에 있다."
+   }
   ],
   "theme": "장소"
  },
  {
-  "id": 2225,
+  "id": 2224,
   "word": "result",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["결과"]},
-   {"pos": "동사", "ko": ["~의 결과로 되다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "결과"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "~의 결과로 되다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "The test results were better than expected.", "ko": "시험 결과는 예상보다 좋았다."},
-   {"en": "Her hard work resulted in a great score.", "ko": "그녀의 노력은 좋은 점수라는 결과로 이어졌다."}
+   {
+    "en": "The test results were better than expected.",
+    "ko": "시험 결과는 예상보다 좋았다."
+   },
+   {
+    "en": "Her hard work resulted in a great score.",
+    "ko": "그녀의 노력은 좋은 점수라는 결과로 이어졌다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2225,
+  "word": "resume",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "재개하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "이력서"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Classes will resume after the winter break.",
+    "ko": "겨울 방학 후 수업이 재개될 것이다."
+   },
+   {
+    "en": "She sent her resume to the company.",
+    "ko": "그녀는 그 회사에 이력서를 보냈다."
+   }
   ],
   "theme": "학교"
  },
  {
   "id": 2226,
-  "word": "resume",
-  "pos": ["동사", "명사"],
-  "meanings": [
-   {"pos": "동사", "ko": ["재개하다"]},
-   {"pos": "명사", "ko": ["이력서"]}
-  ],
-  "examples": [
-   {"en": "Classes will resume after the winter break.", "ko": "겨울 방학 후 수업이 재개될 것이다."},
-   {"en": "She sent her resume to the company.", "ko": "그녀는 그 회사에 이력서를 보냈다."}
-  ],
-  "theme": "학교"
- },
- {
-  "id": 2227,
   "word": "retail",
-  "pos": ["명사", "형용사"],
+  "pos": [
+   "명사",
+   "형용사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["소매"]},
-   {"pos": "형용사", "ko": ["소매의"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "소매"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "소매의"
+    ]
+   }
   ],
   "examples": [
-   {"en": "She works in retail at a clothing store.", "ko": "그녀는 옷 가게에서 소매업에 종사한다."},
-   {"en": "The retail price is higher than online.", "ko": "소매 가격은 온라인보다 더 높다."}
+   {
+    "en": "She works in retail at a clothing store.",
+    "ko": "그녀는 옷 가게에서 소매업에 종사한다."
+   },
+   {
+    "en": "The retail price is higher than online.",
+    "ko": "소매 가격은 온라인보다 더 높다."
+   }
   ],
   "theme": "직업"
  },
  {
-  "id": 2228,
+  "id": 2227,
   "word": "retain",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["유지하다", "보유하다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "유지하다",
+     "보유하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "It is hard to retain new vocabulary words.", "ko": "새로운 단어를 기억하여 유지하기는 어렵다."},
-   {"en": "The team retained its top ranking this year.", "ko": "그 팀은 올해 최고 순위를 유지했다."}
+   {
+    "en": "It is hard to retain new vocabulary words.",
+    "ko": "새로운 단어를 기억하여 유지하기는 어렵다."
+   },
+   {
+    "en": "The team retained its top ranking this year.",
+    "ko": "그 팀은 올해 최고 순위를 유지했다."
+   }
   ],
   "theme": "추상"
  },
  {
-  "id": 2229,
+  "id": 2228,
   "word": "retire",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["은퇴하다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "은퇴하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "My grandfather retired last year.", "ko": "우리 할아버지는 작년에 은퇴하셨다."},
-   {"en": "She plans to retire at sixty.", "ko": "그녀는 60세에 은퇴할 계획이다."}
+   {
+    "en": "My grandfather retired last year.",
+    "ko": "우리 할아버지는 작년에 은퇴하셨다."
+   },
+   {
+    "en": "She plans to retire at sixty.",
+    "ko": "그녀는 60세에 은퇴할 계획이다."
+   }
   ],
   "theme": "직업"
  },
  {
-  "id": 2230,
+  "id": 2229,
   "word": "retreat",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["후퇴하다", "물러나다"]},
-   {"pos": "명사", "ko": ["후퇴", "은신처"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "후퇴하다",
+     "물러나다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "후퇴",
+     "은신처"
+    ]
+   }
   ],
   "examples": [
-   {"en": "The army retreated after the long battle.", "ko": "군대는 긴 전투 끝에 후퇴했다."},
-   {"en": "They spent the weekend at a quiet retreat.", "ko": "그들은 조용한 은신처에서 주말을 보냈다."}
+   {
+    "en": "The army retreated after the long battle.",
+    "ko": "군대는 긴 전투 끝에 후퇴했다."
+   },
+   {
+    "en": "They spent the weekend at a quiet retreat.",
+    "ko": "그들은 조용한 은신처에서 주말을 보냈다."
+   }
   ],
   "theme": "사회"
  },
  {
-  "id": 2231,
+  "id": 2230,
   "word": "return",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["돌아오다", "돌려주다"]},
-   {"pos": "명사", "ko": ["귀환", "반환"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "돌아오다",
+     "돌려주다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "귀환",
+     "반환"
+    ]
+   }
   ],
   "examples": [
-   {"en": "He will return home soon.", "ko": "그는 곧 집으로 돌아올 것이다."},
-   {"en": "She returned the book to the library.", "ko": "그녀는 도서관에 책을 반납했다."}
+   {
+    "en": "He will return home soon.",
+    "ko": "그는 곧 집으로 돌아올 것이다."
+   },
+   {
+    "en": "She returned the book to the library.",
+    "ko": "그녀는 도서관에 책을 반납했다."
+   }
   ],
   "theme": "일상"
  },
  {
-  "id": 2232,
+  "id": 2231,
   "word": "reveal",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["드러내다", "밝히다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "드러내다",
+     "밝히다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "The magician revealed his secret trick.", "ko": "그 마술사는 자신의 비밀 마술을 밝혔다."},
-   {"en": "She revealed the surprise at the party.", "ko": "그녀는 파티에서 그 깜짝 선물을 드러냈다."}
+   {
+    "en": "The magician revealed his secret trick.",
+    "ko": "그 마술사는 자신의 비밀 마술을 밝혔다."
+   },
+   {
+    "en": "She revealed the surprise at the party.",
+    "ko": "그녀는 파티에서 그 깜짝 선물을 드러냈다."
+   }
   ],
   "theme": "소통"
  },
  {
-  "id": 2233,
+  "id": 2232,
   "word": "revenge",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["복수"]},
-   {"pos": "동사", "ko": ["복수하다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "복수"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "복수하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "He wanted revenge for the unfair loss.", "ko": "그는 부당한 패배에 대한 복수를 원했다."},
-   {"en": "The team won and got their revenge.", "ko": "그 팀은 승리하며 복수를 했다."}
+   {
+    "en": "He wanted revenge for the unfair loss.",
+    "ko": "그는 부당한 패배에 대한 복수를 원했다."
+   },
+   {
+    "en": "The team won and got their revenge.",
+    "ko": "그 팀은 승리하며 복수를 했다."
+   }
   ],
   "theme": "감정"
  },
  {
-  "id": 2234,
+  "id": 2233,
   "word": "reverse",
-  "pos": ["동사", "명사", "형용사"],
+  "pos": [
+   "동사",
+   "명사",
+   "형용사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["뒤바꾸다", "후진하다"]},
-   {"pos": "명사", "ko": ["반대", "역"]},
-   {"pos": "형용사", "ko": ["반대의"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "뒤바꾸다",
+     "후진하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "반대",
+     "역"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "반대의"
+    ]
+   }
   ],
   "examples": [
-   {"en": "He reversed the car out of the garage.", "ko": "그는 차고에서 차를 후진시켰다."},
-   {"en": "Her opinion is the reverse of mine.", "ko": "그녀의 의견은 내 의견과 반대이다."}
+   {
+    "en": "He reversed the car out of the garage.",
+    "ko": "그는 차고에서 차를 후진시켰다."
+   },
+   {
+    "en": "Her opinion is the reverse of mine.",
+    "ko": "그녀의 의견은 내 의견과 반대이다."
+   }
   ],
   "theme": "교통"
  },
  {
-  "id": 2235,
+  "id": 2234,
   "word": "revise",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["수정하다", "개정하다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "수정하다",
+     "개정하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "She revised her essay before submitting it.", "ko": "그녀는 제출하기 전에 에세이를 수정했다."},
-   {"en": "The teacher revised the exam schedule.", "ko": "선생님은 시험 일정을 수정했다."}
+   {
+    "en": "She revised her essay before submitting it.",
+    "ko": "그녀는 제출하기 전에 에세이를 수정했다."
+   },
+   {
+    "en": "The teacher revised the exam schedule.",
+    "ko": "선생님은 시험 일정을 수정했다."
+   }
   ],
   "theme": "학교"
  },
  {
-  "id": 2236,
+  "id": 2235,
   "word": "revive",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["되살리다", "소생시키다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "되살리다",
+     "소생시키다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Doctors worked to revive the patient quickly.", "ko": "의사들은 환자를 빨리 소생시키기 위해 애썼다."},
-   {"en": "The festival revived an old town tradition.", "ko": "그 축제는 오래된 마을 전통을 되살렸다."}
+   {
+    "en": "Doctors worked to revive the patient quickly.",
+    "ko": "의사들은 환자를 빨리 소생시키기 위해 애썼다."
+   },
+   {
+    "en": "The festival revived an old town tradition.",
+    "ko": "그 축제는 오래된 마을 전통을 되살렸다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2236,
+  "word": "revolution",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "혁명"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The French Revolution changed European history.",
+    "ko": "프랑스 혁명은 유럽 역사를 바꾸었다."
+   },
+   {
+    "en": "The internet caused a huge revolution in society.",
+    "ko": "인터넷은 사회에 커다란 혁명을 일으켰다."
+   }
   ],
   "theme": "사회"
  },
  {
   "id": 2237,
-  "word": "revolution",
-  "pos": ["명사"],
-  "meanings": [
-   {"pos": "명사", "ko": ["혁명"]}
-  ],
-  "examples": [
-   {"en": "The French Revolution changed European history.", "ko": "프랑스 혁명은 유럽 역사를 바꾸었다."},
-   {"en": "The internet caused a huge revolution in society.", "ko": "인터넷은 사회에 커다란 혁명을 일으켰다."}
-  ],
-  "theme": "사회"
- },
- {
-  "id": 2238,
   "word": "reward",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["보상"]},
-   {"pos": "동사", "ko": ["보상하다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "보상"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "보상하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "She got a reward for her good grades.", "ko": "그녀는 좋은 성적에 대한 보상을 받았다."},
-   {"en": "The teacher rewarded the class with free time.", "ko": "선생님은 자유 시간으로 학급에 보상했다."}
+   {
+    "en": "She got a reward for her good grades.",
+    "ko": "그녀는 좋은 성적에 대한 보상을 받았다."
+   },
+   {
+    "en": "The teacher rewarded the class with free time.",
+    "ko": "선생님은 자유 시간으로 학급에 보상했다."
+   }
   ],
   "theme": "학교"
  },
  {
-  "id": 2239,
+  "id": 2238,
   "word": "rhythm",
-  "pos": ["명사"],
+  "pos": [
+   "명사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["리듬", "박자"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "리듬",
+     "박자"
+    ]
+   }
   ],
   "examples": [
-   {"en": "The dancers moved to the rhythm of the drums.", "ko": "댄서들은 드럼의 리듬에 맞춰 움직였다."},
-   {"en": "This song has a very fast rhythm.", "ko": "이 노래는 매우 빠른 리듬을 가지고 있다."}
+   {
+    "en": "The dancers moved to the rhythm of the drums.",
+    "ko": "댄서들은 드럼의 리듬에 맞춰 움직였다."
+   },
+   {
+    "en": "This song has a very fast rhythm.",
+    "ko": "이 노래는 매우 빠른 리듬을 가지고 있다."
+   }
   ],
   "theme": "여가"
  },
  {
-  "id": 2240,
+  "id": 2239,
   "word": "ribbon",
-  "pos": ["명사"],
+  "pos": [
+   "명사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["리본"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "리본"
+    ]
+   }
   ],
   "examples": [
-   {"en": "She tied a red ribbon.", "ko": "그녀는 빨간 리본을 묶었다."},
-   {"en": "The gift has a blue ribbon.", "ko": "그 선물에는 파란 리본이 있다."}
+   {
+    "en": "She tied a red ribbon.",
+    "ko": "그녀는 빨간 리본을 묶었다."
+   },
+   {
+    "en": "The gift has a blue ribbon.",
+    "ko": "그 선물에는 파란 리본이 있다."
+   }
   ],
   "theme": "사물"
  },
  {
-  "id": 2241,
+  "id": 2240,
   "word": "rice",
-  "pos": ["명사"],
+  "pos": [
+   "명사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["쌀", "밥"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "쌀",
+     "밥"
+    ]
+   }
   ],
   "examples": [
-   {"en": "We eat rice every day.", "ko": "우리는 매일 밥을 먹는다."},
-   {"en": "Farmers grow rice in the field.", "ko": "농부들은 논에서 쌀을 재배한다."}
+   {
+    "en": "We eat rice every day.",
+    "ko": "우리는 매일 밥을 먹는다."
+   },
+   {
+    "en": "Farmers grow rice in the field.",
+    "ko": "농부들은 논에서 쌀을 재배한다."
+   }
   ],
   "theme": "음식"
  },
  {
-  "id": 2242,
+  "id": 2241,
   "word": "rich",
-  "pos": ["형용사"],
+  "pos": [
+   "형용사"
+  ],
   "meanings": [
-   {"pos": "형용사", "ko": ["부유한", "풍부한"]}
+   {
+    "pos": "형용사",
+    "ko": [
+     "부유한",
+     "풍부한"
+    ]
+   }
   ],
   "examples": [
-   {"en": "He is a rich man.", "ko": "그는 부유한 남자이다."},
-   {"en": "This soup is rich in flavor.", "ko": "이 수프는 맛이 풍부하다."}
+   {
+    "en": "He is a rich man.",
+    "ko": "그는 부유한 남자이다."
+   },
+   {
+    "en": "This soup is rich in flavor.",
+    "ko": "이 수프는 맛이 풍부하다."
+   }
   ],
   "theme": "사회"
  },
  {
-  "id": 2243,
+  "id": 2242,
   "word": "rid",
-  "pos": ["동사"],
+  "pos": [
+   "동사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["없애다", "제거하다"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "없애다",
+     "제거하다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "We need to get rid of these old boxes.", "ko": "우리는 이 낡은 상자들을 없애야 한다."},
-   {"en": "She wanted to rid the house of bugs.", "ko": "그녀는 집에서 벌레를 없애고 싶어 했다."}
+   {
+    "en": "We need to get rid of these old boxes.",
+    "ko": "우리는 이 낡은 상자들을 없애야 한다."
+   },
+   {
+    "en": "She wanted to rid the house of bugs.",
+    "ko": "그녀는 집에서 벌레를 없애고 싶어 했다."
+   }
   ],
   "theme": "일상"
  },
  {
-  "id": 2244,
+  "id": 2243,
   "word": "ride",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["타다"]},
-   {"pos": "명사", "ko": ["타기", "놀이기구"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "타다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "타기",
+     "놀이기구"
+    ]
+   }
   ],
   "examples": [
-   {"en": "He rides his bike to school every morning.", "ko": "그는 매일 아침 자전거를 타고 학교에 간다."},
-   {"en": "We went on a fun ride at the park.", "ko": "우리는 공원에서 재미있는 놀이기구를 탔다."}
+   {
+    "en": "He rides his bike to school every morning.",
+    "ko": "그는 매일 아침 자전거를 타고 학교에 간다."
+   },
+   {
+    "en": "We went on a fun ride at the park.",
+    "ko": "우리는 공원에서 재미있는 놀이기구를 탔다."
+   }
   ],
   "theme": "교통"
  },
  {
-  "id": 2245,
+  "id": 2244,
   "word": "ridicule",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["조롱하다", "비웃다"]},
-   {"pos": "명사", "ko": ["조롱"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "조롱하다",
+     "비웃다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "조롱"
+    ]
+   }
   ],
   "examples": [
-   {"en": "The other kids ridiculed his strange hat.", "ko": "다른 아이들은 그의 이상한 모자를 조롱했다."},
-   {"en": "She was afraid of ridicule from her classmates.", "ko": "그녀는 반 친구들의 조롱을 두려워했다."}
+   {
+    "en": "The other kids ridiculed his strange hat.",
+    "ko": "다른 아이들은 그의 이상한 모자를 조롱했다."
+   },
+   {
+    "en": "She was afraid of ridicule from her classmates.",
+    "ko": "그녀는 반 친구들의 조롱을 두려워했다."
+   }
   ],
   "theme": "감정"
  },
  {
-  "id": 2246,
+  "id": 2245,
   "word": "right",
-  "pos": ["형용사", "명사", "부사"],
+  "pos": [
+   "형용사",
+   "명사",
+   "부사"
+  ],
   "meanings": [
-   {"pos": "형용사", "ko": ["옳은", "오른쪽의"]},
-   {"pos": "명사", "ko": ["권리", "오른쪽"]},
-   {"pos": "부사", "ko": ["바로", "정확히"]}
+   {
+    "pos": "형용사",
+    "ko": [
+     "옳은",
+     "오른쪽의"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "권리",
+     "오른쪽"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "바로",
+     "정확히"
+    ]
+   }
   ],
   "examples": [
-   {"en": "That’s right.", "ko": "그것 맞아."},
-   {"en": "Turn right at the corner.", "ko": "모퉁이에서 오른쪽으로 돌아라."}
+   {
+    "en": "That’s right.",
+    "ko": "그것 맞아."
+   },
+   {
+    "en": "Turn right at the corner.",
+    "ko": "모퉁이에서 오른쪽으로 돌아라."
+   }
   ],
   "theme": "장소"
  },
  {
-  "id": 2247,
+  "id": 2246,
   "word": "ring",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["반지", "고리"]},
-   {"pos": "동사", "ko": ["울리다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "반지",
+     "고리"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "울리다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "She wears a gold ring.", "ko": "그녀는 금 반지를 낀다."},
-   {"en": "The phone is ringing loudly.", "ko": "전화가 크게 울리고 있다."}
+   {
+    "en": "She wears a gold ring.",
+    "ko": "그녀는 금 반지를 낀다."
+   },
+   {
+    "en": "The phone is ringing loudly.",
+    "ko": "전화가 크게 울리고 있다."
+   }
   ],
   "theme": "사물"
  },
  {
-  "id": 2248,
+  "id": 2247,
   "word": "riot",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["폭동"]},
-   {"pos": "동사", "ko": ["폭동을 일으키다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "폭동"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "폭동을 일으키다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "The police stopped the riot downtown.", "ko": "경찰은 시내에서 일어난 폭동을 진압했다."},
-   {"en": "Angry citizens rioted after the decision.", "ko": "화가 난 시민들은 그 결정 이후 폭동을 일으켰다."}
+   {
+    "en": "The police stopped the riot downtown.",
+    "ko": "경찰은 시내에서 일어난 폭동을 진압했다."
+   },
+   {
+    "en": "Angry citizens rioted after the decision.",
+    "ko": "화가 난 시민들은 그 결정 이후 폭동을 일으켰다."
+   }
   ],
   "theme": "사회"
  },
  {
-  "id": 2249,
+  "id": 2248,
   "word": "rise",
-  "pos": ["동사", "명사"],
+  "pos": [
+   "동사",
+   "명사"
+  ],
   "meanings": [
-   {"pos": "동사", "ko": ["오르다", "일어나다"]},
-   {"pos": "명사", "ko": ["상승", "증가"]}
+   {
+    "pos": "동사",
+    "ko": [
+     "오르다",
+     "일어나다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "상승",
+     "증가"
+    ]
+   }
   ],
   "examples": [
-   {"en": "The sun rises in the east.", "ko": "해는 동쪽에서 뜬다."},
-   {"en": "There was a sharp rise in prices.", "ko": "물가에 급격한 상승이 있었다."}
+   {
+    "en": "The sun rises in the east.",
+    "ko": "해는 동쪽에서 뜬다."
+   },
+   {
+    "en": "There was a sharp rise in prices.",
+    "ko": "물가에 급격한 상승이 있었다."
+   }
   ],
   "theme": "자연"
  },
  {
-  "id": 2250,
+  "id": 2249,
   "word": "risk",
-  "pos": ["명사", "동사"],
+  "pos": [
+   "명사",
+   "동사"
+  ],
   "meanings": [
-   {"pos": "명사", "ko": ["위험", "위험 요소"]},
-   {"pos": "동사", "ko": ["위험을 무릅쓰다"]}
+   {
+    "pos": "명사",
+    "ko": [
+     "위험",
+     "위험 요소"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "위험을 무릅쓰다"
+    ]
+   }
   ],
   "examples": [
-   {"en": "Smoking is a risk to your health.", "ko": "흡연은 건강에 위험 요소이다."},
-   {"en": "She risked her job to help a friend.", "ko": "그녀는 친구를 돕기 위해 자신의 일자리를 걸었다."}
+   {
+    "en": "Smoking is a risk to your health.",
+    "ko": "흡연은 건강에 위험 요소이다."
+   },
+   {
+    "en": "She risked her job to help a friend.",
+    "ko": "그녀는 친구를 돕기 위해 자신의 일자리를 걸었다."
+   }
   ],
   "theme": "신체"
  }

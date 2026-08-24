@@ -1,52 +1,1384 @@
 [
- {"id": 1451, "word": "internet", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["인터넷"]}], "examples": [{"en": "I use the internet every day.", "ko": "나는 매일 인터넷을 사용한다."}, {"en": "The internet helps us find information.", "ko": "인터넷은 우리가 정보를 찾도록 돕는다."}], "theme": "과학"},
- {"id": 1452, "word": "interpret", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["해석하다", "통역하다"]}], "examples": [{"en": "It's hard to interpret his strange behavior sometimes.", "ko": "그의 이상한 행동을 해석하기 어려울 때가 있다."}, {"en": "She interpreted the speech for foreign guests.", "ko": "그녀는 외국인 손님들을 위해 연설을 통역했다."}], "theme": "소통"},
- {"id": 1453, "word": "interrupt", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["방해하다", "끼어들다"]}], "examples": [{"en": "Can I interrupt you for a moment?", "ko": "잠깐 방해해도 될까요?"}, {"en": "Please don't interrupt while I'm speaking.", "ko": "내가 말하는 동안 끼어들지 마세요."}], "theme": "소통"},
- {"id": 1454, "word": "interval", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["간격"]}], "examples": [{"en": "The buses arrive at regular ten-minute intervals.", "ko": "버스는 규칙적인 10분 간격으로 도착한다."}, {"en": "There was a short interval between the two songs.", "ko": "두 노래 사이에 짧은 간격이 있었다."}], "theme": "시간"},
- {"id": 1455, "word": "intervene", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["개입하다"]}], "examples": [{"en": "The teacher had to intervene during the argument.", "ko": "선생님은 그 다툼 동안 개입해야 했다."}, {"en": "Doctors intervened quickly to save the patient.", "ko": "의사들은 환자를 살리기 위해 신속히 개입했다."}], "theme": "사회"},
- {"id": 1456, "word": "intimate", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["친밀한"]}], "examples": [{"en": "They have shared an intimate friendship since childhood.", "ko": "그들은 어린 시절부터 친밀한 우정을 나누어 왔다."}, {"en": "The small cafe has an intimate, cozy feel.", "ko": "그 작은 카페는 친밀하고 아늑한 느낌을 준다."}], "theme": "감정"},
- {"id": 1457, "word": "into", "pos": ["전치사"], "meanings": [{"pos": "전치사", "ko": ["~안으로"]}], "examples": [{"en": "She jumped into the swimming pool.", "ko": "그녀는 수영장 안으로 뛰어들었다."}, {"en": "He walked into the classroom.", "ko": "그는 교실 안으로 걸어 들어갔다."}], "theme": "장소"},
- {"id": 1458, "word": "intrigue", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["흥미를 끌다"]}, {"pos": "명사", "ko": ["음모"]}], "examples": [{"en": "The mystery novel intrigued readers from the very first page.", "ko": "그 추리 소설은 첫 페이지부터 독자들의 흥미를 끌었다."}, {"en": "The palace was full of political intrigue.", "ko": "그 궁전은 정치적 음모로 가득했다."}], "theme": "여가"},
- {"id": 1459, "word": "introduce", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["소개하다"]}], "examples": [{"en": "Let me introduce my new friend.", "ko": "내 새 친구를 소개할게."}, {"en": "She introduced herself to the class.", "ko": "그녀는 반 친구들에게 자기소개를 했다."}], "theme": "소통"},
- {"id": 1460, "word": "invade", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["침략하다", "침범하다"]}], "examples": [{"en": "The ancient army decided to invade the neighboring kingdom.", "ko": "그 고대 군대는 이웃 왕국을 침략하기로 결정했다."}, {"en": "Weeds began to invade the entire garden.", "ko": "잡초가 정원 전체를 침범하기 시작했다."}], "theme": "사회"},
- {"id": 1461, "word": "invent", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["발명하다"]}], "examples": [{"en": "Thomas Edison invented the light bulb long ago.", "ko": "토머스 에디슨은 오래전에 전구를 발명했다."}, {"en": "She invented a fun new game for kids.", "ko": "그녀는 아이들을 위한 재미있는 새 게임을 발명했다."}], "theme": "과학"},
- {"id": 1462, "word": "invest", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["투자하다"]}], "examples": [{"en": "Many people invest money in the stock market.", "ko": "많은 사람들이 주식 시장에 돈을 투자한다."}, {"en": "He invested his time in learning to code.", "ko": "그는 코딩을 배우는 데 시간을 투자했다."}], "theme": "사회"},
- {"id": 1463, "word": "investigate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["조사하다"]}], "examples": [{"en": "The police investigated the case for two weeks.", "ko": "경찰은 그 사건을 2주 동안 조사했다."}, {"en": "Scientists investigated the cause of the strange illness.", "ko": "과학자들은 그 이상한 병의 원인을 조사했다."}], "theme": "사회"},
- {"id": 1464, "word": "invite", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["초대하다"]}], "examples": [{"en": "I will invite my friends.", "ko": "나는 내 친구들을 초대할 것이다."}, {"en": "She invited us to her party.", "ko": "그녀는 우리를 파티에 초대했다."}], "theme": "여가"},
- {"id": 1465, "word": "involve", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["포함하다", "관련시키다"]}], "examples": [{"en": "The project will involve many different departments.", "ko": "그 프로젝트는 여러 다른 부서와 관련될 것이다."}, {"en": "This game involves a lot of teamwork.", "ko": "이 게임은 많은 팀워크를 필요로 한다."}], "theme": "사회"},
- {"id": 1466, "word": "iron", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["철", "다리미"]}, {"pos": "동사", "ko": ["다림질하다"]}], "examples": [{"en": "My mom uses the iron every Sunday morning.", "ko": "우리 엄마는 매주 일요일 아침에 다리미를 사용하신다."}, {"en": "The gate was made of solid iron.", "ko": "그 대문은 단단한 철로 만들어졌다."}], "theme": "사물"},
- {"id": 1467, "word": "irony", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["아이러니", "역설"]}], "examples": [{"en": "There was a strange irony in how the story ended.", "ko": "그 이야기가 끝난 방식에는 이상한 아이러니가 있었다."}, {"en": "The irony was that he lost his own game.", "ko": "아이러니한 점은 그가 자신의 경기에서 졌다는 것이다."}], "theme": "추상"},
- {"id": 1468, "word": "irritate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["짜증나게 하다", "자극하다"]}], "examples": [{"en": "The loud music began to irritate the neighbors.", "ko": "시끄러운 음악이 이웃들을 짜증나게 하기 시작했다."}, {"en": "Dust can irritate your eyes and skin.", "ko": "먼지는 눈과 피부를 자극할 수 있다."}], "theme": "감정"},
- {"id": 1469, "word": "island", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["섬"]}], "examples": [{"en": "We took a boat to the small island.", "ko": "우리는 작은 섬으로 배를 타고 갔다."}, {"en": "Jeju Island is famous for its beautiful beaches.", "ko": "제주도는 아름다운 해변으로 유명하다."}], "theme": "자연"},
- {"id": 1470, "word": "isolate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["고립시키다", "분리하다"]}], "examples": [{"en": "The sick student was isolated from the rest of the class.", "ko": "아픈 학생은 나머지 반 친구들로부터 격리되었다."}, {"en": "Scientists isolated the gene responsible for the disease.", "ko": "과학자들은 그 병을 일으키는 유전자를 분리해냈다."}], "theme": "과학"},
- {"id": 1471, "word": "issue", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["문제", "쟁점"]}, {"pos": "동사", "ko": ["발행하다"]}], "examples": [{"en": "We talked about a school issue.", "ko": "우리는 학교 문제에 대해 이야기했다."}, {"en": "The magazine issued a new edition.", "ko": "그 잡지는 새로운 호를 발행했다."}], "theme": "사회"},
- {"id": 1472, "word": "it", "pos": ["대명사"], "meanings": [{"pos": "대명사", "ko": ["그것"]}], "examples": [{"en": "What time is it? A quarter to six.", "ko": "지금 몇 시야? 6시 15분 전이야."}, {"en": "I like it very much.", "ko": "나는 그것을 매우 좋아한다."}], "theme": "소통"},
- {"id": 1473, "word": "item", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["항목", "물품"]}], "examples": [{"en": "Each item in the store has its own price.", "ko": "가게에 있는 각 물품은 저마다의 가격이 있다."}, {"en": "She checked every item on the list.", "ko": "그녀는 목록에 있는 모든 항목을 확인했다."}], "theme": "사물"},
- {"id": 1474, "word": "jacket", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["재킷", "겉옷"]}], "examples": [{"en": "Wear your jacket, it's cold.", "ko": "재킷을 입어라, 춥다."}, {"en": "He bought a new winter jacket.", "ko": "그는 새 겨울 재킷을 샀다."}], "theme": "사물"},
- {"id": 1475, "word": "jail", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["감옥"]}], "examples": [{"en": "The thief was sent to jail for two years.", "ko": "그 도둑은 2년 동안 감옥에 보내졌다."}, {"en": "The old jail is now a museum for visitors.", "ko": "그 오래된 감옥은 이제 방문객을 위한 박물관이다."}], "theme": "사회"},
- {"id": 1476, "word": "jam", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["잼"]}, {"pos": "동사", "ko": ["막히다", "꽉 채우다"]}], "examples": [{"en": "I like jam on my bread.", "ko": "나는 빵에 잼을 발라 먹는 것을 좋아한다."}, {"en": "The road was jammed this morning.", "ko": "오늘 아침 길이 막혔다."}], "theme": "음식"},
- {"id": 1477, "word": "jar", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["병", "단지"]}], "examples": [{"en": "She kept cookies in a big glass jar.", "ko": "그녀는 큰 유리병에 쿠키를 보관했다."}, {"en": "He opened a jar of strawberry jam.", "ko": "그는 딸기잼 병을 열었다."}], "theme": "사물"},
- {"id": 1478, "word": "jaw", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["턱"]}], "examples": [{"en": "He hurt his jaw during the soccer match.", "ko": "그는 축구 경기 중에 턱을 다쳤다."}, {"en": "The dentist examined her lower jaw carefully.", "ko": "치과 의사는 그녀의 아래턱을 꼼꼼히 살폈다."}], "theme": "신체"},
- {"id": 1479, "word": "jeans", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["청바지"]}], "examples": [{"en": "She wore blue jeans and a white shirt.", "ko": "그녀는 파란 청바지와 흰 셔츠를 입었다."}, {"en": "These jeans are too small for me now.", "ko": "이 청바지는 이제 나에게 너무 작다."}], "theme": "사물"},
- {"id": 1480, "word": "job", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["일", "직업"]}], "examples": [{"en": "My dad has a new job.", "ko": "우리 아빠는 새 직업을 가지셨다."}, {"en": "She did a great job today.", "ko": "그녀는 오늘 일을 잘 해냈다."}], "theme": "직업"},
- {"id": 1481, "word": "jog", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["조깅하다"]}], "examples": [{"en": "I jog around the park every morning before school.", "ko": "나는 학교 가기 전 매일 아침 공원 주변을 조깅한다."}, {"en": "He jogged slowly to warm up his legs.", "ko": "그는 다리를 풀기 위해 천천히 조깅했다."}], "theme": "여가"},
- {"id": 1482, "word": "join", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["가입하다", "합류하다"]}], "examples": [{"en": "Please join our soccer team.", "ko": "우리 축구팀에 가입해줘."}, {"en": "Can I join you for lunch?", "ko": "점심에 너와 함께해도 될까?"}], "theme": "여가"},
- {"id": 1483, "word": "joint", "pos": ["명사", "형용사"], "meanings": [{"pos": "명사", "ko": ["관절"]}, {"pos": "형용사", "ko": ["공동의"]}], "examples": [{"en": "The doctor examined the pain in his knee joint.", "ko": "의사는 그의 무릎 관절 통증을 진찰했다."}, {"en": "The two schools held a joint sports event.", "ko": "두 학교는 공동 체육 행사를 열었다."}], "theme": "신체"},
- {"id": 1484, "word": "joke", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["농담"]}, {"pos": "동사", "ko": ["농담하다"]}], "examples": [{"en": "He told a funny joke during lunch break.", "ko": "그는 점심시간에 재미있는 농담을 했다."}, {"en": "Don't joke about something so serious.", "ko": "그렇게 심각한 것에 대해 농담하지 마."}], "theme": "감정"},
- {"id": 1485, "word": "journal", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["일기", "학술지"]}], "examples": [{"en": "She writes in her journal every night before bed.", "ko": "그녀는 매일 밤 자기 전에 일기를 쓴다."}, {"en": "His research was published in a science journal.", "ko": "그의 연구는 과학 학술지에 실렸다."}], "theme": "일상"},
- {"id": 1486, "word": "journey", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["여행", "여정"]}], "examples": [{"en": "Their journey across the country took three days.", "ko": "그들의 전국 여행은 3일이 걸렸다."}, {"en": "It was a long and tiring journey home.", "ko": "그것은 길고 피곤한 귀갓길 여정이었다."}], "theme": "여가"},
- {"id": 1487, "word": "joy", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["기쁨"]}], "examples": [{"en": "Her face was full of joy at the news.", "ko": "그녀의 얼굴은 그 소식에 기쁨으로 가득했다."}, {"en": "The children shouted with joy on the last day of school.", "ko": "아이들은 학기 마지막 날 기쁨에 소리쳤다."}], "theme": "감정"},
- {"id": 1488, "word": "judge", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["판사", "심사위원"]}, {"pos": "동사", "ko": ["판단하다"]}], "examples": [{"en": "The judge listened carefully to both sides of the case.", "ko": "판사는 사건의 양쪽 이야기를 주의 깊게 들었다."}, {"en": "Please don't judge people by their appearance.", "ko": "겉모습만 보고 사람을 판단하지 마라."}], "theme": "사회"},
- {"id": 1489, "word": "juice", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["주스"]}], "examples": [{"en": "I drink orange juice every morning.", "ko": "나는 매일 아침 오렌지 주스를 마신다."}, {"en": "She made fresh apple juice.", "ko": "그녀는 신선한 사과 주스를 만들었다."}], "theme": "음식"},
- {"id": 1490, "word": "jump", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["뛰다", "점프하다"]}], "examples": [{"en": "The dog can jump very high.", "ko": "그 개는 매우 높이 뛸 수 있다."}, {"en": "She jumped over the small fence.", "ko": "그녀는 작은 울타리를 뛰어넘었다."}], "theme": "행동"},
- {"id": 1491, "word": "junior", "pos": ["형용사", "명사"], "meanings": [{"pos": "형용사", "ko": ["하급의", "어린"]}, {"pos": "명사", "ko": ["후배"]}], "examples": [{"en": "He plays on the junior basketball team.", "ko": "그는 주니어 농구팀에서 뛴다."}, {"en": "She is my junior at the company.", "ko": "그녀는 회사에서 나의 후배이다."}], "theme": "학교"},
- {"id": 1492, "word": "jury", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["배심원단"]}], "examples": [{"en": "The jury took three hours to reach a decision.", "ko": "배심원단은 결정을 내리는 데 세 시간이 걸렸다."}, {"en": "Twelve people served on the jury for the trial.", "ko": "열두 명이 그 재판의 배심원으로 참여했다."}], "theme": "사회"},
- {"id": 1493, "word": "just", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["그저", "방금", "딱"]}], "examples": [{"en": "I (just) can’t believe this.", "ko": "나는 그저 이걸 믿을 수가 없다."}, {"en": "She just arrived at the station.", "ko": "그녀는 방금 역에 도착했다."}], "theme": "감정"},
- {"id": 1494, "word": "justice", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["정의", "공정함"]}], "examples": [{"en": "The people demanded justice for the victims.", "ko": "사람들은 피해자들을 위한 정의를 요구했다."}, {"en": "Everyone deserves fairness and justice.", "ko": "모든 사람은 공정함과 정의를 누릴 자격이 있다."}], "theme": "사회"},
- {"id": 1495, "word": "keen", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["열정적인", "예리한"]}], "examples": [{"en": "She is keen on learning new languages.", "ko": "그녀는 새로운 언어를 배우는 데 열정적이다."}, {"en": "He has a keen eye for small details.", "ko": "그는 작은 세부 사항을 보는 예리한 눈을 가지고 있다."}], "theme": "감정"},
- {"id": 1496, "word": "keep", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["유지하다", "계속하다"]}], "examples": [{"en": "Keep (on) going.", "ko": "계속 나아가라."}, {"en": "Please keep your room clean.", "ko": "네 방을 깨끗하게 유지해라."}], "theme": "행동"},
- {"id": 1497, "word": "key", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["열쇠"]}], "examples": [{"en": "I lost my house key.", "ko": "나는 집 열쇠를 잃어버렸다."}, {"en": "This key opens the front door.", "ko": "이 열쇠는 현관문을 연다."}], "theme": "사물"},
- {"id": 1498, "word": "kick", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["차다"]}], "examples": [{"en": "He kicked the ball hard.", "ko": "그는 공을 세게 찼다."}, {"en": "Don't kick the chair, please.", "ko": "의자를 차지 마세요."}], "theme": "행동"},
- {"id": 1499, "word": "kid", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["아이", "어린이"]}], "examples": [{"en": "The kid is playing outside.", "ko": "그 아이는 밖에서 놀고 있다."}, {"en": "Every kid loves ice cream.", "ko": "모든 아이는 아이스크림을 좋아한다."}], "theme": "가족"},
- {"id": 1500, "word": "kill", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["죽이다"]}], "examples": [{"en": "The frost can kill young plants.", "ko": "서리는 어린 식물을 죽일 수 있다."}, {"en": "Cats sometimes kill small mice.", "ko": "고양이는 가끔 작은 쥐를 죽인다."}], "theme": "동물"}
+ {
+  "id": 1451,
+  "word": "internet",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "인터넷"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I use the internet every day.",
+    "ko": "나는 매일 인터넷을 사용한다."
+   },
+   {
+    "en": "The internet helps us find information.",
+    "ko": "인터넷은 우리가 정보를 찾도록 돕는다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 1452,
+  "word": "interpret",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "해석하다",
+     "통역하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It's hard to interpret his strange behavior sometimes.",
+    "ko": "그의 이상한 행동을 해석하기 어려울 때가 있다."
+   },
+   {
+    "en": "She interpreted the speech for foreign guests.",
+    "ko": "그녀는 외국인 손님들을 위해 연설을 통역했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1453,
+  "word": "interrupt",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "방해하다",
+     "끼어들다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Can I interrupt you for a moment?",
+    "ko": "잠깐 방해해도 될까요?"
+   },
+   {
+    "en": "Please don't interrupt while I'm speaking.",
+    "ko": "내가 말하는 동안 끼어들지 마세요."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1454,
+  "word": "interval",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "간격"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The buses arrive at regular ten-minute intervals.",
+    "ko": "버스는 규칙적인 10분 간격으로 도착한다."
+   },
+   {
+    "en": "There was a short interval between the two songs.",
+    "ko": "두 노래 사이에 짧은 간격이 있었다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 1455,
+  "word": "intervene",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "개입하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The teacher had to intervene during the argument.",
+    "ko": "선생님은 그 다툼 동안 개입해야 했다."
+   },
+   {
+    "en": "Doctors intervened quickly to save the patient.",
+    "ko": "의사들은 환자를 살리기 위해 신속히 개입했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1456,
+  "word": "intimate",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "친밀한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "They have shared an intimate friendship since childhood.",
+    "ko": "그들은 어린 시절부터 친밀한 우정을 나누어 왔다."
+   },
+   {
+    "en": "The small cafe has an intimate, cozy feel.",
+    "ko": "그 작은 카페는 친밀하고 아늑한 느낌을 준다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1457,
+  "word": "into",
+  "pos": [
+   "전치사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~안으로"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She jumped into the swimming pool.",
+    "ko": "그녀는 수영장 안으로 뛰어들었다."
+   },
+   {
+    "en": "He walked into the classroom.",
+    "ko": "그는 교실 안으로 걸어 들어갔다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 1458,
+  "word": "intrigue",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "흥미를 끌다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "음모"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The mystery novel intrigued readers from the very first page.",
+    "ko": "그 추리 소설은 첫 페이지부터 독자들의 흥미를 끌었다."
+   },
+   {
+    "en": "The palace was full of political intrigue.",
+    "ko": "그 궁전은 정치적 음모로 가득했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 1459,
+  "word": "introduce",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "소개하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Let me introduce my new friend.",
+    "ko": "내 새 친구를 소개할게."
+   },
+   {
+    "en": "She introduced herself to the class.",
+    "ko": "그녀는 반 친구들에게 자기소개를 했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1460,
+  "word": "invade",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "침략하다",
+     "침범하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The ancient army decided to invade the neighboring kingdom.",
+    "ko": "그 고대 군대는 이웃 왕국을 침략하기로 결정했다."
+   },
+   {
+    "en": "Weeds began to invade the entire garden.",
+    "ko": "잡초가 정원 전체를 침범하기 시작했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1461,
+  "word": "invent",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "발명하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Thomas Edison invented the light bulb long ago.",
+    "ko": "토머스 에디슨은 오래전에 전구를 발명했다."
+   },
+   {
+    "en": "She invented a fun new game for kids.",
+    "ko": "그녀는 아이들을 위한 재미있는 새 게임을 발명했다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 1462,
+  "word": "invest",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "투자하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Many people invest money in the stock market.",
+    "ko": "많은 사람들이 주식 시장에 돈을 투자한다."
+   },
+   {
+    "en": "He invested his time in learning to code.",
+    "ko": "그는 코딩을 배우는 데 시간을 투자했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1463,
+  "word": "investigate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "조사하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The police investigated the case for two weeks.",
+    "ko": "경찰은 그 사건을 2주 동안 조사했다."
+   },
+   {
+    "en": "Scientists investigated the cause of the strange illness.",
+    "ko": "과학자들은 그 이상한 병의 원인을 조사했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1464,
+  "word": "invite",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "초대하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I will invite my friends.",
+    "ko": "나는 내 친구들을 초대할 것이다."
+   },
+   {
+    "en": "She invited us to her party.",
+    "ko": "그녀는 우리를 파티에 초대했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 1465,
+  "word": "involve",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "포함하다",
+     "관련시키다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The project will involve many different departments.",
+    "ko": "그 프로젝트는 여러 다른 부서와 관련될 것이다."
+   },
+   {
+    "en": "This game involves a lot of teamwork.",
+    "ko": "이 게임은 많은 팀워크를 필요로 한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1466,
+  "word": "iron",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "철",
+     "다리미"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "다림질하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My mom uses the iron every Sunday morning.",
+    "ko": "우리 엄마는 매주 일요일 아침에 다리미를 사용하신다."
+   },
+   {
+    "en": "The gate was made of solid iron.",
+    "ko": "그 대문은 단단한 철로 만들어졌다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1467,
+  "word": "irony",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "아이러니",
+     "역설"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "There was a strange irony in how the story ended.",
+    "ko": "그 이야기가 끝난 방식에는 이상한 아이러니가 있었다."
+   },
+   {
+    "en": "The irony was that he lost his own game.",
+    "ko": "아이러니한 점은 그가 자신의 경기에서 졌다는 것이다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1468,
+  "word": "irritate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "짜증나게 하다",
+     "자극하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The loud music began to irritate the neighbors.",
+    "ko": "시끄러운 음악이 이웃들을 짜증나게 하기 시작했다."
+   },
+   {
+    "en": "Dust can irritate your eyes and skin.",
+    "ko": "먼지는 눈과 피부를 자극할 수 있다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1469,
+  "word": "island",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "섬"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We took a boat to the small island.",
+    "ko": "우리는 작은 섬으로 배를 타고 갔다."
+   },
+   {
+    "en": "Jeju Island is famous for its beautiful beaches.",
+    "ko": "제주도는 아름다운 해변으로 유명하다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1470,
+  "word": "isolate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "고립시키다",
+     "분리하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The sick student was isolated from the rest of the class.",
+    "ko": "아픈 학생은 나머지 반 친구들로부터 격리되었다."
+   },
+   {
+    "en": "Scientists isolated the gene responsible for the disease.",
+    "ko": "과학자들은 그 병을 일으키는 유전자를 분리해냈다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 1471,
+  "word": "issue",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "문제",
+     "쟁점"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "발행하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We talked about a school issue.",
+    "ko": "우리는 학교 문제에 대해 이야기했다."
+   },
+   {
+    "en": "The magazine issued a new edition.",
+    "ko": "그 잡지는 새로운 호를 발행했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1472,
+  "word": "it",
+  "pos": [
+   "대명사"
+  ],
+  "meanings": [
+   {
+    "pos": "대명사",
+    "ko": [
+     "그것"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "What time is it? A quarter to six.",
+    "ko": "지금 몇 시야? 6시 15분 전이야."
+   },
+   {
+    "en": "I like it very much.",
+    "ko": "나는 그것을 매우 좋아한다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1473,
+  "word": "item",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "항목",
+     "물품"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Each item in the store has its own price.",
+    "ko": "가게에 있는 각 물품은 저마다의 가격이 있다."
+   },
+   {
+    "en": "She checked every item on the list.",
+    "ko": "그녀는 목록에 있는 모든 항목을 확인했다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1474,
+  "word": "jacket",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "재킷",
+     "겉옷"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Wear your jacket, it's cold.",
+    "ko": "재킷을 입어라, 춥다."
+   },
+   {
+    "en": "He bought a new winter jacket.",
+    "ko": "그는 새 겨울 재킷을 샀다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1475,
+  "word": "jail",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "감옥"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The thief was sent to jail for two years.",
+    "ko": "그 도둑은 2년 동안 감옥에 보내졌다."
+   },
+   {
+    "en": "The old jail is now a museum for visitors.",
+    "ko": "그 오래된 감옥은 이제 방문객을 위한 박물관이다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1476,
+  "word": "jam",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "잼"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "막히다",
+     "꽉 채우다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I like jam on my bread.",
+    "ko": "나는 빵에 잼을 발라 먹는 것을 좋아한다."
+   },
+   {
+    "en": "The road was jammed this morning.",
+    "ko": "오늘 아침 길이 막혔다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 1477,
+  "word": "jar",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "병",
+     "단지"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She kept cookies in a big glass jar.",
+    "ko": "그녀는 큰 유리병에 쿠키를 보관했다."
+   },
+   {
+    "en": "He opened a jar of strawberry jam.",
+    "ko": "그는 딸기잼 병을 열었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1478,
+  "word": "jaw",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "턱"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He hurt his jaw during the soccer match.",
+    "ko": "그는 축구 경기 중에 턱을 다쳤다."
+   },
+   {
+    "en": "The dentist examined her lower jaw carefully.",
+    "ko": "치과 의사는 그녀의 아래턱을 꼼꼼히 살폈다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1479,
+  "word": "jeans",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "청바지"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She wore blue jeans and a white shirt.",
+    "ko": "그녀는 파란 청바지와 흰 셔츠를 입었다."
+   },
+   {
+    "en": "These jeans are too small for me now.",
+    "ko": "이 청바지는 이제 나에게 너무 작다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1480,
+  "word": "job",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "일",
+     "직업"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My dad has a new job.",
+    "ko": "우리 아빠는 새 직업을 가지셨다."
+   },
+   {
+    "en": "She did a great job today.",
+    "ko": "그녀는 오늘 일을 잘 해냈다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 1481,
+  "word": "jog",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "조깅하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I jog around the park every morning before school.",
+    "ko": "나는 학교 가기 전 매일 아침 공원 주변을 조깅한다."
+   },
+   {
+    "en": "He jogged slowly to warm up his legs.",
+    "ko": "그는 다리를 풀기 위해 천천히 조깅했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 1482,
+  "word": "join",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "가입하다",
+     "합류하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please join our soccer team.",
+    "ko": "우리 축구팀에 가입해줘."
+   },
+   {
+    "en": "Can I join you for lunch?",
+    "ko": "점심에 너와 함께해도 될까?"
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 1483,
+  "word": "joint",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "관절"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "공동의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The doctor examined the pain in his knee joint.",
+    "ko": "의사는 그의 무릎 관절 통증을 진찰했다."
+   },
+   {
+    "en": "The two schools held a joint sports event.",
+    "ko": "두 학교는 공동 체육 행사를 열었다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1484,
+  "word": "joke",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "농담"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "농담하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He told a funny joke during lunch break.",
+    "ko": "그는 점심시간에 재미있는 농담을 했다."
+   },
+   {
+    "en": "Don't joke about something so serious.",
+    "ko": "그렇게 심각한 것에 대해 농담하지 마."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1485,
+  "word": "journal",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "일기",
+     "학술지"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She writes in her journal every night before bed.",
+    "ko": "그녀는 매일 밤 자기 전에 일기를 쓴다."
+   },
+   {
+    "en": "His research was published in a science journal.",
+    "ko": "그의 연구는 과학 학술지에 실렸다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 1486,
+  "word": "journey",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "여행",
+     "여정"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Their journey across the country took three days.",
+    "ko": "그들의 전국 여행은 3일이 걸렸다."
+   },
+   {
+    "en": "It was a long and tiring journey home.",
+    "ko": "그것은 길고 피곤한 귀갓길 여정이었다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 1487,
+  "word": "joy",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "기쁨"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Her face was full of joy at the news.",
+    "ko": "그녀의 얼굴은 그 소식에 기쁨으로 가득했다."
+   },
+   {
+    "en": "The children shouted with joy on the last day of school.",
+    "ko": "아이들은 학기 마지막 날 기쁨에 소리쳤다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1488,
+  "word": "judge",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "판사",
+     "심사위원"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "판단하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The judge listened carefully to both sides of the case.",
+    "ko": "판사는 사건의 양쪽 이야기를 주의 깊게 들었다."
+   },
+   {
+    "en": "Please don't judge people by their appearance.",
+    "ko": "겉모습만 보고 사람을 판단하지 마라."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1489,
+  "word": "juice",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "주스"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I drink orange juice every morning.",
+    "ko": "나는 매일 아침 오렌지 주스를 마신다."
+   },
+   {
+    "en": "She made fresh apple juice.",
+    "ko": "그녀는 신선한 사과 주스를 만들었다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 1490,
+  "word": "jump",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "뛰다",
+     "점프하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The dog can jump very high.",
+    "ko": "그 개는 매우 높이 뛸 수 있다."
+   },
+   {
+    "en": "She jumped over the small fence.",
+    "ko": "그녀는 작은 울타리를 뛰어넘었다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1491,
+  "word": "junior",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "하급의",
+     "어린"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "후배"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He plays on the junior basketball team.",
+    "ko": "그는 주니어 농구팀에서 뛴다."
+   },
+   {
+    "en": "She is my junior at the company.",
+    "ko": "그녀는 회사에서 나의 후배이다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 1492,
+  "word": "jury",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "배심원단"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The jury took three hours to reach a decision.",
+    "ko": "배심원단은 결정을 내리는 데 세 시간이 걸렸다."
+   },
+   {
+    "en": "Twelve people served on the jury for the trial.",
+    "ko": "열두 명이 그 재판의 배심원으로 참여했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1493,
+  "word": "just",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "그저",
+     "방금",
+     "딱"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I (just) can’t believe this.",
+    "ko": "나는 그저 이걸 믿을 수가 없다."
+   },
+   {
+    "en": "She just arrived at the station.",
+    "ko": "그녀는 방금 역에 도착했다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1494,
+  "word": "justice",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "정의",
+     "공정함"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The people demanded justice for the victims.",
+    "ko": "사람들은 피해자들을 위한 정의를 요구했다."
+   },
+   {
+    "en": "Everyone deserves fairness and justice.",
+    "ko": "모든 사람은 공정함과 정의를 누릴 자격이 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1495,
+  "word": "keen",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "열정적인",
+     "예리한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She is keen on learning new languages.",
+    "ko": "그녀는 새로운 언어를 배우는 데 열정적이다."
+   },
+   {
+    "en": "He has a keen eye for small details.",
+    "ko": "그는 작은 세부 사항을 보는 예리한 눈을 가지고 있다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1496,
+  "word": "keep",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "유지하다",
+     "계속하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Keep (on) going.",
+    "ko": "계속 나아가라."
+   },
+   {
+    "en": "Please keep your room clean.",
+    "ko": "네 방을 깨끗하게 유지해라."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1497,
+  "word": "key",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "열쇠"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I lost my house key.",
+    "ko": "나는 집 열쇠를 잃어버렸다."
+   },
+   {
+    "en": "This key opens the front door.",
+    "ko": "이 열쇠는 현관문을 연다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1498,
+  "word": "kick",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "차다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He kicked the ball hard.",
+    "ko": "그는 공을 세게 찼다."
+   },
+   {
+    "en": "Don't kick the chair, please.",
+    "ko": "의자를 차지 마세요."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1499,
+  "word": "kid",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "아이",
+     "어린이"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The kid is playing outside.",
+    "ko": "그 아이는 밖에서 놀고 있다."
+   },
+   {
+    "en": "Every kid loves ice cream.",
+    "ko": "모든 아이는 아이스크림을 좋아한다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 1500,
+  "word": "kill",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "죽이다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The frost can kill young plants.",
+    "ko": "서리는 어린 식물을 죽일 수 있다."
+   },
+   {
+    "en": "Cats sometimes kill small mice.",
+    "ko": "고양이는 가끔 작은 쥐를 죽인다."
+   }
+  ],
+  "theme": "동물"
+ }
 ]

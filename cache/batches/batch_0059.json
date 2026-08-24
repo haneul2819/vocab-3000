@@ -1,52 +1,1436 @@
 [
- {"id": 2901, "word": "wander", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["돌아다니다", "헤매다"]}], "examples": [{"en": "We wandered through the old town.", "ko": "우리는 오래된 마을을 돌아다녔다."}, {"en": "The dog likes to wander in the park.", "ko": "그 개는 공원을 돌아다니는 것을 좋아한다."}], "theme": "여가"},
- {"id": 2902, "word": "want", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["원하다"]}], "examples": [{"en": "Which movie do you want to see?", "ko": "어떤 영화를 보고 싶어?"}, {"en": "I want a new bike.", "ko": "나는 새 자전거를 원한다."}], "theme": "일상"},
- {"id": 2903, "word": "war", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["전쟁"]}], "examples": [{"en": "The war lasted many years.", "ko": "그 전쟁은 여러 해 동안 계속되었다."}, {"en": "Many people died in the war.", "ko": "많은 사람들이 그 전쟁에서 죽었다."}], "theme": "사회"},
- {"id": 2904, "word": "warehouse", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["창고"]}], "examples": [{"en": "The goods are stored in a warehouse.", "ko": "그 물건들은 창고에 보관되어 있다."}, {"en": "He works at a large warehouse.", "ko": "그는 큰 창고에서 일한다."}], "theme": "장소"},
- {"id": 2905, "word": "warm", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["따뜻한"]}], "examples": [{"en": "The soup is warm.", "ko": "그 수프는 따뜻하다."}, {"en": "Wear a warm coat today.", "ko": "오늘은 따뜻한 코트를 입어라."}], "theme": "자연"},
- {"id": 2906, "word": "warn", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["경고하다"]}], "examples": [{"en": "The teacher warned us about the test.", "ko": "선생님은 우리에게 시험에 대해 경고했다."}, {"en": "I warn you not to touch it.", "ko": "그것을 만지지 말라고 경고한다."}], "theme": "소통"},
- {"id": 2907, "word": "warrant", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["영장"]}, {"pos": "동사", "ko": ["정당화하다"]}], "examples": [{"en": "The police got a warrant to search the house.", "ko": "경찰은 집을 수색할 영장을 받았다."}, {"en": "Such rude behavior does not warrant an apology.", "ko": "그런 무례한 행동은 사과를 정당화하지 못한다."}], "theme": "사회"},
- {"id": 2908, "word": "wash", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["씻다", "세탁하다"]}], "examples": [{"en": "I wash my hands before meals.", "ko": "나는 식사 전에 손을 씻는다."}, {"en": "Please wash the dishes.", "ko": "설거지를 해 주세요."}], "theme": "일상"},
- {"id": 2909, "word": "waste", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["낭비", "쓰레기"]}, {"pos": "동사", "ko": ["낭비하다"]}], "examples": [{"en": "Don't waste your time on games.", "ko": "게임에 시간을 낭비하지 마라."}, {"en": "We should reduce food waste.", "ko": "우리는 음식물 쓰레기를 줄여야 한다."}], "theme": "일상"},
- {"id": 2910, "word": "watch", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["보다", "지켜보다"]}, {"pos": "명사", "ko": ["손목시계"]}], "examples": [{"en": "I watch TV after dinner.", "ko": "나는 저녁 식사 후에 텔레비전을 본다."}, {"en": "She wears a silver watch.", "ko": "그녀는 은색 손목시계를 차고 있다."}], "theme": "일상"},
- {"id": 2911, "word": "water", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["물"]}], "examples": [{"en": "I drink water every day.", "ko": "나는 매일 물을 마신다."}, {"en": "The water is very cold.", "ko": "그 물은 매우 차갑다."}], "theme": "자연"},
- {"id": 2912, "word": "watermelon", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["수박"]}], "examples": [{"en": "I love watermelon in summer.", "ko": "나는 여름에 수박을 좋아한다."}, {"en": "We ate a sweet watermelon.", "ko": "우리는 달콤한 수박을 먹었다."}], "theme": "음식"},
- {"id": 2913, "word": "wave", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["파도", "물결"]}, {"pos": "동사", "ko": ["손을 흔들다"]}], "examples": [{"en": "A big wave hit the beach.", "ko": "큰 파도가 해변을 덮쳤다."}, {"en": "She waved goodbye to her friends.", "ko": "그녀는 친구들에게 손을 흔들며 작별했다."}], "theme": "자연"},
- {"id": 2914, "word": "way", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["길", "방법"]}], "examples": [{"en": "I feel the same way.", "ko": "나도 같은 기분이야."}, {"en": "This is the way home.", "ko": "이것이 집으로 가는 길이다."}], "theme": "장소"},
- {"id": 2915, "word": "we", "pos": ["대명사"], "meanings": [{"pos": "대명사", "ko": ["우리"]}], "examples": [{"en": "We have three cats and one dog.", "ko": "우리는 고양이 세 마리와 개 한 마리를 키운다."}, {"en": "We are best friends.", "ko": "우리는 가장 친한 친구이다."}], "theme": "일상"},
- {"id": 2916, "word": "weak", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["약한"]}], "examples": [{"en": "He felt weak after being sick.", "ko": "그는 아프고 나서 몸이 약해진 것을 느꼈다."}, {"en": "The signal is too weak here.", "ko": "여기는 신호가 너무 약하다."}], "theme": "신체"},
- {"id": 2917, "word": "wealth", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["부", "재산"]}], "examples": [{"en": "He built his wealth through hard work.", "ko": "그는 열심히 일해서 부를 쌓았다."}, {"en": "Health is more important than wealth.", "ko": "건강이 재산보다 더 중요하다."}], "theme": "추상"},
- {"id": 2918, "word": "weapon", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["무기"]}], "examples": [{"en": "The soldier carried a heavy weapon.", "ko": "그 군인은 무거운 무기를 들고 있었다."}, {"en": "Knives can be used as weapons.", "ko": "칼은 무기로 사용될 수 있다."}], "theme": "사회"},
- {"id": 2919, "word": "wear", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["입다", "착용하다"]}], "examples": [{"en": "I wear a coat in winter.", "ko": "나는 겨울에 코트를 입는다."}, {"en": "She wears glasses.", "ko": "그녀는 안경을 쓴다."}], "theme": "일상"},
- {"id": 2920, "word": "weather", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["날씨"]}], "examples": [{"en": "The weather is nice today.", "ko": "오늘 날씨가 좋다."}, {"en": "I like sunny weather.", "ko": "나는 맑은 날씨를 좋아한다."}], "theme": "자연"},
- {"id": 2921, "word": "weave", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["짜다", "엮다"]}], "examples": [{"en": "She weaves colorful baskets by hand.", "ko": "그녀는 손으로 색색의 바구니를 짠다."}, {"en": "The workers are weaving cloth on old looms.", "ko": "그 일꾼들은 오래된 베틀로 천을 짜고 있다."}], "theme": "사물"},
- {"id": 2922, "word": "website", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["웹사이트"]}], "examples": [{"en": "I check this website daily.", "ko": "나는 이 웹사이트를 매일 확인한다."}, {"en": "The website has useful information.", "ko": "그 웹사이트에는 유용한 정보가 있다."}], "theme": "사물"},
- {"id": 2923, "word": "wedding", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["결혼식"]}], "examples": [{"en": "We went to a wedding today.", "ko": "우리는 오늘 결혼식에 갔다."}, {"en": "Her wedding was beautiful.", "ko": "그녀의 결혼식은 아름다웠다."}], "theme": "가족"},
- {"id": 2924, "word": "weed", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["잡초"]}, {"pos": "동사", "ko": ["잡초를 뽑다"]}], "examples": [{"en": "Pull the weeds from the garden.", "ko": "정원에서 잡초를 뽑아라."}, {"en": "We weeded the flower bed together.", "ko": "우리는 함께 화단의 잡초를 뽑았다."}], "theme": "자연"},
- {"id": 2925, "word": "week", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["주", "일주일"]}], "examples": [{"en": "Last week, I visited Jejudo.", "ko": "지난주에 나는 제주도를 방문했다."}, {"en": "See you next week.", "ko": "다음 주에 보자."}], "theme": "시간"},
- {"id": 2926, "word": "weekend", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["주말"]}], "examples": [{"en": "I relax on the weekend.", "ko": "나는 주말에 쉰다."}, {"en": "We have plans this weekend.", "ko": "우리는 이번 주말에 계획이 있다."}], "theme": "여가"},
- {"id": 2927, "word": "weigh", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["무게가 ~이다", "무게를 재다"]}], "examples": [{"en": "This bag weighs five kilograms.", "ko": "이 가방은 무게가 5킬로그램이다."}, {"en": "Let's weigh the fruit first.", "ko": "먼저 과일의 무게를 재자."}], "theme": "사물"},
- {"id": 2928, "word": "weight", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["무게", "체중"]}], "examples": [{"en": "He lost some weight recently.", "ko": "그는 최근에 체중이 좀 줄었다."}, {"en": "What is your weight?", "ko": "너의 체중은 얼마니?"}], "theme": "신체"},
- {"id": 2929, "word": "weird", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["이상한", "기묘한"]}], "examples": [{"en": "That was a weird dream.", "ko": "그것은 이상한 꿈이었다."}, {"en": "He has a weird sense of humor.", "ko": "그는 기묘한 유머 감각을 가지고 있다."}], "theme": "추상"},
- {"id": 2930, "word": "welcome", "pos": ["감탄사", "동사"], "meanings": [{"pos": "감탄사", "ko": ["환영합니다"]}, {"pos": "동사", "ko": ["환영하다"]}], "examples": [{"en": "Welcome!", "ko": "환영합니다!"}, {"en": "We welcome new students warmly.", "ko": "우리는 새 학생들을 따뜻하게 환영한다."}], "theme": "소통"},
- {"id": 2931, "word": "welfare", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["복지"]}], "examples": [{"en": "The government improved public welfare.", "ko": "정부는 공공 복지를 개선했다."}, {"en": "The company cares about employee welfare.", "ko": "그 회사는 직원 복지에 신경 쓴다."}], "theme": "사회"},
- {"id": 2932, "word": "well", "pos": ["부사", "형용사"], "meanings": [{"pos": "부사", "ko": ["잘"]}, {"pos": "형용사", "ko": ["건강한"]}], "examples": [{"en": "She sings very well.", "ko": "그녀는 노래를 매우 잘 부른다."}, {"en": "I don't feel well today.", "ko": "나는 오늘 몸이 안 좋다."}], "theme": "일상"},
- {"id": 2933, "word": "west", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["서쪽"]}], "examples": [{"en": "The sun sets in the west.", "ko": "해는 서쪽으로 진다."}, {"en": "We drove to the west coast.", "ko": "우리는 서쪽 해안으로 차를 몰았다."}], "theme": "장소"},
- {"id": 2934, "word": "wet", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["젖은"]}], "examples": [{"en": "My shoes are wet.", "ko": "내 신발이 젖었다."}, {"en": "Don't sit on the wet grass.", "ko": "젖은 잔디 위에 앉지 마라."}], "theme": "자연"},
- {"id": 2935, "word": "whale", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["고래"]}], "examples": [{"en": "We saw a whale in the ocean.", "ko": "우리는 바다에서 고래를 보았다."}, {"en": "Whales are the largest animals.", "ko": "고래는 가장 큰 동물이다."}], "theme": "동물"},
- {"id": 2936, "word": "what", "pos": ["대명사", "한정사"], "meanings": [{"pos": "대명사", "ko": ["무엇"]}, {"pos": "한정사", "ko": ["무슨"]}], "examples": [{"en": "What time is it? A quarter to six.", "ko": "몇 시야? 6시 15분 전이야."}, {"en": "What is your name?", "ko": "네 이름이 뭐니?"}], "theme": "소통"},
- {"id": 2937, "word": "wheat", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["밀"]}], "examples": [{"en": "Bread is made from wheat.", "ko": "빵은 밀로 만들어진다."}, {"en": "Farmers grow wheat in this field.", "ko": "농부들은 이 밭에서 밀을 재배한다."}], "theme": "음식"},
- {"id": 2938, "word": "wheel", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["바퀴"]}], "examples": [{"en": "The car has four wheels.", "ko": "그 자동차는 바퀴가 네 개 있다."}, {"en": "He fixed the bike's front wheel.", "ko": "그는 자전거의 앞바퀴를 고쳤다."}], "theme": "교통"},
- {"id": 2939, "word": "when", "pos": ["부사", "접속사"], "meanings": [{"pos": "부사", "ko": ["언제"]}, {"pos": "접속사", "ko": ["~할 때"]}], "examples": [{"en": "When did it happen?", "ko": "그건 언제 일어났어?"}, {"en": "When are you leaving?", "ko": "언제 떠나니?"}], "theme": "시간"},
- {"id": 2940, "word": "where", "pos": ["부사", "접속사"], "meanings": [{"pos": "부사", "ko": ["어디에"]}, {"pos": "접속사", "ko": ["~하는 곳에"]}], "examples": [{"en": "Where did she go to university?", "ko": "그녀는 어디로 대학을 다녔어?"}, {"en": "Where is my bag?", "ko": "내 가방이 어디에 있지?"}], "theme": "장소"},
- {"id": 2941, "word": "whereas", "pos": ["접속사"], "meanings": [{"pos": "접속사", "ko": ["반면에"]}], "examples": [{"en": "She loves tea, whereas I prefer coffee.", "ko": "그녀는 차를 좋아하는 반면에 나는 커피를 더 좋아한다."}, {"en": "He is tall, whereas his brother is short.", "ko": "그는 키가 큰 반면에 그의 동생은 작다."}], "theme": "추상"},
- {"id": 2942, "word": "whether", "pos": ["접속사"], "meanings": [{"pos": "접속사", "ko": ["~인지 아닌지"]}], "examples": [{"en": "I don't know whether he will come.", "ko": "그가 올지 안 올지 모르겠다."}, {"en": "She asked whether I was ready.", "ko": "그녀는 내가 준비되었는지 물었다."}], "theme": "소통"},
- {"id": 2943, "word": "which", "pos": ["대명사", "한정사"], "meanings": [{"pos": "대명사", "ko": ["어느 것"]}, {"pos": "한정사", "ko": ["어느"]}], "examples": [{"en": "Which movie do you want to see?", "ko": "어떤 영화를 보고 싶어?"}, {"en": "Which bag is yours?", "ko": "어느 가방이 네 것이니?"}], "theme": "소통"},
- {"id": 2944, "word": "while", "pos": ["접속사", "명사"], "meanings": [{"pos": "접속사", "ko": ["~하는 동안"]}, {"pos": "명사", "ko": ["잠깐"]}], "examples": [{"en": "Just a moment (while I think).", "ko": "잠깐만, 생각 좀 해볼게."}, {"en": "She read a book while waiting.", "ko": "그녀는 기다리는 동안 책을 읽었다."}], "theme": "시간"},
- {"id": 2945, "word": "whip", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["채찍"]}, {"pos": "동사", "ko": ["채찍질하다", "휘젓다"]}], "examples": [{"en": "The rider cracked the whip gently.", "ko": "그 기수는 채찍을 가볍게 휘둘렀다."}, {"en": "Whip the cream until it is fluffy.", "ko": "크림이 부드러워질 때까지 휘저어라."}], "theme": "사물"},
- {"id": 2946, "word": "whisper", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["속삭이다"]}, {"pos": "명사", "ko": ["속삭임"]}], "examples": [{"en": "She whispered a secret to me.", "ko": "그녀는 나에게 비밀을 속삭였다."}, {"en": "I heard a whisper behind the door.", "ko": "나는 문 뒤에서 속삭임을 들었다."}], "theme": "소통"},
- {"id": 2947, "word": "whistle", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["휘파람을 불다"]}, {"pos": "명사", "ko": ["호루라기", "휘파람"]}], "examples": [{"en": "The referee blew the whistle.", "ko": "심판이 호루라기를 불었다."}, {"en": "He whistled a happy tune.", "ko": "그는 즐거운 곡조로 휘파람을 불었다."}], "theme": "소통"},
- {"id": 2948, "word": "white", "pos": ["형용사", "명사"], "meanings": [{"pos": "형용사", "ko": ["하얀"]}, {"pos": "명사", "ko": ["흰색"]}], "examples": [{"en": "She wore a white dress.", "ko": "그녀는 하얀 드레스를 입었다."}, {"en": "Snow is white.", "ko": "눈은 하얗다."}], "theme": "사물"},
- {"id": 2949, "word": "who", "pos": ["대명사"], "meanings": [{"pos": "대명사", "ko": ["누구"]}], "examples": [{"en": "Who is he?", "ko": "그는 누구야?"}, {"en": "Who is your best friend?", "ko": "가장 친한 친구가 누구니?"}], "theme": "소통"},
- {"id": 2950, "word": "whole", "pos": ["형용사", "명사"], "meanings": [{"pos": "형용사", "ko": ["전체의"]}, {"pos": "명사", "ko": ["전체"]}], "examples": [{"en": "I ate the whole cake.", "ko": "나는 케이크 전체를 다 먹었다."}, {"en": "The whole class passed the test.", "ko": "반 전체가 시험에 통과했다."}], "theme": "추상"}
+ {
+  "id": 2900,
+  "word": "wander",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "돌아다니다",
+     "헤매다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We wandered through the old town.",
+    "ko": "우리는 오래된 마을을 돌아다녔다."
+   },
+   {
+    "en": "The dog likes to wander in the park.",
+    "ko": "그 개는 공원을 돌아다니는 것을 좋아한다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2901,
+  "word": "want",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "원하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Which movie do you want to see?",
+    "ko": "어떤 영화를 보고 싶어?"
+   },
+   {
+    "en": "I want a new bike.",
+    "ko": "나는 새 자전거를 원한다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2902,
+  "word": "war",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "전쟁"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The war lasted many years.",
+    "ko": "그 전쟁은 여러 해 동안 계속되었다."
+   },
+   {
+    "en": "Many people died in the war.",
+    "ko": "많은 사람들이 그 전쟁에서 죽었다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2903,
+  "word": "warehouse",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "창고"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The goods are stored in a warehouse.",
+    "ko": "그 물건들은 창고에 보관되어 있다."
+   },
+   {
+    "en": "He works at a large warehouse.",
+    "ko": "그는 큰 창고에서 일한다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2904,
+  "word": "warm",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "따뜻한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The soup is warm.",
+    "ko": "그 수프는 따뜻하다."
+   },
+   {
+    "en": "Wear a warm coat today.",
+    "ko": "오늘은 따뜻한 코트를 입어라."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2905,
+  "word": "warn",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "경고하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The teacher warned us about the test.",
+    "ko": "선생님은 우리에게 시험에 대해 경고했다."
+   },
+   {
+    "en": "I warn you not to touch it.",
+    "ko": "그것을 만지지 말라고 경고한다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2906,
+  "word": "warrant",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "영장"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "정당화하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The police got a warrant to search the house.",
+    "ko": "경찰은 집을 수색할 영장을 받았다."
+   },
+   {
+    "en": "Such rude behavior does not warrant an apology.",
+    "ko": "그런 무례한 행동은 사과를 정당화하지 못한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2907,
+  "word": "wash",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "씻다",
+     "세탁하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I wash my hands before meals.",
+    "ko": "나는 식사 전에 손을 씻는다."
+   },
+   {
+    "en": "Please wash the dishes.",
+    "ko": "설거지를 해 주세요."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2908,
+  "word": "waste",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "낭비",
+     "쓰레기"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "낭비하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Don't waste your time on games.",
+    "ko": "게임에 시간을 낭비하지 마라."
+   },
+   {
+    "en": "We should reduce food waste.",
+    "ko": "우리는 음식물 쓰레기를 줄여야 한다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2909,
+  "word": "watch",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "보다",
+     "지켜보다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "손목시계"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I watch TV after dinner.",
+    "ko": "나는 저녁 식사 후에 텔레비전을 본다."
+   },
+   {
+    "en": "She wears a silver watch.",
+    "ko": "그녀는 은색 손목시계를 차고 있다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2910,
+  "word": "water",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "물"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I drink water every day.",
+    "ko": "나는 매일 물을 마신다."
+   },
+   {
+    "en": "The water is very cold.",
+    "ko": "그 물은 매우 차갑다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2911,
+  "word": "watermelon",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "수박"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I love watermelon in summer.",
+    "ko": "나는 여름에 수박을 좋아한다."
+   },
+   {
+    "en": "We ate a sweet watermelon.",
+    "ko": "우리는 달콤한 수박을 먹었다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2912,
+  "word": "wave",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "파도",
+     "물결"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "손을 흔들다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "A big wave hit the beach.",
+    "ko": "큰 파도가 해변을 덮쳤다."
+   },
+   {
+    "en": "She waved goodbye to her friends.",
+    "ko": "그녀는 친구들에게 손을 흔들며 작별했다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2913,
+  "word": "way",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "길",
+     "방법"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I feel the same way.",
+    "ko": "나도 같은 기분이야."
+   },
+   {
+    "en": "This is the way home.",
+    "ko": "이것이 집으로 가는 길이다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2914,
+  "word": "we",
+  "pos": [
+   "대명사"
+  ],
+  "meanings": [
+   {
+    "pos": "대명사",
+    "ko": [
+     "우리"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We have three cats and one dog.",
+    "ko": "우리는 고양이 세 마리와 개 한 마리를 키운다."
+   },
+   {
+    "en": "We are best friends.",
+    "ko": "우리는 가장 친한 친구이다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2915,
+  "word": "weak",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "약한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He felt weak after being sick.",
+    "ko": "그는 아프고 나서 몸이 약해진 것을 느꼈다."
+   },
+   {
+    "en": "The signal is too weak here.",
+    "ko": "여기는 신호가 너무 약하다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2916,
+  "word": "wealth",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "부",
+     "재산"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He built his wealth through hard work.",
+    "ko": "그는 열심히 일해서 부를 쌓았다."
+   },
+   {
+    "en": "Health is more important than wealth.",
+    "ko": "건강이 재산보다 더 중요하다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2917,
+  "word": "weapon",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "무기"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The soldier carried a heavy weapon.",
+    "ko": "그 군인은 무거운 무기를 들고 있었다."
+   },
+   {
+    "en": "Knives can be used as weapons.",
+    "ko": "칼은 무기로 사용될 수 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2918,
+  "word": "wear",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "입다",
+     "착용하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I wear a coat in winter.",
+    "ko": "나는 겨울에 코트를 입는다."
+   },
+   {
+    "en": "She wears glasses.",
+    "ko": "그녀는 안경을 쓴다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2919,
+  "word": "weather",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "날씨"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The weather is nice today.",
+    "ko": "오늘 날씨가 좋다."
+   },
+   {
+    "en": "I like sunny weather.",
+    "ko": "나는 맑은 날씨를 좋아한다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2920,
+  "word": "weave",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "짜다",
+     "엮다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She weaves colorful baskets by hand.",
+    "ko": "그녀는 손으로 색색의 바구니를 짠다."
+   },
+   {
+    "en": "The workers are weaving cloth on old looms.",
+    "ko": "그 일꾼들은 오래된 베틀로 천을 짜고 있다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2921,
+  "word": "website",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "웹사이트"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I check this website daily.",
+    "ko": "나는 이 웹사이트를 매일 확인한다."
+   },
+   {
+    "en": "The website has useful information.",
+    "ko": "그 웹사이트에는 유용한 정보가 있다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2922,
+  "word": "wedding",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "결혼식"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We went to a wedding today.",
+    "ko": "우리는 오늘 결혼식에 갔다."
+   },
+   {
+    "en": "Her wedding was beautiful.",
+    "ko": "그녀의 결혼식은 아름다웠다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 2923,
+  "word": "weed",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "잡초"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "잡초를 뽑다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Pull the weeds from the garden.",
+    "ko": "정원에서 잡초를 뽑아라."
+   },
+   {
+    "en": "We weeded the flower bed together.",
+    "ko": "우리는 함께 화단의 잡초를 뽑았다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2924,
+  "word": "week",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "주",
+     "일주일"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Last week, I visited Jejudo.",
+    "ko": "지난주에 나는 제주도를 방문했다."
+   },
+   {
+    "en": "See you next week.",
+    "ko": "다음 주에 보자."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2925,
+  "word": "weekend",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "주말"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I relax on the weekend.",
+    "ko": "나는 주말에 쉰다."
+   },
+   {
+    "en": "We have plans this weekend.",
+    "ko": "우리는 이번 주말에 계획이 있다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2926,
+  "word": "weigh",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "무게가 ~이다",
+     "무게를 재다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This bag weighs five kilograms.",
+    "ko": "이 가방은 무게가 5킬로그램이다."
+   },
+   {
+    "en": "Let's weigh the fruit first.",
+    "ko": "먼저 과일의 무게를 재자."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2927,
+  "word": "weight",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "무게",
+     "체중"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He lost some weight recently.",
+    "ko": "그는 최근에 체중이 좀 줄었다."
+   },
+   {
+    "en": "What is your weight?",
+    "ko": "너의 체중은 얼마니?"
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2928,
+  "word": "weird",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "이상한",
+     "기묘한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "That was a weird dream.",
+    "ko": "그것은 이상한 꿈이었다."
+   },
+   {
+    "en": "He has a weird sense of humor.",
+    "ko": "그는 기묘한 유머 감각을 가지고 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2929,
+  "word": "welcome",
+  "pos": [
+   "감탄사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "감탄사",
+    "ko": [
+     "환영합니다"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "환영하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Welcome!",
+    "ko": "환영합니다!"
+   },
+   {
+    "en": "We welcome new students warmly.",
+    "ko": "우리는 새 학생들을 따뜻하게 환영한다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2930,
+  "word": "welfare",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "복지"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The government improved public welfare.",
+    "ko": "정부는 공공 복지를 개선했다."
+   },
+   {
+    "en": "The company cares about employee welfare.",
+    "ko": "그 회사는 직원 복지에 신경 쓴다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2931,
+  "word": "well",
+  "pos": [
+   "부사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "잘"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "건강한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She sings very well.",
+    "ko": "그녀는 노래를 매우 잘 부른다."
+   },
+   {
+    "en": "I don't feel well today.",
+    "ko": "나는 오늘 몸이 안 좋다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2932,
+  "word": "west",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "서쪽"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The sun sets in the west.",
+    "ko": "해는 서쪽으로 진다."
+   },
+   {
+    "en": "We drove to the west coast.",
+    "ko": "우리는 서쪽 해안으로 차를 몰았다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2933,
+  "word": "wet",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "젖은"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My shoes are wet.",
+    "ko": "내 신발이 젖었다."
+   },
+   {
+    "en": "Don't sit on the wet grass.",
+    "ko": "젖은 잔디 위에 앉지 마라."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2934,
+  "word": "whale",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "고래"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We saw a whale in the ocean.",
+    "ko": "우리는 바다에서 고래를 보았다."
+   },
+   {
+    "en": "Whales are the largest animals.",
+    "ko": "고래는 가장 큰 동물이다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 2935,
+  "word": "what",
+  "pos": [
+   "대명사",
+   "한정사"
+  ],
+  "meanings": [
+   {
+    "pos": "대명사",
+    "ko": [
+     "무엇"
+    ]
+   },
+   {
+    "pos": "한정사",
+    "ko": [
+     "무슨"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "What time is it? A quarter to six.",
+    "ko": "몇 시야? 6시 15분 전이야."
+   },
+   {
+    "en": "What is your name?",
+    "ko": "네 이름이 뭐니?"
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2936,
+  "word": "wheat",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "밀"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Bread is made from wheat.",
+    "ko": "빵은 밀로 만들어진다."
+   },
+   {
+    "en": "Farmers grow wheat in this field.",
+    "ko": "농부들은 이 밭에서 밀을 재배한다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2937,
+  "word": "wheel",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "바퀴"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The car has four wheels.",
+    "ko": "그 자동차는 바퀴가 네 개 있다."
+   },
+   {
+    "en": "He fixed the bike's front wheel.",
+    "ko": "그는 자전거의 앞바퀴를 고쳤다."
+   }
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 2938,
+  "word": "when",
+  "pos": [
+   "부사",
+   "접속사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "언제"
+    ]
+   },
+   {
+    "pos": "접속사",
+    "ko": [
+     "~할 때"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "When did it happen?",
+    "ko": "그건 언제 일어났어?"
+   },
+   {
+    "en": "When are you leaving?",
+    "ko": "언제 떠나니?"
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2939,
+  "word": "where",
+  "pos": [
+   "부사",
+   "접속사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "어디에"
+    ]
+   },
+   {
+    "pos": "접속사",
+    "ko": [
+     "~하는 곳에"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Where did she go to university?",
+    "ko": "그녀는 어디로 대학을 다녔어?"
+   },
+   {
+    "en": "Where is my bag?",
+    "ko": "내 가방이 어디에 있지?"
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2940,
+  "word": "whereas",
+  "pos": [
+   "접속사"
+  ],
+  "meanings": [
+   {
+    "pos": "접속사",
+    "ko": [
+     "반면에"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She loves tea, whereas I prefer coffee.",
+    "ko": "그녀는 차를 좋아하는 반면에 나는 커피를 더 좋아한다."
+   },
+   {
+    "en": "He is tall, whereas his brother is short.",
+    "ko": "그는 키가 큰 반면에 그의 동생은 작다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2941,
+  "word": "whether",
+  "pos": [
+   "접속사"
+  ],
+  "meanings": [
+   {
+    "pos": "접속사",
+    "ko": [
+     "~인지 아닌지"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I don't know whether he will come.",
+    "ko": "그가 올지 안 올지 모르겠다."
+   },
+   {
+    "en": "She asked whether I was ready.",
+    "ko": "그녀는 내가 준비되었는지 물었다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2942,
+  "word": "which",
+  "pos": [
+   "대명사",
+   "한정사"
+  ],
+  "meanings": [
+   {
+    "pos": "대명사",
+    "ko": [
+     "어느 것"
+    ]
+   },
+   {
+    "pos": "한정사",
+    "ko": [
+     "어느"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Which movie do you want to see?",
+    "ko": "어떤 영화를 보고 싶어?"
+   },
+   {
+    "en": "Which bag is yours?",
+    "ko": "어느 가방이 네 것이니?"
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2943,
+  "word": "while",
+  "pos": [
+   "접속사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "접속사",
+    "ko": [
+     "~하는 동안"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "잠깐"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Just a moment (while I think).",
+    "ko": "잠깐만, 생각 좀 해볼게."
+   },
+   {
+    "en": "She read a book while waiting.",
+    "ko": "그녀는 기다리는 동안 책을 읽었다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2944,
+  "word": "whip",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "채찍"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "채찍질하다",
+     "휘젓다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The rider cracked the whip gently.",
+    "ko": "그 기수는 채찍을 가볍게 휘둘렀다."
+   },
+   {
+    "en": "Whip the cream until it is fluffy.",
+    "ko": "크림이 부드러워질 때까지 휘저어라."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2945,
+  "word": "whisper",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "속삭이다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "속삭임"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She whispered a secret to me.",
+    "ko": "그녀는 나에게 비밀을 속삭였다."
+   },
+   {
+    "en": "I heard a whisper behind the door.",
+    "ko": "나는 문 뒤에서 속삭임을 들었다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2946,
+  "word": "whistle",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "휘파람을 불다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "호루라기",
+     "휘파람"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The referee blew the whistle.",
+    "ko": "심판이 호루라기를 불었다."
+   },
+   {
+    "en": "He whistled a happy tune.",
+    "ko": "그는 즐거운 곡조로 휘파람을 불었다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2947,
+  "word": "white",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "하얀"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "흰색"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She wore a white dress.",
+    "ko": "그녀는 하얀 드레스를 입었다."
+   },
+   {
+    "en": "Snow is white.",
+    "ko": "눈은 하얗다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2948,
+  "word": "who",
+  "pos": [
+   "대명사"
+  ],
+  "meanings": [
+   {
+    "pos": "대명사",
+    "ko": [
+     "누구"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Who is he?",
+    "ko": "그는 누구야?"
+   },
+   {
+    "en": "Who is your best friend?",
+    "ko": "가장 친한 친구가 누구니?"
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2949,
+  "word": "whole",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "전체의"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "전체"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I ate the whole cake.",
+    "ko": "나는 케이크 전체를 다 먹었다."
+   },
+   {
+    "en": "The whole class passed the test.",
+    "ko": "반 전체가 시험에 통과했다."
+   }
+  ],
+  "theme": "추상"
+ }
 ]

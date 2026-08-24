@@ -1,14 +1,6 @@
 [
  {
   "id": 1751,
-  "word": "naked",
-  "level": "선택",
-  "derived": [],
-  "max_example_words": 15,
-  "fn_example": ""
- },
- {
-  "id": 1752,
   "word": "name",
   "level": "초등",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": "My name is John."
  },
  {
-  "id": 1753,
+  "id": 1752,
   "word": "narrate",
   "level": "선택",
   "derived": [],
@@ -24,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 1754,
+  "id": 1753,
   "word": "narrow",
   "level": "중고공통",
   "derived": [],
@@ -32,7 +24,7 @@
   "fn_example": ""
  },
  {
-  "id": 1755,
+  "id": 1754,
   "word": "nasty",
   "level": "선택",
   "derived": [],
@@ -40,7 +32,7 @@
   "fn_example": ""
  },
  {
-  "id": 1756,
+  "id": 1755,
   "word": "nation",
   "level": "초등",
   "derived": [
@@ -50,7 +42,7 @@
   "fn_example": ""
  },
  {
-  "id": 1757,
+  "id": 1756,
   "word": "native",
   "level": "중고공통",
   "derived": [],
@@ -58,7 +50,7 @@
   "fn_example": ""
  },
  {
-  "id": 1758,
+  "id": 1757,
   "word": "nature",
   "level": "초등",
   "derived": [],
@@ -66,7 +58,7 @@
   "fn_example": ""
  },
  {
-  "id": 1759,
+  "id": 1758,
   "word": "navy",
   "level": "중고공통",
   "derived": [],
@@ -74,7 +66,7 @@
   "fn_example": ""
  },
  {
-  "id": 1760,
+  "id": 1759,
   "word": "near",
   "level": "초등",
   "derived": [],
@@ -82,7 +74,7 @@
   "fn_example": ""
  },
  {
-  "id": 1761,
+  "id": 1760,
   "word": "neat",
   "level": "중고공통",
   "derived": [],
@@ -90,7 +82,7 @@
   "fn_example": ""
  },
  {
-  "id": 1762,
+  "id": 1761,
   "word": "necessary",
   "level": "중고공통",
   "derived": [],
@@ -98,7 +90,7 @@
   "fn_example": ""
  },
  {
-  "id": 1763,
+  "id": 1762,
   "word": "neck",
   "level": "초등",
   "derived": [],
@@ -106,7 +98,7 @@
   "fn_example": ""
  },
  {
-  "id": 1764,
+  "id": 1763,
   "word": "need",
   "level": "초등",
   "derived": [],
@@ -114,7 +106,7 @@
   "fn_example": ""
  },
  {
-  "id": 1765,
+  "id": 1764,
   "word": "needle",
   "level": "선택",
   "derived": [],
@@ -122,7 +114,7 @@
   "fn_example": ""
  },
  {
-  "id": 1766,
+  "id": 1765,
   "word": "negate",
   "level": "선택",
   "derived": [
@@ -132,7 +124,7 @@
   "fn_example": ""
  },
  {
-  "id": 1767,
+  "id": 1766,
   "word": "neglect",
   "level": "선택",
   "derived": [],
@@ -140,7 +132,7 @@
   "fn_example": ""
  },
  {
-  "id": 1768,
+  "id": 1767,
   "word": "negotiate",
   "level": "선택",
   "derived": [],
@@ -148,7 +140,7 @@
   "fn_example": ""
  },
  {
-  "id": 1769,
+  "id": 1768,
   "word": "neighbor",
   "level": "중고공통",
   "derived": [],
@@ -156,7 +148,7 @@
   "fn_example": ""
  },
  {
-  "id": 1770,
+  "id": 1769,
   "word": "neither",
   "level": "중고공통",
   "derived": [],
@@ -164,7 +156,7 @@
   "fn_example": ""
  },
  {
-  "id": 1771,
+  "id": 1770,
   "word": "nephew",
   "level": "선택",
   "derived": [],
@@ -172,7 +164,7 @@
   "fn_example": ""
  },
  {
-  "id": 1772,
+  "id": 1771,
   "word": "nerve",
   "level": "중고공통",
   "derived": [
@@ -182,7 +174,7 @@
   "fn_example": ""
  },
  {
-  "id": 1773,
+  "id": 1772,
   "word": "nest",
   "level": "중고공통",
   "derived": [],
@@ -190,7 +182,7 @@
   "fn_example": ""
  },
  {
-  "id": 1774,
+  "id": 1773,
   "word": "net",
   "level": "중고공통",
   "derived": [],
@@ -198,7 +190,7 @@
   "fn_example": ""
  },
  {
-  "id": 1775,
+  "id": 1774,
   "word": "network",
   "level": "선택",
   "derived": [],
@@ -206,7 +198,7 @@
   "fn_example": ""
  },
  {
-  "id": 1776,
+  "id": 1775,
   "word": "neutral",
   "level": "선택",
   "derived": [],
@@ -214,7 +206,7 @@
   "fn_example": ""
  },
  {
-  "id": 1777,
+  "id": 1776,
   "word": "never",
   "level": "초등",
   "derived": [],
@@ -222,7 +214,7 @@
   "fn_example": "Never mind."
  },
  {
-  "id": 1778,
+  "id": 1777,
   "word": "nevertheless",
   "level": "선택",
   "derived": [],
@@ -230,7 +222,7 @@
   "fn_example": ""
  },
  {
-  "id": 1779,
+  "id": 1778,
   "word": "new",
   "level": "초등",
   "derived": [],
@@ -238,7 +230,7 @@
   "fn_example": ""
  },
  {
-  "id": 1780,
+  "id": 1779,
   "word": "news",
   "level": "초등",
   "derived": [],
@@ -246,7 +238,7 @@
   "fn_example": ""
  },
  {
-  "id": 1781,
+  "id": 1780,
   "word": "newspaper",
   "level": "초등",
   "derived": [],
@@ -254,7 +246,7 @@
   "fn_example": ""
  },
  {
-  "id": 1782,
+  "id": 1781,
   "word": "next",
   "level": "초등",
   "derived": [],
@@ -262,7 +254,7 @@
   "fn_example": "That’s all right. (You’ll do better next time)."
  },
  {
-  "id": 1783,
+  "id": 1782,
   "word": "nice",
   "level": "초등",
   "derived": [],
@@ -270,7 +262,7 @@
   "fn_example": "That would be very nice."
  },
  {
-  "id": 1784,
+  "id": 1783,
   "word": "night",
   "level": "초등",
   "derived": [],
@@ -278,7 +270,7 @@
   "fn_example": ""
  },
  {
-  "id": 1785,
+  "id": 1784,
   "word": "nightmare",
   "level": "선택",
   "derived": [],
@@ -286,7 +278,7 @@
   "fn_example": ""
  },
  {
-  "id": 1786,
+  "id": 1785,
   "word": "nine",
   "level": "초등",
   "derived": [],
@@ -294,7 +286,7 @@
   "fn_example": ""
  },
  {
-  "id": 1787,
+  "id": 1786,
   "word": "no",
   "level": "초등",
   "derived": [],
@@ -302,7 +294,7 @@
   "fn_example": "No, it isn’t."
  },
  {
-  "id": 1788,
+  "id": 1787,
   "word": "noble",
   "level": "선택",
   "derived": [],
@@ -310,7 +302,7 @@
   "fn_example": ""
  },
  {
-  "id": 1789,
+  "id": 1788,
   "word": "nod",
   "level": "선택",
   "derived": [],
@@ -318,7 +310,7 @@
   "fn_example": ""
  },
  {
-  "id": 1790,
+  "id": 1789,
   "word": "noise",
   "level": "중고공통",
   "derived": [],
@@ -326,7 +318,7 @@
   "fn_example": ""
  },
  {
-  "id": 1791,
+  "id": 1790,
   "word": "nominate",
   "level": "선택",
   "derived": [],
@@ -334,7 +326,7 @@
   "fn_example": ""
  },
  {
-  "id": 1792,
+  "id": 1791,
   "word": "none",
   "level": "중고공통",
   "derived": [],
@@ -342,7 +334,7 @@
   "fn_example": ""
  },
  {
-  "id": 1793,
+  "id": 1792,
   "word": "nonetheless",
   "level": "선택",
   "derived": [],
@@ -350,7 +342,7 @@
   "fn_example": ""
  },
  {
-  "id": 1794,
+  "id": 1793,
   "word": "noon",
   "level": "중고공통",
   "derived": [],
@@ -358,7 +350,7 @@
   "fn_example": ""
  },
  {
-  "id": 1795,
+  "id": 1794,
   "word": "nor",
   "level": "중고공통",
   "derived": [],
@@ -366,7 +358,7 @@
   "fn_example": ""
  },
  {
-  "id": 1796,
+  "id": 1795,
   "word": "norm",
   "level": "선택",
   "derived": [
@@ -376,7 +368,7 @@
   "fn_example": ""
  },
  {
-  "id": 1797,
+  "id": 1796,
   "word": "north",
   "level": "초등",
   "derived": [],
@@ -384,7 +376,7 @@
   "fn_example": "I’m from the north of Canada."
  },
  {
-  "id": 1798,
+  "id": 1797,
   "word": "nose",
   "level": "초등",
   "derived": [],
@@ -392,7 +384,7 @@
   "fn_example": ""
  },
  {
-  "id": 1799,
+  "id": 1798,
   "word": "not",
   "level": "초등",
   "derived": [],
@@ -400,12 +392,20 @@
   "fn_example": "Of course not."
  },
  {
-  "id": 1800,
+  "id": 1799,
   "word": "note",
   "level": "초등",
   "derived": [
    "notion"
   ],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1800,
+  "word": "notebook",
+  "level": "초등",
+  "derived": [],
   "max_example_words": 6,
   "fn_example": ""
  }

@@ -1,52 +1,1455 @@
 [
- {"id": 701, "word": "custody", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["양육권", "구금"]}], "examples": [{"en": "After the divorce, she was granted custody of her son.", "ko": "이혼 후 그녀는 아들의 양육권을 받았다."}, {"en": "The suspect was held in police custody overnight.", "ko": "그 용의자는 밤새 경찰 구금 상태에 있었다."}], "theme": "사회"},
- {"id": 702, "word": "custom", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["관습", "풍습"]}], "examples": [{"en": "Bowing is an important custom in Korea.", "ko": "절하는 것은 한국의 중요한 관습이다."}, {"en": "Every region has its own local customs.", "ko": "모든 지역에는 그 지역만의 풍습이 있다."}], "theme": "사회"},
- {"id": 703, "word": "customer", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["손님", "고객"]}], "examples": [{"en": "The customer smiled at the clerk.", "ko": "그 손님은 점원에게 미소 지었다."}, {"en": "We have many customers today.", "ko": "오늘 손님이 많다."}], "theme": "직업"},
- {"id": 704, "word": "cut", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["자르다"]}, {"pos": "명사", "ko": ["상처", "베인 자국"]}], "examples": [{"en": "She cut the paper with scissors.", "ko": "그녀는 가위로 종이를 잘랐다."}, {"en": "He has a cut on his hand.", "ko": "그는 손에 베인 상처가 있다."}], "theme": "행동"},
- {"id": 705, "word": "cute", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["귀여운"]}], "examples": [{"en": "The puppy in the window is so cute.", "ko": "창가에 있는 강아지가 정말 귀엽다."}, {"en": "Everyone thought the baby's laugh was cute.", "ko": "모두가 아기의 웃음이 귀엽다고 생각했다."}], "theme": "감정"},
- {"id": 706, "word": "cycle", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["주기", "순환"]}, {"pos": "동사", "ko": ["자전거를 타다"]}], "examples": [{"en": "The water cycle includes rain, rivers, and evaporation.", "ko": "물의 순환은 비, 강, 증발을 포함한다."}, {"en": "He cycles to school every morning.", "ko": "그는 매일 아침 자전거를 타고 학교에 간다."}], "theme": "과학"},
- {"id": 707, "word": "cynical", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["냉소적인"]}], "examples": [{"en": "He became cynical after losing his job twice.", "ko": "그는 두 번 실직한 후 냉소적으로 변했다."}, {"en": "Try not to be so cynical about people's kindness.", "ko": "사람들의 친절함에 대해 너무 냉소적이 되지 마라."}], "theme": "감정"},
- {"id": 708, "word": "dairy", "pos": ["명사", "형용사"], "meanings": [{"pos": "명사", "ko": ["유제품"]}, {"pos": "형용사", "ko": ["유제품의"]}], "examples": [{"en": "Milk and cheese are common dairy products.", "ko": "우유와 치즈는 흔한 유제품이다."}, {"en": "She is allergic to dairy, so she drinks soy milk.", "ko": "그녀는 유제품에 알레르기가 있어서 두유를 마신다."}], "theme": "음식"},
- {"id": 709, "word": "damage", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["손상", "피해"]}, {"pos": "동사", "ko": ["손상시키다"]}], "examples": [{"en": "The storm caused serious damage to the roof.", "ko": "그 폭풍은 지붕에 심각한 피해를 입혔다."}, {"en": "Too much sun can damage your skin.", "ko": "햇볕을 너무 쬐면 피부가 손상될 수 있다."}], "theme": "자연"},
- {"id": 710, "word": "damp", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["축축한", "눅눅한"]}], "examples": [{"en": "The towel was still damp from this morning's shower.", "ko": "그 수건은 오늘 아침 샤워 후로 여전히 축축했다."}, {"en": "Mushrooms grow well in damp, shady places.", "ko": "버섯은 축축하고 그늘진 곳에서 잘 자란다."}], "theme": "자연"},
- {"id": 711, "word": "dance", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["춤추다"]}, {"pos": "명사", "ko": ["춤"]}], "examples": [{"en": "Do you like dancing?", "ko": "너는 춤추는 것을 좋아하니?"}, {"en": "We danced all night at the party.", "ko": "우리는 파티에서 밤새 춤을 췄다."}], "theme": "여가"},
- {"id": 712, "word": "danger", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["위험"]}], "examples": [{"en": "The sign warns of danger ahead.", "ko": "그 표지판은 앞에 위험이 있다고 경고한다."}, {"en": "Firefighters face danger every day.", "ko": "소방관들은 매일 위험에 맞선다."}], "theme": "추상"},
- {"id": 713, "word": "dare", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["감히 ~하다", "도전하다"]}], "examples": [{"en": "I didn't dare to raise my hand in class.", "ko": "나는 감히 수업 중에 손을 들지 못했다."}, {"en": "She dared her brother to jump into the cold pool.", "ko": "그녀는 남동생에게 차가운 수영장에 뛰어들라고 부추겼다."}], "theme": "행동"},
- {"id": 714, "word": "dark", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["어두운"]}], "examples": [{"en": "The room was too dark to read.", "ko": "그 방은 너무 어두워서 책을 읽을 수 없었다."}, {"en": "It gets dark early in winter.", "ko": "겨울에는 일찍 어두워진다."}], "theme": "자연"},
- {"id": 715, "word": "darling", "pos": ["명사", "형용사"], "meanings": [{"pos": "명사", "ko": ["사랑하는 사람"]}, {"pos": "형용사", "ko": ["사랑스러운"]}], "examples": [{"en": "Good morning, darling, did you sleep well?", "ko": "좋은 아침이야, 자기야, 잘 잤어?"}, {"en": "Their darling daughter just turned five years old.", "ko": "그들의 사랑스러운 딸이 방금 다섯 살이 되었다."}], "theme": "가족"},
- {"id": 716, "word": "dash", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["돌진하다", "급히 가다"]}, {"pos": "명사", "ko": ["질주", "약간"]}], "examples": [{"en": "He dashed across the road to catch the bus.", "ko": "그는 버스를 잡으려고 길을 가로질러 급히 달려갔다."}, {"en": "Add a dash of salt to the soup.", "ko": "수프에 소금을 약간 넣어라."}], "theme": "행동"},
- {"id": 717, "word": "database", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["데이터베이스"]}], "examples": [{"en": "The library keeps a database of all its books.", "ko": "그 도서관은 모든 책의 데이터베이스를 보관한다."}, {"en": "He added new customer information to the database.", "ko": "그는 새 고객 정보를 데이터베이스에 추가했다."}], "theme": "과학"},
- {"id": 718, "word": "date", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["날짜", "데이트"]}], "examples": [{"en": "What is today's date?", "ko": "오늘 날짜가 뭐니?"}, {"en": "Write the date at the top.", "ko": "맨 위에 날짜를 써라."}], "theme": "시간"},
- {"id": 719, "word": "datum", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["자료 하나(data의 단수형)"]}], "examples": [{"en": "Each datum in the table represents one student's score.", "ko": "표 안의 각 자료 값은 학생 한 명의 점수를 나타낸다."}, {"en": "A single datum is not enough to prove the theory.", "ko": "자료 하나만으로는 그 이론을 증명하기에 충분하지 않다."}], "theme": "과학"},
- {"id": 720, "word": "daughter", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["딸"]}], "examples": [{"en": "She has two daughters.", "ko": "그녀는 딸이 둘 있다."}, {"en": "Their daughter loves to sing.", "ko": "그들의 딸은 노래하는 것을 좋아한다."}], "theme": "가족"},
- {"id": 721, "word": "dawn", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["새벽"]}], "examples": [{"en": "Farmers usually wake up before dawn to start work.", "ko": "농부들은 보통 일을 시작하려고 새벽 전에 일어난다."}, {"en": "The sky turned pink at dawn.", "ko": "새벽에 하늘이 분홍빛으로 물들었다."}], "theme": "시간"},
- {"id": 722, "word": "day", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["하루", "날"]}], "examples": [{"en": "Today is a sunny day.", "ko": "오늘은 화창한 날이다."}, {"en": "I walk my dog every day.", "ko": "나는 매일 강아지를 산책시킨다."}], "theme": "시간"},
- {"id": 723, "word": "dead", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["죽은"]}], "examples": [{"en": "The plant looks completely dead now.", "ko": "그 식물은 이제 완전히 죽은 것처럼 보인다."}, {"en": "We found a dead bird in the yard.", "ko": "우리는 마당에서 죽은 새를 발견했다."}], "theme": "자연"},
- {"id": 724, "word": "deal", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["거래", "일"]}, {"pos": "동사", "ko": ["다루다", "거래하다"]}], "examples": [{"en": "Not a big deal.", "ko": "별일 아니야."}, {"en": "The two companies made a deal last month.", "ko": "두 회사는 지난달 거래를 성사시켰다."}], "theme": "일상"},
- {"id": 725, "word": "death", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["죽음"]}], "examples": [{"en": "The whole town mourned his death.", "ko": "온 마을이 그의 죽음을 애도했다."}, {"en": "Life and death are part of nature.", "ko": "삶과 죽음은 자연의 일부이다."}], "theme": "추상"},
- {"id": 726, "word": "debate", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["토론"]}, {"pos": "동사", "ko": ["토론하다"]}], "examples": [{"en": "Our class held a debate about school uniforms.", "ko": "우리 반은 교복에 대해 토론을 했다."}, {"en": "They debated the topic for almost an hour.", "ko": "그들은 거의 한 시간 동안 그 주제를 토론했다."}], "theme": "학교"},
- {"id": 727, "word": "debt", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["빚", "부채"]}], "examples": [{"en": "He worked hard to pay off his debt.", "ko": "그는 빚을 갚으려고 열심히 일했다."}, {"en": "The country's national debt keeps growing.", "ko": "그 나라의 국가 부채는 계속 늘어나고 있다."}], "theme": "사회"},
- {"id": 728, "word": "decade", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["십 년"]}], "examples": [{"en": "The town has changed a lot in the past decade.", "ko": "그 마을은 지난 십 년 동안 많이 변했다."}, {"en": "She has taught music for over a decade.", "ko": "그녀는 십 년 넘게 음악을 가르쳐 왔다."}], "theme": "시간"},
- {"id": 729, "word": "decay", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["부패하다", "썩다"]}, {"pos": "명사", "ko": ["부패"]}], "examples": [{"en": "Sugar can cause teeth to decay over time.", "ko": "설탕은 시간이 지나면서 이를 썩게 할 수 있다."}, {"en": "The old wooden bridge showed signs of decay.", "ko": "그 오래된 나무다리는 부패의 흔적을 보였다."}], "theme": "자연"},
- {"id": 730, "word": "decent", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["괜찮은", "적절한"]}], "examples": [{"en": "She finally found a decent job near her home.", "ko": "그녀는 마침내 집 근처에서 괜찮은 직장을 찾았다."}, {"en": "Everyone deserves a decent place to live.", "ko": "모든 사람은 적절한 살 곳을 누릴 자격이 있다."}], "theme": "추상"},
- {"id": 731, "word": "decide", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["결정하다"]}], "examples": [{"en": "I can't decide what to eat.", "ko": "나는 무엇을 먹을지 결정하지 못하겠다."}, {"en": "She decided to study abroad.", "ko": "그녀는 유학을 가기로 결정했다."}], "theme": "행동"},
- {"id": 732, "word": "deck", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["갑판", "덱"]}], "examples": [{"en": "We stood on the deck and watched the sunset.", "ko": "우리는 갑판 위에 서서 노을을 바라보았다."}, {"en": "He shuffled the deck of cards before the game.", "ko": "그는 게임 전에 카드 한 벌을 섞었다."}], "theme": "사물"},
- {"id": 733, "word": "declare", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["선언하다", "공표하다"]}], "examples": [{"en": "The referee declared the match over after ninety minutes.", "ko": "심판은 90분 후 경기 종료를 선언했다."}, {"en": "She proudly declared that she had passed the exam.", "ko": "그녀는 시험에 합격했다고 자랑스럽게 선언했다."}], "theme": "소통"},
- {"id": 734, "word": "decline", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["거절하다", "감소하다"]}, {"pos": "명사", "ko": ["감소"]}], "examples": [{"en": "He politely declined the invitation to the party.", "ko": "그는 파티 초대를 정중히 거절했다."}, {"en": "Sales showed a steady decline over the winter months.", "ko": "겨울철 동안 매출이 꾸준히 감소했다."}], "theme": "사회"},
- {"id": 735, "word": "decorate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["장식하다", "꾸미다"]}], "examples": [{"en": "We decorated the classroom for the holiday party.", "ko": "우리는 명절 파티를 위해 교실을 꾸몄다."}, {"en": "She decorates her room with photos and posters.", "ko": "그녀는 사진과 포스터로 자기 방을 꾸민다."}], "theme": "일상"},
- {"id": 736, "word": "decrease", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["감소하다"]}, {"pos": "명사", "ko": ["감소"]}], "examples": [{"en": "The number of students decreased this semester.", "ko": "이번 학기에 학생 수가 감소했다."}, {"en": "There was a sharp decrease in traffic accidents.", "ko": "교통사고에 뚜렷한 감소가 있었다."}], "theme": "수량"},
- {"id": 737, "word": "dedicate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["바치다", "전념하다"]}], "examples": [{"en": "She dedicated her life to helping poor children.", "ko": "그녀는 가난한 아이들을 돕는 데 삶을 바쳤다."}, {"en": "He dedicated the song to his late grandmother.", "ko": "그는 돌아가신 할머니께 그 노래를 바쳤다."}], "theme": "감정"},
- {"id": 738, "word": "deep", "pos": ["형용사", "부사"], "meanings": [{"pos": "형용사", "ko": ["깊은"]}, {"pos": "부사", "ko": ["깊이"]}], "examples": [{"en": "The lake is very deep here.", "ko": "이 호수는 여기가 매우 깊다."}, {"en": "Take a deep breath and relax.", "ko": "깊게 숨을 쉬고 긴장을 풀어라."}], "theme": "자연"},
- {"id": 739, "word": "defeat", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["패배시키다", "물리치다"]}, {"pos": "명사", "ko": ["패배"]}], "examples": [{"en": "Our team defeated the rivals in the final match.", "ko": "우리 팀은 결승전에서 라이벌 팀을 물리쳤다."}, {"en": "The coach accepted the defeat with grace.", "ko": "그 감독은 패배를 담담하게 받아들였다."}], "theme": "여가"},
- {"id": 740, "word": "defend", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["방어하다", "변호하다"]}], "examples": [{"en": "Soldiers were sent to defend the border.", "ko": "국경을 방어하기 위해 군인들이 파견되었다."}, {"en": "The lawyer defended her client in court.", "ko": "그 변호사는 법정에서 의뢰인을 변호했다."}], "theme": "사회"},
- {"id": 741, "word": "defense", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["방어", "수비"]}], "examples": [{"en": "The team's defense was very strong this season.", "ko": "그 팀의 수비는 이번 시즌에 매우 강했다."}, {"en": "Vitamin C helps the body's defense against colds.", "ko": "비타민 C는 감기에 대한 신체 방어를 돕는다."}], "theme": "신체"},
- {"id": 742, "word": "deficiency", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["결핍", "부족"]}], "examples": [{"en": "The doctor found a vitamin deficiency in his blood test.", "ko": "의사는 그의 혈액 검사에서 비타민 결핍을 발견했다."}, {"en": "A lack of sleep can cause a deficiency in focus.", "ko": "수면 부족은 집중력 결핍을 일으킬 수 있다."}], "theme": "신체"},
- {"id": 743, "word": "deficit", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["적자", "부족액"]}], "examples": [{"en": "The government is trying to reduce the budget deficit.", "ko": "정부는 예산 적자를 줄이려고 노력하고 있다."}, {"en": "The company reported a large deficit last year.", "ko": "그 회사는 작년에 큰 적자를 보고했다."}], "theme": "사회"},
- {"id": 744, "word": "define", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["정의하다"]}], "examples": [{"en": "Can you define this word for me?", "ko": "나에게 이 단어를 정의해 줄 수 있니?"}, {"en": "The dictionary defines 'happy' as feeling joy.", "ko": "사전은 'happy'를 기쁨을 느끼는 것으로 정의한다."}], "theme": "학교"},
- {"id": 745, "word": "definite", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["확실한", "명확한"]}], "examples": [{"en": "We don't have a definite answer yet.", "ko": "우리는 아직 확실한 답을 갖고 있지 않다."}, {"en": "She gave a definite date for the meeting.", "ko": "그녀는 회의에 대해 명확한 날짜를 알려주었다."}], "theme": "추상"},
- {"id": 746, "word": "degree", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["정도", "학위", "도(온도)"]}], "examples": [{"en": "The water was heated to a hundred degrees.", "ko": "물은 100도까지 데워졌다."}, {"en": "She earned a degree in biology last spring.", "ko": "그녀는 지난봄 생물학 학위를 받았다."}], "theme": "과학"},
- {"id": 747, "word": "delay", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["지연", "연기"]}, {"pos": "동사", "ko": ["미루다", "지연시키다"]}], "examples": [{"en": "The flight was delayed because of heavy snow.", "ko": "그 항공편은 폭설로 인해 지연되었다."}, {"en": "Please don't delay your homework until midnight.", "ko": "숙제를 자정까지 미루지 마라."}], "theme": "시간"},
- {"id": 748, "word": "delegate", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["대표", "대의원"]}, {"pos": "동사", "ko": ["위임하다"]}], "examples": [{"en": "Each class sent a delegate to the student council.", "ko": "각 반에서 학생회에 대표를 한 명씩 보냈다."}, {"en": "A good leader learns to delegate tasks to others.", "ko": "훌륭한 리더는 다른 사람에게 일을 위임하는 법을 배운다."}], "theme": "사회"},
- {"id": 749, "word": "delete", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["삭제하다"]}], "examples": [{"en": "He accidentally deleted his history homework file.", "ko": "그는 실수로 역사 숙제 파일을 삭제했다."}, {"en": "Please delete the old photos to save space.", "ko": "공간을 확보하려면 오래된 사진을 삭제해라."}], "theme": "과학"},
- {"id": 750, "word": "deliberate", "pos": ["형용사", "동사"], "meanings": [{"pos": "형용사", "ko": ["의도적인", "신중한"]}, {"pos": "동사", "ko": ["숙고하다"]}], "examples": [{"en": "It was a deliberate choice to sit near the window.", "ko": "창가에 앉은 것은 의도적인 선택이었다."}, {"en": "The jury deliberated for hours before reaching a verdict.", "ko": "배심원단은 평결을 내리기 전 몇 시간 동안 숙고했다."}], "theme": "추상"}
+ {
+  "id": 701,
+  "word": "custody",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "양육권",
+     "구금"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "After the divorce, she was granted custody of her son.",
+    "ko": "이혼 후 그녀는 아들의 양육권을 받았다."
+   },
+   {
+    "en": "The suspect was held in police custody overnight.",
+    "ko": "그 용의자는 밤새 경찰 구금 상태에 있었다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 702,
+  "word": "custom",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "관습",
+     "풍습"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Bowing is an important custom in Korea.",
+    "ko": "절하는 것은 한국의 중요한 관습이다."
+   },
+   {
+    "en": "Every region has its own local customs.",
+    "ko": "모든 지역에는 그 지역만의 풍습이 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 703,
+  "word": "customer",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "손님",
+     "고객"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The customer smiled at the clerk.",
+    "ko": "그 손님은 점원에게 미소 지었다."
+   },
+   {
+    "en": "We have many customers today.",
+    "ko": "오늘 손님이 많다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 704,
+  "word": "cut",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "자르다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "상처",
+     "베인 자국"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She cut the paper with scissors.",
+    "ko": "그녀는 가위로 종이를 잘랐다."
+   },
+   {
+    "en": "He has a cut on his hand.",
+    "ko": "그는 손에 베인 상처가 있다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 705,
+  "word": "cute",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "귀여운"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The puppy in the window is so cute.",
+    "ko": "창가에 있는 강아지가 정말 귀엽다."
+   },
+   {
+    "en": "Everyone thought the baby's laugh was cute.",
+    "ko": "모두가 아기의 웃음이 귀엽다고 생각했다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 706,
+  "word": "cycle",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "주기",
+     "순환"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "자전거를 타다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The water cycle includes rain, rivers, and evaporation.",
+    "ko": "물의 순환은 비, 강, 증발을 포함한다."
+   },
+   {
+    "en": "He cycles to school every morning.",
+    "ko": "그는 매일 아침 자전거를 타고 학교에 간다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 707,
+  "word": "cynical",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "냉소적인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He became cynical after losing his job twice.",
+    "ko": "그는 두 번 실직한 후 냉소적으로 변했다."
+   },
+   {
+    "en": "Try not to be so cynical about people's kindness.",
+    "ko": "사람들의 친절함에 대해 너무 냉소적이 되지 마라."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 708,
+  "word": "dairy",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "유제품"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "유제품의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Milk and cheese are common dairy products.",
+    "ko": "우유와 치즈는 흔한 유제품이다."
+   },
+   {
+    "en": "She is allergic to dairy, so she drinks soy milk.",
+    "ko": "그녀는 유제품에 알레르기가 있어서 두유를 마신다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 709,
+  "word": "damage",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "손상",
+     "피해"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "손상시키다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The storm caused serious damage to the roof.",
+    "ko": "그 폭풍은 지붕에 심각한 피해를 입혔다."
+   },
+   {
+    "en": "Too much sun can damage your skin.",
+    "ko": "햇볕을 너무 쬐면 피부가 손상될 수 있다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 710,
+  "word": "damp",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "축축한",
+     "눅눅한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The towel was still damp from this morning's shower.",
+    "ko": "그 수건은 오늘 아침 샤워 후로 여전히 축축했다."
+   },
+   {
+    "en": "Mushrooms grow well in damp, shady places.",
+    "ko": "버섯은 축축하고 그늘진 곳에서 잘 자란다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 711,
+  "word": "dance",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "춤추다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "춤"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Do you like dancing?",
+    "ko": "너는 춤추는 것을 좋아하니?"
+   },
+   {
+    "en": "We danced all night at the party.",
+    "ko": "우리는 파티에서 밤새 춤을 췄다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 712,
+  "word": "danger",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "위험"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The sign warns of danger ahead.",
+    "ko": "그 표지판은 앞에 위험이 있다고 경고한다."
+   },
+   {
+    "en": "Firefighters face danger every day.",
+    "ko": "소방관들은 매일 위험에 맞선다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 713,
+  "word": "dare",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "감히 ~하다",
+     "도전하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I didn't dare to raise my hand in class.",
+    "ko": "나는 감히 수업 중에 손을 들지 못했다."
+   },
+   {
+    "en": "She dared her brother to jump into the cold pool.",
+    "ko": "그녀는 남동생에게 차가운 수영장에 뛰어들라고 부추겼다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 714,
+  "word": "dark",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "어두운"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The room was too dark to read.",
+    "ko": "그 방은 너무 어두워서 책을 읽을 수 없었다."
+   },
+   {
+    "en": "It gets dark early in winter.",
+    "ko": "겨울에는 일찍 어두워진다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 715,
+  "word": "darling",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "사랑하는 사람"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "사랑스러운"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Good morning, darling, did you sleep well?",
+    "ko": "좋은 아침이야, 자기야, 잘 잤어?"
+   },
+   {
+    "en": "Their darling daughter just turned five years old.",
+    "ko": "그들의 사랑스러운 딸이 방금 다섯 살이 되었다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 716,
+  "word": "dash",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "돌진하다",
+     "급히 가다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "질주",
+     "약간"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He dashed across the road to catch the bus.",
+    "ko": "그는 버스를 잡으려고 길을 가로질러 급히 달려갔다."
+   },
+   {
+    "en": "Add a dash of salt to the soup.",
+    "ko": "수프에 소금을 약간 넣어라."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 717,
+  "word": "database",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "데이터베이스"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The library keeps a database of all its books.",
+    "ko": "그 도서관은 모든 책의 데이터베이스를 보관한다."
+   },
+   {
+    "en": "He added new customer information to the database.",
+    "ko": "그는 새 고객 정보를 데이터베이스에 추가했다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 718,
+  "word": "date",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "날짜",
+     "데이트"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "What is today's date?",
+    "ko": "오늘 날짜가 뭐니?"
+   },
+   {
+    "en": "Write the date at the top.",
+    "ko": "맨 위에 날짜를 써라."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 719,
+  "word": "datum",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "자료 하나(data의 단수형)"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Each datum in the table represents one student's score.",
+    "ko": "표 안의 각 자료 값은 학생 한 명의 점수를 나타낸다."
+   },
+   {
+    "en": "A single datum is not enough to prove the theory.",
+    "ko": "자료 하나만으로는 그 이론을 증명하기에 충분하지 않다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 720,
+  "word": "daughter",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "딸"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She has two daughters.",
+    "ko": "그녀는 딸이 둘 있다."
+   },
+   {
+    "en": "Their daughter loves to sing.",
+    "ko": "그들의 딸은 노래하는 것을 좋아한다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 721,
+  "word": "dawn",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "새벽"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Farmers usually wake up before dawn to start work.",
+    "ko": "농부들은 보통 일을 시작하려고 새벽 전에 일어난다."
+   },
+   {
+    "en": "The sky turned pink at dawn.",
+    "ko": "새벽에 하늘이 분홍빛으로 물들었다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 722,
+  "word": "day",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "하루",
+     "날"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Today is a sunny day.",
+    "ko": "오늘은 화창한 날이다."
+   },
+   {
+    "en": "I walk my dog every day.",
+    "ko": "나는 매일 강아지를 산책시킨다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 723,
+  "word": "dead",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "죽은"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The plant looks completely dead now.",
+    "ko": "그 식물은 이제 완전히 죽은 것처럼 보인다."
+   },
+   {
+    "en": "We found a dead bird in the yard.",
+    "ko": "우리는 마당에서 죽은 새를 발견했다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 724,
+  "word": "deal",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "거래",
+     "일"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "다루다",
+     "거래하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Not a big deal.",
+    "ko": "별일 아니야."
+   },
+   {
+    "en": "The two companies made a deal last month.",
+    "ko": "두 회사는 지난달 거래를 성사시켰다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 725,
+  "word": "death",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "죽음"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The whole town mourned his death.",
+    "ko": "온 마을이 그의 죽음을 애도했다."
+   },
+   {
+    "en": "Life and death are part of nature.",
+    "ko": "삶과 죽음은 자연의 일부이다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 726,
+  "word": "debate",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "토론"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "토론하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Our class held a debate about school uniforms.",
+    "ko": "우리 반은 교복에 대해 토론을 했다."
+   },
+   {
+    "en": "They debated the topic for almost an hour.",
+    "ko": "그들은 거의 한 시간 동안 그 주제를 토론했다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 727,
+  "word": "debt",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "빚",
+     "부채"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He worked hard to pay off his debt.",
+    "ko": "그는 빚을 갚으려고 열심히 일했다."
+   },
+   {
+    "en": "The country's national debt keeps growing.",
+    "ko": "그 나라의 국가 부채는 계속 늘어나고 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 728,
+  "word": "decade",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "십 년"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The town has changed a lot in the past decade.",
+    "ko": "그 마을은 지난 십 년 동안 많이 변했다."
+   },
+   {
+    "en": "She has taught music for over a decade.",
+    "ko": "그녀는 십 년 넘게 음악을 가르쳐 왔다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 729,
+  "word": "decay",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "부패하다",
+     "썩다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "부패"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Sugar can cause teeth to decay over time.",
+    "ko": "설탕은 시간이 지나면서 이를 썩게 할 수 있다."
+   },
+   {
+    "en": "The old wooden bridge showed signs of decay.",
+    "ko": "그 오래된 나무다리는 부패의 흔적을 보였다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 730,
+  "word": "decent",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "괜찮은",
+     "적절한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She finally found a decent job near her home.",
+    "ko": "그녀는 마침내 집 근처에서 괜찮은 직장을 찾았다."
+   },
+   {
+    "en": "Everyone deserves a decent place to live.",
+    "ko": "모든 사람은 적절한 살 곳을 누릴 자격이 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 731,
+  "word": "decide",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "결정하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I can't decide what to eat.",
+    "ko": "나는 무엇을 먹을지 결정하지 못하겠다."
+   },
+   {
+    "en": "She decided to study abroad.",
+    "ko": "그녀는 유학을 가기로 결정했다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 732,
+  "word": "deck",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "갑판",
+     "덱"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We stood on the deck and watched the sunset.",
+    "ko": "우리는 갑판 위에 서서 노을을 바라보았다."
+   },
+   {
+    "en": "He shuffled the deck of cards before the game.",
+    "ko": "그는 게임 전에 카드 한 벌을 섞었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 733,
+  "word": "declare",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "선언하다",
+     "공표하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The referee declared the match over after ninety minutes.",
+    "ko": "심판은 90분 후 경기 종료를 선언했다."
+   },
+   {
+    "en": "She proudly declared that she had passed the exam.",
+    "ko": "그녀는 시험에 합격했다고 자랑스럽게 선언했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 734,
+  "word": "decline",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "거절하다",
+     "감소하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "감소"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He politely declined the invitation to the party.",
+    "ko": "그는 파티 초대를 정중히 거절했다."
+   },
+   {
+    "en": "Sales showed a steady decline over the winter months.",
+    "ko": "겨울철 동안 매출이 꾸준히 감소했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 735,
+  "word": "decorate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "장식하다",
+     "꾸미다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We decorated the classroom for the holiday party.",
+    "ko": "우리는 명절 파티를 위해 교실을 꾸몄다."
+   },
+   {
+    "en": "She decorates her room with photos and posters.",
+    "ko": "그녀는 사진과 포스터로 자기 방을 꾸민다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 736,
+  "word": "decrease",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "감소하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "감소"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The number of students decreased this semester.",
+    "ko": "이번 학기에 학생 수가 감소했다."
+   },
+   {
+    "en": "There was a sharp decrease in traffic accidents.",
+    "ko": "교통사고에 뚜렷한 감소가 있었다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 737,
+  "word": "dedicate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "바치다",
+     "전념하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She dedicated her life to helping poor children.",
+    "ko": "그녀는 가난한 아이들을 돕는 데 삶을 바쳤다."
+   },
+   {
+    "en": "He dedicated the song to his late grandmother.",
+    "ko": "그는 돌아가신 할머니께 그 노래를 바쳤다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 738,
+  "word": "deep",
+  "pos": [
+   "형용사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "깊은"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "깊이"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The lake is very deep here.",
+    "ko": "이 호수는 여기가 매우 깊다."
+   },
+   {
+    "en": "Take a deep breath and relax.",
+    "ko": "깊게 숨을 쉬고 긴장을 풀어라."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 739,
+  "word": "defeat",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "패배시키다",
+     "물리치다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "패배"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Our team defeated the rivals in the final match.",
+    "ko": "우리 팀은 결승전에서 라이벌 팀을 물리쳤다."
+   },
+   {
+    "en": "The coach accepted the defeat with grace.",
+    "ko": "그 감독은 패배를 담담하게 받아들였다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 740,
+  "word": "defend",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "방어하다",
+     "변호하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Soldiers were sent to defend the border.",
+    "ko": "국경을 방어하기 위해 군인들이 파견되었다."
+   },
+   {
+    "en": "The lawyer defended her client in court.",
+    "ko": "그 변호사는 법정에서 의뢰인을 변호했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 741,
+  "word": "defense",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "방어",
+     "수비"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The team's defense was very strong this season.",
+    "ko": "그 팀의 수비는 이번 시즌에 매우 강했다."
+   },
+   {
+    "en": "Vitamin C helps the body's defense against colds.",
+    "ko": "비타민 C는 감기에 대한 신체 방어를 돕는다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 742,
+  "word": "deficiency",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "결핍",
+     "부족"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The doctor found a vitamin deficiency in his blood test.",
+    "ko": "의사는 그의 혈액 검사에서 비타민 결핍을 발견했다."
+   },
+   {
+    "en": "A lack of sleep can cause a deficiency in focus.",
+    "ko": "수면 부족은 집중력 결핍을 일으킬 수 있다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 743,
+  "word": "deficit",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "적자",
+     "부족액"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The government is trying to reduce the budget deficit.",
+    "ko": "정부는 예산 적자를 줄이려고 노력하고 있다."
+   },
+   {
+    "en": "The company reported a large deficit last year.",
+    "ko": "그 회사는 작년에 큰 적자를 보고했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 744,
+  "word": "define",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "정의하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Can you define this word for me?",
+    "ko": "나에게 이 단어를 정의해 줄 수 있니?"
+   },
+   {
+    "en": "The dictionary defines 'happy' as feeling joy.",
+    "ko": "사전은 'happy'를 기쁨을 느끼는 것으로 정의한다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 745,
+  "word": "definite",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "확실한",
+     "명확한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We don't have a definite answer yet.",
+    "ko": "우리는 아직 확실한 답을 갖고 있지 않다."
+   },
+   {
+    "en": "She gave a definite date for the meeting.",
+    "ko": "그녀는 회의에 대해 명확한 날짜를 알려주었다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 746,
+  "word": "degree",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "정도",
+     "학위",
+     "도(온도)"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The water was heated to a hundred degrees.",
+    "ko": "물은 100도까지 데워졌다."
+   },
+   {
+    "en": "She earned a degree in biology last spring.",
+    "ko": "그녀는 지난봄 생물학 학위를 받았다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 747,
+  "word": "delay",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "지연",
+     "연기"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "미루다",
+     "지연시키다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The flight was delayed because of heavy snow.",
+    "ko": "그 항공편은 폭설로 인해 지연되었다."
+   },
+   {
+    "en": "Please don't delay your homework until midnight.",
+    "ko": "숙제를 자정까지 미루지 마라."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 748,
+  "word": "delegate",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "대표",
+     "대의원"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "위임하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Each class sent a delegate to the student council.",
+    "ko": "각 반에서 학생회에 대표를 한 명씩 보냈다."
+   },
+   {
+    "en": "A good leader learns to delegate tasks to others.",
+    "ko": "훌륭한 리더는 다른 사람에게 일을 위임하는 법을 배운다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 749,
+  "word": "delete",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "삭제하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He accidentally deleted his history homework file.",
+    "ko": "그는 실수로 역사 숙제 파일을 삭제했다."
+   },
+   {
+    "en": "Please delete the old photos to save space.",
+    "ko": "공간을 확보하려면 오래된 사진을 삭제해라."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 750,
+  "word": "deliberate",
+  "pos": [
+   "형용사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "의도적인",
+     "신중한"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "숙고하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It was a deliberate choice to sit near the window.",
+    "ko": "창가에 앉은 것은 의도적인 선택이었다."
+   },
+   {
+    "en": "The jury deliberated for hours before reaching a verdict.",
+    "ko": "배심원단은 평결을 내리기 전 몇 시간 동안 숙고했다."
+   }
+  ],
+  "theme": "추상"
+ }
 ]

@@ -1,52 +1,1462 @@
 [
- {"id": 651, "word": "countryside", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["시골", "전원 지역"]}], "examples": [{"en": "They spent the weekend in the peaceful countryside.", "ko": "그들은 평화로운 시골에서 주말을 보냈다."}, {"en": "The countryside is full of green fields and farms.", "ko": "그 시골 지역은 초록빛 들판과 농장으로 가득하다."}], "theme": "자연"},
- {"id": 652, "word": "county", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["군", "자치주"]}], "examples": [{"en": "Our county holds a fair every autumn.", "ko": "우리 군은 매년 가을 축제를 연다."}, {"en": "This county has three public high schools.", "ko": "이 자치주에는 공립 고등학교가 세 곳 있다."}], "theme": "사회"},
- {"id": 653, "word": "couple", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["한 쌍", "커플", "몇 개"]}], "examples": [{"en": "A couple is walking in the park.", "ko": "한 커플이 공원에서 걷고 있다."}, {"en": "I need a couple of eggs.", "ko": "나는 달걀 몇 개가 필요하다."}], "theme": "일상"},
- {"id": 654, "word": "coupon", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["쿠폰", "할인권"]}], "examples": [{"en": "She used a coupon to get a free coffee.", "ko": "그녀는 쿠폰을 사용해서 커피를 공짜로 받았다."}, {"en": "The store gave out coupons for the new customers.", "ko": "그 가게는 새 고객들에게 쿠폰을 나누어 주었다."}], "theme": "사물"},
- {"id": 655, "word": "courage", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["용기"]}], "examples": [{"en": "It took great courage to speak in front of everyone.", "ko": "모두 앞에서 말하는 데는 큰 용기가 필요했다."}, {"en": "The firefighter showed courage by entering the burning house.", "ko": "그 소방관은 불타는 집에 들어가며 용기를 보였다."}], "theme": "감정"},
- {"id": 656, "word": "course", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["과정", "강좌", "코스"]}], "examples": [{"en": "Of course not.", "ko": "물론 아니지."}, {"en": "I'm taking a cooking course this year.", "ko": "나는 올해 요리 강좌를 듣고 있다."}], "theme": "학교"},
- {"id": 657, "word": "court", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["법원", "코트(경기장)"]}], "examples": [{"en": "We played basketball on the court.", "ko": "우리는 코트에서 농구를 했다."}, {"en": "The judge works at the court.", "ko": "그 판사는 법원에서 일한다."}], "theme": "장소"},
- {"id": 658, "word": "cousin", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["사촌"]}], "examples": [{"en": "My cousin lives next door.", "ko": "내 사촌은 옆집에 산다."}, {"en": "We play with our cousins every summer.", "ko": "우리는 여름마다 사촌들과 논다."}], "theme": "가족"},
- {"id": 659, "word": "cover", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["덮다", "다루다"]}, {"pos": "명사", "ko": ["덮개", "표지"]}], "examples": [{"en": "She covered the baby with a blanket.", "ko": "그녀는 담요로 아기를 덮어 주었다."}, {"en": "I like the cover of this book.", "ko": "나는 이 책의 표지가 마음에 든다."}], "theme": "사물"},
- {"id": 660, "word": "cow", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["소", "암소"]}], "examples": [{"en": "The cow eats grass in the field.", "ko": "그 소는 들판에서 풀을 먹는다."}, {"en": "We saw many cows on the farm.", "ko": "우리는 농장에서 소를 많이 보았다."}], "theme": "동물"},
- {"id": 661, "word": "crack", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["금이 가다", "깨다"]}, {"pos": "명사", "ko": ["금", "틈"]}], "examples": [{"en": "The glass cracked when it fell on the floor.", "ko": "그 유리컵은 바닥에 떨어져 금이 갔다."}, {"en": "There is a crack in the old wall.", "ko": "그 오래된 벽에는 틈이 있다."}], "theme": "사물"},
- {"id": 662, "word": "craft", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["공예", "기술"]}, {"pos": "동사", "ko": ["공들여 만들다"]}], "examples": [{"en": "The children made paper crafts during art class.", "ko": "아이들은 미술 시간에 종이 공예를 만들었다."}, {"en": "The artist crafted a beautiful wooden chair by hand.", "ko": "그 장인은 손수 아름다운 나무 의자를 만들었다."}], "theme": "여가"},
- {"id": 663, "word": "crash", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["충돌", "추락"]}, {"pos": "동사", "ko": ["충돌하다"]}], "examples": [{"en": "The two cars crashed at the intersection.", "ko": "두 차가 교차로에서 충돌했다."}, {"en": "No one was hurt in the crash.", "ko": "그 충돌 사고에서 다친 사람은 없었다."}], "theme": "교통"},
- {"id": 664, "word": "crawl", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["기어가다"]}], "examples": [{"en": "The baby is learning to crawl across the floor.", "ko": "그 아기는 바닥을 기어가는 법을 배우고 있다."}, {"en": "A spider crawled slowly up the wall.", "ko": "거미 한 마리가 천천히 벽을 기어 올라갔다."}], "theme": "행동"},
- {"id": 665, "word": "crayon", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["크레용"]}], "examples": [{"en": "I drew a sun with a crayon.", "ko": "나는 크레용으로 태양을 그렸다."}, {"en": "She has twelve colorful crayons.", "ko": "그녀는 색이 다양한 크레용 열두 개를 가지고 있다."}], "theme": "사물"},
- {"id": 666, "word": "craze", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["대유행", "열풍"]}], "examples": [{"en": "A new dance craze swept through the school last month.", "ko": "지난달 새로운 춤 열풍이 학교를 휩쓸었다."}, {"en": "The toy craze made the shelves empty within days.", "ko": "그 장난감 열풍으로 며칠 만에 진열대가 텅 비었다."}], "theme": "여가"},
- {"id": 667, "word": "cream", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["크림"]}], "examples": [{"en": "I put cream in my coffee.", "ko": "나는 커피에 크림을 넣는다."}, {"en": "She likes ice cream a lot.", "ko": "그녀는 아이스크림을 아주 좋아한다."}], "theme": "음식"},
- {"id": 668, "word": "create", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["창조하다", "만들다"]}], "examples": [{"en": "The artist created a beautiful sculpture from clay.", "ko": "그 예술가는 점토로 아름다운 조각품을 만들었다."}, {"en": "Students created a short video for the project.", "ko": "학생들은 프로젝트를 위해 짧은 영상을 만들었다."}], "theme": "여가"},
- {"id": 669, "word": "credible", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["믿을 만한", "신뢰할 수 있는"]}], "examples": [{"en": "The witness gave a credible account of the accident.", "ko": "그 목격자는 사고에 대해 믿을 만한 증언을 했다."}, {"en": "We need credible sources for this research paper.", "ko": "이 연구 논문에는 신뢰할 수 있는 자료가 필요하다."}], "theme": "학교"},
- {"id": 670, "word": "credit", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["신용", "공로"]}, {"pos": "동사", "ko": ["입금하다", "공로를 인정하다"]}], "examples": [{"en": "She deserves credit for organizing the whole event.", "ko": "그녀는 그 행사 전체를 준비한 공로를 인정받을 만하다."}, {"en": "My father paid with a credit card.", "ko": "우리 아버지는 신용카드로 결제하셨다."}], "theme": "사회"},
- {"id": 671, "word": "creep", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["살금살금 가다", "기어가다"]}], "examples": [{"en": "The cat began to creep quietly toward the sleeping bird.", "ko": "그 고양이는 잠든 새를 향해 조용히 살금살금 다가가기 시작했다."}, {"en": "Fear began to creep into her mind.", "ko": "두려움이 그녀의 마음속으로 스며들기 시작했다."}], "theme": "행동"},
- {"id": 672, "word": "crew", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["승무원", "팀"]}], "examples": [{"en": "The film crew worked all night to finish the scene.", "ko": "촬영팀은 그 장면을 끝내려고 밤새 일했다."}, {"en": "A friendly crew welcomed us aboard the ship.", "ko": "친절한 승무원들이 배에서 우리를 맞아 주었다."}], "theme": "직업"},
- {"id": 673, "word": "crime", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["범죄"]}], "examples": [{"en": "Crime rates have dropped in this neighborhood recently.", "ko": "최근 이 동네의 범죄율이 떨어졌다."}, {"en": "Stealing is considered a serious crime.", "ko": "도둑질은 심각한 범죄로 여겨진다."}], "theme": "사회"},
- {"id": 674, "word": "crisis", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["위기"]}], "examples": [{"en": "The country is facing a serious economic crisis.", "ko": "그 나라는 심각한 경제 위기에 직면해 있다."}, {"en": "They worked together to solve the water crisis.", "ko": "그들은 물 부족 위기를 해결하기 위해 함께 노력했다."}], "theme": "사회"},
- {"id": 675, "word": "crisp", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["바삭한", "상쾌한"]}], "examples": [{"en": "The bread was crisp and warm from the oven.", "ko": "그 빵은 오븐에서 갓 나와 바삭하고 따뜻했다."}, {"en": "We enjoyed a crisp autumn morning walk.", "ko": "우리는 상쾌한 가을 아침 산책을 즐겼다."}], "theme": "자연"},
- {"id": 676, "word": "criterion", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["기준"]}], "examples": [{"en": "Effort is one important criterion for this grade.", "ko": "노력은 이 성적을 매기는 중요한 기준 중 하나이다."}, {"en": "The judges used a strict criterion to pick the winner.", "ko": "심사위원들은 우승자를 뽑기 위해 엄격한 기준을 사용했다."}], "theme": "학교"},
- {"id": 677, "word": "critic", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["비평가", "평론가"]}], "examples": [{"en": "The movie critic gave the film five stars.", "ko": "그 영화 평론가는 그 영화에 별 다섯 개를 주었다."}, {"en": "Critics praised the young pianist's performance.", "ko": "평론가들은 그 젊은 피아니스트의 연주를 칭찬했다."}], "theme": "직업"},
- {"id": 678, "word": "crop", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["농작물"]}, {"pos": "동사", "ko": ["잘라내다"]}], "examples": [{"en": "Farmers harvest their crops in the early fall.", "ko": "농부들은 초가을에 농작물을 수확한다."}, {"en": "She cropped the photo to focus on his face.", "ko": "그녀는 그의 얼굴에 초점을 맞추려고 사진을 잘랐다."}], "theme": "자연"},
- {"id": 679, "word": "cross", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["건너다"]}, {"pos": "명사", "ko": ["십자가", "표시"]}], "examples": [{"en": "I’ll keep my fingers crossed!", "ko": "행운을 빌어 줄게!"}, {"en": "Look both ways before you cross the street.", "ko": "길을 건너기 전에 양쪽을 살펴봐라."}], "theme": "행동"},
- {"id": 680, "word": "crowd", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["군중", "무리"]}, {"pos": "동사", "ko": ["붐비다", "모여들다"]}], "examples": [{"en": "A large crowd gathered to watch the fireworks.", "ko": "많은 군중이 불꽃놀이를 보려고 모였다."}, {"en": "Fans crowded around the singer after the concert.", "ko": "팬들은 콘서트가 끝난 후 그 가수 주위로 몰려들었다."}], "theme": "사회"},
- {"id": 681, "word": "crown", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["왕관"]}, {"pos": "동사", "ko": ["왕관을 씌우다"]}], "examples": [{"en": "The queen wore a golden crown at the ceremony.", "ko": "여왕은 의식에서 황금 왕관을 썼다."}, {"en": "The winner was crowned champion of the tournament.", "ko": "그 우승자는 대회의 챔피언으로 왕관을 썼다."}], "theme": "사물"},
- {"id": 682, "word": "crucial", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["매우 중요한", "결정적인"]}], "examples": [{"en": "Sleep is crucial for a growing teenager's health.", "ko": "수면은 성장하는 청소년의 건강에 매우 중요하다."}, {"en": "This meeting is crucial to the success of the project.", "ko": "이 회의는 그 프로젝트의 성공에 결정적이다."}], "theme": "추상"},
- {"id": 683, "word": "cruel", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["잔인한"]}], "examples": [{"en": "It is cruel to leave a dog outside in winter.", "ko": "겨울에 개를 밖에 두는 것은 잔인한 일이다."}, {"en": "The story describes a cruel king who hurt his people.", "ko": "그 이야기는 백성을 괴롭힌 잔인한 왕을 묘사한다."}], "theme": "감정"},
- {"id": 684, "word": "cruise", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["유람선 여행", "크루즈"]}, {"pos": "동사", "ko": ["순항하다"]}], "examples": [{"en": "My family went on a cruise around the Caribbean.", "ko": "우리 가족은 카리브해 유람선 여행을 갔다."}, {"en": "The ship cruised smoothly across the calm ocean.", "ko": "그 배는 잔잔한 바다를 매끄럽게 순항했다."}], "theme": "여가"},
- {"id": 685, "word": "crush", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["으스러뜨리다", "눌러 부수다"]}, {"pos": "명사", "ko": ["짝사랑"]}], "examples": [{"en": "He accidentally crushed the empty can with his foot.", "ko": "그는 실수로 발로 빈 캔을 찌그러뜨렸다."}, {"en": "She has a crush on a boy in her class.", "ko": "그녀는 같은 반 남학생을 짝사랑하고 있다."}], "theme": "감정"},
- {"id": 686, "word": "cry", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["울다"]}, {"pos": "명사", "ko": ["울음"]}], "examples": [{"en": "The baby began to cry loudly.", "ko": "아기가 큰 소리로 울기 시작했다."}, {"en": "She cried after watching the sad movie.", "ko": "그녀는 슬픈 영화를 보고 울었다."}], "theme": "감정"},
- {"id": 687, "word": "crystal", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["수정", "결정체"]}], "examples": [{"en": "The necklace was made of clear crystal beads.", "ko": "그 목걸이는 투명한 수정 구슬로 만들어졌다."}, {"en": "Snowflakes form tiny crystal patterns in winter.", "ko": "눈송이는 겨울에 작은 결정체 무늬를 만든다."}], "theme": "자연"},
- {"id": 688, "word": "cultivate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["경작하다", "기르다"]}], "examples": [{"en": "Farmers cultivate rice in these wide fields.", "ko": "농부들은 이 넓은 들판에서 벼를 경작한다."}, {"en": "Reading books can cultivate a curious mind.", "ko": "책을 읽는 것은 호기심 많은 마음을 기를 수 있다."}], "theme": "행동"},
- {"id": 689, "word": "culture", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["문화"]}], "examples": [{"en": "I love learning about Korean culture.", "ko": "나는 한국 문화를 배우는 것을 좋아한다."}, {"en": "Every country has its own culture.", "ko": "모든 나라는 자기만의 문화가 있다."}], "theme": "사회"},
- {"id": 690, "word": "cup", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["컵", "잔"]}], "examples": [{"en": "She drank a cup of tea.", "ko": "그녀는 차 한 잔을 마셨다."}, {"en": "Put the cup on the table.", "ko": "컵을 탁자 위에 놓아라."}], "theme": "사물"},
- {"id": 691, "word": "cure", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["치료법", "치료제"]}, {"pos": "동사", "ko": ["치료하다"]}], "examples": [{"en": "Scientists are searching for a cure for the disease.", "ko": "과학자들은 그 병의 치료법을 찾고 있다."}, {"en": "The medicine cured her cold within a few days.", "ko": "그 약은 며칠 만에 그녀의 감기를 낫게 했다."}], "theme": "과학"},
- {"id": 692, "word": "curious", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["호기심 많은", "궁금한"]}], "examples": [{"en": "The curious child asked many questions about space.", "ko": "그 호기심 많은 아이는 우주에 대해 많은 질문을 했다."}, {"en": "I'm curious about how airplanes actually fly.", "ko": "나는 비행기가 실제로 어떻게 나는지 궁금하다."}], "theme": "감정"},
- {"id": 693, "word": "curl", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["곱슬거리게 하다", "말다"]}, {"pos": "명사", "ko": ["곱슬머리"]}], "examples": [{"en": "Her hair curls naturally in humid weather.", "ko": "그녀의 머리카락은 습한 날씨에 자연스럽게 곱슬거린다."}, {"en": "The cat curled up on the warm blanket.", "ko": "고양이는 따뜻한 담요 위에 몸을 웅크렸다."}], "theme": "신체"},
- {"id": 694, "word": "currency", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["화폐", "통화"]}], "examples": [{"en": "The won is the currency used in South Korea.", "ko": "원은 대한민국에서 사용되는 화폐이다."}, {"en": "We exchanged our currency at the airport.", "ko": "우리는 공항에서 화폐를 환전했다."}], "theme": "사회"},
- {"id": 695, "word": "current", "pos": ["형용사", "명사"], "meanings": [{"pos": "형용사", "ko": ["현재의"]}, {"pos": "명사", "ko": ["흐름", "전류"]}], "examples": [{"en": "The current president will visit our school next week.", "ko": "현재 대통령이 다음 주에 우리 학교를 방문할 것이다."}, {"en": "The river's current was too strong to swim against.", "ko": "그 강의 흐름은 거슬러 헤엄치기에 너무 강했다."}], "theme": "사회"},
- {"id": 696, "word": "curriculum", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["교육 과정"]}], "examples": [{"en": "The school updated its curriculum to include coding classes.", "ko": "그 학교는 코딩 수업을 포함하도록 교육 과정을 바꾸었다."}, {"en": "Math is a core part of the national curriculum.", "ko": "수학은 국가 교육 과정의 핵심 부분이다."}], "theme": "학교"},
- {"id": 697, "word": "curry", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["카레"]}], "examples": [{"en": "My mom makes delicious chicken curry on Fridays.", "ko": "우리 엄마는 금요일마다 맛있는 치킨 카레를 만드신다."}, {"en": "We ate curry and rice for dinner tonight.", "ko": "우리는 오늘 저녁으로 카레라이스를 먹었다."}], "theme": "음식"},
- {"id": 698, "word": "curse", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["저주"]}, {"pos": "동사", "ko": ["저주하다", "욕하다"]}], "examples": [{"en": "In the story, the witch put a curse on the castle.", "ko": "이야기 속에서 마녀는 성에 저주를 걸었다."}, {"en": "He cursed under his breath after missing the bus.", "ko": "그는 버스를 놓치고 나서 작게 욕을 했다."}], "theme": "추상"},
- {"id": 699, "word": "curtain", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["커튼"]}], "examples": [{"en": "She closed the curtain before bed.", "ko": "그녀는 자기 전에 커튼을 닫았다."}, {"en": "The blue curtains match the room.", "ko": "파란 커튼이 방과 잘 어울린다."}], "theme": "사물"},
- {"id": 700, "word": "curve", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["곡선", "커브"]}, {"pos": "동사", "ko": ["휘다", "굽다"]}], "examples": [{"en": "The road has a sharp curve near the mountain.", "ko": "그 도로는 산 근처에서 급한 커브가 있다."}, {"en": "The path curves gently around the lake.", "ko": "그 길은 호수를 완만하게 돌아 굽어 있다."}], "theme": "자연"}
+ {
+  "id": 651,
+  "word": "countryside",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "시골",
+     "전원 지역"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "They spent the weekend in the peaceful countryside.",
+    "ko": "그들은 평화로운 시골에서 주말을 보냈다."
+   },
+   {
+    "en": "The countryside is full of green fields and farms.",
+    "ko": "그 시골 지역은 초록빛 들판과 농장으로 가득하다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 652,
+  "word": "county",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "군",
+     "자치주"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Our county holds a fair every autumn.",
+    "ko": "우리 군은 매년 가을 축제를 연다."
+   },
+   {
+    "en": "This county has three public high schools.",
+    "ko": "이 자치주에는 공립 고등학교가 세 곳 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 653,
+  "word": "couple",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "한 쌍",
+     "커플",
+     "몇 개"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "A couple is walking in the park.",
+    "ko": "한 커플이 공원에서 걷고 있다."
+   },
+   {
+    "en": "I need a couple of eggs.",
+    "ko": "나는 달걀 몇 개가 필요하다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 654,
+  "word": "coupon",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "쿠폰",
+     "할인권"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She used a coupon to get a free coffee.",
+    "ko": "그녀는 쿠폰을 사용해서 커피를 공짜로 받았다."
+   },
+   {
+    "en": "The store gave out coupons for the new customers.",
+    "ko": "그 가게는 새 고객들에게 쿠폰을 나누어 주었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 655,
+  "word": "courage",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "용기"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It took great courage to speak in front of everyone.",
+    "ko": "모두 앞에서 말하는 데는 큰 용기가 필요했다."
+   },
+   {
+    "en": "The firefighter showed courage by entering the burning house.",
+    "ko": "그 소방관은 불타는 집에 들어가며 용기를 보였다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 656,
+  "word": "course",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "과정",
+     "강좌",
+     "코스"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Of course not.",
+    "ko": "물론 아니지."
+   },
+   {
+    "en": "I'm taking a cooking course this year.",
+    "ko": "나는 올해 요리 강좌를 듣고 있다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 657,
+  "word": "court",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "법원",
+     "코트(경기장)"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We played basketball on the court.",
+    "ko": "우리는 코트에서 농구를 했다."
+   },
+   {
+    "en": "The judge works at the court.",
+    "ko": "그 판사는 법원에서 일한다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 658,
+  "word": "cousin",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "사촌"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My cousin lives next door.",
+    "ko": "내 사촌은 옆집에 산다."
+   },
+   {
+    "en": "We play with our cousins every summer.",
+    "ko": "우리는 여름마다 사촌들과 논다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 659,
+  "word": "cover",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "덮다",
+     "다루다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "덮개",
+     "표지"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She covered the baby with a blanket.",
+    "ko": "그녀는 담요로 아기를 덮어 주었다."
+   },
+   {
+    "en": "I like the cover of this book.",
+    "ko": "나는 이 책의 표지가 마음에 든다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 660,
+  "word": "cow",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "소",
+     "암소"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The cow eats grass in the field.",
+    "ko": "그 소는 들판에서 풀을 먹는다."
+   },
+   {
+    "en": "We saw many cows on the farm.",
+    "ko": "우리는 농장에서 소를 많이 보았다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 661,
+  "word": "crack",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "금이 가다",
+     "깨다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "금",
+     "틈"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The glass cracked when it fell on the floor.",
+    "ko": "그 유리컵은 바닥에 떨어져 금이 갔다."
+   },
+   {
+    "en": "There is a crack in the old wall.",
+    "ko": "그 오래된 벽에는 틈이 있다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 662,
+  "word": "craft",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "공예",
+     "기술"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "공들여 만들다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The children made paper crafts during art class.",
+    "ko": "아이들은 미술 시간에 종이 공예를 만들었다."
+   },
+   {
+    "en": "The artist crafted a beautiful wooden chair by hand.",
+    "ko": "그 장인은 손수 아름다운 나무 의자를 만들었다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 663,
+  "word": "crash",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "충돌",
+     "추락"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "충돌하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The two cars crashed at the intersection.",
+    "ko": "두 차가 교차로에서 충돌했다."
+   },
+   {
+    "en": "No one was hurt in the crash.",
+    "ko": "그 충돌 사고에서 다친 사람은 없었다."
+   }
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 664,
+  "word": "crawl",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "기어가다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The baby is learning to crawl across the floor.",
+    "ko": "그 아기는 바닥을 기어가는 법을 배우고 있다."
+   },
+   {
+    "en": "A spider crawled slowly up the wall.",
+    "ko": "거미 한 마리가 천천히 벽을 기어 올라갔다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 665,
+  "word": "crayon",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "크레용"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I drew a sun with a crayon.",
+    "ko": "나는 크레용으로 태양을 그렸다."
+   },
+   {
+    "en": "She has twelve colorful crayons.",
+    "ko": "그녀는 색이 다양한 크레용 열두 개를 가지고 있다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 666,
+  "word": "craze",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "대유행",
+     "열풍"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "A new dance craze swept through the school last month.",
+    "ko": "지난달 새로운 춤 열풍이 학교를 휩쓸었다."
+   },
+   {
+    "en": "The toy craze made the shelves empty within days.",
+    "ko": "그 장난감 열풍으로 며칠 만에 진열대가 텅 비었다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 667,
+  "word": "cream",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "크림"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I put cream in my coffee.",
+    "ko": "나는 커피에 크림을 넣는다."
+   },
+   {
+    "en": "She likes ice cream a lot.",
+    "ko": "그녀는 아이스크림을 아주 좋아한다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 668,
+  "word": "create",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "창조하다",
+     "만들다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The artist created a beautiful sculpture from clay.",
+    "ko": "그 예술가는 점토로 아름다운 조각품을 만들었다."
+   },
+   {
+    "en": "Students created a short video for the project.",
+    "ko": "학생들은 프로젝트를 위해 짧은 영상을 만들었다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 669,
+  "word": "credible",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "믿을 만한",
+     "신뢰할 수 있는"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The witness gave a credible account of the accident.",
+    "ko": "그 목격자는 사고에 대해 믿을 만한 증언을 했다."
+   },
+   {
+    "en": "We need credible sources for this research paper.",
+    "ko": "이 연구 논문에는 신뢰할 수 있는 자료가 필요하다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 670,
+  "word": "credit",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "신용",
+     "공로"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "입금하다",
+     "공로를 인정하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She deserves credit for organizing the whole event.",
+    "ko": "그녀는 그 행사 전체를 준비한 공로를 인정받을 만하다."
+   },
+   {
+    "en": "My father paid with a credit card.",
+    "ko": "우리 아버지는 신용카드로 결제하셨다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 671,
+  "word": "creep",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "살금살금 가다",
+     "기어가다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The cat began to creep quietly toward the sleeping bird.",
+    "ko": "그 고양이는 잠든 새를 향해 조용히 살금살금 다가가기 시작했다."
+   },
+   {
+    "en": "Fear began to creep into her mind.",
+    "ko": "두려움이 그녀의 마음속으로 스며들기 시작했다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 672,
+  "word": "crew",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "승무원",
+     "팀"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The film crew worked all night to finish the scene.",
+    "ko": "촬영팀은 그 장면을 끝내려고 밤새 일했다."
+   },
+   {
+    "en": "A friendly crew welcomed us aboard the ship.",
+    "ko": "친절한 승무원들이 배에서 우리를 맞아 주었다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 673,
+  "word": "crime",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "범죄"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Crime rates have dropped in this neighborhood recently.",
+    "ko": "최근 이 동네의 범죄율이 떨어졌다."
+   },
+   {
+    "en": "Stealing is considered a serious crime.",
+    "ko": "도둑질은 심각한 범죄로 여겨진다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 674,
+  "word": "crisis",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "위기"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The country is facing a serious economic crisis.",
+    "ko": "그 나라는 심각한 경제 위기에 직면해 있다."
+   },
+   {
+    "en": "They worked together to solve the water crisis.",
+    "ko": "그들은 물 부족 위기를 해결하기 위해 함께 노력했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 675,
+  "word": "crisp",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "바삭한",
+     "상쾌한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The bread was crisp and warm from the oven.",
+    "ko": "그 빵은 오븐에서 갓 나와 바삭하고 따뜻했다."
+   },
+   {
+    "en": "We enjoyed a crisp autumn morning walk.",
+    "ko": "우리는 상쾌한 가을 아침 산책을 즐겼다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 676,
+  "word": "criterion",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "기준"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Effort is one important criterion for this grade.",
+    "ko": "노력은 이 성적을 매기는 중요한 기준 중 하나이다."
+   },
+   {
+    "en": "The judges used a strict criterion to pick the winner.",
+    "ko": "심사위원들은 우승자를 뽑기 위해 엄격한 기준을 사용했다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 677,
+  "word": "critic",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "비평가",
+     "평론가"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The movie critic gave the film five stars.",
+    "ko": "그 영화 평론가는 그 영화에 별 다섯 개를 주었다."
+   },
+   {
+    "en": "Critics praised the young pianist's performance.",
+    "ko": "평론가들은 그 젊은 피아니스트의 연주를 칭찬했다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 678,
+  "word": "crop",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "농작물"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "잘라내다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Farmers harvest their crops in the early fall.",
+    "ko": "농부들은 초가을에 농작물을 수확한다."
+   },
+   {
+    "en": "She cropped the photo to focus on his face.",
+    "ko": "그녀는 그의 얼굴에 초점을 맞추려고 사진을 잘랐다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 679,
+  "word": "cross",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "건너다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "십자가",
+     "표시"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I’ll keep my fingers crossed!",
+    "ko": "행운을 빌어 줄게!"
+   },
+   {
+    "en": "Look both ways before you cross the street.",
+    "ko": "길을 건너기 전에 양쪽을 살펴봐라."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 680,
+  "word": "crowd",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "군중",
+     "무리"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "붐비다",
+     "모여들다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "A large crowd gathered to watch the fireworks.",
+    "ko": "많은 군중이 불꽃놀이를 보려고 모였다."
+   },
+   {
+    "en": "Fans crowded around the singer after the concert.",
+    "ko": "팬들은 콘서트가 끝난 후 그 가수 주위로 몰려들었다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 681,
+  "word": "crown",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "왕관"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "왕관을 씌우다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The queen wore a golden crown at the ceremony.",
+    "ko": "여왕은 의식에서 황금 왕관을 썼다."
+   },
+   {
+    "en": "The winner was crowned champion of the tournament.",
+    "ko": "그 우승자는 대회의 챔피언으로 왕관을 썼다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 682,
+  "word": "crucial",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "매우 중요한",
+     "결정적인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Sleep is crucial for a growing teenager's health.",
+    "ko": "수면은 성장하는 청소년의 건강에 매우 중요하다."
+   },
+   {
+    "en": "This meeting is crucial to the success of the project.",
+    "ko": "이 회의는 그 프로젝트의 성공에 결정적이다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 683,
+  "word": "cruel",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "잔인한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It is cruel to leave a dog outside in winter.",
+    "ko": "겨울에 개를 밖에 두는 것은 잔인한 일이다."
+   },
+   {
+    "en": "The story describes a cruel king who hurt his people.",
+    "ko": "그 이야기는 백성을 괴롭힌 잔인한 왕을 묘사한다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 684,
+  "word": "cruise",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "유람선 여행",
+     "크루즈"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "순항하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My family went on a cruise around the Caribbean.",
+    "ko": "우리 가족은 카리브해 유람선 여행을 갔다."
+   },
+   {
+    "en": "The ship cruised smoothly across the calm ocean.",
+    "ko": "그 배는 잔잔한 바다를 매끄럽게 순항했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 685,
+  "word": "crush",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "으스러뜨리다",
+     "눌러 부수다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "짝사랑"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He accidentally crushed the empty can with his foot.",
+    "ko": "그는 실수로 발로 빈 캔을 찌그러뜨렸다."
+   },
+   {
+    "en": "She has a crush on a boy in her class.",
+    "ko": "그녀는 같은 반 남학생을 짝사랑하고 있다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 686,
+  "word": "cry",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "울다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "울음"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The baby began to cry loudly.",
+    "ko": "아기가 큰 소리로 울기 시작했다."
+   },
+   {
+    "en": "She cried after watching the sad movie.",
+    "ko": "그녀는 슬픈 영화를 보고 울었다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 687,
+  "word": "crystal",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "수정",
+     "결정체"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The necklace was made of clear crystal beads.",
+    "ko": "그 목걸이는 투명한 수정 구슬로 만들어졌다."
+   },
+   {
+    "en": "Snowflakes form tiny crystal patterns in winter.",
+    "ko": "눈송이는 겨울에 작은 결정체 무늬를 만든다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 688,
+  "word": "cultivate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "경작하다",
+     "기르다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Farmers cultivate rice in these wide fields.",
+    "ko": "농부들은 이 넓은 들판에서 벼를 경작한다."
+   },
+   {
+    "en": "Reading books can cultivate a curious mind.",
+    "ko": "책을 읽는 것은 호기심 많은 마음을 기를 수 있다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 689,
+  "word": "culture",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "문화"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I love learning about Korean culture.",
+    "ko": "나는 한국 문화를 배우는 것을 좋아한다."
+   },
+   {
+    "en": "Every country has its own culture.",
+    "ko": "모든 나라는 자기만의 문화가 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 690,
+  "word": "cup",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "컵",
+     "잔"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She drank a cup of tea.",
+    "ko": "그녀는 차 한 잔을 마셨다."
+   },
+   {
+    "en": "Put the cup on the table.",
+    "ko": "컵을 탁자 위에 놓아라."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 691,
+  "word": "cure",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "치료법",
+     "치료제"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "치료하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Scientists are searching for a cure for the disease.",
+    "ko": "과학자들은 그 병의 치료법을 찾고 있다."
+   },
+   {
+    "en": "The medicine cured her cold within a few days.",
+    "ko": "그 약은 며칠 만에 그녀의 감기를 낫게 했다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 692,
+  "word": "curious",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "호기심 많은",
+     "궁금한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The curious child asked many questions about space.",
+    "ko": "그 호기심 많은 아이는 우주에 대해 많은 질문을 했다."
+   },
+   {
+    "en": "I'm curious about how airplanes actually fly.",
+    "ko": "나는 비행기가 실제로 어떻게 나는지 궁금하다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 693,
+  "word": "curl",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "곱슬거리게 하다",
+     "말다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "곱슬머리"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Her hair curls naturally in humid weather.",
+    "ko": "그녀의 머리카락은 습한 날씨에 자연스럽게 곱슬거린다."
+   },
+   {
+    "en": "The cat curled up on the warm blanket.",
+    "ko": "고양이는 따뜻한 담요 위에 몸을 웅크렸다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 694,
+  "word": "currency",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "화폐",
+     "통화"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The won is the currency used in South Korea.",
+    "ko": "원은 대한민국에서 사용되는 화폐이다."
+   },
+   {
+    "en": "We exchanged our currency at the airport.",
+    "ko": "우리는 공항에서 화폐를 환전했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 695,
+  "word": "current",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "현재의"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "흐름",
+     "전류"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The current president will visit our school next week.",
+    "ko": "현재 대통령이 다음 주에 우리 학교를 방문할 것이다."
+   },
+   {
+    "en": "The river's current was too strong to swim against.",
+    "ko": "그 강의 흐름은 거슬러 헤엄치기에 너무 강했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 696,
+  "word": "curriculum",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "교육 과정"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The school updated its curriculum to include coding classes.",
+    "ko": "그 학교는 코딩 수업을 포함하도록 교육 과정을 바꾸었다."
+   },
+   {
+    "en": "Math is a core part of the national curriculum.",
+    "ko": "수학은 국가 교육 과정의 핵심 부분이다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 697,
+  "word": "curry",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "카레"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My mom makes delicious chicken curry on Fridays.",
+    "ko": "우리 엄마는 금요일마다 맛있는 치킨 카레를 만드신다."
+   },
+   {
+    "en": "We ate curry and rice for dinner tonight.",
+    "ko": "우리는 오늘 저녁으로 카레라이스를 먹었다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 698,
+  "word": "curse",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "저주"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "저주하다",
+     "욕하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "In the story, the witch put a curse on the castle.",
+    "ko": "이야기 속에서 마녀는 성에 저주를 걸었다."
+   },
+   {
+    "en": "He cursed under his breath after missing the bus.",
+    "ko": "그는 버스를 놓치고 나서 작게 욕을 했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 699,
+  "word": "curtain",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "커튼"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She closed the curtain before bed.",
+    "ko": "그녀는 자기 전에 커튼을 닫았다."
+   },
+   {
+    "en": "The blue curtains match the room.",
+    "ko": "파란 커튼이 방과 잘 어울린다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 700,
+  "word": "curve",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "곡선",
+     "커브"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "휘다",
+     "굽다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The road has a sharp curve near the mountain.",
+    "ko": "그 도로는 산 근처에서 급한 커브가 있다."
+   },
+   {
+    "en": "The path curves gently around the lake.",
+    "ko": "그 길은 호수를 완만하게 돌아 굽어 있다."
+   }
+  ],
+  "theme": "자연"
+ }
 ]

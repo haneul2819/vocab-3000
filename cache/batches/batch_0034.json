@@ -1,52 +1,1409 @@
 [
- {"id": 1651, "word": "mean", "pos": ["동사", "형용사"], "meanings": [{"pos": "동사", "ko": ["의미하다", "뜻하다"]}, {"pos": "형용사", "ko": ["못된", "비열한"]}], "examples": [{"en": "It (still) isn’t clear to me what this means.", "ko": "이것이 무슨 뜻인지 나는 아직도 잘 모르겠다."}, {"en": "Don't be so mean to your little sister.", "ko": "네 여동생에게 그렇게 못되게 굴지 마."}], "theme": "소통"},
- {"id": 1652, "word": "meanwhile", "pos": ["부사"], "meanings": [{"pos": "부사", "ko": ["그 동안에", "한편"]}], "examples": [{"en": "I was cooking dinner; meanwhile, my brother set the table.", "ko": "나는 저녁을 요리하고 있었고, 그 동안 내 동생은 식탁을 차렸다."}, {"en": "The bus was late. Meanwhile, we waited at the station.", "ko": "버스가 늦었다. 그 동안 우리는 역에서 기다렸다."}], "theme": "시간"},
- {"id": 1653, "word": "measure", "pos": ["동사", "명사"], "meanings": [{"pos": "동사", "ko": ["측정하다", "재다"]}, {"pos": "명사", "ko": ["조치", "척도"]}], "examples": [{"en": "Can you measure the length of this table?", "ko": "이 탁자의 길이를 재 줄 수 있니?"}, {"en": "The government took new measures to fight pollution.", "ko": "정부는 오염과 싸우기 위해 새로운 조치를 취했다."}], "theme": "과학"},
- {"id": 1654, "word": "meat", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["고기"]}], "examples": [{"en": "I don't eat meat.", "ko": "나는 고기를 먹지 않는다."}, {"en": "This meat smells fresh.", "ko": "이 고기는 신선한 냄새가 난다."}], "theme": "음식"},
- {"id": 1655, "word": "mechanic", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["정비공", "기계공"]}], "examples": [{"en": "The mechanic fixed my car engine quickly.", "ko": "정비공이 내 자동차 엔진을 빠르게 고쳤다."}, {"en": "My uncle works as a mechanic at a garage.", "ko": "우리 삼촌은 정비소에서 정비공으로 일한다."}], "theme": "직업"},
- {"id": 1656, "word": "mechanism", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["장치", "기제, 구조"]}], "examples": [{"en": "The clock has a complex mechanism inside.", "ko": "그 시계는 내부에 복잡한 장치가 있다."}, {"en": "Scientists studied the mechanism behind memory loss.", "ko": "과학자들은 기억 상실의 기제를 연구했다."}], "theme": "과학"},
- {"id": 1657, "word": "medal", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["메달"]}], "examples": [{"en": "She won a gold medal.", "ko": "그녀는 금메달을 땄다."}, {"en": "He got a medal for running.", "ko": "그는 달리기로 메달을 받았다."}], "theme": "여가"},
- {"id": 1658, "word": "mediate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["중재하다"]}], "examples": [{"en": "The teacher tried to mediate the argument between the students.", "ko": "선생님은 학생들 사이의 다툼을 중재하려고 했다."}, {"en": "A neutral person can mediate a dispute fairly.", "ko": "중립적인 사람이 분쟁을 공정하게 중재할 수 있다."}], "theme": "사회"},
- {"id": 1659, "word": "medical", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["의료의", "의학의"]}], "examples": [{"en": "She needs medical help right away.", "ko": "그녀는 즉시 의료 도움이 필요하다."}, {"en": "He works in the medical field as a nurse.", "ko": "그는 간호사로 의료 분야에서 일한다."}], "theme": "신체"},
- {"id": 1660, "word": "medicine", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["약", "의학"]}], "examples": [{"en": "Take this medicine after meals.", "ko": "이 약을 식사 후에 복용하세요."}, {"en": "She studies medicine at university.", "ko": "그녀는 대학에서 의학을 공부한다."}], "theme": "신체"},
- {"id": 1661, "word": "medieval", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["중세의"]}], "examples": [{"en": "The castle was built in medieval times.", "ko": "그 성은 중세 시대에 지어졌다."}, {"en": "We visited a medieval town in Europe last summer.", "ko": "우리는 지난여름 유럽의 중세 도시를 방문했다."}], "theme": "사회"},
- {"id": 1662, "word": "medium", "pos": ["형용사", "명사"], "meanings": [{"pos": "형용사", "ko": ["중간의"]}, {"pos": "명사", "ko": ["매체", "수단"]}], "examples": [{"en": "I'd like a medium coffee, please.", "ko": "중간 사이즈 커피 하나 주세요."}, {"en": "Television is a powerful medium for advertising.", "ko": "텔레비전은 광고를 위한 강력한 매체다."}], "theme": "사물"},
- {"id": 1663, "word": "meet", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["만나다"]}], "examples": [{"en": "(I’m) (very) pleased to meet you.", "ko": "당신을 만나서 (정말) 반갑습니다."}, {"en": "Let's meet at the park.", "ko": "공원에서 만나자."}], "theme": "소통"},
- {"id": 1664, "word": "melon", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["멜론"]}], "examples": [{"en": "This melon is very sweet.", "ko": "이 멜론은 아주 달다."}, {"en": "We shared a melon after lunch.", "ko": "우리는 점심 후에 멜론을 나눠 먹었다."}], "theme": "음식"},
- {"id": 1665, "word": "melt", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["녹다", "녹이다"]}], "examples": [{"en": "The ice began to melt in the sun.", "ko": "얼음이 햇빛 속에서 녹기 시작했다."}, {"en": "She melted the chocolate for the cake.", "ko": "그녀는 케이크를 위해 초콜릿을 녹였다."}], "theme": "자연"},
- {"id": 1666, "word": "member", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["회원", "구성원"]}], "examples": [{"en": "I am a club member.", "ko": "나는 그 동아리의 회원이다."}, {"en": "Every member has a name tag.", "ko": "모든 회원은 이름표가 있다."}], "theme": "사회"},
- {"id": 1667, "word": "memory", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["기억", "추억"]}], "examples": [{"en": "I have a good memory.", "ko": "나는 기억력이 좋다."}, {"en": "This is a happy memory.", "ko": "이것은 행복한 추억이다."}], "theme": "추상"},
- {"id": 1668, "word": "mental", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["정신의", "마음의"]}], "examples": [{"en": "Exercise is good for your mental health.", "ko": "운동은 정신 건강에 좋다."}, {"en": "He solved the mental math problem quickly.", "ko": "그는 암산 문제를 빠르게 풀었다."}], "theme": "신체"},
- {"id": 1669, "word": "mention", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["언급하다"]}], "examples": [{"en": "Don’t mention it.", "ko": "천만에요."}, {"en": "She mentioned your name during the meeting.", "ko": "그녀는 회의 중에 네 이름을 언급했다."}], "theme": "소통"},
- {"id": 1670, "word": "menu", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["메뉴"]}], "examples": [{"en": "Can I see the menu, please?", "ko": "메뉴판 좀 볼 수 있을까요?"}, {"en": "The restaurant has a new menu this month.", "ko": "그 식당은 이번 달에 새 메뉴가 있다."}], "theme": "음식"},
- {"id": 1671, "word": "merchant", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["상인"]}], "examples": [{"en": "The merchant sold spices in the market.", "ko": "그 상인은 시장에서 향신료를 팔았다."}, {"en": "A wealthy merchant built this old house.", "ko": "부유한 상인이 이 오래된 집을 지었다."}], "theme": "직업"},
- {"id": 1672, "word": "mere", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["단순한", "단지 ~에 불과한"]}], "examples": [{"en": "It was a mere coincidence, nothing more.", "ko": "그것은 단지 우연에 불과했다."}, {"en": "A mere apology cannot fix the damage done.", "ko": "단순한 사과로는 이미 생긴 피해를 고칠 수 없다."}], "theme": "추상"},
- {"id": 1673, "word": "merge", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["합병하다", "합쳐지다"]}], "examples": [{"en": "The two companies decided to merge next year.", "ko": "그 두 회사는 내년에 합병하기로 결정했다."}, {"en": "The two rivers merge near the old bridge.", "ko": "그 두 강은 오래된 다리 근처에서 합쳐진다."}], "theme": "사회"},
- {"id": 1674, "word": "merit", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["장점", "가치"]}], "examples": [{"en": "This plan has several merits worth considering.", "ko": "이 계획은 고려할 만한 여러 장점이 있다."}, {"en": "Her idea has real merit and deserves support.", "ko": "그녀의 생각은 진짜 가치가 있고 지지받을 만하다."}], "theme": "추상"},
- {"id": 1675, "word": "mess", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["엉망", "어질러진 상태"]}], "examples": [{"en": "Clean up this mess before dinner.", "ko": "저녁 먹기 전에 이 엉망진창을 치워라."}, {"en": "The kitchen was a mess after the party.", "ko": "파티 후에 부엌은 엉망이었다."}], "theme": "일상"},
- {"id": 1676, "word": "message", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["메시지", "전언"]}], "examples": [{"en": "I sent her a message this morning.", "ko": "나는 오늘 아침 그녀에게 메시지를 보냈다."}, {"en": "Did you get my message about the meeting?", "ko": "회의에 대한 내 메시지 받았니?"}], "theme": "소통"},
- {"id": 1677, "word": "metal", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["금속"]}], "examples": [{"en": "This ring is made of metal.", "ko": "이 반지는 금속으로 만들어졌다."}, {"en": "The bridge is built from strong metal.", "ko": "그 다리는 튼튼한 금속으로 지어졌다."}], "theme": "사물"},
- {"id": 1678, "word": "method", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["방법"]}], "examples": [{"en": "This is a good method for learning English.", "ko": "이것은 영어를 배우는 좋은 방법이다."}, {"en": "They found a new method to save energy.", "ko": "그들은 에너지를 절약하는 새로운 방법을 찾았다."}], "theme": "추상"},
- {"id": 1679, "word": "metropolitan", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["대도시의"]}], "examples": [{"en": "Seoul is a busy metropolitan city.", "ko": "서울은 분주한 대도시다."}, {"en": "The metropolitan area has heavy traffic every morning.", "ko": "그 대도시 지역은 매일 아침 교통이 혼잡하다."}], "theme": "장소"},
- {"id": 1680, "word": "microphone", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["마이크"]}], "examples": [{"en": "Speak clearly into the microphone.", "ko": "마이크에 대고 또렷하게 말하세요."}, {"en": "The singer dropped the microphone on stage.", "ko": "그 가수는 무대에서 마이크를 떨어뜨렸다."}], "theme": "사물"},
- {"id": 1681, "word": "microwave", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["전자레인지"]}, {"pos": "동사", "ko": ["전자레인지로 데우다"]}], "examples": [{"en": "Put the pizza in the microwave.", "ko": "피자를 전자레인지에 넣어라."}, {"en": "She microwaved the soup for two minutes.", "ko": "그녀는 수프를 2분 동안 전자레인지에 데웠다."}], "theme": "사물"},
- {"id": 1682, "word": "middle", "pos": ["명사", "형용사"], "meanings": [{"pos": "명사", "ko": ["중간", "가운데"]}, {"pos": "형용사", "ko": ["중간의"]}], "examples": [{"en": "Sit in the middle seat.", "ko": "가운데 자리에 앉아라."}, {"en": "The book is in the middle.", "ko": "그 책은 중간에 있다."}], "theme": "장소"},
- {"id": 1683, "word": "might", "pos": ["조동사"], "meanings": [{"pos": "조동사", "ko": ["~일지도 모른다"]}], "examples": [{"en": "It might rain today.", "ko": "오늘 비가 올지도 모른다."}, {"en": "She might come to the party.", "ko": "그녀가 파티에 올지도 모른다."}], "theme": "추상"},
- {"id": 1684, "word": "migrate", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["이주하다", "이동하다"]}], "examples": [{"en": "Birds migrate south every winter.", "ko": "새들은 매년 겨울 남쪽으로 이동한다."}, {"en": "Many families migrated to the city for jobs.", "ko": "많은 가족들이 일자리를 찾아 도시로 이주했다."}], "theme": "자연"},
- {"id": 1685, "word": "mild", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["온화한", "가벼운"]}], "examples": [{"en": "The weather today is mild and pleasant.", "ko": "오늘 날씨는 온화하고 쾌적하다."}, {"en": "He has a mild case of the flu.", "ko": "그는 가벼운 독감에 걸렸다."}], "theme": "자연"},
- {"id": 1686, "word": "military", "pos": ["형용사", "명사"], "meanings": [{"pos": "형용사", "ko": ["군사의"]}, {"pos": "명사", "ko": ["군대"]}], "examples": [{"en": "His father serves in the military.", "ko": "그의 아버지는 군대에서 복무한다."}, {"en": "The country increased its military spending this year.", "ko": "그 나라는 올해 군사 지출을 늘렸다."}], "theme": "사회"},
- {"id": 1687, "word": "milk", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["우유"]}], "examples": [{"en": "I drink milk every morning.", "ko": "나는 매일 아침 우유를 마신다."}, {"en": "This milk is very cold.", "ko": "이 우유는 아주 차갑다."}], "theme": "음식"},
- {"id": 1688, "word": "mill", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["방앗간", "공장"]}], "examples": [{"en": "The old mill still grinds wheat today.", "ko": "그 오래된 방앗간은 오늘날에도 밀을 빻는다."}, {"en": "My grandfather worked at a paper mill.", "ko": "우리 할아버지는 제지 공장에서 일하셨다."}], "theme": "장소"},
- {"id": 1689, "word": "million", "pos": ["수사", "명사"], "meanings": [{"pos": "수사", "ko": ["백만의"]}, {"pos": "명사", "ko": ["백만"]}], "examples": [{"en": "The company earned a million dollars last year.", "ko": "그 회사는 작년에 백만 달러를 벌었다."}, {"en": "Millions of people live in this crowded city.", "ko": "수백만 명의 사람들이 이 붐비는 도시에 산다."}], "theme": "수량"},
- {"id": 1690, "word": "mind", "pos": ["명사", "동사"], "meanings": [{"pos": "명사", "ko": ["마음", "정신"]}, {"pos": "동사", "ko": ["꺼리다", "신경 쓰다"]}], "examples": [{"en": "Would you mind closing the window?", "ko": "창문 좀 닫아주시겠어요?"}, {"en": "Keep your mind open.", "ko": "마음을 열어 두어라."}], "theme": "신체"},
- {"id": 1691, "word": "mine", "pos": ["대명사", "명사"], "meanings": [{"pos": "대명사", "ko": ["나의 것"]}, {"pos": "명사", "ko": ["광산"]}], "examples": [{"en": "That red bike is mine.", "ko": "저 빨간 자전거는 내 것이다."}, {"en": "Workers dug deep into the coal mine.", "ko": "노동자들은 석탄 광산 깊숙이 파고들었다."}], "theme": "사물"},
- {"id": 1692, "word": "mineral", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["광물", "무기질"]}], "examples": [{"en": "This water contains many useful minerals.", "ko": "이 물에는 유용한 무기질이 많이 들어 있다."}, {"en": "Scientists found a rare mineral in the cave.", "ko": "과학자들은 동굴에서 희귀한 광물을 발견했다."}], "theme": "과학"},
- {"id": 1693, "word": "minimal", "pos": ["형용사"], "meanings": [{"pos": "형용사", "ko": ["최소한의"]}], "examples": [{"en": "The damage from the storm was minimal.", "ko": "폭풍으로 인한 피해는 최소한이었다."}, {"en": "We spent a minimal amount of money on the trip.", "ko": "우리는 그 여행에 최소한의 돈만 썼다."}], "theme": "수량"},
- {"id": 1694, "word": "minimum", "pos": ["명사", "형용사"], "meanings": [{"pos": "명사", "ko": ["최소"]}, {"pos": "형용사", "ko": ["최소의"]}], "examples": [{"en": "The minimum age to drive is eighteen.", "ko": "운전할 수 있는 최소 나이는 18세다."}, {"en": "Please keep noise to a minimum in the library.", "ko": "도서관에서는 소음을 최소한으로 유지해 주세요."}], "theme": "수량"},
- {"id": 1695, "word": "ministry", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["부처", "(정부의) 부"]}], "examples": [{"en": "The Ministry of Education announced new rules.", "ko": "교육부는 새로운 규칙을 발표했다."}, {"en": "She works for the Ministry of Health.", "ko": "그녀는 보건부에서 일한다."}], "theme": "직업"},
- {"id": 1696, "word": "minor", "pos": ["형용사", "명사"], "meanings": [{"pos": "형용사", "ko": ["사소한", "작은"]}, {"pos": "명사", "ko": ["미성년자"]}], "examples": [{"en": "It was only a minor mistake.", "ko": "그것은 그저 사소한 실수였다."}, {"en": "Alcohol cannot be sold to a minor.", "ko": "미성년자에게는 술을 팔 수 없다."}], "theme": "추상"},
- {"id": 1697, "word": "minute", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["분", "잠깐"]}], "examples": [{"en": "Excuse me, can I talk to you for a minute?", "ko": "실례지만, 잠깐 얘기 좀 할 수 있을까요?"}, {"en": "Wait a minute, please.", "ko": "잠깐만 기다려 주세요."}], "theme": "시간"},
- {"id": 1698, "word": "miracle", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["기적"]}], "examples": [{"en": "It was a miracle that no one got hurt.", "ko": "아무도 다치지 않은 것은 기적이었다."}, {"en": "Doctors called her recovery a true miracle.", "ko": "의사들은 그녀의 회복을 진정한 기적이라고 불렀다."}], "theme": "추상"},
- {"id": 1699, "word": "mirror", "pos": ["명사"], "meanings": [{"pos": "명사", "ko": ["거울"]}], "examples": [{"en": "She looked at herself in the mirror.", "ko": "그녀는 거울 속 자신을 바라보았다."}, {"en": "The mirror on the wall is broken.", "ko": "벽에 걸린 거울이 깨졌다."}], "theme": "사물"},
- {"id": 1700, "word": "miss", "pos": ["동사"], "meanings": [{"pos": "동사", "ko": ["그리워하다", "놓치다"]}], "examples": [{"en": "I miss my grandmother.", "ko": "나는 할머니가 그립다."}, {"en": "Don't miss the bus.", "ko": "버스를 놓치지 마라."}], "theme": "감정"}
+ {
+  "id": 1650,
+  "word": "mean",
+  "pos": [
+   "동사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "의미하다",
+     "뜻하다"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "못된",
+     "비열한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It (still) isn’t clear to me what this means.",
+    "ko": "이것이 무슨 뜻인지 나는 아직도 잘 모르겠다."
+   },
+   {
+    "en": "Don't be so mean to your little sister.",
+    "ko": "네 여동생에게 그렇게 못되게 굴지 마."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1651,
+  "word": "meanwhile",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "그 동안에",
+     "한편"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I was cooking dinner; meanwhile, my brother set the table.",
+    "ko": "나는 저녁을 요리하고 있었고, 그 동안 내 동생은 식탁을 차렸다."
+   },
+   {
+    "en": "The bus was late. Meanwhile, we waited at the station.",
+    "ko": "버스가 늦었다. 그 동안 우리는 역에서 기다렸다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 1652,
+  "word": "measure",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "측정하다",
+     "재다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "조치",
+     "척도"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Can you measure the length of this table?",
+    "ko": "이 탁자의 길이를 재 줄 수 있니?"
+   },
+   {
+    "en": "The government took new measures to fight pollution.",
+    "ko": "정부는 오염과 싸우기 위해 새로운 조치를 취했다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 1653,
+  "word": "meat",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "고기"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I don't eat meat.",
+    "ko": "나는 고기를 먹지 않는다."
+   },
+   {
+    "en": "This meat smells fresh.",
+    "ko": "이 고기는 신선한 냄새가 난다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 1654,
+  "word": "mechanic",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "정비공",
+     "기계공"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The mechanic fixed my car engine quickly.",
+    "ko": "정비공이 내 자동차 엔진을 빠르게 고쳤다."
+   },
+   {
+    "en": "My uncle works as a mechanic at a garage.",
+    "ko": "우리 삼촌은 정비소에서 정비공으로 일한다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 1655,
+  "word": "mechanism",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "장치",
+     "기제, 구조"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The clock has a complex mechanism inside.",
+    "ko": "그 시계는 내부에 복잡한 장치가 있다."
+   },
+   {
+    "en": "Scientists studied the mechanism behind memory loss.",
+    "ko": "과학자들은 기억 상실의 기제를 연구했다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 1656,
+  "word": "medal",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "메달"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She won a gold medal.",
+    "ko": "그녀는 금메달을 땄다."
+   },
+   {
+    "en": "He got a medal for running.",
+    "ko": "그는 달리기로 메달을 받았다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 1657,
+  "word": "mediate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "중재하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The teacher tried to mediate the argument between the students.",
+    "ko": "선생님은 학생들 사이의 다툼을 중재하려고 했다."
+   },
+   {
+    "en": "A neutral person can mediate a dispute fairly.",
+    "ko": "중립적인 사람이 분쟁을 공정하게 중재할 수 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1658,
+  "word": "medical",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "의료의",
+     "의학의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She needs medical help right away.",
+    "ko": "그녀는 즉시 의료 도움이 필요하다."
+   },
+   {
+    "en": "He works in the medical field as a nurse.",
+    "ko": "그는 간호사로 의료 분야에서 일한다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1659,
+  "word": "medicine",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "약",
+     "의학"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Take this medicine after meals.",
+    "ko": "이 약을 식사 후에 복용하세요."
+   },
+   {
+    "en": "She studies medicine at university.",
+    "ko": "그녀는 대학에서 의학을 공부한다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1660,
+  "word": "medieval",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "중세의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The castle was built in medieval times.",
+    "ko": "그 성은 중세 시대에 지어졌다."
+   },
+   {
+    "en": "We visited a medieval town in Europe last summer.",
+    "ko": "우리는 지난여름 유럽의 중세 도시를 방문했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1661,
+  "word": "medium",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "중간의"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "매체",
+     "수단"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I'd like a medium coffee, please.",
+    "ko": "중간 사이즈 커피 하나 주세요."
+   },
+   {
+    "en": "Television is a powerful medium for advertising.",
+    "ko": "텔레비전은 광고를 위한 강력한 매체다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1662,
+  "word": "meet",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "만나다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "(I’m) (very) pleased to meet you.",
+    "ko": "당신을 만나서 (정말) 반갑습니다."
+   },
+   {
+    "en": "Let's meet at the park.",
+    "ko": "공원에서 만나자."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1663,
+  "word": "melon",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "멜론"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This melon is very sweet.",
+    "ko": "이 멜론은 아주 달다."
+   },
+   {
+    "en": "We shared a melon after lunch.",
+    "ko": "우리는 점심 후에 멜론을 나눠 먹었다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 1664,
+  "word": "melt",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "녹다",
+     "녹이다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The ice began to melt in the sun.",
+    "ko": "얼음이 햇빛 속에서 녹기 시작했다."
+   },
+   {
+    "en": "She melted the chocolate for the cake.",
+    "ko": "그녀는 케이크를 위해 초콜릿을 녹였다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1665,
+  "word": "member",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "회원",
+     "구성원"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I am a club member.",
+    "ko": "나는 그 동아리의 회원이다."
+   },
+   {
+    "en": "Every member has a name tag.",
+    "ko": "모든 회원은 이름표가 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1666,
+  "word": "memory",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "기억",
+     "추억"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I have a good memory.",
+    "ko": "나는 기억력이 좋다."
+   },
+   {
+    "en": "This is a happy memory.",
+    "ko": "이것은 행복한 추억이다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1667,
+  "word": "mental",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "정신의",
+     "마음의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Exercise is good for your mental health.",
+    "ko": "운동은 정신 건강에 좋다."
+   },
+   {
+    "en": "He solved the mental math problem quickly.",
+    "ko": "그는 암산 문제를 빠르게 풀었다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1668,
+  "word": "mention",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "언급하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Don’t mention it.",
+    "ko": "천만에요."
+   },
+   {
+    "en": "She mentioned your name during the meeting.",
+    "ko": "그녀는 회의 중에 네 이름을 언급했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1669,
+  "word": "menu",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "메뉴"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Can I see the menu, please?",
+    "ko": "메뉴판 좀 볼 수 있을까요?"
+   },
+   {
+    "en": "The restaurant has a new menu this month.",
+    "ko": "그 식당은 이번 달에 새 메뉴가 있다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 1670,
+  "word": "merchant",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "상인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The merchant sold spices in the market.",
+    "ko": "그 상인은 시장에서 향신료를 팔았다."
+   },
+   {
+    "en": "A wealthy merchant built this old house.",
+    "ko": "부유한 상인이 이 오래된 집을 지었다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 1671,
+  "word": "mere",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "단순한",
+     "단지 ~에 불과한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It was a mere coincidence, nothing more.",
+    "ko": "그것은 단지 우연에 불과했다."
+   },
+   {
+    "en": "A mere apology cannot fix the damage done.",
+    "ko": "단순한 사과로는 이미 생긴 피해를 고칠 수 없다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1672,
+  "word": "merge",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "합병하다",
+     "합쳐지다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The two companies decided to merge next year.",
+    "ko": "그 두 회사는 내년에 합병하기로 결정했다."
+   },
+   {
+    "en": "The two rivers merge near the old bridge.",
+    "ko": "그 두 강은 오래된 다리 근처에서 합쳐진다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1673,
+  "word": "merit",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "장점",
+     "가치"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This plan has several merits worth considering.",
+    "ko": "이 계획은 고려할 만한 여러 장점이 있다."
+   },
+   {
+    "en": "Her idea has real merit and deserves support.",
+    "ko": "그녀의 생각은 진짜 가치가 있고 지지받을 만하다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1674,
+  "word": "mess",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "엉망",
+     "어질러진 상태"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Clean up this mess before dinner.",
+    "ko": "저녁 먹기 전에 이 엉망진창을 치워라."
+   },
+   {
+    "en": "The kitchen was a mess after the party.",
+    "ko": "파티 후에 부엌은 엉망이었다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 1675,
+  "word": "message",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "메시지",
+     "전언"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I sent her a message this morning.",
+    "ko": "나는 오늘 아침 그녀에게 메시지를 보냈다."
+   },
+   {
+    "en": "Did you get my message about the meeting?",
+    "ko": "회의에 대한 내 메시지 받았니?"
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1676,
+  "word": "metal",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "금속"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This ring is made of metal.",
+    "ko": "이 반지는 금속으로 만들어졌다."
+   },
+   {
+    "en": "The bridge is built from strong metal.",
+    "ko": "그 다리는 튼튼한 금속으로 지어졌다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1677,
+  "word": "method",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "방법"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This is a good method for learning English.",
+    "ko": "이것은 영어를 배우는 좋은 방법이다."
+   },
+   {
+    "en": "They found a new method to save energy.",
+    "ko": "그들은 에너지를 절약하는 새로운 방법을 찾았다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1678,
+  "word": "metropolitan",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "대도시의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Seoul is a busy metropolitan city.",
+    "ko": "서울은 분주한 대도시다."
+   },
+   {
+    "en": "The metropolitan area has heavy traffic every morning.",
+    "ko": "그 대도시 지역은 매일 아침 교통이 혼잡하다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 1679,
+  "word": "microphone",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "마이크"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Speak clearly into the microphone.",
+    "ko": "마이크에 대고 또렷하게 말하세요."
+   },
+   {
+    "en": "The singer dropped the microphone on stage.",
+    "ko": "그 가수는 무대에서 마이크를 떨어뜨렸다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1680,
+  "word": "microwave",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "전자레인지"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "전자레인지로 데우다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Put the pizza in the microwave.",
+    "ko": "피자를 전자레인지에 넣어라."
+   },
+   {
+    "en": "She microwaved the soup for two minutes.",
+    "ko": "그녀는 수프를 2분 동안 전자레인지에 데웠다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1681,
+  "word": "middle",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "중간",
+     "가운데"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "중간의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Sit in the middle seat.",
+    "ko": "가운데 자리에 앉아라."
+   },
+   {
+    "en": "The book is in the middle.",
+    "ko": "그 책은 중간에 있다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 1682,
+  "word": "might",
+  "pos": [
+   "조동사"
+  ],
+  "meanings": [
+   {
+    "pos": "조동사",
+    "ko": [
+     "~일지도 모른다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It might rain today.",
+    "ko": "오늘 비가 올지도 모른다."
+   },
+   {
+    "en": "She might come to the party.",
+    "ko": "그녀가 파티에 올지도 모른다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1683,
+  "word": "migrate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "이주하다",
+     "이동하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Birds migrate south every winter.",
+    "ko": "새들은 매년 겨울 남쪽으로 이동한다."
+   },
+   {
+    "en": "Many families migrated to the city for jobs.",
+    "ko": "많은 가족들이 일자리를 찾아 도시로 이주했다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1684,
+  "word": "mild",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "온화한",
+     "가벼운"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The weather today is mild and pleasant.",
+    "ko": "오늘 날씨는 온화하고 쾌적하다."
+   },
+   {
+    "en": "He has a mild case of the flu.",
+    "ko": "그는 가벼운 독감에 걸렸다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1685,
+  "word": "military",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "군사의"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "군대"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "His father serves in the military.",
+    "ko": "그의 아버지는 군대에서 복무한다."
+   },
+   {
+    "en": "The country increased its military spending this year.",
+    "ko": "그 나라는 올해 군사 지출을 늘렸다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1686,
+  "word": "milk",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "우유"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I drink milk every morning.",
+    "ko": "나는 매일 아침 우유를 마신다."
+   },
+   {
+    "en": "This milk is very cold.",
+    "ko": "이 우유는 아주 차갑다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 1687,
+  "word": "mill",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "방앗간",
+     "공장"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The old mill still grinds wheat today.",
+    "ko": "그 오래된 방앗간은 오늘날에도 밀을 빻는다."
+   },
+   {
+    "en": "My grandfather worked at a paper mill.",
+    "ko": "우리 할아버지는 제지 공장에서 일하셨다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 1688,
+  "word": "million",
+  "pos": [
+   "수사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "수사",
+    "ko": [
+     "백만의"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "백만"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The company earned a million dollars last year.",
+    "ko": "그 회사는 작년에 백만 달러를 벌었다."
+   },
+   {
+    "en": "Millions of people live in this crowded city.",
+    "ko": "수백만 명의 사람들이 이 붐비는 도시에 산다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 1689,
+  "word": "mind",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "마음",
+     "정신"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "꺼리다",
+     "신경 쓰다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Would you mind closing the window?",
+    "ko": "창문 좀 닫아주시겠어요?"
+   },
+   {
+    "en": "Keep your mind open.",
+    "ko": "마음을 열어 두어라."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 1690,
+  "word": "mine",
+  "pos": [
+   "대명사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "대명사",
+    "ko": [
+     "나의 것"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "광산"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "That red bike is mine.",
+    "ko": "저 빨간 자전거는 내 것이다."
+   },
+   {
+    "en": "Workers dug deep into the coal mine.",
+    "ko": "노동자들은 석탄 광산 깊숙이 파고들었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1691,
+  "word": "mineral",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "광물",
+     "무기질"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This water contains many useful minerals.",
+    "ko": "이 물에는 유용한 무기질이 많이 들어 있다."
+   },
+   {
+    "en": "Scientists found a rare mineral in the cave.",
+    "ko": "과학자들은 동굴에서 희귀한 광물을 발견했다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 1692,
+  "word": "minimal",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "최소한의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The damage from the storm was minimal.",
+    "ko": "폭풍으로 인한 피해는 최소한이었다."
+   },
+   {
+    "en": "We spent a minimal amount of money on the trip.",
+    "ko": "우리는 그 여행에 최소한의 돈만 썼다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 1693,
+  "word": "minimum",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "최소"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "최소의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The minimum age to drive is eighteen.",
+    "ko": "운전할 수 있는 최소 나이는 18세다."
+   },
+   {
+    "en": "Please keep noise to a minimum in the library.",
+    "ko": "도서관에서는 소음을 최소한으로 유지해 주세요."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 1694,
+  "word": "ministry",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "부처",
+     "(정부의) 부"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The Ministry of Education announced new rules.",
+    "ko": "교육부는 새로운 규칙을 발표했다."
+   },
+   {
+    "en": "She works for the Ministry of Health.",
+    "ko": "그녀는 보건부에서 일한다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 1695,
+  "word": "minor",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "사소한",
+     "작은"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "미성년자"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It was only a minor mistake.",
+    "ko": "그것은 그저 사소한 실수였다."
+   },
+   {
+    "en": "Alcohol cannot be sold to a minor.",
+    "ko": "미성년자에게는 술을 팔 수 없다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1696,
+  "word": "minute",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "분",
+     "잠깐"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Excuse me, can I talk to you for a minute?",
+    "ko": "실례지만, 잠깐 얘기 좀 할 수 있을까요?"
+   },
+   {
+    "en": "Wait a minute, please.",
+    "ko": "잠깐만 기다려 주세요."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 1697,
+  "word": "miracle",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "기적"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It was a miracle that no one got hurt.",
+    "ko": "아무도 다치지 않은 것은 기적이었다."
+   },
+   {
+    "en": "Doctors called her recovery a true miracle.",
+    "ko": "의사들은 그녀의 회복을 진정한 기적이라고 불렀다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1698,
+  "word": "mirror",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "거울"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She looked at herself in the mirror.",
+    "ko": "그녀는 거울 속 자신을 바라보았다."
+   },
+   {
+    "en": "The mirror on the wall is broken.",
+    "ko": "벽에 걸린 거울이 깨졌다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1699,
+  "word": "miss",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "그리워하다",
+     "놓치다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I miss my grandmother.",
+    "ko": "나는 할머니가 그립다."
+   },
+   {
+    "en": "Don't miss the bus.",
+    "ko": "버스를 놓치지 마라."
+   }
+  ],
+  "theme": "감정"
+ }
 ]

@@ -1,14 +1,6 @@
 [
  {
   "id": 1701,
-  "word": "missile",
-  "level": "선택",
-  "derived": [],
-  "max_example_words": 15,
-  "fn_example": ""
- },
- {
-  "id": 1702,
   "word": "mission",
   "level": "중고공통",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": ""
  },
  {
-  "id": 1703,
+  "id": 1702,
   "word": "mix",
   "level": "중고공통",
   "derived": [],
@@ -24,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 1704,
+  "id": 1703,
   "word": "mobile",
   "level": "선택",
   "derived": [],
@@ -32,7 +24,7 @@
   "fn_example": ""
  },
  {
-  "id": 1705,
+  "id": 1704,
   "word": "mock",
   "level": "선택",
   "derived": [],
@@ -40,7 +32,7 @@
   "fn_example": ""
  },
  {
-  "id": 1706,
+  "id": 1705,
   "word": "mode",
   "level": "선택",
   "derived": [],
@@ -48,7 +40,7 @@
   "fn_example": ""
  },
  {
-  "id": 1707,
+  "id": 1706,
   "word": "modify",
   "level": "선택",
   "derived": [],
@@ -56,7 +48,7 @@
   "fn_example": ""
  },
  {
-  "id": 1708,
+  "id": 1707,
   "word": "model",
   "level": "초등",
   "derived": [],
@@ -64,7 +56,7 @@
   "fn_example": ""
  },
  {
-  "id": 1709,
+  "id": 1708,
   "word": "moderate",
   "level": "선택",
   "derived": [],
@@ -72,7 +64,7 @@
   "fn_example": ""
  },
  {
-  "id": 1710,
+  "id": 1709,
   "word": "modern",
   "level": "중고공통",
   "derived": [],
@@ -80,7 +72,7 @@
   "fn_example": ""
  },
  {
-  "id": 1711,
+  "id": 1710,
   "word": "modest",
   "level": "선택",
   "derived": [],
@@ -88,7 +80,7 @@
   "fn_example": ""
  },
  {
-  "id": 1712,
+  "id": 1711,
   "word": "moist",
   "level": "선택",
   "derived": [
@@ -98,7 +90,7 @@
   "fn_example": ""
  },
  {
-  "id": 1713,
+  "id": 1712,
   "word": "molecule",
   "level": "선택",
   "derived": [],
@@ -106,7 +98,7 @@
   "fn_example": ""
  },
  {
-  "id": 1714,
+  "id": 1713,
   "word": "moment",
   "level": "중고공통",
   "derived": [],
@@ -114,7 +106,7 @@
   "fn_example": "Can I interrupt you for a moment?"
  },
  {
-  "id": 1715,
+  "id": 1714,
   "word": "money",
   "level": "초등",
   "derived": [],
@@ -122,7 +114,7 @@
   "fn_example": ""
  },
  {
-  "id": 1716,
+  "id": 1715,
   "word": "monitor",
   "level": "중고공통",
   "derived": [],
@@ -130,7 +122,7 @@
   "fn_example": ""
  },
  {
-  "id": 1717,
+  "id": 1716,
   "word": "monkey",
   "level": "초등",
   "derived": [],
@@ -138,7 +130,7 @@
   "fn_example": ""
  },
  {
-  "id": 1718,
+  "id": 1717,
   "word": "monster",
   "level": "선택",
   "derived": [],
@@ -146,7 +138,7 @@
   "fn_example": ""
  },
  {
-  "id": 1719,
+  "id": 1718,
   "word": "month",
   "level": "초등",
   "derived": [],
@@ -154,7 +146,7 @@
   "fn_example": ""
  },
  {
-  "id": 1720,
+  "id": 1719,
   "word": "monument",
   "level": "선택",
   "derived": [],
@@ -162,7 +154,7 @@
   "fn_example": ""
  },
  {
-  "id": 1721,
+  "id": 1720,
   "word": "mood",
   "level": "중고공통",
   "derived": [],
@@ -170,7 +162,7 @@
   "fn_example": ""
  },
  {
-  "id": 1722,
+  "id": 1721,
   "word": "moon",
   "level": "초등",
   "derived": [
@@ -180,7 +172,7 @@
   "fn_example": ""
  },
  {
-  "id": 1723,
+  "id": 1722,
   "word": "moral",
   "level": "중고공통",
   "derived": [],
@@ -188,7 +180,7 @@
   "fn_example": ""
  },
  {
-  "id": 1724,
+  "id": 1723,
   "word": "moreover",
   "level": "중고공통",
   "derived": [],
@@ -196,7 +188,7 @@
   "fn_example": ""
  },
  {
-  "id": 1725,
+  "id": 1724,
   "word": "morning",
   "level": "초등",
   "derived": [],
@@ -204,7 +196,7 @@
   "fn_example": ""
  },
  {
-  "id": 1726,
+  "id": 1725,
   "word": "mortal",
   "level": "선택",
   "derived": [],
@@ -212,7 +204,7 @@
   "fn_example": ""
  },
  {
-  "id": 1727,
+  "id": 1726,
   "word": "mother",
   "level": "초등",
   "derived": [
@@ -222,7 +214,7 @@
   "fn_example": ""
  },
  {
-  "id": 1728,
+  "id": 1727,
   "word": "motion",
   "level": "중고공통",
   "derived": [],
@@ -230,7 +222,7 @@
   "fn_example": ""
  },
  {
-  "id": 1729,
+  "id": 1728,
   "word": "motive",
   "level": "선택",
   "derived": [],
@@ -238,7 +230,7 @@
   "fn_example": ""
  },
  {
-  "id": 1730,
+  "id": 1729,
   "word": "motor",
   "level": "중고공통",
   "derived": [],
@@ -246,7 +238,7 @@
   "fn_example": ""
  },
  {
-  "id": 1731,
+  "id": 1730,
   "word": "mount",
   "level": "중고공통",
   "derived": [],
@@ -254,7 +246,7 @@
   "fn_example": ""
  },
  {
-  "id": 1732,
+  "id": 1731,
   "word": "mountain",
   "level": "초등",
   "derived": [],
@@ -262,7 +254,7 @@
   "fn_example": ""
  },
  {
-  "id": 1733,
+  "id": 1732,
   "word": "mouse",
   "level": "초등",
   "derived": [],
@@ -270,7 +262,7 @@
   "fn_example": ""
  },
  {
-  "id": 1734,
+  "id": 1733,
   "word": "mouth",
   "level": "초등",
   "derived": [],
@@ -278,7 +270,7 @@
   "fn_example": ""
  },
  {
-  "id": 1735,
+  "id": 1734,
   "word": "move",
   "level": "초등",
   "derived": [],
@@ -286,7 +278,7 @@
   "fn_example": "Do you have any questions before I move on?"
  },
  {
-  "id": 1736,
+  "id": 1735,
   "word": "movie",
   "level": "초등",
   "derived": [],
@@ -294,7 +286,7 @@
   "fn_example": "Which movie do you want to see?"
  },
  {
-  "id": 1737,
+  "id": 1736,
   "word": "much",
   "level": "초등",
   "derived": [],
@@ -302,7 +294,7 @@
   "fn_example": "How much does it cost?"
  },
  {
-  "id": 1738,
+  "id": 1737,
   "word": "mud",
   "level": "중고공통",
   "derived": [],
@@ -310,7 +302,7 @@
   "fn_example": ""
  },
  {
-  "id": 1739,
+  "id": 1738,
   "word": "multiple",
   "level": "선택",
   "derived": [],
@@ -318,7 +310,7 @@
   "fn_example": ""
  },
  {
-  "id": 1740,
+  "id": 1739,
   "word": "murder",
   "level": "선택",
   "derived": [],
@@ -326,7 +318,7 @@
   "fn_example": ""
  },
  {
-  "id": 1741,
+  "id": 1740,
   "word": "muscle",
   "level": "중고공통",
   "derived": [],
@@ -334,7 +326,7 @@
   "fn_example": ""
  },
  {
-  "id": 1742,
+  "id": 1741,
   "word": "museum",
   "level": "중고공통",
   "derived": [],
@@ -342,7 +334,7 @@
   "fn_example": "The museum is on the left."
  },
  {
-  "id": 1743,
+  "id": 1742,
   "word": "mushroom",
   "level": "중고공통",
   "derived": [],
@@ -350,7 +342,7 @@
   "fn_example": ""
  },
  {
-  "id": 1744,
+  "id": 1743,
   "word": "music",
   "level": "초등",
   "derived": [],
@@ -358,7 +350,7 @@
   "fn_example": ""
  },
  {
-  "id": 1745,
+  "id": 1744,
   "word": "must",
   "level": "초등",
   "derived": [],
@@ -366,7 +358,7 @@
   "fn_example": "I must go, see you later."
  },
  {
-  "id": 1746,
+  "id": 1745,
   "word": "mutual",
   "level": "선택",
   "derived": [],
@@ -374,7 +366,7 @@
   "fn_example": ""
  },
  {
-  "id": 1747,
+  "id": 1746,
   "word": "mystery",
   "level": "중고공통",
   "derived": [],
@@ -382,7 +374,7 @@
   "fn_example": ""
  },
  {
-  "id": 1748,
+  "id": 1747,
   "word": "myth",
   "level": "선택",
   "derived": [],
@@ -390,7 +382,7 @@
   "fn_example": ""
  },
  {
-  "id": 1749,
+  "id": 1748,
   "word": "nail",
   "level": "중고공통",
   "derived": [],
@@ -398,8 +390,16 @@
   "fn_example": ""
  },
  {
-  "id": 1750,
+  "id": 1749,
   "word": "naive",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1750,
+  "word": "naked",
   "level": "선택",
   "derived": [],
   "max_example_words": 15,

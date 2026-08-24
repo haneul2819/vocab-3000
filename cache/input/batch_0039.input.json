@@ -1,14 +1,6 @@
 [
  {
   "id": 1901,
-  "word": "part",
-  "level": "초등",
-  "derived": [],
-  "max_example_words": 6,
-  "fn_example": ""
- },
- {
-  "id": 1902,
   "word": "participate",
   "level": "선택",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": ""
  },
  {
-  "id": 1903,
+  "id": 1902,
   "word": "particle",
   "level": "선택",
   "derived": [],
@@ -24,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 1904,
+  "id": 1903,
   "word": "particular",
   "level": "중고공통",
   "derived": [
@@ -34,7 +26,7 @@
   "fn_example": ""
  },
  {
-  "id": 1905,
+  "id": 1904,
   "word": "partner",
   "level": "초등",
   "derived": [],
@@ -42,7 +34,7 @@
   "fn_example": ""
  },
  {
-  "id": 1906,
+  "id": 1905,
   "word": "party",
   "level": "초등",
   "derived": [],
@@ -50,7 +42,7 @@
   "fn_example": ""
  },
  {
-  "id": 1907,
+  "id": 1906,
   "word": "pass",
   "level": "초등",
   "derived": [],
@@ -58,7 +50,7 @@
   "fn_example": ""
  },
  {
-  "id": 1908,
+  "id": 1907,
   "word": "passage",
   "level": "선택",
   "derived": [],
@@ -66,7 +58,7 @@
   "fn_example": ""
  },
  {
-  "id": 1909,
+  "id": 1908,
   "word": "passenger",
   "level": "선택",
   "derived": [],
@@ -74,7 +66,7 @@
   "fn_example": ""
  },
  {
-  "id": 1910,
+  "id": 1909,
   "word": "passion",
   "level": "선택",
   "derived": [],
@@ -82,7 +74,7 @@
   "fn_example": ""
  },
  {
-  "id": 1911,
+  "id": 1910,
   "word": "passport",
   "level": "선택",
   "derived": [],
@@ -90,7 +82,7 @@
   "fn_example": ""
  },
  {
-  "id": 1912,
+  "id": 1911,
   "word": "past",
   "level": "중고공통",
   "derived": [],
@@ -98,7 +90,7 @@
   "fn_example": ""
  },
  {
-  "id": 1913,
+  "id": 1912,
   "word": "pat",
   "level": "선택",
   "derived": [],
@@ -106,7 +98,7 @@
   "fn_example": ""
  },
  {
-  "id": 1914,
+  "id": 1913,
   "word": "patch",
   "level": "선택",
   "derived": [],
@@ -114,7 +106,7 @@
   "fn_example": ""
  },
  {
-  "id": 1915,
+  "id": 1914,
   "word": "patent",
   "level": "선택",
   "derived": [],
@@ -122,7 +114,7 @@
   "fn_example": ""
  },
  {
-  "id": 1916,
+  "id": 1915,
   "word": "path",
   "level": "중고공통",
   "derived": [],
@@ -130,7 +122,7 @@
   "fn_example": ""
  },
  {
-  "id": 1917,
+  "id": 1916,
   "word": "patient",
   "level": "중고공통",
   "derived": [],
@@ -138,7 +130,7 @@
   "fn_example": ""
  },
  {
-  "id": 1918,
+  "id": 1917,
   "word": "pattern",
   "level": "중고공통",
   "derived": [],
@@ -146,7 +138,7 @@
   "fn_example": ""
  },
  {
-  "id": 1919,
+  "id": 1918,
   "word": "pause",
   "level": "중고공통",
   "derived": [],
@@ -154,7 +146,7 @@
   "fn_example": ""
  },
  {
-  "id": 1920,
+  "id": 1919,
   "word": "pave",
   "level": "선택",
   "derived": [],
@@ -162,7 +154,7 @@
   "fn_example": ""
  },
  {
-  "id": 1921,
+  "id": 1920,
   "word": "pay",
   "level": "초등",
   "derived": [],
@@ -170,7 +162,7 @@
   "fn_example": ""
  },
  {
-  "id": 1922,
+  "id": 1921,
   "word": "peace",
   "level": "중고공통",
   "derived": [
@@ -180,7 +172,7 @@
   "fn_example": ""
  },
  {
-  "id": 1923,
+  "id": 1922,
   "word": "peak",
   "level": "선택",
   "derived": [],
@@ -188,7 +180,7 @@
   "fn_example": ""
  },
  {
-  "id": 1924,
+  "id": 1923,
   "word": "pear",
   "level": "중고공통",
   "derived": [],
@@ -196,7 +188,7 @@
   "fn_example": ""
  },
  {
-  "id": 1925,
+  "id": 1924,
   "word": "peasant",
   "level": "선택",
   "derived": [],
@@ -204,7 +196,7 @@
   "fn_example": ""
  },
  {
-  "id": 1926,
+  "id": 1925,
   "word": "peel",
   "level": "선택",
   "derived": [],
@@ -212,7 +204,7 @@
   "fn_example": ""
  },
  {
-  "id": 1927,
+  "id": 1926,
   "word": "peer",
   "level": "선택",
   "derived": [],
@@ -220,7 +212,7 @@
   "fn_example": ""
  },
  {
-  "id": 1928,
+  "id": 1927,
   "word": "pen",
   "level": "초등",
   "derived": [],
@@ -228,7 +220,7 @@
   "fn_example": ""
  },
  {
-  "id": 1929,
+  "id": 1928,
   "word": "penalty",
   "level": "선택",
   "derived": [],
@@ -236,7 +228,7 @@
   "fn_example": ""
  },
  {
-  "id": 1930,
+  "id": 1929,
   "word": "pencil",
   "level": "초등",
   "derived": [],
@@ -244,7 +236,7 @@
   "fn_example": ""
  },
  {
-  "id": 1931,
+  "id": 1930,
   "word": "people",
   "level": "초등",
   "derived": [],
@@ -252,7 +244,7 @@
   "fn_example": ""
  },
  {
-  "id": 1932,
+  "id": 1931,
   "word": "pepper",
   "level": "중고공통",
   "derived": [],
@@ -260,7 +252,7 @@
   "fn_example": ""
  },
  {
-  "id": 1933,
+  "id": 1932,
   "word": "per",
   "level": "중고공통",
   "derived": [],
@@ -268,7 +260,7 @@
   "fn_example": ""
  },
  {
-  "id": 1934,
+  "id": 1933,
   "word": "perceive",
   "level": "선택",
   "derived": [
@@ -278,7 +270,7 @@
   "fn_example": ""
  },
  {
-  "id": 1935,
+  "id": 1934,
   "word": "perfect",
   "level": "중고공통",
   "derived": [],
@@ -286,7 +278,7 @@
   "fn_example": ""
  },
  {
-  "id": 1936,
+  "id": 1935,
   "word": "perform",
   "level": "중고공통",
   "derived": [],
@@ -294,7 +286,7 @@
   "fn_example": ""
  },
  {
-  "id": 1937,
+  "id": 1936,
   "word": "perhaps",
   "level": "중고공통",
   "derived": [],
@@ -302,7 +294,7 @@
   "fn_example": ""
  },
  {
-  "id": 1938,
+  "id": 1937,
   "word": "period",
   "level": "중고공통",
   "derived": [],
@@ -310,7 +302,7 @@
   "fn_example": ""
  },
  {
-  "id": 1939,
+  "id": 1938,
   "word": "permanent",
   "level": "선택",
   "derived": [],
@@ -318,7 +310,7 @@
   "fn_example": ""
  },
  {
-  "id": 1940,
+  "id": 1939,
   "word": "permit",
   "level": "선택",
   "derived": [],
@@ -326,7 +318,7 @@
   "fn_example": ""
  },
  {
-  "id": 1941,
+  "id": 1940,
   "word": "persist",
   "level": "선택",
   "derived": [],
@@ -334,7 +326,7 @@
   "fn_example": ""
  },
  {
-  "id": 1942,
+  "id": 1941,
   "word": "person",
   "level": "중고공통",
   "derived": [
@@ -344,7 +336,7 @@
   "fn_example": ""
  },
  {
-  "id": 1943,
+  "id": 1942,
   "word": "perspective",
   "level": "선택",
   "derived": [],
@@ -352,7 +344,7 @@
   "fn_example": ""
  },
  {
-  "id": 1944,
+  "id": 1943,
   "word": "persuade",
   "level": "선택",
   "derived": [],
@@ -360,7 +352,7 @@
   "fn_example": ""
  },
  {
-  "id": 1945,
+  "id": 1944,
   "word": "pet",
   "level": "중고공통",
   "derived": [],
@@ -368,7 +360,7 @@
   "fn_example": ""
  },
  {
-  "id": 1946,
+  "id": 1945,
   "word": "phase",
   "level": "선택",
   "derived": [],
@@ -376,7 +368,7 @@
   "fn_example": ""
  },
  {
-  "id": 1947,
+  "id": 1946,
   "word": "phenomenon",
   "level": "선택",
   "derived": [],
@@ -384,7 +376,7 @@
   "fn_example": ""
  },
  {
-  "id": 1948,
+  "id": 1947,
   "word": "philosophy",
   "level": "선택",
   "derived": [],
@@ -392,7 +384,7 @@
   "fn_example": ""
  },
  {
-  "id": 1949,
+  "id": 1948,
   "word": "photograph",
   "level": "중고공통",
   "derived": [],
@@ -400,11 +392,19 @@
   "fn_example": ""
  },
  {
-  "id": 1950,
+  "id": 1949,
   "word": "phrase",
   "level": "선택",
   "derived": [],
   "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1950,
+  "word": "physical",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
   "fn_example": ""
  }
 ]

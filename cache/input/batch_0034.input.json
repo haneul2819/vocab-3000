@@ -1,14 +1,6 @@
 [
  {
   "id": 1651,
-  "word": "mean",
-  "level": "중고공통",
-  "derived": [],
-  "max_example_words": 12,
-  "fn_example": "It (still) isn’t clear to me what this means."
- },
- {
-  "id": 1652,
   "word": "meanwhile",
   "level": "선택",
   "derived": [],
@@ -16,7 +8,7 @@
   "fn_example": ""
  },
  {
-  "id": 1653,
+  "id": 1652,
   "word": "measure",
   "level": "중고공통",
   "derived": [],
@@ -24,7 +16,7 @@
   "fn_example": ""
  },
  {
-  "id": 1654,
+  "id": 1653,
   "word": "meat",
   "level": "초등",
   "derived": [],
@@ -32,7 +24,7 @@
   "fn_example": ""
  },
  {
-  "id": 1655,
+  "id": 1654,
   "word": "mechanic",
   "level": "선택",
   "derived": [],
@@ -40,7 +32,7 @@
   "fn_example": ""
  },
  {
-  "id": 1656,
+  "id": 1655,
   "word": "mechanism",
   "level": "선택",
   "derived": [],
@@ -48,7 +40,7 @@
   "fn_example": ""
  },
  {
-  "id": 1657,
+  "id": 1656,
   "word": "medal",
   "level": "초등",
   "derived": [],
@@ -56,7 +48,7 @@
   "fn_example": ""
  },
  {
-  "id": 1658,
+  "id": 1657,
   "word": "mediate",
   "level": "선택",
   "derived": [],
@@ -64,7 +56,7 @@
   "fn_example": ""
  },
  {
-  "id": 1659,
+  "id": 1658,
   "word": "medical",
   "level": "중고공통",
   "derived": [],
@@ -72,7 +64,7 @@
   "fn_example": ""
  },
  {
-  "id": 1660,
+  "id": 1659,
   "word": "medicine",
   "level": "중고공통",
   "derived": [],
@@ -80,7 +72,7 @@
   "fn_example": ""
  },
  {
-  "id": 1661,
+  "id": 1660,
   "word": "medieval",
   "level": "선택",
   "derived": [],
@@ -88,7 +80,7 @@
   "fn_example": ""
  },
  {
-  "id": 1662,
+  "id": 1661,
   "word": "medium",
   "level": "선택",
   "derived": [
@@ -98,7 +90,7 @@
   "fn_example": ""
  },
  {
-  "id": 1663,
+  "id": 1662,
   "word": "meet",
   "level": "초등",
   "derived": [],
@@ -106,7 +98,7 @@
   "fn_example": "(I’m) (very) pleased to meet you."
  },
  {
-  "id": 1664,
+  "id": 1663,
   "word": "melon",
   "level": "중고공통",
   "derived": [],
@@ -114,7 +106,7 @@
   "fn_example": ""
  },
  {
-  "id": 1665,
+  "id": 1664,
   "word": "melt",
   "level": "중고공통",
   "derived": [],
@@ -122,7 +114,7 @@
   "fn_example": ""
  },
  {
-  "id": 1666,
+  "id": 1665,
   "word": "member",
   "level": "초등",
   "derived": [
@@ -132,7 +124,7 @@
   "fn_example": ""
  },
  {
-  "id": 1667,
+  "id": 1666,
   "word": "memory",
   "level": "초등",
   "derived": [],
@@ -140,7 +132,7 @@
   "fn_example": ""
  },
  {
-  "id": 1668,
+  "id": 1667,
   "word": "mental",
   "level": "중고공통",
   "derived": [],
@@ -148,7 +140,7 @@
   "fn_example": ""
  },
  {
-  "id": 1669,
+  "id": 1668,
   "word": "mention",
   "level": "중고공통",
   "derived": [],
@@ -156,7 +148,7 @@
   "fn_example": "Don’t mention it."
  },
  {
-  "id": 1670,
+  "id": 1669,
   "word": "menu",
   "level": "중고공통",
   "derived": [],
@@ -164,7 +156,7 @@
   "fn_example": ""
  },
  {
-  "id": 1671,
+  "id": 1670,
   "word": "merchant",
   "level": "선택",
   "derived": [],
@@ -172,7 +164,7 @@
   "fn_example": ""
  },
  {
-  "id": 1672,
+  "id": 1671,
   "word": "mere",
   "level": "선택",
   "derived": [],
@@ -180,7 +172,7 @@
   "fn_example": ""
  },
  {
-  "id": 1673,
+  "id": 1672,
   "word": "merge",
   "level": "선택",
   "derived": [],
@@ -188,7 +180,7 @@
   "fn_example": ""
  },
  {
-  "id": 1674,
+  "id": 1673,
   "word": "merit",
   "level": "선택",
   "derived": [],
@@ -196,7 +188,7 @@
   "fn_example": ""
  },
  {
-  "id": 1675,
+  "id": 1674,
   "word": "mess",
   "level": "중고공통",
   "derived": [],
@@ -204,7 +196,7 @@
   "fn_example": ""
  },
  {
-  "id": 1676,
+  "id": 1675,
   "word": "message",
   "level": "중고공통",
   "derived": [],
@@ -212,7 +204,7 @@
   "fn_example": ""
  },
  {
-  "id": 1677,
+  "id": 1676,
   "word": "metal",
   "level": "중고공통",
   "derived": [],
@@ -220,7 +212,7 @@
   "fn_example": ""
  },
  {
-  "id": 1678,
+  "id": 1677,
   "word": "method",
   "level": "중고공통",
   "derived": [],
@@ -228,7 +220,7 @@
   "fn_example": ""
  },
  {
-  "id": 1679,
+  "id": 1678,
   "word": "metropolitan",
   "level": "선택",
   "derived": [],
@@ -236,7 +228,7 @@
   "fn_example": ""
  },
  {
-  "id": 1680,
+  "id": 1679,
   "word": "microphone",
   "level": "선택",
   "derived": [],
@@ -244,7 +236,7 @@
   "fn_example": ""
  },
  {
-  "id": 1681,
+  "id": 1680,
   "word": "microwave",
   "level": "중고공통",
   "derived": [],
@@ -252,7 +244,7 @@
   "fn_example": ""
  },
  {
-  "id": 1682,
+  "id": 1681,
   "word": "middle",
   "level": "초등",
   "derived": [],
@@ -260,7 +252,7 @@
   "fn_example": ""
  },
  {
-  "id": 1683,
+  "id": 1682,
   "word": "might",
   "level": "초등",
   "derived": [],
@@ -268,7 +260,7 @@
   "fn_example": ""
  },
  {
-  "id": 1684,
+  "id": 1683,
   "word": "migrate",
   "level": "선택",
   "derived": [
@@ -278,7 +270,7 @@
   "fn_example": ""
  },
  {
-  "id": 1685,
+  "id": 1684,
   "word": "mild",
   "level": "선택",
   "derived": [],
@@ -286,7 +278,7 @@
   "fn_example": ""
  },
  {
-  "id": 1686,
+  "id": 1685,
   "word": "military",
   "level": "중고공통",
   "derived": [],
@@ -294,7 +286,7 @@
   "fn_example": ""
  },
  {
-  "id": 1687,
+  "id": 1686,
   "word": "milk",
   "level": "초등",
   "derived": [],
@@ -302,7 +294,7 @@
   "fn_example": ""
  },
  {
-  "id": 1688,
+  "id": 1687,
   "word": "mill",
   "level": "중고공통",
   "derived": [],
@@ -310,7 +302,7 @@
   "fn_example": ""
  },
  {
-  "id": 1689,
+  "id": 1688,
   "word": "million",
   "level": "선택",
   "derived": [],
@@ -318,7 +310,7 @@
   "fn_example": ""
  },
  {
-  "id": 1690,
+  "id": 1689,
   "word": "mind",
   "level": "초등",
   "derived": [],
@@ -326,7 +318,7 @@
   "fn_example": "Would you mind closing the window?"
  },
  {
-  "id": 1691,
+  "id": 1690,
   "word": "mine",
   "level": "선택",
   "derived": [
@@ -336,7 +328,7 @@
   "fn_example": ""
  },
  {
-  "id": 1692,
+  "id": 1691,
   "word": "mineral",
   "level": "선택",
   "derived": [],
@@ -344,7 +336,7 @@
   "fn_example": ""
  },
  {
-  "id": 1693,
+  "id": 1692,
   "word": "minimal",
   "level": "선택",
   "derived": [],
@@ -352,7 +344,7 @@
   "fn_example": ""
  },
  {
-  "id": 1694,
+  "id": 1693,
   "word": "minimum",
   "level": "선택",
   "derived": [],
@@ -360,7 +352,7 @@
   "fn_example": ""
  },
  {
-  "id": 1695,
+  "id": 1694,
   "word": "ministry",
   "level": "선택",
   "derived": [],
@@ -368,7 +360,7 @@
   "fn_example": ""
  },
  {
-  "id": 1696,
+  "id": 1695,
   "word": "minor",
   "level": "중고공통",
   "derived": [],
@@ -376,7 +368,7 @@
   "fn_example": ""
  },
  {
-  "id": 1697,
+  "id": 1696,
   "word": "minute",
   "level": "중고공통",
   "derived": [],
@@ -384,7 +376,7 @@
   "fn_example": "Excuse me, can I talk to you for a minute?"
  },
  {
-  "id": 1698,
+  "id": 1697,
   "word": "miracle",
   "level": "선택",
   "derived": [],
@@ -392,7 +384,7 @@
   "fn_example": ""
  },
  {
-  "id": 1699,
+  "id": 1698,
   "word": "mirror",
   "level": "중고공통",
   "derived": [],
@@ -400,11 +392,19 @@
   "fn_example": ""
  },
  {
-  "id": 1700,
+  "id": 1699,
   "word": "miss",
   "level": "초등",
   "derived": [],
   "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1700,
+  "word": "missile",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
   "fn_example": ""
  }
 ]
