@@ -3,6 +3,7 @@ import { useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useSettings } from '../App'
 import { exportAll, importAll, resetProgress, type ExportData } from '../lib/db'
+import { SKINS } from '../lib/types'
 
 export default function SettingsPage() {
   const nav = useNavigate()
@@ -10,6 +11,7 @@ export default function SettingsPage() {
   const fileRef = useRef<HTMLInputElement>(null)
   const [msg, setMsg] = useState('')
   const [confirmReset, setConfirmReset] = useState(false)
+  const skinMeta = SKINS.find((s) => s.id === settings.skin)
 
   const doExport = async () => {
     const data = await exportAll()
@@ -49,15 +51,38 @@ export default function SettingsPage() {
 
       <h2>화면</h2>
       <div className="card">
-        <div className="dim small" style={{ marginBottom: 6 }}>다크 모드</div>
-        <div className="seg" style={{ marginBottom: 0 }}>
-          {(['auto', 'light', 'dark'] as const).map((m) => (
-            <button key={m} className={settings.darkMode === m ? 'active' : ''}
-              onClick={() => update({ darkMode: m })}>
-              {m === 'auto' ? '시스템' : m === 'light' ? '밝게' : '어둡게'}
+        <div className="dim small" style={{ marginBottom: 8 }}>스킨</div>
+        <div className="skin-grid">
+          {SKINS.map((s) => (
+            <button key={s.id}
+              className={`skin-option${settings.skin === s.id ? ' selected' : ''}`}
+              onClick={() => update({ skin: s.id })}>
+              <span className="swatch" style={{ background: s.colors.bg }}>
+                <b style={{ color: s.colors.text, fontSize: '0.95rem' }}>가 Aa</b>
+                <span className="dots">
+                  {s.colors.accents.map((c) => <span key={c} style={{ background: c }} />)}
+                </span>
+              </span>
+              <span className="name">{s.name}</span>
+              <span className="desc">{s.desc}</span>
             </button>
           ))}
         </div>
+      </div>
+      <div className="card">
+        <div className="dim small" style={{ marginBottom: 6 }}>다크 모드</div>
+        {skinMeta?.alwaysDark ? (
+          <div className="small dim">‘{skinMeta.name}’ 스킨은 항상 어두운 화면으로 표시됩니다.</div>
+        ) : (
+          <div className="seg" style={{ marginBottom: 0 }}>
+            {(['auto', 'light', 'dark'] as const).map((m) => (
+              <button key={m} className={settings.darkMode === m ? 'active' : ''}
+                onClick={() => update({ darkMode: m })}>
+                {m === 'auto' ? '시스템' : m === 'light' ? '밝게' : '어둡게'}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
       <h2>학습</h2>

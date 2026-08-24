@@ -88,8 +88,46 @@ export interface WordState {
   updatedAt: number
 }
 
+/** 스킨(테마) — classic이 기존 기본 디자인, 나머지 4종은 디자인 시안 기반 */
+export type Skin = 'classic' | 'minimal' | 'pop' | 'focus' | 'paper'
+
+export interface SkinMeta {
+  id: Skin
+  name: string
+  desc: string
+  /** 스와치 미리보기 색 (배경/글자/포인트 3색) */
+  colors: { bg: string; text: string; accents: string[] }
+  /** 항상 다크로 고정되는 스킨 여부 */
+  alwaysDark?: boolean
+}
+
+export const SKINS: SkinMeta[] = [
+  {
+    id: 'classic', name: '클래식', desc: '기본 디자인 · 파랑 포인트',
+    colors: { bg: '#f4f6fb', text: '#17203a', accents: ['#2563eb', '#16a34a', '#d97706'] },
+  },
+  {
+    id: 'minimal', name: '미니멀 에디토리얼', desc: '세리프 + 여백 · 차분한 집중',
+    colors: { bg: '#faf7f2', text: '#201d1a', accents: ['#b45309', '#3f6212', '#b3261e'] },
+  },
+  {
+    id: 'pop', name: '플레이풀 팝', desc: '두꺼운 테두리 · 게임 감성',
+    colors: { bg: '#fff6e3', text: '#33302e', accents: ['#7c3aed', '#ffc800', '#2ec4b6'] },
+  },
+  {
+    id: 'focus', name: '다크 딥포커스', desc: '딥 네이비 + 민트 · 항상 다크',
+    colors: { bg: '#0b0f14', text: '#e6edf3', accents: ['#2dd4a8', '#a78bfa', '#fbbf24'] },
+    alwaysDark: true,
+  },
+  {
+    id: 'paper', name: '소프트 페이퍼', desc: '파스텔 공책 · 부드러운 감성',
+    colors: { bg: '#f7f4ec', text: '#4a443c', accents: ['#8b7cd8', '#3e7a5e', '#e58f7b'] },
+  },
+]
+
 export interface Settings {
   darkMode: 'auto' | 'dark' | 'light'
+  skin: Skin
   autoSpeak: boolean
   direction: 'en-ko' | 'ko-en'
   shuffle: boolean
@@ -101,6 +139,7 @@ export interface Settings {
 
 export const DEFAULT_SETTINGS: Settings = {
   darkMode: 'auto',
+  skin: 'classic',
   autoSpeak: false,
   direction: 'en-ko',
   shuffle: false,

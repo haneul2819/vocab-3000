@@ -10,8 +10,9 @@ import Review from './pages/Review'
 import Stats from './pages/Stats'
 import SettingsPage from './pages/Settings'
 import { getSettings, saveSettings } from './lib/db'
+import { applySkin } from './lib/skin'
 import type { Settings } from './lib/types'
-import { DEFAULT_SETTINGS } from './lib/types'
+import { DEFAULT_SETTINGS, SKINS } from './lib/types'
 
 interface SettingsCtx {
   settings: Settings
@@ -32,17 +33,19 @@ export default function App() {
     })
   }, [])
 
-  // 다크모드 적용 (auto는 시스템 설정 따름)
+  // 스킨 + 다크모드 적용 (auto는 시스템 설정 따름, focus 스킨은 항상 다크)
   useEffect(() => {
     const mq = window.matchMedia('(prefers-color-scheme: dark)')
     const apply = () => {
-      const dark = settings.darkMode === 'dark' || (settings.darkMode === 'auto' && mq.matches)
-      document.documentElement.dataset.theme = dark ? 'dark' : 'light'
+      const alwaysDark = SKINS.find((s) => s.id === settings.skin)?.alwaysDark ?? false
+      const dark = alwaysDark || settings.darkMode === 'dark'
+        || (settings.darkMode === 'auto' && mq.matches)
+      applySkin(settings.skin, dark)
     }
     apply()
     mq.addEventListener('change', apply)
     return () => mq.removeEventListener('change', apply)
-  }, [settings.darkMode])
+  }, [settings.darkMode, settings.skin])
 
   const update = useCallback((patch: Partial<Settings>) => {
     setSettings((prev) => {
