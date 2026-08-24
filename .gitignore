@@ -8,3 +8,8 @@ dev-dist/
 
 # OS
 .DS_Store
+
+# 파이썬·TS 빌드 캐시
+__pycache__/
+*.pyc
+*.tsbuildinfo
