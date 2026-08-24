@@ -1,0 +1,418 @@
+[
+ {
+  "id": 651,
+  "word": "countryside",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 652,
+  "word": "county",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 653,
+  "word": "couple",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 654,
+  "word": "coupon",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 655,
+  "word": "courage",
+  "level": "선택",
+  "derived": [
+   "discourage, encourage"
+  ],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 656,
+  "word": "course",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Of course not."
+ },
+ {
+  "id": 657,
+  "word": "court",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 658,
+  "word": "cousin",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 659,
+  "word": "cover",
+  "level": "초등",
+  "derived": [
+   "discover"
+  ],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 660,
+  "word": "cow",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 661,
+  "word": "crack",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 662,
+  "word": "craft",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 663,
+  "word": "crash",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 664,
+  "word": "crawl",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 665,
+  "word": "crayon",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 666,
+  "word": "craze",
+  "level": "선택",
+  "derived": [
+   "crazy"
+  ],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 667,
+  "word": "cream",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 668,
+  "word": "create",
+  "level": "중고공통",
+  "derived": [
+   "creature"
+  ],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 669,
+  "word": "credible",
+  "level": "선택",
+  "derived": [
+   "incredible"
+  ],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 670,
+  "word": "credit",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 671,
+  "word": "creep",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 672,
+  "word": "crew",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 673,
+  "word": "crime",
+  "level": "중고공통",
+  "derived": [
+   "criminal"
+  ],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 674,
+  "word": "crisis",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 675,
+  "word": "crisp",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 676,
+  "word": "criterion",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 677,
+  "word": "critic",
+  "level": "선택",
+  "derived": [
+   "criticize / criticise, criticism"
+  ],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 678,
+  "word": "crop",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 679,
+  "word": "cross",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "I’ll keep my fingers crossed!"
+ },
+ {
+  "id": 680,
+  "word": "crowd",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 681,
+  "word": "crown",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 682,
+  "word": "crucial",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 683,
+  "word": "cruel",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 684,
+  "word": "cruise",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 685,
+  "word": "crush",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 686,
+  "word": "cry",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 687,
+  "word": "crystal",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 688,
+  "word": "cultivate",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 689,
+  "word": "culture",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 690,
+  "word": "cup",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 691,
+  "word": "cure",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 692,
+  "word": "curious",
+  "level": "중고공통",
+  "derived": [
+   "curiosity"
+  ],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 693,
+  "word": "curl",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 694,
+  "word": "currency",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 695,
+  "word": "current",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 696,
+  "word": "curriculum",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 697,
+  "word": "curry",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 698,
+  "word": "curse",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 699,
+  "word": "curtain",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 700,
+  "word": "curve",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ }
+]

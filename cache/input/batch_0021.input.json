@@ -1,0 +1,410 @@
+[
+ {
+  "id": 1001,
+  "word": "explode",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1002,
+  "word": "explore",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1003,
+  "word": "export",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1004,
+  "word": "expose",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1005,
+  "word": "express",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1006,
+  "word": "extend",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1007,
+  "word": "extent",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1008,
+  "word": "external",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1009,
+  "word": "extinct",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1010,
+  "word": "extra",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1011,
+  "word": "extract",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1012,
+  "word": "extraordinary",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1013,
+  "word": "extreme",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1014,
+  "word": "eye",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Ann has blue eyes."
+ },
+ {
+  "id": 1015,
+  "word": "eyebrow",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1016,
+  "word": "fabric",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1017,
+  "word": "face",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1018,
+  "word": "facilitate",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1019,
+  "word": "facility",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1020,
+  "word": "fact",
+  "level": "초등",
+  "derived": [
+   "factual"
+  ],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1021,
+  "word": "factor",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1022,
+  "word": "factory",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1023,
+  "word": "faculty",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1024,
+  "word": "fade",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1025,
+  "word": "fail",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1026,
+  "word": "faint",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1027,
+  "word": "fair",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": "It’s not fair."
+ },
+ {
+  "id": 1028,
+  "word": "faith",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1029,
+  "word": "fall",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1030,
+  "word": "false",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1031,
+  "word": "fame",
+  "level": "선택",
+  "derived": [
+   "famous"
+  ],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1032,
+  "word": "familiar",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1033,
+  "word": "family",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "I DO love my family."
+ },
+ {
+  "id": 1034,
+  "word": "fan",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1035,
+  "word": "fancy",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1036,
+  "word": "fantastic",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1037,
+  "word": "far",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1038,
+  "word": "fare",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1039,
+  "word": "farm",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1040,
+  "word": "fascinate",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1041,
+  "word": "fashion",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1042,
+  "word": "fast",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1043,
+  "word": "fasten",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1044,
+  "word": "fat",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1045,
+  "word": "fate",
+  "level": "선택",
+  "derived": [
+   "fatal"
+  ],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1046,
+  "word": "father",
+  "level": "초등",
+  "derived": [
+   "dad, daddy"
+  ],
+  "max_example_words": 6,
+  "fn_example": "My father is 45 years old."
+ },
+ {
+  "id": 1047,
+  "word": "fault",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1048,
+  "word": "favor",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1049,
+  "word": "favorite",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1050,
+  "word": "fear",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ }
+]

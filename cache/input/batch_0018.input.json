@@ -1,0 +1,408 @@
+[
+ {
+  "id": 851,
+  "word": "dot",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 852,
+  "word": "double",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 853,
+  "word": "doubt",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": "I have no doubt."
+ },
+ {
+  "id": 854,
+  "word": "doughnut",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 855,
+  "word": "down",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Calm down!"
+ },
+ {
+  "id": 856,
+  "word": "dozen",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 857,
+  "word": "draft",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 858,
+  "word": "drag",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 859,
+  "word": "drain",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 860,
+  "word": "drama",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 861,
+  "word": "draw",
+  "level": "초등",
+  "derived": [
+   "drawer"
+  ],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 862,
+  "word": "dread",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 863,
+  "word": "dream",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 864,
+  "word": "dress",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 865,
+  "word": "drill",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 866,
+  "word": "drink",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 867,
+  "word": "drive",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 868,
+  "word": "drop",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 869,
+  "word": "drown",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 870,
+  "word": "drug",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 871,
+  "word": "drum",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 872,
+  "word": "dry",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 873,
+  "word": "dual",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 874,
+  "word": "duck",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 875,
+  "word": "due",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 876,
+  "word": "dull",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 877,
+  "word": "dump",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 878,
+  "word": "during",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 879,
+  "word": "dust",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 880,
+  "word": "duty",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 881,
+  "word": "dwell",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 882,
+  "word": "dynamic",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 883,
+  "word": "each",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": "Do you know each other?"
+ },
+ {
+  "id": 884,
+  "word": "eager",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 885,
+  "word": "ear",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 886,
+  "word": "early",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 887,
+  "word": "earn",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 888,
+  "word": "earth",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 889,
+  "word": "ease",
+  "level": "중고공통",
+  "derived": [
+   "disease, easy"
+  ],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 890,
+  "word": "east",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 891,
+  "word": "eat",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 892,
+  "word": "economy",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 893,
+  "word": "edge",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 894,
+  "word": "edit",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 895,
+  "word": "educate",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 896,
+  "word": "effect",
+  "level": "중고공통",
+  "derived": [
+   "effective"
+  ],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 897,
+  "word": "efficient",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 898,
+  "word": "effort",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 899,
+  "word": "egg",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 900,
+  "word": "eight",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ }
+]

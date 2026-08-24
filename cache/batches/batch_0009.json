@@ -1,0 +1,1393 @@
+[
+ {
+  "id": 401,
+  "word": "capital",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "수도",
+     "자본"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Seoul is the capital city of Korea.",
+    "ko": "서울은 한국의 수도이다."
+   },
+   {
+    "en": "They invested a lot of capital in the business.",
+    "ko": "그들은 그 사업에 많은 자본을 투자했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 402,
+  "word": "captain",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "선장",
+     "주장"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He is the captain of our team.",
+    "ko": "그는 우리 팀의 주장이다."
+   },
+   {
+    "en": "The captain steered the ship carefully.",
+    "ko": "선장은 배를 조심스럽게 조종했다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 403,
+  "word": "capture",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "붙잡다",
+     "포획하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Police captured the thief near the park.",
+    "ko": "경찰은 공원 근처에서 도둑을 붙잡았다."
+   },
+   {
+    "en": "The photo captures a beautiful moment.",
+    "ko": "그 사진은 아름다운 순간을 담고 있다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 404,
+  "word": "car",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "자동차"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My dad drives a car.",
+    "ko": "우리 아빠는 차를 운전한다."
+   },
+   {
+    "en": "We drove the car to school.",
+    "ko": "우리는 차를 몰고 학교에 갔다."
+   }
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 405,
+  "word": "card",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "카드"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Flip the card.",
+    "ko": "카드를 뒤집어라."
+   },
+   {
+    "en": "She sent me a birthday card.",
+    "ko": "그녀는 나에게 생일 카드를 보냈다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 406,
+  "word": "care",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "조심",
+     "돌봄"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "마음을 쓰다",
+     "상관하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Take care.",
+    "ko": "몸조심해."
+   },
+   {
+    "en": "I care about my friends.",
+    "ko": "나는 내 친구들에게 마음을 쓴다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 407,
+  "word": "career",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "직업",
+     "경력"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She wants a career in medicine.",
+    "ko": "그녀는 의학 분야의 직업을 원한다."
+   },
+   {
+    "en": "He built a successful career as a lawyer.",
+    "ko": "그는 변호사로서 성공적인 경력을 쌓았다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 408,
+  "word": "carpet",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "카펫",
+     "양탄자"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The carpet in the living room is soft.",
+    "ko": "거실에 있는 카펫은 부드럽다."
+   },
+   {
+    "en": "They rolled out a red carpet.",
+    "ko": "그들은 빨간 카펫을 펼쳤다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 409,
+  "word": "carrot",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "당근"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Rabbits like to eat carrots.",
+    "ko": "토끼는 당근 먹는 것을 좋아한다."
+   },
+   {
+    "en": "I ate a fresh carrot.",
+    "ko": "나는 신선한 당근을 먹었다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 410,
+  "word": "carry",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "나르다",
+     "운반하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Can you carry this bag?",
+    "ko": "이 가방 좀 들어 줄래?"
+   },
+   {
+    "en": "She carried the box upstairs.",
+    "ko": "그녀는 상자를 위층으로 날랐다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 411,
+  "word": "cart",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "카트",
+     "수레"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He pushed the shopping cart slowly.",
+    "ko": "그는 쇼핑 카트를 천천히 밀었다."
+   },
+   {
+    "en": "The farmer loaded hay onto the cart.",
+    "ko": "농부는 수레에 건초를 실었다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 412,
+  "word": "carve",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "조각하다",
+     "새기다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He carved a wooden bird carefully.",
+    "ko": "그는 나무 새를 조심스럽게 조각했다."
+   },
+   {
+    "en": "She likes to carve small statues.",
+    "ko": "그녀는 작은 조각상을 새기는 것을 좋아한다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 413,
+  "word": "case",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "경우",
+     "상자"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "In this case, we must wait.",
+    "ko": "이런 경우에는 우리가 기다려야 한다."
+   },
+   {
+    "en": "He carried a small case.",
+    "ko": "그는 작은 상자를 들고 있었다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 414,
+  "word": "cash",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "현금"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I paid in cash today.",
+    "ko": "나는 오늘 현금으로 지불했다."
+   },
+   {
+    "en": "She has no cash with her.",
+    "ko": "그녀는 현금을 가지고 있지 않다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 415,
+  "word": "cast",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "배역진"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "던지다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The movie has a famous cast.",
+    "ko": "그 영화는 유명한 배역진을 가지고 있다."
+   },
+   {
+    "en": "He cast his fishing line into the lake.",
+    "ko": "그는 호수에 낚싯줄을 던졌다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 416,
+  "word": "castle",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "성"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The king lived in a big castle.",
+    "ko": "왕은 큰 성에서 살았다."
+   },
+   {
+    "en": "We visited an old castle in Europe.",
+    "ko": "우리는 유럽에서 오래된 성을 방문했다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 417,
+  "word": "cat",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "고양이"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We have three cats and one dog.",
+    "ko": "우리는 고양이 세 마리와 개 한 마리를 키운다."
+   },
+   {
+    "en": "My cat sleeps all day.",
+    "ko": "내 고양이는 하루 종일 잔다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 418,
+  "word": "catalogue",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "카탈로그",
+     "목록"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She looked through the furniture catalogue.",
+    "ko": "그녀는 가구 카탈로그를 훑어보았다."
+   },
+   {
+    "en": "The store sent us a new catalogue.",
+    "ko": "그 가게는 우리에게 새 카탈로그를 보냈다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 419,
+  "word": "catch",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "잡다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Catch the ball quickly!",
+    "ko": "공을 빨리 잡아!"
+   },
+   {
+    "en": "He can catch a fish.",
+    "ko": "그는 물고기를 잡을 수 있다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 420,
+  "word": "category",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "범주",
+     "항목"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This book fits in the fantasy category.",
+    "ko": "이 책은 판타지 범주에 속한다."
+   },
+   {
+    "en": "Please choose the correct category first.",
+    "ko": "먼저 올바른 항목을 선택해 주세요."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 421,
+  "word": "cater",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "(음식을) 제공하다",
+     "요구에 맞추다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The restaurant caters to large parties.",
+    "ko": "그 식당은 대규모 파티에 음식을 제공한다."
+   },
+   {
+    "en": "They catered the wedding dinner last night.",
+    "ko": "그들은 어젯밤 결혼식 저녁 식사를 제공했다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 422,
+  "word": "cattle",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "소",
+     "가축"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The farmer raises cattle on his land.",
+    "ko": "농부는 자신의 땅에서 소를 기른다."
+   },
+   {
+    "en": "Cattle grazed peacefully in the field.",
+    "ko": "소들이 들판에서 평화롭게 풀을 뜯었다."
+   }
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 423,
+  "word": "cause",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "원인"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "야기하다",
+     "초래하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Smoking can cause serious health problems.",
+    "ko": "흡연은 심각한 건강 문제를 일으킬 수 있다."
+   },
+   {
+    "en": "No one knows the exact cause yet.",
+    "ko": "아직 아무도 정확한 원인을 모른다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 424,
+  "word": "caution",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "조심",
+     "주의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Drive with caution in the rain.",
+    "ko": "비 올 때는 조심해서 운전해라."
+   },
+   {
+    "en": "The sign warned us to use caution.",
+    "ko": "그 표지판은 우리에게 조심하라고 경고했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 425,
+  "word": "cave",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "동굴"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Bats live inside the dark cave.",
+    "ko": "박쥐들은 어두운 동굴 안에서 산다."
+   },
+   {
+    "en": "They explored a deep cave together.",
+    "ko": "그들은 함께 깊은 동굴을 탐험했다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 426,
+  "word": "cease",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "멈추다",
+     "중단하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The rain finally ceased at noon.",
+    "ko": "비가 마침내 정오에 그쳤다."
+   },
+   {
+    "en": "Please cease all noise after ten.",
+    "ko": "열 시 이후에는 모든 소음을 멈춰 주세요."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 427,
+  "word": "ceiling",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "천장"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "A lamp hangs from the ceiling.",
+    "ko": "천장에서 램프가 매달려 있다."
+   },
+   {
+    "en": "The ceiling of the hall is very high.",
+    "ko": "그 홀의 천장은 매우 높다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 428,
+  "word": "celebrate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "축하하다",
+     "기념하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We celebrate his birthday every June.",
+    "ko": "우리는 매년 6월에 그의 생일을 축하한다."
+   },
+   {
+    "en": "They celebrated their victory with a big party.",
+    "ko": "그들은 큰 파티로 승리를 축하했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 429,
+  "word": "celebrity",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "유명인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The celebrity signed autographs for fans.",
+    "ko": "그 유명인은 팬들에게 사인을 해 주었다."
+   },
+   {
+    "en": "She became a celebrity after the movie.",
+    "ko": "그녀는 그 영화 이후 유명인이 되었다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 430,
+  "word": "cell",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "세포",
+     "감방"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Every living thing is made of cells.",
+    "ko": "모든 생물은 세포로 이루어져 있다."
+   },
+   {
+    "en": "The prisoner sat alone in his cell.",
+    "ko": "그 죄수는 감방에 홀로 앉아 있었다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 431,
+  "word": "censor",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "검열하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The government tried to censor the news.",
+    "ko": "정부는 뉴스를 검열하려고 했다."
+   },
+   {
+    "en": "Some words were censored in the movie.",
+    "ko": "그 영화에서 몇몇 단어가 검열되었다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 432,
+  "word": "center",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "중심",
+     "센터"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Stand in the center.",
+    "ko": "가운데에 서라."
+   },
+   {
+    "en": "The mall is the city center.",
+    "ko": "그 쇼핑몰은 도시 중심에 있다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 433,
+  "word": "century",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "세기",
+     "100년"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "This castle is over a century old.",
+    "ko": "이 성은 백 년이 넘었다."
+   },
+   {
+    "en": "New technology changed the last century.",
+    "ko": "새로운 기술이 지난 세기를 변화시켰다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 434,
+  "word": "certain",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "확실한",
+     "어떤"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I am certain about this.",
+    "ko": "나는 이것에 대해 확신한다."
+   },
+   {
+    "en": "She felt certain of success.",
+    "ko": "그녀는 성공을 확신했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 435,
+  "word": "certificate",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "증명서",
+     "자격증"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He received a certificate for his effort.",
+    "ko": "그는 노력에 대한 증서를 받았다."
+   },
+   {
+    "en": "She earned a teaching certificate last year.",
+    "ko": "그녀는 작년에 교사 자격증을 땄다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 436,
+  "word": "chain",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "사슬",
+     "체인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The dog was tied with a chain.",
+    "ko": "그 개는 사슬에 묶여 있었다."
+   },
+   {
+    "en": "She wore a gold chain necklace.",
+    "ko": "그녀는 금 체인 목걸이를 착용했다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 437,
+  "word": "chair",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "의자"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Sit on the chair.",
+    "ko": "의자에 앉아라."
+   },
+   {
+    "en": "He fixed the broken chair.",
+    "ko": "그는 부서진 의자를 고쳤다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 438,
+  "word": "chairman",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "의장",
+     "회장"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He was elected chairman of the club.",
+    "ko": "그는 클럽의 회장으로 선출되었다."
+   },
+   {
+    "en": "The chairman opened the meeting on time.",
+    "ko": "의장은 제시간에 회의를 시작했다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 439,
+  "word": "challenge",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "도전"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "도전하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Learning English is a big challenge.",
+    "ko": "영어를 배우는 것은 큰 도전이다."
+   },
+   {
+    "en": "She challenged herself to run a marathon.",
+    "ko": "그녀는 마라톤을 뛰는 것에 스스로 도전했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 440,
+  "word": "chamber",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "방",
+     "회의실"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The king entered the royal chamber.",
+    "ko": "왕은 왕실 방으로 들어갔다."
+   },
+   {
+    "en": "The council met in a small chamber.",
+    "ko": "그 의회는 작은 회의실에서 모였다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 441,
+  "word": "champion",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "챔피언",
+     "우승자"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She became the champion of the contest.",
+    "ko": "그녀는 그 대회의 우승자가 되었다."
+   },
+   {
+    "en": "He trained hard to be a champion.",
+    "ko": "그는 챔피언이 되기 위해 열심히 훈련했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 442,
+  "word": "chance",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "기회"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Give me one more chance.",
+    "ko": "나에게 한 번 더 기회를 줘."
+   },
+   {
+    "en": "There is a chance of rain.",
+    "ko": "비가 올 가능성이 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 443,
+  "word": "change",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "변화"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "바꾸다",
+     "변하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Things will change soon.",
+    "ko": "곧 상황이 변할 것이다."
+   },
+   {
+    "en": "She changed her hairstyle.",
+    "ko": "그녀는 머리 모양을 바꾸었다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 444,
+  "word": "channel",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "채널",
+     "수로"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please change the TV channel.",
+    "ko": "TV 채널을 바꿔 주세요."
+   },
+   {
+    "en": "This channel shows cartoons every morning.",
+    "ko": "이 채널은 매일 아침 만화를 방영한다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 445,
+  "word": "chaos",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "혼돈",
+     "혼란"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The blackout caused total chaos downtown.",
+    "ko": "정전이 시내에 완전한 혼란을 일으켰다."
+   },
+   {
+    "en": "There was chaos in the classroom.",
+    "ko": "교실 안은 혼란스러웠다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 446,
+  "word": "character",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "성격",
+     "등장인물"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My favorite character is the brave knight.",
+    "ko": "내가 가장 좋아하는 등장인물은 용감한 기사이다."
+   },
+   {
+    "en": "She has a kind and gentle character.",
+    "ko": "그녀는 친절하고 온화한 성격을 가지고 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 447,
+  "word": "characteristic",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "특징"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "특유의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Kindness is his best characteristic.",
+    "ko": "친절함은 그의 가장 좋은 특징이다."
+   },
+   {
+    "en": "This is a characteristic feature of the region.",
+    "ko": "이것은 그 지역의 특유한 특징이다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 448,
+  "word": "charge",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "요금",
+     "책임"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "충전하다",
+     "청구하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "There is no charge for delivery.",
+    "ko": "배송에는 요금이 없다."
+   },
+   {
+    "en": "Please charge my phone battery.",
+    "ko": "내 휴대전화 배터리를 충전해 주세요."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 449,
+  "word": "charity",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "자선",
+     "자선단체"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "They donated money to charity last week.",
+    "ko": "그들은 지난주에 자선단체에 돈을 기부했다."
+   },
+   {
+    "en": "She works for a local charity group.",
+    "ko": "그녀는 지역 자선단체에서 일한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 450,
+  "word": "charm",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "매력"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "매혹하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Her smile has a special charm.",
+    "ko": "그녀의 미소는 특별한 매력이 있다."
+   },
+   {
+    "en": "The story charmed all the readers.",
+    "ko": "그 이야기는 모든 독자들을 매혹시켰다."
+   }
+  ],
+  "theme": "추상"
+ }
+]

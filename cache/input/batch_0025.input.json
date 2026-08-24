@@ -1,0 +1,414 @@
+[
+ {
+  "id": 1201,
+  "word": "get",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Don’t get so angry!"
+ },
+ {
+  "id": 1202,
+  "word": "ghost",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1203,
+  "word": "giant",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": "Once upon a time, there lived a giant."
+ },
+ {
+  "id": 1204,
+  "word": "gift",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1205,
+  "word": "giraffe",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1206,
+  "word": "girl",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1207,
+  "word": "give",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Can I give you a hand?"
+ },
+ {
+  "id": 1208,
+  "word": "glad",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Glad you’re here."
+ },
+ {
+  "id": 1209,
+  "word": "glance",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1210,
+  "word": "glare",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1211,
+  "word": "glass",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1212,
+  "word": "globe",
+  "level": "선택",
+  "derived": [
+   "global"
+  ],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1213,
+  "word": "glory",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1214,
+  "word": "glove",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1215,
+  "word": "glow",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1216,
+  "word": "glue",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1217,
+  "word": "go",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "He goes to school at 8:30."
+ },
+ {
+  "id": 1218,
+  "word": "goal",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1219,
+  "word": "goat",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1220,
+  "word": "god",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1221,
+  "word": "gold",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1222,
+  "word": "golf",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1223,
+  "word": "good",
+  "level": "초등",
+  "derived": [
+   "goods"
+  ],
+  "max_example_words": 6,
+  "fn_example": "That’s a good idea."
+ },
+ {
+  "id": 1224,
+  "word": "goodbye",
+  "level": "초등",
+  "derived": [
+   "bye"
+  ],
+  "max_example_words": 6,
+  "fn_example": "Goodbye."
+ },
+ {
+  "id": 1225,
+  "word": "gorgeous",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1226,
+  "word": "govern",
+  "level": "중고공통",
+  "derived": [
+   "government"
+  ],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1227,
+  "word": "grab",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1228,
+  "word": "grace",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1229,
+  "word": "grade",
+  "level": "중고공통",
+  "derived": [
+   "gradual"
+  ],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1230,
+  "word": "graduate",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1231,
+  "word": "grain",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1232,
+  "word": "grand",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1233,
+  "word": "grandfather",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1234,
+  "word": "grant",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1235,
+  "word": "grape",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1236,
+  "word": "graph",
+  "level": "중고공통",
+  "derived": [
+   "graphic"
+  ],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1237,
+  "word": "grasp",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1238,
+  "word": "grass",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1239,
+  "word": "grateful",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1240,
+  "word": "grave",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1241,
+  "word": "gray",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1242,
+  "word": "great",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1243,
+  "word": "greed",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1244,
+  "word": "green",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1245,
+  "word": "greet",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1246,
+  "word": "grief",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1247,
+  "word": "grip",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1248,
+  "word": "grocery",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1249,
+  "word": "gross",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1250,
+  "word": "ground",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ }
+]

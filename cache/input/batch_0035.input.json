@@ -1,0 +1,408 @@
+[
+ {
+  "id": 1701,
+  "word": "missile",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1702,
+  "word": "mission",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1703,
+  "word": "mix",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1704,
+  "word": "mobile",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1705,
+  "word": "mock",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1706,
+  "word": "mode",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1707,
+  "word": "modify",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1708,
+  "word": "model",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1709,
+  "word": "moderate",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1710,
+  "word": "modern",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1711,
+  "word": "modest",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1712,
+  "word": "moist",
+  "level": "선택",
+  "derived": [
+   "moisture"
+  ],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1713,
+  "word": "molecule",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1714,
+  "word": "moment",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": "Can I interrupt you for a moment?"
+ },
+ {
+  "id": 1715,
+  "word": "money",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1716,
+  "word": "monitor",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1717,
+  "word": "monkey",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1718,
+  "word": "monster",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1719,
+  "word": "month",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1720,
+  "word": "monument",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1721,
+  "word": "mood",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1722,
+  "word": "moon",
+  "level": "초등",
+  "derived": [
+   "half­moon"
+  ],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1723,
+  "word": "moral",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1724,
+  "word": "moreover",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1725,
+  "word": "morning",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1726,
+  "word": "mortal",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1727,
+  "word": "mother",
+  "level": "초등",
+  "derived": [
+   "mom, mommy"
+  ],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1728,
+  "word": "motion",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1729,
+  "word": "motive",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1730,
+  "word": "motor",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1731,
+  "word": "mount",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1732,
+  "word": "mountain",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1733,
+  "word": "mouse",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1734,
+  "word": "mouth",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1735,
+  "word": "move",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Do you have any questions before I move on?"
+ },
+ {
+  "id": 1736,
+  "word": "movie",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Which movie do you want to see?"
+ },
+ {
+  "id": 1737,
+  "word": "much",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "How much does it cost?"
+ },
+ {
+  "id": 1738,
+  "word": "mud",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1739,
+  "word": "multiple",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1740,
+  "word": "murder",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1741,
+  "word": "muscle",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1742,
+  "word": "museum",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": "The museum is on the left."
+ },
+ {
+  "id": 1743,
+  "word": "mushroom",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1744,
+  "word": "music",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1745,
+  "word": "must",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "I must go, see you later."
+ },
+ {
+  "id": 1746,
+  "word": "mutual",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1747,
+  "word": "mystery",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1748,
+  "word": "myth",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1749,
+  "word": "nail",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1750,
+  "word": "naive",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ }
+]

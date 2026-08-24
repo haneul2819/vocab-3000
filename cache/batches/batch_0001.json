@@ -1,0 +1,1466 @@
+[
+ {
+  "id": 1,
+  "word": "a",
+  "pos": [
+   "관사"
+  ],
+  "meanings": [
+   {
+    "pos": "관사",
+    "ko": [
+     "하나의",
+     "어떤"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "What time is it? A quarter to six.",
+    "ko": "지금 몇 시야? 6시 15분 전이야."
+   },
+   {
+    "en": "I ate a sandwich.",
+    "ko": "나는 샌드위치 하나를 먹었다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2,
+  "word": "abandon",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "버리다",
+     "포기하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The sailors had to abandon the sinking ship.",
+    "ko": "선원들은 침몰하는 배를 버려야 했다."
+   },
+   {
+    "en": "She refused to abandon her dream of becoming a singer.",
+    "ko": "그녀는 가수가 되겠다는 꿈을 포기하기를 거부했다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 3,
+  "word": "able",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "~할 수 있는"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "After a week of practice, he was able to swim.",
+    "ko": "일주일 동안 연습한 후 그는 수영을 할 수 있게 되었다."
+   },
+   {
+    "en": "Not everyone is able to speak two languages.",
+    "ko": "모두가 두 개의 언어를 할 수 있는 것은 아니다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 4,
+  "word": "aboard",
+  "pos": [
+   "전치사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~에 탑승하여"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "탑승하여"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Passengers are asked to come aboard the ship now.",
+    "ko": "승객들은 지금 배에 탑승해 달라는 요청을 받는다."
+   },
+   {
+    "en": "Welcome aboard! Please find your seat.",
+    "ko": "탑승을 환영합니다! 자리를 찾아 주세요."
+   }
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 5,
+  "word": "abort",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "중단하다",
+     "취소하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The pilot had to abort the landing due to strong wind.",
+    "ko": "조종사는 강한 바람 때문에 착륙을 중단해야 했다."
+   },
+   {
+    "en": "They decided to abort the mission at the last minute.",
+    "ko": "그들은 마지막 순간에 임무를 취소하기로 결정했다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 6,
+  "word": "abound",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "풍부하다",
+     "넘쳐나다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Wild flowers abound in the countryside during spring.",
+    "ko": "봄에는 시골에 야생화가 넘쳐난다."
+   },
+   {
+    "en": "Opportunities abound for students who work hard.",
+    "ko": "열심히 노력하는 학생들에게는 기회가 넘쳐난다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 7,
+  "word": "about",
+  "pos": [
+   "전치사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~에 대해",
+     "약"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "대략"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "There’s nothing to get angry about.",
+    "ko": "화낼 일이 전혀 없다."
+   },
+   {
+    "en": "Tell me about your day.",
+    "ko": "네 하루에 대해 말해줘."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 8,
+  "word": "above",
+  "pos": [
+   "전치사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~보다 위에"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "위에"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The bird flew above the trees.",
+    "ko": "새가 나무들 위로 날았다."
+   },
+   {
+    "en": "Look at the clouds above.",
+    "ko": "위에 있는 구름을 봐."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 9,
+  "word": "abroad",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "해외에",
+     "해외로"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My sister is planning to study abroad next year.",
+    "ko": "내 여동생은 내년에 해외에서 공부할 계획이다."
+   },
+   {
+    "en": "Many young people dream of traveling abroad.",
+    "ko": "많은 젊은이들이 해외 여행을 꿈꾼다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 10,
+  "word": "absent",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "결석한",
+     "부재한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Tom was absent from school because he was sick.",
+    "ko": "톰은 아파서 학교에 결석했다."
+   },
+   {
+    "en": "Three students were absent from class today.",
+    "ko": "오늘 세 명의 학생이 수업에 결석했다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 11,
+  "word": "absolute",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "완전한",
+     "절대적인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She has absolute confidence in her own ability.",
+    "ko": "그녀는 자신의 능력에 절대적인 자신감을 가지고 있다."
+   },
+   {
+    "en": "There is no absolute answer to this question.",
+    "ko": "이 질문에는 절대적인 답이 없다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 12,
+  "word": "absorb",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "흡수하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Plants absorb water through their roots.",
+    "ko": "식물은 뿌리를 통해 물을 흡수한다."
+   },
+   {
+    "en": "A sponge can absorb a lot of liquid quickly.",
+    "ko": "스펀지는 많은 액체를 빠르게 흡수할 수 있다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 13,
+  "word": "abstract",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "추상적인"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "추상화",
+     "개요"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The painting shows an abstract pattern of colors.",
+    "ko": "그 그림은 색채의 추상적인 패턴을 보여준다."
+   },
+   {
+    "en": "Love is an abstract idea that is hard to explain.",
+    "ko": "사랑은 설명하기 어려운 추상적인 개념이다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 14,
+  "word": "absurd",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "터무니없는",
+     "불합리한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It seemed absurd to walk five hours in the rain.",
+    "ko": "빗속에서 다섯 시간을 걷는다는 것은 터무니없어 보였다."
+   },
+   {
+    "en": "His excuse for being late was completely absurd.",
+    "ko": "그가 늦은 변명은 완전히 터무니없었다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 15,
+  "word": "abuse",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "남용",
+     "학대"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "남용하다",
+     "학대하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The coach was punished for the abuse of his power.",
+    "ko": "그 코치는 권력 남용으로 처벌받았다."
+   },
+   {
+    "en": "It is wrong to abuse animals for entertainment.",
+    "ko": "재미를 위해 동물을 학대하는 것은 잘못된 일이다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 16,
+  "word": "academy",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "학원",
+     "아카데미"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My brother goes to a music academy after school.",
+    "ko": "내 형은 방과 후에 음악 학원에 다닌다."
+   },
+   {
+    "en": "She was accepted into a famous art academy.",
+    "ko": "그녀는 유명한 미술 아카데미에 합격했다."
+   }
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 17,
+  "word": "accelerate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "가속하다",
+     "속도를 높이다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The car began to accelerate as it entered the highway.",
+    "ko": "차는 고속도로에 진입하며 속도를 높이기 시작했다."
+   },
+   {
+    "en": "The driver had to accelerate quickly to merge safely.",
+    "ko": "운전자는 안전하게 합류하기 위해 빠르게 가속해야 했다."
+   }
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 18,
+  "word": "accent",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "억양",
+     "말투"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She speaks English with a strong French accent.",
+    "ko": "그녀는 강한 프랑스 억양으로 영어를 말한다."
+   },
+   {
+    "en": "I love listening to his accent when he talks.",
+    "ko": "나는 그가 말할 때 억양을 듣는 게 좋다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 19,
+  "word": "accept",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "받아들이다",
+     "수락하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He decided to accept the job offer from the company.",
+    "ko": "그는 그 회사의 취업 제안을 받아들이기로 했다."
+   },
+   {
+    "en": "Please accept my apology for being late.",
+    "ko": "늦어서 죄송합니다, 제 사과를 받아 주세요."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 20,
+  "word": "access",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "접근",
+     "이용"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "접근하다",
+     "이용하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Students have free access to the school library.",
+    "ko": "학생들은 학교 도서관을 무료로 이용할 수 있다."
+   },
+   {
+    "en": "You need a password to access this website.",
+    "ko": "이 웹사이트에 접근하려면 비밀번호가 필요하다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 21,
+  "word": "accident",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "사고",
+     "우연"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "There was a car accident near the school this morning.",
+    "ko": "오늘 아침 학교 근처에서 자동차 사고가 있었다."
+   },
+   {
+    "en": "Luckily, no one was hurt in the accident.",
+    "ko": "다행히 그 사고로 다친 사람은 없었다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 22,
+  "word": "accommodate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "수용하다",
+     "맞추다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The hotel can accommodate up to three hundred guests.",
+    "ko": "그 호텔은 최대 300명의 손님을 수용할 수 있다."
+   },
+   {
+    "en": "The teacher tried to accommodate every student's needs.",
+    "ko": "선생님은 모든 학생의 요구를 맞추려고 노력했다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 23,
+  "word": "accompany",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "동행하다",
+     "동반하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My mother will accompany me to the hospital tomorrow.",
+    "ko": "내일 어머니가 나와 함께 병원에 동행하실 것이다."
+   },
+   {
+    "en": "A guide accompanied the tourists through the old city.",
+    "ko": "가이드가 관광객들과 함께 옛 도시를 둘러보았다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 24,
+  "word": "accomplish",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "성취하다",
+     "이루다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She worked hard to accomplish her goal of becoming a doctor.",
+    "ko": "그녀는 의사가 되겠다는 목표를 이루기 위해 열심히 노력했다."
+   },
+   {
+    "en": "The team accomplished a lot in just one week.",
+    "ko": "그 팀은 단 일주일 만에 많은 것을 성취했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 25,
+  "word": "accord",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "일치",
+     "협정"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "일치하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The two countries finally reached an accord on trade.",
+    "ko": "두 나라는 마침내 무역에 관한 협정에 도달했다."
+   },
+   {
+    "en": "His story does not accord with what she said.",
+    "ko": "그의 이야기는 그녀가 말한 것과 일치하지 않는다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 26,
+  "word": "account",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "계좌",
+     "설명"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "설명하다",
+     "차지하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I opened a new bank account last week.",
+    "ko": "나는 지난주에 새 은행 계좌를 개설했다."
+   },
+   {
+    "en": "Please account for the missing money in the report.",
+    "ko": "보고서에서 없어진 돈에 대해 설명해 주세요."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 27,
+  "word": "accumulate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "축적하다",
+     "쌓이다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Dust tends to accumulate quickly on old bookshelves.",
+    "ko": "먼지는 오래된 책장 위에 빠르게 쌓이는 경향이 있다."
+   },
+   {
+    "en": "He accumulated a large amount of debt over the years.",
+    "ko": "그는 몇 년 동안 많은 빚을 쌓았다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 28,
+  "word": "accurate",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "정확한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The weather forecast was surprisingly accurate today.",
+    "ko": "오늘 일기예보는 놀랍도록 정확했다."
+   },
+   {
+    "en": "Please give me an accurate account of what happened.",
+    "ko": "무슨 일이 있었는지 정확하게 설명해 주세요."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 29,
+  "word": "accuse",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "비난하다",
+     "고발하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "They accused him of stealing the money.",
+    "ko": "그들은 그를 돈을 훔쳤다고 비난했다."
+   },
+   {
+    "en": "She was accused of lying to the police.",
+    "ko": "그녀는 경찰에게 거짓말을 했다고 고발당했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 30,
+  "word": "ache",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "통증",
+     "아픔"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "아프다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My legs ache after running for two hours.",
+    "ko": "두 시간 동안 달렸더니 다리가 아프다."
+   },
+   {
+    "en": "She felt a dull ache in her back all day.",
+    "ko": "그녀는 하루 종일 등에 둔한 통증을 느꼈다."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 31,
+  "word": "achieve",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "성취하다",
+     "달성하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He worked hard to achieve his dream.",
+    "ko": "그는 꿈을 이루기 위해 열심히 노력했다."
+   },
+   {
+    "en": "Our team achieved great results this season.",
+    "ko": "우리 팀은 이번 시즌에 좋은 성과를 거두었다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 32,
+  "word": "acid",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "산"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "산성의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The scientist mixed the acid carefully in the lab.",
+    "ko": "과학자는 실험실에서 산을 조심스럽게 섞었다."
+   },
+   {
+    "en": "Lemon juice contains a natural acid.",
+    "ko": "레몬즙에는 천연 산이 들어 있다."
+   }
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 33,
+  "word": "acknowledge",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "인정하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He finally acknowledged that he had made a mistake.",
+    "ko": "그는 마침내 자신이 실수했다는 것을 인정했다."
+   },
+   {
+    "en": "She acknowledged his hard work in front of everyone.",
+    "ko": "그녀는 모두 앞에서 그의 노고를 인정했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 34,
+  "word": "acquire",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "얻다",
+     "습득하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It takes years to acquire a new language fluently.",
+    "ko": "새 언어를 유창하게 습득하는 데는 몇 년이 걸린다."
+   },
+   {
+    "en": "The company acquired a smaller business last year.",
+    "ko": "그 회사는 작년에 더 작은 회사를 인수했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 35,
+  "word": "acquisition",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "습득",
+     "인수"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Language acquisition is easier for young children.",
+    "ko": "언어 습득은 어린아이들에게 더 쉽다."
+   },
+   {
+    "en": "The company announced its acquisition of a rival firm.",
+    "ko": "그 회사는 경쟁사 인수를 발표했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 36,
+  "word": "across",
+  "pos": [
+   "전치사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~을 가로질러"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "가로질러"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We walked across the bridge.",
+    "ko": "우리는 다리를 가로질러 걸었다."
+   },
+   {
+    "en": "The cat ran across the road.",
+    "ko": "고양이가 길을 가로질러 뛰었다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 37,
+  "word": "act",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "행동하다",
+     "연기하다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "행동"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please act your age.",
+    "ko": "제발 나잇값 좀 해라."
+   },
+   {
+    "en": "She wants to act in movies.",
+    "ko": "그녀는 영화에서 연기하고 싶어 한다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 38,
+  "word": "adapt",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "적응하다",
+     "조정하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It took him a while to adapt to the new school.",
+    "ko": "그가 새 학교에 적응하는 데 시간이 좀 걸렸다."
+   },
+   {
+    "en": "Animals adapt to their environment to survive.",
+    "ko": "동물은 살아남기 위해 환경에 적응한다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 39,
+  "word": "add",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "더하다",
+     "추가하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Add two and three together.",
+    "ko": "2와 3을 더해라."
+   },
+   {
+    "en": "Please add some sugar.",
+    "ko": "설탕을 좀 넣어 주세요."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 40,
+  "word": "addict",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "중독자"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "중독시키다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He became an addict to video games.",
+    "ko": "그는 비디오 게임 중독자가 되었다."
+   },
+   {
+    "en": "Too much sugar can addict your brain to sweets.",
+    "ko": "설탕을 너무 많이 먹으면 뇌가 단맛에 중독될 수 있다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 41,
+  "word": "address",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "주소"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "연설하다",
+     "다루다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "What is your home address?",
+    "ko": "너희 집 주소가 뭐야?"
+   },
+   {
+    "en": "Please write your address here.",
+    "ko": "여기에 주소를 적어 주세요."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 42,
+  "word": "adequate",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "충분한",
+     "적절한"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The hotel room was small but adequate for one night.",
+    "ko": "그 호텔 방은 작았지만 하룻밤 지내기에는 충분했다."
+   },
+   {
+    "en": "We need adequate time to finish this project well.",
+    "ko": "우리는 이 프로젝트를 잘 끝내기 위해 충분한 시간이 필요하다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 43,
+  "word": "adjust",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "조정하다",
+     "적응하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Please adjust the volume; it's too loud.",
+    "ko": "볼륨 좀 조절해 줘, 너무 시끄러워."
+   },
+   {
+    "en": "It took a few days to adjust to the time difference.",
+    "ko": "시차에 적응하는 데 며칠이 걸렸다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 44,
+  "word": "administer",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "관리하다",
+     "운영하다",
+     "투여하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The nurse will administer the medicine every morning.",
+    "ko": "간호사가 매일 아침 약을 투여할 것이다."
+   },
+   {
+    "en": "The new manager administers the store efficiently.",
+    "ko": "새 매니저는 매장을 효율적으로 운영한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 45,
+  "word": "admire",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "존경하다",
+     "감탄하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I really admire her courage and honesty.",
+    "ko": "나는 그녀의 용기와 정직함을 정말 존경한다."
+   },
+   {
+    "en": "Everyone admired the beautiful sunset over the sea.",
+    "ko": "모두가 바다 위로 지는 아름다운 노을에 감탄했다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 46,
+  "word": "admit",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "인정하다",
+     "입장을 허락하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He finally admitted that he was wrong.",
+    "ko": "그는 마침내 자신이 틀렸다는 것을 인정했다."
+   },
+   {
+    "en": "The guard admitted us into the building.",
+    "ko": "경비원이 우리를 건물 안으로 들여보내 주었다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 47,
+  "word": "adolescent",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "청소년"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "청소년의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Adolescents often struggle to find their own identity.",
+    "ko": "청소년들은 종종 자신의 정체성을 찾는 데 어려움을 겪는다."
+   },
+   {
+    "en": "The show is popular among adolescent viewers.",
+    "ko": "그 프로그램은 청소년 시청자들에게 인기가 많다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 48,
+  "word": "adopt",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "입양하다",
+     "채택하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My family decided to adopt a puppy from the shelter.",
+    "ko": "우리 가족은 보호소에서 강아지를 입양하기로 했다."
+   },
+   {
+    "en": "The school adopted a new reading program this year.",
+    "ko": "그 학교는 올해 새로운 독서 프로그램을 채택했다."
+   }
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 49,
+  "word": "adult",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "성인",
+     "어른"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "성인의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He is now an adult.",
+    "ko": "그는 이제 어른이다."
+   },
+   {
+    "en": "This movie is for adults.",
+    "ko": "이 영화는 성인용이다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 50,
+  "word": "advance",
+  "pos": [
+   "동사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "나아가다",
+     "진전시키다"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "진전",
+     "발전"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Technology continues to advance at a rapid pace.",
+    "ko": "기술은 빠른 속도로 계속 발전하고 있다."
+   },
+   {
+    "en": "We booked our tickets well in advance.",
+    "ko": "우리는 미리 표를 예매해 두었다."
+   }
+  ],
+  "theme": "추상"
+ }
+]

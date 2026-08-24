@@ -1,0 +1,597 @@
+[
+ {
+  "id": 1601,
+  "word": "lot",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["많음", "다량"]}],
+  "examples": [
+   {"en": "I have a lot of homework.", "ko": "나는 숙제가 많다."},
+   {"en": "There were a lot of people at the concert.", "ko": "콘서트에는 많은 사람들이 있었다."}
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 1602,
+  "word": "loud",
+  "pos": ["형용사"],
+  "meanings": [{"pos": "형용사", "ko": ["시끄러운", "큰 소리의"]}],
+  "examples": [
+   {"en": "The music was too loud.", "ko": "음악이 너무 시끄러웠다."},
+   {"en": "He has a loud voice.", "ko": "그는 목소리가 크다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1603,
+  "word": "love",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["사랑하다"]},
+   {"pos": "명사", "ko": ["사랑"]}
+  ],
+  "examples": [
+   {"en": "I DO love my family.", "ko": "나는 정말로 우리 가족을 사랑한다."},
+   {"en": "I love ice cream.", "ko": "나는 아이스크림을 사랑한다."}
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1604,
+  "word": "low",
+  "pos": ["형용사", "부사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["낮은"]},
+   {"pos": "부사", "ko": ["낮게"]}
+  ],
+  "examples": [
+   {"en": "The table is very low.", "ko": "그 탁자는 매우 낮다."},
+   {"en": "Speak in a low voice.", "ko": "낮은 목소리로 말해라."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1605,
+  "word": "loyal",
+  "pos": ["형용사"],
+  "meanings": [{"pos": "형용사", "ko": ["충성스러운", "의리 있는"]}],
+  "examples": [
+   {"en": "The dog is very loyal to its owner.", "ko": "그 개는 주인에게 매우 충성스럽다."},
+   {"en": "She has been a loyal friend for years.", "ko": "그녀는 수년간 의리 있는 친구였다."}
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1606,
+  "word": "luck",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["운", "행운"]}],
+  "examples": [
+   {"en": "Good luck on your test!", "ko": "시험 잘 봐, 행운을 빌어!"},
+   {"en": "We had bad luck today.", "ko": "우리는 오늘 운이 나빴다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1607,
+  "word": "lump",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["덩어리"]}],
+  "examples": [
+   {"en": "She added a lump of sugar to her tea.", "ko": "그녀는 차에 각설탕 한 덩어리를 넣었다."},
+   {"en": "He found a strange lump on his arm.", "ko": "그는 팔에서 이상한 덩어리를 발견했다."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1608,
+  "word": "lunch",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["점심"]}],
+  "examples": [
+   {"en": "Let's eat lunch together.", "ko": "함께 점심 먹자."},
+   {"en": "I have lunch at noon.", "ko": "나는 정오에 점심을 먹는다."}
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 1609,
+  "word": "luxury",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["사치", "호화로움"]}],
+  "examples": [
+   {"en": "They stayed at a luxury hotel in Paris.", "ko": "그들은 파리의 고급 호텔에 묵었다."},
+   {"en": "A vacation is a luxury she rarely enjoys.", "ko": "휴가는 그녀가 좀처럼 누리지 못하는 사치이다."}
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 1610,
+  "word": "machine",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["기계"]}],
+  "examples": [
+   {"en": "This machine washes clothes quickly.", "ko": "이 기계는 옷을 빨리 세탁한다."},
+   {"en": "The factory has many machines.", "ko": "그 공장에는 기계가 많다."}
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 1611,
+  "word": "mad",
+  "pos": ["형용사"],
+  "meanings": [{"pos": "형용사", "ko": ["화난", "미친"]}],
+  "examples": [
+   {"en": "My mom got mad at me.", "ko": "엄마가 나에게 화를 냈다."},
+   {"en": "Don't be mad, please.", "ko": "제발 화내지 마."}
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1612,
+  "word": "magazine",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["잡지"]}],
+  "examples": [
+   {"en": "She reads a fashion magazine every month.", "ko": "그녀는 매달 패션 잡지를 읽는다."},
+   {"en": "I found this magazine at the library.", "ko": "나는 이 잡지를 도서관에서 발견했다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1613,
+  "word": "magic",
+  "pos": ["명사", "형용사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["마법"]},
+   {"pos": "형용사", "ko": ["마법의"]}
+  ],
+  "examples": [
+   {"en": "The magician performed amazing magic tricks.", "ko": "그 마술사는 놀라운 마법 묘기를 선보였다."},
+   {"en": "Children believe in magic.", "ko": "아이들은 마법을 믿는다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1614,
+  "word": "magnet",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["자석"]}],
+  "examples": [
+   {"en": "A magnet can pick up small metal objects.", "ko": "자석은 작은 금속 물체를 끌어올릴 수 있다."},
+   {"en": "The refrigerator door is covered with magnets.", "ko": "냉장고 문은 자석으로 뒤덮여 있다."}
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 1615,
+  "word": "magnificent",
+  "pos": ["형용사"],
+  "meanings": [{"pos": "형용사", "ko": ["웅장한", "멋진"]}],
+  "examples": [
+   {"en": "The castle offered a magnificent view of the valley.", "ko": "그 성은 계곡의 웅장한 경치를 보여주었다."},
+   {"en": "We were amazed by the magnificent sunset.", "ko": "우리는 그 웅장한 노을에 감탄했다."}
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1616,
+  "word": "mail",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["우편", "우편물"]},
+   {"pos": "동사", "ko": ["우편으로 보내다"]}
+  ],
+  "examples": [
+   {"en": "I got mail today.", "ko": "나는 오늘 우편물을 받았다."},
+   {"en": "Please mail this letter.", "ko": "이 편지를 부쳐 주세요."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 1617,
+  "word": "main",
+  "pos": ["형용사"],
+  "meanings": [{"pos": "형용사", "ko": ["주요한"]}],
+  "examples": [
+   {"en": "The main street is very busy.", "ko": "그 중심가는 매우 붐빈다."},
+   {"en": "What is the main idea of the story?", "ko": "이야기의 요지는 무엇인가?"}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1618,
+  "word": "maintain",
+  "pos": ["동사"],
+  "meanings": [{"pos": "동사", "ko": ["유지하다"]}],
+  "examples": [
+   {"en": "You should maintain a healthy diet.", "ko": "건강한 식단을 유지해야 한다."},
+   {"en": "The city maintains this park well.", "ko": "시는 이 공원을 잘 관리한다."}
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1619,
+  "word": "major",
+  "pos": ["형용사", "명사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["주요한", "중대한"]},
+   {"pos": "명사", "ko": ["전공"]}
+  ],
+  "examples": [
+   {"en": "There was a major storm last night.", "ko": "어젯밤에 큰 폭풍이 있었다."},
+   {"en": "Her major is computer science.", "ko": "그녀의 전공은 컴퓨터 과학이다."}
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 1620,
+  "word": "make",
+  "pos": ["동사"],
+  "meanings": [{"pos": "동사", "ko": ["만들다"]}],
+  "examples": [
+   {"en": "Can you make it (at ten)?", "ko": "10시에 올 수 있어?"},
+   {"en": "I will make a cake.", "ko": "나는 케이크를 만들 것이다."}
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 1621,
+  "word": "male",
+  "pos": ["형용사", "명사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["남성의", "수컷의"]},
+   {"pos": "명사", "ko": ["남성", "수컷"]}
+  ],
+  "examples": [
+   {"en": "The male lion has a large mane.", "ko": "수사자는 큰 갈기를 가지고 있다."},
+   {"en": "This form asks for your gender: male or female.", "ko": "이 양식은 성별(남성 또는 여성)을 묻는다."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1622,
+  "word": "man",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["남자"]}],
+  "examples": [
+   {"en": "The man over there is Mr. Kim.", "ko": "저기 있는 남자분이 김 선생님이다."},
+   {"en": "That man is my uncle.", "ko": "저 남자는 나의 삼촌이다."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1623,
+  "word": "manage",
+  "pos": ["동사"],
+  "meanings": [{"pos": "동사", "ko": ["관리하다", "해내다"]}],
+  "examples": [
+   {"en": "She manages a large team at work.", "ko": "그녀는 직장에서 큰 팀을 관리한다."},
+   {"en": "We managed to finish on time.", "ko": "우리는 제시간에 끝낼 수 있었다."}
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 1624,
+  "word": "manifest",
+  "pos": ["동사", "형용사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["나타내다"]},
+   {"pos": "형용사", "ko": ["명백한"]}
+  ],
+  "examples": [
+   {"en": "Her anxiety began to manifest as physical symptoms.", "ko": "그녀의 불안은 신체적 증상으로 나타나기 시작했다."},
+   {"en": "The illness manifested itself after a few days.", "ko": "그 병은 며칠 후에 증상이 나타났다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1625,
+  "word": "manipulate",
+  "pos": ["동사"],
+  "meanings": [{"pos": "동사", "ko": ["조작하다", "다루다"]}],
+  "examples": [
+   {"en": "He tried to manipulate the data to fit his theory.", "ko": "그는 자신의 이론에 맞게 데이터를 조작하려 했다."},
+   {"en": "It's wrong to manipulate people's feelings.", "ko": "사람들의 감정을 조종하는 것은 옳지 않다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1626,
+  "word": "manner",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["방식", "태도"]}],
+  "examples": [
+   {"en": "He spoke in a polite manner.", "ko": "그는 공손한 태도로 말했다."},
+   {"en": "Good table manners are important.", "ko": "좋은 식사 예절은 중요하다."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1627,
+  "word": "manufacture",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["제조하다"]},
+   {"pos": "명사", "ko": ["제조"]}
+  ],
+  "examples": [
+   {"en": "The factory manufactures cars and trucks.", "ko": "그 공장은 자동차와 트럭을 제조한다."},
+   {"en": "This company manufactures toys for children.", "ko": "이 회사는 어린이용 장난감을 제조한다."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1628,
+  "word": "many",
+  "pos": ["형용사"],
+  "meanings": [{"pos": "형용사", "ko": ["많은"]}],
+  "examples": [
+   {"en": "It has 5 royal palaces and many historic sites.", "ko": "그곳에는 궁궐 다섯 개와 많은 유적지가 있다."},
+   {"en": "I have many friends.", "ko": "나는 친구가 많다."}
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 1629,
+  "word": "map",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["지도"]}],
+  "examples": [
+   {"en": "Look at the map.", "ko": "지도를 봐라."},
+   {"en": "She drew a simple map.", "ko": "그녀는 간단한 지도를 그렸다."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1630,
+  "word": "marathon",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["마라톤"]}],
+  "examples": [
+   {"en": "He ran a marathon.", "ko": "그는 마라톤을 뛰었다."},
+   {"en": "The marathon starts at dawn.", "ko": "마라톤은 새벽에 시작한다."}
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 1631,
+  "word": "margin",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["여백", "차이"]}],
+  "examples": [
+   {"en": "Please leave a wide margin on each page.", "ko": "각 페이지에 넓은 여백을 남겨 주세요."},
+   {"en": "The team won by a narrow margin.", "ko": "그 팀은 근소한 차이로 승리했다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1632,
+  "word": "marine",
+  "pos": ["형용사"],
+  "meanings": [{"pos": "형용사", "ko": ["바다의", "해양의"]}],
+  "examples": [
+   {"en": "Marine life is disappearing due to pollution.", "ko": "해양 생물이 오염으로 사라지고 있다."},
+   {"en": "She studies marine biology at university.", "ko": "그녀는 대학에서 해양 생물학을 공부한다."}
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 1633,
+  "word": "mark",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["표시", "점수"]},
+   {"pos": "동사", "ko": ["표시하다"]}
+  ],
+  "examples": [
+   {"en": "She got a high mark on the test.", "ko": "그녀는 시험에서 높은 점수를 받았다."},
+   {"en": "Please mark the correct answer.", "ko": "정답을 표시해 주세요."}
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 1634,
+  "word": "market",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["시장"]}],
+  "examples": [
+   {"en": "We go to the market.", "ko": "우리는 시장에 간다."},
+   {"en": "The market is crowded today.", "ko": "오늘 시장은 붐빈다."}
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 1635,
+  "word": "marry",
+  "pos": ["동사"],
+  "meanings": [{"pos": "동사", "ko": ["결혼하다"]}],
+  "examples": [
+   {"en": "They will marry next year.", "ko": "그들은 내년에 결혼할 것이다."},
+   {"en": "She married her best friend.", "ko": "그녀는 가장 친한 친구와 결혼했다."}
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 1636,
+  "word": "marvel",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["경탄하다"]},
+   {"pos": "명사", "ko": ["경이"]}
+  ],
+  "examples": [
+   {"en": "We marveled at the beautiful fireworks.", "ko": "우리는 아름다운 불꽃놀이에 감탄했다."},
+   {"en": "The bridge is a marvel of engineering.", "ko": "그 다리는 공학의 경이이다."}
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1637,
+  "word": "mask",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["가면", "마스크"]},
+   {"pos": "동사", "ko": ["가리다"]}
+  ],
+  "examples": [
+   {"en": "He wore a scary mask for Halloween.", "ko": "그는 할로윈을 위해 무서운 가면을 썼다."},
+   {"en": "Please wear a mask indoors.", "ko": "실내에서는 마스크를 착용해 주세요."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 1638,
+  "word": "mass",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["질량", "덩어리"]}],
+  "examples": [
+   {"en": "Scientists measure the mass of the planet.", "ko": "과학자들은 그 행성의 질량을 측정한다."},
+   {"en": "A mass of clouds covered the sky.", "ko": "구름 덩어리가 하늘을 뒤덮었다."}
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 1639,
+  "word": "master",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["주인", "달인"]},
+   {"pos": "동사", "ko": ["숙달하다"]}
+  ],
+  "examples": [
+   {"en": "He wants to master three languages.", "ko": "그는 세 개의 언어를 완전히 익히고 싶어 한다."},
+   {"en": "The dog obeyed its master.", "ko": "그 개는 주인에게 복종했다."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1640,
+  "word": "match",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["경기", "성냥"]},
+   {"pos": "동사", "ko": ["어울리다"]}
+  ],
+  "examples": [
+   {"en": "We watched a soccer match last night.", "ko": "우리는 어젯밤에 축구 경기를 봤다."},
+   {"en": "This shirt doesn't match your pants.", "ko": "이 셔츠는 네 바지와 어울리지 않는다."}
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 1641,
+  "word": "mate",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["친구", "짝"]}],
+  "examples": [
+   {"en": "He is my classmate and best mate.", "ko": "그는 나의 반 친구이자 가장 친한 친구이다."},
+   {"en": "Animals often choose a mate carefully.", "ko": "동물들은 종종 짝을 신중하게 고른다."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 1642,
+  "word": "mathematics",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["수학"]}],
+  "examples": [
+   {"en": "I like mathematics.", "ko": "나는 수학을 좋아한다."},
+   {"en": "Mathematics is my favorite subject.", "ko": "수학은 내가 가장 좋아하는 과목이다."}
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 1643,
+  "word": "math",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["수학"]}],
+  "examples": [
+   {"en": "Math is fun.", "ko": "수학은 재미있다."},
+   {"en": "I have math class now.", "ko": "나는 지금 수학 수업이 있다."}
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 1644,
+  "word": "matter",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["문제", "일"]},
+   {"pos": "동사", "ko": ["중요하다"]}
+  ],
+  "examples": [
+   {"en": "What’s the matter?", "ko": "무슨 일이야?"},
+   {"en": "It doesn't matter to me.", "ko": "그것은 나에게 중요하지 않다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1645,
+  "word": "mature",
+  "pos": ["형용사"],
+  "meanings": [{"pos": "형용사", "ko": ["성숙한"]}],
+  "examples": [
+   {"en": "She is very mature for her age.", "ko": "그녀는 나이에 비해 매우 성숙하다."},
+   {"en": "He handled the problem in a mature way.", "ko": "그는 그 문제를 성숙하게 처리했다."}
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 1646,
+  "word": "maximum",
+  "pos": ["형용사", "명사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["최대의"]},
+   {"pos": "명사", "ko": ["최댓값"]}
+  ],
+  "examples": [
+   {"en": "The maximum speed here is 60 kilometers.", "ko": "이곳의 최대 속도는 시속 60킬로미터이다."},
+   {"en": "You can carry a maximum of two bags.", "ko": "가방을 최대 두 개까지 들 수 있다."}
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 1647,
+  "word": "may",
+  "pos": ["조동사"],
+  "meanings": [{"pos": "조동사", "ko": ["~해도 된다", "~일지도 모른다"]}],
+  "examples": [
+   {"en": "May I have your attention(, please)?", "ko": "주목해 주시겠어요?"},
+   {"en": "It may rain tomorrow.", "ko": "내일 비가 올지도 모른다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1648,
+  "word": "maybe",
+  "pos": ["부사"],
+  "meanings": [{"pos": "부사", "ko": ["아마도"]}],
+  "examples": [
+   {"en": "Maybe we should leave now.", "ko": "아마 우리는 지금 떠나야 할 것 같다."},
+   {"en": "Maybe she forgot about the meeting.", "ko": "아마 그녀는 회의를 잊었을 것이다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 1649,
+  "word": "mayor",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["시장(市長)"]}],
+  "examples": [
+   {"en": "The mayor gave a speech at the ceremony.", "ko": "그 시장은 기념식에서 연설을 했다."},
+   {"en": "She was elected mayor of the city.", "ko": "그녀는 그 도시의 시장으로 선출되었다."}
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 1650,
+  "word": "meal",
+  "pos": ["명사"],
+  "meanings": [{"pos": "명사", "ko": ["식사"]}],
+  "examples": [
+   {"en": "We ate a big meal together.", "ko": "우리는 함께 푸짐한 식사를 했다."},
+   {"en": "Breakfast is the most important meal.", "ko": "아침 식사는 가장 중요한 식사이다."}
+  ],
+  "theme": "음식"
+ }
+]

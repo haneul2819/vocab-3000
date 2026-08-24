@@ -1,0 +1,406 @@
+[
+ {
+  "id": 1551,
+  "word": "left",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "The museum is on the left."
+ },
+ {
+  "id": 1552,
+  "word": "leg",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1553,
+  "word": "legal",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1554,
+  "word": "legend",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1555,
+  "word": "legislate",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1556,
+  "word": "legitimate",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1557,
+  "word": "leisure",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1558,
+  "word": "lemon",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1559,
+  "word": "lend",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1560,
+  "word": "lesson",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1561,
+  "word": "let",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": "Let me help you."
+ },
+ {
+  "id": 1562,
+  "word": "letter",
+  "level": "초등",
+  "derived": [
+   "literal"
+  ],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1563,
+  "word": "level",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1564,
+  "word": "liberal",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1565,
+  "word": "liberty",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1566,
+  "word": "library",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1567,
+  "word": "license",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1568,
+  "word": "lid",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1569,
+  "word": "lie",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1570,
+  "word": "life",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1571,
+  "word": "lift",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1572,
+  "word": "light",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Turn on the light."
+ },
+ {
+  "id": 1573,
+  "word": "like",
+  "level": "초등",
+  "derived": [
+   "likely"
+  ],
+  "max_example_words": 6,
+  "fn_example": "Do you like dancing?"
+ },
+ {
+  "id": 1574,
+  "word": "likewise",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1575,
+  "word": "limit",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1576,
+  "word": "line",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1577,
+  "word": "linguistic",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1578,
+  "word": "link",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1579,
+  "word": "lion",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1580,
+  "word": "lip",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1581,
+  "word": "liquid",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1582,
+  "word": "list",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1583,
+  "word": "listen",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Thanks for listening."
+ },
+ {
+  "id": 1584,
+  "word": "literature",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1585,
+  "word": "little",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 1586,
+  "word": "live",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Once upon a time, there lived a giant."
+ },
+ {
+  "id": 1587,
+  "word": "livingroom",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1588,
+  "word": "load",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1589,
+  "word": "loan",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1590,
+  "word": "local",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1591,
+  "word": "locate",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1592,
+  "word": "lock",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1593,
+  "word": "log",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1594,
+  "word": "logic",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1595,
+  "word": "lone",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 1596,
+  "word": "long",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Mary has long brown hair."
+ },
+ {
+  "id": 1597,
+  "word": "look",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "I’ve been looking forward to meeting you."
+ },
+ {
+  "id": 1598,
+  "word": "loose",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1599,
+  "word": "lose",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 1600,
+  "word": "loss",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ }
+]

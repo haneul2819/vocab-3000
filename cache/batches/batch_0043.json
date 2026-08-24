@@ -1,0 +1,670 @@
+[
+ {
+  "id": 2101,
+  "word": "pump",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["펌프"]},
+   {"pos": "동사", "ko": ["펌프질하다", "퍼올리다"]}
+  ],
+  "examples": [
+   {"en": "He used a pump to fill the tire.", "ko": "그는 타이어를 채우기 위해 펌프를 사용했다."},
+   {"en": "The workers pumped water out of the basement.", "ko": "작업자들은 지하실에서 물을 퍼냈다."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2102,
+  "word": "punch",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["주먹질", "펀치"]},
+   {"pos": "동사", "ko": ["주먹으로 치다"]}
+  ],
+  "examples": [
+   {"en": "The boxer threw a strong punch.", "ko": "그 권투 선수는 강한 주먹을 날렸다."},
+   {"en": "He accidentally punched the wall.", "ko": "그는 실수로 벽을 쳤다."}
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2103,
+  "word": "punish",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["벌주다", "처벌하다"]}
+  ],
+  "examples": [
+   {"en": "The teacher will punish students who cheat.", "ko": "선생님은 부정행위를 한 학생들을 벌줄 것이다."},
+   {"en": "She was punished for being late again.", "ko": "그녀는 또 지각해서 벌을 받았다."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2104,
+  "word": "pupil",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["학생", "눈동자"]}
+  ],
+  "examples": [
+   {"en": "Every pupil in the class received a new book.", "ko": "학급의 모든 학생이 새 책을 받았다."},
+   {"en": "Her pupils grew smaller in the bright light.", "ko": "밝은 빛 속에서 그녀의 눈동자가 작아졌다."}
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2105,
+  "word": "puppy",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["강아지"]}
+  ],
+  "examples": [
+   {"en": "The puppy is so cute.", "ko": "그 강아지는 정말 귀엽다."},
+   {"en": "I have a new puppy.", "ko": "나는 새 강아지가 있다."}
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 2106,
+  "word": "purchase",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["구매하다", "사다"]},
+   {"pos": "명사", "ko": ["구매"]}
+  ],
+  "examples": [
+   {"en": "She purchased a new laptop yesterday.", "ko": "그녀는 어제 새 노트북을 구매했다."},
+   {"en": "This was my biggest purchase this year.", "ko": "이것은 올해 나의 가장 큰 구매였다."}
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2107,
+  "word": "pure",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["순수한", "깨끗한"]}
+  ],
+  "examples": [
+   {"en": "The water in the mountain is pure.", "ko": "산속의 물은 순수하다."},
+   {"en": "This ring is made of pure gold.", "ko": "이 반지는 순금으로 만들어졌다."}
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2108,
+  "word": "purple",
+  "pos": ["형용사", "명사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["보라색의"]},
+   {"pos": "명사", "ko": ["보라색"]}
+  ],
+  "examples": [
+   {"en": "She wore a purple dress to the party.", "ko": "그녀는 파티에 보라색 드레스를 입고 갔다."},
+   {"en": "Purple is my favorite color.", "ko": "보라색은 내가 가장 좋아하는 색이다."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2109,
+  "word": "purpose",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["목적"]}
+  ],
+  "examples": [
+   {"en": "What is the purpose of this meeting?", "ko": "이 회의의 목적은 무엇인가?"},
+   {"en": "His main purpose was to help others.", "ko": "그의 주된 목적은 다른 사람들을 돕는 것이었다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2110,
+  "word": "pursue",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["추구하다", "쫓다"]}
+  ],
+  "examples": [
+   {"en": "She decided to pursue a career in music.", "ko": "그녀는 음악 분야의 진로를 추구하기로 결심했다."},
+   {"en": "The police pursued the car for miles.", "ko": "경찰은 그 차를 몇 마일 동안 쫓았다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2111,
+  "word": "push",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["밀다"]}
+  ],
+  "examples": [
+   {"en": "Push the door open.", "ko": "문을 밀어서 열어라."},
+   {"en": "He pushed the cart slowly.", "ko": "그는 카트를 천천히 밀었다."}
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2112,
+  "word": "put",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["놓다", "두다"]}
+  ],
+  "examples": [
+   {"en": "Put the book on the desk.", "ko": "책을 책상 위에 놓아라."},
+   {"en": "She put her bag down.", "ko": "그녀는 가방을 내려놓았다."}
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2113,
+  "word": "puzzle",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["퍼즐", "수수께끼"]},
+   {"pos": "동사", "ko": ["당혹하게 하다"]}
+  ],
+  "examples": [
+   {"en": "We finished the puzzle together.", "ko": "우리는 함께 퍼즐을 완성했다."},
+   {"en": "The strange question puzzled everyone.", "ko": "그 이상한 질문은 모두를 당혹하게 했다."}
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2114,
+  "word": "quality",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["품질", "질"]}
+  ],
+  "examples": [
+   {"en": "This store sells high quality shoes.", "ko": "이 가게는 품질 좋은 신발을 판다."},
+   {"en": "The quality of the food was excellent.", "ko": "음식의 품질이 훌륭했다."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2115,
+  "word": "quantity",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["양", "수량"]}
+  ],
+  "examples": [
+   {"en": "We need a large quantity of paper.", "ko": "우리는 많은 양의 종이가 필요하다."},
+   {"en": "The quantity of rain this year was huge.", "ko": "올해 강수량은 엄청났다."}
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2116,
+  "word": "quarter",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["4분의 1", "15분"]}
+  ],
+  "examples": [
+   {"en": "What time is it? A quarter to six.", "ko": "몇 시야? 6시 15분 전이야."},
+   {"en": "She ate a quarter of the pizza.", "ko": "그녀는 피자의 4분의 1을 먹었다."}
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2117,
+  "word": "queen",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["여왕"]}
+  ],
+  "examples": [
+   {"en": "The queen lives in a castle.", "ko": "여왕은 성에 산다."},
+   {"en": "We saw the queen on TV.", "ko": "우리는 TV에서 여왕을 보았다."}
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 2118,
+  "word": "question",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["질문"]},
+   {"pos": "동사", "ko": ["질문하다", "의심하다"]}
+  ],
+  "examples": [
+   {"en": "I have a question.", "ko": "나는 질문이 있다."},
+   {"en": "The teacher asked us many questions.", "ko": "선생님은 우리에게 많은 질문을 했다."}
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2119,
+  "word": "questionnaire",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["설문지"]}
+  ],
+  "examples": [
+   {"en": "Please fill out this questionnaire before you leave.", "ko": "떠나기 전에 이 설문지를 작성해 주세요."},
+   {"en": "The survey used a short questionnaire.", "ko": "그 조사는 짧은 설문지를 사용했다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2120,
+  "word": "quick",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["빠른"]}
+  ],
+  "examples": [
+   {"en": "She is a quick runner.", "ko": "그녀는 빠른 달리기 선수다."},
+   {"en": "He gave a quick answer.", "ko": "그는 빠르게 대답했다."}
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2121,
+  "word": "quiet",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["조용한"]}
+  ],
+  "examples": [
+   {"en": "The library is very quiet.", "ko": "도서관은 매우 조용하다."},
+   {"en": "Please be quiet in class.", "ko": "수업 중에는 조용히 해주세요."}
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2122,
+  "word": "quit",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["그만두다"]}
+  ],
+  "examples": [
+   {"en": "He quit his job last month.", "ko": "그는 지난달에 직장을 그만두었다."},
+   {"en": "She decided to quit smoking.", "ko": "그녀는 흡연을 그만두기로 결심했다."}
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 2123,
+  "word": "quite",
+  "pos": ["부사"],
+  "meanings": [
+   {"pos": "부사", "ko": ["꽤", "상당히"]}
+  ],
+  "examples": [
+   {"en": "The movie was quite interesting.", "ko": "그 영화는 꽤 흥미로웠다."},
+   {"en": "It is quite cold today.", "ko": "오늘은 꽤 춥다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2124,
+  "word": "quiz",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["퀴즈", "쪽지 시험"]}
+  ],
+  "examples": [
+   {"en": "We have a math quiz today.", "ko": "오늘 수학 퀴즈가 있다."},
+   {"en": "She passed the quiz easily.", "ko": "그녀는 퀴즈를 쉽게 통과했다."}
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2125,
+  "word": "quote",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["인용하다"]},
+   {"pos": "명사", "ko": ["인용구", "명언"]}
+  ],
+  "examples": [
+   {"en": "She quoted a famous writer in her essay.", "ko": "그녀는 에세이에서 유명한 작가를 인용했다."},
+   {"en": "He wrote his favorite quote on the wall.", "ko": "그는 자신이 가장 좋아하는 명언을 벽에 적었다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2126,
+  "word": "rabbit",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["토끼"]}
+  ],
+  "examples": [
+   {"en": "The rabbit is white.", "ko": "그 토끼는 하얗다."},
+   {"en": "We fed the rabbit some carrots.", "ko": "우리는 토끼에게 당근을 주었다."}
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 2127,
+  "word": "race",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["경주", "인종"]},
+   {"pos": "동사", "ko": ["경주하다"]}
+  ],
+  "examples": [
+   {"en": "He won the race.", "ko": "그는 경주에서 이겼다."},
+   {"en": "The two boys raced to school.", "ko": "두 소년은 학교까지 경주했다."}
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2128,
+  "word": "radio",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["라디오"]}
+  ],
+  "examples": [
+   {"en": "I like this radio.", "ko": "나는 이 라디오를 좋아한다."},
+   {"en": "We listened to the radio.", "ko": "우리는 라디오를 들었다."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2129,
+  "word": "rage",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["분노", "격노"]},
+   {"pos": "동사", "ko": ["격노하다"]}
+  ],
+  "examples": [
+   {"en": "He was filled with rage after the loss.", "ko": "그는 패배 후 분노로 가득 찼다."},
+   {"en": "The storm raged all night long.", "ko": "폭풍이 밤새도록 격렬하게 몰아쳤다."}
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2130,
+  "word": "rail",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["철로", "난간"]}
+  ],
+  "examples": [
+   {"en": "The train runs along the rail every day.", "ko": "기차는 매일 철로를 따라 달린다."},
+   {"en": "Hold onto the rail as you go down.", "ko": "내려갈 때 난간을 잡아라."}
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 2131,
+  "word": "rain",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["비"]},
+   {"pos": "동사", "ko": ["비가 오다"]}
+  ],
+  "examples": [
+   {"en": "It will rain tomorrow.", "ko": "내일 비가 올 것이다."},
+   {"en": "We played in the rain.", "ko": "우리는 빗속에서 놀았다."}
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2132,
+  "word": "rainbow",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["무지개"]}
+  ],
+  "examples": [
+   {"en": "We saw a beautiful rainbow after the rain.", "ko": "비가 온 후 우리는 아름다운 무지개를 보았다."},
+   {"en": "The rainbow had seven colors.", "ko": "그 무지개는 일곱 가지 색깔이었다."}
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2133,
+  "word": "raise",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["들어 올리다", "기르다"]},
+   {"pos": "명사", "ko": ["인상", "급여 인상"]}
+  ],
+  "examples": [
+   {"en": "Please raise your hand to answer.", "ko": "대답하려면 손을 들어 주세요."},
+   {"en": "She raised three children by herself.", "ko": "그녀는 혼자서 세 아이를 길렀다."}
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2134,
+  "word": "rally",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["집회"]},
+   {"pos": "동사", "ko": ["집결하다", "결집시키다"]}
+  ],
+  "examples": [
+   {"en": "Thousands attended the political rally downtown.", "ko": "수천 명이 시내에서 열린 정치 집회에 참석했다."},
+   {"en": "The coach rallied the team before the game.", "ko": "코치는 경기 전에 팀을 결집시켰다."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2135,
+  "word": "random",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["무작위의", "임의의"]}
+  ],
+  "examples": [
+   {"en": "The winner was chosen at random.", "ko": "우승자는 무작위로 선택되었다."},
+   {"en": "She asked a random question in class.", "ko": "그녀는 수업 중에 무작위로 질문을 했다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2136,
+  "word": "range",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["범위", "다양성"]},
+   {"pos": "동사", "ko": ["범위가 ~에 이르다"]}
+  ],
+  "examples": [
+   {"en": "The store sells a wide range of shoes.", "ko": "그 가게는 다양한 신발을 판다."},
+   {"en": "Prices range from ten to fifty dollars.", "ko": "가격은 10달러에서 50달러까지 다양하다."}
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2137,
+  "word": "rank",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["등급", "순위"]},
+   {"pos": "동사", "ko": ["순위를 매기다"]}
+  ],
+  "examples": [
+   {"en": "She holds a high rank in the army.", "ko": "그녀는 군대에서 높은 계급을 가지고 있다."},
+   {"en": "The team ranked first in the league.", "ko": "그 팀은 리그에서 1위를 차지했다."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2138,
+  "word": "rapid",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["빠른", "급속한"]}
+  ],
+  "examples": [
+   {"en": "The city saw rapid growth this year.", "ko": "그 도시는 올해 급속한 성장을 보였다."},
+   {"en": "His heart beat at a rapid pace.", "ko": "그의 심장은 빠른 속도로 뛰었다."}
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2139,
+  "word": "rare",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["드문", "희귀한"]}
+  ],
+  "examples": [
+   {"en": "This bird is a rare species.", "ko": "이 새는 희귀한 종이다."},
+   {"en": "It is rare for him to be late.", "ko": "그가 늦는 것은 드문 일이다."}
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2140,
+  "word": "rat",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["쥐"]}
+  ],
+  "examples": [
+   {"en": "A rat ran across the kitchen floor.", "ko": "쥐 한 마리가 부엌 바닥을 가로질러 달렸다."},
+   {"en": "The cat chased the rat outside.", "ko": "고양이는 쥐를 밖으로 쫓아냈다."}
+  ],
+  "theme": "동물"
+ },
+ {
+  "id": 2141,
+  "word": "rate",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["비율", "속도", "요금"]},
+   {"pos": "동사", "ko": ["평가하다"]}
+  ],
+  "examples": [
+   {"en": "The bank offers a low interest rate.", "ko": "그 은행은 낮은 이자율을 제공한다."},
+   {"en": "Critics rated the movie very highly.", "ko": "평론가들은 그 영화를 매우 높이 평가했다."}
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 2142,
+  "word": "rather",
+  "pos": ["부사"],
+  "meanings": [
+   {"pos": "부사", "ko": ["오히려", "다소"]}
+  ],
+  "examples": [
+   {"en": "I would rather stay home tonight.", "ko": "나는 오늘 밤 차라리 집에 있고 싶다."},
+   {"en": "The test was rather difficult for us.", "ko": "그 시험은 우리에게 다소 어려웠다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2143,
+  "word": "rational",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["이성적인", "합리적인"]}
+  ],
+  "examples": [
+   {"en": "Try to make a rational decision, not an emotional one.", "ko": "감정적이 아니라 이성적인 결정을 내리려고 해보라."},
+   {"en": "Her argument was clear and rational.", "ko": "그녀의 주장은 명확하고 합리적이었다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2144,
+  "word": "raw",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["날것의", "가공되지 않은"]}
+  ],
+  "examples": [
+   {"en": "Sushi is made with raw fish.", "ko": "초밥은 날생선으로 만든다."},
+   {"en": "The factory processes raw materials into products.", "ko": "그 공장은 원자재를 제품으로 가공한다."}
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2145,
+  "word": "reach",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["도달하다", "닿다"]},
+   {"pos": "명사", "ko": ["범위", "손 닿는 거리"]}
+  ],
+  "examples": [
+   {"en": "We reached the top of the mountain.", "ko": "우리는 산 정상에 도달했다."},
+   {"en": "The shelf is out of my reach.", "ko": "그 선반은 내 손이 닿지 않는 곳에 있다."}
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2146,
+  "word": "react",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["반응하다"]}
+  ],
+  "examples": [
+   {"en": "How did she react to the news?", "ko": "그녀는 그 소식에 어떻게 반응했는가?"},
+   {"en": "The audience reacted with loud applause.", "ko": "관객들은 큰 박수로 반응했다."}
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2147,
+  "word": "read",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["읽다"]}
+  ],
+  "examples": [
+   {"en": "I read books every day.", "ko": "나는 매일 책을 읽는다."},
+   {"en": "She reads a story to her son.", "ko": "그녀는 아들에게 이야기를 읽어준다."}
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2148,
+  "word": "ready",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["준비된"]}
+  ],
+  "examples": [
+   {"en": "Are you ready to go?", "ko": "너는 갈 준비가 되었니?"},
+   {"en": "Dinner is ready now.", "ko": "저녁 식사가 이제 준비되었다."}
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2149,
+  "word": "real",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["진짜의", "실제의"]}
+  ],
+  "examples": [
+   {"en": "This is a real diamond.", "ko": "이것은 진짜 다이아몬드이다."},
+   {"en": "He told us a real story.", "ko": "그는 우리에게 실제 이야기를 해주었다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2150,
+  "word": "rear",
+  "pos": ["명사", "형용사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["뒤쪽"]},
+   {"pos": "형용사", "ko": ["뒤쪽의"]},
+   {"pos": "동사", "ko": ["기르다", "키우다"]}
+  ],
+  "examples": [
+   {"en": "The kids sat in the rear of the bus.", "ko": "아이들은 버스 뒤쪽에 앉았다."},
+   {"en": "Farmers rear cattle on this land.", "ko": "농부들은 이 땅에서 소를 기른다."}
+  ],
+  "theme": "장소"
+ }
+]

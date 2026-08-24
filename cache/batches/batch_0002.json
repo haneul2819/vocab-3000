@@ -1,0 +1,1436 @@
+[
+ {
+  "id": 51,
+  "word": "advantage",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "장점",
+     "이점"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Speaking two languages gives you a big advantage.",
+    "ko": "두 언어를 구사하는 것은 큰 장점이 된다."
+   },
+   {
+    "en": "Try to take advantage of every opportunity you get.",
+    "ko": "얻는 모든 기회를 최대한 활용하려고 노력해라."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 52,
+  "word": "adventure",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "모험"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The movie tells the story of a great adventure.",
+    "ko": "그 영화는 위대한 모험 이야기를 담고 있다."
+   },
+   {
+    "en": "We had an amazing adventure in the mountains last summer.",
+    "ko": "우리는 지난여름 산에서 놀라운 모험을 했다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 53,
+  "word": "adverse",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "불리한",
+     "부정적인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The medicine can cause adverse effects in some patients.",
+    "ko": "그 약은 일부 환자에게 부작용을 일으킬 수 있다."
+   },
+   {
+    "en": "The trip was cancelled due to adverse weather conditions.",
+    "ko": "그 여행은 악천후 때문에 취소되었다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 54,
+  "word": "advertize",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "광고하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The company will advertize its new product on TV.",
+    "ko": "그 회사는 새 제품을 TV에서 광고할 것이다."
+   },
+   {
+    "en": "They advertized the concert on social media.",
+    "ko": "그들은 소셜 미디어에서 그 콘서트를 광고했다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 55,
+  "word": "advice",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "조언",
+     "충고"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Could you give me some advice?",
+    "ko": "저에게 조언 좀 해주실 수 있나요?"
+   },
+   {
+    "en": "My teacher gave me useful advice about studying.",
+    "ko": "선생님이 공부에 관한 유용한 조언을 해주셨다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 56,
+  "word": "advise",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "조언하다",
+     "충고하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The doctor advised him to get more rest.",
+    "ko": "의사는 그에게 더 많이 쉬라고 조언했다."
+   },
+   {
+    "en": "I would advise you to save some money.",
+    "ko": "나는 네게 돈을 좀 저축하라고 권하고 싶다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 57,
+  "word": "advocate",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "옹호자"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "옹호하다",
+     "지지하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She is a strong advocate for children's education.",
+    "ko": "그녀는 아동 교육을 강력히 옹호하는 사람이다."
+   },
+   {
+    "en": "He advocates for cleaner air in the city.",
+    "ko": "그는 도시의 더 깨끗한 공기를 옹호한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 58,
+  "word": "aesthetic",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "미적인",
+     "심미적인"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The garden was designed with great aesthetic care.",
+    "ko": "그 정원은 뛰어난 미적 감각으로 설계되었다."
+   },
+   {
+    "en": "She has a strong sense of aesthetic style.",
+    "ko": "그녀는 강한 미적 스타일 감각을 가지고 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 59,
+  "word": "affair",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "일",
+     "사건"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The meeting was about a serious business affair.",
+    "ko": "그 회의는 중대한 사업 문제에 관한 것이었다."
+   },
+   {
+    "en": "Foreign affairs are discussed in the news every day.",
+    "ko": "외교 문제는 매일 뉴스에서 다루어진다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 60,
+  "word": "affect",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "영향을 미치다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The rain will affect our plans for tomorrow.",
+    "ko": "비는 내일 우리의 계획에 영향을 미칠 것이다."
+   },
+   {
+    "en": "Lack of sleep can affect your health seriously.",
+    "ko": "수면 부족은 건강에 심각한 영향을 미칠 수 있다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 61,
+  "word": "afford",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "여유가 있다",
+     "감당하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We can't afford a new car right now.",
+    "ko": "우리는 지금 새 차를 살 여유가 없다."
+   },
+   {
+    "en": "She saved money so she could afford the trip.",
+    "ko": "그녀는 그 여행을 감당할 수 있도록 돈을 모았다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 62,
+  "word": "afraid",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "두려운",
+     "무서워하는"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Don't be afraid of the dark.",
+    "ko": "어둠을 두려워하지 마."
+   },
+   {
+    "en": "I am afraid of spiders.",
+    "ko": "나는 거미가 무섭다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 63,
+  "word": "after",
+  "pos": [
+   "전치사",
+   "접속사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~후에"
+    ]
+   },
+   {
+    "pos": "접속사",
+    "ko": [
+     "~한 후에"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We eat dinner after six.",
+    "ko": "우리는 6시 이후에 저녁을 먹는다."
+   },
+   {
+    "en": "Wash your hands after lunch.",
+    "ko": "점심 식사 후에 손을 씻어라."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 64,
+  "word": "afternoon",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "오후"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "See you this afternoon.",
+    "ko": "오늘 오후에 보자."
+   },
+   {
+    "en": "I play soccer in the afternoon.",
+    "ko": "나는 오후에 축구를 한다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 65,
+  "word": "again",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "다시"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Would you say that again(, please)?",
+    "ko": "다시 한번 말씀해 주시겠어요?"
+   },
+   {
+    "en": "Let's try that again.",
+    "ko": "그것을 다시 한번 해보자."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 66,
+  "word": "against",
+  "pos": [
+   "전치사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~에 반대하여",
+     "~에 기대어"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "He leaned against the wall.",
+    "ko": "그는 벽에 기대어 섰다."
+   },
+   {
+    "en": "We played against a strong team.",
+    "ko": "우리는 강한 팀과 맞서 경기했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 67,
+  "word": "age",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "나이",
+     "시대"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "나이가 들다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "What is your age?",
+    "ko": "너는 나이가 몇 살이니?"
+   },
+   {
+    "en": "People age differently over time.",
+    "ko": "사람들은 시간이 지나면서 다르게 나이가 든다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 68,
+  "word": "agency",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "대행사",
+     "기관"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She works for a travel agency downtown.",
+    "ko": "그녀는 시내에 있는 여행사에서 일한다."
+   },
+   {
+    "en": "The agency helps people find good jobs.",
+    "ko": "그 기관은 사람들이 좋은 일자리를 찾도록 돕는다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 69,
+  "word": "agenda",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "안건",
+     "의제"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The next item on the agenda is the budget.",
+    "ko": "다음 안건은 예산에 관한 것이다."
+   },
+   {
+    "en": "We need to finish today's agenda before lunch.",
+    "ko": "우리는 점심 전에 오늘의 안건을 끝내야 한다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 70,
+  "word": "agent",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "대리인",
+     "요원"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The travel agent booked our flights and hotel.",
+    "ko": "그 여행사 직원이 우리 항공권과 호텔을 예약했다."
+   },
+   {
+    "en": "A secret agent was watching the building.",
+    "ko": "비밀 요원이 그 건물을 감시하고 있었다."
+   }
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 71,
+  "word": "aggress",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "공격하다",
+     "싸움을 걸다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Some animals aggress when they feel threatened.",
+    "ko": "일부 동물들은 위협을 느끼면 공격적으로 행동한다."
+   },
+   {
+    "en": "The dog did not aggress toward the strangers.",
+    "ko": "그 개는 낯선 사람들에게 공격적으로 행동하지 않았다."
+   }
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 72,
+  "word": "ago",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "~전에"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I saw her a week ago.",
+    "ko": "나는 일주일 전에 그녀를 봤다."
+   },
+   {
+    "en": "He left an hour ago.",
+    "ko": "그는 한 시간 전에 떠났다."
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 73,
+  "word": "agree",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "동의하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "(Yes,) I agree.",
+    "ko": "(응,) 나도 그렇게 생각해."
+   },
+   {
+    "en": "Do you agree with me?",
+    "ko": "너는 나에게 동의하니?"
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 74,
+  "word": "agriculture",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "농업"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Agriculture is an important industry in this region.",
+    "ko": "농업은 이 지역에서 중요한 산업이다."
+   },
+   {
+    "en": "Modern agriculture uses a lot of new technology.",
+    "ko": "현대 농업은 많은 새로운 기술을 사용한다."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 75,
+  "word": "ahead",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "앞으로",
+     "앞에"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It’s straight ahead.",
+    "ko": "곧장 앞으로 가면 있어요."
+   },
+   {
+    "en": "Look ahead before you cross.",
+    "ko": "건너기 전에 앞을 살펴봐라."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 76,
+  "word": "aid",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "도움",
+     "원조"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "돕다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The country received aid after the earthquake.",
+    "ko": "그 나라는 지진 후 원조를 받았다."
+   },
+   {
+    "en": "Volunteers aided the victims of the flood.",
+    "ko": "자원봉사자들은 홍수 피해자들을 도왔다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 77,
+  "word": "aim",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "목표"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "목표로 하다",
+     "겨냥하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Our aim is to finish the project by Friday.",
+    "ko": "우리의 목표는 금요일까지 프로젝트를 끝내는 것이다."
+   },
+   {
+    "en": "He aimed the ball at the basket.",
+    "ko": "그는 공을 바스켓을 향해 겨냥했다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 78,
+  "word": "air",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "공기"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The air is clean here.",
+    "ko": "여기 공기는 깨끗하다."
+   },
+   {
+    "en": "Open the window for fresh air.",
+    "ko": "신선한 공기를 위해 창문을 열어라."
+   }
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 79,
+  "word": "airline",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "항공사"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The airline canceled our flight due to the storm.",
+    "ko": "그 항공사는 폭풍 때문에 우리 항공편을 취소했다."
+   },
+   {
+    "en": "This airline offers cheap tickets to Europe.",
+    "ko": "이 항공사는 유럽행 저렴한 항공권을 제공한다."
+   }
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 80,
+  "word": "airplane",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "비행기"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I like flying in an airplane.",
+    "ko": "나는 비행기를 타고 나는 것을 좋아한다."
+   },
+   {
+    "en": "The airplane landed safely.",
+    "ko": "비행기가 안전하게 착륙했다."
+   }
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 81,
+  "word": "airport",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "공항"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We arrived at the airport two hours early.",
+    "ko": "우리는 공항에 두 시간 일찍 도착했다."
+   },
+   {
+    "en": "My uncle works at the airport as a pilot.",
+    "ko": "삼촌은 공항에서 조종사로 일한다."
+   }
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 82,
+  "word": "alarm",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "경보",
+     "알람"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "놀라게 하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My alarm went off at six this morning.",
+    "ko": "오늘 아침 6시에 내 알람이 울렸다."
+   },
+   {
+    "en": "The loud noise alarmed everyone in the room.",
+    "ko": "그 큰 소음은 방 안의 모두를 놀라게 했다."
+   }
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 83,
+  "word": "album",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "앨범"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I bought her new album.",
+    "ko": "나는 그녀의 새 앨범을 샀다."
+   },
+   {
+    "en": "This photo album is old.",
+    "ko": "이 사진 앨범은 오래됐다."
+   }
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 84,
+  "word": "alcohol",
+  "pos": [
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "술",
+     "알코올"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Teenagers should not drink alcohol.",
+    "ko": "청소년들은 술을 마시면 안 된다."
+   },
+   {
+    "en": "This drink contains no alcohol at all.",
+    "ko": "이 음료에는 알코올이 전혀 들어 있지 않다."
+   }
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 85,
+  "word": "alert",
+  "pos": [
+   "형용사",
+   "명사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "기민한",
+     "경계하는"
+    ]
+   },
+   {
+    "pos": "명사",
+    "ko": [
+     "경보"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The guard stayed alert all night at the gate.",
+    "ko": "경비원은 밤새 문에서 경계 태세를 유지했다."
+   },
+   {
+    "en": "The weather service issued a storm alert this morning.",
+    "ko": "기상청은 오늘 아침 폭풍 경보를 발령했다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 86,
+  "word": "alien",
+  "pos": [
+   "명사",
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "외계인",
+     "외국인"
+    ]
+   },
+   {
+    "pos": "형용사",
+    "ko": [
+     "외계의",
+     "낯선"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The movie is about an alien from another planet.",
+    "ko": "그 영화는 다른 행성에서 온 외계인에 관한 것이다."
+   },
+   {
+    "en": "This custom seemed alien to the visitors.",
+    "ko": "이 관습은 방문객들에게 낯설게 느껴졌다."
+   }
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 87,
+  "word": "alike",
+  "pos": [
+   "형용사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "비슷한"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "똑같이"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The twins look very alike to strangers.",
+    "ko": "그 쌍둥이는 낯선 사람들에게 매우 닮아 보인다."
+   },
+   {
+    "en": "Teachers should treat all students alike.",
+    "ko": "교사는 모든 학생을 똑같이 대해야 한다."
+   }
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 88,
+  "word": "alive",
+  "pos": [
+   "형용사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "살아있는"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The old man is still alive at ninety.",
+    "ko": "그 노인은 아흔 살에도 여전히 살아 있다."
+   },
+   {
+    "en": "Keep the plant alive by watering it daily.",
+    "ko": "매일 물을 주어 그 식물을 살려 두어라."
+   }
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 89,
+  "word": "all",
+  "pos": [
+   "한정사",
+   "대명사"
+  ],
+  "meanings": [
+   {
+    "pos": "한정사",
+    "ko": [
+     "모든"
+    ]
+   },
+   {
+    "pos": "대명사",
+    "ko": [
+     "전부"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Not at all.",
+    "ko": "전혀 아니야."
+   },
+   {
+    "en": "All the kids are here.",
+    "ko": "모든 아이들이 여기 있다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 90,
+  "word": "allocate",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "할당하다",
+     "배분하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The government will allocate more money to schools.",
+    "ko": "정부는 학교에 더 많은 돈을 배분할 것이다."
+   },
+   {
+    "en": "Each team member was allocated a different task.",
+    "ko": "각 팀원에게 다른 과제가 할당되었다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 91,
+  "word": "allow",
+  "pos": [
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "동사",
+    "ko": [
+     "허락하다",
+     "허용하다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "My parents allow me to stay up late on Fridays.",
+    "ko": "부모님은 금요일에는 늦게까지 자지 않아도 허락하신다."
+   },
+   {
+    "en": "Pets are not allowed in this restaurant.",
+    "ko": "이 식당에는 애완동물이 허용되지 않는다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 92,
+  "word": "ally",
+  "pos": [
+   "명사",
+   "동사"
+  ],
+  "meanings": [
+   {
+    "pos": "명사",
+    "ko": [
+     "동맹국",
+     "동맹자"
+    ]
+   },
+   {
+    "pos": "동사",
+    "ko": [
+     "동맹을 맺다"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The two nations have been allies for decades.",
+    "ko": "그 두 나라는 수십 년 동안 동맹국이었다."
+   },
+   {
+    "en": "The small countries allied to protect their trade.",
+    "ko": "그 작은 나라들은 무역을 보호하기 위해 동맹을 맺었다."
+   }
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 93,
+  "word": "almost",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "거의"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "It's almost time for dinner.",
+    "ko": "거의 저녁 먹을 시간이다."
+   },
+   {
+    "en": "I almost missed the bus.",
+    "ko": "나는 버스를 거의 놓칠 뻔했다."
+   }
+  ],
+  "theme": "수량"
+ },
+ {
+  "id": 94,
+  "word": "alone",
+  "pos": [
+   "형용사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "혼자인"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "혼자서"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "She lives alone.",
+    "ko": "그녀는 혼자 산다."
+   },
+   {
+    "en": "I want to be alone.",
+    "ko": "나는 혼자 있고 싶다."
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 95,
+  "word": "along",
+  "pos": [
+   "전치사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~을 따라"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "함께"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "We walked along the beach.",
+    "ko": "우리는 해변을 따라 걸었다."
+   },
+   {
+    "en": "Come along with us.",
+    "ko": "우리와 함께 가자."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 96,
+  "word": "alongside",
+  "pos": [
+   "전치사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "전치사",
+    "ko": [
+     "~옆에",
+     "~와 함께"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "나란히"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The small boat sailed alongside the huge ship.",
+    "ko": "그 작은 배는 거대한 배 옆에서 나란히 항해했다."
+   },
+   {
+    "en": "She worked alongside famous scientists for years.",
+    "ko": "그녀는 몇 년 동안 유명한 과학자들과 함께 일했다."
+   }
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 97,
+  "word": "aloud",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "소리 내어"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "The teacher asked him to read aloud.",
+    "ko": "선생님은 그에게 소리 내어 읽으라고 했다."
+   },
+   {
+    "en": "She thought aloud while solving the puzzle.",
+    "ko": "그녀는 퍼즐을 풀면서 소리 내어 생각했다."
+   }
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 98,
+  "word": "already",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "이미",
+     "벌써"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I have already finished my homework.",
+    "ko": "나는 이미 숙제를 끝냈다."
+   },
+   {
+    "en": "Is it already noon?",
+    "ko": "벌써 정오야?"
+   }
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 99,
+  "word": "alright",
+  "pos": [
+   "형용사",
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "형용사",
+    "ko": [
+     "괜찮은"
+    ]
+   },
+   {
+    "pos": "부사",
+    "ko": [
+     "괜찮게"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "Everything will be alright.",
+    "ko": "모든 게 다 괜찮을 거야."
+   },
+   {
+    "en": "Are you alright now?",
+    "ko": "너 이제 괜찮아?"
+   }
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 100,
+  "word": "also",
+  "pos": [
+   "부사"
+  ],
+  "meanings": [
+   {
+    "pos": "부사",
+    "ko": [
+     "또한",
+     "역시"
+    ]
+   }
+  ],
+  "examples": [
+   {
+    "en": "I also like pizza.",
+    "ko": "나도 피자를 좋아한다."
+   },
+   {
+    "en": "She is also my friend.",
+    "ko": "그녀는 또한 내 친구이기도 하다."
+   }
+  ],
+  "theme": "소통"
+ }
+]

@@ -1,0 +1,402 @@
+[
+ {
+  "id": 2951,
+  "word": "why",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Why are we waiting?"
+ },
+ {
+  "id": 2952,
+  "word": "wicked",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 2953,
+  "word": "wide",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2954,
+  "word": "wife",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 2955,
+  "word": "wild",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2956,
+  "word": "will",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Things will be better (soon)."
+ },
+ {
+  "id": 2957,
+  "word": "win",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 2958,
+  "word": "wind",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 2959,
+  "word": "window",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Would you mind closing the window?"
+ },
+ {
+  "id": 2960,
+  "word": "wine",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 2961,
+  "word": "wing",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2962,
+  "word": "winter",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 2963,
+  "word": "wipe",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2964,
+  "word": "wire",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2965,
+  "word": "wise",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2966,
+  "word": "wish",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 2967,
+  "word": "wit",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 2968,
+  "word": "with",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "I agree with you."
+ },
+ {
+  "id": 2969,
+  "word": "withdraw",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 2970,
+  "word": "within",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2971,
+  "word": "without",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2972,
+  "word": "witness",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 2973,
+  "word": "woman",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 2974,
+  "word": "wonder",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": "Excuse me. I wonder if you could help me."
+ },
+ {
+  "id": 2975,
+  "word": "wood",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 2976,
+  "word": "wool",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2977,
+  "word": "word",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 2978,
+  "word": "work",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Anyway, I should get back to work."
+ },
+ {
+  "id": 2979,
+  "word": "world",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 2980,
+  "word": "worry",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Don’t worry."
+ },
+ {
+  "id": 2981,
+  "word": "worship",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 2982,
+  "word": "worth",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2983,
+  "word": "would",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": "Would you mind closing the window?"
+ },
+ {
+  "id": 2984,
+  "word": "wound",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2985,
+  "word": "wrap",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2986,
+  "word": "wreck",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 2987,
+  "word": "write",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Could you write that down (for me), please?"
+ },
+ {
+  "id": 2988,
+  "word": "wrong",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "You’re wrong."
+ },
+ {
+  "id": 2989,
+  "word": "year",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "My father is 45 years old."
+ },
+ {
+  "id": 2990,
+  "word": "yell",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2991,
+  "word": "yellow",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 2992,
+  "word": "yes",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "(Yes,) I agree."
+ },
+ {
+  "id": 2993,
+  "word": "yesterday",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 2994,
+  "word": "yet",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2995,
+  "word": "yield",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ },
+ {
+  "id": 2996,
+  "word": "you",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": "Do you have the time?"
+ },
+ {
+  "id": 2997,
+  "word": "young",
+  "level": "초등",
+  "derived": [],
+  "max_example_words": 6,
+  "fn_example": ""
+ },
+ {
+  "id": 2998,
+  "word": "zebra",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 2999,
+  "word": "zero",
+  "level": "중고공통",
+  "derived": [],
+  "max_example_words": 12,
+  "fn_example": ""
+ },
+ {
+  "id": 3000,
+  "word": "zone",
+  "level": "선택",
+  "derived": [],
+  "max_example_words": 15,
+  "fn_example": ""
+ }
+]

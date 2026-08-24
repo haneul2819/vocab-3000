@@ -1,0 +1,671 @@
+[
+ {
+  "id": 2501,
+  "word": "spoon",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["숟가락"]}
+  ],
+  "examples": [
+   {"en": "I eat soup with a spoon.", "ko": "나는 숟가락으로 수프를 먹는다."},
+   {"en": "Pass me the spoon.", "ko": "숟가락 좀 건네줘."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2502,
+  "word": "sport",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["운동", "스포츠"]}
+  ],
+  "examples": [
+   {"en": "Soccer is my favorite sport.", "ko": "축구는 내가 가장 좋아하는 스포츠이다."},
+   {"en": "He plays many sports.", "ko": "그는 많은 운동을 한다."}
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2503,
+  "word": "spot",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["장소", "얼룩"]},
+   {"pos": "동사", "ko": ["발견하다"]}
+  ],
+  "examples": [
+   {"en": "This is a great spot for a picnic.", "ko": "이곳은 소풍하기 좋은 장소이다."},
+   {"en": "I spotted my friend in the crowd.", "ko": "나는 군중 속에서 친구를 발견했다."}
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2504,
+  "word": "spouse",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["배우자"]}
+  ],
+  "examples": [
+   {"en": "He introduced his spouse at the party.", "ko": "그는 파티에서 자신의 배우자를 소개했다."},
+   {"en": "Both spouses agreed on the decision.", "ko": "부부 둘 다 그 결정에 동의했다."}
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 2505,
+  "word": "spray",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["뿌리다"]},
+   {"pos": "명사", "ko": ["스프레이"]}
+  ],
+  "examples": [
+   {"en": "She sprayed water on the plants.", "ko": "그녀는 식물에 물을 뿌렸다."},
+   {"en": "He used a spray to clean the window.", "ko": "그는 스프레이를 사용해 창문을 청소했다."}
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2506,
+  "word": "spread",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["펼치다", "퍼지다"]}
+  ],
+  "examples": [
+   {"en": "The news spread quickly around the school.", "ko": "그 소식은 학교에 빠르게 퍼졌다."},
+   {"en": "She spread the blanket on the grass.", "ko": "그녀는 잔디밭에 담요를 펼쳤다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2507,
+  "word": "spring",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["봄", "용수철"]}
+  ],
+  "examples": [
+   {"en": "Flowers bloom in spring.", "ko": "꽃은 봄에 핀다."},
+   {"en": "I like spring the most.", "ko": "나는 봄을 가장 좋아한다."}
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2508,
+  "word": "spy",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["스파이"]},
+   {"pos": "동사", "ko": ["염탐하다"]}
+  ],
+  "examples": [
+   {"en": "The movie is about a secret spy.", "ko": "그 영화는 비밀 스파이에 관한 것이다."},
+   {"en": "He was spying on his neighbor.", "ko": "그는 이웃을 염탐하고 있었다."}
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 2509,
+  "word": "square",
+  "pos": ["명사", "형용사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["정사각형", "광장"]},
+   {"pos": "형용사", "ko": ["정사각형의"]}
+  ],
+  "examples": [
+   {"en": "Draw a square on the paper.", "ko": "종이에 정사각형을 그려라."},
+   {"en": "We met at the town square.", "ko": "우리는 마을 광장에서 만났다."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2510,
+  "word": "squeeze",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["꽉 짜다", "짜내다"]}
+  ],
+  "examples": [
+   {"en": "Squeeze the lemon into the glass.", "ko": "레몬을 짜서 컵에 넣어라."},
+   {"en": "He squeezed her hand gently.", "ko": "그는 그녀의 손을 살며시 꼭 쥐었다."}
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2511,
+  "word": "stable",
+  "pos": ["형용사", "명사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["안정된"]},
+   {"pos": "명사", "ko": ["마구간"]}
+  ],
+  "examples": [
+   {"en": "The economy remained stable this year.", "ko": "올해 경제는 안정적으로 유지되었다."},
+   {"en": "The horses are kept in the stable.", "ko": "말들은 마구간에 있다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2512,
+  "word": "stack",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["더미"]},
+   {"pos": "동사", "ko": ["쌓다"]}
+  ],
+  "examples": [
+   {"en": "There is a stack of books on the desk.", "ko": "책상 위에 책 더미가 있다."},
+   {"en": "He stacked the boxes neatly.", "ko": "그는 상자들을 깔끔하게 쌓았다."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2513,
+  "word": "staff",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["직원"]}
+  ],
+  "examples": [
+   {"en": "The staff are very kind.", "ko": "그 직원들은 아주 친절하다."},
+   {"en": "She works as hotel staff.", "ko": "그녀는 호텔 직원으로 일한다."}
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 2514,
+  "word": "stage",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["무대", "단계"]}
+  ],
+  "examples": [
+   {"en": "There are (four) different stages to the process.", "ko": "그 과정에는 네 가지 다른 단계가 있다."},
+   {"en": "She stood on the stage and sang.", "ko": "그녀는 무대 위에 서서 노래했다."}
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2515,
+  "word": "stain",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["얼룩"]},
+   {"pos": "동사", "ko": ["얼룩지게 하다"]}
+  ],
+  "examples": [
+   {"en": "There is a coffee stain on the shirt.", "ko": "셔츠에 커피 얼룩이 있다."},
+   {"en": "The juice stained the white tablecloth.", "ko": "주스가 하얀 식탁보를 얼룩지게 했다."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2516,
+  "word": "stairs",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["계단"]}
+  ],
+  "examples": [
+   {"en": "Please use the stairs, not the elevator.", "ko": "엘리베이터 대신 계단을 이용해 주세요."},
+   {"en": "He ran down the stairs quickly.", "ko": "그는 계단을 빠르게 뛰어 내려갔다."}
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2517,
+  "word": "stamp",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["우표", "도장"]},
+   {"pos": "동사", "ko": ["도장을 찍다"]}
+  ],
+  "examples": [
+   {"en": "She collects stamps from many countries.", "ko": "그녀는 여러 나라의 우표를 수집한다."},
+   {"en": "The officer stamped my passport.", "ko": "그 직원은 내 여권에 도장을 찍었다."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2518,
+  "word": "stand",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["서다", "일어서다"]}
+  ],
+  "examples": [
+   {"en": "Stand up.", "ko": "일어서라."},
+   {"en": "Please stand in line here.", "ko": "여기서 줄을 서 주세요."}
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2519,
+  "word": "standard",
+  "pos": ["명사", "형용사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["기준"]},
+   {"pos": "형용사", "ko": ["표준의"]}
+  ],
+  "examples": [
+   {"en": "The school has high standards for students.", "ko": "그 학교는 학생들에게 높은 기준을 두고 있다."},
+   {"en": "This is the standard size for paper.", "ko": "이것은 종이의 표준 크기이다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2520,
+  "word": "star",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["별", "스타"]}
+  ],
+  "examples": [
+   {"en": "I see a star.", "ko": "나는 별을 본다."},
+   {"en": "She is a famous movie star.", "ko": "그녀는 유명한 영화배우이다."}
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2521,
+  "word": "stare",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["빤히 쳐다보다"]}
+  ],
+  "examples": [
+   {"en": "Don't stare at strangers.", "ko": "낯선 사람을 빤히 쳐다보지 마라."},
+   {"en": "He stared at the painting for a long time.", "ko": "그는 오랫동안 그 그림을 빤히 쳐다보았다."}
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2522,
+  "word": "start",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["시작하다"]},
+   {"pos": "명사", "ko": ["시작"]}
+  ],
+  "examples": [
+   {"en": "Let’s get started.", "ko": "시작하자."},
+   {"en": "The movie will start soon.", "ko": "영화가 곧 시작할 것이다."}
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2523,
+  "word": "starve",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["굶주리다"]}
+  ],
+  "examples": [
+   {"en": "Many animals starve during a drought.", "ko": "많은 동물들이 가뭄 동안 굶주린다."},
+   {"en": "I'm starving, let's eat now.", "ko": "나 배고파 죽겠어, 지금 먹자."}
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2524,
+  "word": "state",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["상태", "주"]},
+   {"pos": "동사", "ko": ["말하다", "진술하다"]}
+  ],
+  "examples": [
+   {"en": "Texas is a state in America.", "ko": "텍사스는 미국의 한 주이다."},
+   {"en": "Please state your name clearly.", "ko": "이름을 명확하게 말씀해 주세요."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2525,
+  "word": "station",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["역", "방송국"]}
+  ],
+  "examples": [
+   {"en": "Meet me at the train station.", "ko": "기차역에서 만나자."},
+   {"en": "He works at a TV station.", "ko": "그는 텔레비전 방송국에서 일한다."}
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2526,
+  "word": "statistic",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["통계"]}
+  ],
+  "examples": [
+   {"en": "The statistic shows a big increase in sales.", "ko": "그 통계는 매출의 큰 증가를 보여준다."},
+   {"en": "These statistics are important for the report.", "ko": "이 통계들은 그 보고서에 중요하다."}
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2527,
+  "word": "statue",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["동상", "조각상"]}
+  ],
+  "examples": [
+   {"en": "There is a statue in the park.", "ko": "공원에 동상이 하나 있다."},
+   {"en": "Tourists take photos of the famous statue.", "ko": "관광객들은 그 유명한 동상 사진을 찍는다."}
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2528,
+  "word": "status",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["지위", "상태"]}
+  ],
+  "examples": [
+   {"en": "His social status changed after the award.", "ko": "그의 사회적 지위는 수상 후 바뀌었다."},
+   {"en": "Check the status of your order online.", "ko": "온라인에서 주문 상태를 확인해라."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2529,
+  "word": "stay",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["머물다"]}
+  ],
+  "examples": [
+   {"en": "We stayed at a hotel.", "ko": "우리는 호텔에 머물렀다."},
+   {"en": "Please stay here with me.", "ko": "나와 함께 여기 있어 줘."}
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2530,
+  "word": "steady",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["꾸준한", "안정된"]}
+  ],
+  "examples": [
+   {"en": "He made steady progress in class.", "ko": "그는 수업에서 꾸준한 발전을 보였다."},
+   {"en": "Hold the ladder steady for me.", "ko": "나를 위해 사다리를 안정되게 잡아줘."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2531,
+  "word": "steak",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["스테이크"]}
+  ],
+  "examples": [
+   {"en": "We ate steak for dinner.", "ko": "우리는 저녁으로 스테이크를 먹었다."},
+   {"en": "He cooked a steak for me.", "ko": "그는 나에게 스테이크를 요리해 주었다."}
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2532,
+  "word": "steal",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["훔치다"]}
+  ],
+  "examples": [
+   {"en": "Someone tried to steal my bike.", "ko": "누군가 내 자전거를 훔치려 했다."},
+   {"en": "He steals a glance at her sometimes.", "ko": "그는 가끔 그녀를 슬쩍 훔쳐본다."}
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2533,
+  "word": "steam",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["증기", "김"]}
+  ],
+  "examples": [
+   {"en": "Steam rose from the hot soup.", "ko": "뜨거운 수프에서 김이 났다."},
+   {"en": "The train used to run on steam.", "ko": "그 기차는 예전에 증기로 달렸다."}
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2534,
+  "word": "steel",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["강철"]}
+  ],
+  "examples": [
+   {"en": "The bridge is made of steel.", "ko": "그 다리는 강철로 만들어졌다."},
+   {"en": "Steel is stronger than iron.", "ko": "강철은 철보다 강하다."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2535,
+  "word": "steep",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["가파른"]}
+  ],
+  "examples": [
+   {"en": "The hill is very steep.", "ko": "그 언덕은 아주 가파르다."},
+   {"en": "We climbed a steep mountain trail.", "ko": "우리는 가파른 산길을 올랐다."}
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2536,
+  "word": "stem",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["줄기"]},
+   {"pos": "동사", "ko": ["유래하다"]}
+  ],
+  "examples": [
+   {"en": "The flower has a long green stem.", "ko": "그 꽃은 길고 초록색인 줄기를 가지고 있다."},
+   {"en": "The problem stems from a lack of sleep.", "ko": "그 문제는 수면 부족에서 비롯된다."}
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2537,
+  "word": "step",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["걸음", "단계"]},
+   {"pos": "동사", "ko": ["발을 딛다"]}
+  ],
+  "examples": [
+   {"en": "Take one step at a time.", "ko": "한 번에 한 걸음씩 나아가라."},
+   {"en": "She stepped onto the stage.", "ko": "그녀는 무대 위로 발을 내디뎠다."}
+  ],
+  "theme": "행동"
+ },
+ {
+  "id": 2538,
+  "word": "stick",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["막대기"]},
+   {"pos": "동사", "ko": ["붙이다", "달라붙다"]}
+  ],
+  "examples": [
+   {"en": "The dog fetched a stick.", "ko": "그 개는 막대기를 물어왔다."},
+   {"en": "Stick the poster on the wall.", "ko": "포스터를 벽에 붙여라."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2539,
+  "word": "stiff",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["뻣뻣한", "경직된"]}
+  ],
+  "examples": [
+   {"en": "My neck feels stiff this morning.", "ko": "오늘 아침 목이 뻣뻣하다."},
+   {"en": "The old door was stiff and hard to open.", "ko": "그 낡은 문은 뻣뻣해서 열기 힘들었다."}
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2540,
+  "word": "still",
+  "pos": ["부사", "형용사"],
+  "meanings": [
+   {"pos": "부사", "ko": ["아직도", "여전히"]},
+   {"pos": "형용사", "ko": ["가만히 있는", "고요한"]}
+  ],
+  "examples": [
+   {"en": "It (still) isn’t clear to me what this means.", "ko": "그것이 무슨 뜻인지 나는 아직도 명확하지 않다."},
+   {"en": "Please stay still for the photo.", "ko": "사진을 위해 가만히 있어 줘."}
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2541,
+  "word": "stimulate",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["자극하다"]}
+  ],
+  "examples": [
+   {"en": "Reading can stimulate the imagination.", "ko": "독서는 상상력을 자극할 수 있다."},
+   {"en": "The coach stimulated the team with a great speech.", "ko": "코치는 멋진 연설로 팀을 자극했다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2542,
+  "word": "stir",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["젓다", "섞다"]}
+  ],
+  "examples": [
+   {"en": "Stir the soup before serving.", "ko": "내오기 전에 수프를 저어라."},
+   {"en": "She stirred her coffee slowly.", "ko": "그녀는 커피를 천천히 저었다."}
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2543,
+  "word": "stitch",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["바늘땀", "한 바늘"]},
+   {"pos": "동사", "ko": ["꿰매다"]}
+  ],
+  "examples": [
+   {"en": "The doctor put three stitches in his arm.", "ko": "의사는 그의 팔에 세 바늘을 꿰맸다."},
+   {"en": "She stitched the torn shirt.", "ko": "그녀는 찢어진 셔츠를 꿰맸다."}
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2544,
+  "word": "stock",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["재고", "주식"]},
+   {"pos": "동사", "ko": ["채우다", "비축하다"]}
+  ],
+  "examples": [
+   {"en": "The store is out of stock.", "ko": "그 가게는 재고가 없다."},
+   {"en": "They stocked the shelves with new books.", "ko": "그들은 선반에 새 책들을 채웠다."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2545,
+  "word": "stomach",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["위", "배"]}
+  ],
+  "examples": [
+   {"en": "My stomach hurts a little.", "ko": "내 배가 조금 아프다."},
+   {"en": "He has a strong stomach for spicy food.", "ko": "그는 매운 음식을 잘 견디는 튼튼한 위를 가지고 있다."}
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2546,
+  "word": "stone",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["돌"]}
+  ],
+  "examples": [
+   {"en": "He threw a small stone.", "ko": "그는 작은 돌을 던졌다."},
+   {"en": "The wall is made of stone.", "ko": "그 벽은 돌로 만들어졌다."}
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2547,
+  "word": "stop",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["멈추다"]},
+   {"pos": "명사", "ko": ["정류장"]}
+  ],
+  "examples": [
+   {"en": "Please stop me if you have any questions.", "ko": "질문이 있으면 저를 멈춰 세워 주세요."},
+   {"en": "The bus stopped suddenly.", "ko": "버스가 갑자기 멈췄다."}
+  ],
+  "theme": "교통"
+ },
+ {
+  "id": 2548,
+  "word": "store",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["가게"]},
+   {"pos": "동사", "ko": ["저장하다"]}
+  ],
+  "examples": [
+   {"en": "I bought milk at the store.", "ko": "나는 가게에서 우유를 샀다."},
+   {"en": "We store food in the fridge.", "ko": "우리는 냉장고에 음식을 저장한다."}
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2549,
+  "word": "storm",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["폭풍"]}
+  ],
+  "examples": [
+   {"en": "A big storm hit the coast last night.", "ko": "어젯밤 큰 폭풍이 해안을 강타했다."},
+   {"en": "We stayed inside during the storm.", "ko": "우리는 폭풍이 부는 동안 안에 있었다."}
+  ],
+  "theme": "자연"
+ },
+ {
+  "id": 2550,
+  "word": "story",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["이야기"]}
+  ],
+  "examples": [
+   {"en": "She told us a funny story.", "ko": "그녀는 우리에게 재미있는 이야기를 해주었다."},
+   {"en": "I like reading short stories.", "ko": "나는 짧은 이야기 읽는 것을 좋아한다."}
+  ],
+  "theme": "여가"
+ }
+]

@@ -1,0 +1,667 @@
+[
+ {
+  "id": 2151,
+  "word": "reason",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["이유", "이성"]}
+  ],
+  "examples": [
+   {"en": "Tell me the reason for your absence.", "ko": "결석한 이유를 말해줘."},
+   {"en": "There is no reason to worry.", "ko": "걱정할 이유가 없다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2152,
+  "word": "rebel",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["반역자"]},
+   {"pos": "동사", "ko": ["반항하다"]}
+  ],
+  "examples": [
+   {"en": "The rebels fought against the government army.", "ko": "반군들은 정부군에 맞서 싸웠다."},
+   {"en": "Many teenagers rebel against their parents.", "ko": "많은 십대들이 부모에게 반항한다."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2153,
+  "word": "receipt",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["영수증"]}
+  ],
+  "examples": [
+   {"en": "Keep the receipt in case you need to return it.", "ko": "환불이 필요할 경우를 대비해 영수증을 보관해라."},
+   {"en": "She lost her shopping receipt yesterday.", "ko": "그녀는 어제 쇼핑 영수증을 잃어버렸다."}
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2154,
+  "word": "receive",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["받다"]}
+  ],
+  "examples": [
+   {"en": "I received a letter from my friend.", "ko": "나는 친구로부터 편지를 받았다."},
+   {"en": "She receives many gifts on her birthday.", "ko": "그녀는 생일에 많은 선물을 받는다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2155,
+  "word": "recent",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["최근의"]}
+  ],
+  "examples": [
+   {"en": "In recent years, the town has changed a lot.", "ko": "최근 몇 년 사이 그 마을은 많이 변했다."},
+   {"en": "Have you read the recent news?", "ko": "최근 뉴스를 읽어보았니?"}
+  ],
+  "theme": "시간"
+ },
+ {
+  "id": 2156,
+  "word": "recipe",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["조리법", "요리법"]}
+  ],
+  "examples": [
+   {"en": "My mom gave me her secret recipe.", "ko": "엄마는 나에게 비밀 요리법을 알려주셨다."},
+   {"en": "This recipe needs three eggs.", "ko": "이 요리법은 달걀 세 개가 필요하다."}
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2157,
+  "word": "recognize",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["알아보다", "인식하다"]}
+  ],
+  "examples": [
+   {"en": "I could not recognize him with the new haircut.", "ko": "나는 새 머리 모양을 한 그를 알아볼 수 없었다."},
+   {"en": "She recognized her old friend at the party.", "ko": "그녀는 파티에서 옛 친구를 알아보았다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2158,
+  "word": "recommend",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["추천하다"]}
+  ],
+  "examples": [
+   {"en": "Can you recommend a good restaurant nearby?", "ko": "근처의 좋은 식당을 추천해 줄 수 있니?"},
+   {"en": "The doctor recommended more exercise.", "ko": "의사는 더 많은 운동을 추천했다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2159,
+  "word": "record",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["기록"]},
+   {"pos": "동사", "ko": ["기록하다", "녹음하다"]}
+  ],
+  "examples": [
+   {"en": "He set a new school record in swimming.", "ko": "그는 수영에서 새로운 학교 기록을 세웠다."},
+   {"en": "She recorded the concert on her phone.", "ko": "그녀는 휴대폰으로 콘서트를 녹음했다."}
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2160,
+  "word": "recover",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["회복하다", "되찾다"]}
+  ],
+  "examples": [
+   {"en": "He is recovering from a bad cold.", "ko": "그는 심한 감기에서 회복하는 중이다."},
+   {"en": "The police recovered the stolen car.", "ko": "경찰은 도난당한 차를 되찾았다."}
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2161,
+  "word": "recreation",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["오락", "레크리에이션"]}
+  ],
+  "examples": [
+   {"en": "We do recreation on weekends.", "ko": "우리는 주말에 레크리에이션을 한다."},
+   {"en": "Hiking is our favorite recreation.", "ko": "등산은 우리가 가장 좋아하는 오락이다."}
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2162,
+  "word": "recruit",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["모집하다"]},
+   {"pos": "명사", "ko": ["신입, 신병"]}
+  ],
+  "examples": [
+   {"en": "The company plans to recruit new employees soon.", "ko": "그 회사는 곧 새 직원을 모집할 계획이다."},
+   {"en": "The new recruit trained hard every day.", "ko": "새로운 신병은 매일 열심히 훈련했다."}
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 2163,
+  "word": "red",
+  "pos": ["형용사", "명사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["빨간"]},
+   {"pos": "명사", "ko": ["빨간색"]}
+  ],
+  "examples": [
+   {"en": "I like the red car.", "ko": "나는 빨간 차를 좋아한다."},
+   {"en": "She wore a red dress.", "ko": "그녀는 빨간 드레스를 입었다."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2164,
+  "word": "reduce",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["줄이다"]}
+  ],
+  "examples": [
+   {"en": "We should reduce plastic waste.", "ko": "우리는 플라스틱 쓰레기를 줄여야 한다."},
+   {"en": "The store reduced its prices for the sale.", "ko": "그 가게는 세일을 위해 가격을 낮췄다."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2165,
+  "word": "refer",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["언급하다", "참고하다"]}
+  ],
+  "examples": [
+   {"en": "Please refer to page ten for more details.", "ko": "자세한 내용은 10페이지를 참고하세요."},
+   {"en": "She referred to the report during the meeting.", "ko": "그녀는 회의 중에 그 보고서를 참고했다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2166,
+  "word": "refine",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["정제하다", "다듬다"]}
+  ],
+  "examples": [
+   {"en": "The factory refines oil into fuel.", "ko": "그 공장은 석유를 연료로 정제한다."},
+   {"en": "She refined her writing skills over the years.", "ko": "그녀는 수년에 걸쳐 글쓰기 실력을 다듬었다."}
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2167,
+  "word": "reflect",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["반사하다", "반영하다", "숙고하다"]}
+  ],
+  "examples": [
+   {"en": "The mirror reflects light from the window.", "ko": "그 거울은 창문에서 오는 빛을 반사한다."},
+   {"en": "He reflected on his past mistakes.", "ko": "그는 자신의 과거 실수에 대해 숙고했다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2168,
+  "word": "reform",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["개혁"]},
+   {"pos": "동사", "ko": ["개혁하다"]}
+  ],
+  "examples": [
+   {"en": "The government announced a new education reform.", "ko": "정부는 새로운 교육 개혁을 발표했다."},
+   {"en": "They plan to reform the old system completely.", "ko": "그들은 낡은 제도를 완전히 개혁할 계획이다."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2169,
+  "word": "refrigerate",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["냉장 보관하다"]}
+  ],
+  "examples": [
+   {"en": "You should refrigerate the milk after opening it.", "ko": "우유는 개봉 후 냉장 보관해야 한다."},
+   {"en": "We refrigerated the leftovers for tomorrow.", "ko": "우리는 남은 음식을 내일을 위해 냉장 보관했다."}
+  ],
+  "theme": "음식"
+ },
+ {
+  "id": 2170,
+  "word": "refuse",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["거절하다"]}
+  ],
+  "examples": [
+   {"en": "She refused to answer the question.", "ko": "그녀는 그 질문에 답하기를 거절했다."},
+   {"en": "He refuses to give up on his dream.", "ko": "그는 자신의 꿈을 포기하기를 거절한다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2171,
+  "word": "regard",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["간주하다", "여기다"]},
+   {"pos": "명사", "ko": ["존중", "관심"]}
+  ],
+  "examples": [
+   {"en": "We regard her as our best teacher.", "ko": "우리는 그녀를 최고의 선생님으로 여긴다."},
+   {"en": "He has great regard for his grandfather.", "ko": "그는 할아버지를 매우 존중한다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2172,
+  "word": "region",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["지역"]}
+  ],
+  "examples": [
+   {"en": "This region is famous for its apples.", "ko": "이 지역은 사과로 유명하다."},
+   {"en": "Different regions have different weather.", "ko": "지역마다 날씨가 다르다."}
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2173,
+  "word": "register",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["등록하다"]},
+   {"pos": "명사", "ko": ["명부", "등록부"]}
+  ],
+  "examples": [
+   {"en": "Students must register for classes online.", "ko": "학생들은 온라인으로 수업을 등록해야 한다."},
+   {"en": "Her name is on the school register.", "ko": "그녀의 이름은 학교 명부에 있다."}
+  ],
+  "theme": "학교"
+ },
+ {
+  "id": 2174,
+  "word": "regret",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["후회하다"]},
+   {"pos": "명사", "ko": ["후회"]}
+  ],
+  "examples": [
+   {"en": "I regret not studying harder in school.", "ko": "나는 학교에서 더 열심히 공부하지 않은 것을 후회한다."},
+   {"en": "She felt deep regret about the argument.", "ko": "그녀는 그 다툼에 대해 깊은 후회를 느꼈다."}
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2175,
+  "word": "regular",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["규칙적인", "정기적인"]}
+  ],
+  "examples": [
+   {"en": "He has a regular sleep schedule.", "ko": "그는 규칙적인 수면 습관을 가지고 있다."},
+   {"en": "We have regular meetings every Monday.", "ko": "우리는 매주 월요일에 정기 회의를 한다."}
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2176,
+  "word": "regulate",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["규제하다", "조절하다"]}
+  ],
+  "examples": [
+   {"en": "The government regulates the sale of medicine.", "ko": "정부는 의약품 판매를 규제한다."},
+   {"en": "This device regulates the room temperature.", "ko": "이 장치는 실내 온도를 조절한다."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2177,
+  "word": "reinforce",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["강화하다", "보강하다"]}
+  ],
+  "examples": [
+   {"en": "The workers reinforced the old bridge with steel.", "ko": "작업자들은 낡은 다리를 강철로 보강했다."},
+   {"en": "Practice reinforces what you learn in class.", "ko": "연습은 수업에서 배운 것을 강화해 준다."}
+  ],
+  "theme": "과학"
+ },
+ {
+  "id": 2178,
+  "word": "reject",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["거부하다", "거절하다"]}
+  ],
+  "examples": [
+   {"en": "The committee rejected his proposal.", "ko": "위원회는 그의 제안을 거부했다."},
+   {"en": "She rejected the job offer politely.", "ko": "그녀는 그 취업 제안을 정중히 거절했다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2179,
+  "word": "relate",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["관련시키다", "관계가 있다"]}
+  ],
+  "examples": [
+   {"en": "This story relates to our history class.", "ko": "이 이야기는 우리 역사 수업과 관련이 있다."},
+   {"en": "The two problems are closely related.", "ko": "그 두 문제는 밀접하게 관련되어 있다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2180,
+  "word": "relax",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["휴식을 취하다", "긴장을 풀다"]}
+  ],
+  "examples": [
+   {"en": "I like to relax on the weekend.", "ko": "나는 주말에 휴식을 취하는 것을 좋아한다."},
+   {"en": "Just relax and take a deep breath.", "ko": "그냥 긴장을 풀고 심호흡을 해라."}
+  ],
+  "theme": "여가"
+ },
+ {
+  "id": 2181,
+  "word": "release",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["풀어주다", "출시하다"]},
+   {"pos": "명사", "ko": ["출시", "석방"]}
+  ],
+  "examples": [
+   {"en": "The zoo released the bird back into the wild.", "ko": "동물원은 그 새를 다시 야생으로 풀어주었다."},
+   {"en": "The band released a new album this month.", "ko": "그 밴드는 이번 달에 새 앨범을 출시했다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2182,
+  "word": "relevant",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["관련 있는", "적절한"]}
+  ],
+  "examples": [
+   {"en": "Please give relevant examples in your essay.", "ko": "에세이에 관련 있는 예시를 들어 주세요."},
+   {"en": "This information is not relevant to our topic.", "ko": "이 정보는 우리 주제와 관련이 없다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2183,
+  "word": "relief",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["안도", "안심"]}
+  ],
+  "examples": [
+   {"en": "That’s a relief.", "ko": "그것 참 다행이다."},
+   {"en": "She felt great relief after passing the test.", "ko": "그녀는 시험에 합격한 후 큰 안도감을 느꼈다."}
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2184,
+  "word": "relieve",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["완화하다", "안도하게 하다"]}
+  ],
+  "examples": [
+   {"en": "This medicine will relieve your headache.", "ko": "이 약은 너의 두통을 완화해 줄 것이다."},
+   {"en": "The good news relieved her worries.", "ko": "그 좋은 소식은 그녀의 걱정을 덜어주었다."}
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2185,
+  "word": "religion",
+  "pos": ["명사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["종교"]}
+  ],
+  "examples": [
+   {"en": "People around the world practice different religions.", "ko": "전 세계 사람들은 서로 다른 종교를 믿는다."},
+   {"en": "She studied the history of religion in college.", "ko": "그녀는 대학에서 종교의 역사를 공부했다."}
+  ],
+  "theme": "사회"
+ },
+ {
+  "id": 2186,
+  "word": "reluctant",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["꺼리는", "마지못한"]}
+  ],
+  "examples": [
+   {"en": "He was reluctant to share his opinion.", "ko": "그는 자신의 의견을 말하기를 꺼렸다."},
+   {"en": "She felt reluctant to leave her hometown.", "ko": "그녀는 고향을 떠나는 것을 꺼렸다."}
+  ],
+  "theme": "감정"
+ },
+ {
+  "id": 2187,
+  "word": "rely",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["의존하다", "믿다"]}
+  ],
+  "examples": [
+   {"en": "Children rely on their parents for support.", "ko": "아이들은 부모에게 의존한다."},
+   {"en": "You can rely on your best friend.", "ko": "너는 가장 친한 친구를 믿을 수 있다."}
+  ],
+  "theme": "가족"
+ },
+ {
+  "id": 2188,
+  "word": "remain",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["남다", "여전히 ~이다"]}
+  ],
+  "examples": [
+   {"en": "Only a few seats remain for the concert.", "ko": "콘서트를 위한 좌석이 몇 개만 남아 있다."},
+   {"en": "She remained calm during the storm.", "ko": "그녀는 폭풍 속에서도 침착함을 유지했다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2189,
+  "word": "remark",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["말", "발언"]},
+   {"pos": "동사", "ko": ["말하다", "언급하다"]}
+  ],
+  "examples": [
+   {"en": "She made a kind remark about my work.", "ko": "그녀는 내 작업에 대해 친절한 말을 했다."},
+   {"en": "He remarked that the food was delicious.", "ko": "그는 음식이 맛있다고 말했다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2190,
+  "word": "remedy",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["치료법", "해결책"]},
+   {"pos": "동사", "ko": ["개선하다", "바로잡다"]}
+  ],
+  "examples": [
+   {"en": "Honey and tea are a common cold remedy.", "ko": "꿀과 차는 흔한 감기 치료법이다."},
+   {"en": "They tried to remedy the problem quickly.", "ko": "그들은 그 문제를 빨리 해결하려고 했다."}
+  ],
+  "theme": "신체"
+ },
+ {
+  "id": 2191,
+  "word": "remember",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["기억하다"]}
+  ],
+  "examples": [
+   {"en": "I remember your name.", "ko": "나는 너의 이름을 기억한다."},
+   {"en": "She remembers her first day of school.", "ko": "그녀는 학교 첫날을 기억한다."}
+  ],
+  "theme": "추상"
+ },
+ {
+  "id": 2192,
+  "word": "remind",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["상기시키다", "생각나게 하다"]}
+  ],
+  "examples": [
+   {"en": "Please remind me to call her tomorrow.", "ko": "내일 그녀에게 전화하라고 나에게 상기시켜줘."},
+   {"en": "This song reminds me of my childhood.", "ko": "이 노래는 나에게 어린 시절을 생각나게 한다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2193,
+  "word": "remote",
+  "pos": ["형용사"],
+  "meanings": [
+   {"pos": "형용사", "ko": ["외딴", "먼", "원격의"]}
+  ],
+  "examples": [
+   {"en": "They live in a remote village in the mountains.", "ko": "그들은 산속 외딴 마을에 산다."},
+   {"en": "She works from home using a remote system.", "ko": "그녀는 원격 시스템을 이용해 재택근무를 한다."}
+  ],
+  "theme": "장소"
+ },
+ {
+  "id": 2194,
+  "word": "remove",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["제거하다", "치우다"]}
+  ],
+  "examples": [
+   {"en": "Please remove your shoes before entering.", "ko": "들어오기 전에 신발을 벗어 주세요."},
+   {"en": "She removed the stain from her shirt.", "ko": "그녀는 셔츠에서 얼룩을 제거했다."}
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2195,
+  "word": "rent",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["빌리다", "임대하다"]},
+   {"pos": "명사", "ko": ["집세", "임대료"]}
+  ],
+  "examples": [
+   {"en": "We rented a car for the trip.", "ko": "우리는 여행을 위해 차를 빌렸다."},
+   {"en": "The rent for this apartment is high.", "ko": "이 아파트의 집세는 비싸다."}
+  ],
+  "theme": "일상"
+ },
+ {
+  "id": 2196,
+  "word": "repair",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["수리하다"]},
+   {"pos": "명사", "ko": ["수리"]}
+  ],
+  "examples": [
+   {"en": "He is repairing his bicycle in the garage.", "ko": "그는 차고에서 자전거를 수리하고 있다."},
+   {"en": "The repair took two hours to finish.", "ko": "그 수리는 끝내는 데 두 시간이 걸렸다."}
+  ],
+  "theme": "사물"
+ },
+ {
+  "id": 2197,
+  "word": "repeat",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["반복하다", "되풀이하다"]}
+  ],
+  "examples": [
+   {"en": "Can you repeat that?", "ko": "다시 한번 말해줄래?"},
+   {"en": "She repeated the answer twice.", "ko": "그녀는 답을 두 번 반복했다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2198,
+  "word": "replace",
+  "pos": ["동사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["대체하다", "교체하다"]}
+  ],
+  "examples": [
+   {"en": "We need to replace the broken window.", "ko": "우리는 깨진 창문을 교체해야 한다."},
+   {"en": "A new employee replaced him at work.", "ko": "새 직원이 직장에서 그를 대체했다."}
+  ],
+  "theme": "직업"
+ },
+ {
+  "id": 2199,
+  "word": "reply",
+  "pos": ["동사", "명사"],
+  "meanings": [
+   {"pos": "동사", "ko": ["대답하다", "답장하다"]},
+   {"pos": "명사", "ko": ["대답", "답장"]}
+  ],
+  "examples": [
+   {"en": "Please reply to my email soon.", "ko": "제 이메일에 곧 답장해 주세요."},
+   {"en": "She sent a quick reply to my message.", "ko": "그녀는 내 메시지에 빠른 답장을 보냈다."}
+  ],
+  "theme": "소통"
+ },
+ {
+  "id": 2200,
+  "word": "report",
+  "pos": ["명사", "동사"],
+  "meanings": [
+   {"pos": "명사", "ko": ["보고서"]},
+   {"pos": "동사", "ko": ["보고하다", "알리다"]}
+  ],
+  "examples": [
+   {"en": "She wrote a report about her trip.", "ko": "그녀는 여행에 대한 보고서를 썼다."},
+   {"en": "He reported the accident to the police.", "ko": "그는 그 사고를 경찰에 알렸다."}
+  ],
+  "theme": "학교"
+ }
+]
