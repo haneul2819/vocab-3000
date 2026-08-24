@@ -183,8 +183,14 @@ export default function Learn() {
         </div>
       ) : (
         current && (
-          <WordCard word={current} direction={settings.direction}
-            flipped={flipped} onFlip={() => setFlipped((f) => !f)} />
+          <>
+            <WordCard word={current} direction={settings.direction}
+              flipped={flipped} onFlip={() => setFlipped((f) => !f)}
+              onSwipeRight={() => void grade('know')} />
+            <div className="small dim center" style={{ marginTop: 8 }}>
+              카드를 오른쪽으로 밀면 ‘앎’으로 표시돼요
+            </div>
+          </>
         )
       )}
 

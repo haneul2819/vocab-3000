@@ -155,7 +155,17 @@ button {
   min-height: 320px; padding: 24px 20px; display: flex; flex-direction: column;
   align-items: center; justify-content: center; text-align: center; gap: 10px;
   user-select: none; cursor: pointer;
+  /* 가로 드래그는 JS(스와이프)가 처리, 세로 스크롤·핀치 줌은 브라우저에 맡김 */
+  position: relative; touch-action: pan-y pinch-zoom;
 }
+/* 오른쪽 스와이프 진행 중 표시되는 '앎' 배지 */
+.swipe-know {
+  position: absolute; top: 12px; left: 12px; pointer-events: none;
+  padding: 5px 14px; border-radius: 999px; font-weight: 800; font-size: 0.95rem;
+  border: 2px solid var(--ok); color: var(--ok); opacity: 0.4;
+  transform: rotate(-6deg);
+}
+.swipe-know.on { opacity: 1; background: var(--ok-soft); }
 .flashcard .headword { font-size: 2.2rem; font-weight: 800; letter-spacing: 0.5px; font-family: var(--font-display); }
 .flashcard .ipa { color: var(--text-dim); font-size: 1.05rem; }
 .flashcard .meaning-line { font-size: 1.15rem; margin: 2px 0; }

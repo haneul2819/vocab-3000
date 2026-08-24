@@ -47,6 +47,11 @@ export default function App() {
     return () => mq.removeEventListener('change', apply)
   }, [settings.darkMode, settings.skin])
 
+  // 글자 크기: 루트 폰트 크기를 조절해 rem 단위 텍스트 전체를 스케일
+  useEffect(() => {
+    document.documentElement.style.fontSize = `${16 * settings.fontScale}px`
+  }, [settings.fontScale])
+
   const update = useCallback((patch: Partial<Settings>) => {
     setSettings((prev) => {
       const next = { ...prev, ...patch }

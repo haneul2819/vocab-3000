@@ -5,6 +5,14 @@ import { useSettings } from '../App'
 import { exportAll, importAll, resetProgress, type ExportData } from '../lib/db'
 import { SKINS } from '../lib/types'
 
+// 글자 크기 배율 선택지 (html 루트 폰트 크기에 적용)
+const FONT_SCALES = [
+  { v: 0.9, label: '작게' },
+  { v: 1, label: '보통' },
+  { v: 1.15, label: '크게' },
+  { v: 1.3, label: '아주 크게' },
+]
+
 export default function SettingsPage() {
   const nav = useNavigate()
   const { settings, update } = useSettings()
@@ -68,6 +76,19 @@ export default function SettingsPage() {
             </button>
           ))}
         </div>
+      </div>
+      <div className="card">
+        <div className="dim small" style={{ marginBottom: 6 }}>글자 크기</div>
+        <div className="seg" style={{ marginBottom: 6 }}>
+          {FONT_SCALES.map((f) => (
+            <button key={f.v} className={settings.fontScale === f.v ? 'active' : ''}
+              style={{ fontSize: `${0.88 * f.v}rem` }}
+              onClick={() => update({ fontScale: f.v })}>
+              {f.label}
+            </button>
+          ))}
+        </div>
+        <div className="small dim">두 손가락으로 화면을 벌려(핀치 줌) 일시적으로 확대할 수도 있어요.</div>
       </div>
       <div className="card">
         <div className="dim small" style={{ marginBottom: 6 }}>다크 모드</div>

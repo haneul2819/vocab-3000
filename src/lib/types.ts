@@ -128,6 +128,8 @@ export const SKINS: SkinMeta[] = [
 export interface Settings {
   darkMode: 'auto' | 'dark' | 'light'
   skin: Skin
+  /** 글자 크기 배율 (1 = 100%) — html 루트 폰트 크기에 적용 */
+  fontScale: number
   autoSpeak: boolean
   direction: 'en-ko' | 'ko-en'
   shuffle: boolean
@@ -140,6 +142,7 @@ export interface Settings {
 export const DEFAULT_SETTINGS: Settings = {
   darkMode: 'auto',
   skin: 'classic',
+  fontScale: 1,
   autoSpeak: false,
   direction: 'en-ko',
   shuffle: false,
