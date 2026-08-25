@@ -1,0 +1,59 @@
+# 플레이스토어 업로드용 AAB(+테스트용 APK) 빌드 — 모든 파일이 앱에 내장(서버 불필요)
+# 실행: GitHub 저장소 → Actions → "Build Android App" → Run workflow
+#       또는 v로 시작하는 태그 push (예: v1.0)
+# 결과: 실행 페이지 하단 Artifacts에서 다운로드
+name: Build Android App
+
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - run: npm ci
+      - run: npm run build
+      - run: npx cap sync android
+
+      - name: 서명 키 복원
+        run: echo "$ANDROID_KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/release.p12"
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+
+      - name: AAB·APK 빌드 (서명 포함)
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew bundleRelease assembleRelease
+        env:
+          ANDROID_KEYSTORE_PATH: ${{ runner.temp }}/release.p12
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: voca3000
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+
+      - name: AAB 업로드 (플레이스토어 제출용)
+        uses: actions/upload-artifact@v4
+        with:
+          name: voca3000-release-aab
+          path: android/app/build/outputs/bundle/release/app-release.aab
+
+      - name: APK 업로드 (휴대폰 직접 설치 테스트용)
+        uses: actions/upload-artifact@v4
+        with:
+          name: voca3000-release-apk
+          path: android/app/build/outputs/apk/release/app-release.apk
