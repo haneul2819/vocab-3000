@@ -1,7 +1,9 @@
-// 통계 — Day별 정답률, 상태 분포, 연속 학습일
+// 통계 — 오늘의 테스트 기록, Day별 정답률, 상태 분포, 연속 학습일
 import { useEffect, useMemo, useState } from 'react'
 import { loadIndex } from '../lib/data'
-import { getAllStates, getDailyLogs, getStreak } from '../lib/db'
+import {
+  getAllStates, getDailyLogs, getDailyTestScores, getStreak, type DailyTestScore,
+} from '../lib/db'
 import type { DataIndex, WordState, WordStatus } from '../lib/types'
 
 const STATUS_LABELS: Record<WordStatus, string> = {
@@ -17,12 +19,15 @@ export default function Stats() {
   const [states, setStates] = useState<WordState[]>([])
   const [streak, setStreak] = useState(0)
   const [totalDays, setTotalDays] = useState(0)
+  const [testScores, setTestScores] = useState<[string, DailyTestScore][]>([])
 
   useEffect(() => {
     loadIndex().then(setIndex)
     getAllStates().then(setStates)
     getStreak().then(setStreak)
     getDailyLogs().then((l) => setTotalDays(Object.keys(l).length))
+    getDailyTestScores().then((s) =>
+      setTestScores(Object.entries(s).sort((a, b) => b[0].localeCompare(a[0])).slice(0, 14)))
   }, [])
 
   const stateMap = useMemo(() => new Map(states.map((s) => [s.id, s])), [states])
@@ -74,6 +79,32 @@ export default function Stats() {
           <div className="dim small">총 학습일</div>
         </div>
       </div>
+
+      {testScores.length > 0 && (
+        <>
+          <h2>오늘의 테스트 기록</h2>
+          <div className="card">
+            {testScores.map(([date, s]) => {
+              const pct = s.total ? Math.round((s.right / s.total) * 100) : 0
+              return (
+                <div className="bar-row" key={date}>
+                  <span style={{ width: 76 }} className="small">{date.slice(5)}</span>
+                  <div className="bar-track">
+                    <div className="bar-fill" style={{
+                      width: `${pct}%`,
+                      background: pct >= 80 ? 'var(--ok)' : pct >= 50 ? 'var(--primary)' : 'var(--warn)',
+                    }} />
+                  </div>
+                  <span className="progress-text small" style={{ width: 96, textAlign: 'right' }}>
+                    Day {s.day} · {s.right}/{s.total}
+                  </span>
+                </div>
+              )
+            })}
+            <div className="dim small mt8">최근 14일 · 같은 날 여러 번 풀면 마지막 점수</div>
+          </div>
+        </>
+      )}
 
       <h2>단어 상태 분포</h2>
       <div className="card">

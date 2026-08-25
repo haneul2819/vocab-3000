@@ -86,24 +86,28 @@ npm run preview   # 빌드 미리보기
 
 ## 배포
 
-### Vercel
+### GitHub Pages (현재 사용 중 · 자동 배포)
 
-```bash
-npm i -g vercel
-vercel                   # 저장소 루트에서 실행
-```
+`main`에 push하면 GitHub Actions(`.github/workflows/deploy.yml`)가 빌드해서 자동 배포합니다.
 
-- Framework Preset: **Vite** / Build Command: `npm run build` / Output: `dist`
+- 배포 주소: **https://haneul2819.github.io/vocab-3000/**
+- 해시 라우팅이라 SPA rewrite 불필요, `base: './'`라 하위 경로에서도 동작
 
-### Firebase Hosting
+### 플레이스토어(Google Play) 등록 절차 — TWA
 
-```bash
-npm i -g firebase-tools
-firebase login
-firebase init hosting    # public 디렉터리를 dist 로 지정, SPA rewrite는 불필요(해시 라우팅)
-npm run build
-firebase deploy
-```
+PWA를 TWA(Trusted Web Activity)로 감싸면 플레이스토어에 올릴 수 있습니다.
+
+1. `npx @bubblewrap/cli init --manifest https://haneul2819.github.io/vocab-3000/manifest.webmanifest`
+   (또는 https://www.pwabuilder.com 에서 GUI로 생성)
+2. 빌드하면 서명 키가 생성됨 → 키의 SHA-256 지문으로 `assetlinks.json`을 만들고,
+   **`haneul2819.github.io` 저장소**(사용자 루트 페이지)의 `/.well-known/assetlinks.json`에 배치
+   (asset links는 도메인 루트 기준이라 이 저장소가 아닌 루트 저장소에 둬야 함)
+3. Play Console(등록비 $25 · 1회)에 AAB 업로드
+
+### 기타 호스팅 (Vercel / Firebase)
+
+Vite 정적 빌드(`npm run build` → `dist/`)라 어디든 배포 가능.
+단, 서비스 워커 범위가 `/`인 다른 PWA와 같은 도메인은 피할 것.
 
 ## 라이선스·고지
 

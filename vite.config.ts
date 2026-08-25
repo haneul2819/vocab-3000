@@ -32,6 +32,7 @@ export default defineConfig({
         ],
       },
       manifest: {
+        id: './',
         name: '기본 어휘 3000 단어장',
         short_name: '어휘3000',
         description:
@@ -39,6 +40,8 @@ export default defineConfig({
         lang: 'ko',
         start_url: './',
         display: 'standalone',
+        orientation: 'portrait',
+        categories: ['education'],
         background_color: '#0f172a',
         theme_color: '#2563eb',
         icons: [

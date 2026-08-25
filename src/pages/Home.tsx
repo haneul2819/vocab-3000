@@ -3,7 +3,10 @@ import { Link, useNavigate } from 'react-router-dom'
 import { useSettings } from '../App'
 import ProgressRing from '../components/ProgressRing'
 import { loadIndex, TRACKS, trackOfDay } from '../lib/data'
-import { getAllStates, getDueStates, getStreak } from '../lib/db'
+import {
+  getAllStates, getDailyTestScores, getDueStates, getStreak, todayKey,
+  type DailyTestScore,
+} from '../lib/db'
 import type { DataIndex, Level, WordState } from '../lib/types'
 
 export default function Home() {
@@ -14,12 +17,14 @@ export default function Home() {
   const [dueCount, setDueCount] = useState(0)
   const [streak, setStreak] = useState(0)
   const [openTrack, setOpenTrack] = useState<Level | null>(null)
+  const [todayScore, setTodayScore] = useState<DailyTestScore | null>(null)
 
   useEffect(() => {
     loadIndex().then(setIndex)
     getAllStates().then((all) => setStates(new Map(all.map((s) => [s.id, s]))))
     getDueStates().then((d) => setDueCount(d.length))
     getStreak().then(setStreak)
+    getDailyTestScores().then((s) => setTodayScore(s[todayKey()] ?? null))
   }, [])
 
   const day = settings.currentDay
@@ -88,6 +93,7 @@ export default function Home() {
           <div className="dim small">
             Day {day} 단어 50문제 · 진행 {today.tested}/{today.total}
             {today.total > 0 && today.tested >= today.total && ' ✅ 완료'}
+            {todayScore && <> · 오늘 점수 <b>{todayScore.right}/{todayScore.total}</b></>}
           </div>
         </div>
         <button className="btn sm primary"

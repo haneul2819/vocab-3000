@@ -120,8 +120,9 @@ export default function Learn() {
           <div style={{ fontSize: '2.5rem' }}>🎉</div>
           <h2>Day {day} {MODE_LABELS[mode]} 완료!</h2>
           <p className="dim small mt8">{cards.length}개 단어를 살펴봤어요.</p>
-          <button className="btn primary mt16" onClick={() => nav('/quiz', { state: { day } })}>
-            이 Day 문제 풀기
+          <button className="btn primary mt16"
+            onClick={() => nav('/quiz', { state: { day, count: 50, autostart: true, daily: true } })}>
+            오늘의 테스트 시작 (50문제)
           </button>
           <button className="btn ghost mt8" onClick={() => { setIdx(0); setFinished(false) }}>
             다시 보기

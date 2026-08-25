@@ -109,6 +109,9 @@ python3 scripts/build_chunks.py          # → public/data/ 청크 생성
 - **개발 서버 포트**: 미지정이라 vite 기본 **5173**을 씁니다. 사용자의 다른 앱
   ("오늘의 말씀")이 5173을 쓰므로 두 앱을 동시에 띄우면 충돌합니다.
   필요하면 `npm run dev -- --port 5190`.
+- **배포**: main에 push하면 GitHub Actions가 자동 배포합니다 →
+  https://haneul2819.github.io/vocab-3000/ . 플레이스토어 등록(TWA) 절차는
+  `README.md` 배포 섹션 참고.
 - **배포 시 서비스 워커 충돌**: 이 앱은 PWA입니다. 서비스 워커 범위가 `/`인
   다른 PWA와 **같은 도메인에 올리지 마세요** (요청을 가로채 엉뚱한 화면이 뜸).
   별도 도메인이나 서브도메인을 씁니다.
