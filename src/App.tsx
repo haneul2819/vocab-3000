@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useEffect, useState } from 'react'
+import { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Home from './pages/Home'
@@ -10,6 +10,7 @@ import Review from './pages/Review'
 import Stats from './pages/Stats'
 import SettingsPage from './pages/Settings'
 import { getSettings, saveSettings } from './lib/db'
+import { attachPinchFontZoom } from './lib/pinchFontZoom'
 import { applySkin } from './lib/skin'
 import type { Settings } from './lib/types'
 import { DEFAULT_SETTINGS, SKINS } from './lib/types'
@@ -25,6 +26,8 @@ export const useSettings = () => useContext(Ctx)
 export default function App() {
   const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS)
   const [ready, setReady] = useState(false)
+  /** 핀치로 조절 중인 배율 (조절 중에만 값이 있고, 안내 표시에 쓰임) */
+  const [pinching, setPinching] = useState<number | null>(null)
 
   useEffect(() => {
     getSettings().then((s) => {
@@ -60,6 +63,23 @@ export default function App() {
     })
   }, [])
 
+  // 두 손가락 핀치 = 화면 전체 확대 대신 글자 크기만 조절
+  // (앱 틀은 화면에 고정되고 rem 텍스트만 커진다)
+  const fontScaleRef = useRef(settings.fontScale)
+  fontScaleRef.current = settings.fontScale
+  useEffect(() => attachPinchFontZoom({
+    getScale: () => fontScaleRef.current,
+    // 조절 중에는 저장 없이 화면에만 반영 (매 프레임 저장 방지)
+    onPreview: (scale) => {
+      document.documentElement.style.fontSize = `${16 * scale}px`
+      setPinching(scale)
+    },
+    onCommit: (scale) => {
+      setPinching(null)
+      if (scale !== fontScaleRef.current) update({ fontScale: scale })
+    },
+  }), [update])
+
   if (!ready) return null
 
   return (
@@ -77,6 +97,9 @@ export default function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <NavBar />
+        {pinching !== null && (
+          <div className="zoom-toast">글자 크기 {Math.round(pinching * 100)}%</div>
+        )}
       </div>
     </Ctx.Provider>
   )
