@@ -155,6 +155,7 @@ button {
   min-height: 320px; padding: 24px 20px; display: flex; flex-direction: column;
   align-items: center; justify-content: center; text-align: center; gap: 10px;
   user-select: none; cursor: pointer;
+  -webkit-touch-callout: none; /* iOS 길게 누르기 콜아웃 억제 (길게 누르기 = 이미지 공유) */
   /* 가로 드래그는 JS(스와이프)가 처리, 세로 스크롤·핀치 줌은 브라우저에 맡김 */
   position: relative; touch-action: pan-y pinch-zoom;
 }
@@ -176,6 +177,20 @@ button {
 .flashcard .example .ko { color: var(--text-dim); font-size: 0.85rem; }
 
 .progress-text { font-variant-numeric: tabular-nums; }
+
+/* ---- 단어 이미지 공유 시트 (카드 길게 누르기) ---- */
+.sheet-overlay {
+  position: fixed; inset: 0; z-index: 60; background: rgba(0, 0, 0, 0.45);
+  display: flex; align-items: center; justify-content: center; padding: 20px;
+}
+.share-sheet {
+  background: var(--surface); border-radius: var(--radius-lg); box-shadow: var(--shadow);
+  padding: 16px; width: min(420px, 100%); max-height: 85vh; overflow-y: auto;
+  display: flex; flex-direction: column; gap: 12px;
+}
+.share-sheet img { width: 100%; border-radius: var(--radius); border: 1px solid var(--border); }
+.share-actions { display: flex; gap: 8px; }
+.share-actions .btn { flex: 1; min-height: 46px; }
 
 /* ---- 문제집 ---- */
 .choice {
