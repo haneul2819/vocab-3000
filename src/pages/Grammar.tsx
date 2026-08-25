@@ -1,7 +1,7 @@
-// 문법 — 범주별 예문 열람(level 필터, 예문 듣기) + 빈칸/어순 배열 문제
-import { useEffect, useMemo, useState } from 'react'
+// 문법 — 범주별 예문 열람(level 필터, 예문 듣기·전체/반복 듣기) + 빈칸/어순 배열 문제
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { loadGrammar, sample, shuffled } from '../lib/data'
-import { speak } from '../lib/tts'
+import { pause, speak, stopSpeaking } from '../lib/tts'
 import type { GrammarCategory, GrammarItem } from '../lib/types'
 
 const LEVELS = ['전체', '초', '중', '고'] as const
@@ -67,6 +67,34 @@ export default function Grammar() {
   const [orderResult, setOrderResult] = useState<null | boolean>(null)
   const [score, setScore] = useState({ right: 0, total: 0 })
 
+  // ---- 파트별 전체/반복 듣기 ----
+  const [playing, setPlaying] = useState<{ cat: string; idx: number; repeat: boolean } | null>(null)
+  const playStop = useRef(false)
+
+  const stopPlay = () => {
+    playStop.current = true
+    stopSpeaking()
+    setPlaying(null)
+  }
+
+  const playCategory = async (cat: string, items: GrammarItem[], repeat: boolean) => {
+    stopSpeaking() // 진행 중이던 재생 정리
+    playStop.current = false
+    setOpenCat(cat) // 재생 중인 파트를 펼쳐서 진행 위치가 보이게
+    do {
+      for (let i = 0; i < items.length; i++) {
+        if (playStop.current) break
+        setPlaying({ cat, idx: i, repeat })
+        await speak(items[i].sentence)
+        if (playStop.current) break
+        await pause(0.6)
+      }
+    } while (repeat && !playStop.current)
+    if (!playStop.current) setPlaying(null)
+  }
+
+  useEffect(() => () => { playStop.current = true; stopSpeaking() }, []) // 화면 이탈 시 정지
+
   useEffect(() => {
     loadGrammar().then(setCats)
   }, [])
@@ -121,12 +149,12 @@ export default function Grammar() {
       <h1>문법</h1>
       <div className="seg">
         <button className={tab === 'browse' ? 'active' : ''} onClick={() => setTab('browse')}>예문 보기</button>
-        <button className={tab === 'quiz' ? 'active' : ''} onClick={() => { setTab('quiz'); if (!q) nextQuestion() }}>문제 풀기</button>
+        <button className={tab === 'quiz' ? 'active' : ''} onClick={() => { stopPlay(); setTab('quiz'); if (!q) nextQuestion() }}>문제 풀기</button>
       </div>
       <div className="seg">
         {LEVELS.map((l) => (
           <button key={l} className={level === l ? 'active' : ''}
-            onClick={() => { setLevel(l); setQ(null); if (tab === 'quiz') setTimeout(nextQuestion, 0) }}>
+            onClick={() => { stopPlay(); setLevel(l); setQ(null); if (tab === 'quiz') setTimeout(nextQuestion, 0) }}>
             {l}
           </button>
         ))}
@@ -135,16 +163,44 @@ export default function Grammar() {
       {tab === 'browse' ? (
         filtered.map((c) => {
           const open = openCat === c.category
+          const isPlayingThis = playing?.cat === c.category
           return (
             <div className="card" key={c.category}>
               <button className="row spread" style={{ width: '100%' }}
                 onClick={() => setOpenCat(open ? null : c.category)}>
                 <b style={{ textAlign: 'left' }}>{c.category}</b>
-                <span className="dim small">{c.items.length}문장 {open ? '▲' : '▼'}</span>
+                <span className="dim small">
+                  {isPlayingThis && <>🔊 {playing.idx + 1}/{c.items.length}{playing.repeat && ' 🔁'} · </>}
+                  {c.items.length}문장 {open ? '▲' : '▼'}
+                </span>
               </button>
-              {open && c.items.map((it) => (
+              {open && (
+                <div className="row mt8" style={{ gap: 8 }}>
+                  {isPlayingThis ? (
+                    <button className="btn sm bad" style={{ flex: 1 }} onClick={stopPlay}>
+                      ⏹ 듣기 중지
+                    </button>
+                  ) : (
+                    <>
+                      <button className="btn sm primary" style={{ flex: 1 }}
+                        onClick={() => void playCategory(c.category, c.items, false)}>
+                        ▶ 전체 듣기
+                      </button>
+                      <button className="btn sm ghost" style={{ flex: 1 }}
+                        onClick={() => void playCategory(c.category, c.items, true)}>
+                        🔁 반복 듣기
+                      </button>
+                    </>
+                  )}
+                </div>
+              )}
+              {open && c.items.map((it, i) => (
                 <div key={it.id} className="row spread mt8"
-                  style={{ borderTop: '1px solid var(--border)', paddingTop: 8 }}>
+                  style={{
+                    borderTop: '1px solid var(--border)', paddingTop: 8,
+                    background: isPlayingThis && playing.idx === i ? 'var(--primary-soft)' : undefined,
+                    borderRadius: isPlayingThis && playing.idx === i ? 8 : undefined,
+                  }}>
                   <div>
                     <span className={`badge ${it.level === '초' ? 'ok' : it.level === '중' ? 'primary' : 'warn'}`}>{it.level}</span>{' '}
                     <span style={{ fontSize: '0.93rem' }}>{it.sentence}</span>

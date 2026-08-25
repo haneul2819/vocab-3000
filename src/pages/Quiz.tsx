@@ -1,4 +1,5 @@
 // 문제집 — 6가지 유형, 오답 선택지는 같은 level·같은 품사에서 출제
+// 문제 수 선택(10/20/30) · ◀▶ 빠른 이동 · 오늘의 테스트(50문제) · 진단 테스트 입구
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { useSettings } from '../App'
@@ -11,42 +12,74 @@ import {
 import { speak } from '../lib/tts'
 import type { Word } from '../lib/types'
 
-const COUNT = 10
+const COUNTS = [10, 20, 30] as const
+
+/** 문제별 결과 — 뒤로 돌아가 확인할 수 있게 보관 */
+interface QResult {
+  picked: string // 고른 선택지 또는 입력한 답 ('(건너뜀)' 포함)
+  ok: boolean
+}
 
 export default function Quiz() {
   const nav = useNavigate()
   const location = useLocation()
   const { settings } = useSettings()
-  const initialDay = (location.state as { day?: number } | null)?.day ?? settings.currentDay
+  const initial = location.state as
+    | { day?: number; count?: number; autostart?: boolean; daily?: boolean }
+    | null
+  const initialDay = initial?.day ?? settings.currentDay
 
   const [day, setDay] = useState(initialDay)
   const [scope, setScope] = useState<'day' | 'track'>('day')
   const [type, setType] = useState<QuizType | 'mix'>('mix')
+  const [count, setCount] = useState<number>(10)
+  const [daily, setDaily] = useState(false) // 오늘의 테스트 모드 표시용
   const [questions, setQuestions] = useState<QuizQuestion[] | null>(null)
   const [idx, setIdx] = useState(0)
-  const [picked, setPicked] = useState<string | null>(null)
+  const [results, setResults] = useState<(QResult | null)[]>([])
   const [typed, setTyped] = useState('')
-  const [revealed, setRevealed] = useState<null | boolean>(null) // 입력형 채점 결과
-  const [right, setRight] = useState(0)
-  const [wrongWords, setWrongWords] = useState<Word[]>([])
   const inputRef = useRef<HTMLInputElement>(null)
+  const timerRef = useRef<number | null>(null)
 
-  const start = useCallback(async () => {
-    const words = scope === 'day'
+  const clearTimer = () => {
+    if (timerRef.current !== null) {
+      window.clearTimeout(timerRef.current)
+      timerRef.current = null
+    }
+  }
+  useEffect(() => clearTimer, [])
+
+  const start = useCallback(async (n?: number, isDaily = false) => {
+    const words = scope === 'day' || isDaily
       ? await loadDay(day)
       : await loadDays(
           Array.from({ length: trackOfDay(day).to - trackOfDay(day).from + 1 },
             (_, i) => trackOfDay(day).from + i))
-    const qs = await buildQuiz(words, COUNT, type === 'mix' ? undefined : type)
+    const qs = await buildQuiz(words, n ?? count, type === 'mix' ? undefined : type)
+    clearTimer()
+    setDaily(isDaily)
     setQuestions(qs)
-    setIdx(0); setRight(0); setWrongWords([]); setPicked(null); setTyped(''); setRevealed(null)
-  }, [day, scope, type])
+    setResults(Array(qs.length).fill(null))
+    setIdx(0); setTyped('')
+  }, [day, scope, type, count])
+
+  // 홈 '오늘의 테스트'에서 넘어오면 바로 시작
+  const autostarted = useRef(false)
+  useEffect(() => {
+    if (initial?.autostart && !autostarted.current) {
+      autostarted.current = true
+      void start(initial.count ?? 50, initial.daily ?? false)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const q = questions?.[idx]
+  const answered = results[idx] ?? null
 
-  // 듣기 문제는 표시되자마자 자동 재생
+  // 듣기 문제는 (아직 안 푼 경우) 표시되자마자 자동 재생
   useEffect(() => {
-    if (q?.type === 'listening') void speak(q.word.word)
+    if (q?.type === 'listening' && !answered) void speak(q.word.word)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [q])
 
   const record = useCallback(async (word: Word, ok: boolean) => {
@@ -60,29 +93,35 @@ export default function Quiz() {
     await bumpDailyLog(ok ? { quizRight: 1 } : { quizWrong: 1 })
   }, [])
 
-  const next = useCallback(() => {
-    setPicked(null); setTyped(''); setRevealed(null)
-    setIdx((i) => i + 1)
-  }, [])
+  /** idx를 이동 (자동 넘김 타이머가 있으면 취소) */
+  const go = useCallback((delta: number) => {
+    clearTimer()
+    setTyped('')
+    setIdx((i) => Math.max(0, Math.min((questions?.length ?? 0), i + delta)))
+  }, [questions])
 
-  const answerChoice = (c: string) => {
-    if (!q || picked) return
-    setPicked(c)
-    const ok = c === q.answer
-    if (ok) setRight((r) => r + 1)
-    else setWrongWords((w) => [...w, q.word])
+  /** 답을 확정하고 결과 기록 후 잠시 뒤 다음으로 */
+  const finish = useCallback((picked: string, ok: boolean) => {
+    if (!q || answered) return
+    setResults((r) => { const nr = [...r]; nr[idx] = { picked, ok }; return nr })
     void record(q.word, ok)
-    setTimeout(next, ok ? 600 : 1400)
+    clearTimer()
+    timerRef.current = window.setTimeout(() => go(1), ok ? 600 : 1400)
+  }, [q, answered, idx, record, go])
+
+  const answerChoice = (c: string) => finish(c, c === (q?.answer ?? ''))
+  const answerTyped = () => {
+    if (!q || answered || !typed.trim()) return
+    finish(typed, checkTypedAnswer(q, typed))
   }
 
-  const answerTyped = () => {
-    if (!q || revealed !== null) return
-    const ok = checkTypedAnswer(q, typed)
-    setRevealed(ok)
-    if (ok) setRight((r) => r + 1)
-    else setWrongWords((w) => [...w, q.word])
-    void record(q.word, ok)
-    setTimeout(next, ok ? 700 : 1800)
+  /** ▶ 다음 — 안 푼 문제는 건너뛰기(오답 처리) */
+  const goNext = () => {
+    if (!answered && q) {
+      setResults((r) => { const nr = [...r]; nr[idx] = { picked: '(건너뜀)', ok: false }; return nr })
+      void record(q.word, false)
+    }
+    go(1)
   }
 
   // ---- 시작 화면 ----
@@ -107,6 +146,16 @@ export default function Quiz() {
           </div>
         </div>
         <div className="card">
+          <h2 style={{ marginTop: 0 }}>문제 수</h2>
+          <div className="seg">
+            {COUNTS.map((n) => (
+              <button key={n} className={count === n ? 'active' : ''} onClick={() => setCount(n)}>
+                {n}문제
+              </button>
+            ))}
+          </div>
+        </div>
+        <div className="card">
           <h2 style={{ marginTop: 0 }}>유형</h2>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
             <button className={`btn sm ${type === 'mix' ? 'primary' : 'ghost'}`}
@@ -119,18 +168,30 @@ export default function Quiz() {
             ))}
           </div>
         </div>
-        <button className="btn primary" onClick={() => void start()}>10문제 시작</button>
+        <button className="btn primary" onClick={() => void start()}>{count}문제 시작</button>
+
+        {/* 추가 기능: 진단 테스트 (홈에서 이동해 옴) */}
+        <div className="card row spread mt16">
+          <div>
+            <b>진단 테스트</b>
+            <div className="dim small">30문항으로 시작 Day 추천받기</div>
+          </div>
+          <button className="btn sm primary" onClick={() => nav('/diagnostic')}>시작</button>
+        </div>
       </div>
     )
   }
 
   // ---- 결과 화면 ----
+  const right = results.filter((r) => r?.ok).length
   if (idx >= questions.length) {
+    const wrongWords = questions.filter((_, i) => results[i] && !results[i]!.ok).map((qq) => qq.word)
     const pct = questions.length ? Math.round((right / questions.length) * 100) : 0
     return (
       <div className="page center">
         <div className="card" style={{ padding: 28 }}>
           <div style={{ fontSize: '2.4rem' }}>{pct >= 80 ? '🏆' : pct >= 50 ? '💪' : '📚'}</div>
+          {daily && <div className="badge primary">오늘의 테스트 · Day {day}</div>}
           <h2>{right}/{questions.length} 정답 ({pct}%)</h2>
           {wrongWords.length > 0 && (
             <div className="mt8" style={{ textAlign: 'left' }}>
@@ -143,7 +204,7 @@ export default function Quiz() {
               ))}
             </div>
           )}
-          <button className="btn primary mt16" onClick={() => void start()}>다시 풀기</button>
+          <button className="btn primary mt16" onClick={() => void start(questions.length, daily)}>다시 풀기</button>
           <button className="btn ghost mt8" onClick={() => setQuestions(null)}>범위·유형 바꾸기</button>
           <button className="btn mt8" onClick={() => nav('/')}>홈으로</button>
         </div>
@@ -157,7 +218,9 @@ export default function Quiz() {
     <div className="page">
       <div className="row spread">
         <button className="btn sm ghost" onClick={() => setQuestions(null)}>← 그만</button>
-        <span className="badge primary">{q ? QUIZ_TYPE_LABELS[q.type] : ''}</span>
+        <span className="badge primary">
+          {daily ? '오늘의 테스트 · ' : ''}{q ? QUIZ_TYPE_LABELS[q.type] : ''}
+        </span>
         <span className="dim small progress-text">{idx + 1}/{questions.length}</span>
       </div>
 
@@ -186,32 +249,47 @@ export default function Quiz() {
           </div>
 
           {isTypedQuestion ? (
-            <>
-              <input ref={inputRef} className="answer-input" value={typed} autoFocus
-                autoCapitalize="none" autoCorrect="off" spellCheck={false}
-                placeholder="정답 입력"
-                onChange={(e) => setTyped(e.target.value)}
-                onKeyDown={(e) => e.key === 'Enter' && answerTyped()} />
-              {revealed === null ? (
+            answered ? (
+              <div className="card center mt8"
+                style={{ background: answered.ok ? 'var(--ok-soft)' : 'var(--bad-soft)' }}>
+                {answered.ok
+                  ? '⭕ 정답!'
+                  : <>❌ {answered.picked === '(건너뜀)' ? '건너뜀' : <>입력: {answered.picked}</>} · 정답: <b>{q.answer}</b></>}
+              </div>
+            ) : (
+              <>
+                <input ref={inputRef} className="answer-input" value={typed} autoFocus
+                  autoCapitalize="none" autoCorrect="off" spellCheck={false}
+                  placeholder="정답 입력"
+                  onChange={(e) => setTyped(e.target.value)}
+                  onKeyDown={(e) => e.key === 'Enter' && answerTyped()} />
                 <button className="btn primary mt8" onClick={answerTyped} disabled={!typed.trim()}>
                   확인
                 </button>
-              ) : (
-                <div className={`card center mt8 ${revealed ? '' : ''}`}
-                  style={{ background: revealed ? 'var(--ok-soft)' : 'var(--bad-soft)' }}>
-                  {revealed ? '⭕ 정답!' : <>❌ 정답: <b>{q.answer}</b></>}
-                </div>
-              )}
-            </>
+              </>
+            )
           ) : (
             q.choices.map((c) => (
-              <button key={c} disabled={!!picked}
-                className={`choice ${picked && c === q.answer ? 'correct' : ''} ${picked === c && c !== q.answer ? 'wrong' : ''}`}
+              <button key={c} disabled={!!answered}
+                className={`choice ${answered && c === q.answer ? 'correct' : ''} ${answered?.picked === c && c !== q.answer ? 'wrong' : ''}`}
                 onClick={() => answerChoice(c)}>
                 {c}
               </button>
             ))
           )}
+
+          {/* 좌우 빠른 이동 — 이전 문제 결과 확인 / 다음으로 즉시 이동(안 풀면 건너뜀 처리) */}
+          <div className="quiz-nav">
+            <button className="btn sm ghost" onClick={() => go(-1)} disabled={idx === 0}>
+              ◀ 이전
+            </button>
+            <span className="dim small">
+              {answered ? (answered.ok ? '⭕ 맞힘' : '❌ 틀림') : '풀지 않고 넘기면 오답 처리'}
+            </span>
+            <button className="btn sm ghost" onClick={goNext}>
+              {answered ? '다음 ▶' : '건너뛰기 ▶'}
+            </button>
+          </div>
         </>
       )}
     </div>

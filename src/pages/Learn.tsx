@@ -186,9 +186,13 @@ export default function Learn() {
           <>
             <WordCard word={current} direction={settings.direction}
               flipped={flipped} onFlip={() => setFlipped((f) => !f)}
-              onSwipeRight={() => void grade('know')} />
+              onSwipeLeft={() => {
+                if (idx + 1 >= cards.length) setFinished(true)
+                else setIdx(idx + 1)
+              }}
+              onSwipeRight={idx > 0 ? () => setIdx(idx - 1) : undefined} />
             <div className="small dim center" style={{ marginTop: 8 }}>
-              카드를 오른쪽으로 밀면 ‘앎’으로 표시돼요
+              좌우로 밀어 이전·다음 단어로 이동해요 (판정은 아래 버튼)
             </div>
           </>
         )
