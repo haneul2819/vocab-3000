@@ -93,16 +93,21 @@ npm run preview   # 빌드 미리보기
 - 배포 주소: **https://haneul2819.github.io/vocab-3000/**
 - 해시 라우팅이라 SPA rewrite 불필요, `base: './'`라 하위 경로에서도 동작
 
-### 플레이스토어(Google Play) 등록 절차 — TWA
+### 플레이스토어(Google Play) — Capacitor 완전 내장형 앱
 
-PWA를 TWA(Trusted Web Activity)로 감싸면 플레이스토어에 올릴 수 있습니다.
+TWA(웹사이트 로딩)가 아니라 **Capacitor**로 웹 빌드 전체(단어 데이터 포함)를
+앱 안에 내장합니다. 설치 후 서버·인터넷 없이 완전 동작합니다.
 
-1. `npx @bubblewrap/cli init --manifest https://haneul2819.github.io/vocab-3000/manifest.webmanifest`
-   (또는 https://www.pwabuilder.com 에서 GUI로 생성)
-2. 빌드하면 서명 키가 생성됨 → 키의 SHA-256 지문으로 `assetlinks.json`을 만들고,
-   **`haneul2819.github.io` 저장소**(사용자 루트 페이지)의 `/.well-known/assetlinks.json`에 배치
-   (asset links는 도메인 루트 기준이라 이 저장소가 아닌 루트 저장소에 둬야 함)
-3. Play Console(등록비 $25 · 1회)에 AAB 업로드
+- 앱 ID: `io.github.haneul2819.voca3000` · 음성은 안드로이드 네이티브 TTS 사용
+- **AAB 만들기**: 저장소 → Actions → **Build Android App** → Run workflow
+  → 완료 후 Artifacts에서 `voca3000-release-aab`(스토어 제출용)와
+  `voca3000-release-apk`(휴대폰 직접 설치 테스트용) 다운로드
+- 서명 키: GitHub Secrets(`ANDROID_KEYSTORE_*`)로 CI에서 서명.
+  원본 키스토어는 로컬 `voca3000-release-key/` 폴더에 보관 — **분실 시 앱
+  업데이트 불가, 반드시 백업**
+- 업데이트 올릴 때: `android/app/build.gradle`의 `versionCode`를 1씩 올리고
+  다시 빌드
+- Play Console(등록비 $25 · 1회)에 AAB 업로드 → 스토어 등록 정보 작성 → 검토 제출
 
 ### 기타 호스팅 (Vercel / Firebase)
 
