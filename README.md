@@ -90,7 +90,7 @@ npm run preview   # 빌드 미리보기
 
 ```bash
 npm i -g vercel
-vercel --cwd vocab-app   # 또는 vocab-app 디렉터리에서 vercel
+vercel                   # 저장소 루트에서 실행
 ```
 
 - Framework Preset: **Vite** / Build Command: `npm run build` / Output: `dist`
