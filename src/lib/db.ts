@@ -122,6 +122,26 @@ export async function bumpDailyLog(patch: Partial<Omit<DailyLog, 'date'>>): Prom
   await setMeta('dailyLogs', logs)
 }
 
+// ---- 오늘의 테스트 점수 기록 ----
+
+/** 날짜별 오늘의 테스트 결과 (같은 날 여러 번 풀면 최근 결과로 갱신) */
+export interface DailyTestScore {
+  day: number
+  right: number
+  total: number
+  at: number
+}
+
+export async function getDailyTestScores(): Promise<Record<string, DailyTestScore>> {
+  return getMeta<Record<string, DailyTestScore>>('dailyTestScores', {})
+}
+
+export async function saveDailyTestScore(score: Omit<DailyTestScore, 'at'>): Promise<void> {
+  const scores = await getDailyTestScores()
+  scores[todayKey()] = { ...score, at: Date.now() }
+  await setMeta('dailyTestScores', scores)
+}
+
 /** 연속 학습일 계산 (오늘 포함, 하루라도 기록이 있으면 인정) */
 export async function getStreak(): Promise<number> {
   const logs = await getDailyLogs()

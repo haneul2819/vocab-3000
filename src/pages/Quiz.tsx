@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { useSettings } from '../App'
 import { loadDay, loadDays, trackOfDay } from '../lib/data'
-import { bumpDailyLog, getState, putState } from '../lib/db'
+import { bumpDailyLog, getState, putState, saveDailyTestScore } from '../lib/db'
 import {
   buildQuiz, checkTypedAnswer, QUIZ_TYPE_LABELS,
   type QuizQuestion, type QuizType,
@@ -57,11 +57,22 @@ export default function Quiz() {
             (_, i) => trackOfDay(day).from + i))
     const qs = await buildQuiz(words, n ?? count, type === 'mix' ? undefined : type)
     clearTimer()
+    savedDaily.current = false
     setDaily(isDaily)
     setQuestions(qs)
     setResults(Array(qs.length).fill(null))
     setIdx(0); setTyped('')
   }, [day, scope, type, count])
+
+  // 오늘의 테스트 완료 시 날짜별 점수 기록 (통계·홈 표시용)
+  const savedDaily = useRef(false)
+  useEffect(() => {
+    if (daily && questions && questions.length > 0 && idx >= questions.length && !savedDaily.current) {
+      savedDaily.current = true
+      const right = results.filter((r) => r?.ok).length
+      void saveDailyTestScore({ day, right, total: questions.length })
+    }
+  }, [daily, questions, idx, results, day])
 
   // 홈 '오늘의 테스트'에서 넘어오면 바로 시작
   const autostarted = useRef(false)
