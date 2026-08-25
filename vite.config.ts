@@ -33,8 +33,8 @@ export default defineConfig({
       },
       manifest: {
         id: './',
-        name: '기본 어휘 3000 단어장',
-        short_name: '어휘3000',
+        name: '보카3000 - 초중고 영단어',
+        short_name: '보카3000',
         description:
           '교육부 고시 기본 어휘 3,000 기반 영단어 암기·문제집 (초·중·고)',
         lang: 'ko',

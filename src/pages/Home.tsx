@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <div className="page">
       <div className="row spread">
-        <h1>기본 어휘 3000</h1>
+        <h1>보카3000</h1>
         <Link to="/settings" aria-label="설정" style={{ fontSize: '1.3rem' }}>⚙️</Link>
       </div>
 
