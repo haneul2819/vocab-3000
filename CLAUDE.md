@@ -28,7 +28,7 @@ npm run preview   # 빌드 결과 미리보기
 src/
   App.tsx           라우팅 + 설정 컨텍스트(useSettings) + 스킨/글자크기 적용
   pages/            Home Diagnostic Learn Quiz Grammar Review Stats Settings
-  components/       NavBar(SVG 아이콘) WordCard(스와이프 판정) ProgressRing
+  components/       NavBar(SVG 아이콘) WordCard(스와이프·길게 누르기) ShareSheet ProgressRing
   lib/
     types.ts        데이터 모델 + Settings + SKINS(스킨 메타 목록)
     data.ts         public/data 청크 지연 로딩 + 메모리 캐시, TRACKS 정의
@@ -36,6 +36,7 @@ src/
     srs.ts          간격 반복 규칙
     quiz.ts         문제 출제(오답 선택지는 같은 level·같은 품사에서)
     tts.ts          음성 재생 — 나중에 mp3로 교체할 때 이 파일만 수정
+    shareCard.ts    단어 카드 PNG 생성(캔버스)·공유/저장 — 스킨 토큰을 읽어 그림
     skin.ts         data-skin 적용 · 스킨별 웹폰트 로드 · theme-color 갱신
   styles.css        전역 스타일 + 스킨 토큰
 public/data/        빌드 산출 데이터 (index.json, days/day-NN.json ×60, ...)
@@ -77,9 +78,11 @@ design/             스킨 시안 원본 (design/README.md 참고)
 | 헷갈림 | 3일 | 오답 노트 등록, 연속 앎 초기화 |
 | 앎 | 7일 → 30일 | 연속 3회 '앎'이면 오답 노트 졸업 / 30일 단계까지 마치면 mastered |
 
-암기 카드는 **오른쪽 스와이프 = '앎'** 판정(임계값 90px). 이 제스처는
+암기 카드는 **오른쪽 스와이프 = '앎'** 판정(임계값 90px),
+**길게 누르기(0.5초) = 이미지 공유/저장 시트**입니다. 이 제스처들은
 세로 스크롤·핀치 줌·탭 뒤집기와 공존하도록 만들었으니(가로 우세 판정,
-pointercancel 시 원위치, 드래그 직후 click 억제) 수정 시 넷 다 확인하세요.
+pointercancel 시 원위치, 드래그·길게 누르기 직후 click 억제, 10px 이상
+이동하면 길게 누르기 취소) 수정 시 다섯 가지를 모두 확인하세요.
 
 ## 데이터 파이프라인
 
