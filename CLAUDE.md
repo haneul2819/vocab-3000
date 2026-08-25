@@ -65,8 +65,11 @@ design/             스킨 시안 원본 (design/README.md 참고)
 - 웹폰트는 선택한 스킨의 것만 동적 로드하고, workbox 런타임 캐시로 오프라인 유지.
   **로드 실패해도 폴백 스택으로 정상 동작해야 합니다.**
 - 글자 크기: `Settings.fontScale`이 `html`의 font-size(16px×배율)를 조절하므로
-  **텍스트 크기는 rem 단위**를 써야 함께 커집니다. 핀치 줌은 `index.html`의
-  viewport 메타(`user-scalable=yes`)로 항상 허용 — 막지 마세요.
+  **텍스트 크기는 rem 단위**를 써야 함께 커집니다. 반대로 앱 틀(내비 높이,
+  카드 최대 폭, 안내 토스트)은 **px 고정**이라 확대해도 화면 밖으로 나가지 않습니다.
+- **두 손가락 핀치 = 글자 크기 조절**(`src/lib/pinchFontZoom.ts`). 브라우저 기본
+  확대는 `index.html` viewport(`user-scalable=no`) + touchmove preventDefault로
+  끕니다. 핀치 중에는 저장 없이 미리보기만 하고 손을 뗄 때 `fontScale`을 저장합니다.
 
 ## 학습 상태 · SRS
 
