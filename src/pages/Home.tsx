@@ -25,21 +25,22 @@ export default function Home() {
   const day = settings.currentDay
   const track = trackOfDay(day)
 
-  // Day별 진행률 (mastered 또는 learning 이상 상태 단어 비율)
+  // Day별 진행률 — done: 학습한 단어(unseen 탈출), tested: 문제를 풀어본 단어
   const dayProgress = useMemo(() => {
-    if (!index) return new Map<number, { done: number; total: number }>()
-    const m = new Map<number, { done: number; total: number }>()
+    if (!index) return new Map<number, { done: number; tested: number; total: number }>()
+    const m = new Map<number, { done: number; tested: number; total: number }>()
     for (const w of index.words) {
-      const cur = m.get(w.d) ?? { done: 0, total: 0 }
+      const cur = m.get(w.d) ?? { done: 0, tested: 0, total: 0 }
       cur.total += 1
       const st = states.get(w.id)
       if (st && st.status !== 'unseen') cur.done += 1
+      if (st && st.quizRight + st.quizWrong > 0) cur.tested += 1
       m.set(w.d, cur)
     }
     return m
   }, [index, states])
 
-  const today = dayProgress.get(day) ?? { done: 0, total: 50 }
+  const today = dayProgress.get(day) ?? { done: 0, tested: 0, total: 50 }
 
   return (
     <div className="page">
@@ -48,21 +49,30 @@ export default function Home() {
         <Link to="/settings" aria-label="설정" style={{ fontSize: '1.3rem' }}>⚙️</Link>
       </div>
 
-      {/* 오늘 학습 카드 */}
+      {/* 오늘 학습 카드 — 학습 진도와 테스트 진도를 따로 표시 */}
       <div className="card">
         <div className="row spread">
           <div>
             <span className="badge primary">{track.label}</span>
             <h2 style={{ margin: '8px 0 4px' }}>오늘 학습 · Day {day}</h2>
             <div className="dim small">
-              {today.done}/{today.total} 단어 학습
+              학습 {today.done}/{today.total} · 테스트 {today.tested}/{today.total}
               {streak > 0 && <> · 🔥 연속 {streak}일</>}
             </div>
           </div>
-          <ProgressRing value={today.total ? today.done / today.total : 0} />
+          <div className="row" style={{ gap: 10 }}>
+            <div className="center">
+              <ProgressRing value={today.total ? today.done / today.total : 0} size={62} stroke={6} />
+              <div className="dim small" style={{ marginTop: 2 }}>학습</div>
+            </div>
+            <div className="center">
+              <ProgressRing value={today.total ? today.tested / today.total : 0} size={62} stroke={6} />
+              <div className="dim small" style={{ marginTop: 2 }}>테스트</div>
+            </div>
+          </div>
         </div>
         <div className="row mt16" style={{ gap: 8 }}>
-          <button className="btn primary" onClick={() => nav(`/learn/${day}`)}>
+          <button className="btn primary" style={{ flex: 1 }} onClick={() => nav(`/learn/${day}`)}>
             학습 시작
           </button>
         </div>
@@ -71,13 +81,19 @@ export default function Home() {
         </button>
       </div>
 
-      {/* 진단 테스트 */}
+      {/* 오늘의 테스트 — 오늘 Day 단어 전체(50문제) 점검. 진단 테스트는 문제집으로 이동 */}
       <div className="card row spread">
         <div>
-          <b>진단 테스트</b>
-          <div className="dim small">30문항으로 시작 Day 추천받기</div>
+          <b>오늘의 테스트</b>
+          <div className="dim small">
+            Day {day} 단어 50문제 · 진행 {today.tested}/{today.total}
+            {today.total > 0 && today.tested >= today.total && ' ✅ 완료'}
+          </div>
         </div>
-        <button className="btn sm primary" onClick={() => nav('/diagnostic')}>시작</button>
+        <button className="btn sm primary"
+          onClick={() => nav('/quiz', { state: { day, count: 50, autostart: true, daily: true } })}>
+          시작
+        </button>
       </div>
 
       {/* 트랙 선택 */}

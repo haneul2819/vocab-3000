@@ -1,5 +1,5 @@
 // 암기 카드 컴포넌트 — 앞면(단어/IPA/발음)·뒷면(뜻/예문/파생어)
-// 오른쪽 스와이프 = '앎' 판정 (탭 뒤집기·세로 스크롤·핀치 줌과 공존)
+// 좌우 스와이프 = 이전·다음 카드 이동 (탭 뒤집기·세로 스크롤·핀치 줌과 공존)
 // 길게 누르기(0.5초) = 이미지 공유/저장 시트
 import { useEffect, useRef, useState } from 'react'
 import { speak } from '../lib/tts'
@@ -12,7 +12,9 @@ interface Props {
   /** 영→한(en-ko): 앞면 단어 / 한→영(ko-en): 앞면 뜻 */
   direction: 'en-ko' | 'ko-en'
   onFlip: () => void
-  /** 오른쪽으로 밀어 넘겼을 때 (없으면 스와이프 비활성) */
+  /** 왼쪽으로 밀었을 때 = 다음 카드 (없으면 왼쪽 스와이프 비활성) */
+  onSwipeLeft?: () => void
+  /** 오른쪽으로 밀었을 때 = 이전 카드 (없으면 오른쪽 스와이프 비활성) */
   onSwipeRight?: () => void
 }
 
@@ -95,9 +97,9 @@ function Back({ word, direction }: { word: Word; direction: Props['direction'] }
   )
 }
 
-export default function WordCard({ word, flipped, direction, onFlip, onSwipeRight }: Props) {
+export default function WordCard({ word, flipped, direction, onFlip, onSwipeLeft, onSwipeRight }: Props) {
   const [dx, setDx] = useState(0)
-  const [exiting, setExiting] = useState(false)
+  const [exiting, setExiting] = useState<null | 'left' | 'right'>(null)
   const [shareOpen, setShareOpen] = useState(false)
   const cardRef = useRef<HTMLDivElement>(null)
   // 드래그 추적 상태 (렌더와 무관한 값은 ref로)
@@ -116,7 +118,7 @@ export default function WordCard({ word, flipped, direction, onFlip, onSwipeRigh
   // 단어가 바뀌면 위치 초기화
   useEffect(() => {
     setDx(0)
-    setExiting(false)
+    setExiting(null)
     setShareOpen(false)
     drag.current = null
     fired.current = false
@@ -129,6 +131,8 @@ export default function WordCard({ word, flipped, direction, onFlip, onSwipeRigh
     drag.current = null
     setDx(0)
   }
+
+  const canSwipe = !!onSwipeLeft || !!onSwipeRight
 
   const onPointerDown = (e: React.PointerEvent) => {
     if (exiting) return
@@ -159,7 +163,7 @@ export default function WordCard({ word, flipped, direction, onFlip, onSwipeRigh
     }
     if (!d.active) {
       // 가로 이동이 우세할 때만 스와이프 시작 (세로는 스크롤에 양보)
-      if (onSwipeRight && Math.abs(mx) > 12 && Math.abs(mx) > Math.abs(my) * 1.2) {
+      if (canSwipe && Math.abs(mx) > 12 && Math.abs(mx) > Math.abs(my) * 1.2) {
         d.active = true
         suppressClick.current = true
         cardRef.current?.setPointerCapture(e.pointerId)
@@ -171,7 +175,11 @@ export default function WordCard({ word, flipped, direction, onFlip, onSwipeRigh
         return
       }
     }
-    setDx(Math.max(0, mx)) // 오른쪽 방향만
+    // 핸들러가 없는 방향으로는 끌리지 않게 (첫 카드에서 이전으로 못 가는 것 등)
+    let next = mx
+    if (!onSwipeRight) next = Math.min(0, next)
+    if (!onSwipeLeft) next = Math.max(0, next)
+    setDx(next)
   }
 
   const onPointerUp = (e: React.PointerEvent) => {
@@ -179,10 +187,14 @@ export default function WordCard({ word, flipped, direction, onFlip, onSwipeRigh
     const d = drag.current
     if (!d || e.pointerId !== d.id) return
     drag.current = null
-    if (d.active && dx > SWIPE_THRESHOLD && onSwipeRight && !fired.current) {
+    if (d.active && !fired.current && dx > SWIPE_THRESHOLD && onSwipeRight) {
       fired.current = true
-      setExiting(true)
-      window.setTimeout(onSwipeRight, 180)
+      setExiting('right')
+      window.setTimeout(onSwipeRight, 160)
+    } else if (d.active && !fired.current && dx < -SWIPE_THRESHOLD && onSwipeLeft) {
+      fired.current = true
+      setExiting('left')
+      window.setTimeout(onSwipeLeft, 160)
     } else {
       setDx(0)
     }
@@ -191,30 +203,33 @@ export default function WordCard({ word, flipped, direction, onFlip, onSwipeRigh
   const onPointerCancel = () => { clearPress(); reset() } // 핀치 줌 시작 등으로 취소되면 원위치
 
   const onClick = () => {
-    // 드래그 직후 발생하는 click은 뒤집기로 처리하지 않음
+    // 드래그·길게 누르기 직후 발생하는 click은 뒤집기로 처리하지 않음
     if (suppressClick.current) { suppressClick.current = false; return }
     onFlip()
   }
 
-  const past = dx > SWIPE_THRESHOLD
+  const past = Math.abs(dx) > SWIPE_THRESHOLD
   return (
     <>
     <div ref={cardRef} className="flashcard" role="button"
-      aria-label="카드 뒤집기 (오른쪽으로 밀면 앎, 길게 누르면 이미지 공유)"
+      aria-label="카드 뒤집기 (좌우로 밀면 이전·다음, 길게 누르면 이미지 공유)"
       onClick={onClick}
       onPointerDown={onPointerDown} onPointerMove={onPointerMove}
       onPointerUp={onPointerUp} onPointerCancel={onPointerCancel}
       onContextMenu={(e) => e.preventDefault()} /* 모바일 길게 누르기의 기본 메뉴 억제 */
       style={{
         transform: exiting
-          ? 'translateX(130%) rotate(8deg)'
-          : dx ? `translateX(${dx}px) rotate(${dx / 40}deg)` : undefined,
+          ? `translateX(${exiting === 'right' ? '130%' : '-130%'})`
+          : dx ? `translateX(${dx}px) rotate(${dx / 60}deg)` : undefined,
         opacity: exiting ? 0 : 1,
-        transition: exiting ? 'transform 0.18s ease-in, opacity 0.18s ease-in'
+        transition: exiting ? 'transform 0.16s ease-in, opacity 0.16s ease-in'
           : dx ? 'none' : 'transform 0.15s ease',
       }}>
-      {onSwipeRight && dx > 8 && !exiting && (
-        <div className={`swipe-know${past ? ' on' : ''}`}>앎 ✓</div>
+      {dx > 8 && !exiting && (
+        <div className={`swipe-hint${past ? ' on' : ''}`}>◀ 이전 단어</div>
+      )}
+      {dx < -8 && !exiting && (
+        <div className={`swipe-hint right${past ? ' on' : ''}`}>다음 단어 ▶</div>
       )}
       {flipped ? <Back word={word} direction={direction} /> : <Front word={word} direction={direction} />}
     </div>

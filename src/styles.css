@@ -160,13 +160,14 @@ button {
   position: relative; touch-action: pan-y pinch-zoom;
 }
 /* 오른쪽 스와이프 진행 중 표시되는 '앎' 배지 */
-.swipe-know {
+.swipe-hint {
   position: absolute; top: 12px; left: 12px; pointer-events: none;
-  padding: 5px 14px; border-radius: 999px; font-weight: 800; font-size: 0.95rem;
-  border: 2px solid var(--ok); color: var(--ok); opacity: 0.4;
+  padding: 5px 14px; border-radius: 999px; font-weight: 800; font-size: 0.9rem;
+  border: 2px solid var(--primary); color: var(--primary); opacity: 0.4;
   transform: rotate(-6deg);
 }
-.swipe-know.on { opacity: 1; background: var(--ok-soft); }
+.swipe-hint.right { left: auto; right: 12px; transform: rotate(6deg); }
+.swipe-hint.on { opacity: 1; background: var(--primary-soft); }
 .flashcard .headword { font-size: 2.2rem; font-weight: 800; letter-spacing: 0.5px; font-family: var(--font-display); }
 .flashcard .ipa { color: var(--text-dim); font-size: 1.05rem; }
 .flashcard .meaning-line { font-size: 1.15rem; margin: 2px 0; }
@@ -177,6 +178,13 @@ button {
 .flashcard .example .ko { color: var(--text-dim); font-size: 0.85rem; }
 
 .progress-text { font-variant-numeric: tabular-nums; }
+
+/* ---- 문제집 좌우 빠른 이동 ---- */
+.quiz-nav {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  margin-top: 12px;
+}
+.quiz-nav .btn { min-width: 96px; }
 
 /* ---- 단어 이미지 공유 시트 (카드 길게 누르기) ---- */
 .sheet-overlay {
