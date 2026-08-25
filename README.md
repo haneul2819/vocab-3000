@@ -108,6 +108,8 @@ TWA(웹사이트 로딩)가 아니라 **Capacitor**로 웹 빌드 전체(단어 
 - 업데이트 올릴 때: `android/app/build.gradle`의 `versionCode`를 1씩 올리고
   다시 빌드
 - Play Console(등록비 $25 · 1회)에 AAB 업로드 → 스토어 등록 정보 작성 → 검토 제출
+- **제출용 문구·그래픽·설문 답변 일체**: `store/PLAY_STORE.md` 와 `store/assets/` 참고
+- 개인정보처리방침: https://haneul2819.github.io/vocab-3000/privacy.html
 
 ### 기타 호스팅 (Vercel / Firebase)
 
