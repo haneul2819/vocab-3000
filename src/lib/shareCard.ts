@@ -158,7 +158,7 @@ export async function renderWordCanvas(word: Word): Promise<HTMLCanvasElement> {
       ctx.stroke()
     }
     y += 14
-    center('기본 어휘 3000 단어장', `16px ${body}`, c.dim, 22)
+    center('보카3000 · 교육부 기본 어휘', `16px ${body}`, c.dim, 22)
 
     return y + P - 12 + M
   }
