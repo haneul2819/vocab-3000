@@ -2,7 +2,7 @@
 // | 판정   | 다음 복습        | 비고                                    |
 // | 모름   | 1일             | 오답 노트 등록, 연속 앎 초기화             |
 // | 헷갈림 | 3일             | 오답 노트 등록, 연속 앎 초기화             |
-// | 앎     | 7일 → 30일      | 3회 연속 앎이면 오답 노트 졸업 / 30일 뒤 완료 |
+// | 앎     | 7 → 30 → 90 → 180일 | 3회 연속 앎이면 오답 노트 졸업 / 전 단계 통과 시 완료 |
 import { describe, expect, it } from 'vitest'
 import { newWordState } from './db'
 import { applyGrade, formatDue } from './srs'
@@ -44,16 +44,19 @@ describe('헷갈림 판정', () => {
 })
 
 describe('앎 판정', () => {
-  it('첫 앎은 7일 뒤', () => {
+  it('간격이 7 → 30 → 90 → 180일로 늘어난다', () => {
     expect(after(['know']).dueAt).toBe(NOW + 7 * DAY)
-  })
-  it('두 번째 앎은 30일 뒤', () => {
     expect(after(['know', 'know']).dueAt).toBe(NOW + 30 * DAY)
+    expect(after(['know', 'know', 'know']).dueAt).toBe(NOW + 90 * DAY)
+    expect(after(['know', 'know', 'know', 'know']).dueAt).toBe(NOW + 180 * DAY)
   })
-  it('세 번 연속 앎이면 완료되어 복습 큐에서 빠진다', () => {
-    const s = after(['know', 'know', 'know'])
+  it('마지막 간격까지 통과해야 완료되어 복습 큐에서 빠진다', () => {
+    const s = after(['know', 'know', 'know', 'know', 'know'])
     expect(s.status).toBe('mastered')
     expect(s.dueAt).toBe(0)
+  })
+  it('네 번째 앎까지는 아직 복습 대상으로 남는다', () => {
+    expect(after(['know', 'know', 'know', 'know']).status).not.toBe('mastered')
   })
   it('미학습 단어도 첫 앎이면 학습중이 된다', () => {
     expect(after(['know']).status).toBe('learning')
@@ -77,15 +80,15 @@ describe('오답 노트 졸업', () => {
 })
 
 describe('상태 전이', () => {
-  // 현재 구현의 실제 동작을 기록해 둔다.
-  // 헷갈림 단어는 '학습중'을 거치지 않고 곧바로 '완료'로 넘어간다.
-  // (srs.ts의 confused → learning 회복 분기는 어떤 판정 순서로도 도달하지 않는 죽은 코드)
   it('헷갈림 단어는 두 번째 앎까지 헷갈림으로 남는다', () => {
     expect(after(['fuzzy', 'know']).status).toBe('confused')
     expect(after(['fuzzy', 'know', 'know']).status).toBe('confused')
   })
-  it('세 번째 앎에서 헷갈림 단어가 곧바로 완료된다', () => {
-    expect(after(['fuzzy', 'know', 'know', 'know']).status).toBe('mastered')
+  it('헷갈림 단어도 3회 연속 앎이면 학습중으로 회복한다', () => {
+    expect(after(['fuzzy', 'know', 'know', 'know']).status).toBe('learning')
+  })
+  it('회복 후에도 마지막 간격을 통과해야 완료된다', () => {
+    expect(after(['fuzzy', 'know', 'know', 'know', 'know', 'know']).status).toBe('mastered')
   })
   it('판정할 때마다 갱신 시각을 남긴다', () => {
     expect(after(['know']).updatedAt).toBe(NOW)

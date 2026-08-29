@@ -211,8 +211,9 @@ export default function WordCard({ word, flipped, direction, onFlip, onSwipeLeft
   const past = Math.abs(dx) > SWIPE_THRESHOLD
   return (
     <>
-    <div ref={cardRef} className="flashcard" role="button"
-      aria-label="카드 뒤집기 (좌우로 밀면 이전·다음, 길게 누르면 이미지 공유)"
+    <div ref={cardRef} className="flashcard" role="button" tabIndex={0}
+      aria-label={`${word.word}. 눌러서 ${flipped ? '앞면' : '뜻'} 보기`}
+      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onFlip() } }}
       onClick={onClick}
       onPointerDown={onPointerDown} onPointerMove={onPointerMove}
       onPointerUp={onPointerUp} onPointerCancel={onPointerCancel}
@@ -231,6 +232,9 @@ export default function WordCard({ word, flipped, direction, onFlip, onSwipeLeft
       {dx < -8 && !exiting && (
         <div className={`swipe-hint right${past ? ' on' : ''}`}>다음 단어 ▶</div>
       )}
+      {/* 길게 누르기를 쓰기 어려운 경우를 위한 대체 경로 */}
+      <button className="card-share" aria-label={`${word.word} 단어 카드 이미지 공유`}
+        onClick={(e) => { e.stopPropagation(); setShareOpen(true) }}>⤴</button>
       {flipped ? <Back word={word} direction={direction} /> : <Front word={word} direction={direction} />}
     </div>
     {shareOpen && <ShareSheet word={word} onClose={() => setShareOpen(false)} />}
