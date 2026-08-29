@@ -4,6 +4,8 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { useSettings } from '../App'
 import WordCard from '../components/WordCard'
 import { loadDay, shuffled } from '../lib/data'
+import { useAsync } from '../lib/useAsync'
+import { Loading, LoadFailed } from '../components/LoadState'
 import { bumpDailyLog, getStates, putState } from '../lib/db'
 import { applyGrade, type Grade } from '../lib/srs'
 import { pause, speak, speakKo, stopSpeaking } from '../lib/tts'
@@ -21,25 +23,24 @@ export default function Learn() {
   const nav = useNavigate()
   const { settings, update } = useSettings()
 
-  const [allWords, setAllWords] = useState<Word[]>([])
+  const { data: allWords, loading, error, retry } = useAsync(() => loadDay(day), [day])
   const [states, setStates] = useState<Map<number, WordState>>(new Map())
   const [mode, setMode] = useState<Mode>('study')
   const [idx, setIdx] = useState(0)
   const [flipped, setFlipped] = useState(false)
   const [finished, setFinished] = useState(false)
 
+  // 단어가 준비되면 학습 상태를 함께 불러온다
   useEffect(() => {
-    loadDay(day).then(async (ws) => {
-      setAllWords(ws)
-      setStates(await getStates(ws.map((w) => w.id)))
-    })
-  }, [day])
+    if (!allWords) return
+    void getStates(allWords.map((w) => w.id)).then(setStates)
+  }, [allWords])
 
   // 모드·셔플 설정에 따른 카드 목록
   const cards = useMemo(() => {
-    let list = allWords
+    let list = allWords ?? []
     if (mode === 'wrong') {
-      list = allWords.filter((w) => states.get(w.id)?.wrongNote)
+      list = list.filter((w) => states.get(w.id)?.wrongNote)
     }
     return settings.shuffle ? shuffled(list) : list
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -111,7 +112,14 @@ export default function Learn() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [day])
 
-  if (!allWords.length) return <div className="page center dim">로딩 중…</div>
+  if (loading) return <Loading />
+  if (error || !allWords) {
+    return (
+      <LoadFailed what={`Day ${day} 단어`} onRetry={retry}>
+        <button className="btn ghost mt8" onClick={() => nav('/')}>홈으로</button>
+      </LoadFailed>
+    )
+  }
 
   if (finished) {
     return (

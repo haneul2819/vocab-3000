@@ -189,6 +189,15 @@ button {
   font-size: 15px; font-weight: 700; letter-spacing: 0.02em;
 }
 
+/* ---- 뒤로가기 종료 안내 ---- */
+.exit-toast {
+  position: fixed; left: 50%; bottom: calc(var(--nav-h) + 26px + env(safe-area-inset-bottom));
+  transform: translateX(-50%); z-index: 80; pointer-events: none;
+  padding: 9px 18px; border-radius: 999px;
+  background: rgba(15, 23, 42, 0.86); color: #fff;
+  font-size: 14px; font-weight: 600; white-space: nowrap;
+}
+
 /* ---- 문제집 좌우 빠른 이동 ---- */
 .quiz-nav {
   display: flex; align-items: center; justify-content: space-between; gap: 8px;

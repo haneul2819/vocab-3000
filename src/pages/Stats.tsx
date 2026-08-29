@@ -16,13 +16,14 @@ const STATUS_COLORS: Record<WordStatus, string> = {
 
 export default function Stats() {
   const [index, setIndex] = useState<DataIndex | null>(null)
+  const [indexError, setIndexError] = useState(false)
   const [states, setStates] = useState<WordState[]>([])
   const [streak, setStreak] = useState(0)
   const [totalDays, setTotalDays] = useState(0)
   const [testScores, setTestScores] = useState<[string, DailyTestScore][]>([])
 
   useEffect(() => {
-    loadIndex().then(setIndex)
+    loadIndex().then(setIndex).catch(() => setIndexError(true))
     getAllStates().then(setStates)
     getStreak().then(setStreak)
     getDailyLogs().then((l) => setTotalDays(Object.keys(l).length))
@@ -68,6 +69,14 @@ export default function Stats() {
   return (
     <div className="page">
       <h1>통계</h1>
+      {indexError && (
+        <div className="card" role="alert" style={{ borderColor: 'var(--bad)' }}>
+          <b>통계 데이터를 불러오지 못했어요</b>
+          <div className="dim small mt8">수치가 실제와 다를 수 있습니다.</div>
+          <button className="btn sm mt8" onClick={() => location.reload()}>새로고침</button>
+        </div>
+      )}
+
 
       <div className="stat-grid">
         <div className="card center">

@@ -1,8 +1,10 @@
 // 문법 — 범주별 예문 열람(level 필터, 예문 듣기·전체/반복 듣기) + 빈칸/어순 배열 문제
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { loadGrammar, sample, shuffled } from '../lib/data'
+import { useAsync } from '../lib/useAsync'
+import { Loading, LoadFailed } from '../components/LoadState'
 import { pause, speak, stopSpeaking } from '../lib/tts'
-import type { GrammarCategory, GrammarItem } from '../lib/types'
+import type { GrammarItem } from '../lib/types'
 
 const LEVELS = ['전체', '초', '중', '고'] as const
 type LevelFilter = (typeof LEVELS)[number]
@@ -54,7 +56,8 @@ function makeOrder(item: GrammarItem): GrammarQuestion | null {
 }
 
 export default function Grammar() {
-  const [cats, setCats] = useState<GrammarCategory[]>([])
+  const { data: loadedCats, loading, error, retry } = useAsync(() => loadGrammar(), [])
+  const cats = loadedCats ?? []
   const [level, setLevel] = useState<LevelFilter>('전체')
   const [openCat, setOpenCat] = useState<string | null>(null)
   const [tab, setTab] = useState<'browse' | 'quiz'>('browse')
@@ -94,10 +97,6 @@ export default function Grammar() {
   }
 
   useEffect(() => () => { playStop.current = true; stopSpeaking() }, []) // 화면 이탈 시 정지
-
-  useEffect(() => {
-    loadGrammar().then(setCats)
-  }, [])
 
   const filtered = useMemo(() =>
     cats.map((c) => ({
@@ -143,6 +142,9 @@ export default function Grammar() {
       setTimeout(nextQuestion, ok ? 800 : 2200)
     }
   }
+
+  if (loading) return <Loading />
+  if (error) return <LoadFailed what="문법 예문" onRetry={retry} />
 
   return (
     <div className="page">
