@@ -55,6 +55,16 @@ export default function Home() {
         <Link to="/settings" aria-label="설정" style={{ fontSize: '1.3rem' }}>⚙️</Link>
       </div>
 
+      {/* 모르는 단어를 바로 찾아볼 수 있는 입구 */}
+      <button className="search-entry" onClick={() => nav('/search')}
+        aria-label="단어 검색 열기">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          strokeWidth="2" strokeLinecap="round">
+          <circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" />
+        </svg>
+        <span>단어 찾기</span>
+      </button>
+
       {indexError && (
         <div className="card" role="alert" style={{ borderColor: 'var(--bad)' }}>
           <b>단어 목록을 불러오지 못했어요</b>

@@ -31,13 +31,16 @@ npm run preview    # 빌드 결과 미리보기
 ```
 src/
   App.tsx           라우팅 + 설정 컨텍스트(useSettings) + 스킨/글자크기 적용
-  pages/            Home Diagnostic Learn Quiz Grammar Review Stats Settings
+  pages/            Home Search Diagnostic Learn Quiz Grammar Review Stats Settings
   components/       NavBar(SVG 아이콘) WordCard(스와이프·길게 누르기) ShareSheet ProgressRing
   components/LoadState.tsx  로딩·실패 화면 (모든 화면이 공유)
   components/ErrorBoundary.tsx  렌더 오류 시 흰 화면 대신 복구 안내
   lib/
     useAsync.ts     비동기 로딩 상태(로딩·실패·재시도) 훅
     backButton.ts   안드로이드 하드웨어 뒤로가기 처리
+    reminder.ts     복습 로컬 알림 (네이티브 전용, 서버 없음)
+    backup.ts       학습 기록 백업 — 앱은 공유 시트, 웹은 다운로드
+    wakeLock.ts     듣기 모드 중 화면 꺼짐 방지
     types.ts        데이터 모델 + Settings + SKINS(스킨 메타 목록)
     data.ts         public/data 청크 지연 로딩 + 메모리 캐시, TRACKS 정의
     db.ts           IndexedDB(idb) — states(단어 상태) / meta(설정·일별기록)
@@ -133,6 +136,21 @@ python3 scripts/build_chunks.py          # → public/data/ 청크 생성
 - **간격 반복 규칙을 바꾸면 `srs.test.ts`를 함께 고칩니다.** 간격 배열(`KNOW_INTERVALS`)
   길이를 줄이면 `confused → learning` 회복 분기가 다시 도달 불가능해집니다
   (졸업이 회복보다 먼저 일어나기 때문). 배열을 바꿀 때는 테스트로 확인하세요.
+
+## 네이티브 전용 기능
+
+앱(Capacitor)에서만 동작하고 웹에서는 조용히 비활성되는 기능들입니다.
+**웹에서도 화면이 깨지지 않도록 항상 `Capacitor.isNativePlatform()`으로 분기**하고,
+설정 화면에는 왜 못 쓰는지 안내를 남깁니다.
+
+| 기능 | 모듈 | 웹에서는 |
+|---|---|---|
+| 복습 알림 | `reminder.ts` | 안내 문구만 표시 |
+| 백업 공유 | `backup.ts` | 파일 다운로드로 대체 |
+| 뒤로가기 | `backButton.ts` | 브라우저 뒤로가기가 처리 |
+| 음성 | `tts.ts` | Web Speech API 사용 |
+
+알림 문구의 복습 개수는 **앱을 열 때마다 다시 예약**해 최신으로 유지합니다(`App.tsx`).
 
 ## 주의사항
 
