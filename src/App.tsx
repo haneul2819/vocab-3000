@@ -9,8 +9,10 @@ import Grammar from './pages/Grammar'
 import Review from './pages/Review'
 import Stats from './pages/Stats'
 import SettingsPage from './pages/Settings'
+import Search from './pages/Search'
 import { getSettings, saveSettings } from './lib/db'
 import { attachBackButton } from './lib/backButton'
+import { cancelReminder, scheduleReminder } from './lib/reminder'
 import { attachPinchFontZoom } from './lib/pinchFontZoom'
 import { applySkin } from './lib/skin'
 import type { Settings } from './lib/types'
@@ -85,6 +87,13 @@ export default function App() {
     },
   }), [update])
 
+  // 복습 알림: 앱을 열 때마다 다시 걸어 대기 개수를 최신으로 유지한다
+  useEffect(() => {
+    if (!ready) return
+    if (settings.reminderOn) void scheduleReminder(settings.reminderTime)
+    else void cancelReminder()
+  }, [ready, settings.reminderOn, settings.reminderTime])
+
   // 안드로이드 하드웨어 뒤로가기 — 앱이 곧바로 꺼지지 않게 한다
   const atRootRef = useRef(location.pathname === '/')
   atRootRef.current = location.pathname === '/'
@@ -111,6 +120,7 @@ export default function App() {
           <Route path="/review" element={<Review />} />
           <Route path="/stats" element={<Stats />} />
           <Route path="/settings" element={<SettingsPage />} />
+          <Route path="/search" element={<Search />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <NavBar />

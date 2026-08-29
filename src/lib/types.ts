@@ -137,6 +137,10 @@ export interface Settings {
   listenRepeat: number
   startDay: number
   currentDay: number
+  /** 복습 알림 사용 여부 (네이티브 앱에서만 동작) */
+  reminderOn: boolean
+  /** 알림 시각 'HH:MM' (24시간) */
+  reminderTime: string
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -150,6 +154,8 @@ export const DEFAULT_SETTINGS: Settings = {
   listenRepeat: 1,
   startDay: 1,
   currentDay: 1,
+  reminderOn: false,
+  reminderTime: '20:00',
 }
 
 /** 일별 학습 기록 (연속 학습일·통계용) */

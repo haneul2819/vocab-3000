@@ -1,9 +1,13 @@
 // 설정 — 다크모드, 듣기 옵션, 진도 초기화, 데이터 내보내기/가져오기
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useSettings } from '../App'
-import { exportAll, importAll, resetProgress, type ExportData } from '../lib/db'
+import { importAll, resetProgress, type ExportData } from '../lib/db'
+import { saveBackup } from '../lib/backup'
 import { SKINS } from '../lib/types'
+import {
+  reminderPermissionGranted, reminderSupported, requestReminderPermission,
+} from '../lib/reminder'
 
 // 글자 크기 배율 선택지 (html 루트 폰트 크기에 적용)
 const FONT_SCALES = [
@@ -20,17 +24,28 @@ export default function SettingsPage() {
   const [msg, setMsg] = useState('')
   const [confirmReset, setConfirmReset] = useState(false)
   const skinMeta = SKINS.find((s) => s.id === settings.skin)
+  const [notifyAllowed, setNotifyAllowed] = useState(false)
+
+  useEffect(() => { void reminderPermissionGranted().then(setNotifyAllowed) }, [])
+
+  /** 알림을 켤 때 권한을 먼저 물어본다 */
+  const toggleReminder = async (on: boolean) => {
+    if (!on) { update({ reminderOn: false }); return }
+    const granted = notifyAllowed || await requestReminderPermission()
+    setNotifyAllowed(granted)
+    if (granted) update({ reminderOn: true })
+    else setMsg('알림 권한이 꺼져 있어요. 기기 설정에서 보카3000 알림을 켜 주세요.')
+  }
 
   const doExport = async () => {
-    const data = await exportAll()
-    const blob = new Blob([JSON.stringify(data, null, 1)], { type: 'application/json' })
-    const url = URL.createObjectURL(blob)
-    const a = document.createElement('a')
-    a.href = url
-    a.download = `vocab3000-backup-${new Date().toISOString().slice(0, 10)}.json`
-    a.click()
-    URL.revokeObjectURL(url)
-    setMsg('진도 데이터를 내보냈어요.')
+    try {
+      const res = await saveBackup()
+      if (res.kind === 'shared') setMsg('학습 기록을 저장했어요. 드라이브나 메신저에 보관해 두세요.')
+      else if (res.kind === 'downloaded') setMsg('학습 기록 파일을 내려받았어요.')
+      // 사용자가 공유를 닫은 경우엔 아무 말도 하지 않는다
+    } catch (e: unknown) {
+      setMsg(`내보내기 실패: ${e instanceof Error ? e.message : '알 수 없는 오류'}`)
+    }
   }
 
   const doImport = async (file: File) => {
@@ -106,6 +121,38 @@ export default function SettingsPage() {
         )}
       </div>
 
+      <h2>알림</h2>
+      <div className="card">
+        {reminderSupported() ? (
+          <>
+            <label className="row spread" style={{ minHeight: 44 }}>
+              <span>복습 알림 받기</span>
+              <input type="checkbox" checked={settings.reminderOn}
+                onChange={(e) => void toggleReminder(e.target.checked)}
+                style={{ width: 22, height: 22 }} />
+            </label>
+            {settings.reminderOn && (
+              <div className="row spread" style={{ minHeight: 44 }}>
+                <span>알림 시각</span>
+                <input type="time" value={settings.reminderTime}
+                  aria-label="알림 시각"
+                  onChange={(e) => update({ reminderTime: e.target.value })}
+                  className="time-input" />
+              </div>
+            )}
+            <div className="dim small mt8">
+              복습할 단어가 몇 개인지 하루 한 번 알려줍니다.
+              기기 안에서만 동작하며 어떤 정보도 밖으로 나가지 않습니다.
+            </div>
+          </>
+        ) : (
+          <div className="dim small">
+            복습 알림은 <b>설치한 앱</b>에서만 동작합니다.
+            웹 브라우저에서는 사용할 수 없어요.
+          </div>
+        )}
+      </div>
+
       <h2>학습</h2>
       <div className="card">
         <label className="row spread" style={{ minHeight: 44 }}>
@@ -138,8 +185,16 @@ export default function SettingsPage() {
 
       <h2>데이터</h2>
       <div className="card">
-        <button className="btn" onClick={() => void doExport()}>📤 데이터 내보내기 (JSON)</button>
-        <button className="btn mt8" onClick={() => fileRef.current?.click()}>📥 데이터 가져오기 (JSON)</button>
+        <div className="dim small" style={{ marginBottom: 10 }}>
+          학습 기록은 <b>이 기기에만</b> 저장됩니다. 폰을 바꾸거나 앱을 지우기 전에
+          꼭 백업해 두세요.
+        </div>
+        <button className="btn primary" onClick={() => void doExport()}>
+          📤 학습 기록 백업하기
+        </button>
+        <button className="btn mt8" onClick={() => fileRef.current?.click()}>
+          📥 백업 파일 불러오기
+        </button>
         <input ref={fileRef} type="file" accept="application/json" hidden
           onChange={(e) => e.target.files?.[0] && void doImport(e.target.files[0])} />
         {!confirmReset ? (
