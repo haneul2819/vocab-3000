@@ -3,6 +3,8 @@ import { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useSettings } from '../App'
 import { loadIndex, sample, shuffled, TRACKS } from '../lib/data'
+import { useAsync } from '../lib/useAsync'
+import { Loading, LoadFailed } from '../components/LoadState'
 import type { IndexWord, Level } from '../lib/types'
 
 interface DiagQuestion {
@@ -24,20 +26,21 @@ export default function Diagnostic() {
   })
   const [done, setDone] = useState(false)
 
+  const { data: index, loading, error, retry } = useAsync(() => loadIndex(), [])
+
   useEffect(() => {
-    loadIndex().then((index) => {
-      const qs: DiagQuestion[] = []
-      for (const t of TRACKS) {
-        const pool = index.words.filter((w) => w.l === t.level && w.ko)
-        for (const w of sample(pool, PER_LEVEL)) {
-          const wrong = sample(pool.filter((x) => x.id !== w.id && x.ko !== w.ko), 3).map((x) => x.ko)
-          if (wrong.length < 3) continue
-          qs.push({ word: w, choices: shuffled([w.ko, ...wrong]), answer: w.ko })
-        }
+    if (!index) return
+    const qs: DiagQuestion[] = []
+    for (const t of TRACKS) {
+      const pool = index.words.filter((w) => w.l === t.level && w.ko)
+      for (const w of sample(pool, PER_LEVEL)) {
+        const wrong = sample(pool.filter((x) => x.id !== w.id && x.ko !== w.ko), 3).map((x) => x.ko)
+        if (wrong.length < 3) continue
+        qs.push({ word: w, choices: shuffled([w.ko, ...wrong]), answer: w.ko })
       }
-      setQuestions(qs)
-    })
-  }, [])
+    }
+    setQuestions(qs)
+  }, [index])
 
   const q = questions[idx] as DiagQuestion | undefined
 
@@ -66,7 +69,14 @@ export default function Diagnostic() {
     return 41 // 모두 우수 → 심화 트랙 처음부터 빠르게 복습 권장
   }, [rightByLevel])
 
-  if (!questions.length) return <div className="page center dim">문제 준비 중…</div>
+  if (error) {
+    return (
+      <LoadFailed what="진단 테스트 문제" onRetry={retry}>
+        <button className="btn ghost mt8" onClick={() => nav('/')}>홈으로</button>
+      </LoadFailed>
+    )
+  }
+  if (loading || !questions.length) return <Loading label="문제 준비 중…" />
 
   if (done) {
     return (

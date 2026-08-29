@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react'
-import { Navigate, Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Home from './pages/Home'
 import Diagnostic from './pages/Diagnostic'
@@ -10,6 +10,7 @@ import Review from './pages/Review'
 import Stats from './pages/Stats'
 import SettingsPage from './pages/Settings'
 import { getSettings, saveSettings } from './lib/db'
+import { attachBackButton } from './lib/backButton'
 import { attachPinchFontZoom } from './lib/pinchFontZoom'
 import { applySkin } from './lib/skin'
 import type { Settings } from './lib/types'
@@ -28,6 +29,10 @@ export default function App() {
   const [ready, setReady] = useState(false)
   /** 핀치로 조절 중인 배율 (조절 중에만 값이 있고, 안내 표시에 쓰임) */
   const [pinching, setPinching] = useState<number | null>(null)
+  /** 뒤로가기를 한 번 더 누르면 종료된다는 안내 */
+  const [exitHint, setExitHint] = useState(false)
+  const nav = useNavigate()
+  const location = useLocation()
 
   useEffect(() => {
     getSettings().then((s) => {
@@ -80,6 +85,18 @@ export default function App() {
     },
   }), [update])
 
+  // 안드로이드 하드웨어 뒤로가기 — 앱이 곧바로 꺼지지 않게 한다
+  const atRootRef = useRef(location.pathname === '/')
+  atRootRef.current = location.pathname === '/'
+  useEffect(() => attachBackButton({
+    goBack: () => nav(-1),
+    isAtRoot: () => atRootRef.current,
+    showExitHint: () => {
+      setExitHint(true)
+      window.setTimeout(() => setExitHint(false), 2000)
+    },
+  }), [nav])
+
   if (!ready) return null
 
   return (
@@ -99,6 +116,9 @@ export default function App() {
         <NavBar />
         {pinching !== null && (
           <div className="zoom-toast">글자 크기 {Math.round(pinching * 100)}%</div>
+        )}
+        {exitHint && (
+          <div className="exit-toast" role="status">한 번 더 누르면 종료됩니다</div>
         )}
       </div>
     </Ctx.Provider>

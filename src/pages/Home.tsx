@@ -13,6 +13,7 @@ export default function Home() {
   const { settings } = useSettings()
   const nav = useNavigate()
   const [index, setIndex] = useState<DataIndex | null>(null)
+  const [indexError, setIndexError] = useState(false)
   const [states, setStates] = useState<Map<number, WordState>>(new Map())
   const [dueCount, setDueCount] = useState(0)
   const [streak, setStreak] = useState(0)
@@ -20,7 +21,7 @@ export default function Home() {
   const [todayScore, setTodayScore] = useState<DailyTestScore | null>(null)
 
   useEffect(() => {
-    loadIndex().then(setIndex)
+    loadIndex().then(setIndex).catch(() => setIndexError(true))
     getAllStates().then((all) => setStates(new Map(all.map((s) => [s.id, s]))))
     getDueStates().then((d) => setDueCount(d.length))
     getStreak().then(setStreak)
@@ -54,6 +55,13 @@ export default function Home() {
         <Link to="/settings" aria-label="설정" style={{ fontSize: '1.3rem' }}>⚙️</Link>
       </div>
 
+      {indexError && (
+        <div className="card" role="alert" style={{ borderColor: 'var(--bad)' }}>
+          <b>단어 목록을 불러오지 못했어요</b>
+          <div className="dim small mt8">진도 표시가 정확하지 않을 수 있습니다. 앱을 다시 시작해 주세요.</div>
+          <button className="btn sm mt8" onClick={() => location.reload()}>새로고침</button>
+        </div>
+      )}
       {/* 오늘 학습 카드 — 학습 진도와 테스트 진도를 따로 표시 */}
       <div className="card">
         <div className="row spread">

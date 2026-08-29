@@ -1,5 +1,6 @@
 // 단어 카드 길게 누르기 → 이미지 미리보기 + 공유/저장 시트
 import { useEffect, useState } from 'react'
+import { registerOverlay } from '../lib/backButton'
 import { canShareImage, downloadBlob, shareBlob, wordImageBlob } from '../lib/shareCard'
 import type { Word } from '../lib/types'
 
@@ -12,6 +13,9 @@ export default function ShareSheet({ word, onClose }: Props) {
   const [blob, setBlob] = useState<Blob | null>(null)
   const [url, setUrl] = useState<string | null>(null)
   const [msg, setMsg] = useState('')
+
+  // 안드로이드 뒤로가기를 누르면 앱 종료가 아니라 이 시트만 닫히게 한다
+  useEffect(() => registerOverlay(() => { onClose(); return true }), [onClose])
 
   useEffect(() => {
     let cancelled = false

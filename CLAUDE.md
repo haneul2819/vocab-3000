@@ -17,10 +17,14 @@
 
 ```bash
 npm install
-npm run dev       # 개발 서버 (아래 '포트 충돌' 주의)
-npm run build     # tsc -b + vite build → dist/
-npm run preview   # 빌드 결과 미리보기
+npm run dev        # 개발 서버 (아래 '포트 충돌' 주의)
+npm test           # 단위 테스트 (vitest, src/**/*.test.ts)
+npm run build      # 테스트 → tsc -b → vite build → dist/
+npm run preview    # 빌드 결과 미리보기
 ```
+
+**`npm run build`는 테스트를 먼저 돌립니다.** 실패하면 빌드가 멈추므로,
+간격 반복·출제 규칙을 바꿀 때는 `src/lib/*.test.ts`도 함께 고치세요.
 
 ## 구조
 
@@ -29,7 +33,11 @@ src/
   App.tsx           라우팅 + 설정 컨텍스트(useSettings) + 스킨/글자크기 적용
   pages/            Home Diagnostic Learn Quiz Grammar Review Stats Settings
   components/       NavBar(SVG 아이콘) WordCard(스와이프·길게 누르기) ShareSheet ProgressRing
+  components/LoadState.tsx  로딩·실패 화면 (모든 화면이 공유)
+  components/ErrorBoundary.tsx  렌더 오류 시 흰 화면 대신 복구 안내
   lib/
+    useAsync.ts     비동기 로딩 상태(로딩·실패·재시도) 훅
+    backButton.ts   안드로이드 하드웨어 뒤로가기 처리
     types.ts        데이터 모델 + Settings + SKINS(스킨 메타 목록)
     data.ts         public/data 청크 지연 로딩 + 메모리 캐시, TRACKS 정의
     db.ts           IndexedDB(idb) — states(단어 상태) / meta(설정·일별기록)
@@ -106,6 +114,17 @@ python3 scripts/build_chunks.py          # → public/data/ 청크 생성
   이후 단어의 id가 밀리므로 `cache/batches/`와 `cache/ipa.json`의 id도
   같은 규칙으로 재번호해야 합니다 (과거 `math` 행 삭제 시 실제로 수행).
 - `cache/GEN_SPEC.md`의 경로는 예전 작업 환경 기준 절대 경로라 참고용입니다.
+
+## 안정성 규칙 (지키지 않으면 앱이 멈춥니다)
+
+- **데이터 로딩은 반드시 `useAsync` + `LoadFailed`를 씁니다.** `loadDay`·`loadIndex` 등은
+  실패 시 예외를 던집니다. `.then()`만 쓰면 화면이 '로딩 중…'에서 영원히 멈춥니다.
+- **새 화면을 추가하면 실패 경로도 함께 확인합니다.** (fetch를 실패시켜 재시도가 되는지)
+- **뒤로가기로 닫혀야 하는 오버레이**(시트·다이얼로그)는 `registerOverlay()`로 등록합니다.
+  등록하지 않으면 안드로이드에서 뒤로가기 시 앱이 종료됩니다.
+- **간격 반복 규칙을 바꾸면 `srs.test.ts`를 함께 고칩니다.** 현재 테스트는 구현의 실제
+  동작을 기록해 두었고, `confused → learning` 회복 분기는 도달 불가능한 죽은 코드입니다
+  (헷갈림 단어는 '학습중'을 거치지 않고 곧바로 '완료'가 됨).
 
 ## 주의사항
 

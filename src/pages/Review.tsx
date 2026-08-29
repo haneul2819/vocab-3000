@@ -2,6 +2,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useSettings } from '../App'
+import { Loading, LoadFailed } from '../components/LoadState'
 import WordCard from '../components/WordCard'
 import { loadWordsByIds } from '../lib/data'
 import { bumpDailyLog, getAllStates, getDueStates, getMeta, putState, setMeta } from '../lib/db'
@@ -32,6 +33,8 @@ export default function Review() {
   const [cTyped, setCTyped] = useState('')
   const [cRevealed, setCRevealed] = useState<null | boolean>(null)
 
+  const [loadError, setLoadError] = useState<Error | null>(null)
+
   const reload = useCallback(async () => {
     const due = await getDueStates()
     setDueWords(await loadWordsByIds(due.map((s) => s.id)))
@@ -41,7 +44,7 @@ export default function Review() {
     setLastCumulScore(await getMeta<number | null>('lastCumulativeScore', null))
   }, [])
 
-  useEffect(() => { void reload() }, [reload])
+  useEffect(() => { void reload().catch((e: unknown) => setLoadError(e instanceof Error ? e : new Error(String(e)))) }, [reload])
 
   const current = dueWords?.[idx]
 
@@ -108,7 +111,14 @@ export default function Review() {
     setTimeout(() => cumulNext(ok), ok ? 550 : 1500)
   }
 
-  if (dueWords === null) return <div className="page center dim">로딩 중…</div>
+  if (loadError) {
+    return (
+      <LoadFailed what="복습할 단어" onRetry={() => { setLoadError(null); void reload().catch((e: unknown) => setLoadError(e instanceof Error ? e : new Error(String(e)))) }}>
+        <button className="btn ghost mt8" onClick={() => nav('/')}>홈으로</button>
+      </LoadFailed>
+    )
+  }
+  if (dueWords === null) return <Loading />
 
   // ---- 누적 테스트 진행 화면 ----
   if (mode === 'cumulative' && cumulQs) {

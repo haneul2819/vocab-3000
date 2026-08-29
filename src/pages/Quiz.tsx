@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { useSettings } from '../App'
+import { LoadFailed } from '../components/LoadState'
 import { loadDay, loadDays, trackOfDay } from '../lib/data'
 import { bumpDailyLog, getState, putState, saveDailyTestScore } from '../lib/db'
 import {
@@ -35,6 +36,8 @@ export default function Quiz() {
   const [count, setCount] = useState<number>(10)
   const [daily, setDaily] = useState(false) // 오늘의 테스트 모드 표시용
   const [questions, setQuestions] = useState<QuizQuestion[] | null>(null)
+  const [loadError, setLoadError] = useState<Error | null>(null)
+  const [starting, setStarting] = useState(false)
   const [idx, setIdx] = useState(0)
   const [results, setResults] = useState<(QResult | null)[]>([])
   const [typed, setTyped] = useState('')
@@ -50,6 +53,9 @@ export default function Quiz() {
   useEffect(() => clearTimer, [])
 
   const start = useCallback(async (n?: number, isDaily = false) => {
+    setStarting(true)
+    setLoadError(null)
+    try {
     const words = scope === 'day' || isDaily
       ? await loadDay(day)
       : await loadDays(
@@ -62,6 +68,11 @@ export default function Quiz() {
     setQuestions(qs)
     setResults(Array(qs.length).fill(null))
     setIdx(0); setTyped('')
+    } catch (e: unknown) {
+      setLoadError(e instanceof Error ? e : new Error(String(e)))
+    } finally {
+      setStarting(false)
+    }
   }, [day, scope, type, count])
 
   // 오늘의 테스트 완료 시 날짜별 점수 기록 (통계·홈 표시용)
@@ -135,6 +146,14 @@ export default function Quiz() {
     go(1)
   }
 
+  if (loadError) {
+    return (
+      <LoadFailed what="문제집 단어" onRetry={() => { setLoadError(null); void start() }}>
+        <button className="btn ghost mt8" onClick={() => nav('/')}>홈으로</button>
+      </LoadFailed>
+    )
+  }
+
   // ---- 시작 화면 ----
   if (!questions) {
     return (
@@ -179,7 +198,9 @@ export default function Quiz() {
             ))}
           </div>
         </div>
-        <button className="btn primary" onClick={() => void start()}>{count}문제 시작</button>
+        <button className="btn primary" onClick={() => void start()} disabled={starting}>
+          {starting ? '문제 준비 중…' : `${count}문제 시작`}
+        </button>
 
         {/* 추가 기능: 진단 테스트 (홈에서 이동해 옴) */}
         <div className="card row spread mt16">
