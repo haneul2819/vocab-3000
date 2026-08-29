@@ -3,7 +3,7 @@
 //       예문 빈칸, 파생어 문제
 // 오답 선택지는 같은 level·같은 품사 풀(distractors.json)에서 뽑는다.
 import { loadDistractors, sample, shuffled } from './data'
-import type { Word } from './types'
+import type { DistractorEntry, Word } from './types'
 
 export type QuizType =
   | 'word-to-meaning'
@@ -37,6 +37,39 @@ export interface QuizQuestion {
   hint?: string
 }
 
+// 품사 풀이 4지선다를 못 채울 때 넓혀 갈 유사 품사군.
+// 관사 문제에 명사 오답이 섞이면 뜻을 몰라도 정답이 보이므로,
+// 무작정 등급 전체로 넓히기 전에 성격이 비슷한 품사부터 빌려 온다.
+const POS_GROUPS: string[][] = [
+  ['명사', '대명사'],
+  ['동사', '조동사'],
+  ['형용사', '부사'],
+  ['관사', '한정사', '수사', '대명사'],
+  ['전치사', '접속사'],
+  ['감탄사'],
+]
+
+/** 주어진 품사와 같은 군에 속한 품사 목록 (자기 자신 제외) */
+function similarPos(pos: string): string[] {
+  const group = POS_GROUPS.find((g) => g.includes(pos))
+  return group ? group.filter((p) => p !== pos) : []
+}
+
+/**
+ * 오답 후보를 넓은 순서대로 모은다: 같은 품사 → 유사 품사군 → 같은 등급 전체.
+ * 앞 단계에서 충분히 모이면 뒤 단계는 쓰지 않는다.
+ */
+function distractorPool(
+  pools: Record<string, DistractorEntry[]>, level: string, pos: string,
+): DistractorEntry[][] {
+  const same = pools[`${level}|${pos}`] ?? []
+  const similar = similarPos(pos).flatMap((p) => pools[`${level}|${p}`] ?? [])
+  const anyPos = Object.entries(pools)
+    .filter(([k]) => k.startsWith(`${level}|`))
+    .flatMap(([, v]) => v)
+  return [same, similar, anyPos]
+}
+
 function firstMeaning(w: Word): string {
   const m = w.meanings[0]
   return m && m.ko.length ? `${m.ko[0]}` : ''
@@ -48,38 +81,33 @@ function meaningLabel(w: Word): string {
   return `(${m.pos}) ${m.ko.slice(0, 2).join(', ')}`
 }
 
-/** 같은 level·같은 품사에서 오답 뜻 3개를 뽑는다 */
+/** 같은 등급에서 오답 뜻 3개를 뽑는다 (같은 품사 → 유사 품사 → 전체 순) */
 async function meaningDistractors(w: Word, n = 3): Promise<string[]> {
   const pools = await loadDistractors()
   const pos = w.meanings[0]?.pos ?? w.pos[0]
-  const pool = (pools[`${w.level}|${pos}`] ?? [])
-    .filter((e) => e.id !== w.id && e.ko !== firstMeaning(w))
-  const picked = sample(pool, n).map((e) => e.ko)
-  // 풀이 모자라면 다른 품사라도 같은 level에서 보충
-  if (picked.length < n) {
-    const extra = Object.entries(pools)
-      .filter(([k]) => k.startsWith(`${w.level}|`))
-      .flatMap(([, v]) => v)
-      .filter((e) => e.id !== w.id && !picked.includes(e.ko))
-    picked.push(...sample(extra, n - picked.length).map((e) => e.ko))
+  const picked: string[] = []
+  for (const stage of distractorPool(pools, w.level, pos)) {
+    if (picked.length >= n) break
+    const candidates = stage.filter(
+      (e) => e.id !== w.id && e.ko !== firstMeaning(w) && !picked.includes(e.ko))
+    picked.push(...sample(candidates, n - picked.length).map((e) => e.ko))
   }
-  return picked
+  return picked.slice(0, n)
 }
 
-/** 같은 level·같은 품사에서 오답 단어 3개를 뽑는다 */
+/** 같은 등급에서 오답 단어 3개를 뽑는다 (같은 품사 → 유사 품사 → 전체 순) */
 async function wordDistractors(w: Word, n = 3): Promise<string[]> {
   const pools = await loadDistractors()
   const pos = w.meanings[0]?.pos ?? w.pos[0]
-  const pool = (pools[`${w.level}|${pos}`] ?? []).filter((e) => e.id !== w.id)
-  const picked = [...new Set(sample(pool, n * 2).map((e) => e.w))].slice(0, n)
-  if (picked.length < n) {
-    const extra = Object.entries(pools)
-      .filter(([k]) => k.startsWith(`${w.level}|`))
-      .flatMap(([, v]) => v)
-      .filter((e) => e.id !== w.id && !picked.includes(e.w))
-    picked.push(...[...new Set(sample(extra, n * 2).map((e) => e.w))].slice(0, n - picked.length))
+  const picked: string[] = []
+  for (const stage of distractorPool(pools, w.level, pos)) {
+    if (picked.length >= n) break
+    const candidates = stage.filter(
+      (e) => e.id !== w.id && e.w !== w.word && !picked.includes(e.w))
+    picked.push(...[...new Set(sample(candidates, (n - picked.length) * 2).map((e) => e.w))]
+      .slice(0, n - picked.length))
   }
-  return picked
+  return picked.slice(0, n)
 }
 
 /** 예문에서 대상 단어(굴절형 포함)를 찾아 빈칸 처리한다 */
@@ -152,6 +180,26 @@ export async function makeQuestion(w: Word, type: QuizType): Promise<QuizQuestio
         choices: shuffled([target, ...wrong]), answer: target, altAnswers: [],
       }
     }
+  }
+}
+
+/**
+ * 주어진 단어 목록으로 각 유형의 문제를 몇 개까지 만들 수 있는지 센다.
+ * 오답 선택지는 등급 전체 풀(1,000개 이상)에서 항상 채워지므로 여기서는 세지 않고,
+ * 유형별로 문제 자체가 성립하는 조건만 확인한다. (문제 수 안내에 쓰임)
+ */
+export function countAvailable(words: Word[], type: QuizType): number {
+  switch (type) {
+    case 'word-to-meaning':
+    case 'meaning-to-word':
+      return words.filter((w) => w.meanings[0]?.ko.length).length
+    case 'spelling':
+    case 'listening':
+      return words.length
+    case 'example-blank':
+      return words.filter((w) => blankExample(w)).length
+    case 'derived':
+      return words.filter((w) => w.derived.length > 0).length
   }
 }
 

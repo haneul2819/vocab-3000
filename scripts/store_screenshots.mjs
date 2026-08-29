@@ -9,13 +9,23 @@ const BASE = 'http://localhost:5190'
 const OUT = join(fileURLToPath(new URL('../store/assets/', import.meta.url)), '/')
 mkdirSync(OUT, { recursive: true })
 
+// 프로파일: phone(기본) | tablet7 | tablet10
+// 사용: node scripts/store_screenshots.mjs tablet10
+const PROFILES = {
+  phone:    { width: 360, height: 780, scale: 3, prefix: 'screen',    mobile: true },
+  tablet7:  { width: 600, height: 960, scale: 2, prefix: 'tab7',      mobile: false },
+  tablet10: { width: 800, height: 1280, scale: 2, prefix: 'tab10',    mobile: false },
+}
+const profile = PROFILES[process.argv[2] ?? 'phone']
+if (!profile) throw new Error(`알 수 없는 프로파일: ${process.argv[2]}`)
+
 const browser = await chromium.launch()
 const ctx = await browser.newContext({
-  viewport: { width: 360, height: 780 },
-  deviceScaleFactor: 3,
+  viewport: { width: profile.width, height: profile.height },
+  deviceScaleFactor: profile.scale,
   locale: 'ko-KR',
   hasTouch: true,
-  isMobile: true,
+  isMobile: profile.mobile,
 })
 const page = await ctx.newPage()
 
@@ -72,8 +82,9 @@ await page.evaluate(async () => {
 const shot = async (name) => {
   await page.evaluate(() => window.scrollTo(0, 0))
   await page.waitForTimeout(600)
-  await page.screenshot({ path: OUT + name })
-  console.log('saved', name)
+  const file = name.replace(/^screen/, profile.prefix)
+  await page.screenshot({ path: OUT + file })
+  console.log('saved', file)
 }
 
 // 홈

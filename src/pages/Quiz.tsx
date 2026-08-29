@@ -1,16 +1,17 @@
 // 문제집 — 6가지 유형, 오답 선택지는 같은 level·같은 품사에서 출제
 // 문제 수 선택(10/20/30) · ◀▶ 빠른 이동 · 오늘의 테스트(50문제) · 진단 테스트 입구
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { useSettings } from '../App'
 import { LoadFailed } from '../components/LoadState'
 import { loadDay, loadDays, trackOfDay } from '../lib/data'
 import { bumpDailyLog, getState, putState, saveDailyTestScore } from '../lib/db'
 import {
-  buildQuiz, checkTypedAnswer, QUIZ_TYPE_LABELS,
+  buildQuiz, checkTypedAnswer, countAvailable, QUIZ_TYPE_LABELS,
   type QuizQuestion, type QuizType,
 } from '../lib/quiz'
 import { speak } from '../lib/tts'
+import { useAsync } from '../lib/useAsync'
 import type { Word } from '../lib/types'
 
 const COUNTS = [10, 20, 30] as const
@@ -43,6 +44,25 @@ export default function Quiz() {
   const [typed, setTyped] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
   const timerRef = useRef<number | null>(null)
+
+  /** 현재 범위의 단어 (유형별 가능한 문제 수를 미리 보여주기 위해 읽어 둔다) */
+  const scopeWords = useAsync(async () => {
+    if (scope === 'day') return loadDay(day)
+    const t = trackOfDay(day)
+    return loadDays(Array.from({ length: t.to - t.from + 1 }, (_, i) => t.from + i))
+  }, [day, scope])
+
+  /** 유형별로 이 범위에서 만들 수 있는 문제 수 (mix는 단어 수) */
+  const capacity = useMemo(() => {
+    const ws = scopeWords.data
+    if (!ws) return null
+    const m = { mix: ws.length } as Record<QuizType | 'mix', number>
+    for (const t of Object.keys(QUIZ_TYPE_LABELS) as QuizType[]) m[t] = countAvailable(ws, t)
+    return m
+  }, [scopeWords.data])
+
+  /** 지금 고른 유형으로 실제 출제될 문제 수 */
+  const actualCount = capacity ? Math.min(count, capacity[type]) : count
 
   const clearTimer = () => {
     if (timerRef.current !== null) {
@@ -190,16 +210,33 @@ export default function Quiz() {
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
             <button className={`btn sm ${type === 'mix' ? 'primary' : 'ghost'}`}
               onClick={() => setType('mix')}>섞어서</button>
-            {(Object.keys(QUIZ_TYPE_LABELS) as QuizType[]).map((t) => (
-              <button key={t} className={`btn sm ${type === t ? 'primary' : 'ghost'}`}
-                onClick={() => setType(t)}>
-                {QUIZ_TYPE_LABELS[t]}
-              </button>
-            ))}
+            {(Object.keys(QUIZ_TYPE_LABELS) as QuizType[]).map((t) => {
+              const max = capacity?.[t]
+              // 이 범위에서 문제를 아예 만들 수 없는 유형은 고를 수 없게 한다
+              const unavailable = max === 0
+              return (
+                <button key={t} disabled={unavailable}
+                  className={`btn sm type-btn ${type === t ? 'primary' : 'ghost'}`}
+                  onClick={() => setType(t)}>
+                  <span>{QUIZ_TYPE_LABELS[t]}</span>
+                  {max !== undefined && max < count && (
+                    <span className="type-max">{max === 0 ? '없음' : `${max}문제`}</span>
+                  )}
+                </button>
+              )
+            })}
           </div>
+          {capacity && actualCount < count && (
+            <div className="dim small mt8">
+              이 범위에서 <b>{QUIZ_TYPE_LABELS[type as QuizType] ?? '섞어서'}</b> 유형은
+              {' '}<b>{actualCount}문제</b>까지 만들 수 있어요.
+              {actualCount === 0 && ' 다른 범위나 유형을 골라 주세요.'}
+            </div>
+          )}
         </div>
-        <button className="btn primary" onClick={() => void start()} disabled={starting}>
-          {starting ? '문제 준비 중…' : `${count}문제 시작`}
+        <button className="btn primary" onClick={() => void start()}
+          disabled={starting || actualCount === 0}>
+          {starting ? '문제 준비 중…' : `${actualCount}문제 시작`}
         </button>
 
         {/* 추가 기능: 진단 테스트 (홈에서 이동해 옴) */}

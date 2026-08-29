@@ -9,6 +9,7 @@ import { Loading, LoadFailed } from '../components/LoadState'
 import { bumpDailyLog, getStates, putState } from '../lib/db'
 import { applyGrade, type Grade } from '../lib/srs'
 import { pause, speak, speakKo, stopSpeaking } from '../lib/tts'
+import { keepScreenOn, releaseScreen } from '../lib/wakeLock'
 import type { Word, WordState } from '../lib/types'
 
 type Mode = 'study' | 'self' | 'wrong' | 'listen'
@@ -74,6 +75,7 @@ export default function Learn() {
   const startListen = useCallback(async () => {
     setListening(true)
     listenStop.current = false
+    void keepScreenOn() // 흘려듣기 중 화면이 꺼지면 재생이 끊긴다
     for (let r = 0; r < Math.max(1, settings.listenRepeat); r++) {
       for (let i = 0; i < cards.length; i++) {
         if (listenStop.current) break
@@ -95,16 +97,19 @@ export default function Learn() {
       }
       if (listenStop.current) break
     }
+    void releaseScreen()
     setListening(false)
   }, [cards, settings.listenGapSec, settings.listenRepeat])
 
   const stopListen = () => {
     listenStop.current = true
     stopSpeaking()
+    void releaseScreen()
     setListening(false)
   }
 
-  useEffect(() => () => { listenStop.current = true; stopSpeaking() }, [])
+  // 화면을 벗어나면 재생과 화면 꺼짐 방지를 모두 정리한다
+  useEffect(() => () => { listenStop.current = true; stopSpeaking(); void releaseScreen() }, [])
 
   // Day를 진행 중 Day로 기억
   useEffect(() => {
@@ -200,8 +205,21 @@ export default function Learn() {
                 else setIdx(idx + 1)
               }}
               onSwipeRight={idx > 0 ? () => setIdx(idx - 1) : undefined} />
-            <div className="small dim center" style={{ marginTop: 8 }}>
-              좌우로 밀어 이전·다음 단어로 이동해요 (판정은 아래 버튼)
+            {/* 제스처를 쓰기 어려운 사용자를 위한 대체 경로 (스와이프와 같은 동작) */}
+            <div className="card-nav">
+              <button className="btn sm ghost" aria-label="이전 단어"
+                disabled={idx === 0} onClick={() => setIdx(idx - 1)}>◀ 이전</button>
+              <span className="dim small" aria-live="polite">
+                {cards.length ? idx + 1 : 0} / {cards.length}
+              </span>
+              <button className="btn sm ghost" aria-label="다음 단어"
+                onClick={() => {
+                  if (idx + 1 >= cards.length) setFinished(true)
+                  else setIdx(idx + 1)
+                }}>다음 ▶</button>
+            </div>
+            <div className="small dim center" style={{ marginTop: 6 }}>
+              좌우로 밀거나 위 버튼으로 이동해요 (판정은 아래 버튼)
             </div>
           </>
         )
