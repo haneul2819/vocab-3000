@@ -27,6 +27,58 @@ if (!isNative && typeof window !== 'undefined' && 'speechSynthesis' in window) {
   window.speechSynthesis.addEventListener('voiceschanged', pickVoice)
 }
 
+/** 발음 재생 가능 여부 */
+export type VoiceStatus =
+  | 'ok'          // 영어 음성이 있어 정상 재생
+  | 'missing'     // 엔진은 있으나 영어 음성 데이터가 없음 (설치 안내 필요)
+  | 'unsupported' // 음성 기능 자체가 없는 환경
+
+let cachedStatus: VoiceStatus | null = null
+
+/** 웹: 음성 목록은 비동기로 채워지므로 잠시 기다린다 */
+function waitForVoices(timeoutMs = 1500): Promise<SpeechSynthesisVoice[]> {
+  const now = window.speechSynthesis.getVoices()
+  if (now.length) return Promise.resolve(now)
+  return new Promise((resolve) => {
+    let done = false
+    const finish = () => {
+      if (done) return
+      done = true
+      window.speechSynthesis.removeEventListener('voiceschanged', finish)
+      resolve(window.speechSynthesis.getVoices())
+    }
+    window.speechSynthesis.addEventListener('voiceschanged', finish)
+    window.setTimeout(finish, timeoutMs)
+  })
+}
+
+/**
+ * 이 기기에서 영어 발음을 낼 수 있는지 확인한다.
+ * 소리가 안 나는데 아무 안내도 없으면 사용자는 앱이 고장 났다고 생각한다.
+ */
+export async function englishVoiceStatus(force = false): Promise<VoiceStatus> {
+  if (cachedStatus && !force) return cachedStatus
+  cachedStatus = await detectVoice()
+  return cachedStatus
+}
+
+async function detectVoice(): Promise<VoiceStatus> {
+  if (isNative) {
+    try {
+      const res = await TextToSpeech.getSupportedLanguages()
+      const langs: string[] = res?.languages ?? []
+      if (!langs.length) return 'unsupported'
+      return langs.some((l) => l.toLowerCase().startsWith('en')) ? 'ok' : 'missing'
+    } catch {
+      return 'unsupported'
+    }
+  }
+  if (typeof window === 'undefined' || !('speechSynthesis' in window)) return 'unsupported'
+  const voices = await waitForVoices()
+  if (!voices.length) return 'missing'
+  return voices.some((v) => v.lang.toLowerCase().startsWith('en')) ? 'ok' : 'missing'
+}
+
 export function ttsAvailable(): boolean {
   if (isNative) return true
   return typeof window !== 'undefined' && 'speechSynthesis' in window

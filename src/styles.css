@@ -198,6 +198,15 @@ button {
   font-size: 14px; font-weight: 600; white-space: nowrap;
 }
 
+/* ---- 발음 불가 안내 ---- */
+.voice-notice {
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;
+  padding: 12px 14px; margin-bottom: 10px;
+  border-radius: var(--radius); background: var(--warn-soft);
+  color: var(--warn); border: 1px solid var(--warn);
+}
+.voice-notice .btn { flex: 0 0 auto; color: var(--warn); border-color: currentColor; }
+
 /* ---- 알림 시각 입력 ---- */
 .time-input {
   font: inherit; font-weight: 700; color: var(--text);
