@@ -6,6 +6,7 @@ import WordCard from '../components/WordCard'
 import { loadDay, shuffled } from '../lib/data'
 import { useAsync } from '../lib/useAsync'
 import { Loading, LoadFailed } from '../components/LoadState'
+import VoiceNotice from '../components/VoiceNotice'
 import { bumpDailyLog, getStates, putState } from '../lib/db'
 import { applyGrade, type Grade } from '../lib/srs'
 import { pause, speak, speakKo, stopSpeaking } from '../lib/tts'
@@ -153,6 +154,8 @@ export default function Learn() {
         <b>Day {day}</b>
         <span className="dim small progress-text">{cards.length ? idx + 1 : 0}/{cards.length}</span>
       </div>
+
+      <VoiceNotice />
 
       {/* 모드 선택 */}
       <div className="seg mt8">

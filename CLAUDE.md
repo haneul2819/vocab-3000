@@ -150,6 +150,11 @@ python3 scripts/build_chunks.py          # → public/data/ 청크 생성
 | 뒤로가기 | `backButton.ts` | 브라우저 뒤로가기가 처리 |
 | 음성 | `tts.ts` | Web Speech API 사용 |
 
+발음은 **기기 내장 음성 엔진**에 의존하므로 기기마다 품질이 다르고, 영어 음성이
+없는 기기에서는 소리가 나지 않습니다. `englishVoiceStatus()`로 이를 감지해
+학습 화면 배너(`VoiceNotice`)와 설정 화면에서 설치를 안내합니다.
+장기적으로는 mp3 사전 생성으로 교체할 수 있고, 그때 고칠 파일은 `tts.ts` 하나입니다.
+
 알림 문구의 복습 개수는 **앱을 열 때마다 다시 예약**해 최신으로 유지합니다(`App.tsx`).
 
 ## 주의사항

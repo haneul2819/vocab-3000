@@ -5,6 +5,7 @@ import { useSettings } from '../App'
 import { importAll, resetProgress, type ExportData } from '../lib/db'
 import { saveBackup } from '../lib/backup'
 import { SKINS } from '../lib/types'
+import { VoiceStatusRow } from '../components/VoiceNotice'
 import {
   reminderPermissionGranted, reminderSupported, requestReminderPermission,
 } from '../lib/reminder'
@@ -155,6 +156,7 @@ export default function SettingsPage() {
 
       <h2>학습</h2>
       <div className="card">
+        <VoiceStatusRow />
         <label className="row spread" style={{ minHeight: 44 }}>
           <span>카드 열릴 때 자동 발음</span>
           <input type="checkbox" checked={settings.autoSpeak}
