@@ -1,5 +1,5 @@
 # main에 push되면 빌드해서 GitHub Pages로 배포
-# 배포 주소: https://haneul2819.github.io/vocab-3000/
+# 배포 주소: https://voca.hnlab.kr/ (도메인은 저장소 Settings → Pages에 등록)
 name: Deploy to GitHub Pages
 
 on:

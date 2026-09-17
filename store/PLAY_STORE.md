@@ -77,7 +77,7 @@ Play Console에 그대로 복사해 넣을 수 있는 등록 정보와 답변 �
 ## 3. 개인정보처리방침
 
 ```
-https://haneul2819.github.io/vocab-3000/privacy.html
+https://voca.hnlab.kr/privacy.html
 ```
 
 ## 4. 데이터 보안(Data safety) 섹션 답변
