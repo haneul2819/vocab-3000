@@ -90,7 +90,10 @@ npm run preview   # 빌드 미리보기
 
 `main`에 push하면 GitHub Actions(`.github/workflows/deploy.yml`)가 빌드해서 자동 배포합니다.
 
-- 배포 주소: **https://haneul2819.github.io/vocab-3000/**
+- 배포 주소: **https://voca.hnlab.kr/**
+- 사용자 지정 도메인: 가비아 DNS에 `voca` CNAME → `haneul2819.github.io` 레코드,
+  저장소 Settings → Pages에 `voca.hnlab.kr` 등록(HTTPS 강제). Actions 배포라 `CNAME` 파일은 필요 없습니다.
+  예전 주소 `haneul2819.github.io/vocab-3000/`로 접속하면 새 주소로 자동 이동합니다.
 - 해시 라우팅이라 SPA rewrite 불필요, `base: './'`라 하위 경로에서도 동작
 
 ### 플레이스토어(Google Play) — Capacitor 완전 내장형 앱
@@ -109,7 +112,7 @@ TWA(웹사이트 로딩)가 아니라 **Capacitor**로 웹 빌드 전체(단어 
   다시 빌드
 - Play Console(등록비 $25 · 1회)에 AAB 업로드 → 스토어 등록 정보 작성 → 검토 제출
 - **제출용 문구·그래픽·설문 답변 일체**: `store/PLAY_STORE.md` 와 `store/assets/` 참고
-- 개인정보처리방침: https://haneul2819.github.io/vocab-3000/privacy.html
+- 개인정보처리방침: https://voca.hnlab.kr/privacy.html
 
 ### 기타 호스팅 (Vercel / Firebase)
 

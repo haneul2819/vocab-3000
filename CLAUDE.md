@@ -163,7 +163,8 @@ python3 scripts/build_chunks.py          # → public/data/ 청크 생성
   ("오늘의 말씀")이 5173을 쓰므로 두 앱을 동시에 띄우면 충돌합니다.
   필요하면 `npm run dev -- --port 5190`.
 - **배포**: main에 push하면 GitHub Actions가 웹을 자동 배포합니다 →
-  https://haneul2819.github.io/vocab-3000/ . 플레이스토어용 안드로이드 앱은
+  https://voca.hnlab.kr/ (가비아 DNS CNAME → GitHub Pages, 도메인은 저장소 Pages 설정에
+  등록되어 있어 `CNAME` 파일 불필요). 플레이스토어용 안드로이드 앱은
   Capacitor 완전 내장형(`android/`) — Actions의 "Build Android App"으로 AAB를
   만듭니다(서명 키는 GitHub Secrets). 절차는 `README.md` 배포 섹션 참고.
   네이티브에서는 Web Speech가 없어 `tts.ts`가 네이티브 TTS 플러그인으로
